@@ -82,3 +82,4 @@ double CalcOpAvg(vector<double> Params,
 
 
 }
+
