@@ -1,0 +1,252 @@
+sudo ./zotero
+sudo ./run-zotero.sh
+./run-zotero.sh
+sudo ./run-zotero.sh
+cd Dropbox
+ipython notebook
+cd ..
+ls
+cd nrgcode/ 
+ls
+cd TwoChNRG/
+ls
+ls doc/
+less Notes_CFS_NRG.pdf
+less Using_PBS_in_Wilson.txt
+
+cd $TWOCHDIR
+ls -tlr
+cd Runs/
+cd run1
+ls -ltr
+vi input_nrg.dat 
+./NRG_main > output_FirstRun.txt
+less output_FirstRun.txt 
+cd ..
+ls -ltr
+cd ..
+ls
+less src/
+ls -ltr
+cd src/
+less
+ls
+ls *switch*
+ls *witch*
+less CodeHandler_ModelSwitch.cpp 
+grep * OneChQS_Set
+less CodeHandler_ModelSwitch.cpp 
+grep if [ -z $TWOCHDIR ]; then
+fi
+grep OneChQS_SetAnderson_Hm1
+grep OneChQS_SetAnderson_Hm1 *
+:
+
+
+
+
+
+ls
+cd TwoChNRG/
+ls
+ls doc/
+less Notes_CFS_NRG.pdf
+less Using_PBS_in_Wilson.txt
+
+cd $TWOCHDIR
+ls -tlr
+cd Runs/
+cd run1
+ls -ltr
+vi input_nrg.dat 
+./NRG_main > output_FirstRun.txt
+less output_FirstRun.txt 
+cd ..
+ls -ltr
+cd ..
+ls
+less src/
+ls -ltr
+cd src/
+less
+ls
+ls *switch*
+ls *witch*
+less CodeHandler_ModelSwitch.cpp 
+grep * OneChQS_Set
+less CodeHandler_ModelSwitch.cpp 
+grep if [ -z $TWOCHDIR ]; then
+fi
+grep OneChQS_SetAnderson_Hm1
+grep OneChQS_SetAnderson_Hm1 *
+less ConductanceClass.cpp 
+less CodeHandler_ModelSwitch.cpp 
+grep OneChQS_SetAnderson_Hm1 *
+cd Main/
+grep OneChQS_SetAnderson_Hm1 *
+less Main_SetH0
+less Main_SetH0.cpp 
+cd ..
+cd Runs/
+:
+
+
+
+
+less ConductanceClass.cpp 
+less CodeHandler_ModelSwitch.cpp 
+grep OneChQS_SetAnderson_Hm1 *
+cd Main/
+grep OneChQS_SetAnderson_Hm1 *
+less Main_SetH0
+less Main_SetH0.cpp 
+cd ..
+cd Runs/
+ls -ltr
+cd run1
+less output_FirstRun.txt 
+cd ..
+ls
+cd ..
+ls
+src/
+cd src/
+ls
+cd Main/
+ls -ltr
+ls -ltr NRG_main.cpp 
+cd ..
+cd Runs/run1/
+less output_FirstRun.txt 
+git
+sudo apt get install git
+sudo apt-get install git
+mkdir github
+cd github
+cd ..
+mv github nrgcode
+cd nrgcode
+git clone  https://github.com/lgds/TwoChNRG.git
+ls
+cd TwoChNRG/
+ls
+sudo apt-get install liblapack
+sudo apt-get install libblas-dev liblapack-dev 
+sudo apt-get install libgsl0ldbl
+sudo apt-get install libgsl2
+sudo apt-get install gsl-bin libgsl0-dev
+:
+
+
+
+
+
+
+
+sudo apt-get install libblas-dev liblapack-dev 
+sudo apt-get install libgsl0ldbl
+sudo apt-get install libgsl2
+sudo apt-get install gsl-bin libgsl0-dev
+sudo apt-get install boost
+sudo apt-get install libboost-all-dev
+cd src/
+cd Main/
+ls -ltr
+cd ..
+ls
+cd ..
+ls
+less README 
+cd doc/
+ls
+less Compiling_NRG_Code.txt 
+vi ~/.bashrc
+less Compiling_NRG_Code.txt 
+vi ~/.bashrc
+source ~/.bashrc
+vi ~/.bashrc
+source ~/.bashrc
+echo $TWOCHDIR
+cd $TWOCHDIR
+cd src/Main/
+ls
+make
+g++
+less Makefile 
+vi Makefile 
+make
+ls
+cd ..;
+cd Runs/
+ls
+mkdir run2
+mkdir run3
+ls -ltr
+cd run1
+ls
+ln -s /home/cifucito/nrgcode/TwoChNRG/src/Main/NRG_main
+:
+
+
+
+
+
+
+
+
+vi ~/.bashrc
+less Compiling_NRG_Code.txt 
+vi ~/.bashrc
+source ~/.bashrc
+vi ~/.bashrc
+source ~/.bashrc
+echo $TWOCHDIR
+cd $TWOCHDIR
+cd src/Main/
+ls
+make
+g++
+less Makefile 
+vi Makefile 
+make
+ls
+cd ..;
+cd Runs/
+ls
+mkdir run2
+mkdir run3
+ls -ltr
+cd run1
+ls
+ln -s /home/cifucito/nrgcode/TwoChNRG/src/Main/NRG_main
+ls -ltr
+./NRG_main -h
+cd ..
+cd doc/
+ls
+less Using_NRG_main.txt 
+less Compiling_NRG_Code.txt 
+less Using_NRG_main.txt 
+ls
+cd nrgcode/
+ls
+cd TwoChNRG/
+ls
+cd docs
+cd doc
+ls
+cat Using_RunScripts_NRG.txt 
+(END)
+
+
+
+
+
+
+
+
+
+
+
+
+
