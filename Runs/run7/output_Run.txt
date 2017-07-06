@@ -1,0 +1,226 @@
+ Got Model = 1chNupPdn_Majorana Got 1chNupPdn Majorana 
+ - Model No: 7
+ Symmetry : OneChNupPdn - SymNo : 6
+ BandType : SquareWilson - BandNo : 0
+ NRG: Model : 1chNupPdn_Majorana - Symmetry : OneChNupPdn - Band Type: SquareWilson
+ Nsitesmax    = 4
+ Ncutoff      = 1000
+ U            = 0.5
+ Gamma        = 0.0282691
+ ed           = -0.5
+ Lambda       = 2.5
+ ChemPot      = 0
+ UpdateBefCut = 0
+ calcdens     = 0
+ Oliveira z   = 1
+ Additional parameters : 
+ Param 3  = 0.2
+ Param 4  = 0
+ Param 5  = 1
+ Param 6  = 1
+ Param 7  = 0
+ Param 8  = 0
+ Param 9  = 0
+ SetSingleSite begin... 
+ Got OneChNupPdn 
+ .. SetSingleSite done!
+ Fsq = 2 chi_m1 = 0.121207 eN(0) = 0
+ sqrt(ALambda)*chi_m1 = 0.125319
+Zstring = _zEQ1
+ Majorana + QD effective model 
+ Lambda= 2.5 HalfLambdaFactor= 0.7
+ U~= 0.285714 ed~= -0.285714 t~= 0.125319 hz~= 0.0571429
+ t1~= 0 t2~= 0.571429 phimag= 1 em~= 0
+ Setting up 1-body observables...
+ Setting up H_(N =-1 : ibl = 0 size = 2 (Nbls = 4)
+ Limits : 0  1
+ Setting up H_(N =-1 : ibl = 1 size = 2 (Nbls = 4)
+ Limits : 2  3
+ Setting up H_(N =-1 : ibl = 2 size = 2 (Nbls = 4)
+ Limits : 4  5
+ Setting up H_(N =-1 : ibl = 3 size = 2 (Nbls = 4)
+ Limits : 6  7
+ Done setting up HN. 
+Updating Aeig... 
+ ******************* 
+Block no. 0 : 0.000000 -1.000000 
+ Beg: 0 End: 1
+0 Eold = 1.428571e-01  
+1 Eold = -2.000000e-01  
+ Block (0) x Block (0) : 0.000000 -1.000000   x  0.000000 -1.000000 
+Nsti = 0 to 1   ;   Nstj = 0 to 1
+(0.142857,0) (-0.218315,0.340006) 
+(-0.218315,-0.340006) (-0.2,0) 
+
+ Diagonalizing block 0 of 3
+Upper triangular
+Block no. 0 : 0.000000 -1.000000 
+ dEn : 
+0 : -4.674940e-01
+1 : 4.103512e-01
+Kept States: 
+ dEigVec (rows): 
+(-5.520114e-01,0.000000e+00)  (-4.505238e-01,-7.016492e-01)  
+(-8.338365e-01,0.000000e+00)  (2.982531e-01,4.645016e-01)  
+ ******************* 
+Block no. 1 : 0.000000 1.000000 
+ Beg: 2 End: 3
+2 Eold = 1.428571e-01  
+3 Eold = -2.000000e-01  
+ Block (1) x Block (1) : 0.000000 1.000000   x  0.000000 1.000000 
+Nsti = 2 to 3   ;   Nstj = 2 to 3
+(0.142857,0) (0.218315,-0.340006) 
+(0.218315,0.340006) (-0.2,0) 
+
+ Diagonalizing block 1 of 3
+Upper triangular
+Block no. 1 : 0.000000 1.000000 
+ dEn : 
+2 : -4.674940e-01
+3 : 4.103512e-01
+Kept States: 
+ dEigVec (rows): 
+(5.520114e-01,0.000000e+00)  (-4.505238e-01,-7.016492e-01)  
+(-8.338365e-01,0.000000e+00)  (-2.982531e-01,-4.645016e-01)  
+ ******************* 
+Block no. 2 : 1.000000 -1.000000 
+ Beg: 4 End: 5
+4 Eold = -8.571429e-02  
+5 Eold = -1.428571e-01  
+ Block (2) x Block (2) : 1.000000 -1.000000   x  1.000000 -1.000000 
+Nsti = 4 to 5   ;   Nstj = 4 to 5
+(-0.0857143,0) (-0.218315,0.340006) 
+(-0.218315,-0.340006) (-0.142857,0) 
+
+ Diagonalizing block 2 of 3
+Upper triangular
+Block no. 2 : 1.000000 -1.000000 
+ dEn : 
+4 : -5.193556e-01
+5 : 2.907842e-01
+Kept States: 
+ dEigVec (rows): 
+(-6.817131e-01,0.000000e+00)  (-3.952958e-01,-6.156367e-01)  
+(-7.316196e-01,0.000000e+00)  (3.683311e-01,5.736418e-01)  
+ ******************* 
+Block no. 3 : 1.000000 1.000000 
+ Beg: 6 End: 7
+6 Eold = -8.571429e-02  
+7 Eold = -1.428571e-01  
+ Block (3) x Block (3) : 1.000000 1.000000   x  1.000000 1.000000 
+Nsti = 6 to 7   ;   Nstj = 6 to 7
+(-0.0857143,0) (0.218315,-0.340006) 
+(0.218315,0.340006) (-0.142857,0) 
+
+ Diagonalizing block 3 of 3
+Upper triangular
+Block no. 3 : 1.000000 1.000000 
+ dEn : 
+6 : -5.193556e-01
+7 : 2.907842e-01
+Kept States: 
+ dEigVec (rows): 
+(6.817131e-01,0.000000e+00)  (-3.952958e-01,-6.156367e-01)  
+(-7.316196e-01,0.000000e+00)  (-3.683311e-01,-5.736418e-01)  
+Emin = -0.519356
+En = 0.0518616 ---| 0  -1  >_N= -1
+En = 0.929707 ---| 0  -1  >_N= -1
+En = 0.0518616 ---| 0  1  >_N= -1
+En = 0.929707 ---| 0  1  >_N= -1
+En = 0 ---| 1  -1  >_N= -1
+En = 0.81014 ---| 1  -1  >_N= -1
+En = 0 ---| 1  1  >_N= -1
+En = 0.81014 ---| 1  1  >_N= -1
+Holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 
+ Setting up H_(N =-1 : ibl = 0 size = 2 (Nbls = 4)
+ Limits : 0  1
+ Setting up H_(N =-1 : ibl = 1 size = 2 (Nbls = 4)
+ Limits : 2  3
+ Setting up H_(N =-1 : ibl = 2 size = 2 (Nbls = 4)
+ Limits : 4  5
+ Setting up H_(N =-1 : ibl = 3 size = 2 (Nbls = 4)
+ Limits : 6  7
+ Done setting up HN. 
+Updating Aeig... 
+ ******************* 
+Block no. 0 : 0.000000 -1.000000 
+ Beg: 0 End: 1
+0 Eold = 1.428571e-01  
+1 Eold = -2.000000e-01  
+ Block (0) x Block (0) : 0.000000 -1.000000   x  0.000000 -1.000000 
+Nsti = 0 to 1   ;   Nstj = 0 to 1
+(0.142857,0) (-0.218315,0.340006) 
+(-0.218315,-0.340006) (-0.2,0) 
+
+ Diagonalizing block 0 of 3
+Regular block
+Block no. 0 : 0.000000 -1.000000 
+ dEn : 
+0 : -4.674940e-01
+1 : 4.103512e-01
+Kept States: 
+ dEigVec (rows): 
+(2.982531e-01,4.645016e-01)  (8.338365e-01,0.000000e+00)  
+(4.505238e-01,7.016492e-01)  (-5.520114e-01,0.000000e+00)  
+ ******************* 
+Block no. 1 : 0.000000 1.000000 
+ Beg: 2 End: 3
+2 Eold = 1.428571e-01  
+3 Eold = -2.000000e-01  
+ Block (1) x Block (1) : 0.000000 1.000000   x  0.000000 1.000000 
+Nsti = 2 to 3   ;   Nstj = 2 to 3
+(0.142857,0) (0.218315,-0.340006) 
+(0.218315,0.340006) (-0.2,0) 
+
+ Diagonalizing block 1 of 3
+Regular block
+Block no. 1 : 0.000000 1.000000 
+ dEn : 
+2 : -4.674940e-01
+3 : 4.103512e-01
+Kept States: 
+ dEigVec (rows): 
+(-2.982531e-01,-4.645016e-01)  (8.338365e-01,0.000000e+00)  
+(4.505238e-01,7.016492e-01)  (5.520114e-01,0.000000e+00)  
+ ******************* 
+Block no. 2 : 1.000000 -1.000000 
+ Beg: 4 End: 5
+4 Eold = -8.571429e-02  
+5 Eold = -1.428571e-01  
+ Block (2) x Block (2) : 1.000000 -1.000000   x  1.000000 -1.000000 
+Nsti = 4 to 5   ;   Nstj = 4 to 5
+(-0.0857143,0) (-0.218315,0.340006) 
+(-0.218315,-0.340006) (-0.142857,0) 
+
+ Diagonalizing block 2 of 3
+Regular block
+Block no. 2 : 1.000000 -1.000000 
+ dEn : 
+4 : -5.193556e-01
+5 : 2.907842e-01
+Kept States: 
+ dEigVec (rows): 
+(3.683311e-01,5.736418e-01)  (7.316196e-01,0.000000e+00)  
+(3.952958e-01,6.156367e-01)  (-6.817131e-01,0.000000e+00)  
+ ******************* 
+Block no. 3 : 1.000000 1.000000 
+ Beg: 6 End: 7
+6 Eold = -8.571429e-02  
+7 Eold = -1.428571e-01  
+ Block (3) x Block (3) : 1.000000 1.000000   x  1.000000 1.000000 
+Nsti = 6 to 7   ;   Nstj = 6 to 7
+(-0.0857143,0) (0.218315,-0.340006) 
+(0.218315,0.340006) (-0.142857,0) 
+
+ Diagonalizing block 3 of 3
+Regular block
+Block no. 3 : 1.000000 1.000000 
+ dEn : 
+6 : -5.193556e-01
+7 : 2.907842e-01
+Kept States: 
+ dEigVec (rows): 
+(-3.683311e-01,-5.736418e-01)  (7.316196e-01,0.000000e+00)  
+(3.952958e-01,6.156367e-01)  (6.817131e-01,0.000000e+00)  
+Emin = -0.519356
+Holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 
