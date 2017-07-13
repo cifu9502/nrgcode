@@ -1,0 +1,920 @@
+sudo apt install software-center
+sudo apt install synaptic
+sudo apt-get install gparted
+sudo apt-get update
+sudo apt-get install python3.6
+sudo add-apt-repository ppa:fkrull/deadsnakes
+sudo apt-get update
+sudo apt-get install python3.6
+sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
+sudo apt-get install r-base
+cd /media/cifucito
+ls
+cd MATHWORKS_R2015a
+ls
+sudo ./install
+cd matlab
+cd /matlab
+cd ..
+ls
+cd cifucito
+ls
+cd ..
+ls
+cd /matlab
+ls
+cd usr
+ls
+cd lib
+ls
+cd /media/cifucito
+cd MATHWORKS_R2015a
+sudo ./install
+cd ..
+ls
+cd usr
+ls
+cd local
+ls
+cd MATLAB
+LS
+ls
+cd R2015a 
+ls
+cd licenses
+ls
+sudo sudo rm network.lic
+ls
+cd ..
+sudo cp network.lic licenses/
+ls
+sudo cp -r /home/cifucito/Downloads/network.lic.txt  licenses
+cd licenses
+ls
+cd ..
+ls
+cd usr
+ls
+cd local
+cd MATLAB
+ls
+pwd
+cd ..
+ls
+cd media
+ls
+cd cifucito
+ls
+cd MATHWORKS_R2015a
+ls
+sudo ./install
+cd ..
+ls
+cd usr
+ls
+cd bin
+ls
+cd matlab
+matlab
+cd /usr/local/MATLAB/R2015a/licenses
+ls
+sudo rm network.lic.
+sudo rm network.lic
+sudo rm network.lic.txt
+ls
+cd ..
+sudo cp -r /home/cifucito/Downloads/network.lic  licenses
+cd licenses
+ls
+cd ..
+ls 
+cd bin
+ls
+matlab
+cd Downloads
+ls
+wc
+echo $PWD
+matlab
+sudo apt-get install matlab-support
+matlab
+sudo matlab
+matlab
+cd Dropbox
+ipython notebook
+sudo update
+sudo apt get update
+sudo apt-get update&&sudo apt-get dist-upgrade
+apt-get update
+sudo apt-get update
+sudo apt-get upgrade
+sudo add-apt-repository ppa:texlive-backports/ppa
+sudo apt-get update
+sudo apt-get install texlive
+cd Dropbox
+ipython notebook
+cd Dropbox
+ls
+ipython notebook
+cd ..
+ls
+cd usr
+ls
+cd share
+cd latex
+ls
+cd texlive/texmf-dist/tex
+ls
+cd latex
+sudo mkdir iopart
+cp -rf /home/Downloads/ioplatexguidelines iopart
+sudo cp -rf /home/Downloads/ioplatexguidelines iopart
+sudo cp -rf /home/cifucito/Downloads/ioplatexguidelines iopart
+cd iopart
+ls
+cd ioplatexguidelines
+ls
+sudo apt-get update
+sudo apt-get install enchant
+sudo apt-get update
+ioplatexguidelines
+sudo texhash
+cd Downloads
+ls
+cd Zotero_linux-x86_64
+la
+sudo ./zotero
+sudo ./run-zotero.sh
+./run-zotero.sh
+sudo ./run-zotero.sh
+cd Dropbox
+ipython notebook
+cd ..
+ls
+cd nrgcode/ 
+ls
+cd TwoChNRG/
+ls
+ls doc/
+less Notes_CFS_NRG.pdf
+less Using_PBS_in_Wilson.txt
+
+cd $TWOCHDIR
+ls -tlr
+cd Runs/
+cd run1
+ls -ltr
+vi input_nrg.dat 
+./NRG_main > output_FirstRun.txt
+less output_FirstRun.txt 
+cd ..
+ls -ltr
+cd ..
+ls
+less src/
+ls -ltr
+cd src/
+less
+ls
+ls *switch*
+ls *witch*
+less CodeHandler_ModelSwitch.cpp 
+grep * OneChQS_Set
+less CodeHandler_ModelSwitch.cpp 
+grep if [ -z $TWOCHDIR ]; then
+fi
+grep OneChQS_SetAnderson_Hm1
+grep OneChQS_SetAnderson_Hm1 *
+less ConductanceClass.cpp 
+less CodeHandler_ModelSwitch.cpp 
+grep OneChQS_SetAnderson_Hm1 *
+cd Main/
+grep OneChQS_SetAnderson_Hm1 *
+less Main_SetH0
+less Main_SetH0.cpp 
+cd ..
+cd Runs/
+ls -ltr
+cd run1
+less output_FirstRun.txt 
+cd ..
+ls
+cd ..
+ls
+src/
+cd src/
+ls
+cd Main/
+ls -ltr
+ls -ltr NRG_main.cpp 
+cd ..
+cd Runs/run1/
+less output_FirstRun.txt 
+git
+sudo apt get install git
+sudo apt-get install git
+mkdir github
+cd github
+cd ..
+mv github nrgcode
+cd nrgcode
+git clone  https://github.com/lgds/TwoChNRG.git
+ls
+cd TwoChNRG/
+ls
+sudo apt-get install liblapack
+sudo apt-get install libblas-dev liblapack-dev 
+sudo apt-get install libgsl0ldbl
+sudo apt-get install libgsl2
+sudo apt-get install gsl-bin libgsl0-dev
+sudo apt-get install boost
+sudo apt-get install libboost-all-dev
+cd src/
+cd Main/
+ls -ltr
+cd ..
+ls
+cd ..
+ls
+less README 
+cd doc/
+ls
+less Compiling_NRG_Code.txt 
+vi ~/.bashrc
+less Compiling_NRG_Code.txt 
+vi ~/.bashrc
+source ~/.bashrc
+vi ~/.bashrc
+source ~/.bashrc
+echo $TWOCHDIR
+cd $TWOCHDIR
+cd src/Main/
+ls
+make
+g++
+less Makefile 
+vi Makefile 
+make
+ls
+cd ..;
+cd Runs/
+ls
+mkdir run2
+mkdir run3
+ls -ltr
+cd run1
+ls
+ln -s /home/cifucito/nrgcode/TwoChNRG/src/Main/NRG_main
+ls -ltr
+./NRG_main -h
+cd ..
+cd doc/
+ls
+less Using_NRG_main.txt 
+less Compiling_NRG_Code.txt 
+less Using_NRG_main.txt 
+ls
+cd nrgcode/
+ls
+cd TwoChNRG/
+ls
+cd docs
+cd doc
+ls
+cat Using_RunScripts_NRG.txt 
+ls
+cd nrgcode/
+ls
+cd TwoChNRG/
+ls
+cd Runs
+ls
+cd run1
+ls
+ls -ltr
+vi input_nrg.dat 
+ls
+cd nrgcode
+ls
+cd TwoChNRG/
+cd 
+ls
+cd nrgcode
+cd TwoChNRG/
+ls
+clear
+ls
+ls doc
+ess ~/.bash_history
+less ~/.bash_history
+cd nrgcode/
+cd TwoChNRG/
+cd Runs
+cd run1
+lsw
+ls -ltr
+./NRG_main > output_FirstRun.txt
+less output_FirstRun.txt 
+sudo apt-get update
+sudo apt-get install texlive-bibtex-extra
+cd ..
+cd..
+cd ..
+ls
+cd usr
+ls
+cd local
+ls
+cd ..
+ls
+cd bin
+ls
+cd \texlive
+ls
+cd nrgcode
+ls
+cd TwoChNRG/
+ls
+cd Runs/
+ls
+cd run2
+ls
+less input_nrg.dat 
+ls -ltr
+vi input_nrg.dat
+cd nrgcode/
+cd TwoChNRG/
+cd Runs/
+ls
+cd run2
+ls
+./NRG_main > output_Run2.txt
+ls
+less NRG_in.txt 
+less NRG_end.txt 
+less output_Run2.txt 
+ls -ltr
+cd ..
+ls
+cd ..
+ls
+less src
+less src/
+cd src/
+ls
+ls *switch*
+ls *witch*
+less CodeHandler_ModelSwitch.cpp 
+grep * OneChQS_Set
+cd ..
+cd Runs/
+ls
+mkdir run4
+mkdir run5
+mkdir run6
+cd run3
+ls
+vi input_nrg.dat
+cd nrgcode/
+cd TwoChNRG/
+cd Runs/
+cd run3
+./NRG_main > output_Run3.txt
+cd ..
+ls
+cd run4
+ls
+./NRG_main > output_Run.txt
+cd ..
+cd run5
+ls
+./NRG_main > output_Run.txt
+sudo apt-get install texlive-latex-extra
+sudo apt-get install texlive-publishers
+cd Dropbox/
+ls
+cd Master\ Project/
+ls
+cd nrgcode/
+ls
+ipython notebook
+git
+cd nrgcode/
+git init
+git commit 'initialized'
+git clone https://github.com/cifu9502/nrg.git
+ls
+cd nrg
+ls
+git add*
+git add *
+git 
+git commit 'adding energies and constants'
+git commit -m 'adding energies and constants'
+git config --global user.email "jd.cifuentes998@gmail.com"
+git config --global user.name "cifu9502"
+git commit -m 'adding energies and constants'
+git push
+ls
+ipython notebook
+cd nrgcode/
+git add *
+git commit -m 'matlab'
+git push
+cd nrg/
+git add *
+git commit -m 'matlab
+
+git commit -m 'matlab'
+git push
+cd nrgcode/
+ls
+cd nrg/
+ls
+ipython notebook
+cd nrgcode/
+ls
+cd nrg/
+ls
+cd TwoChNRG/src/
+less CodeHandler_ModelSwitch.cpp 
+grep chi_m1 *.cpp
+grep chi_m1 *.cpp | less
+cd ..
+ls
+git add *
+git commit -m 'matlab file E0 complete '
+git push
+cd nrgcode/
+ls
+cd nrg/
+ls
+ipython notebook
+cd nrgcode/
+cd 
+cd nrgcode/
+cd nrg/
+ls
+cd TwoChNRG/
+ls
+cd Runs/
+cd Run6
+ls
+cd run6
+ls
+./NRG_main
+./NRG_main > output_Run.txt
+ls
+cd nrgcode/ 
+cd nrg/
+cd TwoChNRG/
+cd Runs/
+cd run6
+ls
+./NRG_main > output_Run.txt
+cd ..
+ls
+cd run1
+ls
+gedit ~/.bashrc".
+cd ..
+cd .. 
+c
+cd .. 
+ls
+gedit ~/.bashrc".
+vi $HOME/.bashrc
+less $HOME/.bashrc
+source ~/.bashrc
+cd nrgcode/
+cd nrg/ 
+ls
+cd TwoChNRG/
+ls
+cd Runs/
+ls
+cd run6
+ls
+./NRG_main > output_R[un.txt
+vi $HOME/.bashrc
+echo $TWOCHDIR
+vi $HOME/.bashrc
+$source .bashrc
+cd ..
+$source .bashrc
+cd ..
+$source .bashrc
+source $HOME/.bashrc
+echo $TWOCHDIR
+ls
+vi $.bashrc
+source $home/.bashrc
+vi $HOME/.bashrc
+source $home/.bashrc
+source $HOME/.bashrc
+$source .bashrc
+source .bashrc
+echo $TWOCHDIR
+vi $HOME/.bashrc
+cd m
+ls
+cd nrgcode/
+ls
+cd nrg/
+ls
+ipython notebook
+source $HOME/.bashrc
+echo $TWOCHDIR
+ls
+cd nrgcode/
+cd TwoChNRG/
+ls
+cd Runs/
+ls
+cd run6
+ls
+cd ..
+git init
+git add *
+git commit -m 'matlab file E0 complete '
+git push
+git remote https://github.com/cifu9502/nrg.git
+git clone https://github.com/cifu9502/nrgcode.git
+ls
+cd nrgcode
+ls
+cd ..
+ls
+git clone https://github.com/cifu9502/nrgcode.git
+ls
+cd nrgcode
+ls
+git add *
+git commit -m 'initialized, matlab, ipython '
+git push
+cd TwoChNRG/
+ls
+cd Runs
+
+cd Run6
+cd run6
+ls
+./NRG_main > output_Run.txt
+cd ..
+ls
+ipython notebook
+ls
+cd nrgcode/
+cd TwoChNRG/
+ls
+cd ..
+git add TwoChNRG/
+git commit -m 'adding run files'
+cd TwoChNRG/
+ls
+git add *
+git commit -m 'adding run files'
+git push
+cd ..
+git push
+cd TwoChNRG/
+git push
+git config --global push.default matching
+git push
+cd ..
+git add --all
+git commit -am "adding run-files"
+git push
+git add TwoChNRG/\\*
+
+git add TwoChNRG/ *
+git commit -am "adding run-files"
+git push
+cd TwoChNRG/
+ls
+git add --all
+git commit -am "adding run-files"
+git push
+git add .
+git commit -am "adding run-files"
+git push origin master
+cd ..
+git add .
+git commit -am "adding run-files"
+git push origin master
+git add . --force
+git commit -am "adding run-files"
+git push
+cd TwoChNRG/
+git add . --force
+git commit -am "adding run-files"
+git push
+git remote set-url origin https://github.com/cifu9502/nrgcode/TwoChNRG.git
+git add . --force
+git commit -am "adding run-files"
+git push
+git remote set-url origin https://github.com/cifu9502/nrgcode.git
+git add . --force
+git commit -am "adding run-files"
+git push
+cd ..
+git pull
+cd TwoChNRG/
+git pull
+git add .
+git commit -am "adding run-files"
+git push
+git add .
+git commit -am "adding run-files"
+git push
+cd nrgcode/
+ls
+cd TwoChNRG/
+ls
+ipython notebook
+ls
+cd Downloads/
+ls
+sudo ./Mathematica_11.1.1_LINUX(1).sh
+sudo ./Mathematica_11.1.1_LINUX.sh
+sudo ./Mathematica_11.1.1LINUX.sh
+ls
+sudo ./Mathematica_11.1.1LINUX.sh
+chmod +x Mathematica_11.1.1LINUX.sh.sh
+sudo chmod +x Mathematica_11.1.1LINUX.sh.sh
+sudo chmod +x Mathematica_11.1.1LINUX.sh
+sudo ./Mathematica_11.1.1LINUX.sh
+ls
+./example1.cpp
+g++ prog1.cpp
+g++ example1.cpp
+ls
+./a.out
+g++ example1.cpp
+./a.out
+emacs
+ls
+cd Main/
+ls
+emacs Main_SetH0.cpp 
+ls
+cd Main/
+ls
+./Main_SetH0.cpp 
+ls
+./NRG_main
+emacs new.cpp
+cd Main/
+ls
+g++ new.cpp new.out
+g++ new.cpp
+cd
+ls
+./a.out
+g++ new.cpp
+./a.out
+cd Main/
+ls
+./a.out
+g++ new.cpp
+./a.out
+g++ new.cpp
+./a.out
+cd Main/
+ls
+emacs Main_SetH0.cpp
+cd ..
+ls
+cd nrgcode/
+ls
+cd TwoChNRG/
+ls
+cd src/
+ls
+cd TwoQdsMn/
+ls
+emacs TwoQd_Mj_SetH0.cpp 
+./TwoQd_Mj_SetH0.cpp 
+ls
+g++ TwoQd_Mj_SetH0.cpp
+ls
+./a.out
+g++ TwoQd_Mj_SetH0.cpp
+./a.out
+g++ TwoQd_Mj_SetH0.cpp
+./a.out
+g++ TwoQd_Mj_SetH0.cpp
+clear
+g++ TwoQd_Mj_SetH0.cpp
+./a.out
+g++ TwoQd_Mj_SetH0.cpp
+./a.out
+g++ TwoQd_Mj_SetH0.cpp
+./a.out
+g++ TwoQd_Mj_SetH0.cpp
+./a.out
+g++ TwoQd_Mj_SetH0.cpp
+./a.out
+g++ TwoQd_Mj_SetH0.cpp
+./a.out
+g++ TwoQd_Mj_SetH0.cpp
+./a.out
+cd Main/
+ls
+g++ new.cpp
+./a.out
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys BBEBDCB318AD50EC6865090613B00F1FD2C19886
+echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
+sudo apt-get update
+sudo apt-get install spotify-client
+cd nrgcode/
+cd TwoChNRG/
+ls
+cd src/
+ls 
+clear 
+cd Main/
+ls
+g++ NRG_main.cpp
+
+gcc -c -I/home/cifucito/nrgcode/TwoChNRG/include -I/home/cifucito/nrgcode/TwoChNRG/src   NRG_main.cpp 
+ls
+gcc -c -I/home/cifucito/nrgcode/TwoChNRG/include -I/home/cifucito/nrgcode/TwoChNRG/src   NRG_main.cpp NRG_main.out
+gcc -c -I/home/cifucito/nrgcode/TwoChNRG/include -I/home/cifucito/nrgcode/TwoChNRG/src   NRG_main.cpp 
+gcc  -I/home/cifucito/nrgcode/TwoChNRG/include -I/home/cifucito/nrgcode/TwoChNRG/src   NRG_main.cpp 
+man gcc
+gcc -c -I/home/cifucito/nrgcode/TwoChNRG/include -I/home/cifucito/nrgcode/TwoChNRG/src   NRG_main.cpp NRG_main.out
+gcc -c -I/home/cifucito/nrgcode/TwoChNRG/include -I/home/cifucito/nrgcode/TwoChNRG/src   NRG_main.cpp NRG_main.o
+gcc -c -I/home/cifucito/nrgcode/TwoChNRG/include -I/home/cifucito/nrgcode/TwoChNRG/src   NRG_main.cpp 
+gcc -c -I/home/cifucito/nrgcode/TwoChNRG/include -I/home/cifucito/nrgcode/TwoChNRG/srcD   NRG_main.cpp 
+gcc -c -I/home/cifucito/nrgcode/TwoChNRG/include -I/home/cifucito/nrgcode/TwoChNRG/src  -L/home/cifucito/nrgcode/TwoChNRG/include -L/home/cifucito/nrgcode/TwoChNRG/src  NRG_main.cpp 
+gcc  -I/home/cifucito/nrgcode/TwoChNRG/include -I/home/cifucito/nrgcode/TwoChNRG/src  -L/home/cifucito/nrgcode/TwoChNRG/include -L/home/cifucito/nrgcode/TwoChNRG/src  NRG_main.cpp 
+gcc -Wall -I/home/cifucito/nrgcode/TwoChNRG/include -I/home/cifucito/nrgcode/TwoChNRG/src  -L/home/cifucito/nrgcode/TwoChNRG/include -L/home/cifucito/nrgcode/TwoChNRG/src  NRG_main.cpp 
+gcc -Wall -I/home/cifucito/nrgcode/TwoChNRG/include -I/home/cifucito/nrgcode/TwoChNRG/src  -L/home/cifucito/nrgcode/TwoChNRG/include -L/home/cifucito/nrgcode/TwoChNRG/src -lm  NRG_main.cpp 
+gcc -Wall -o -lm -I/home/cifucito/nrgcode/TwoChNRG/include -I/home/cifucito/nrgcode/TwoChNRG/src  -L/home/cifucito/nrgcode/TwoChNRG/include -L/home/cifucito/nrgcode/TwoChNRG/src   NRG_main.cpp 
+make
+ls
+cp NRG_main Run
+cd Run
+ls
+cd ..
+./Run/NRG_main 
+ls
+cd Run/
+ls
+./NRG_main 
+./NRG_main -m 1chNupPdn_Majorana> output_Run.txt
+cd ..
+make
+cp NRG_main Run
+cd Run/ 
+ls
+./NRG_main -m 1chNupPdn_Majorana> output_Run.txt
+cd ..
+cd Run
+ipython notebook
+ls
+cd nrgcode/
+ls
+cd TwoChNRG/
+ls
+cd Runs/
+ls
+
+ls
+./NRG_main 
+./NRG_main -m 1chNupPdn_Majorana
+./NRG_main -m 1chNupPdn_Majorana> output.txt
+./NRG_main -m 1chNupPdn_Majorana-> output.txt
+./NRG_main -m -> output.txt
+cd ..
+cd run6
+./NRG_main -m 1chNupPdn_Majorana-> output.txt
+./NRG_main -m 1chNupPdn_Majorana> output.txt
+./NRG_main  -> output.txt
+cd ..
+cd run7
+./NRG_main  -> output_Run.txt
+
+./NRG_main  -> output_Run.txt
+./NRG_main -m 1chNupPdn_Majorana> output_Run.txt
+./NRG_main -m 1chNupPdn_Majorana
+./NRG_main -m 1chNupPdn_Majorana> output_Run.txt
+cd ..
+cd .. 
+ls
+cd src/
+cd Main/
+ls
+cd Run
+cd ..
+make
+cd Run 
+./NRG_main -m 1chNupPdn_Majorana> output_Run.txt
+cd ..
+
+cp NRG_main Run
+cd Run
+ls
+./NRG_main -m 1chNupPdn_Majorana> output_Run.txt
+cd ..
+make 
+cp NRG_main Run
+cd Run 
+./NRG_main -m 1chNupPdn_Majorana> output_Run.txt
+cd nrgcode/
+cd TwoChNRG/
+cd src/
+cd Main/
+make
+cp NRG_main Run
+cd Run/
+./NRG_main -m 1chNupPdn_Majorana> output_Run.txt
+cd ..
+make
+cp NRG_main Run
+cd Run/]
+cd Run/
+./NRG_main -m 1chNupPdn_Majorana> output_Run.txt
+cd..
+cd ..
+make
+cp NRG_main Run
+cd Run/
+./NRG_main -m 1chNupPdn_Majorana> output_Run.txt
+cd ..
+make
+cp NRG_main Run
+cd Run 
+./NRG_main -m 1chNupPdn_Majorana> output_Run.txt
+cd ..
+make
+cp NRG_main Run
+cd Run/
+./NRG_main -m 1chNupPdn_Majorana> output_Run.txt
+cd ..
+make
+cp NRG_main Run
+cd Run/
+./NRG_main -m 1chNupPdn_Majorana> output_Run.txt
+cd ..
+make
+cp NRG_main Run
+cd Run/
+./NRG_main -m 1chNupPdn_Majorana> output_Run.txt
+cd ..
+make
+cp NRG_main Run
+cd Run/
+./NRG_main -m 1chNupPdn_Majorana> output_Run.txt
+cd ..
+make
+cp NRG_main Run
+cd Run 
+./NRG_main -m 1chNupPdn_Majorana> output_Run.txt
+cd ..
+make
+cp NRG_main Run
+cd Run/
+./NRG_main -m 1chNupPdn_Majorana> output_Run.txt
+cd ..
+cd..
+cd ..
+git add *
+git commit -am "Modifying Majorana code"
+git push
+cd nrgcode/
+cd TwoChNRG/
+cd src/
+cd Main/
+ls
+cd Run
+ipython notebook
+cd nrgcode/TwoChNRG/include/
+grep OneChNupPdn_Hm1_Majorana *.hpp
+emacs NRG_main.hpp &
+cd nrgcode/
+cd TwoChNRG/
+cd src/
+cd Main/
+grep OneChNupPdn_Hm1_Majorana *.cpp
+make
+cp NRG_main Run
+make clean
+make
+cp NRG_main Run
+cd Run/
+./NRG_main -m 1chNupPdn_Majorana> output_Run.txt
+emacs output_Run.txt
+emacs output_Run.txt &
+cd ..
+./NRG_main -m 1chNupPdn_Majorana> output_Run.txt
+mv output_Run.txt ./Run/
+cd Run/
+ls -ltr
+rm -f NRG_main 
+ln -s ../NRG_main 
+ls -ltr
+cd ..
+make
+cd Run/

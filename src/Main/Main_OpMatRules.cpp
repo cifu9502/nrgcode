@@ -905,3 +905,261 @@ complex<double> OneChNupPdn_Hm1_Majorana_MatEl(vector<double> Params,
 }
 // end OneChNupPdn_Hm1_Majorana_MatEl
 /////////////////////////
+
+/////////////////////////
+/// <Nup Pdn | H_DoubleDotMajorana | Nup  Pdn>_N=-1> :
+///
+/// Complex BUT Params is double!
+
+complex<double> OneChNupPdn_Hm1_DoubleDotMajorana_MatEl(vector<double> Params,
+					       CNRGbasisarray* pAbasis, 
+					       CNRGbasisarray* pSingleSite,
+					       CNRGmatrix* MatArray,
+					       int ist, int jst){
+
+  complex<double> cMatEl=ZeroC;
+
+  // define t+ and t- (complex variables)
+
+  complex<double> tplus1,tminus1,tplus2,tminus2;
+
+  double t1=Params[0];
+  double t2=Params[1];
+  double t21=Params[2];
+  double t22=Params[3];
+  double phi_mag=Params[4];
+  double phi_mag2=Params[5];
+  double en=Params[6];
+  // we are taking tdots as real for now. 
+  double tdots=Params[7]; 
+
+//   tplus.real()=t1+t2*cos(phi_mag);
+//   tminus.real()=t1-t2*cos(phi_mag);
+
+//   tplus.imag()=t2*sin(phi_mag);
+//   tminus.imag()=-t2*sin(phi_mag);
+
+
+
+  double re_tplus  = (t1+t2*cos(phi_mag))/sqrt(2.0);
+  double re_tminus = (t1-t2*cos(phi_mag))/sqrt(2.0);
+  double im_tplus  = (t2*sin(phi_mag))/sqrt(2.0);
+  double im_tminus = (-1.0*t2*sin(phi_mag))/sqrt(2.0);
+
+  tplus1  = complex<double>(re_tplus , im_tplus );
+  tminus1 = complex<double>(re_tminus, im_tminus);
+
+  //   tplus.real()=t1+t2*cos(phi_mag);
+//   tminus.real()=t1-t2*cos(phi_mag);
+
+//   tplus.imag()=t2*sin(phi_mag);
+//   tminus.imag()=-t2*sin(phi_mag);
+
+
+
+  double re_tplus2  = (t21+t22*cos(phi_mag2))/sqrt(2.0);
+  double re_tminus2 = (t21-t22*cos(phi_mag2))/sqrt(2.0);
+  double im_tplus2  = (t22*sin(phi_mag2))/sqrt(2.0);
+  double im_tminus2 = (-1.0*t22*sin(phi_mag2))/sqrt(2.0);
+
+  tplus2  = complex<double>(re_tplus2 , im_tplus2 );
+  tminus2 = complex<double>(re_tminus2, im_tminus2);
+
+
+  // Matrix elements
+
+  double Nupi=pAbasis->GetQNumberFromSt(ist,0);
+  double Pdni=pAbasis->GetQNumberFromSt(ist,1);
+
+  double Nupj=pAbasis->GetQNumberFromSt(jst,0);
+  double Pdnj=pAbasis->GetQNumberFromSt(jst,1);
+
+  if ( (dNEqual(Nupi,Nupj))||(dNEqual(Pdni,Pdnj)) ) return(ZeroC);
+
+  //
+  if (ist==jst){ // Diagonal terms
+//     cMatEl.real()=pAbasis->dEn[ist];
+//     cMatEl.imag()=0.0;
+    cMatEl=complex<double>(pAbasis->dEn[ist],0.0);
+  }
+  else{
+    //fill |0,-1>
+
+    if ( (ist==0)&&(jst==2) ) cMatEl=-tplus1;
+    if ( (ist==2)&&(jst==0) ) cMatEl= - std::conj(tplus1);
+
+    if ( (ist==0)&&(jst==3) ) cMatEl= tplus2;
+    if ( (ist==3)&&(jst==0) ) cMatEl= std::conj(tplus2);
+    
+    if ( (ist==1)&&(jst==2) ) cMatEl= std::conj(tminus2);
+    if ( (ist==2)&&(jst==1) ) cMatEl=tminus2;
+
+    if ( (ist==1)&&(jst==3) ) cMatEl= std::conj(tminus1);
+    if ( (ist==3)&&(jst==1) ) cMatEl= tminus1;
+
+    if ( (ist==2)&&(jst==3) ) cMatEl= tdots;
+    if ( (ist==3)&&(jst==2) ) cMatEl= tdots;
+
+    //fill |0,+1>
+
+    if ( (ist==4)&&(jst==6) ) cMatEl= std::conj(tplus1);
+    if ( (ist==6)&&(jst==4) ) cMatEl= tplus1;
+
+    if ( (ist==4)&&(jst==7) ) cMatEl= std::conj(tplus2);;
+    if ( (ist==7)&&(jst==4) ) cMatEl= tplus2;
+    
+    if ( (ist==5)&&(jst==6) ) cMatEl= tminus2;
+    if ( (ist==6)&&(jst==5) ) cMatEl= std::conj(tminus2);
+
+    if ( (ist==5)&&(jst==7) ) cMatEl= -tminus1;
+    if ( (ist==7)&&(jst==5) ) cMatEl= -std::conj(tminus1);
+
+    if ( (ist==6)&&(jst==7) ) cMatEl= tdots;
+    if ( (ist==7)&&(jst==6) ) cMatEl= tdots;
+
+    //fill |1,-1>
+
+         //first one goes as |0,-1>
+
+    if ( (ist==8)&&(jst==10) ) cMatEl= -tplus1;
+    if ( (ist==10)&&(jst==8) ) cMatEl= - std::conj(tplus1);
+
+    if ( (ist==8)&&(jst==11) ) cMatEl= tplus2;
+    if ( (ist==11)&&(jst==8) ) cMatEl= std::conj(tplus2);
+    
+    if ( (ist==9)&&(jst==10) ) cMatEl= std::conj(tminus2);
+    if ( (ist==10)&&(jst==9) ) cMatEl=tminus2;
+
+    if ( (ist==9)&&(jst==11) ) cMatEl= std::conj(tminus1);
+    if ( (ist==11)&&(jst==9) ) cMatEl= tminus1;
+
+    if ( (ist==10)&&(jst==11) ) cMatEl= tdots;
+    if ( (ist==11)&&(jst==10) ) cMatEl= tdots;
+
+           //second one goes as |2,-1>
+
+    if ( (ist==12)&&(jst==14) ) cMatEl= tplus1;
+    if ( (ist==14)&&(jst==12) ) cMatEl=  std::conj(tplus1);
+
+    if ( (ist==12)&&(jst==15) ) cMatEl= tplus2;
+    if ( (ist==15)&&(jst==12) ) cMatEl= std::conj(tplus2);
+    
+    if ( (ist==13)&&(jst==14) ) cMatEl= std::conj(tminus2);
+    if ( (ist==14)&&(jst==13) ) cMatEl= tminus2;
+
+    if ( (ist==13)&&(jst==15) ) cMatEl= -std::conj(tminus1);
+    if ( (ist==15)&&(jst==13) ) cMatEl= -tminus1;
+
+    if ( (ist==14)&&(jst==15) ) cMatEl= -tdots;
+    if ( (ist==15)&&(jst==14) ) cMatEl= -tdots;
+
+           //Adding link between dots
+    if ( (ist==8)&&(jst==12) ) cMatEl= -tdots;
+    if ( (ist==12)&&(jst==8) ) cMatEl= -tdots;
+
+    if ( (ist==9)&&(jst==13) ) cMatEl= tdots;
+    if ( (ist==13)&&(jst==9) ) cMatEl= tdots;
+    
+    if ( (ist==10)&&(jst==14) ) cMatEl= tdots;
+    if ( (ist==14)&&(jst==10) ) cMatEl= tdots;
+        
+    if ( (ist==11)&&(jst==15) ) cMatEl= -tdots;
+    if ( (ist==15)&&(jst==11) ) cMatEl= -tdots;
+
+    
+
+    //fill |1,+1>
+
+         //first one goes as |0,+1>
+
+    if ( (ist==16)&&(jst==18) ) cMatEl= std::conj(tplus1);
+    if ( (ist==18)&&(jst==16) ) cMatEl= tplus1;
+
+    if ( (ist==16)&&(jst==19) ) cMatEl= std::conj(tplus2);;
+    if ( (ist==19)&&(jst==16) ) cMatEl= tplus2;
+    
+    if ( (ist==17)&&(jst==18) ) cMatEl= tminus2;
+    if ( (ist==18)&&(jst==17) ) cMatEl= std::conj(tminus2);
+
+    if ( (ist==17)&&(jst==19) ) cMatEl= -tminus1;
+    if ( (ist==19)&&(jst==17) ) cMatEl= -std::conj(tminus1);
+
+    if ( (ist==18)&&(jst==19) ) cMatEl= tdots;
+    if ( (ist==19)&&(jst==18) ) cMatEl= tdots;
+
+         //second one goes as |2,+1>
+
+    if ( (ist==20)&&(jst==22) ) cMatEl= -std::conj(tplus1);
+    if ( (ist==22)&&(jst==20) ) cMatEl= -tplus1;
+
+    if ( (ist==20)&&(jst==23) ) cMatEl= std::conj(tplus2);;
+    if ( (ist==23)&&(jst==20) ) cMatEl= tplus2;
+    
+    if ( (ist==21)&&(jst==22) ) cMatEl= tminus2;
+    if ( (ist==22)&&(jst==21) ) cMatEl= std::conj(tminus2);
+
+    if ( (ist==21)&&(jst==23) ) cMatEl= tminus1;
+    if ( (ist==23)&&(jst==21) ) cMatEl= std::conj(tminus1);
+
+    if ( (ist==22)&&(jst==23) ) cMatEl= -tdots;
+    if ( (ist==23)&&(jst==22) ) cMatEl= -tdots;
+
+               //Adding link between dots
+    if ( (ist==8)&&(jst==12) ) cMatEl= tdots;
+    if ( (ist==12)&&(jst==8) ) cMatEl= tdots;
+
+    if ( (ist==9)&&(jst==13) ) cMatEl= -tdots;
+    if ( (ist==13)&&(jst==9) ) cMatEl= -tdots;
+    
+    if ( (ist==10)&&(jst==14) ) cMatEl= -tdots;
+    if ( (ist==14)&&(jst==10) ) cMatEl= -tdots;
+        
+    if ( (ist==11)&&(jst==15) ) cMatEl= tdots;
+    if ( (ist==15)&&(jst==11) ) cMatEl= tdots;
+    
+
+    
+    //fill |2,-1>
+
+    if ( (ist==24)&&(jst==26) ) cMatEl= tplus1;
+    if ( (ist==26)&&(jst==24) ) cMatEl=  std::conj(tplus1);
+
+    if ( (ist==24)&&(jst==27) ) cMatEl= tplus2;
+    if ( (ist==27)&&(jst==24) ) cMatEl= std::conj(tplus2);
+    
+    if ( (ist==25)&&(jst==26) ) cMatEl= std::conj(tminus2);
+    if ( (ist==26)&&(jst==25) ) cMatEl= tminus2;
+
+    if ( (ist==25)&&(jst==27) ) cMatEl= -std::conj(tminus1);
+    if ( (ist==27)&&(jst==25) ) cMatEl= -tminus1;
+
+    if ( (ist==26)&&(jst==27) ) cMatEl= -tdots;
+    if ( (ist==27)&&(jst==26) ) cMatEl= -tdots;
+    
+        //fill |2,+1>
+
+    if ( (ist==28)&&(jst==30) ) cMatEl= -std::conj(tplus1);
+    if ( (ist==30)&&(jst==28) ) cMatEl= -tplus1;
+
+    if ( (ist==28)&&(jst==31) ) cMatEl= std::conj(tplus2);;
+    if ( (ist==31)&&(jst==28) ) cMatEl= tplus2;
+    
+    if ( (ist==29)&&(jst==30) ) cMatEl= tminus2;
+    if ( (ist==30)&&(jst==29) ) cMatEl= std::conj(tminus2);
+
+    if ( (ist==29)&&(jst==31) ) cMatEl= tminus1;
+    if ( (ist==31)&&(jst==29) ) cMatEl= std::conj(tminus1);
+
+    if ( (ist==30)&&(jst==31) ) cMatEl= -tdots;
+    if ( (ist==31)&&(jst==30) ) cMatEl= -tdots;
+    
+  
+
+  }
+  // end if ist==jst
+
+  return(cMatEl);
+}
+// end OneChNupPdn_Hm1_Majorana_MatEl
+/////////////////////////
+
