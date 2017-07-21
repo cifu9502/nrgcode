@@ -1472,11 +1472,11 @@ void CNRGCodeHandler::ModelSwitch(  vector<int> &CommonQNs,
       // No total S variables. Leave totSpos empty
 
       switch(ModelNo){
-      ///////////////////////////////////
-      /// Models so far:              ///
-      ///  3 - Chain only             ///
-      ///  7 - Anderson+Local Majorana///
-      ///////////////////////////////////
+      //////////////////////////////////////////
+      /// Models so far:                     ///
+      ///  3 - Chain only                    ///
+      ///  7 - Double Anderson+Local Majorana///
+      //////////////////////////////////////////
       case 3: // Chain only
 
 	ZeroParams();
@@ -1540,8 +1540,11 @@ void CNRGCodeHandler::ModelSwitch(  vector<int> &CommonQNs,
 
 	Params.push_back(dInitParams[4]); // t1
 	Params.push_back(dInitParams[5]); // t2
-	Params.push_back(dInitParams[6]); // phi_mag
-	Params.push_back(dInitParams[7]); // em      
+	Params.push_back(dInitParams[6]); // U2
+	chi2_m1=sqrt(2.0*dInitParams[7]/pi)/(sqrt(Lambda)*HalfLambdaFactor);
+	Params.push_back(chi2_m1); // Gamma2
+	Params.push_back(dInitParams[8]); // ed2
+	Params.push_back(dInitParams[9]); // tdots
 
 	// Initialize matrices 
 	// fd_up

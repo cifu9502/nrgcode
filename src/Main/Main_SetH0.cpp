@@ -2631,13 +2631,6 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
 ///////////////////
 */
 
-//////////////////////////////////
-///                            ///
-///  1chS Anderson model Hm1   ///
-///                            ///
-///  | S > basis               ///
-///                            ///
-//////////////////////////////////
 
 void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
 					CNRGbasisarray* pSingleSite,
@@ -2650,8 +2643,8 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
 
   double Lambda=Params[0];
   double HalfLambdaFactor=Params[1];
-  double Utilde=Params[2]/(Lambda*HalfLambdaFactor);
-  double edtilde=Params[3]/(Lambda*HalfLambdaFactor);
+  double U1=Params[2]/(Lambda*HalfLambdaFactor);
+  double ed1=Params[3]/(Lambda*HalfLambdaFactor);
   double gammatilde=Params[4];
   double hz=0.5*Params[5]/(Lambda*HalfLambdaFactor);; // hz=g mu_B Bz: Zeeman term is:  - hz S_z
 
@@ -2671,44 +2664,47 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   
   double t1=Params[6]/(Lambda*HalfLambdaFactor);
   double t2=Params[7]/(Lambda*HalfLambdaFactor);
-  double phi_mag=Params[8];
-  double em=Params[9]/(Lambda*HalfLambdaFactor);
+  double U2=Params[8]/(Lambda*HalfLambdaFactor);
+  double gammatilde2=Params[9];
+  double ed2=Params[10]/(Lambda*HalfLambdaFactor);
+  double tdots=Params[11]/(Lambda*HalfLambdaFactor);
+
+  double phi_mag=0.0;
+  double em=0.0;
+
   
+
   //NEW CODE, I START BY ADDING SOME MISSING PARAMETERS, THE PARAMETERS OF THE SECOND QD WILL BE INITIALIZED EQUAL TO THE FIRST ONE
-  double tdots = t1+t2;
-  double U1 = Utilde;
-  double ed1 = edtilde;
+  //double tdots = t1+t2;
+  
   double t11 = t1;
-  double t12 = t2;
+  double t12 = 0;
  
 
   
-  double U2 = Utilde;
-  double ed2 = edtilde;
-  double t21 = t1;
-  double t22 = t2;
+  //  double U2 = Utilde;
+  //double ed2 = edtilde;
+  double t21 = t2;
+  double t22 = 0;
   double phi_mag2 = phi_mag;
 
-  double Uplus = Utilde + U2;
-  double edplus = ed2 + edtilde; 
+  double Uplus = U1 + U2;
+  double edplus = ed2 + ed1; 
     
   
   
-
-
   cout  << " Lambda= " << Lambda
 	<< " HalfLambdaFactor= " << HalfLambdaFactor
 	<< endl
-	<< " U~= " << Utilde
-	<< " ed~= " << edtilde
-	<< " t~= " << gammatilde
+	<< " U1~= " << U1
+	<< " U2~= " << U2    
+	<< " ed1~= " << ed1
+	<< " ed2~= " << ed2    
 	<< " hz~= " << hz << endl
 	<< " t1~= " << t1
 	<< " t2~= " << t2
 	<< " phimag= " << phi_mag
 	<< " em~= " << em
-	<< " U2~= " << U2
-	<< " ed2~= " << ed2
 	<< " t12~= " << t12
 	<< " t22~= " << t22
 	<< " phimag2= " << phi_mag2    
@@ -2806,7 +2802,7 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   // Will Rotate later.
   for (int imat=0;imat<STLNRGMats.size();imat++)
     STLNRGMats[imat].SyncNRGarray(AbasisHm1);
-  cout  << " \n Wouuuuu \n num STLNRG size is = " << Lambda << "\n \n";
+  //cout  << " \n Wouuuuu \n num STLNRG size is = " << Lambda << "\n \n";
 
   //AbasisHm1.PrintAll();
 
@@ -2817,10 +2813,18 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
 
   auxMat=STLNRGMats[0]; // Same rules as fN_up
   auxMat.SetZeroMatrix(); // Build block structure
-  AuxMatArray.push_back(auxMat); // cd_up
+  AuxMatArray.push_back(auxMat); // cd_up1
   auxMat=STLNRGMats[1]; // Same rules as fN_dn
   auxMat.SetZeroMatrix(); // Build block structure
-  AuxMatArray.push_back(auxMat); // cd_dn
+  AuxMatArray.push_back(auxMat); // cd_dn1
+
+  auxMat=STLNRGMats[0]; // Same rules as fN_up
+  auxMat.SetZeroMatrix(); // Build block structure
+  AuxMatArray.push_back(auxMat); // cd_up1
+  auxMat=STLNRGMats[1]; // Same rules as fN_dn
+  auxMat.SetZeroMatrix(); // Build block structure
+  AuxMatArray.push_back(auxMat); // cd_dn1
+
 
   // c_1up|up>|0(dn)>=+|0>|0(dn)>  
   // c_1up|up dn>|0(dn)>=+|dn>|0(dn)>  
@@ -2845,7 +2849,7 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   AuxMatArray[0].PushMatEl(1.0,22,30); 
   AuxMatArray[0].PushMatEl(1.0,23,31);  
 
-  cout << " c1_up:-just 1 still need to implement 2: " << endl;
+  cout << " c1_up: " << endl;
   AuxMatArray[0].PrintAllBlocks();  
   
    
@@ -2871,8 +2875,56 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   AuxMatArray[1].PushMatEl(1.0,14,21); 
   AuxMatArray[1].PushMatEl(1.0,13,22);
 
-  cout << " c1_dn-just 1 still need to implement 2: " << endl;
-  AuxMatArray[1].PrintAllBlocks();
+  
+    // c_2up|up>|0(dn)>=+|0>|0(dn)>  
+  // c_2up|up dn>|0(dn)>=+|dn>|0(dn)>  
+  
+  AuxMatArray[2].PushMatEl(-1.0,0,12); 
+  AuxMatArray[2].PushMatEl(1.0,1,13);
+  AuxMatArray[2].PushMatEl(1.0,2,14); 
+  AuxMatArray[2].PushMatEl(-1.0,3,15);
+
+  AuxMatArray[2].PushMatEl(1.0,4,20); 
+  AuxMatArray[2].PushMatEl(-1.0,5,21);
+  AuxMatArray[2].PushMatEl(-1.0,6,22); 
+  AuxMatArray[2].PushMatEl(1.0,7,23);
+
+  AuxMatArray[2].PushMatEl(-1.0,16,28); 
+  AuxMatArray[2].PushMatEl(1.0,17,29);
+  AuxMatArray[2].PushMatEl(1.0,18,30); 
+  AuxMatArray[2].PushMatEl(-1.0,19,31);
+
+  AuxMatArray[2].PushMatEl(1.0,8,24); 
+  AuxMatArray[2].PushMatEl(-1.0,9,25);
+  AuxMatArray[2].PushMatEl(-1.0,10,26); 
+  AuxMatArray[2].PushMatEl(1.0,11,27);  
+
+    // c_2dn|dn>|0(dn)>=+|0>|0(dn)>  
+  // c_2dn|up dn>|0(dn)>=-|up>|0(dn)>  
+  AuxMatArray[3].PushMatEl(-1.0,6,0); 
+  AuxMatArray[3].PushMatEl(1.0,4,2); 
+  AuxMatArray[3].PushMatEl(1.0,3,5); 
+  AuxMatArray[3].PushMatEl(-1.0,1,7);
+  
+  AuxMatArray[3].PushMatEl(1.0,18,8); 
+  AuxMatArray[3].PushMatEl(-1.0,16,10); 
+  AuxMatArray[3].PushMatEl(1.0,11,17); 
+  AuxMatArray[3].PushMatEl(-1.0,9,19);
+
+  AuxMatArray[3].PushMatEl(1.0,22,12); 
+  AuxMatArray[3].PushMatEl(-1.0,20,14); 
+  AuxMatArray[3].PushMatEl(1.0,15,21); 
+  AuxMatArray[3].PushMatEl(-1.0,13,23);
+
+  AuxMatArray[3].PushMatEl(-1.0,30,24); 
+  AuxMatArray[3].PushMatEl(1.0,28,26); 
+  AuxMatArray[3].PushMatEl(-1.0,27,29); 
+  AuxMatArray[3].PushMatEl(1.0,25,31);
+
+  
+  
+  cout << " c2_dn " << endl;
+  AuxMatArray[3].PrintAllBlocks();
  
   if (	(strcmp(STLNRGMats[2].MatName,"cd_up")==0)&&
 	(strcmp(STLNRGMats[3].MatName,"cd_dn")==0) ){
@@ -2885,28 +2937,28 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
     cout << " Majornaa: spectral functions still at implementation stage..." << endl;
     // f_dn|up (dn)>|dn>=-|up (dn)>|0>  
     // f_dn|up dn (0) >|dn>=+|up dn (0)>|0>  
-    AuxMatArray[2].PushMatEl(1.0,5,0); 
-    AuxMatArray[2].PushMatEl(1.0,4,1); 
-    AuxMatArray[2].PushMatEl(-1.0,3,6); 
-    AuxMatArray[2].PushMatEl(-1.0,2,7);
+    AuxMatArray[4].PushMatEl(1.0,5,0); 
+    AuxMatArray[4].PushMatEl(1.0,4,1); 
+    AuxMatArray[4].PushMatEl(-1.0,3,6); 
+    AuxMatArray[4].PushMatEl(-1.0,2,7);
 
-    AuxMatArray[2].PushMatEl(1.0,29,24); 
-    AuxMatArray[2].PushMatEl(1.0,28,25); 
-    AuxMatArray[2].PushMatEl(-1.0,27,30); 
-    AuxMatArray[2].PushMatEl(-1.0,26,31);
+    AuxMatArray[4].PushMatEl(1.0,29,24); 
+    AuxMatArray[4].PushMatEl(1.0,28,25); 
+    AuxMatArray[4].PushMatEl(-1.0,27,30); 
+    AuxMatArray[4].PushMatEl(-1.0,26,31);
     
-    AuxMatArray[2].PushMatEl(-1.0,17,8); 
-    AuxMatArray[2].PushMatEl(-1.0,16,9); 
-    AuxMatArray[2].PushMatEl(-1.0,21,12); 
-    AuxMatArray[2].PushMatEl(-1.0,20,13);
+    AuxMatArray[4].PushMatEl(-1.0,17,8); 
+    AuxMatArray[4].PushMatEl(-1.0,16,9); 
+    AuxMatArray[4].PushMatEl(-1.0,21,12); 
+    AuxMatArray[4].PushMatEl(-1.0,20,13);
 
-    AuxMatArray[2].PushMatEl(1.0,11,18); 
-    AuxMatArray[2].PushMatEl(1.0,10,19); 
-    AuxMatArray[2].PushMatEl(1.0,15,22); 
-    AuxMatArray[2].PushMatEl(1.0,14,23);     
+    AuxMatArray[4].PushMatEl(1.0,11,18); 
+    AuxMatArray[4].PushMatEl(1.0,10,19); 
+    AuxMatArray[4].PushMatEl(1.0,15,22); 
+    AuxMatArray[4].PushMatEl(1.0,14,23);     
     
     cout << " f_dn: " << endl;
-    AuxMatArray[2].PrintAllBlocks();
+    AuxMatArray[4].PrintAllBlocks();
 
   }else if ( (strcmp(STLNRGMats[2].MatName,"Ndot")==0)&&
 	     (strcmp(STLNRGMats[3].MatName,"Szdot")==0) ){
@@ -2917,9 +2969,12 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
     auxMat=STLNRGMats[2]; // Same rules as Ndot
     auxMat.SetZeroMatrix(); // Build block structure
   
-    AuxMatArray.push_back(auxMat); // [2] Ndot
-    AuxMatArray.push_back(auxMat); // [3] Szdot
-    AuxMatArray.push_back(auxMat); // [4] NMaj
+    AuxMatArray.push_back(auxMat); // [4] Ndot1
+    AuxMatArray.push_back(auxMat); // [5] Ndot2
+    AuxMatArray.push_back(auxMat); // [6] Szdot1
+    AuxMatArray.push_back(auxMat); // [7] Szdot2
+    AuxMatArray.push_back(auxMat); // [8] NMaj
+
   
 //     for (int imat=2; imat<=4; imat++){
 //       AuxMatArray[imat]=STLNRGMats[imat]; // Same rules as ndot, szdot, nmaj
@@ -2927,89 +2982,203 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
 //     }
  
     // ndot1=nup1+ndown1
-    AuxMatArray[2].PushMatEl(1.0,0,0); 
-    AuxMatArray[2].PushMatEl(0.0,1,1);
-    AuxMatArray[2].PushMatEl(0.0,2,2); 
-    AuxMatArray[2].PushMatEl(1.0,3,3); 
-    AuxMatArray[2].PushMatEl(0.0,4,4); 
-    AuxMatArray[2].PushMatEl(1.0,5,5);
-    AuxMatArray[2].PushMatEl(1.0,6,6); 
-    AuxMatArray[2].PushMatEl(0.0,7,7);
-
-    AuxMatArray[2].PushMatEl(2.0,8,8); 
-    AuxMatArray[2].PushMatEl(1.0,9,9);
-    AuxMatArray[2].PushMatEl(1.0,10,10); 
-    AuxMatArray[2].PushMatEl(2.0,11,11); 
-    AuxMatArray[2].PushMatEl(1.0,12,12); 
-    AuxMatArray[2].PushMatEl(0.0,13,13);
-    AuxMatArray[2].PushMatEl(0.0,14,14); 
-    AuxMatArray[2].PushMatEl(1.0,15,15);
-
-    AuxMatArray[2].PushMatEl(1.0,16,16); 
-    AuxMatArray[2].PushMatEl(2.0,17,17);
-    AuxMatArray[2].PushMatEl(2.0,18,18); 
-    AuxMatArray[2].PushMatEl(1.0,19,19); 
-    AuxMatArray[2].PushMatEl(0.0,20,20); 
-    AuxMatArray[2].PushMatEl(1.0,21,21);
-    AuxMatArray[2].PushMatEl(1.0,22,22); 
-    AuxMatArray[2].PushMatEl(0.0,23,23);
-
-    AuxMatArray[2].PushMatEl(2.0,24,24); 
-    AuxMatArray[2].PushMatEl(1.0,25,25);
-    AuxMatArray[2].PushMatEl(1.0,26,26); 
-    AuxMatArray[2].PushMatEl(2.0,27,27); 
-    AuxMatArray[2].PushMatEl(1.0,28,28); 
-    AuxMatArray[2].PushMatEl(2.0,29,29);
-    AuxMatArray[2].PushMatEl(2.0,30,30); 
-    AuxMatArray[2].PushMatEl(1.0,31,31); 
-   
-    // szdot (STILL NOT CORRECTED)
-    AuxMatArray[3].PushMatEl(0.0,0,0); 
-    AuxMatArray[3].PushMatEl(-0.5,1,1);
-    AuxMatArray[3].PushMatEl(0.0,2,2); 
-    AuxMatArray[3].PushMatEl(-0.5,3,3); 
-    AuxMatArray[3].PushMatEl(0.5,4,4); 
-    AuxMatArray[3].PushMatEl(0.0,5,5);
-    AuxMatArray[3].PushMatEl(0.5,6,6); 
-    AuxMatArray[3].PushMatEl(0.0,7,7); 
-
-    // nMaj
     AuxMatArray[4].PushMatEl(1.0,0,0); 
-    AuxMatArray[4].PushMatEl(1.0,1,1);
+    AuxMatArray[4].PushMatEl(0.0,1,1);
     AuxMatArray[4].PushMatEl(0.0,2,2); 
-    AuxMatArray[4].PushMatEl(0.0,3,3); 
+    AuxMatArray[4].PushMatEl(1.0,3,3); 
     AuxMatArray[4].PushMatEl(0.0,4,4); 
-    AuxMatArray[4].PushMatEl(0.0,5,5);
+    AuxMatArray[4].PushMatEl(1.0,5,5);
     AuxMatArray[4].PushMatEl(1.0,6,6); 
-    AuxMatArray[4].PushMatEl(1.0,7,7);
+    AuxMatArray[4].PushMatEl(0.0,7,7);
 
-    AuxMatArray[4].PushMatEl(1.0,8,8); 
+    AuxMatArray[4].PushMatEl(2.0,8,8); 
     AuxMatArray[4].PushMatEl(1.0,9,9);
-    AuxMatArray[4].PushMatEl(0.0,10,10); 
-    AuxMatArray[4].PushMatEl(0.0,11,11); 
+    AuxMatArray[4].PushMatEl(1.0,10,10); 
+    AuxMatArray[4].PushMatEl(2.0,11,11); 
     AuxMatArray[4].PushMatEl(1.0,12,12); 
-    AuxMatArray[4].PushMatEl(1.0,13,13);
+    AuxMatArray[4].PushMatEl(0.0,13,13);
     AuxMatArray[4].PushMatEl(0.0,14,14); 
-    AuxMatArray[4].PushMatEl(0.0,15,15);
+    AuxMatArray[4].PushMatEl(1.0,15,15);
 
-    AuxMatArray[4].PushMatEl(0.0,16,16); 
-    AuxMatArray[4].PushMatEl(0.0,17,17);
-    AuxMatArray[4].PushMatEl(1.0,18,18); 
+    AuxMatArray[4].PushMatEl(1.0,16,16); 
+    AuxMatArray[4].PushMatEl(2.0,17,17);
+    AuxMatArray[4].PushMatEl(2.0,18,18); 
     AuxMatArray[4].PushMatEl(1.0,19,19); 
     AuxMatArray[4].PushMatEl(0.0,20,20); 
-    AuxMatArray[4].PushMatEl(0.0,21,21);
+    AuxMatArray[4].PushMatEl(1.0,21,21);
     AuxMatArray[4].PushMatEl(1.0,22,22); 
-    AuxMatArray[4].PushMatEl(1.0,23,23);
+    AuxMatArray[4].PushMatEl(0.0,23,23);
 
-    AuxMatArray[4].PushMatEl(1.0,24,24); 
+    AuxMatArray[4].PushMatEl(2.0,24,24); 
     AuxMatArray[4].PushMatEl(1.0,25,25);
-    AuxMatArray[4].PushMatEl(0.0,26,26); 
-    AuxMatArray[4].PushMatEl(0.0,27,27); 
-    AuxMatArray[4].PushMatEl(0.0,28,28); 
-    AuxMatArray[4].PushMatEl(0.0,29,29);
-    AuxMatArray[4].PushMatEl(1.0,30,30); 
+    AuxMatArray[4].PushMatEl(1.0,26,26); 
+    AuxMatArray[4].PushMatEl(2.0,27,27); 
+    AuxMatArray[4].PushMatEl(1.0,28,28); 
+    AuxMatArray[4].PushMatEl(2.0,29,29);
+    AuxMatArray[4].PushMatEl(2.0,30,30); 
     AuxMatArray[4].PushMatEl(1.0,31,31);
-  
+
+             // ndot2=nup2+ndown2
+    
+    AuxMatArray[5].PushMatEl(1.0,0,0); 
+    AuxMatArray[5].PushMatEl(0.0,1,1);
+    AuxMatArray[5].PushMatEl(1.0,2,2); 
+    AuxMatArray[5].PushMatEl(0.0,3,3); 
+    AuxMatArray[5].PushMatEl(0.0,4,4); 
+    AuxMatArray[5].PushMatEl(1.0,5,5);
+    AuxMatArray[5].PushMatEl(0.0,6,6); 
+    AuxMatArray[5].PushMatEl(1.0,7,7);
+
+    AuxMatArray[5].PushMatEl(1.0,8,8); 
+    AuxMatArray[5].PushMatEl(0.0,9,9);
+    AuxMatArray[5].PushMatEl(1.0,10,10); 
+    AuxMatArray[5].PushMatEl(0.0,11,11); 
+    AuxMatArray[5].PushMatEl(2.0,12,12); 
+    AuxMatArray[5].PushMatEl(1.0,13,13);
+    AuxMatArray[5].PushMatEl(2.0,14,14); 
+    AuxMatArray[5].PushMatEl(1.0,15,15);
+
+    AuxMatArray[5].PushMatEl(0.0,16,16); 
+    AuxMatArray[5].PushMatEl(1.0,17,17);
+    AuxMatArray[5].PushMatEl(0.0,18,18); 
+    AuxMatArray[5].PushMatEl(1.0,19,19); 
+    AuxMatArray[5].PushMatEl(1.0,20,20); 
+    AuxMatArray[5].PushMatEl(2.0,21,21);
+    AuxMatArray[5].PushMatEl(1.0,22,22); 
+    AuxMatArray[5].PushMatEl(2.0,23,23);
+
+    AuxMatArray[5].PushMatEl(2.0,24,24); 
+    AuxMatArray[5].PushMatEl(1.0,25,25);
+    AuxMatArray[5].PushMatEl(2.0,26,26); 
+    AuxMatArray[5].PushMatEl(1.0,27,27); 
+    AuxMatArray[5].PushMatEl(1.0,28,28); 
+    AuxMatArray[5].PushMatEl(2.0,29,29);
+    AuxMatArray[5].PushMatEl(1.0,30,30); 
+    AuxMatArray[5].PushMatEl(2.0,31,31); 
+     
+    // szdot1 
+    AuxMatArray[6].PushMatEl(-0.5,0,0); 
+    AuxMatArray[6].PushMatEl(0.0,1,1);
+    AuxMatArray[6].PushMatEl(0.0,2,2); 
+    AuxMatArray[6].PushMatEl(-0.5,3,3); 
+    AuxMatArray[6].PushMatEl(0.0,4,4); 
+    AuxMatArray[6].PushMatEl(-0.5,5,5);
+    AuxMatArray[6].PushMatEl(-0.5,6,6); 
+    AuxMatArray[6].PushMatEl(0.0,7,7);
+
+    AuxMatArray[6].PushMatEl(0.0,8,8); 
+    AuxMatArray[6].PushMatEl(0.5,9,9);
+    AuxMatArray[6].PushMatEl(0.5,10,10); 
+    AuxMatArray[6].PushMatEl(0.0,11,11); 
+    AuxMatArray[6].PushMatEl(-0.5,12,12); 
+    AuxMatArray[6].PushMatEl(0.0,13,13);
+    AuxMatArray[6].PushMatEl(0.0,14,14); 
+    AuxMatArray[6].PushMatEl(-0.5,15,15);
+
+    AuxMatArray[6].PushMatEl(0.5,16,16); 
+    AuxMatArray[6].PushMatEl(0.0,17,17);
+    AuxMatArray[6].PushMatEl(0.0,18,18); 
+    AuxMatArray[6].PushMatEl(0.5,19,19); 
+    AuxMatArray[6].PushMatEl(0.0,20,20); 
+    AuxMatArray[6].PushMatEl(-0.5,21,21);
+    AuxMatArray[6].PushMatEl(0.0,22,22); 
+    AuxMatArray[6].PushMatEl(-0.5,23,23);
+
+    AuxMatArray[6].PushMatEl(0.0,24,24); 
+    AuxMatArray[6].PushMatEl(0.5,25,25);
+    AuxMatArray[6].PushMatEl(0.5,26,26); 
+    AuxMatArray[6].PushMatEl(0.0,27,27); 
+    AuxMatArray[6].PushMatEl(0.5,28,28); 
+    AuxMatArray[6].PushMatEl(0.0,29,29);
+    AuxMatArray[6].PushMatEl(0.0,30,30); 
+    AuxMatArray[6].PushMatEl(0.5,31,31);
+
+        // szdot2 
+    AuxMatArray[7].PushMatEl(-0.5,0,0); 
+    AuxMatArray[7].PushMatEl(0.0,1,1);
+    AuxMatArray[7].PushMatEl(-0.5,2,2); 
+    AuxMatArray[7].PushMatEl(0.0,3,3); 
+    AuxMatArray[7].PushMatEl(0.0,4,4); 
+    AuxMatArray[7].PushMatEl(-0.5,5,5);
+    AuxMatArray[7].PushMatEl(0.0,6,6); 
+    AuxMatArray[7].PushMatEl(-0.5,7,7);
+
+    AuxMatArray[7].PushMatEl(-0.5,8,8); 
+    AuxMatArray[7].PushMatEl(0.0,9,9);
+    AuxMatArray[7].PushMatEl(-0.5,10,10); 
+    AuxMatArray[7].PushMatEl(0.0,11,11); 
+    AuxMatArray[7].PushMatEl(0.0,12,12); 
+    AuxMatArray[7].PushMatEl(0.5,13,13);
+    AuxMatArray[7].PushMatEl(0.0,14,14); 
+    AuxMatArray[7].PushMatEl(0.5,15,15);
+
+    AuxMatArray[7].PushMatEl(0.0,16,16); 
+    AuxMatArray[7].PushMatEl(-0.5,17,17);
+    AuxMatArray[7].PushMatEl(0.0,18,18); 
+    AuxMatArray[7].PushMatEl(-0.5,19,19); 
+    AuxMatArray[7].PushMatEl(0.5,20,20); 
+    AuxMatArray[7].PushMatEl(0.0,21,21);
+    AuxMatArray[7].PushMatEl(0.5,22,22); 
+    AuxMatArray[7].PushMatEl(0.0,23,23);
+
+    AuxMatArray[7].PushMatEl(0.0,24,24); 
+    AuxMatArray[7].PushMatEl(0.5,25,25);
+    AuxMatArray[7].PushMatEl(0.0,26,26); 
+    AuxMatArray[7].PushMatEl(0.5,27,27); 
+    AuxMatArray[7].PushMatEl(0.5,28,28); 
+    AuxMatArray[7].PushMatEl(0.0,29,29);
+    AuxMatArray[7].PushMatEl(0.5,30,30); 
+    AuxMatArray[7].PushMatEl(0.0,31,31); 
+
+    // nMaj
+    AuxMatArray[8].PushMatEl(1.0,0,0); 
+    AuxMatArray[8].PushMatEl(1.0,1,1);
+    AuxMatArray[8].PushMatEl(0.0,2,2); 
+    AuxMatArray[8].PushMatEl(0.0,3,3); 
+    AuxMatArray[8].PushMatEl(0.0,4,4); 
+    AuxMatArray[8].PushMatEl(0.0,5,5);
+    AuxMatArray[8].PushMatEl(1.0,6,6); 
+    AuxMatArray[8].PushMatEl(1.0,7,7);
+
+    AuxMatArray[8].PushMatEl(1.0,8,8); 
+    AuxMatArray[8].PushMatEl(1.0,9,9);
+    AuxMatArray[8].PushMatEl(0.0,10,10); 
+    AuxMatArray[8].PushMatEl(0.0,11,11); 
+    AuxMatArray[8].PushMatEl(1.0,12,12); 
+    AuxMatArray[8].PushMatEl(1.0,13,13);
+    AuxMatArray[8].PushMatEl(0.0,14,14); 
+    AuxMatArray[8].PushMatEl(0.0,15,15);
+
+    AuxMatArray[8].PushMatEl(0.0,16,16); 
+    AuxMatArray[8].PushMatEl(0.0,17,17);
+    AuxMatArray[8].PushMatEl(1.0,18,18); 
+    AuxMatArray[8].PushMatEl(1.0,19,19); 
+    AuxMatArray[8].PushMatEl(0.0,20,20); 
+    AuxMatArray[8].PushMatEl(0.0,21,21);
+    AuxMatArray[8].PushMatEl(1.0,22,22); 
+    AuxMatArray[8].PushMatEl(1.0,23,23);
+
+    AuxMatArray[8].PushMatEl(1.0,24,24); 
+    AuxMatArray[8].PushMatEl(1.0,25,25);
+    AuxMatArray[8].PushMatEl(0.0,26,26); 
+    AuxMatArray[8].PushMatEl(0.0,27,27); 
+    AuxMatArray[8].PushMatEl(0.0,28,28); 
+    AuxMatArray[8].PushMatEl(0.0,29,29);
+    AuxMatArray[8].PushMatEl(1.0,30,30); 
+    AuxMatArray[8].PushMatEl(1.0,31,31);
+
+
+      cout << " Ndot2: " << endl;
+
+  AuxMatArray[5].PrintAllBlocks();
+
+    cout << " Sz1: " << endl;
+
+  AuxMatArray[6].PrintAllBlocks();
+   
+
+
+    
   } else { 
     switch(STLNRGMats.size()){
     case 2: //fd_up fd_dn
@@ -3024,10 +3193,9 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   }
   // end if MatName==Ndot, Sz
 
-  cout << " Ndot1 , just 1, still need to implement 2: " << endl;
-  AuxMatArray[2].PrintAllBlocks();
-  cout << " NMaj: " << endl;
-  AuxMatArray[4].PrintAllBlocks();
+
+    
+    //AuxMatArray[5].PrintAllBlocks();
 
   /////
   // set up and diagonalize Hm1 8x8 matrix
@@ -3099,17 +3267,9 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
  
   // Finally, build and diagonalize H_0 (N=0) and take it from there. 
   // Perhaps this can be done in the code itself.
-    printf ("\n \n \n \n ");
-  printf ("Lambda= %f \n", Lambda);
-  printf ("U= %f \n", Utilde);
-  printf ("t= %f \n", gammatilde);
-  printf ("t1= %f \n", t1);
-  printf ("t2= %f \n", t2);
-  printf ("em= %f \n", em);
-   printf ("em= %f \n", phi_mag);
 
   
-  printf (" \n \n \n \n \n \n \n \n \n \n Holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa \n");
+  printf (" \n \n \n \n \n \n \n \n \n PRINTING MATRICES \n  Holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa \n");
   auxMat.DiagHN(ParamsHm1,&AbasisHm1,pSingleSite,&AuxMatArray[0],pAeig,true);
   printf ("\n Holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa \n");
   
@@ -3121,6 +3281,17 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
 ///////////////////
 ///////////////////
 ///////////////////
+
+
+
+//////////////////////////////////
+///                            ///
+///  1chS Anderson model Hm1   ///
+///                            ///
+///  | S > basis               ///
+///                            ///
+//////////////////////////////////
+
 
 void OneChS_SetAnderson_Hm1(vector<double> Params, 
 			     CNRGarray* pAeig,
