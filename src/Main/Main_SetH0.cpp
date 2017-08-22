@@ -2813,19 +2813,18 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
 
   auxMat=STLNRGMats[0]; // Same rules as fN_up
   auxMat.SetZeroMatrix(); // Build block structure
-  AuxMatArray.push_back(auxMat); // cd_up1
+  AuxMatArray.push_back(auxMat); // cd1_up
   auxMat=STLNRGMats[1]; // Same rules as fN_dn
   auxMat.SetZeroMatrix(); // Build block structure
-  AuxMatArray.push_back(auxMat); // cd_dn1
+  AuxMatArray.push_back(auxMat); // cd1_dn
 
   auxMat=STLNRGMats[0]; // Same rules as fN_up
   auxMat.SetZeroMatrix(); // Build block structure
-  AuxMatArray.push_back(auxMat); // cd_up1
+  AuxMatArray.push_back(auxMat); // cd2_up
   auxMat=STLNRGMats[1]; // Same rules as fN_dn
   auxMat.SetZeroMatrix(); // Build block structure
-  AuxMatArray.push_back(auxMat); // cd_dn1
-
-
+  AuxMatArray.push_back(auxMat); // cd2_dn
+ 
   // c_1up|up>|0(dn)>=+|0>|0(dn)>  
   // c_1up|up dn>|0(dn)>=+|dn>|0(dn)>  
   
@@ -2921,13 +2920,14 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   AuxMatArray[3].PushMatEl(-1.0,27,29); 
   AuxMatArray[3].PushMatEl(1.0,25,31);
 
-  
+   cout << " c1_dn " << endl;
+  AuxMatArray[1].PrintAllBlocks();
   
   cout << " c2_dn " << endl;
   AuxMatArray[3].PrintAllBlocks();
  
-  if (	(strcmp(STLNRGMats[2].MatName,"cd_up")==0)&&
-	(strcmp(STLNRGMats[3].MatName,"cd_dn")==0) ){
+  if (	(strcmp(STLNRGMats[2].MatName,"cd1_up")==0)&&
+	(strcmp(STLNRGMats[3].MatName,"cd1_dn")==0) ){
 
     AuxMatArray.push_back(auxMat); // [2] f_Maj_dn
 
@@ -3176,8 +3176,6 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
 
   AuxMatArray[6].PrintAllBlocks();
    
-
-
     
   } else { 
     switch(STLNRGMats.size()){
@@ -3198,7 +3196,7 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
     //AuxMatArray[5].PrintAllBlocks();
 
   /////
-  // set up and diagonalize Hm1 8x8 matrix
+  // set up and diagonalize Hm1 32x32 matrix
   /////
   auxMat.CheckForMatEl=Diag_check;
   auxMat.CalcHNMatElCplx=OneChNupPdn_Hm1_DoubleDotMajorana_MatEl;
@@ -3249,12 +3247,14 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   STLNRGMats[0].CopyData(&AuxMatArray[0]);  //f_{-1 up}
   STLNRGMats[1].CopyData(&AuxMatArray[1]);  //f_{-1 dn}
 
-  if (	(strcmp(STLNRGMats[2].MatName,"cd_up")==0)&&
-	(strcmp(STLNRGMats[3].MatName,"cd_dn")==0) ){
+  if (	(strcmp(STLNRGMats[2].MatName,"cd1_up")==0)&&
+	(strcmp(STLNRGMats[3].MatName,"cd1_dn")==0) ){
     // spectral functions
-    STLNRGMats[2].CopyData(&AuxMatArray[0]); //c_up
-    STLNRGMats[3].CopyData(&AuxMatArray[1]); //c_dn
-    STLNRGMats[4].CopyData(&AuxMatArray[2]);  //f_dn
+    STLNRGMats[2].CopyData(&AuxMatArray[0]); //c1_up
+    STLNRGMats[3].CopyData(&AuxMatArray[1]); //c1_dn
+    STLNRGMats[4].CopyData(&AuxMatArray[2]); //c2_up
+    STLNRGMats[5].CopyData(&AuxMatArray[3]); //c2_dn
+    STLNRGMats[6].CopyData(&AuxMatArray[4]);  //f_Maj
   } else if ( (strcmp(STLNRGMats[2].MatName,"Ndot")==0)&&
 	     (strcmp(STLNRGMats[3].MatName,"Szdot")==0) ){
     STLNRGMats[2].CopyData(&AuxMatArray[2]); //Ndot  (rotated)
@@ -3273,7 +3273,7 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   auxMat.DiagHN(ParamsHm1,&AbasisHm1,pSingleSite,&AuxMatArray[0],pAeig,true);
   printf ("\n Holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa \n");
   
-  exit(0);
+  //exit(0);
 
 }
 // end OneChNupPdn_SetAndersonMajorana_H0

@@ -825,6 +825,132 @@ double OneChQSz_H0DQD_MatEl(vector<double> Params,
 /////////////////////////
 
 
+
+double OneChNupPdn_H0DQD_MatEl(vector<double> Params,
+			  CNRGbasisarray* pAbasis, 
+			  CNRGbasisarray* pSingleSite,
+			  CNRGmatrix* MatArray,
+			  int ist, int jst){
+
+  // October 2011
+  // Calculates matrix elements for H0 (DQD+site) in the QSz basis.
+  //
+  // Parameters: 
+  //  chi1        - Params[0]
+  //  chi2        - Params[1]
+  //  <Qold-1 Szold-1/2|| f1_up |Qold Szold> - MatArray[0] 
+  //  <Qold-1 Szold+1/2|| f1_dn |Qold Szold> - MatArray[1] 
+  //  <Qold-1 Szold-1/2|| f2_up |Qold Szold> - MatArray[2] 
+  //  <Qold-1 Szold+1/2|| f2_dn |Qold Szold> - MatArray[3] 
+  // Abasis       - DQD + site
+  // pSingleSite  - OneChQSz single site
+
+  double MatEl=0.0;
+
+  double chi_N[2]={Params[0],Params[1]};
+
+  double Nupi=pAbasis->GetQNumberFromSt(ist,0);
+  double Pdni=pAbasis->GetQNumberFromSt(ist,1);
+
+  double Nupj=pAbasis->GetQNumberFromSt(jst,0);
+  double Pdnj=pAbasis->GetQNumberFromSt(jst,1);
+  //WHAT IS THE FOLLOWING, Qi ONLY APPEARS AT THIS PART? I SHALL REPLACE IT BY THE NEW SYMMETRY CONDITION
+
+  //  if ( (dNEqual(Qi,Qj))||(dNEqual(Szi,Szj)) ) return(0.0);
+
+
+
+  double OldEl[4]={0.0,0.0,0.0,0.0};
+  
+
+  if (ist==jst){ // Diagonal terms
+    MatEl=pAbasis->dEn[ist];
+  }
+  else{
+    int typei=pAbasis->iType[ist];
+    int stcfi=pAbasis->StCameFrom[ist];
+    
+    int typej=pAbasis->iType[jst];
+    int stcfj=pAbasis->StCameFrom[jst];
+
+    // Get c1_up matrix element from MatArray[0]
+    // Get c1_dn matrix element from MatArray[1]
+    // Get c2_up matrix element from MatArray[2]
+    // Get c2_dn matrix element from MatArray[3]
+    // Get f0_sigma matrix element using pSingleSite
+
+
+    // Sum in dots
+
+    int icounter=0;
+    for (int idot=1;idot<=2;idot++){
+
+      // Add a sum in spins.
+      for (int sigma=1;sigma>=-1;sigma-=2){
+	double dSigma=0.5*(double)sigma;
+
+	OldEl[icounter]=MatArray[icounter].GetMatEl(stcfi,stcfj); //
+
+	int typep=typei;
+	int type=typej;
+
+	// if zero, try h.c.
+	if (dEqual(fabs(OldEl[icounter]),0.0)){
+	  OldEl[icounter]=MatArray[icounter].GetMatEl(stcfj,stcfi);
+	  typep=typej;
+	  type=typei;
+	}
+
+	// Get SingleSite QNumbers
+
+ 	double Qtilde=pSingleSite->GetQNumber(type,0);
+
+	// Check Fermi Sign (single channel) REALLY NEED TO CHANGE THIS
+	double FermiSign=1.0;
+	if (dEqual(Qtilde,0.0)) FermiSign=-1.0;
+
+	double FullMatEl=OneCh_fd_table(sigma,typep,type)*FermiSign;
+
+	MatEl+=chi_N[idot-1]*OldEl[icounter]*FullMatEl;
+
+	// 	if (( (ist==5)||(ist==6) )&&( (jst==9)||(jst==9) ))
+	// 	  cout << " idot = " << idot
+	// 	       << " FermiSign = " << FermiSign
+	// 	       << " sigma = " << sigma
+	// 	    //<< " Szold = " << Szold
+	// 	       << " OldEl = " << OldEl[icounter]
+	// 	       << " FullMatEl = " << FullMatEl
+	// 	       << " MatEl = " << MatEl
+	// 	       << endl;
+
+
+	icounter++;
+      }
+      // end loop in sigma
+ 
+    }
+    // end sum in dots
+
+  }
+  // end if ist==jst
+
+
+  return(MatEl);
+
+}
+/////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
 /////////////////////////////////
 /////////////////////////////////
 ///

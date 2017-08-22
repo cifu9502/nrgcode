@@ -1584,26 +1584,35 @@ void CNRGCodeHandler::ModelSwitch(  vector<int> &CommonQNs,
 	  NumThermoMats=0;
 	  break;
  	case 1: //Spectral density
-	  // cd_up and cd_dn (OneChQSz_SetAnderson equals 
+	  // cd1_up and cd1_dn (OneChQSz_SetAnderson equals 
 	  // MatArray[2,3] to MatArray[0,1]
 	  STLMatArray[2].NeedOld=true;
 	  STLMatArray[2].CheckForMatEl=OneChNupPdn_cdup_check;
 	  STLMatArray[2].CalcMatElCplx=OneChNupPdn_cdup_MatElCplx;
 	  STLMatArray[2].SaveMatYN=true;
 	  STLMatArray[2].IsComplex=true;
-	  strcpy(STLMatArray[2].MatName,"cd_up");
+	  strcpy(STLMatArray[2].MatName,"cd1_up");
 
 	  STLMatArray[3].NeedOld=true;
 	  STLMatArray[3].CheckForMatEl=OneChNupPdn_cddn_check;
 	  STLMatArray[3].CalcMatElCplx=OneChNupPdn_cddn_MatElCplx;
 	  STLMatArray[3].SaveMatYN=true;
 	  STLMatArray[3].IsComplex=true;
-	  strcpy(STLMatArray[3].MatName,"cd_dn");
+	  strcpy(STLMatArray[3].MatName,"cd1_dn");
 
-	  // f_Maj (this looks ok)
+	  // cd2_up and cd2_dn 
+	  auxNRGMat=STLMatArray[2];
+	  STLMatArray.push_back(auxNRGMat);
+	  strcpy(STLMatArray[4].MatName,"cd2_up");
+
 	  auxNRGMat=STLMatArray[3];
 	  STLMatArray.push_back(auxNRGMat);
-	  strcpy(STLMatArray[4].MatName,"f_Maj");
+	  strcpy(STLMatArray[4].MatName,"cd2_dn");
+	  
+       	  // f_Maj (this looks ok)
+	  auxNRGMat=STLMatArray[3];
+	  STLMatArray.push_back(auxNRGMat);
+	  strcpy(STLMatArray[6].MatName,"f_Maj");
 
 	  // TODO: Add other spectral functions??
 
@@ -1612,12 +1621,16 @@ void CNRGCodeHandler::ModelSwitch(  vector<int> &CommonQNs,
 // 	  STLMatArray[0].PrintAllBlocks();
 // 	  cout << " fdN_dn : " << endl;
 // 	  STLMatArray[1].PrintAllBlocks();
-// 	  cout << " cdN_up : " << endl;
+// 	  cout << " cd1N_up : " << endl;
 // 	  STLMatArray[2].PrintAllBlocks();
-// 	  cout << " cdN_dn : " << endl;
+// 	  cout << " cd1N_dn : " << endl;
 // 	  STLMatArray[3].PrintAllBlocks();
-// 	  cout << " f_Maj : " << endl;
+// 	  cout << " cd2N_up : " << endl;
 // 	  STLMatArray[4].PrintAllBlocks();
+// 	  cout << " cd2N_dn : " << endl;
+// 	  STLMatArray[5].PrintAllBlocks();
+// 	  cout << " f_Maj : " << endl;
+// 	  STLMatArray[6].PrintAllBlocks();
 
 	  SaveData=true;
 
@@ -1648,7 +1661,7 @@ void CNRGCodeHandler::ModelSwitch(  vector<int> &CommonQNs,
 	}
 	// end switch calcdens
 
-	// actually SetHm1 !
+	// actually SetH0 !
 	OneChNupPdn_SetH0_AndersonMajorana(Params,pSingleSite,pAeig,STLMatArray);
 
 // 	// BuildBasis params (already out of here)
@@ -1658,7 +1671,7 @@ void CNRGCodeHandler::ModelSwitch(  vector<int> &CommonQNs,
 
 	// Wrap up
 	NumChannels=1;
-	Nsites0=0;
+	Nsites0=1;
 	NumNRGmats=STLMatArray.size();
 	MatArray=&STLMatArray[0]; // Need to do this after
 	// changes in STLMatArray!
