@@ -193,6 +193,12 @@ double OneChQSz_H0DQD_MatEl(vector<double> Params,
 			    CNRGmatrix* MatArray,
 			    int ist, int jst);
 
+double OneChNupPdn_H0DQD_MatEl(vector<double> Params,
+			    CNRGbasisarray* pAbasis, 
+			    CNRGbasisarray* pSingleSite,
+			    CNRGmatrix* MatArray,
+			    int ist, int jst);
+
 
 complex<double> OneChNupPdn_Hm1_Majorana_MatEl(vector<double> Params,
 					       CNRGbasisarray* pAbasis, 

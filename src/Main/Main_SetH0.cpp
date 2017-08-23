@@ -915,7 +915,8 @@ void OneChQSz_SetH0_DQD(vector<double> Params,
   CommonQNs.push_back(1); // position of Sz in old basis
   CommonQNs.push_back(0); // position of Q in SingleSite
   CommonQNs.push_back(1); // position of Sz in SingleSite
-
+  
+  
   // AbasisHm1 becomes "AcutHm1"
   AbasisHm1.FalseCut(&AeigHm1);
 
@@ -3271,9 +3272,55 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   
   printf (" \n \n \n \n \n \n \n \n \n PRINTING MATRICES \n  Holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa \n");
   auxMat.DiagHN(ParamsHm1,&AbasisHm1,pSingleSite,&AuxMatArray[0],pAeig,true);
-  printf ("\n Holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa \n");
-  
+  printf ("\n Holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa \n \n \n \n");
+
+  vector<int> CommonQNs;
+  vector<int> totSpos;
+  CNRGbasisarray AbasisH0;
+
+  CommonQNs.push_back(2); // No of common QNs
+  CommonQNs.push_back(0); // pos of QN 1 in old
+  CommonQNs.push_back(1); // pos of QN 2 in old
+
+  CommonQNs.push_back(0); // pos of QN 1 in SingleSite
+  CommonQNs.push_back(1); // pos of QN 2 in SingleSite
+
+  CommonQNs.push_back(1); // pos of Parity QN
   //exit(0);
+
+  totSpos.push_back(1);   // SU(2) symmetry in position 1
+  
+  // AbasisHm1 becomes "AcutHm1"
+  AbasisHm1.FalseCut(pAeig);
+
+  // Use "AcutHm1" to build the H0 basis
+  BuildBasis(CommonQNs,totSpos,&AbasisHm1,&AbasisH0,pSingleSite,0);
+
+  // Diagonalize H0: Aeig will be the new vector
+
+  auxMat.ClearAll(); //  H0 (re-using auxMat)
+  auxMat.NeedOld=false;
+  auxMat.UpperTriangular=true;
+  auxMat.CheckForMatEl=Diag_check;
+  //DONT FORGET I STILL NEED TO MODIFY THE FOLLOWING METHOD
+  auxMat.CalcHNMatEl=OneChNupPdn_H0DQD_MatEl;
+
+  vector<double> ParamsH0;
+  ParamsH0.push_back(gammatilde);
+  ParamsH0.push_back(gammatilde2);
+
+  auxMat.DiagHN(ParamsH0,&AbasisH0,pSingleSite,&AuxMatArray[0],pAeig);
+  pAeig->PrintEn();
+
+  // Update all operators return all.
+
+  // AbasisHm1 becomes "Acut"
+  AbasisHm1.FalseCut(pAeig);
+  
+  UpdateMatrices(pSingleSite,&AbasisHm1, 
+		 &AbasisH0,&STLNRGMats[0],STLNRGMats.size());
+  
+  cout << " ...  1chQSz_DQD H0 done. " << endl;
 
 }
 // end OneChNupPdn_SetAndersonMajorana_H0
