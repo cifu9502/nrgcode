@@ -3199,6 +3199,9 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   /////
   // set up and diagonalize Hm1 32x32 matrix
   /////
+
+  CNRGarray AeigHm1; // will be AeigHm1
+   
   auxMat.CheckForMatEl=Diag_check;
   auxMat.CalcHNMatElCplx=OneChNupPdn_Hm1_DoubleDotMajorana_MatEl;
   auxMat.IsComplex=true;
@@ -3221,9 +3224,9 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   //auxMat.DiagHN(ParamsHm1,&AbasisHm1,pSingleSite,&AuxMatArray[0],&AeigHm1);
   //AeigHm1.PrintEn();
 
-  auxMat.DiagHN(ParamsHm1,&AbasisHm1,pSingleSite,&AuxMatArray[0],pAeig,true);
+  auxMat.DiagHN(ParamsHm1,&AbasisHm1,pSingleSite,&AuxMatArray[0],&AeigHm1,true);
   
-  pAeig->PrintEn();
+  AeigHm1.PrintEn();
 
 
   // Rotate c1,c2 (in the UnCut basis!)
@@ -3233,10 +3236,14 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   for (int imat=0;imat<AuxMatArray.size();imat++){
     //RotateMatrix((&AuxMatArray[imat]),(&AeigHm1),&auxMat);
     //RotateMatrix_NoCut((&AuxMatArray[imat]),(&AeigHm1),&auxMat,1);
-    RotateMatrix_NoCut((&AuxMatArray[imat]),pAeig,&auxMat,1);
+    RotateMatrix_NoCut((&AuxMatArray[imat]),&AeigHm1,&auxMat,1);
     AuxMatArray[imat].CopyData(&auxMat);
   }
   // end loop in matrices
+
+
+  // THIS COMMENTS ARE TERRIBLY WRONG, NEED TO CHANGE THEM ONCE THE CODE IS COMPLETE
+  
 
 //    cout << " f_{-1 up}, c_up: " << endl;
 //   cout << " Ndot: " << endl;
@@ -3258,9 +3265,11 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
     STLNRGMats[6].CopyData(&AuxMatArray[4]);  //f_Maj
   } else if ( (strcmp(STLNRGMats[2].MatName,"Ndot")==0)&&
 	     (strcmp(STLNRGMats[3].MatName,"Szdot")==0) ){
-    STLNRGMats[2].CopyData(&AuxMatArray[2]); //Ndot  (rotated)
-    STLNRGMats[3].CopyData(&AuxMatArray[3]); //Szdot (rotated)
-    STLNRGMats[4].CopyData(&AuxMatArray[4]); //NMaj (rotated)
+    STLNRGMats[2].CopyData(&AuxMatArray[4]); //Ndot1  (rotated)
+    STLNRGMats[3].CopyData(&AuxMatArray[5]); //Ndot2 (rotated)
+    STLNRGMats[4].CopyData(&AuxMatArray[6]); //Szdot1 (rotated)
+    STLNRGMats[5].CopyData(&AuxMatArray[7]); //Szdot2  (rotated)
+    STLNRGMats[6].CopyData(&AuxMatArray[8]); //NMaj (rotated)
  
   }
 
@@ -3271,7 +3280,7 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
 
   
   printf (" \n \n \n \n \n \n \n \n \n PRINTING MATRICES \n  Holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa \n");
-  auxMat.DiagHN(ParamsHm1,&AbasisHm1,pSingleSite,&AuxMatArray[0],pAeig,true);
+  auxMat.DiagHN(ParamsHm1,&AbasisHm1,pSingleSite,&AuxMatArray[0],&AeigHm1,true);
   printf ("\n Holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa \n \n \n \n");
 
   vector<int> CommonQNs;
@@ -3288,10 +3297,10 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   CommonQNs.push_back(1); // pos of Parity QN
   //exit(0);
 
-  totSpos.push_back(1);   // SU(2) symmetry in position 1
+  // totSpos.push_back(1);   // SU(2) symmetry in position 1
   
   // AbasisHm1 becomes "AcutHm1"
-  AbasisHm1.FalseCut(pAeig);
+  AbasisHm1.FalseCut(&AeigHm1);
 
   // Use "AcutHm1" to build the H0 basis
   BuildBasis(CommonQNs,totSpos,&AbasisHm1,&AbasisH0,pSingleSite,0);
@@ -3308,7 +3317,7 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   vector<double> ParamsH0;
   ParamsH0.push_back(gammatilde);
   ParamsH0.push_back(gammatilde2);
-
+  printf ("\n \n \n \n \n Helloooooooooooooo, everything ready to start  \n \n \n \n");
   auxMat.DiagHN(ParamsH0,&AbasisH0,pSingleSite,&AuxMatArray[0],pAeig);
   pAeig->PrintEn();
 

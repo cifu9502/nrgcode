@@ -3,6 +3,8 @@
 #include "NRGfunctions.hpp"
 #include "TwoChQS.hpp"
 
+//I added a math file
+#include <math.h>
 // Note (Oct 2013)
 // This file should contains only drivers for setting up
 // specific matrices such as Hamiltonians for N=-1 or N=0
@@ -132,7 +134,7 @@ double TwoChQSNoSz_Hm1SMM_MatEl(vector<double> Params,
 {
 
   // August 08
-  // Calculates matrix elements for H0_SMM 
+  // Calculates matrix elements for H0SMM 
   // Sz enters in pAbasis->iDegen[i]/10
 
   double MatEl=0.0;
@@ -831,7 +833,7 @@ double OneChNupPdn_H0DQD_MatEl(vector<double> Params,
 			  CNRGbasisarray* pSingleSite,
 			  CNRGmatrix* MatArray,
 			  int ist, int jst){
-
+printf ("\n \n \n \n \n Helloooooooooooooow, New code starts running  \n \n \n \n");
   // October 2011
   // Calculates matrix elements for H0 (DQD+site) in the QSz basis.
   //
@@ -857,7 +859,15 @@ double OneChNupPdn_H0DQD_MatEl(vector<double> Params,
   //WHAT IS THE FOLLOWING, Qi ONLY APPEARS AT THIS PART? I SHALL REPLACE IT BY THE NEW SYMMETRY CONDITION
 
   //  if ( (dNEqual(Qi,Qj))||(dNEqual(Szi,Szj)) ) return(0.0);
+  if (~ !(dLEqual(fabs(Nupi-Nupj),1)))
+    return(0.0);
+  
+  if ((dNEqual(Pdni,Pdnj - 1)) && (dNEqual(Pdni,Pdnj + 1))&&
+      (dNEqual(Pdni,Pdnj)))
+    return(0.0);
 
+  if ((dEqual(Nupi,Nupj)) && (dEqual(Pdni,Pdnj)))
+    return(0.0);
 
 
   double OldEl[4]={0.0,0.0,0.0,0.0};
@@ -901,14 +911,16 @@ double OneChNupPdn_H0DQD_MatEl(vector<double> Params,
 	  type=typei;
 	}
 
-	// Get SingleSite QNumbers
+	// I NEED TO CHANGE THIS RULE NOW Get SingleSite QNumbers
 
  	double Qtilde=pSingleSite->GetQNumber(type,0);
 
 	// Check Fermi Sign (single channel) REALLY NEED TO CHANGE THIS
 	double FermiSign=1.0;
-	if (dEqual(Qtilde,0.0)) FermiSign=-1.0;
-
+	//if (dEqual(Qtilde,0.0)) FermiSign=-1.0;
+	//THE FOLLOWING LOOKS LIKE A NICE REPLACEMENT, BUT STILL NEED TO ASK TO LUIS
+	if ((type==1)||(typep==2)) FermiSign=-1.0;
+	// I HAVE TO CHANGE THIS TABLE?
 	double FullMatEl=OneCh_fd_table(sigma,typep,type)*FermiSign;
 
 	MatEl+=chi_N[idot-1]*OldEl[icounter]*FullMatEl;

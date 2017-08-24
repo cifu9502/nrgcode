@@ -9,7 +9,6 @@
 #include <vector>
 //#include <cmath>
 //#include <cstring>
-
 //#include <unistd.h>
 
 #include "NRGclasses.hpp"
@@ -1466,7 +1465,7 @@ void CNRGCodeHandler::ModelSwitch(  vector<int> &CommonQNs,
       CommonQNs.push_back(1); // pos of QN 2 in old
 
       CommonQNs.push_back(0); // pos of QN 1 in SingleSite
-      CommonQNs.push_back(1); // pos of QN 2 in SingleSite
+      CommonQNs.push_back(1); // pos of QN 1 in SingleSite
 
       CommonQNs.push_back(1); // pos of Parity QN
       // No total S variables. Leave totSpos empty
