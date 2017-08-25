@@ -833,7 +833,7 @@ double OneChNupPdn_H0DQD_MatEl(vector<double> Params,
 			  CNRGbasisarray* pSingleSite,
 			  CNRGmatrix* MatArray,
 			  int ist, int jst){
-printf ("\n \n \n \n \n Helloooooooooooooow, New code starts running  \n \n \n \n");
+  //printf ("\n \n \n \n \n Helloooooooooooooow, New code starts running  \n \n \n \n");
   // October 2011
   // Calculates matrix elements for H0 (DQD+site) in the QSz basis.
   //
@@ -859,16 +859,19 @@ printf ("\n \n \n \n \n Helloooooooooooooow, New code starts running  \n \n \n \
   //WHAT IS THE FOLLOWING, Qi ONLY APPEARS AT THIS PART? I SHALL REPLACE IT BY THE NEW SYMMETRY CONDITION
 
   //  if ( (dNEqual(Qi,Qj))||(dNEqual(Szi,Szj)) ) return(0.0);
-  if (~ !(dLEqual(fabs(Nupi-Nupj),1)))
-    return(0.0);
+  if ( (dNEqual(Nupi,Nupj))||(dNEqual(Pdni,Pdnj)) ) return(0.0);
+
+  //if (~ !(dLEqual(fabs(Nupi-Nupj),1)))
+  // return(0.0);
   
-  if ((dNEqual(Pdni,Pdnj - 1)) && (dNEqual(Pdni,Pdnj + 1))&&
-      (dNEqual(Pdni,Pdnj)))
-    return(0.0);
+  //if (~ !(dLEqual(fabs(Pdni-Pdnj),1)))
+  // return(0.0);
 
-  if ((dEqual(Nupi,Nupj)) && (dEqual(Pdni,Pdnj)))
-    return(0.0);
+  //if ((dEqual(Nupi,Nupj)) && (dEqual(Pdni,Pdnj)))
+  //return(0.0);
 
+  //if ((dNEqual(Nupi,Nupj)) && (dNEqual(Pdni,Pdnj)))
+  //return(0.0);
 
   double OldEl[4]={0.0,0.0,0.0,0.0};
   
@@ -881,6 +884,7 @@ printf ("\n \n \n \n \n Helloooooooooooooow, New code starts running  \n \n \n \
     int stcfi=pAbasis->StCameFrom[ist];
     
     int typej=pAbasis->iType[jst];
+    //state came from
     int stcfj=pAbasis->StCameFrom[jst];
 
     // Get c1_up matrix element from MatArray[0]
@@ -913,27 +917,33 @@ printf ("\n \n \n \n \n Helloooooooooooooow, New code starts running  \n \n \n \
 
 	// I NEED TO CHANGE THIS RULE NOW Get SingleSite QNumbers
 
- 	double Qtilde=pSingleSite->GetQNumber(type,0);
+ 	//double Qtilde=pSingleSite->GetQNumber(type,0);
+ 	double Nuptilde=pSingleSite->GetQNumber(type,0);
+	double Pdntilde=pSingleSite->GetQNumber(type,0);
 
-	// Check Fermi Sign (single channel) REALLY NEED TO CHANGE THIS
 	double FermiSign=1.0;
-	//if (dEqual(Qtilde,0.0)) FermiSign=-1.0;
-	//THE FOLLOWING LOOKS LIKE A NICE REPLACEMENT, BUT STILL NEED TO ASK TO LUIS
-	if ((type==1)||(typep==2)) FermiSign=-1.0;
+	// 	if (dEqual(Qtilde,0.0)) FermiSign=-1.0;
+	// |tilde> is |up>=|Nup=1 Pdn=1> or |dn>=|Nup=0 Pdn=-1>
+	if (  ( (dEqual(Nuptilde,1.0))&&(dEqual(Pdntilde,1.0)) )||
+	      ( (dEqual(Nuptilde,0.0))&&(dEqual(Pdntilde,-1.0)) )
+	      )  
+	  FermiSign=-1.0;
+
+      
 	// I HAVE TO CHANGE THIS TABLE?
 	double FullMatEl=OneCh_fd_table(sigma,typep,type)*FermiSign;
 
 	MatEl+=chi_N[idot-1]*OldEl[icounter]*FullMatEl;
 
-	// 	if (( (ist==5)||(ist==6) )&&( (jst==9)||(jst==9) ))
-	// 	  cout << " idot = " << idot
-	// 	       << " FermiSign = " << FermiSign
-	// 	       << " sigma = " << sigma
-	// 	    //<< " Szold = " << Szold
-	// 	       << " OldEl = " << OldEl[icounter]
-	// 	       << " FullMatEl = " << FullMatEl
-	// 	       << " MatEl = " << MatEl
-	// 	       << endl;
+	if (( (ist==5)||(ist==6) )&&( (jst==9)||(jst==9) ))
+	  cout << " idot = " << idot
+	       << " FermiSign = " << FermiSign
+	       << " sigma = " << sigma
+	    //<< " Szold = " << Szold
+	       << " OldEl = " << OldEl[icounter]
+	       << " FullMatEl = " << FullMatEl
+	       << " MatEl = " << MatEl
+	       << endl;
 
 
 	icounter++;
