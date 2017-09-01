@@ -1015,6 +1015,7 @@ complex<double> OneChNupPdn_Hm1_Majorana_MatEl(vector<double> Params,
 
   // Matrix elements
 
+
   double Nupi=pAbasis->GetQNumberFromSt(ist,0);
   double Pdni=pAbasis->GetQNumberFromSt(ist,1);
 
@@ -1112,6 +1113,7 @@ complex<double> OneChNupPdn_Hm1_DoubleDotMajorana_MatEl(vector<double> Params,
 
   tplus2  = complex<double>(re_tplus2 , im_tplus2 );
   tminus2 = complex<double>(re_tminus2, im_tminus2);
+
 
 
   // Matrix elements
