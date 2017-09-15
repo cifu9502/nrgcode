@@ -1672,6 +1672,7 @@ void CNRGCodeHandler::ModelSwitch(  vector<int> &CommonQNs,
 	// Wrap up
 	NumChannels=1;
 	Nsites0=1;
+	
 	NumNRGmats=STLMatArray.size();
 	MatArray=&STLMatArray[0]; // Need to do this after
 	// changes in STLMatArray!

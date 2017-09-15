@@ -15,4 +15,5 @@ vec(10:11)=[0 0];
 vec(12:13)=eig(m1);
 vec(14:15)=eig(m1);
 vec(16)= E0;
+min(vec)
 Ens = vec - min(vec);

@@ -2649,7 +2649,8 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   double gammatilde=Params[4];
   double hz=0.5*Params[5]/(Lambda*HalfLambdaFactor);; // hz=g mu_B Bz: Zeeman term is:  - hz S_z
 
- 
+  //ed1 = ed1*pow(Lambda,0.5);
+  //U1 = U1*pow(Lambda,0.5);
 
   // Remember:
   // gamma~=(2*Gamma/pi)^1/2/(sqrt(Lambda)*HalfLambdaFactor)
@@ -2755,7 +2756,7 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   
   AbasisHm1.dEn.push_back(2*ed2+1.5*U2+ed1+0.5*U1-hz+em);
   AbasisHm1.dEn.push_back(ed2+0.5*Uplus+hz+em);
-  AbasisHm1.dEn.push_back(2*ed2+1.5*U2 +0.5*U2-em);
+  AbasisHm1.dEn.push_back(2*ed2+1.5*U2 +0.5*U1-em);
   AbasisHm1.dEn.push_back(edplus+0.5*Uplus-em);
   AbasisHm1.BlockBegEnd.push_back(8);AbasisHm1.BlockBegEnd.push_back(15);
 
@@ -3201,7 +3202,7 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   /////
 
   CNRGarray AeigHm1; // will be AeigHm1
-   
+  auxMat.ClearAll(); //  Hm1 (re-using auxMat) 
   auxMat.CheckForMatEl=Diag_check;
   auxMat.CalcHNMatElCplx=OneChNupPdn_Hm1_DoubleDotMajorana_MatEl;
   auxMat.IsComplex=true;
@@ -3236,7 +3237,7 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   for (int imat=0;imat<AuxMatArray.size();imat++){
     //RotateMatrix((&AuxMatArray[imat]),(&AeigHm1),&auxMat);
     //RotateMatrix_NoCut((&AuxMatArray[imat]),(&AeigHm1),&auxMat,1);
-    RotateMatrix_NoCut((&AuxMatArray[imat]),&AeigHm1,&auxMat,1);
+    RotateMatrix_NoCut((&AuxMatArray[imat]),(&AeigHm1),&auxMat,1);
     AuxMatArray[imat].CopyData(&auxMat);
   }
   // end loop in matrices
@@ -3251,9 +3252,11 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
 
   // Set up operators in the Hm1 basis
   // ndot, Sz, S1 dot S2 if calcdens==0
-
+  //THIS IS THE PART WHERE Ill find POSSIBLE ERRORS
   STLNRGMats[0].CopyData(&AuxMatArray[0]);  //f_{-1 up}
   STLNRGMats[1].CopyData(&AuxMatArray[1]);  //f_{-1 dn}
+  STLNRGMats[0].CopyData(&AuxMatArray[2]);  //c1_up
+  STLNRGMats[1].CopyData(&AuxMatArray[3]);  //c1_dn
 
   if (	(strcmp(STLNRGMats[2].MatName,"cd1_up")==0)&&
 	(strcmp(STLNRGMats[3].MatName,"cd1_dn")==0) ){
@@ -3279,9 +3282,9 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   // Perhaps this can be done in the code itself.
 
   
-  printf (" \n \n \n \n \n \n \n \n \n PRINTING MATRICES \n  Holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa \n");
-  auxMat.DiagHN(ParamsHm1,&AbasisHm1,pSingleSite,&AuxMatArray[0],&AeigHm1,true);
-  printf ("\n Holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa \n \n \n \n");
+  // printf (" \n \n \n \n \n \n \n \n \n PRINTING MATRICES \n  Holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa \n");
+  //auxMat.DiagHN(ParamsHm1,&AbasisHm1,pSingleSite,&AuxMatArray[0],&AeigHm1,true);
+  //printf ("\n Holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa \n \n \n \n");
 
   vector<int> CommonQNs;
   vector<int> totSpos;
@@ -3307,18 +3310,29 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
 
   // Diagonalize H0: Aeig will be the new vector
 
-  auxMat.ClearAll(); //  H0 (re-using auxMat)
+  auxMat.ClearAll(); //  H0 (re-using auxMat) 
+  auxMat.CheckForMatEl=Diag_check;
+  auxMat.CalcHNMatEl=OneChNupPdn_H0DQD_MatEl;
+  auxMat.IsComplex=true;
+  //  Block Structure
+  auxMat.SyncNRGarray(AbasisH0);
   auxMat.NeedOld=false;
   auxMat.UpperTriangular=true;
-  auxMat.CheckForMatEl=Diag_check;
+
+  //auxMat.ClearAll(); //  H0 (re-using auxMat)
+  //auxMat.NeedOld=false;
+  //auxMat.UpperTriangular=true;
+  //auxMat.CheckForMatEl=Diag_check;
   //DONT FORGET I STILL NEED TO MODIFY THE FOLLOWING METHOD
-  auxMat.CalcHNMatEl=OneChNupPdn_H0DQD_MatEl;
+  //auxMat.CalcHNMatEl=OneChNupPdn_H0DQD_MatEl;
 
   vector<double> ParamsH0;
   ParamsH0.push_back(gammatilde);
   ParamsH0.push_back(gammatilde2);
+  ParamsH0.push_back(pow(Lambda,0.5));
+  
   printf ("\n \n \n \n \n Helloooooooooooooo, everything ready to start  \n \n \n \n");
-  auxMat.DiagHN(ParamsH0,&AbasisH0,pSingleSite,&AuxMatArray[0],pAeig);
+  auxMat.DiagHN(ParamsH0,&AbasisH0,pSingleSite,&AuxMatArray[0],pAeig,true);
   pAeig->PrintEn();
 
   // Update all operators return all.
