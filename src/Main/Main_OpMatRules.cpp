@@ -828,12 +828,12 @@ double OneChQSz_H0DQD_MatEl(vector<double> Params,
 
 
 
-double OneChNupPdn_H0DQD_MatEl(vector<double> Params,
+complex<double> OneChNupPdn_H0DQD_MatEl(vector<double> Params,
 			  CNRGbasisarray* pAbasis, 
 			  CNRGbasisarray* pSingleSite,
 			  CNRGmatrix* MatArray,
 			  int ist, int jst){
-  //printf ("\n \n \n \n \n Helloooooooooooooow, New code starts running  \n \n \n \n");
+  //printf ("\n \n \n \n \n Haaaaaaaaaaaalloooooooooooooow, New code starts running  \n \n \n \n");
   // October 2011
   // Calculates matrix elements for H0 (DQD+site) in the QSz basis.
   //
@@ -847,7 +847,7 @@ double OneChNupPdn_H0DQD_MatEl(vector<double> Params,
   // Abasis       - DQD + site
   // pSingleSite  - OneChQSz single site
 
-  double MatEl=0.0;
+  complex<double> cMatEl=ZeroC;
 
   double chi_N[2]={Params[0],Params[1]};
 
@@ -859,7 +859,7 @@ double OneChNupPdn_H0DQD_MatEl(vector<double> Params,
   //WHAT IS THE FOLLOWING, Qi ONLY APPEARS AT THIS PART? I SHALL REPLACE IT BY THE NEW SYMMETRY CONDITION
 
   //  if ( (dNEqual(Qi,Qj))||(dNEqual(Szi,Szj)) ) return(0.0);
-  if ( (dNEqual(Nupi,Nupj))||(dNEqual(Pdni,Pdnj)) ) return(0.0);
+  if ( (dNEqual(Nupi,Nupj))||(dNEqual(Pdni,Pdnj))) return(ZeroC);
 
   //if (~ !(dLEqual(fabs(Nupi-Nupj),1)))
   // return(0.0);
@@ -872,14 +872,17 @@ double OneChNupPdn_H0DQD_MatEl(vector<double> Params,
 
   //if ((dNEqual(Nupi,Nupj)) && (dNEqual(Pdni,Pdnj)))
   //return(0.0);
-
-  double OldEl[4]={0.0,0.0,0.0,0.0};
   
-
+  complex<double> OldEl[4]={ZeroC,ZeroC,ZeroC,ZeroC};
+  //double OldEl[4]={0.0,0.0,0.0,0.0};
+  
   if (ist==jst){ // Diagonal terms
-    MatEl=pAbasis->dEn[ist];
+    cMatEl=complex<double>(pAbasis->dEn[ist]*Params[2],0.0);
+    //cout << " idot = " << cMatEl*Params[2];
+    
   }
   else{
+   
     int typei=pAbasis->iType[ist];
     int stcfi=pAbasis->StCameFrom[ist];
     
@@ -897,29 +900,37 @@ double OneChNupPdn_H0DQD_MatEl(vector<double> Params,
     // Sum in dots
 
     int icounter=0;
-    for (int idot=1;idot<=2;idot++){
+    
 
+    // return ZeroC;
+    for (int idot=1;idot<=2;idot++){
       // Add a sum in spins.
       for (int sigma=1;sigma>=-1;sigma-=2){
+	
+
 	double dSigma=0.5*(double)sigma;
 
-	OldEl[icounter]=MatArray[icounter].GetMatEl(stcfi,stcfj); //
+	OldEl[icounter]=MatArray[icounter].cGetMatEl(stcfi,stcfj); //
 
 	int typep=typei;
 	int type=typej;
 
+
 	// if zero, try h.c.
-	if (dEqual(fabs(OldEl[icounter]),0.0)){
-	  OldEl[icounter]=MatArray[icounter].GetMatEl(stcfj,stcfi);
+	if ((dEqual(fabs(OldEl[icounter].real()),0.0))&&(dEqual(fabs(OldEl[icounter].imag()),0.0))){
+	  OldEl[icounter]=MatArray[icounter].cGetMatEl(stcfj,stcfi);
 	  typep=typej;
 	  type=typei;
-	}
+	  }
 
 	// I NEED TO CHANGE THIS RULE NOW Get SingleSite QNumbers
 
  	//double Qtilde=pSingleSite->GetQNumber(type,0);
  	double Nuptilde=pSingleSite->GetQNumber(type,0);
 	double Pdntilde=pSingleSite->GetQNumber(type,1);
+
+
+
 
 	double FermiSign=1.0;
 	// 	if (dEqual(Qtilde,0.0)) FermiSign=-1.0;
@@ -932,18 +943,20 @@ double OneChNupPdn_H0DQD_MatEl(vector<double> Params,
       
 	// I HAVE TO CHANGE THIS TABLE?
 	double FullMatEl=OneCh_fd_table(sigma,typep,type)*FermiSign;
+	cout << " \n i2= "       << idot
+	     << " j2= "       << sigma;	
+	cMatEl+=chi_N[idot-1]*OldEl[icounter]*FullMatEl;
 
-	MatEl+=chi_N[idot-1]*OldEl[icounter]*FullMatEl;
 	//MatEl+=chi_N[idot-1]*FullMatEl;
 	//if (( (ist==8)||(ist==10) )&&( (jst==8)||(jst==10) ))
-	if (ist==8)
+	if (( (ist==8)||(ist==10) )&&( (jst==8)||(jst==10) ))
 	  cout << " idot = " << idot
 	       << " FermiSign = " << FermiSign
 	       << " sigma = " << sigma
 	    //<< " Szold = " << Szold
 	       << " OldEl = " << OldEl[icounter]
 	       << " FullMatEl = " << FullMatEl
-	       << " MatEl = " << MatEl
+	       << " MatEl = " << cMatEl
 	       << endl;
 
 	
@@ -958,8 +971,7 @@ double OneChNupPdn_H0DQD_MatEl(vector<double> Params,
   // end if ist==jst
 
 
-  return(MatEl);
-
+  return(cMatEl);
 }
 /////////////////////////
 

@@ -3289,6 +3289,7 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   vector<int> CommonQNs;
   vector<int> totSpos;
   CNRGbasisarray AbasisH0;
+ 
 
   CommonQNs.push_back(2); // No of common QNs
   CommonQNs.push_back(0); // pos of QN 1 in old
@@ -3309,15 +3310,22 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   BuildBasis(CommonQNs,totSpos,&AbasisHm1,&AbasisH0,pSingleSite,0);
 
   // Diagonalize H0: Aeig will be the new vector
-
-  auxMat.ClearAll(); //  H0 (re-using auxMat) 
+  // CNRGmatrix auxMat1;
+  
+  auxMat.ClearAll(); //  H0 (re-using auxMat)
+  //auxMat.CalcHNMatEl= OneChQSz_H0DQD_MatEl;
   auxMat.CheckForMatEl=Diag_check;
-  auxMat.CalcHNMatEl=OneChNupPdn_H0DQD_MatEl;
+  auxMat.CalcHNMatElCplx=OneChNupPdn_H0DQD_MatEl;
   auxMat.IsComplex=true;
-  //  Block Structure
   auxMat.SyncNRGarray(AbasisH0);
   auxMat.NeedOld=false;
   auxMat.UpperTriangular=true;
+  
+  
+ 
+  //  Block Structure
+  //auxMat.SyncNRGarray(AbasisH0);
+ 
 
   //auxMat.ClearAll(); //  H0 (re-using auxMat)
   //auxMat.NeedOld=false;
@@ -3327,9 +3335,16 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   //auxMat.CalcHNMatEl=OneChNupPdn_H0DQD_MatEl;
 
   vector<double> ParamsH0;
-  ParamsH0.push_back(gammatilde);
-  ParamsH0.push_back(gammatilde2);
+  ParamsH0.push_back(gammatilde*sqrt(0.5*log(Lambda)*(Lambda+1)/(Lambda-1)));
+  ParamsH0.push_back(gammatilde2*sqrt(0.5*log(Lambda)*(Lambda+1)/(Lambda-1)));
   ParamsH0.push_back(pow(Lambda,0.5));
+
+  //cout << " Error?." << AuxMatArray[0].GetMatEl(1,2);,
+  cout << " Error?." << AuxMatArray[0].GetMatEl(8,9);
+
+
+  AuxMatArray[0].PrintAllBlocks();
+  
   
   printf ("\n \n \n \n \n Helloooooooooooooo, everything ready to start  \n \n \n \n");
   auxMat.DiagHN(ParamsH0,&AbasisH0,pSingleSite,&AuxMatArray[0],pAeig,true);
@@ -3338,6 +3353,7 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   // Update all operators return all.
 
   // AbasisHm1 becomes "Acut"
+  AbasisHm1.ClearAll();
   AbasisHm1.FalseCut(pAeig);
   
   UpdateMatrices(pSingleSite,&AbasisHm1, 
