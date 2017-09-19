@@ -1677,7 +1677,7 @@ void CNRGCodeHandler::ModelSwitch(  vector<int> &CommonQNs,
 	MatArray=&STLMatArray[0]; // Need to do this after
 	// changes in STLMatArray!
 
-	cout << " N=-1 ok. Going to N=0... " << endl;
+	cout << " N=-1 and N=0 ok. Going to N=1... " << endl;
 	
 	cout << " pAeig is complex ? " << pAeig->CheckComplex() << endl;
 

@@ -2667,7 +2667,7 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   double t1=Params[6]/(Lambda*HalfLambdaFactor);
   double t2=Params[7]/(Lambda*HalfLambdaFactor);
   double U2=Params[8]/(Lambda*HalfLambdaFactor);
-  double gammatilde2=Params[9];
+  double gammatilde2=Params[9]*sqrt(0.5*log(Lambda)*(Lambda+1)/(Lambda-1));
   double ed2=Params[10]/(Lambda*HalfLambdaFactor);
   double tdots=Params[11]/(Lambda*HalfLambdaFactor);
 
@@ -2711,7 +2711,9 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
 	<< " t22~= " << t22
 	<< " phimag2= " << phi_mag2    
 	<< " U+~= " << Uplus
-	<< " ed+~= " << edplus    
+	<< " ed+~= " << edplus
+	<< "gammatilde~=" << gammatilde
+	<< "gammatilde2~=" << gammatilde2
 	<< endl;
 
 
@@ -3335,8 +3337,8 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   //auxMat.CalcHNMatEl=OneChNupPdn_H0DQD_MatEl;
 
   vector<double> ParamsH0;
-  ParamsH0.push_back(gammatilde*sqrt(0.5*log(Lambda)*(Lambda+1)/(Lambda-1)));
-  ParamsH0.push_back(gammatilde2*sqrt(0.5*log(Lambda)*(Lambda+1)/(Lambda-1)));
+  ParamsH0.push_back(gammatilde);
+  ParamsH0.push_back(gammatilde2);
   ParamsH0.push_back(pow(Lambda,0.5));
 
   //cout << " Error?." << AuxMatArray[0].GetMatEl(1,2);,
