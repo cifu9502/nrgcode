@@ -2769,11 +2769,11 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   AbasisHm1.dEn.push_back(ed1+0.5*Uplus+hz-em);
   AbasisHm1.dEn.push_back(2*ed1+1.5*U1+ed2+0.5*U2-hz-em);
   AbasisHm1.dEn.push_back(2*ed1+1.5*U1+0.5*U2+em);
-  AbasisHm1.dEn.push_back(edplus+0.5*Uplus +0.5*U2+em);
+  AbasisHm1.dEn.push_back(edplus+0.5*Uplus+em);
   
   AbasisHm1.dEn.push_back(ed2+0.5*Uplus+hz-em);
   AbasisHm1.dEn.push_back(2*ed2+1.5*U2+ed1+0.5*U1-hz-em);
-  AbasisHm1.dEn.push_back(edplus+0.5*Uplus +0.5*U2+em);
+  AbasisHm1.dEn.push_back(edplus+0.5*Uplus +em);
   AbasisHm1.dEn.push_back(2*ed2+1.5*U2+0.5*U1+em);
   AbasisHm1.BlockBegEnd.push_back(16);AbasisHm1.BlockBegEnd.push_back(23);
 
@@ -2906,8 +2906,8 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   // c_2dn|up dn>|0(dn)>=-|up>|0(dn)>  
   AuxMatArray[3].PushMatEl(-1.0,6,0); 
   AuxMatArray[3].PushMatEl(1.0,4,2); 
-  AuxMatArray[3].PushMatEl(1.0,3,5); 
-  AuxMatArray[3].PushMatEl(-1.0,1,7);
+  AuxMatArray[3].PushMatEl(-1.0,3,5); 
+  AuxMatArray[3].PushMatEl(1.0,1,7);
   
   AuxMatArray[3].PushMatEl(1.0,18,8); 
   AuxMatArray[3].PushMatEl(-1.0,16,10); 

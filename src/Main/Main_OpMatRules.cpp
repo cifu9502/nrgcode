@@ -943,8 +943,7 @@ complex<double> OneChNupPdn_H0DQD_MatEl(vector<double> Params,
       
 	// I HAVE TO CHANGE THIS TABLE?
 	double FullMatEl=OneCh_fd_table(sigma,typep,type)*FermiSign;
-	cout << " \n i2= "       << idot
-	     << " j2= "       << sigma;	
+
 	cMatEl+=chi_N[idot-1]*OldEl[icounter]*FullMatEl;
 
 	//MatEl+=chi_N[idot-1]*FullMatEl;
