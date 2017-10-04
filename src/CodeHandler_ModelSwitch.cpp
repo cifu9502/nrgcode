@@ -1672,6 +1672,8 @@ void CNRGCodeHandler::ModelSwitch(  vector<int> &CommonQNs,
 	// Wrap up
 	NumChannels=1;
 	Nsites0=1;
+
+	chi_m1=chain.GetChin(0);
 	
 	NumNRGmats=STLMatArray.size();
 	MatArray=&STLMatArray[0]; // Need to do this after
