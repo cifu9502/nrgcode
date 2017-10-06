@@ -866,9 +866,9 @@ complex<double> OneChNupPdn_H0DQD_MatEl(vector<double> Params,
   if (ist==jst){ // Diagonal terms
     cMatEl=complex<double>(pAbasis->dEn[ist]*Params[2],0.0);
     //cout << " idot = " << cMatEl*Params[2];
-
   }
   else{
+
 
     int typei=pAbasis->iType[ist];
     int stcfi=pAbasis->StCameFrom[ist];
@@ -876,6 +876,8 @@ complex<double> OneChNupPdn_H0DQD_MatEl(vector<double> Params,
     int typej=pAbasis->iType[jst];
     //state came from
     int stcfj=pAbasis->StCameFrom[jst];
+
+
 
     // Get c1_up matrix element from MatArray[0]
     // Get c1_dn matrix element from MatArray[1]
@@ -928,17 +930,21 @@ complex<double> OneChNupPdn_H0DQD_MatEl(vector<double> Params,
 
 	//MatEl+=chi_N[idot-1]*FullMatEl;
 	//if (( (ist==8)||(ist==10) )&&( (jst==8)||(jst==10) ))
-	/*if (( (ist==8)||(ist==10) )&&( (jst==8)||(jst==10) ))
-	  cout << " idot = " << idot
+	if (dEqual(Nupi,0.0)&&dEqual(Pdni,-1.0))
+	  cout << " Oiiiiiiiii"
+					<< " ist= " << ist
+					<< " jst = " << jst
+					<< " idot = " << idot
 	       << " FermiSign = " << FermiSign
 	       << " sigma = " << sigma
 	    //<< " Szold = " << Szold
 	       << " OldEl = " << OldEl[icounter]
 	       << " FullMatEl = " << FullMatEl
 	       << " MatEl = " << cMatEl
+				 << "chi_N[idot-1]*OldEl[icounter]" << chi_N[idot-1]*OldEl[icounter]
 	       << endl;
 
-	*/
+
 	icounter++;
       }
       // end loop in sigma

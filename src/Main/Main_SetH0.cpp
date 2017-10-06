@@ -2853,8 +2853,8 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   AuxMatArray[0].PushMatEl(1.0,22,30);
   AuxMatArray[0].PushMatEl(1.0,23,31);
 
-  cout << " c1_up: " << endl;
-  AuxMatArray[0].PrintAllBlocks();
+  //cout << " c1_up: " << endl;
+  //AuxMatArray[0].PrintAllBlocks();
 
 
   // c_1dn|dn>|0(dn)>=+|0>|0(dn)>
@@ -2925,11 +2925,11 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   AuxMatArray[3].PushMatEl(-1.0,27,29);
   AuxMatArray[3].PushMatEl(1.0,25,31);
 
-   cout << " c1_dn " << endl;
-  AuxMatArray[1].PrintAllBlocks();
+   //cout << " c1_dn " << endl;
+  //AuxMatArray[1].PrintAllBlocks();
 
-  cout << " c2_dn " << endl;
-  AuxMatArray[3].PrintAllBlocks();
+  //cout << " c2_dn " << endl;
+  //AuxMatArray[3].PrintAllBlocks();
 
   if (	(strcmp(STLNRGMats[2].MatName,"cd1_up")==0)&&
 	(strcmp(STLNRGMats[3].MatName,"cd1_dn")==0) ){
@@ -2963,7 +2963,7 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
     AuxMatArray[4].PushMatEl(1.0,14,23);
 
     cout << " f_dn: " << endl;
-    AuxMatArray[4].PrintAllBlocks();
+    //AuxMatArray[4].PrintAllBlocks();
 
   }else if ( (strcmp(STLNRGMats[2].MatName,"Ndot")==0)&&
 	     (strcmp(STLNRGMats[3].MatName,"Szdot")==0) ){
@@ -3175,11 +3175,11 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
 
       cout << " Ndot2: " << endl;
 
-  AuxMatArray[5].PrintAllBlocks();
+  //AuxMatArray[5].PrintAllBlocks();
 
     cout << " Sz1: " << endl;
 
-  AuxMatArray[6].PrintAllBlocks();
+  //AuxMatArray[6].PrintAllBlocks();
 
 
   } else {
@@ -3232,6 +3232,8 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
 
   AeigHm1.PrintEn();
 
+	cout << " c1_up: " << endl;
+  AuxMatArray[0].PrintAllBlocks();
 
   // Rotate c1,c2 (in the UnCut basis!)
   // Matrices are complex!
@@ -3245,7 +3247,8 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   }
   // end loop in matrices
 
-
+	cout << " c1_up: " << endl;
+  AuxMatArray[0].PrintAllBlocks();
   // THIS COMMENTS ARE TERRIBLY WRONG, NEED TO CHANGE THEM ONCE THE CODE IS COMPLETE
 
 
@@ -3343,7 +3346,7 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   ParamsH0.push_back(pow(Lambda,0.5));
 
   //cout << " Error?." << AuxMatArray[0].GetMatEl(1,2);,
-  cout << " Error?." << AuxMatArray[0].GetMatEl(8,9);
+  cout << " Error?." << AuxMatArray[0].GetMatEl(0,2);
 
 
   AuxMatArray[0].PrintAllBlocks();
