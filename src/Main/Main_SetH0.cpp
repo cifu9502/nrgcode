@@ -2681,9 +2681,10 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   //NEW CODE, I START BY ADDING SOME MISSING PARAMETERS, THE PARAMETERS OF THE SECOND QD WILL BE INITIALIZED EQUAL TO THE FIRST ONE
   //double tdots = t1+t2;
 
-  double t11 = t1;
-  double t12 = 0;
-
+  //double t11 = t1;
+  //double t12 = 0;
+	double t11 = 0;
+	double t12 = t1;
 
   //  double U2 = Utilde;
   //double ed2 = edtilde;
@@ -3307,7 +3308,7 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   CommonQNs.push_back(1); // pos of Parity QN
   //exit(0);
 
-  // totSpos.push_back(1);   // SU(2) symmetry in position 1
+  // totSpos.push_back(1);   // SU(2) symmetry in position
 
   // AbasisHm1 becomes "AcutHm1"
   AbasisHm1.FalseCut(&AeigHm1);

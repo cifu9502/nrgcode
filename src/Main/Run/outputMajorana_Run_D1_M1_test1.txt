@@ -1,0 +1,2478 @@
+ Got Model = 1chNupPdn_Majorana Got 1chNupPdn Majorana 
+ - Model No: 7
+ Symmetry : OneChNupPdn - SymNo : 6
+ BandType : SquareWilson - BandNo : 0
+ NRG: Model : 1chNupPdn_Majorana - Symmetry : OneChNupPdn - Band Type: SquareWilson
+ Nsitesmax    = 1
+ Ncutoff      = 1000
+ U            = 0.5
+ Gamma        = 0.0282691
+ ed           = -0.25
+ Lambda       = 2.5
+ ChemPot      = 0
+ UpdateBefCut = 0
+ calcdens     = 0
+ Oliveira z   = 1
+ Additional parameters : 
+ Param 3  = 0
+ Param 4  = 0.02
+ Param 5  = 0
+ Param 6  = 0
+ Param 7  = 0
+ Param 8  = 0
+ Param 9  = 0
+ SetSingleSite begin... 
+ Got OneChNupPdn 
+ .. SetSingleSite done!
+ Fsq = 2 chi_m1 = 0.121207 eN(0) = 0
+ sqrt(ALambda)*chi_m1 = 0.125319
+Zstring = _zEQ1
+ Majorana + QD effective model 
+ Lambda= 2.5 HalfLambdaFactor= 0.7
+ U1~= 0.285714 U2~= 0 ed1~= -0.142857 ed2~= 0 hz~= 0
+ t1~= 0.0114286 t2~= 0 phimag= 0 em~= 0 t12~= 0.0114286 t22~= 0 phimag2= 0 U+~= 0.285714 ed+~= -0.142857gammatilde~=0.125319gammatilde2~=0
+ Setting up 1-body observables...
+ Ndot2: 
+ Sz1: 
+ Setting up H_(N =-1 : ibl = 0 size = 4 (Nbls = 6)
+ Limits : 0  3
+ Setting up H_(N =-1 : ibl = 1 size = 4 (Nbls = 6)
+ Limits : 4  7
+ Setting up H_(N =-1 : ibl = 2 size = 8 (Nbls = 6)
+ Limits : 8  15
+ Setting up H_(N =-1 : ibl = 3 size = 8 (Nbls = 6)
+ Limits : 16  23
+ Setting up H_(N =-1 : ibl = 4 size = 4 (Nbls = 6)
+ Limits : 24  27
+ Setting up H_(N =-1 : ibl = 5 size = 4 (Nbls = 6)
+ Limits : 28  31
+ Done setting up HN. 
+Updating Aeig... 
+ ******************* 
+Block no. 0 : 0.000000 -1.000000 
+ Beg: 0 End: 3
+0 Eold = 0.000000e+00  
+1 Eold = 1.428571e-01  
+2 Eold = 1.428571e-01  
+3 Eold = 0.000000e+00  
+ Block (0) x Block (0) : 0.000000 -1.000000   x  0.000000 -1.000000 
+Nsti = 0 to 3   ;   Nstj = 0 to 3
+(0,0) (0,0) (-0.00808122,-0) (0,0) 
+(0,-0) (0.142857,0) (0,0) (-0.00808122,0) 
+(-0.00808122,0) (0,-0) (0.142857,0) (0,0) 
+(0,-0) (-0.00808122,-0) (0,-0) (0,0) 
+
+ Diagonalizing block 0 of 5
+Upper triangular
+Block no. 0 : 0.000000 -1.000000 
+ dEn : 
+0 : -4.556893e-04
+1 : -4.556893e-04
+2 : 1.433128e-01
+3 : 1.433128e-01
+Kept States: 
+ dEigVec (rows): 
+(-9.984139e-01,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-5.629924e-02,0.000000e+00)  (0.000000e+00,-0.000000e+00)  
+(-0.000000e+00,0.000000e+00)  (-5.629924e-02,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-9.984139e-01,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (-9.984139e-01,0.000000e+00)  (0.000000e+00,0.000000e+00)  (5.629924e-02,0.000000e+00)  
+(-5.629924e-02,0.000000e+00)  (0.000000e+00,0.000000e+00)  (9.984139e-01,0.000000e+00)  (-0.000000e+00,0.000000e+00)  
+ ******************* 
+Block no. 1 : 0.000000 1.000000 
+ Beg: 4 End: 7
+4 Eold = 1.428571e-01  
+5 Eold = 0.000000e+00  
+6 Eold = 0.000000e+00  
+7 Eold = 1.428571e-01  
+ Block (1) x Block (1) : 0.000000 1.000000   x  0.000000 1.000000 
+Nsti = 4 to 7   ;   Nstj = 4 to 7
+(0.142857,0) (0,0) (0.00808122,-0) (0,-0) 
+(0,-0) (0,0) (0,-0) (0.00808122,0) 
+(0.00808122,0) (0,0) (0,0) (0,0) 
+(0,0) (0.00808122,-0) (0,-0) (0.142857,0) 
+
+ Diagonalizing block 1 of 5
+Upper triangular
+Block no. 1 : 0.000000 1.000000 
+ dEn : 
+4 : -4.556893e-04
+5 : -4.556893e-04
+6 : 1.433128e-01
+7 : 1.433128e-01
+Kept States: 
+ dEigVec (rows): 
+(-5.629924e-02,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (9.984139e-01,-0.000000e+00)  (0.000000e+00,-0.000000e+00)  
+(-0.000000e+00,0.000000e+00)  (9.984139e-01,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-5.629924e-02,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (5.629924e-02,0.000000e+00)  (0.000000e+00,0.000000e+00)  (9.984139e-01,0.000000e+00)  
+(-9.984139e-01,0.000000e+00)  (0.000000e+00,0.000000e+00)  (-5.629924e-02,0.000000e+00)  (-0.000000e+00,0.000000e+00)  
+ ******************* 
+Block no. 2 : 1.000000 -1.000000 
+ Beg: 8 End: 15
+8 Eold = 1.428571e-01  
+9 Eold = 0.000000e+00  
+10 Eold = 0.000000e+00  
+11 Eold = 1.428571e-01  
+12 Eold = 0.000000e+00  
+13 Eold = 1.428571e-01  
+14 Eold = 1.428571e-01  
+15 Eold = 0.000000e+00  
+ Block (2) x Block (2) : 1.000000 -1.000000   x  1.000000 -1.000000 
+Nsti = 8 to 15   ;   Nstj = 8 to 15
+(0.142857,0) (0,0) (-0.00808122,-0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,0) (0,0) (-0.00808122,0) (0,0) (-0,0) (0,0) (0,0) 
+(-0.00808122,0) (0,-0) (0,0) (0,0) (0,0) (0,0) (-0,0) (0,0) 
+(0,-0) (-0.00808122,-0) (0,-0) (0.142857,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,0) (0,0) (0.00808122,0) (0,0) 
+(0,-0) (-0,-0) (0,-0) (0,-0) (0,-0) (0.142857,0) (0,0) (0.00808122,-0) 
+(0,-0) (0,-0) (-0,-0) (0,-0) (0.00808122,-0) (0,-0) (0.142857,0) (-0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.00808122,0) (-0,-0) (0,0) 
+
+ Diagonalizing block 2 of 5
+Upper triangular
+Block no. 2 : 1.000000 -1.000000 
+ dEn : 
+8 : -4.556893e-04
+9 : -4.556893e-04
+10 : -4.556893e-04
+11 : -4.556893e-04
+12 : 1.433128e-01
+13 : 1.433128e-01
+14 : 1.433128e-01
+15 : 1.433128e-01
+Kept States: 
+ dEigVec (rows): 
+(-5.629924e-02,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-9.984139e-01,0.000000e+00)  (0.000000e+00,-0.000000e+00)  (0.000000e+00,-0.000000e+00)  (0.000000e+00,-0.000000e+00)  (0.000000e+00,-0.000000e+00)  (0.000000e+00,-0.000000e+00)  
+(-0.000000e+00,0.000000e+00)  (-9.984139e-01,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-5.629924e-02,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  
+(-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-9.984139e-01,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (5.629924e-02,-0.000000e+00)  (0.000000e+00,-0.000000e+00)  
+(-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (5.629924e-02,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-9.984139e-01,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (-5.629924e-02,0.000000e+00)  (0.000000e+00,0.000000e+00)  (-9.984139e-01,0.000000e+00)  (0.000000e+00,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (-5.629924e-02,0.000000e+00)  (0.000000e+00,0.000000e+00)  (9.984139e-01,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (9.984139e-01,0.000000e+00)  (0.000000e+00,0.000000e+00)  (5.629924e-02,0.000000e+00)  
+(-9.984139e-01,0.000000e+00)  (0.000000e+00,0.000000e+00)  (5.629924e-02,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  
+ ******************* 
+Block no. 3 : 1.000000 1.000000 
+ Beg: 16 End: 23
+16 Eold = 0.000000e+00  
+17 Eold = 1.428571e-01  
+18 Eold = 1.428571e-01  
+19 Eold = 0.000000e+00  
+20 Eold = 1.428571e-01  
+21 Eold = 0.000000e+00  
+22 Eold = 0.000000e+00  
+23 Eold = 1.428571e-01  
+ Block (3) x Block (3) : 1.000000 1.000000   x  1.000000 1.000000 
+Nsti = 16 to 23   ;   Nstj = 16 to 23
+(0,0) (0,0) (0.00808122,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0.142857,0) (0,-0) (0.00808122,0) (0,0) (0,0) (0,0) (0,0) 
+(0.00808122,0) (0,0) (0.142857,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,0) (0.00808122,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0.142857,0) (0,0) (-0.00808122,0) (0,-0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,0) (0,-0) (-0.00808122,-0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (-0.00808122,-0) (0,0) (0,0) (-0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,0) (-0.00808122,0) (-0,-0) (0.142857,0) 
+
+ Diagonalizing block 3 of 5
+Upper triangular
+Block no. 3 : 1.000000 1.000000 
+ dEn : 
+16 : -4.556893e-04
+17 : -4.556893e-04
+18 : -4.556893e-04
+19 : -4.556893e-04
+20 : 1.433128e-01
+21 : 1.433128e-01
+22 : 1.433128e-01
+23 : 1.433128e-01
+Kept States: 
+ dEigVec (rows): 
+(-9.984139e-01,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (5.629924e-02,-0.000000e+00)  (0.000000e+00,-0.000000e+00)  (0.000000e+00,-0.000000e+00)  (0.000000e+00,-0.000000e+00)  (0.000000e+00,-0.000000e+00)  (0.000000e+00,-0.000000e+00)  
+(-0.000000e+00,0.000000e+00)  (5.629924e-02,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-9.984139e-01,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  
+(-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-5.629924e-02,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-9.984139e-01,0.000000e+00)  (0.000000e+00,-0.000000e+00)  
+(-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-9.984139e-01,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-5.629924e-02,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (-9.984139e-01,0.000000e+00)  (0.000000e+00,0.000000e+00)  (5.629924e-02,0.000000e+00)  (0.000000e+00,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (9.984139e-01,0.000000e+00)  (0.000000e+00,0.000000e+00)  (5.629924e-02,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (-5.629924e-02,0.000000e+00)  (0.000000e+00,0.000000e+00)  (9.984139e-01,0.000000e+00)  
+(-5.629924e-02,0.000000e+00)  (0.000000e+00,0.000000e+00)  (-9.984139e-01,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  
+ ******************* 
+Block no. 4 : 2.000000 -1.000000 
+ Beg: 24 End: 27
+24 Eold = 1.428571e-01  
+25 Eold = 0.000000e+00  
+26 Eold = 0.000000e+00  
+27 Eold = 1.428571e-01  
+ Block (4) x Block (4) : 2.000000 -1.000000   x  2.000000 -1.000000 
+Nsti = 24 to 27   ;   Nstj = 24 to 27
+(0.142857,0) (0,0) (0.00808122,0) (0,0) 
+(0,-0) (0,0) (0,0) (0.00808122,-0) 
+(0.00808122,-0) (0,-0) (0,0) (-0,0) 
+(0,-0) (0.00808122,0) (-0,-0) (0.142857,0) 
+
+ Diagonalizing block 4 of 5
+Upper triangular
+Block no. 4 : 2.000000 -1.000000 
+ dEn : 
+24 : -4.556893e-04
+25 : -4.556893e-04
+26 : 1.433128e-01
+27 : 1.433128e-01
+Kept States: 
+ dEigVec (rows): 
+(-5.629924e-02,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (9.984139e-01,-0.000000e+00)  (0.000000e+00,-0.000000e+00)  
+(-0.000000e+00,0.000000e+00)  (9.984139e-01,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-5.629924e-02,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (5.629924e-02,0.000000e+00)  (0.000000e+00,0.000000e+00)  (9.984139e-01,0.000000e+00)  
+(-9.984139e-01,0.000000e+00)  (0.000000e+00,0.000000e+00)  (-5.629924e-02,0.000000e+00)  (-0.000000e+00,0.000000e+00)  
+ ******************* 
+Block no. 5 : 2.000000 1.000000 
+ Beg: 28 End: 31
+28 Eold = 0.000000e+00  
+29 Eold = 1.428571e-01  
+30 Eold = 1.428571e-01  
+31 Eold = 0.000000e+00  
+ Block (5) x Block (5) : 2.000000 1.000000   x  2.000000 1.000000 
+Nsti = 28 to 31   ;   Nstj = 28 to 31
+(0,0) (0,0) (-0.00808122,0) (0,-0) 
+(0,-0) (0.142857,0) (0,-0) (-0.00808122,-0) 
+(-0.00808122,-0) (0,0) (0.142857,0) (-0,0) 
+(0,0) (-0.00808122,0) (-0,-0) (0,0) 
+
+ Diagonalizing block 5 of 5
+Upper triangular
+Block no. 5 : 2.000000 1.000000 
+ dEn : 
+28 : -4.556893e-04
+29 : -4.556893e-04
+30 : 1.433128e-01
+31 : 1.433128e-01
+Kept States: 
+ dEigVec (rows): 
+(-9.984139e-01,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-5.629924e-02,0.000000e+00)  (0.000000e+00,-0.000000e+00)  
+(-0.000000e+00,0.000000e+00)  (-5.629924e-02,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-9.984139e-01,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (-9.984139e-01,0.000000e+00)  (0.000000e+00,0.000000e+00)  (5.629924e-02,0.000000e+00)  
+(-5.629924e-02,0.000000e+00)  (0.000000e+00,0.000000e+00)  (9.984139e-01,0.000000e+00)  (-0.000000e+00,0.000000e+00)  
+Emin = -0.000455689
+En = 0 ---| 0  -1  >_N= -1
+En = 0 ---| 0  -1  >_N= -1
+En = 0.143769 ---| 0  -1  >_N= -1
+En = 0.143769 ---| 0  -1  >_N= -1
+En = 0 ---| 0  1  >_N= -1
+En = 0 ---| 0  1  >_N= -1
+En = 0.143769 ---| 0  1  >_N= -1
+En = 0.143769 ---| 0  1  >_N= -1
+En = 0 ---| 1  -1  >_N= -1
+En = 0 ---| 1  -1  >_N= -1
+En = 0 ---| 1  -1  >_N= -1
+En = 0 ---| 1  -1  >_N= -1
+En = 0.143769 ---| 1  -1  >_N= -1
+En = 0.143769 ---| 1  -1  >_N= -1
+En = 0.143769 ---| 1  -1  >_N= -1
+En = 0.143769 ---| 1  -1  >_N= -1
+En = 0 ---| 1  1  >_N= -1
+En = 0 ---| 1  1  >_N= -1
+En = 0 ---| 1  1  >_N= -1
+En = 0 ---| 1  1  >_N= -1
+En = 0.143769 ---| 1  1  >_N= -1
+En = 0.143769 ---| 1  1  >_N= -1
+En = 0.143769 ---| 1  1  >_N= -1
+En = 0.143769 ---| 1  1  >_N= -1
+En = 0 ---| 2  -1  >_N= -1
+En = 0 ---| 2  -1  >_N= -1
+En = 0.143769 ---| 2  -1  >_N= -1
+En = 0.143769 ---| 2  -1  >_N= -1
+En = 0 ---| 2  1  >_N= -1
+En = 0 ---| 2  1  >_N= -1
+En = 0.143769 ---| 2  1  >_N= -1
+En = 0.143769 ---| 2  1  >_N= -1
+ c1_up: 
+ Block (0) x Block (2) : 0.000000 -1.000000   x  1.000000 -1.000000 
+Nsti = 0 to 3   ;   Nstj = 8 to 15
+(1,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,0) (1,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,0) (0,0) (1,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,0) (0,0) (0,0) (1,0) (0,0) (0,0) (0,0) (0,0) 
+
+ Block (1) x Block (3) : 0.000000 1.000000   x  1.000000 1.000000 
+Nsti = 4 to 7   ;   Nstj = 16 to 23
+(1,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,0) (1,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,0) (0,0) (1,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,0) (0,0) (0,0) (1,0) (0,0) (0,0) (0,0) (0,0) 
+
+ Block (2) x Block (4) : 1.000000 -1.000000   x  2.000000 -1.000000 
+Nsti = 8 to 15   ;   Nstj = 24 to 27
+(0,0) (0,0) (0,0) (0,0) 
+(0,0) (0,0) (0,0) (0,0) 
+(0,0) (0,0) (0,0) (0,0) 
+(0,0) (0,0) (0,0) (0,0) 
+(1,0) (0,0) (0,0) (0,0) 
+(0,0) (1,0) (0,0) (0,0) 
+(0,0) (0,0) (1,0) (0,0) 
+(0,0) (0,0) (0,0) (1,0) 
+
+ Block (3) x Block (5) : 1.000000 1.000000   x  2.000000 1.000000 
+Nsti = 16 to 23   ;   Nstj = 28 to 31
+(0,0) (0,0) (0,0) (0,0) 
+(0,0) (0,0) (0,0) (0,0) 
+(0,0) (0,0) (0,0) (0,0) 
+(0,0) (0,0) (0,0) (0,0) 
+(1,0) (0,0) (0,0) (0,0) 
+(0,0) (1,0) (0,0) (0,0) 
+(0,0) (0,0) (1,0) (0,0) 
+(0,0) (0,0) (0,0) (1,0) 
+
+ c1_up: 
+ Block (0) x Block (2) : 0.000000 -1.000000   x  1.000000 -1.000000 
+Nsti = 0 to 3   ;   Nstj = 8 to 15
+(0.11242,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0.993661,0) 
+(0,0) (0.11242,0) (0,0) (0,0) (0,0) (-0.993661,0) (0,0) (0,0) 
+(0,0) (0.993661,0) (0,0) (0,0) (0,0) (0.11242,0) (0,0) (0,0) 
+(-0.993661,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0.11242,0) 
+
+ Block (1) x Block (3) : 0.000000 1.000000   x  1.000000 1.000000 
+Nsti = 4 to 7   ;   Nstj = 16 to 23
+(0.11242,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (-0.993661,0) 
+(0,0) (0.11242,0) (0,0) (0,0) (0,0) (0.993661,0) (0,0) (0,0) 
+(0,0) (-0.993661,0) (0,0) (0,0) (0,0) (0.11242,0) (0,0) (0,0) 
+(0.993661,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0.11242,0) 
+
+ Block (2) x Block (4) : 1.000000 -1.000000   x  2.000000 -1.000000 
+Nsti = 8 to 15   ;   Nstj = 24 to 27
+(0,0) (0,0) (0,0) (0,0) 
+(0,0) (0,0) (0,0) (0,0) 
+(0.11242,0) (0,0) (0,0) (0.993661,0) 
+(0,0) (0.11242,0) (-0.993661,0) (0,0) 
+(-0.993661,0) (0,0) (0,0) (0.11242,0) 
+(0,0) (0,0) (0,0) (0,0) 
+(0,0) (0.993661,0) (0.11242,0) (0,0) 
+(0,0) (0,0) (0,0) (0,0) 
+
+ Block (3) x Block (5) : 1.000000 1.000000   x  2.000000 1.000000 
+Nsti = 16 to 23   ;   Nstj = 28 to 31
+(0,0) (0,0) (0,0) (0,0) 
+(0,0) (0,0) (0,0) (0,0) 
+(0.11242,0) (0,0) (0,0) (-0.993661,0) 
+(0,0) (0.11242,0) (0.993661,0) (0,0) 
+(0.993661,0) (0,0) (0,0) (0.11242,0) 
+(0,0) (0,0) (0,0) (0,0) 
+(0,0) (-0.993661,0) (0.11242,0) (0,0) 
+(0,0) (0,0) (0,0) (0,0) 
+
+ Use parity: 1  1
+ NoCommon = 2
+ ParityQN : 0 1 
+ PosInOld : 0 1 
+ PosInSingleSite : 0 1 
+ MatchOld : 1 1 
+No blocks = 8
+No states = 128
+ Error?.0 Block (0) x Block (2) : 0.000000 -1.000000   x  1.000000 -1.000000 
+Nsti = 0 to 3   ;   Nstj = 8 to 15
+(0.11242,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0.993661,0) 
+(0,0) (0.11242,0) (0,0) (0,0) (0,0) (-0.993661,0) (0,0) (0,0) 
+(0,0) (0.993661,0) (0,0) (0,0) (0,0) (0.11242,0) (0,0) (0,0) 
+(-0.993661,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0.11242,0) 
+
+ Block (1) x Block (3) : 0.000000 1.000000   x  1.000000 1.000000 
+Nsti = 4 to 7   ;   Nstj = 16 to 23
+(0.11242,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (-0.993661,0) 
+(0,0) (0.11242,0) (0,0) (0,0) (0,0) (0.993661,0) (0,0) (0,0) 
+(0,0) (-0.993661,0) (0,0) (0,0) (0,0) (0.11242,0) (0,0) (0,0) 
+(0.993661,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0.11242,0) 
+
+ Block (2) x Block (4) : 1.000000 -1.000000   x  2.000000 -1.000000 
+Nsti = 8 to 15   ;   Nstj = 24 to 27
+(0,0) (0,0) (0,0) (0,0) 
+(0,0) (0,0) (0,0) (0,0) 
+(0.11242,0) (0,0) (0,0) (0.993661,0) 
+(0,0) (0.11242,0) (-0.993661,0) (0,0) 
+(-0.993661,0) (0,0) (0,0) (0.11242,0) 
+(0,0) (0,0) (0,0) (0,0) 
+(0,0) (0.993661,0) (0.11242,0) (0,0) 
+(0,0) (0,0) (0,0) (0,0) 
+
+ Block (3) x Block (5) : 1.000000 1.000000   x  2.000000 1.000000 
+Nsti = 16 to 23   ;   Nstj = 28 to 31
+(0,0) (0,0) (0,0) (0,0) 
+(0,0) (0,0) (0,0) (0,0) 
+(0.11242,0) (0,0) (0,0) (-0.993661,0) 
+(0,0) (0.11242,0) (0.993661,0) (0,0) 
+(0.993661,0) (0,0) (0,0) (0.11242,0) 
+(0,0) (0,0) (0,0) (0,0) 
+(0,0) (-0.993661,0) (0.11242,0) (0,0) 
+(0,0) (0,0) (0,0) (0,0) 
+
+
+ 
+ 
+ 
+ 
+ Helloooooooooooooo, everything ready to start  
+ 
+ 
+ 
+ Setting up H_(N =0 : ibl = 0 size = 8 (Nbls = 8)
+ Limits : 0  7
+ ist= 0 jst = 1 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 0 jst = 1 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 0 jst = 1 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 0 jst = 1 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 0 jst = 2 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 0 jst = 2 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 0 jst = 2 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 0 jst = 2 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 0 jst = 3 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 0 jst = 3 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 0 jst = 3 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 0 jst = 3 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 0 jst = 4 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 0 jst = 4 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = 1 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 0 jst = 4 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 0 jst = 4 idot = 2 Chi = 0 sigma = -1 OldEl = (1,0) FullMatEl = 1 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 0 jst = 5 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 0 jst = 5 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (-0.0562099,0) FullMatEl = -0 MatEl = (0,0) Prefactor(-0.00704419,0) Help0
+
+ ist= 0 jst = 5 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 0 jst = 5 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = 1 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 0 jst = 6 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 0 jst = 6 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (-0.0031696,0) FullMatEl = -0 MatEl = (0,0) Prefactor(-0.000397213,0) Help0
+
+ ist= 0 jst = 6 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 0 jst = 6 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = 1 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 0 jst = 7 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 0 jst = 7 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = 1 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 0 jst = 7 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 0 jst = 7 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = 1 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 1 jst = 2 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 1 jst = 2 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 1 jst = 2 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 1 jst = 2 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 1 jst = 3 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 1 jst = 3 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 1 jst = 3 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 1 jst = 3 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 1 jst = 4 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 1 jst = 4 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (-0.0562099,0) FullMatEl = -0 MatEl = (0,0) Prefactor(-0.00704419,0) Help0
+
+ ist= 1 jst = 4 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 1 jst = 4 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = 1 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 1 jst = 5 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 1 jst = 5 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = 1 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 1 jst = 5 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 1 jst = 5 idot = 2 Chi = 0 sigma = -1 OldEl = (1,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help0
+
+ ist= 1 jst = 6 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 1 jst = 6 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = 1 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 1 jst = 6 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 1 jst = 6 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = 1 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 1 jst = 7 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 1 jst = 7 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0.0031696,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0.000397213,0) Help0
+
+ ist= 1 jst = 7 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 1 jst = 7 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = 1 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 2 jst = 3 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 2 jst = 3 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 2 jst = 3 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 2 jst = 3 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 2 jst = 4 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 2 jst = 4 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (-0.99683,0) FullMatEl = -0 MatEl = (0,0) Prefactor(-0.124922,0) Help0
+
+ ist= 2 jst = 4 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 2 jst = 4 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = 1 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 2 jst = 5 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 2 jst = 5 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = 1 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 2 jst = 5 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 2 jst = 5 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = 1 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 2 jst = 6 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 2 jst = 6 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = 1 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 2 jst = 6 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 2 jst = 6 idot = 2 Chi = 0 sigma = -1 OldEl = (-1,0) FullMatEl = -0 MatEl = (0,0) Prefactor(-0,0) Help0
+
+ ist= 2 jst = 7 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 2 jst = 7 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0.0562099,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0.00704419,0) Help0
+
+ ist= 2 jst = 7 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 2 jst = 7 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = 1 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 3 jst = 4 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 3 jst = 4 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = 1 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 3 jst = 4 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 3 jst = 4 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = 1 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 3 jst = 5 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 3 jst = 5 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0.99683,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0.124922,0) Help0
+
+ ist= 3 jst = 5 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 3 jst = 5 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = 1 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 3 jst = 6 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 3 jst = 6 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0.0562099,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0.00704419,0) Help0
+
+ ist= 3 jst = 6 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 3 jst = 6 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = 1 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 3 jst = 7 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 3 jst = 7 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = 1 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 3 jst = 7 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 3 jst = 7 idot = 2 Chi = 0 sigma = -1 OldEl = (-1,0) FullMatEl = 1 MatEl = (0,0) Prefactor(-0,0) Help1
+
+ ist= 4 jst = 5 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 4 jst = 5 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 4 jst = 5 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 4 jst = 5 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 4 jst = 6 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 4 jst = 6 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 4 jst = 6 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 4 jst = 6 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 4 jst = 7 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 4 jst = 7 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 4 jst = 7 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 4 jst = 7 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 5 jst = 6 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 5 jst = 6 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 5 jst = 6 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 5 jst = 6 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 5 jst = 7 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 5 jst = 7 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 5 jst = 7 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 5 jst = 7 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 6 jst = 7 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 6 jst = 7 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 6 jst = 7 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 6 jst = 7 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ Setting up H_(N =0 : ibl = 1 size = 24 (Nbls = 8)
+ Limits : 8  31
+ Setting up H_(N =0 : ibl = 2 size = 8 (Nbls = 8)
+ Limits : 32  39
+ ist= 32 jst = 33 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 32 jst = 33 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 32 jst = 33 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 32 jst = 33 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 32 jst = 34 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 32 jst = 34 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 32 jst = 34 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 32 jst = 34 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 32 jst = 35 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 32 jst = 35 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 32 jst = 35 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 32 jst = 35 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 32 jst = 36 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 32 jst = 36 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 32 jst = 36 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 32 jst = 36 idot = 2 Chi = 0 sigma = -1 OldEl = (1,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 32 jst = 37 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 32 jst = 37 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (-0.0562099,0) FullMatEl = 1 MatEl = (-0.00704419,0) Prefactor(-0.00704419,0) Help0
+
+ ist= 32 jst = 37 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (-0.00704419,0) Prefactor(0,0) Help1
+
+ ist= 32 jst = 37 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (-0.00704419,0) Prefactor(0,0) Help1
+
+ ist= 32 jst = 38 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 32 jst = 38 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (-0.0031696,0) FullMatEl = 1 MatEl = (-0.000397213,0) Prefactor(-0.000397213,0) Help0
+
+ ist= 32 jst = 38 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (-0.000397213,0) Prefactor(0,0) Help1
+
+ ist= 32 jst = 38 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (-0.000397213,0) Prefactor(0,0) Help1
+
+ ist= 32 jst = 39 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 32 jst = 39 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 32 jst = 39 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 32 jst = 39 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 33 jst = 34 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 33 jst = 34 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 33 jst = 34 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 33 jst = 34 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 33 jst = 35 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 33 jst = 35 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 33 jst = 35 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 33 jst = 35 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 33 jst = 36 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 33 jst = 36 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (-0.0562099,0) FullMatEl = 1 MatEl = (-0.00704419,0) Prefactor(-0.00704419,0) Help0
+
+ ist= 33 jst = 36 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (-0.00704419,0) Prefactor(0,0) Help1
+
+ ist= 33 jst = 36 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (-0.00704419,0) Prefactor(0,0) Help1
+
+ ist= 33 jst = 37 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 33 jst = 37 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 33 jst = 37 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 33 jst = 37 idot = 2 Chi = 0 sigma = -1 OldEl = (1,0) FullMatEl = 1 MatEl = (0,0) Prefactor(0,0) Help0
+
+ ist= 33 jst = 38 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 33 jst = 38 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 33 jst = 38 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 33 jst = 38 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 33 jst = 39 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 33 jst = 39 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0.0031696,0) FullMatEl = 1 MatEl = (0.000397213,0) Prefactor(0.000397213,0) Help0
+
+ ist= 33 jst = 39 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0.000397213,0) Prefactor(0,0) Help1
+
+ ist= 33 jst = 39 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0.000397213,0) Prefactor(0,0) Help1
+
+ ist= 34 jst = 35 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 34 jst = 35 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 34 jst = 35 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 34 jst = 35 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 34 jst = 36 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 34 jst = 36 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (-0.99683,0) FullMatEl = 1 MatEl = (-0.124922,0) Prefactor(-0.124922,0) Help0
+
+ ist= 34 jst = 36 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (-0.124922,0) Prefactor(0,0) Help1
+
+ ist= 34 jst = 36 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (-0.124922,0) Prefactor(0,0) Help1
+
+ ist= 34 jst = 37 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 34 jst = 37 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 34 jst = 37 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 34 jst = 37 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 34 jst = 38 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 34 jst = 38 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 34 jst = 38 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 34 jst = 38 idot = 2 Chi = 0 sigma = -1 OldEl = (-1,0) FullMatEl = 1 MatEl = (0,0) Prefactor(-0,0) Help0
+
+ ist= 34 jst = 39 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 34 jst = 39 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0.0562099,0) FullMatEl = 1 MatEl = (0.00704419,0) Prefactor(0.00704419,0) Help0
+
+ ist= 34 jst = 39 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0.00704419,0) Prefactor(0,0) Help1
+
+ ist= 34 jst = 39 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0.00704419,0) Prefactor(0,0) Help1
+
+ ist= 35 jst = 36 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 35 jst = 36 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 35 jst = 36 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 35 jst = 36 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 35 jst = 37 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 35 jst = 37 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0.99683,0) FullMatEl = 1 MatEl = (0.124922,0) Prefactor(0.124922,0) Help0
+
+ ist= 35 jst = 37 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0.124922,0) Prefactor(0,0) Help1
+
+ ist= 35 jst = 37 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0.124922,0) Prefactor(0,0) Help1
+
+ ist= 35 jst = 38 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 35 jst = 38 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0.0562099,0) FullMatEl = 1 MatEl = (0.00704419,0) Prefactor(0.00704419,0) Help0
+
+ ist= 35 jst = 38 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0.00704419,0) Prefactor(0,0) Help1
+
+ ist= 35 jst = 38 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0.00704419,0) Prefactor(0,0) Help1
+
+ ist= 35 jst = 39 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 35 jst = 39 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 35 jst = 39 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = -0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 35 jst = 39 idot = 2 Chi = 0 sigma = -1 OldEl = (-1,0) FullMatEl = -0 MatEl = (0,0) Prefactor(-0,0) Help1
+
+ ist= 36 jst = 37 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 36 jst = 37 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 36 jst = 37 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 36 jst = 37 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 36 jst = 38 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 36 jst = 38 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 36 jst = 38 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 36 jst = 38 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 36 jst = 39 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 36 jst = 39 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 36 jst = 39 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 36 jst = 39 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 37 jst = 38 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 37 jst = 38 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 37 jst = 38 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 37 jst = 38 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 37 jst = 39 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 37 jst = 39 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 37 jst = 39 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 37 jst = 39 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 38 jst = 39 idot = 1 Chi = 0.125319 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 38 jst = 39 idot = 1 Chi = 0.125319 sigma = -1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 38 jst = 39 idot = 2 Chi = 0 sigma = 1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ ist= 38 jst = 39 idot = 2 Chi = 0 sigma = -1 OldEl = (0,0) FullMatEl = 0 MatEl = (0,0) Prefactor(0,0) Help1
+
+ Setting up H_(N =0 : ibl = 3 size = 24 (Nbls = 8)
+ Limits : 40  63
+ Setting up H_(N =0 : ibl = 4 size = 24 (Nbls = 8)
+ Limits : 64  87
+ Setting up H_(N =0 : ibl = 5 size = 24 (Nbls = 8)
+ Limits : 88  111
+ Setting up H_(N =0 : ibl = 6 size = 8 (Nbls = 8)
+ Limits : 112  119
+ Setting up H_(N =0 : ibl = 7 size = 8 (Nbls = 8)
+ Limits : 120  127
+ Done setting up HN. 
+Updating Aeig... 
+ ******************* 
+Block no. 0 : 0.000000 -1.000000 
+ Beg: 0 End: 7
+0 Eold = 0.000000e+00  type = 0  StCFrom = 0  
+1 Eold = 0.000000e+00  type = 0  StCFrom = 1  
+2 Eold = 1.437685e-01  type = 0  StCFrom = 2  
+3 Eold = 1.437685e-01  type = 0  StCFrom = 3  
+4 Eold = 0.000000e+00  type = 2  StCFrom = 4  
+5 Eold = 0.000000e+00  type = 2  StCFrom = 5  
+6 Eold = 1.437685e-01  type = 2  StCFrom = 6  
+7 Eold = 1.437685e-01  type = 2  StCFrom = 7  
+ Block (0) x Block (0) : 0.000000 -1.000000   x  0.000000 -1.000000 
+Nsti = 0 to 7   ;   Nstj = 0 to 7
+(0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) 
+
+ Diagonalizing block 0 of 7
+Upper triangular
+Block no. 0 : 0.000000 -1.000000 
+ dEn : 
+0 : 0.000000e+00
+1 : 0.000000e+00
+2 : 0.000000e+00
+3 : 0.000000e+00
+4 : 2.273180e-01
+5 : 2.273180e-01
+6 : 2.273180e-01
+7 : 2.273180e-01
+Kept States: 
+ dEigVec (rows): 
+(1.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (1.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (1.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (1.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (1.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (1.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (1.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (1.000000e+00,0.000000e+00)  
+ ******************* 
+Block no. 1 : 1.000000 -1.000000 
+ Beg: 8 End: 31
+8 Eold = 0.000000e+00  type = 1  StCFrom = 0  
+9 Eold = 0.000000e+00  type = 1  StCFrom = 1  
+10 Eold = 1.437685e-01  type = 1  StCFrom = 2  
+11 Eold = 1.437685e-01  type = 1  StCFrom = 3  
+12 Eold = 0.000000e+00  type = 3  StCFrom = 4  
+13 Eold = 0.000000e+00  type = 3  StCFrom = 5  
+14 Eold = 1.437685e-01  type = 3  StCFrom = 6  
+15 Eold = 1.437685e-01  type = 3  StCFrom = 7  
+16 Eold = 0.000000e+00  type = 0  StCFrom = 8  
+17 Eold = 0.000000e+00  type = 0  StCFrom = 9  
+18 Eold = 0.000000e+00  type = 0  StCFrom = 10  
+19 Eold = 0.000000e+00  type = 0  StCFrom = 11  
+20 Eold = 1.437685e-01  type = 0  StCFrom = 12  
+21 Eold = 1.437685e-01  type = 0  StCFrom = 13  
+22 Eold = 1.437685e-01  type = 0  StCFrom = 14  
+23 Eold = 1.437685e-01  type = 0  StCFrom = 15  
+24 Eold = 0.000000e+00  type = 2  StCFrom = 16  
+25 Eold = 0.000000e+00  type = 2  StCFrom = 17  
+26 Eold = 0.000000e+00  type = 2  StCFrom = 18  
+27 Eold = 0.000000e+00  type = 2  StCFrom = 19  
+28 Eold = 1.437685e-01  type = 2  StCFrom = 20  
+29 Eold = 1.437685e-01  type = 2  StCFrom = 21  
+30 Eold = 1.437685e-01  type = 2  StCFrom = 22  
+31 Eold = 1.437685e-01  type = 2  StCFrom = 23  
+ Block (1) x Block (1) : 1.000000 -1.000000   x  1.000000 -1.000000 
+Nsti = 8 to 31   ;   Nstj = 8 to 31
+(0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0.0140884,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0.124525,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0.0140884,0) (0,0) (0,0) (0,0) (-0.124525,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0.124525,0) (0,0) (0,0) (0,0) (0.0140884,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0,0) (0,0) (-0.124525,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0.0140884,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (-0.0140884,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0.124525,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (-0.0140884,0) (0,0) (0,0) (0,0) (-0.124525,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0.124525,0) (0,0) (0,0) (0,0) (-0.0140884,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (-0.124525,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (-0.0140884,0) 
+(0.0140884,-0) (0,-0) (0,-0) (-0.124525,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0.0140884,-0) (0.124525,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (-0.124525,-0) (0.0140884,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0.124525,-0) (0,-0) (0,-0) (0.0140884,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (-0.0140884,-0) (0,-0) (0,-0) (-0.124525,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (-0.0140884,-0) (0.124525,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (-0.124525,-0) (-0.0140884,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0.124525,-0) (0,-0) (0,-0) (-0.0140884,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) 
+
+ Diagonalizing block 1 of 7
+Upper triangular
+Block no. 1 : 1.000000 -1.000000 
+ dEn : 
+8 : -6.473900e-02
+9 : -6.473900e-02
+10 : -6.473900e-02
+11 : -6.473900e-02
+12 : -4.577989e-02
+13 : -4.577989e-02
+14 : -4.577989e-02
+15 : -4.577989e-02
+16 : -1.116192e-16
+17 : -2.450297e-17
+18 : 1.387779e-17
+19 : 2.703446e-17
+20 : 2.273180e-01
+21 : 2.273180e-01
+22 : 2.273180e-01
+23 : 2.273180e-01
+24 : 2.730979e-01
+25 : 2.730979e-01
+26 : 2.730979e-01
+27 : 2.730979e-01
+28 : 2.920570e-01
+29 : 2.920570e-01
+30 : 2.920570e-01
+31 : 2.920570e-01
+Kept States: 
+ dEigVec (rows): 
+(1.126142e-02,-0.000000e+00)  (-7.777095e-03,0.000000e+00)  (-3.163340e-03,0.000000e+00)  (-4.580592e-03,0.000000e+00)  (-6.548527e-01,0.000000e+00)  (9.026314e-04,0.000000e+00)  (-3.671461e-04,0.000000e+00)  (-2.663619e-01,0.000000e+00)  (-1.126142e-02,0.000000e+00)  (7.777095e-03,-0.000000e+00)  (1.940447e-16,0.000000e+00)  (3.897307e-16,0.000000e+00)  (6.554107e-17,-0.000000e+00)  (-3.163340e-03,0.000000e+00)  (-3.356326e-17,0.000000e+00)  (-4.580592e-03,0.000000e+00)  (-6.548527e-01,0.000000e+00)  (9.026314e-04,0.000000e+00)  (-4.241727e-35,0.000000e+00)  (5.639849e-47,-0.000000e+00)  (1.735922e-51,-0.000000e+00)  (3.671461e-04,0.000000e+00)  (0.000000e+00,0.000000e+00)  (2.663619e-01,0.000000e+00)  
+(6.469335e-01,0.000000e+00)  (1.012859e-01,0.000000e+00)  (4.119814e-02,0.000000e+00)  (-2.631408e-01,0.000000e+00)  (9.906027e-03,0.000000e+00)  (-1.184286e-02,0.000000e+00)  (4.817093e-03,0.000000e+00)  (4.029285e-03,0.000000e+00)  (-6.469335e-01,0.000000e+00)  (-1.012859e-01,0.000000e+00)  (-2.187478e-18,0.000000e+00)  (-5.265777e-18,0.000000e+00)  (-1.139001e-18,0.000000e+00)  (4.119814e-02,0.000000e+00)  (5.832771e-19,0.000000e+00)  (-2.631408e-01,0.000000e+00)  (9.906027e-03,0.000000e+00)  (-1.184286e-02,0.000000e+00)  (7.371458e-37,0.000000e+00)  (-9.801176e-49,0.000000e+00)  (-3.016762e-53,0.000000e+00)  (-4.817093e-03,0.000000e+00)  (0.000000e+00,0.000000e+00)  (-4.029285e-03,0.000000e+00)  
+(7.200560e-03,-0.000000e+00)  (-1.213133e-01,-0.000000e+00)  (-4.934431e-02,0.000000e+00)  (-2.928834e-03,0.000000e+00)  (6.774032e-04,0.000000e+00)  (-6.436233e-01,0.000000e+00)  (2.617943e-01,0.000000e+00)  (2.755343e-04,0.000000e+00)  (-7.200560e-03,0.000000e+00)  (1.213133e-01,0.000000e+00)  (4.048992e-17,0.000000e+00)  (3.385969e-17,0.000000e+00)  (-8.096189e-18,0.000000e+00)  (-4.934431e-02,-0.000000e+00)  (4.146019e-18,0.000000e+00)  (-2.928834e-03,0.000000e+00)  (6.774032e-04,0.000000e+00)  (-6.436233e-01,0.000000e+00)  (5.239740e-36,0.000000e+00)  (-6.966819e-48,0.000000e+00)  (-2.144358e-52,0.000000e+00)  (-2.617943e-01,0.000000e+00)  (0.000000e+00,0.000000e+00)  (-2.755343e-04,0.000000e+00)  
+(1.015803e-01,0.000000e+00)  (-6.355973e-01,0.000000e+00)  (-2.585298e-01,0.000000e+00)  (-4.131787e-02,-0.000000e+00)  (9.461989e-03,-0.000000e+00)  (1.209470e-01,-0.000000e+00)  (-4.919528e-02,0.000000e+00)  (3.848672e-03,-0.000000e+00)  (-1.015803e-01,-0.000000e+00)  (6.355973e-01,-0.000000e+00)  (-1.045101e-17,0.000000e+00)  (-1.207046e-17,0.000000e+00)  (5.618208e-19,-0.000000e+00)  (-2.585298e-01,0.000000e+00)  (-2.877057e-19,0.000000e+00)  (-4.131787e-02,-0.000000e+00)  (9.461989e-03,-0.000000e+00)  (1.209470e-01,-0.000000e+00)  (-3.636026e-37,0.000000e+00)  (4.834502e-49,-0.000000e+00)  (1.488040e-53,-0.000000e+00)  (4.919528e-02,-0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-3.848672e-03,0.000000e+00)  
+(7.672039e-05,0.000000e+00)  (7.305064e-03,0.000000e+00)  (-3.512081e-03,0.000000e+00)  (3.688513e-05,0.000000e+00)  (-6.165405e-01,0.000000e+00)  (-1.610932e-01,0.000000e+00)  (-7.744932e-02,0.000000e+00)  (2.964164e-01,0.000000e+00)  (7.672039e-05,0.000000e+00)  (7.305064e-03,0.000000e+00)  (2.377583e-16,0.000000e+00)  (6.029142e-16,0.000000e+00)  (7.789551e-17,0.000000e+00)  (3.512081e-03,0.000000e+00)  (-5.010411e-17,0.000000e+00)  (-3.688513e-05,0.000000e+00)  (6.165405e-01,0.000000e+00)  (1.610932e-01,0.000000e+00)  (1.784523e-34,0.000000e+00)  (-2.528385e-46,0.000000e+00)  (-8.291763e-51,0.000000e+00)  (-7.744932e-02,0.000000e+00)  (0.000000e+00,0.000000e+00)  (2.964164e-01,0.000000e+00)  
+(-2.166697e-04,0.000000e+00)  (-1.975377e-02,0.000000e+00)  (9.497087e-03,0.000000e+00)  (-1.041691e-04,0.000000e+00)  (-1.612454e-01,0.000000e+00)  (6.162274e-01,0.000000e+00)  (2.962658e-01,0.000000e+00)  (7.752253e-02,0.000000e+00)  (-2.166697e-04,0.000000e+00)  (-1.975377e-02,0.000000e+00)  (-8.472912e-17,0.000000e+00)  (2.218583e-17,0.000000e+00)  (3.369726e-17,0.000000e+00)  (-9.497087e-03,0.000000e+00)  (-2.167482e-17,0.000000e+00)  (1.041691e-04,0.000000e+00)  (1.612454e-01,0.000000e+00)  (-6.162274e-01,0.000000e+00)  (7.719769e-35,0.000000e+00)  (-1.093768e-46,0.000000e+00)  (-3.586981e-51,0.000000e+00)  (2.962658e-01,0.000000e+00)  (0.000000e+00,0.000000e+00)  (7.752253e-02,0.000000e+00)  
+(-5.428904e-01,0.000000e+00)  (-3.335725e-01,0.000000e+00)  (1.603728e-01,0.000000e+00)  (-2.610073e-01,0.000000e+00)  (-1.100819e-03,0.000000e+00)  (-1.117192e-02,0.000000e+00)  (-5.371163e-03,0.000000e+00)  (5.292446e-04,0.000000e+00)  (-5.428904e-01,0.000000e+00)  (-3.335725e-01,0.000000e+00)  (2.853308e-18,0.000000e+00)  (3.316571e-18,0.000000e+00)  (-8.121531e-20,0.000000e+00)  (-1.603728e-01,0.000000e+00)  (5.223948e-20,0.000000e+00)  (2.610073e-01,0.000000e+00)  (1.100819e-03,0.000000e+00)  (1.117192e-02,0.000000e+00)  (-1.860577e-37,0.000000e+00)  (2.636141e-49,0.000000e+00)  (8.645147e-54,0.000000e+00)  (-5.371163e-03,0.000000e+00)  (0.000000e+00,0.000000e+00)  (5.292446e-04,0.000000e+00)  
+(-3.337613e-01,0.000000e+00)  (5.425978e-01,0.000000e+00)  (-2.608667e-01,0.000000e+00)  (-1.604636e-01,0.000000e+00)  (1.753528e-03,0.000000e+00)  (1.773498e-02,0.000000e+00)  (8.526510e-03,0.000000e+00)  (-8.430498e-04,0.000000e+00)  (-3.337613e-01,0.000000e+00)  (5.425978e-01,0.000000e+00)  (-4.531485e-18,0.000000e+00)  (-5.270490e-18,0.000000e+00)  (1.281335e-19,0.000000e+00)  (2.608667e-01,0.000000e+00)  (-8.241831e-20,0.000000e+00)  (1.604636e-01,0.000000e+00)  (-1.753528e-03,0.000000e+00)  (-1.773498e-02,0.000000e+00)  (2.935435e-37,0.000000e+00)  (-4.159044e-49,0.000000e+00)  (-1.363946e-53,0.000000e+00)  (8.526510e-03,0.000000e+00)  (0.000000e+00,0.000000e+00)  (-8.430498e-04,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (-5.670123e-18,0.000000e+00)  (-3.108218e-17,0.000000e+00)  (1.862352e-32,0.000000e+00)  (-5.219098e-16,0.000000e+00)  (-2.684754e-16,0.000000e+00)  (-4.092978e-17,0.000000e+00)  (4.470231e-17,0.000000e+00)  (1.252056e-33,0.000000e+00)  (-9.420426e-18,0.000000e+00)  (-5.650823e-01,0.000000e+00)  (-8.250345e-01,0.000000e+00)  (-6.509406e-17,0.000000e+00)  (1.206619e-17,0.000000e+00)  (-1.452003e-16,0.000000e+00)  (-2.311664e-33,0.000000e+00)  (9.479530e-17,0.000000e+00)  (1.557184e-16,0.000000e+00)  (4.839500e-20,0.000000e+00)  (-7.300521e-32,0.000000e+00)  (-2.530476e-36,0.000000e+00)  (-1.472842e-16,0.000000e+00)  (0.000000e+00,0.000000e+00)  (2.952286e-16,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (4.978536e-36,0.000000e+00)  (-3.931202e-37,0.000000e+00)  (-9.809557e-51,0.000000e+00)  (-1.338210e-21,0.000000e+00)  (2.221666e-21,0.000000e+00)  (3.658500e-21,0.000000e+00)  (1.365293e-21,0.000000e+00)  (5.767352e-51,0.000000e+00)  (5.680043e-36,0.000000e+00)  (-9.142832e-17,0.000000e+00)  (7.185391e-17,0.000000e+00)  (-4.581178e-18,0.000000e+00)  (-6.807436e-36,0.000000e+00)  (-1.796557e-17,0.000000e+00)  (8.351875e-53,0.000000e+00)  (1.032679e-20,0.000000e+00)  (-1.239234e-22,0.000000e+00)  (9.999384e-01,0.000000e+00)  (1.110201e-02,0.000000e+00)  (-6.245005e-17,0.000000e+00)  (-3.682778e-21,0.000000e+00)  (0.000000e+00,0.000000e+00)  (5.943415e-21,0.000000e+00)  
+(-0.000000e+00,0.000000e+00)  (5.527514e-38,0.000000e+00)  (-4.364692e-39,-0.000000e+00)  (-1.089125e-52,0.000000e+00)  (-1.485773e-23,-0.000000e+00)  (2.466648e-23,0.000000e+00)  (4.061920e-23,-0.000000e+00)  (1.515843e-23,0.000000e+00)  (6.403312e-53,0.000000e+00)  (6.306377e-38,0.000000e+00)  (-1.015100e-18,0.000000e+00)  (7.977718e-19,-0.000000e+00)  (1.039479e-17,-0.000000e+00)  (-7.558086e-38,0.000000e+00)  (-6.745093e-17,0.000000e+00)  (9.272829e-55,-0.000000e+00)  (1.146551e-22,-0.000000e+00)  (-1.375884e-24,-0.000000e+00)  (1.110201e-02,-0.000000e+00)  (-9.999384e-01,0.000000e+00)  (1.665335e-16,0.000000e+00)  (-4.088874e-23,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (6.598790e-23,0.000000e+00)  
+(-0.000000e+00,0.000000e+00)  (-3.728244e-19,0.000000e+00)  (-2.043728e-18,0.000000e+00)  (1.224542e-33,-0.000000e+00)  (2.313157e-16,-0.000000e+00)  (1.641666e-16,-0.000000e+00)  (-4.950839e-17,0.000000e+00)  (8.161150e-18,-0.000000e+00)  (8.232575e-35,-0.000000e+00)  (-6.194159e-19,0.000000e+00)  (-8.250345e-01,0.000000e+00)  (5.650823e-01,-0.000000e+00)  (9.341559e-17,-0.000000e+00)  (7.933812e-19,-0.000000e+00)  (6.265867e-17,-0.000000e+00)  (-1.519975e-34,0.000000e+00)  (-8.887569e-17,0.000000e+00)  (-4.610344e-17,0.000000e+00)  (-7.360185e-19,0.000000e+00)  (1.110304e-30,-0.000000e+00)  (3.848490e-35,-0.000000e+00)  (-1.495529e-16,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-1.037626e-17,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (1.851702e-32,0.000000e+00)  (-1.449955e-32,0.000000e+00)  (4.177137e-47,0.000000e+00)  (-1.131640e-16,0.000000e+00)  (1.048914e-17,0.000000e+00)  (-5.373408e-17,0.000000e+00)  (7.171500e-17,0.000000e+00)  (2.326374e-47,0.000000e+00)  (2.465190e-32,0.000000e+00)  (-1.015058e-16,0.000000e+00)  (-2.214029e-16,0.000000e+00)  (-1.534838e-01,0.000000e+00)  (3.697786e-32,0.000000e+00)  (9.881511e-01,0.000000e+00)  (-1.924592e-56,0.000000e+00)  (-2.246842e-17,0.000000e+00)  (-2.646039e-17,0.000000e+00)  (-1.647987e-17,0.000000e+00)  (3.954110e-16,0.000000e+00)  (-1.744291e-04,0.000000e+00)  (2.348788e-17,0.000000e+00)  (0.000000e+00,0.000000e+00)  (4.275979e-17,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (3.229907e-36,0.000000e+00)  (-2.529143e-36,0.000000e+00)  (7.286143e-51,0.000000e+00)  (-1.973910e-20,0.000000e+00)  (1.829612e-21,0.000000e+00)  (-9.372788e-21,0.000000e+00)  (1.250918e-20,0.000000e+00)  (4.057874e-51,0.000000e+00)  (4.300009e-36,0.000000e+00)  (-1.770556e-20,0.000000e+00)  (-3.861911e-20,0.000000e+00)  (-2.677204e-05,0.000000e+00)  (6.450014e-36,0.000000e+00)  (1.723623e-04,0.000000e+00)  (-3.357049e-60,0.000000e+00)  (-3.919146e-21,0.000000e+00)  (-4.615462e-21,0.000000e+00)  (-3.903128e-18,0.000000e+00)  (-5.551115e-17,0.000000e+00)  (1.000000e+00,0.000000e+00)  (4.096971e-21,0.000000e+00)  (0.000000e+00,0.000000e+00)  (7.458551e-21,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (-1.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (-2.864179e-31,0.000000e+00)  (-2.257669e-32,0.000000e+00)  (5.977544e-46,0.000000e+00)  (-2.703411e-17,0.000000e+00)  (-8.666047e-17,0.000000e+00)  (-6.091385e-17,0.000000e+00)  (-3.009173e-18,0.000000e+00)  (-3.730338e-46,0.000000e+00)  (2.933938e-32,0.000000e+00)  (7.610466e-17,0.000000e+00)  (-1.171204e-17,0.000000e+00)  (9.881512e-01,0.000000e+00)  (4.792157e-31,0.000000e+00)  (1.534838e-01,0.000000e+00)  (-2.054006e-47,0.000000e+00)  (-7.969998e-17,0.000000e+00)  (-6.525866e-18,0.000000e+00)  (1.348593e-19,0.000000e+00)  (-2.158030e-31,0.000000e+00)  (-7.836760e-36,0.000000e+00)  (1.698544e-16,0.000000e+00)  (0.000000e+00,0.000000e+00)  (-2.217787e-16,0.000000e+00)  
+(3.063876e-01,0.000000e+00)  (-2.803050e-16,0.000000e+00)  (1.705102e-16,0.000000e+00)  (-6.372806e-01,0.000000e+00)  (-1.344630e-18,0.000000e+00)  (1.104760e-18,0.000000e+00)  (3.387359e-19,0.000000e+00)  (-5.201530e-20,0.000000e+00)  (3.063876e-01,0.000000e+00)  (7.536046e-17,0.000000e+00)  (8.674173e-34,0.000000e+00)  (-2.377725e-34,0.000000e+00)  (1.795474e-35,0.000000e+00)  (8.062569e-16,0.000000e+00)  (-8.015485e-35,0.000000e+00)  (6.372806e-01,0.000000e+00)  (-1.514191e-18,0.000000e+00)  (-4.106003e-19,0.000000e+00)  (-1.047709e-52,0.000000e+00)  (9.459180e-65,0.000000e+00)  (-4.468433e-69,0.000000e+00)  (5.169565e-19,0.000000e+00)  (0.000000e+00,0.000000e+00)  (3.300769e-19,0.000000e+00)  
+(3.468436e-18,0.000000e+00)  (3.063876e-01,0.000000e+00)  (6.372806e-01,0.000000e+00)  (-6.159799e-16,0.000000e+00)  (-4.034312e-16,0.000000e+00)  (-3.864876e-16,0.000000e+00)  (-3.220077e-17,0.000000e+00)  (-1.829721e-16,0.000000e+00)  (2.006347e-16,0.000000e+00)  (3.063876e-01,0.000000e+00)  (-1.426427e-28,0.000000e+00)  (-1.814624e-28,0.000000e+00)  (-7.496430e-37,0.000000e+00)  (-6.372806e-01,0.000000e+00)  (-8.869411e-36,0.000000e+00)  (3.706425e-17,0.000000e+00)  (1.053459e-16,0.000000e+00)  (-4.085962e-17,0.000000e+00)  (2.575389e-53,0.000000e+00)  (-2.948055e-66,0.000000e+00)  (-3.582769e-70,0.000000e+00)  (1.033898e-15,0.000000e+00)  (0.000000e+00,0.000000e+00)  (-1.054805e-15,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (-6.689345e-16,0.000000e+00)  (-1.374999e-16,0.000000e+00)  (1.707593e-30,0.000000e+00)  (-2.903232e-01,0.000000e+00)  (-9.790716e-02,0.000000e+00)  (2.036451e-01,0.000000e+00)  (-6.038669e-01,0.000000e+00)  (-8.414831e-31,0.000000e+00)  (5.473357e-18,0.000000e+00)  (-1.163876e-16,0.000000e+00)  (5.991823e-17,0.000000e+00)  (-2.328969e-16,0.000000e+00)  (1.352461e-15,0.000000e+00)  (5.333674e-17,0.000000e+00)  (-5.353918e-32,0.000000e+00)  (2.903232e-01,0.000000e+00)  (9.790716e-02,0.000000e+00)  (-1.359066e-34,0.000000e+00)  (2.182208e-46,0.000000e+00)  (7.944738e-51,0.000000e+00)  (2.036451e-01,0.000000e+00)  (0.000000e+00,0.000000e+00)  (-6.038669e-01,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (-2.956542e-16,0.000000e+00)  (-3.346958e-17,0.000000e+00)  (4.183336e-31,0.000000e+00)  (9.790716e-02,0.000000e+00)  (-2.903232e-01,0.000000e+00)  (6.038669e-01,0.000000e+00)  (2.036451e-01,0.000000e+00)  (-3.814844e-31,0.000000e+00)  (-2.207742e-17,0.000000e+00)  (-1.020793e-16,0.000000e+00)  (-7.226269e-17,0.000000e+00)  (-6.449743e-17,0.000000e+00)  (3.276187e-16,0.000000e+00)  (1.477084e-17,0.000000e+00)  (-7.437014e-32,0.000000e+00)  (-9.790716e-02,0.000000e+00)  (2.903232e-01,0.000000e+00)  (-3.763737e-35,0.000000e+00)  (6.043309e-47,0.000000e+00)  (2.200180e-51,0.000000e+00)  (6.038669e-01,0.000000e+00)  (0.000000e+00,0.000000e+00)  (2.036451e-01,0.000000e+00)  
+(-2.664203e-01,0.000000e+00)  (-4.100353e-16,0.000000e+00)  (2.155178e-16,0.000000e+00)  (-6.549963e-01,0.000000e+00)  (9.567551e-19,0.000000e+00)  (-7.327559e-19,0.000000e+00)  (-2.192613e-19,0.000000e+00)  (-3.063066e-20,0.000000e+00)  (2.664203e-01,0.000000e+00)  (8.819223e-17,0.000000e+00)  (-6.789659e-34,0.000000e+00)  (1.852571e-34,0.000000e+00)  (2.418535e-36,0.000000e+00)  (8.269703e-16,0.000000e+00)  (5.770543e-35,0.000000e+00)  (-6.549963e-01,0.000000e+00)  (1.100668e-18,0.000000e+00)  (2.125902e-19,0.000000e+00)  (7.507854e-53,0.000000e+00)  (-6.744279e-65,0.000000e+00)  (3.684864e-69,0.000000e+00)  (-3.424985e-19,0.000000e+00)  (0.000000e+00,0.000000e+00)  (-1.922457e-19,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (-1.413604e-17,0.000000e+00)  (-3.435639e-17,0.000000e+00)  (-5.184170e-32,0.000000e+00)  (-2.159524e-01,0.000000e+00)  (1.560268e-01,0.000000e+00)  (3.835930e-01,0.000000e+00)  (5.309206e-01,0.000000e+00)  (-1.188620e-32,0.000000e+00)  (1.863070e-17,0.000000e+00)  (1.731972e-17,0.000000e+00)  (4.521072e-17,0.000000e+00)  (-3.574175e-17,0.000000e+00)  (-3.874554e-17,0.000000e+00)  (-3.730674e-17,0.000000e+00)  (5.027129e-32,0.000000e+00)  (-2.159524e-01,0.000000e+00)  (1.560268e-01,0.000000e+00)  (3.045258e-35,0.000000e+00)  (-4.895461e-47,0.000000e+00)  (-1.783854e-51,0.000000e+00)  (-3.835930e-01,0.000000e+00)  (0.000000e+00,0.000000e+00)  (-5.309206e-01,0.000000e+00)  
+(-3.018954e-18,0.000000e+00)  (2.664203e-01,0.000000e+00)  (-6.549963e-01,0.000000e+00)  (-1.010106e-15,0.000000e+00)  (-4.341384e-16,0.000000e+00)  (-4.109934e-16,0.000000e+00)  (-4.993700e-17,0.000000e+00)  (-1.590361e-16,0.000000e+00)  (5.156560e-16,0.000000e+00)  (-2.664203e-01,0.000000e+00)  (-1.416405e-28,0.000000e+00)  (-1.801874e-28,0.000000e+00)  (2.275122e-36,0.000000e+00)  (-6.549963e-01,0.000000e+00)  (8.322107e-36,0.000000e+00)  (-3.736964e-17,0.000000e+00)  (8.931505e-17,0.000000e+00)  (-3.643591e-17,0.000000e+00)  (-2.283075e-53,0.000000e+00)  (1.761336e-66,0.000000e+00)  (2.598572e-70,0.000000e+00)  (7.909216e-16,0.000000e+00)  (0.000000e+00,0.000000e+00)  (-8.375803e-16,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (4.020052e-16,0.000000e+00)  (1.325333e-16,0.000000e+00)  (-1.627911e-30,0.000000e+00)  (1.560268e-01,0.000000e+00)  (2.159524e-01,0.000000e+00)  (5.309206e-01,0.000000e+00)  (-3.835930e-01,0.000000e+00)  (4.983385e-31,0.000000e+00)  (4.104389e-17,0.000000e+00)  (1.057070e-16,0.000000e+00)  (-7.214908e-18,0.000000e+00)  (2.184980e-16,0.000000e+00)  (-1.280938e-15,0.000000e+00)  (2.280652e-16,0.000000e+00)  (3.687820e-32,0.000000e+00)  (1.560268e-01,0.000000e+00)  (2.159524e-01,0.000000e+00)  (-1.861640e-34,0.000000e+00)  (2.992714e-46,0.000000e+00)  (1.090513e-50,0.000000e+00)  (-5.309206e-01,0.000000e+00)  (0.000000e+00,0.000000e+00)  (3.835930e-01,0.000000e+00)  
+ ******************* 
+Block no. 2 : 0.000000 1.000000 
+ Beg: 32 End: 39
+32 Eold = 0.000000e+00  type = 2  StCFrom = 0  
+33 Eold = 0.000000e+00  type = 2  StCFrom = 1  
+34 Eold = 1.437685e-01  type = 2  StCFrom = 2  
+35 Eold = 1.437685e-01  type = 2  StCFrom = 3  
+36 Eold = 0.000000e+00  type = 0  StCFrom = 4  
+37 Eold = 0.000000e+00  type = 0  StCFrom = 5  
+38 Eold = 1.437685e-01  type = 0  StCFrom = 6  
+39 Eold = 1.437685e-01  type = 0  StCFrom = 7  
+ Block (2) x Block (2) : 0.000000 1.000000   x  0.000000 1.000000 
+Nsti = 32 to 39   ;   Nstj = 32 to 39
+(0,0) (0,0) (0,0) (0,0) (0,0) (-0.00704419,0) (-0.000397213,0) (0,0) 
+(0,-0) (0,0) (0,0) (0,0) (-0.00704419,0) (0,0) (0,0) (0.000397213,0) 
+(0,-0) (0,-0) (0.227318,0) (0,0) (-0.124922,0) (0,0) (0,0) (0.00704419,0) 
+(0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0.124922,0) (0.00704419,0) (0,0) 
+(0,-0) (-0.00704419,-0) (-0.124922,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) 
+(-0.00704419,-0) (0,-0) (0,-0) (0.124922,-0) (0,-0) (0,0) (0,0) (0,0) 
+(-0.000397213,-0) (0,-0) (0,-0) (0.00704419,-0) (0,-0) (0,-0) (0.227318,0) (0,0) 
+(0,-0) (0.000397213,-0) (0.00704419,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) 
+
+ Diagonalizing block 2 of 7
+Upper triangular
+Block no. 2 : 0.000000 1.000000 
+ dEn : 
+32 : -5.600215e-02
+33 : -5.600215e-02
+34 : 7.131464e-04
+35 : 7.131464e-04
+36 : 2.266048e-01
+37 : 2.266048e-01
+38 : 2.833201e-01
+39 : 2.833201e-01
+Kept States: 
+ dEigVec (rows): 
+(1.143886e-01,0.000000e+00)  (-8.621885e-04,0.000000e+00)  (-3.022300e-03,0.000000e+00)  (-4.009757e-01,0.000000e+00)  (-6.850193e-03,0.000000e+00)  (9.088313e-01,0.000000e+00)  (1.012984e-02,0.000000e+00)  (7.635226e-05,0.000000e+00)  
+(-8.621885e-04,0.000000e+00)  (-1.143886e-01,0.000000e+00)  (-4.009757e-01,0.000000e+00)  (3.022300e-03,0.000000e+00)  (-9.088313e-01,0.000000e+00)  (-6.850193e-03,0.000000e+00)  (-7.635226e-05,0.000000e+00)  (1.012984e-02,0.000000e+00)  
+(-9.933696e-01,0.000000e+00)  (5.366931e-03,0.000000e+00)  (-2.995323e-04,-0.000000e+00)  (-5.544067e-02,0.000000e+00)  (-5.433477e-04,-0.000000e+00)  (1.005687e-01,-0.000000e+00)  (-1.784695e-05,0.000000e+00)  (-9.642268e-08,-0.000000e+00)  
+(5.366931e-03,0.000000e+00)  (9.933696e-01,0.000000e+00)  (-5.544067e-02,0.000000e+00)  (2.995323e-04,0.000000e+00)  (-1.005687e-01,0.000000e+00)  (-5.433477e-04,0.000000e+00)  (9.642268e-08,0.000000e+00)  (-1.784695e-05,0.000000e+00)  
+(-1.784721e-05,-0.000000e+00)  (-1.192622e-17,0.000000e+00)  (-1.429412e-15,0.000000e+00)  (-1.005701e-01,0.000000e+00)  (7.216450e-16,-0.000000e+00)  (-5.544148e-02,0.000000e+00)  (9.933841e-01,0.000000e+00)  (1.097386e-14,0.000000e+00)  
+(-5.180987e-23,0.000000e+00)  (1.784721e-05,0.000000e+00)  (-1.005701e-01,0.000000e+00)  (1.125144e-15,0.000000e+00)  (5.544148e-02,0.000000e+00)  (6.201333e-16,0.000000e+00)  (-1.099728e-14,0.000000e+00)  (9.933841e-01,0.000000e+00)  
+(1.012711e-02,0.000000e+00)  (2.470478e-04,0.000000e+00)  (2.216470e-02,0.000000e+00)  (-9.085868e-01,0.000000e+00)  (-9.779048e-03,0.000000e+00)  (-4.008678e-01,0.000000e+00)  (-1.143578e-01,0.000000e+00)  (2.789724e-03,0.000000e+00)  
+(-2.470478e-04,0.000000e+00)  (1.012711e-02,0.000000e+00)  (9.085868e-01,0.000000e+00)  (2.216470e-02,0.000000e+00)  (-4.008678e-01,0.000000e+00)  (9.779048e-03,0.000000e+00)  (2.789724e-03,-0.000000e+00)  (1.143578e-01,0.000000e+00)  
+ ******************* 
+Block no. 3 : 1.000000 1.000000 
+ Beg: 40 End: 63
+40 Eold = 0.000000e+00  type = 3  StCFrom = 0  
+41 Eold = 0.000000e+00  type = 3  StCFrom = 1  
+42 Eold = 1.437685e-01  type = 3  StCFrom = 2  
+43 Eold = 1.437685e-01  type = 3  StCFrom = 3  
+44 Eold = 0.000000e+00  type = 1  StCFrom = 4  
+45 Eold = 0.000000e+00  type = 1  StCFrom = 5  
+46 Eold = 1.437685e-01  type = 1  StCFrom = 6  
+47 Eold = 1.437685e-01  type = 1  StCFrom = 7  
+48 Eold = 0.000000e+00  type = 2  StCFrom = 8  
+49 Eold = 0.000000e+00  type = 2  StCFrom = 9  
+50 Eold = 0.000000e+00  type = 2  StCFrom = 10  
+51 Eold = 0.000000e+00  type = 2  StCFrom = 11  
+52 Eold = 1.437685e-01  type = 2  StCFrom = 12  
+53 Eold = 1.437685e-01  type = 2  StCFrom = 13  
+54 Eold = 1.437685e-01  type = 2  StCFrom = 14  
+55 Eold = 1.437685e-01  type = 2  StCFrom = 15  
+56 Eold = 0.000000e+00  type = 0  StCFrom = 16  
+57 Eold = 0.000000e+00  type = 0  StCFrom = 17  
+58 Eold = 0.000000e+00  type = 0  StCFrom = 18  
+59 Eold = 0.000000e+00  type = 0  StCFrom = 19  
+60 Eold = 1.437685e-01  type = 0  StCFrom = 20  
+61 Eold = 1.437685e-01  type = 0  StCFrom = 21  
+62 Eold = 1.437685e-01  type = 0  StCFrom = 22  
+63 Eold = 1.437685e-01  type = 0  StCFrom = 23  
+ Block (3) x Block (3) : 1.000000 1.000000   x  1.000000 1.000000 
+Nsti = 40 to 63   ;   Nstj = 40 to 63
+(0,0) (0,0) (0,0) (0,0) (0,0) (-0.00704419,0) (-0.000397213,0) (0,0) (-0.0140884,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (-0.124525,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,0) (0,0) (0,0) (-0.00704419,0) (0,0) (0,0) (0.000397213,0) (0,0) (-0.0140884,0) (0,0) (0,0) (0,0) (0.124525,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0.227318,0) (0,0) (-0.124922,0) (0,0) (0,0) (0.00704419,0) (0,0) (-0.124525,0) (0,0) (0,0) (0,0) (-0.0140884,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0.124922,0) (0.00704419,0) (0,0) (0.124525,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (-0.0140884,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (-0.00704419,-0) (-0.124922,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0.0140884,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (-0.124525,0) 
+(-0.00704419,-0) (0,-0) (0,-0) (0.124922,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0.0140884,0) (0,0) (0,0) (0,0) (0.124525,0) (0,0) (0,0) 
+(-0.000397213,-0) (0,-0) (0,-0) (0.00704419,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (-0.124525,0) (0,0) (0,0) (0,0) (0.0140884,0) (0,0) (0,0) 
+(0,-0) (0.000397213,-0) (0.00704419,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0.124525,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0.0140884,0) 
+(-0.0140884,-0) (0,-0) (0,-0) (0.124525,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0.00704419,0) (0,0) (0,0) (0,0) (0.124922,0) (0,0) (0,0) 
+(0,-0) (-0.0140884,-0) (-0.124525,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0.00704419,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (-0.124922,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (-0.00704419,0) (0,0) (0,0) (-0.000397213,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (-0.00704419,0) (0,0) (0.000397213,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0.124922,0) (0,0) (0,0) (0.00704419,0) (0,0) 
+(0,-0) (0.124525,-0) (-0.0140884,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0.000397213,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (-0.00704419,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0,0) (-0.124922,0) (0,0) (0.00704419,0) (0,0) (0,0) (0,0) 
+(-0.124525,-0) (0,-0) (0,-0) (-0.0140884,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (-0.000397213,0) (0,0) (0,0) (0,0) (-0.00704419,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0.0140884,-0) (0,-0) (0,-0) (0.124525,-0) (0,-0) (0.00704419,-0) (0,-0) (0,-0) (0,-0) (0.000397213,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.0140884,-0) (-0.124525,-0) (0,-0) (0.00704419,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (-0.000397213,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (-0.00704419,-0) (0,-0) (0,-0) (-0.124922,-0) (0,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (-0.00704419,-0) (0,-0) (0.124922,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.000397213,-0) (0,-0) (0,-0) (0.00704419,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.124525,-0) (0.0140884,-0) (0,-0) (0.124922,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (-0.00704419,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (-0.000397213,-0) (0,-0) (0.00704419,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (-0.124525,-0) (0,-0) (0,-0) (0.0140884,-0) (0,-0) (-0.124922,-0) (0,-0) (0,-0) (0,-0) (-0.00704419,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) 
+
+ Diagonalizing block 3 of 7
+Upper triangular
+Block no. 3 : 1.000000 1.000000 
+ dEn : 
+40 : -1.624260e-01
+41 : -1.624260e-01
+42 : -5.600215e-02
+43 : -5.600215e-02
+44 : -5.600215e-02
+45 : -5.600215e-02
+46 : -5.408633e-02
+47 : -5.408633e-02
+48 : 7.131464e-04
+49 : 7.131464e-04
+50 : 7.131464e-04
+51 : 7.131464e-04
+52 : 2.266048e-01
+53 : 2.266048e-01
+54 : 2.266048e-01
+55 : 2.266048e-01
+56 : 2.814043e-01
+57 : 2.814043e-01
+58 : 2.833201e-01
+59 : 2.833201e-01
+60 : 2.833201e-01
+61 : 2.833201e-01
+62 : 3.897440e-01
+63 : 3.897440e-01
+Kept States: 
+ dEigVec (rows): 
+(-8.088573e-02,0.000000e+00)  (4.858320e-03,0.000000e+00)  (2.269063e-02,0.000000e+00)  (3.777742e-01,0.000000e+00)  (3.547941e-02,0.000000e+00)  (-5.906936e-01,0.000000e+00)  (5.277350e-03,0.000000e+00)  (3.169787e-04,0.000000e+00)  (-5.906936e-01,0.000000e+00)  (3.547941e-02,0.000000e+00)  (2.598127e-17,0.000000e+00)  (1.417210e-17,0.000000e+00)  (1.401614e-18,0.000000e+00)  (-3.169787e-04,0.000000e+00)  (-1.487253e-18,0.000000e+00)  (-5.277350e-03,0.000000e+00)  (-4.858320e-03,0.000000e+00)  (8.088573e-02,0.000000e+00)  (-6.465527e-19,0.000000e+00)  (-1.862590e-18,0.000000e+00)  (-1.057731e-20,0.000000e+00)  (3.777742e-01,0.000000e+00)  (1.798838e-21,0.000000e+00)  (2.269063e-02,0.000000e+00)  
+(4.858320e-03,0.000000e+00)  (8.088573e-02,0.000000e+00)  (3.777742e-01,0.000000e+00)  (-2.269063e-02,0.000000e+00)  (5.906936e-01,0.000000e+00)  (3.547941e-02,0.000000e+00)  (-3.169787e-04,0.000000e+00)  (5.277350e-03,0.000000e+00)  (3.547941e-02,0.000000e+00)  (5.906936e-01,0.000000e+00)  (1.089152e-18,0.000000e+00)  (-6.461510e-17,0.000000e+00)  (3.059956e-20,0.000000e+00)  (-5.277350e-03,0.000000e+00)  (2.373364e-18,0.000000e+00)  (3.169787e-04,0.000000e+00)  (-8.088573e-02,0.000000e+00)  (-4.858320e-03,0.000000e+00)  (1.524008e-17,0.000000e+00)  (2.262867e-18,0.000000e+00)  (-8.649417e-21,0.000000e+00)  (-2.269063e-02,0.000000e+00)  (9.603053e-21,0.000000e+00)  (3.777742e-01,0.000000e+00)  
+(-7.385653e-04,0.000000e+00)  (-1.853560e-02,0.000000e+00)  (2.065978e-04,0.000000e+00)  (-8.232050e-06,0.000000e+00)  (2.332953e-03,0.000000e+00)  (9.295832e-05,0.000000e+00)  (-3.258544e-04,0.000000e+00)  (8.177893e-03,0.000000e+00)  (-9.295832e-05,0.000000e+00)  (-2.332953e-03,0.000000e+00)  (-1.138145e-01,0.000000e+00)  (-1.099263e-02,0.000000e+00)  (3.989635e-01,0.000000e+00)  (8.177893e-03,0.000000e+00)  (-3.853337e-02,0.000000e+00)  (-3.258544e-04,0.000000e+00)  (-1.853560e-02,0.000000e+00)  (-7.385653e-04,0.000000e+00)  (-8.733780e-02,0.000000e+00)  (-9.042705e-01,0.000000e+00)  (9.734672e-04,0.000000e+00)  (8.232050e-06,0.000000e+00)  (-1.007900e-02,0.000000e+00)  (-2.065978e-04,0.000000e+00)  
+(-6.992803e-03,0.000000e+00)  (-1.172432e-01,-0.000000e+00)  (1.306793e-03,0.000000e+00)  (-7.794179e-05,0.000000e+00)  (1.475662e-02,0.000000e+00)  (8.801378e-04,-0.000000e+00)  (-3.085219e-03,0.000000e+00)  (5.172761e-02,0.000000e+00)  (-8.801378e-04,0.000000e+00)  (-1.475662e-02,-0.000000e+00)  (-1.021105e-02,-0.000000e+00)  (1.120007e-01,-0.000000e+00)  (3.579363e-02,0.000000e+00)  (5.172761e-02,0.000000e+00)  (3.926053e-01,-0.000000e+00)  (-3.085219e-03,0.000000e+00)  (-1.172432e-01,-0.000000e+00)  (-6.992803e-03,0.000000e+00)  (8.898594e-01,-0.000000e+00)  (-8.112803e-02,-0.000000e+00)  (-9.918374e-03,0.000000e+00)  (7.794179e-05,-0.000000e+00)  (-9.042532e-04,-0.000000e+00)  (-1.306793e-03,-0.000000e+00)  
+(5.929416e-01,0.000000e+00)  (2.423075e-01,0.000000e+00)  (-2.700759e-03,0.000000e+00)  (6.608928e-03,0.000000e+00)  (-3.049764e-02,0.000000e+00)  (-7.462963e-02,0.000000e+00)  (2.616054e-01,0.000000e+00)  (-1.069059e-01,0.000000e+00)  (7.462963e-02,0.000000e+00)  (3.049764e-02,0.000000e+00)  (-2.241911e-03,0.000000e+00)  (9.004949e-03,0.000000e+00)  (7.858755e-03,0.000000e+00)  (-1.069059e-01,0.000000e+00)  (3.156579e-02,0.000000e+00)  (2.616054e-01,0.000000e+00)  (2.423075e-01,0.000000e+00)  (5.929416e-01,0.000000e+00)  (7.154543e-02,0.000000e+00)  (-1.781226e-02,0.000000e+00)  (-7.974455e-04,0.000000e+00)  (-6.608928e-03,0.000000e+00)  (-1.985355e-04,0.000000e+00)  (2.700759e-03,0.000000e+00)  
+(-2.477528e-01,0.000000e+00)  (5.832737e-01,0.000000e+00)  (-6.501169e-03,0.000000e+00)  (-2.761454e-03,0.000000e+00)  (-7.341280e-02,0.000000e+00)  (3.118301e-02,0.000000e+00)  (-1.093084e-01,0.000000e+00)  (-2.573399e-01,0.000000e+00)  (-3.118301e-02,0.000000e+00)  (7.341280e-02,0.000000e+00)  (-4.738025e-03,0.000000e+00)  (1.842291e-02,0.000000e+00)  (1.660859e-02,0.000000e+00)  (-2.573399e-01,0.000000e+00)  (6.457935e-02,0.000000e+00)  (-1.093084e-01,0.000000e+00)  (5.832737e-01,0.000000e+00)  (-2.477528e-01,0.000000e+00)  (1.463723e-01,0.000000e+00)  (-3.764419e-02,0.000000e+00)  (-1.631466e-03,0.000000e+00)  (2.761454e-03,0.000000e+00)  (-4.195822e-04,0.000000e+00)  (6.501169e-03,0.000000e+00)  
+(-2.599257e-01,0.000000e+00)  (-5.857930e-01,0.000000e+00)  (5.930498e-02,0.000000e+00)  (-2.631456e-02,0.000000e+00)  (4.463487e-02,0.000000e+00)  (1.980520e-02,0.000000e+00)  (1.166296e-01,0.000000e+00)  (-2.628474e-01,0.000000e+00)  (1.980520e-02,0.000000e+00)  (4.463487e-02,0.000000e+00)  (1.834719e-16,0.000000e+00)  (-1.045199e-15,0.000000e+00)  (-2.205954e-16,0.000000e+00)  (2.628474e-01,0.000000e+00)  (-2.364438e-15,0.000000e+00)  (-1.166296e-01,0.000000e+00)  (5.857930e-01,0.000000e+00)  (2.599257e-01,0.000000e+00)  (-5.724228e-15,0.000000e+00)  (4.505392e-16,0.000000e+00)  (5.967414e-17,0.000000e+00)  (-2.631456e-02,0.000000e+00)  (4.964818e-18,0.000000e+00)  (5.930498e-02,0.000000e+00)  
+(-5.857930e-01,0.000000e+00)  (2.599257e-01,-0.000000e+00)  (-2.631456e-02,0.000000e+00)  (-5.930498e-02,0.000000e+00)  (-1.980520e-02,0.000000e+00)  (4.463487e-02,-0.000000e+00)  (2.628474e-01,-0.000000e+00)  (1.166296e-01,-0.000000e+00)  (4.463487e-02,-0.000000e+00)  (-1.980520e-02,0.000000e+00)  (-8.137849e-17,0.000000e+00)  (4.636675e-16,-0.000000e+00)  (9.777493e-17,-0.000000e+00)  (-1.166296e-01,0.000000e+00)  (1.048777e-15,-0.000000e+00)  (-2.628474e-01,0.000000e+00)  (-2.599257e-01,0.000000e+00)  (5.857930e-01,-0.000000e+00)  (2.539105e-15,-0.000000e+00)  (-1.996667e-16,0.000000e+00)  (-2.646915e-17,0.000000e+00)  (-5.930498e-02,0.000000e+00)  (-2.200229e-18,0.000000e+00)  (-2.631456e-02,0.000000e+00)  
+(2.644153e-04,-0.000000e+00)  (4.506343e-03,-0.000000e+00)  (7.996973e-07,-0.000000e+00)  (-4.692324e-08,0.000000e+00)  (4.451152e-02,-0.000000e+00)  (2.611769e-03,-0.000000e+00)  (1.457647e-04,-0.000000e+00)  (-2.484220e-03,0.000000e+00)  (-2.611769e-03,0.000000e+00)  (-4.451152e-02,0.000000e+00)  (1.408722e-01,-0.000000e+00)  (-9.813209e-01,0.000000e+00)  (7.862180e-03,-0.000000e+00)  (-2.484220e-03,0.000000e+00)  (5.476823e-02,-0.000000e+00)  (1.457647e-04,-0.000000e+00)  (4.506343e-03,-0.000000e+00)  (2.644153e-04,-0.000000e+00)  (9.934886e-02,-0.000000e+00)  (-1.426189e-02,0.000000e+00)  (1.763049e-05,-0.000000e+00)  (4.692324e-08,-0.000000e+00)  (2.530921e-06,-0.000000e+00)  (-7.996973e-07,0.000000e+00)  
+(-7.094343e-02,0.000000e+00)  (-4.886138e-03,0.000000e+00)  (-8.670958e-07,0.000000e+00)  (1.258965e-05,0.000000e+00)  (-4.826295e-02,0.000000e+00)  (-7.007456e-01,0.000000e+00)  (-3.910912e-02,0.000000e+00)  (2.693590e-03,0.000000e+00)  (7.007456e-01,0.000000e+00)  (4.826295e-02,0.000000e+00)  (1.540509e-03,0.000000e+00)  (-7.887196e-03,0.000000e+00)  (8.597694e-05,0.000000e+00)  (2.693590e-03,0.000000e+00)  (4.401901e-04,0.000000e+00)  (-3.910912e-02,0.000000e+00)  (-4.886138e-03,0.000000e+00)  (-7.094343e-02,0.000000e+00)  (7.984992e-04,0.000000e+00)  (-1.559611e-04,0.000000e+00)  (1.417020e-07,0.000000e+00)  (-1.258965e-05,0.000000e+00)  (2.767691e-08,0.000000e+00)  (8.670958e-07,0.000000e+00)  
+(-3.973477e-05,0.000000e+00)  (1.547225e-04,0.000000e+00)  (2.745712e-08,0.000000e+00)  (7.051346e-09,0.000000e+00)  (1.528276e-03,0.000000e+00)  (-3.924811e-04,0.000000e+00)  (-2.190466e-05,0.000000e+00)  (-8.529417e-05,0.000000e+00)  (3.924811e-04,0.000000e+00)  (-1.528276e-03,0.000000e+00)  (-9.833206e-01,0.000000e+00)  (-1.410227e-01,0.000000e+00)  (-5.487983e-02,0.000000e+00)  (-8.529417e-05,0.000000e+00)  (7.870581e-03,0.000000e+00)  (-2.190466e-05,0.000000e+00)  (1.547225e-04,0.000000e+00)  (-3.973477e-05,0.000000e+00)  (1.427713e-02,0.000000e+00)  (9.955132e-02,0.000000e+00)  (2.533625e-06,0.000000e+00)  (-7.051346e-09,0.000000e+00)  (-1.766641e-05,0.000000e+00)  (-2.745712e-08,0.000000e+00)  
+(4.912618e-03,0.000000e+00)  (-7.080234e-02,0.000000e+00)  (-1.256461e-05,0.000000e+00)  (-8.717949e-07,0.000000e+00)  (-6.993519e-01,0.000000e+00)  (4.852450e-02,0.000000e+00)  (2.708188e-03,0.000000e+00)  (3.903133e-02,0.000000e+00)  (-4.852450e-02,0.000000e+00)  (6.993519e-01,0.000000e+00)  (6.710930e-03,0.000000e+00)  (-6.222182e-02,0.000000e+00)  (3.745418e-04,0.000000e+00)  (3.903133e-02,0.000000e+00)  (3.472644e-03,0.000000e+00)  (2.708188e-03,0.000000e+00)  (-7.080234e-02,0.000000e+00)  (4.912618e-03,0.000000e+00)  (6.299333e-03,0.000000e+00)  (-6.794141e-04,0.000000e+00)  (1.117882e-06,0.000000e+00)  (8.717949e-07,0.000000e+00)  (1.205691e-07,0.000000e+00)  (1.256461e-05,0.000000e+00)  
+(-2.052308e-02,0.000000e+00)  (-3.339843e-02,0.000000e+00)  (-5.984233e-01,0.000000e+00)  (3.677265e-01,0.000000e+00)  (1.075132e-05,0.000000e+00)  (6.606602e-06,0.000000e+00)  (3.722861e-02,0.000000e+00)  (-6.058433e-02,0.000000e+00)  (-6.606602e-06,0.000000e+00)  (-1.075132e-05,0.000000e+00)  (-2.158777e-07,0.000000e+00)  (1.932695e-08,0.000000e+00)  (-1.216484e-03,0.000000e+00)  (-6.058433e-02,0.000000e+00)  (-1.089086e-04,0.000000e+00)  (3.722861e-02,0.000000e+00)  (-3.339843e-02,0.000000e+00)  (-2.052308e-02,0.000000e+00)  (6.003822e-05,0.000000e+00)  (-6.706135e-04,0.000000e+00)  (1.075747e-03,0.000000e+00)  (-3.677265e-01,0.000000e+00)  (1.201585e-02,0.000000e+00)  (5.984233e-01,0.000000e+00)  
+(3.340167e-02,0.000000e+00)  (-2.051922e-02,0.000000e+00)  (-3.676573e-01,0.000000e+00)  (-5.984813e-01,0.000000e+00)  (6.605359e-06,0.000000e+00)  (-1.075236e-05,0.000000e+00)  (-6.059021e-02,0.000000e+00)  (-3.722160e-02,0.000000e+00)  (1.075236e-05,0.000000e+00)  (-6.605359e-06,0.000000e+00)  (-1.862409e-07,0.000000e+00)  (1.667365e-08,0.000000e+00)  (-1.049479e-03,0.000000e+00)  (-3.722160e-02,0.000000e+00)  (-9.395702e-05,0.000000e+00)  (-6.059021e-02,0.000000e+00)  (-2.051922e-02,0.000000e+00)  (3.340167e-02,0.000000e+00)  (5.179586e-05,0.000000e+00)  (-5.785481e-04,0.000000e+00)  (9.280628e-04,0.000000e+00)  (5.984813e-01,0.000000e+00)  (1.036625e-02,0.000000e+00)  (3.676573e-01,0.000000e+00)  
+(1.776719e-54,0.000000e+00)  (-9.266804e-17,0.000000e+00)  (-9.698960e-18,0.000000e+00)  (1.037269e-31,0.000000e+00)  (1.012203e-17,0.000000e+00)  (6.228224e-32,0.000000e+00)  (-1.055947e-30,0.000000e+00)  (1.122780e-17,0.000000e+00)  (7.379876e-32,0.000000e+00)  (9.006941e-18,0.000000e+00)  (1.591448e-06,0.000000e+00)  (1.777612e-05,0.000000e+00)  (8.967907e-03,0.000000e+00)  (-1.436937e-16,0.000000e+00)  (-1.001695e-01,0.000000e+00)  (1.040007e-31,0.000000e+00)  (1.162516e-18,0.000000e+00)  (6.819548e-31,0.000000e+00)  (5.522062e-02,0.000000e+00)  (4.943754e-03,0.000000e+00)  (9.894268e-01,0.000000e+00)  (-4.660186e-32,0.000000e+00)  (-8.858073e-02,0.000000e+00)  (-2.081262e-18,0.000000e+00)  
+(-1.007257e-04,0.000000e+00)  (6.206595e-04,0.000000e+00)  (1.112079e-02,0.000000e+00)  (1.804773e-03,0.000000e+00)  (-1.997970e-07,0.000000e+00)  (3.242469e-08,0.000000e+00)  (1.827151e-04,0.000000e+00)  (1.125868e-03,0.000000e+00)  (-3.242469e-08,0.000000e+00)  (1.997970e-07,0.000000e+00)  (-1.777383e-05,0.000000e+00)  (1.591243e-06,0.000000e+00)  (-1.001566e-01,0.000000e+00)  (1.125868e-03,0.000000e+00)  (-8.966753e-03,0.000000e+00)  (1.827151e-04,0.000000e+00)  (6.206595e-04,0.000000e+00)  (-1.007257e-04,0.000000e+00)  (4.943118e-03,0.000000e+00)  (-5.521352e-02,0.000000e+00)  (8.856933e-02,0.000000e+00)  (-1.804773e-03,0.000000e+00)  (9.892995e-01,0.000000e+00)  (-1.112079e-02,0.000000e+00)  
+(-1.554737e-01,0.000000e+00)  (-2.419073e-01,0.000000e+00)  (-4.107897e-02,0.000000e+00)  (2.640143e-02,0.000000e+00)  (5.458037e-02,0.000000e+00)  (3.507877e-02,0.000000e+00)  (-3.464953e-01,0.000000e+00)  (5.391250e-01,0.000000e+00)  (3.507877e-02,0.000000e+00)  (5.458037e-02,0.000000e+00)  (-3.248232e-17,0.000000e+00)  (-2.766875e-16,0.000000e+00)  (-7.384193e-15,0.000000e+00)  (-5.391250e-01,0.000000e+00)  (-2.365936e-14,0.000000e+00)  (3.464953e-01,0.000000e+00)  (2.419073e-01,0.000000e+00)  (1.554737e-01,0.000000e+00)  (1.048249e-14,0.000000e+00)  (-3.318980e-15,0.000000e+00)  (-3.086526e-15,0.000000e+00)  (2.640143e-02,0.000000e+00)  (-9.740695e-16,0.000000e+00)  (-4.107897e-02,0.000000e+00)  
+(-2.419073e-01,0.000000e+00)  (1.554737e-01,0.000000e+00)  (2.640143e-02,0.000000e+00)  (4.107897e-02,0.000000e+00)  (-3.507877e-02,0.000000e+00)  (5.458037e-02,0.000000e+00)  (-5.391250e-01,0.000000e+00)  (-3.464953e-01,0.000000e+00)  (5.458037e-02,0.000000e+00)  (-3.507877e-02,0.000000e+00)  (-1.160486e-16,0.000000e+00)  (4.922229e-17,0.000000e+00)  (4.758906e-15,0.000000e+00)  (3.464953e-01,0.000000e+00)  (1.519218e-14,0.000000e+00)  (5.391250e-01,0.000000e+00)  (-1.554737e-01,0.000000e+00)  (2.419073e-01,0.000000e+00)  (-6.695526e-15,0.000000e+00)  (2.155821e-15,0.000000e+00)  (1.978843e-15,0.000000e+00)  (4.107897e-02,0.000000e+00)  (6.272463e-16,0.000000e+00)  (2.640143e-02,0.000000e+00)  
+(-1.451574e-01,0.000000e+00)  (-1.900119e-01,0.000000e+00)  (5.420577e-02,-0.000000e+00)  (-4.140986e-02,0.000000e+00)  (-4.800265e-03,0.000000e+00)  (-3.667106e-03,0.000000e+00)  (3.290064e-01,-0.000000e+00)  (-4.306715e-01,0.000000e+00)  (3.667106e-03,-0.000000e+00)  (4.800265e-03,-0.000000e+00)  (2.329540e-03,0.000000e+00)  (-4.920590e-03,0.000000e+00)  (-2.090023e-01,-0.000000e+00)  (-4.306715e-01,0.000000e+00)  (-4.414669e-01,0.000000e+00)  (3.290064e-01,-0.000000e+00)  (-1.900119e-01,0.000000e+00)  (-1.451574e-01,0.000000e+00)  (1.947748e-01,-0.000000e+00)  (-9.221167e-02,-0.000000e+00)  (-5.556451e-02,0.000000e+00)  (4.140986e-02,-0.000000e+00)  (-2.630574e-02,-0.000000e+00)  (-5.420577e-02,0.000000e+00)  
+(-1.628291e-01,0.000000e+00)  (1.433039e-01,0.000000e+00)  (-4.088110e-02,0.000000e+00)  (-4.645117e-02,0.000000e+00)  (3.620281e-03,0.000000e+00)  (-4.113546e-03,0.000000e+00)  (3.690602e-01,-0.000000e+00)  (3.248054e-01,0.000000e+00)  (4.113546e-03,-0.000000e+00)  (-3.620281e-03,0.000000e+00)  (6.207817e-03,-0.000000e+00)  (2.006741e-03,0.000000e+00)  (-5.569546e-01,0.000000e+00)  (3.248054e-01,0.000000e+00)  (1.800414e-01,0.000000e+00)  (3.690602e-01,-0.000000e+00)  (1.433039e-01,0.000000e+00)  (-1.628291e-01,0.000000e+00)  (-7.943411e-02,0.000000e+00)  (-2.457279e-01,0.000000e+00)  (2.266061e-02,0.000000e+00)  (4.645117e-02,-0.000000e+00)  (-7.010019e-02,0.000000e+00)  (4.088110e-02,0.000000e+00)  
+(1.775055e-01,0.000000e+00)  (7.379106e-03,0.000000e+00)  (-2.105079e-03,0.000000e+00)  (5.063799e-02,0.000000e+00)  (1.864181e-04,0.000000e+00)  (4.484315e-03,0.000000e+00)  (-4.023250e-01,0.000000e+00)  (1.672511e-02,0.000000e+00)  (-4.484315e-03,0.000000e+00)  (-1.864181e-04,0.000000e+00)  (6.941447e-03,0.000000e+00)  (-3.761388e-03,0.000000e+00)  (-6.227746e-01,0.000000e+00)  (1.672511e-02,0.000000e+00)  (-3.374652e-01,0.000000e+00)  (-4.023250e-01,0.000000e+00)  (7.379106e-03,0.000000e+00)  (1.775055e-01,0.000000e+00)  (1.488894e-01,0.000000e+00)  (-2.747677e-01,0.000000e+00)  (-4.247451e-02,0.000000e+00)  (-5.063799e-02,0.000000e+00)  (-7.838452e-02,0.000000e+00)  (2.105079e-03,0.000000e+00)  
+(3.609910e-02,0.000000e+00)  (-1.539491e-01,0.000000e+00)  (4.391792e-02,0.000000e+00)  (1.029819e-02,0.000000e+00)  (-3.889211e-03,0.000000e+00)  (9.119705e-04,0.000000e+00)  (-8.182042e-02,0.000000e+00)  (-3.489333e-01,0.000000e+00)  (-9.119705e-04,0.000000e+00)  (3.889211e-03,0.000000e+00)  (3.236041e-03,0.000000e+00)  (7.760936e-03,0.000000e+00)  (-2.903320e-01,0.000000e+00)  (-3.489333e-01,0.000000e+00)  (6.962978e-01,0.000000e+00)  (-8.182042e-02,0.000000e+00)  (-1.539491e-01,0.000000e+00)  (3.609910e-02,0.000000e+00)  (-3.072061e-01,0.000000e+00)  (-1.280942e-01,0.000000e+00)  (8.763839e-02,0.000000e+00)  (-1.029819e-02,0.000000e+00)  (-3.654216e-02,0.000000e+00)  (-4.391792e-02,0.000000e+00)  
+(2.108054e-18,0.000000e+00)  (-5.286861e-03,0.000000e+00)  (5.917581e-01,0.000000e+00)  (1.975386e-16,0.000000e+00)  (-3.784551e-01,0.000000e+00)  (1.668385e-17,0.000000e+00)  (2.396962e-16,0.000000e+00)  (8.103150e-02,0.000000e+00)  (4.494640e-17,0.000000e+00)  (-3.784551e-01,0.000000e+00)  (1.023525e-17,0.000000e+00)  (-9.253783e-17,0.000000e+00)  (-2.732189e-17,0.000000e+00)  (-8.103150e-02,0.000000e+00)  (-9.147956e-19,0.000000e+00)  (-1.623897e-17,0.000000e+00)  (5.286861e-03,0.000000e+00)  (-4.967451e-17,0.000000e+00)  (5.488773e-19,0.000000e+00)  (-9.703609e-18,0.000000e+00)  (-9.757820e-19,0.000000e+00)  (-1.754141e-16,0.000000e+00)  (-6.938894e-18,0.000000e+00)  (5.917581e-01,0.000000e+00)  
+(5.286861e-03,0.000000e+00)  (1.185575e-16,0.000000e+00)  (-4.597017e-17,0.000000e+00)  (5.917581e-01,0.000000e+00)  (1.173532e-16,0.000000e+00)  (3.784551e-01,0.000000e+00)  (8.103150e-02,0.000000e+00)  (6.394082e-17,0.000000e+00)  (3.784551e-01,0.000000e+00)  (8.324261e-17,0.000000e+00)  (-7.860466e-19,0.000000e+00)  (-1.029727e-18,0.000000e+00)  (3.469447e-18,0.000000e+00)  (3.794708e-19,0.000000e+00)  (-9.324139e-18,0.000000e+00)  (-8.103150e-02,0.000000e+00)  (9.546400e-17,0.000000e+00)  (-5.286861e-03,0.000000e+00)  (1.734723e-18,0.000000e+00)  (-3.469447e-18,0.000000e+00)  (-3.469447e-18,0.000000e+00)  (5.917581e-01,0.000000e+00)  (-5.551115e-17,0.000000e+00)  (-2.094679e-16,0.000000e+00)  
+ ******************* 
+Block no. 4 : 2.000000 -1.000000 
+ Beg: 64 End: 87
+64 Eold = 0.000000e+00  type = 1  StCFrom = 8  
+65 Eold = 0.000000e+00  type = 1  StCFrom = 9  
+66 Eold = 0.000000e+00  type = 1  StCFrom = 10  
+67 Eold = 0.000000e+00  type = 1  StCFrom = 11  
+68 Eold = 1.437685e-01  type = 1  StCFrom = 12  
+69 Eold = 1.437685e-01  type = 1  StCFrom = 13  
+70 Eold = 1.437685e-01  type = 1  StCFrom = 14  
+71 Eold = 1.437685e-01  type = 1  StCFrom = 15  
+72 Eold = 0.000000e+00  type = 3  StCFrom = 16  
+73 Eold = 0.000000e+00  type = 3  StCFrom = 17  
+74 Eold = 0.000000e+00  type = 3  StCFrom = 18  
+75 Eold = 0.000000e+00  type = 3  StCFrom = 19  
+76 Eold = 1.437685e-01  type = 3  StCFrom = 20  
+77 Eold = 1.437685e-01  type = 3  StCFrom = 21  
+78 Eold = 1.437685e-01  type = 3  StCFrom = 22  
+79 Eold = 1.437685e-01  type = 3  StCFrom = 23  
+80 Eold = 0.000000e+00  type = 0  StCFrom = 24  
+81 Eold = 0.000000e+00  type = 0  StCFrom = 25  
+82 Eold = 1.437685e-01  type = 0  StCFrom = 26  
+83 Eold = 1.437685e-01  type = 0  StCFrom = 27  
+84 Eold = 0.000000e+00  type = 2  StCFrom = 28  
+85 Eold = 0.000000e+00  type = 2  StCFrom = 29  
+86 Eold = 1.437685e-01  type = 2  StCFrom = 30  
+87 Eold = 1.437685e-01  type = 2  StCFrom = 31  
+ Block (4) x Block (4) : 2.000000 -1.000000   x  2.000000 -1.000000 
+Nsti = 64 to 87   ;   Nstj = 64 to 87
+(0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0.0140884,0) (0,0) (0,0) (0.124525,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0.0140884,0) (-0.124525,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (-0.124525,0) (0,0) (0,0) (0.0140884,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0.124525,0) (0.0140884,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (-0.0140884,0) (0,0) (0,0) (0.124525,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (-0.0140884,0) (-0.124525,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (-0.124525,0) (0,0) (0,0) (-0.0140884,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0.124525,0) (-0.0140884,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0.0140884,-0) (0,-0) (-0.124525,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0.0140884,-0) (0,-0) (0,-0) (0.124525,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (-0.124525,-0) (0,-0) (0,-0) (0.0140884,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0.124525,-0) (0,-0) (0.0140884,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (-0.0140884,-0) (0,-0) (-0.124525,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (-0.0140884,-0) (0,-0) (0,-0) (0.124525,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (-0.124525,-0) (0,-0) (0,-0) (-0.0140884,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.124525,-0) (0,-0) (-0.0140884,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) 
+
+ Diagonalizing block 4 of 7
+Upper triangular
+Block no. 4 : 2.000000 -1.000000 
+ dEn : 
+64 : -6.473900e-02
+65 : -6.473900e-02
+66 : -6.473900e-02
+67 : -6.473900e-02
+68 : -4.577989e-02
+69 : -4.577989e-02
+70 : -4.577989e-02
+71 : -4.577989e-02
+72 : -1.110307e-16
+73 : -2.774927e-17
+74 : 0.000000e+00
+75 : 0.000000e+00
+76 : 2.273180e-01
+77 : 2.273180e-01
+78 : 2.273180e-01
+79 : 2.273180e-01
+80 : 2.730979e-01
+81 : 2.730979e-01
+82 : 2.730979e-01
+83 : 2.730979e-01
+84 : 2.920570e-01
+85 : 2.920570e-01
+86 : 2.920570e-01
+87 : 2.920570e-01
+Kept States: 
+ dEigVec (rows): 
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (-2.778892e-07,0.000000e+00)  (-2.992431e-04,0.000000e+00)  (1.130317e-07,0.000000e+00)  (2.964035e-18,0.000000e+00)  (-1.217174e-04,0.000000e+00)  (7.482115e-17,0.000000e+00)  (8.489989e-17,0.000000e+00)  (7.571272e-16,0.000000e+00)  (-3.806890e-03,0.000000e+00)  (6.549852e-01,0.000000e+00)  (-1.548456e-03,0.000000e+00)  (-3.099453e-17,0.000000e+00)  (-2.664158e-01,0.000000e+00)  (-1.265492e-16,0.000000e+00)  (2.778892e-07,0.000000e+00)  (2.992431e-04,0.000000e+00)  (-1.217174e-04,0.000000e+00)  (1.130317e-07,0.000000e+00)  (-3.806890e-03,0.000000e+00)  (6.549852e-01,0.000000e+00)  (2.664158e-01,0.000000e+00)  (1.548456e-03,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (-1.088139e-05,0.000000e+00)  (-1.139840e-02,0.000000e+00)  (4.426016e-06,0.000000e+00)  (2.281062e-17,0.000000e+00)  (-4.636309e-03,0.000000e+00)  (1.393933e-16,0.000000e+00)  (-1.351057e-16,0.000000e+00)  (1.227315e-16,0.000000e+00)  (-6.548861e-01,0.000000e+00)  (-3.811521e-03,0.000000e+00)  (-2.663755e-01,0.000000e+00)  (-8.130635e-17,0.000000e+00)  (1.550339e-03,0.000000e+00)  (2.934606e-17,0.000000e+00)  (1.088139e-05,0.000000e+00)  (1.139840e-02,0.000000e+00)  (-4.636309e-03,0.000000e+00)  (4.426016e-06,0.000000e+00)  (-6.548861e-01,0.000000e+00)  (-3.811521e-03,0.000000e+00)  (-1.550339e-03,0.000000e+00)  (2.663755e-01,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (-6.037853e-04,0.000000e+00)  (-6.548968e-01,0.000000e+00)  (2.455902e-04,0.000000e+00)  (2.718362e-17,0.000000e+00)  (-2.663799e-01,0.000000e+00)  (1.989563e-17,0.000000e+00)  (9.690009e-17,0.000000e+00)  (3.832171e-17,0.000000e+00)  (1.139995e-02,0.000000e+00)  (-2.329444e-04,0.000000e+00)  (4.636941e-03,0.000000e+00)  (1.429290e-18,0.000000e+00)  (9.475034e-05,0.000000e+00)  (-4.529404e-19,0.000000e+00)  (6.037853e-04,0.000000e+00)  (6.548968e-01,0.000000e+00)  (-2.663799e-01,0.000000e+00)  (2.455902e-04,0.000000e+00)  (1.139995e-02,0.000000e+00)  (-2.329444e-04,0.000000e+00)  (-9.475034e-05,0.000000e+00)  (-4.636941e-03,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (-6.549961e-01,0.000000e+00)  (6.038833e-04,0.000000e+00)  (2.664202e-01,0.000000e+00)  (-5.050336e-17,0.000000e+00)  (2.456300e-04,0.000000e+00)  (-2.068757e-20,0.000000e+00)  (-8.711549e-20,0.000000e+00)  (-3.768568e-20,0.000000e+00)  (3.725301e-07,0.000000e+00)  (1.675565e-10,0.000000e+00)  (1.515269e-07,0.000000e+00)  (4.634411e-23,0.000000e+00)  (-6.815377e-11,0.000000e+00)  (-1.630638e-23,0.000000e+00)  (6.549961e-01,0.000000e+00)  (-6.038833e-04,0.000000e+00)  (2.456300e-04,0.000000e+00)  (2.664202e-01,0.000000e+00)  (3.725301e-07,0.000000e+00)  (1.675565e-10,0.000000e+00)  (6.815377e-11,0.000000e+00)  (-1.515269e-07,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (-6.801230e-05,0.000000e+00)  (-1.446308e-02,0.000000e+00)  (-3.269851e-05,0.000000e+00)  (-7.930434e-18,0.000000e+00)  (6.953465e-03,0.000000e+00)  (-7.307840e-17,0.000000e+00)  (-1.517898e-16,0.000000e+00)  (-6.978728e-16,0.000000e+00)  (6.179924e-01,0.000000e+00)  (-1.549285e-01,0.000000e+00)  (-2.971144e-01,0.000000e+00)  (4.466758e-17,0.000000e+00)  (-7.448551e-02,0.000000e+00)  (1.917982e-17,0.000000e+00)  (-6.801230e-05,0.000000e+00)  (-1.446308e-02,0.000000e+00)  (-6.953465e-03,0.000000e+00)  (3.269851e-05,0.000000e+00)  (-6.179924e-01,0.000000e+00)  (1.549285e-01,0.000000e+00)  (-7.448551e-02,0.000000e+00)  (-2.971144e-01,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (-4.303301e-02,0.000000e+00)  (-6.356582e-01,0.000000e+00)  (-2.068913e-02,0.000000e+00)  (-6.826730e-17,0.000000e+00)  (3.056076e-01,0.000000e+00)  (6.138396e-18,0.000000e+00)  (1.507049e-17,0.000000e+00)  (7.038867e-17,0.000000e+00)  (-1.345240e-02,0.000000e+00)  (5.699534e-03,0.000000e+00)  (6.467558e-03,0.000000e+00)  (-1.177955e-18,0.000000e+00)  (2.740185e-03,0.000000e+00)  (-1.268701e-20,0.000000e+00)  (-4.303301e-02,0.000000e+00)  (-6.356582e-01,0.000000e+00)  (-3.056076e-01,0.000000e+00)  (2.068913e-02,0.000000e+00)  (1.345240e-02,0.000000e+00)  (-5.699534e-03,0.000000e+00)  (2.740185e-03,0.000000e+00)  (6.467558e-03,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (6.358261e-01,0.000000e+00)  (-4.302324e-02,0.000000e+00)  (3.056883e-01,0.000000e+00)  (-6.684354e-17,0.000000e+00)  (2.068443e-02,0.000000e+00)  (4.085424e-19,0.000000e+00)  (1.003304e-18,0.000000e+00)  (4.672585e-18,0.000000e+00)  (-8.477382e-04,0.000000e+00)  (3.557048e-04,0.000000e+00)  (4.075701e-04,0.000000e+00)  (-7.392564e-20,0.000000e+00)  (1.710135e-04,0.000000e+00)  (-1.402484e-21,0.000000e+00)  (6.358261e-01,0.000000e+00)  (-4.302324e-02,0.000000e+00)  (-2.068443e-02,0.000000e+00)  (-3.056883e-01,0.000000e+00)  (8.477382e-04,0.000000e+00)  (-3.557048e-04,0.000000e+00)  (1.710135e-04,0.000000e+00)  (4.075701e-04,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (-1.385560e-05,0.000000e+00)  (-2.260858e-03,0.000000e+00)  (-6.661404e-06,0.000000e+00)  (3.634935e-18,0.000000e+00)  (1.086961e-03,0.000000e+00)  (4.175308e-17,0.000000e+00)  (-2.005070e-17,0.000000e+00)  (-7.665354e-16,0.000000e+00)  (-1.550172e-01,0.000000e+00)  (-6.181352e-01,0.000000e+00)  (7.452816e-02,0.000000e+00)  (4.685247e-17,0.000000e+00)  (-2.971830e-01,0.000000e+00)  (-1.191027e-16,0.000000e+00)  (-1.385560e-05,0.000000e+00)  (-2.260858e-03,0.000000e+00)  (-1.086961e-03,0.000000e+00)  (6.661404e-06,0.000000e+00)  (1.550172e-01,0.000000e+00)  (6.181352e-01,0.000000e+00)  (-2.971830e-01,0.000000e+00)  (7.452816e-02,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (-4.033264e-33,0.000000e+00)  (-1.000583e-16,0.000000e+00)  (-7.659735e-32,0.000000e+00)  (-3.761283e-17,0.000000e+00)  (-1.113015e-16,0.000000e+00)  (1.742028e-17,0.000000e+00)  (-9.805968e-01,0.000000e+00)  (1.960354e-01,0.000000e+00)  (1.412386e-16,0.000000e+00)  (-3.534734e-18,0.000000e+00)  (8.021096e-17,0.000000e+00)  (-5.429083e-17,0.000000e+00)  (1.002861e-17,0.000000e+00)  (-7.877117e-18,0.000000e+00)  (-1.507150e-31,0.000000e+00)  (2.214764e-17,0.000000e+00)  (-4.883606e-17,0.000000e+00)  (8.756129e-33,0.000000e+00)  (2.418626e-16,0.000000e+00)  (6.495454e-17,0.000000e+00)  (4.421737e-19,0.000000e+00)  (-4.154576e-17,0.000000e+00)  
+(-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-3.509454e-35,0.000000e+00)  (2.112800e-18,-0.000000e+00)  (1.206411e-31,-0.000000e+00)  (5.498829e-18,-0.000000e+00)  (1.952381e-17,-0.000000e+00)  (-9.962491e-17,0.000000e+00)  (-1.960354e-01,0.000000e+00)  (-9.805968e-01,0.000000e+00)  (-3.498804e-16,0.000000e+00)  (1.045026e-15,-0.000000e+00)  (1.379118e-16,-0.000000e+00)  (1.149488e-16,-0.000000e+00)  (4.460801e-17,-0.000000e+00)  (2.358222e-16,-0.000000e+00)  (2.200782e-33,-0.000000e+00)  (6.096678e-18,-0.000000e+00)  (9.629516e-17,-0.000000e+00)  (-6.561216e-34,0.000000e+00)  (2.730080e-16,-0.000000e+00)  (-1.286519e-16,0.000000e+00)  (3.482200e-16,-0.000000e+00)  (2.188784e-16,-0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (1.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  
+(1.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (-1.425626e-18,0.000000e+00)  (9.201850e-18,0.000000e+00)  (7.337584e-18,0.000000e+00)  (-1.527142e-02,0.000000e+00)  (2.835876e-17,0.000000e+00)  (-9.435504e-01,0.000000e+00)  (-1.125201e-16,0.000000e+00)  (1.551229e-16,0.000000e+00)  (1.979837e-16,0.000000e+00)  (-7.840860e-18,0.000000e+00)  (2.439150e-16,0.000000e+00)  (3.000385e-01,0.000000e+00)  (-6.692626e-16,0.000000e+00)  (-1.394857e-01,0.000000e+00)  (-6.959958e-18,0.000000e+00)  (-7.482407e-17,0.000000e+00)  (-4.244234e-17,0.000000e+00)  (-1.603769e-18,0.000000e+00)  (-2.215360e-16,0.000000e+00)  (-2.591589e-16,0.000000e+00)  (4.350630e-17,0.000000e+00)  (9.292004e-16,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (6.869981e-19,0.000000e+00)  (4.112292e-18,0.000000e+00)  (-3.535925e-18,0.000000e+00)  (7.359181e-03,0.000000e+00)  (-4.234183e-18,0.000000e+00)  (3.297782e-01,0.000000e+00)  (7.928413e-17,0.000000e+00)  (2.573480e-16,0.000000e+00)  (-7.379450e-17,0.000000e+00)  (-2.581524e-16,0.000000e+00)  (-3.209157e-16,0.000000e+00)  (8.861847e-01,0.000000e+00)  (-1.003834e-16,0.000000e+00)  (-3.253751e-01,0.000000e+00)  (3.353950e-18,0.000000e+00)  (2.924549e-17,0.000000e+00)  (7.307902e-18,0.000000e+00)  (7.728439e-19,0.000000e+00)  (5.054329e-17,0.000000e+00)  (7.287923e-17,0.000000e+00)  (4.151766e-16,0.000000e+00)  (-1.835333e-16,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (9.333911e-17,0.000000e+00)  (1.548435e-16,0.000000e+00)  (-4.804091e-16,0.000000e+00)  (9.998563e-01,0.000000e+00)  (1.422720e-15,0.000000e+00)  (-1.683284e-02,0.000000e+00)  (-5.190349e-17,0.000000e+00)  (-9.130107e-19,0.000000e+00)  (1.656666e-18,0.000000e+00)  (3.328241e-18,0.000000e+00)  (6.296857e-19,0.000000e+00)  (-2.019060e-03,0.000000e+00)  (-3.871699e-18,0.000000e+00)  (5.457881e-05,0.000000e+00)  (4.556850e-16,0.000000e+00)  (7.807995e-16,0.000000e+00)  (-2.639778e-16,0.000000e+00)  (1.050026e-16,0.000000e+00)  (-3.837925e-19,0.000000e+00)  (-4.610068e-18,0.000000e+00)  (-4.238124e-18,0.000000e+00)  (-2.647888e-17,0.000000e+00)  
+(-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (2.093929e-20,0.000000e+00)  (-1.880295e-17,0.000000e+00)  (-1.077729e-19,0.000000e+00)  (2.243034e-04,0.000000e+00)  (-5.953706e-18,0.000000e+00)  (-2.599256e-02,0.000000e+00)  (3.593894e-17,0.000000e+00)  (5.058281e-16,0.000000e+00)  (1.553181e-16,0.000000e+00)  (1.744444e-16,0.000000e+00)  (6.213801e-16,0.000000e+00)  (3.530574e-01,0.000000e+00)  (-8.347199e-16,0.000000e+00)  (9.352405e-01,0.000000e+00)  (1.022264e-19,0.000000e+00)  (-5.687621e-18,0.000000e+00)  (1.775774e-17,0.000000e+00)  (2.355581e-20,0.000000e+00)  (-1.895336e-16,0.000000e+00)  (-1.450428e-16,0.000000e+00)  (-4.791478e-16,0.000000e+00)  (2.780176e-16,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (1.688962e-04,0.000000e+00)  (-8.660865e-03,0.000000e+00)  (-3.513010e-04,0.000000e+00)  (4.531010e-17,0.000000e+00)  (-1.801444e-02,0.000000e+00)  (-3.381609e-16,0.000000e+00)  (7.061360e-19,0.000000e+00)  (-1.464771e-16,0.000000e+00)  (6.197244e-02,0.000000e+00)  (-2.999296e-01,0.000000e+00)  (1.289015e-01,0.000000e+00)  (1.335590e-18,0.000000e+00)  (6.238480e-01,0.000000e+00)  (6.038499e-16,0.000000e+00)  (1.688962e-04,0.000000e+00)  (-8.660865e-03,0.000000e+00)  (1.801444e-02,0.000000e+00)  (3.513010e-04,0.000000e+00)  (-6.197244e-02,0.000000e+00)  (2.999296e-01,0.000000e+00)  (6.238480e-01,0.000000e+00)  (1.289015e-01,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (-1.464627e-03,0.000000e+00)  (5.991486e-02,0.000000e+00)  (3.046396e-03,0.000000e+00)  (-3.011863e-16,0.000000e+00)  (1.246218e-01,0.000000e+00)  (-1.506731e-15,0.000000e+00)  (1.101329e-16,0.000000e+00)  (-8.014209e-17,0.000000e+00)  (-2.939054e-01,0.000000e+00)  (-6.245864e-02,0.000000e+00)  (-6.113178e-01,0.000000e+00)  (2.195642e-16,0.000000e+00)  (1.299128e-01,0.000000e+00)  (7.149292e-16,0.000000e+00)  (-1.464627e-03,0.000000e+00)  (5.991486e-02,0.000000e+00)  (-1.246218e-01,0.000000e+00)  (-3.046396e-03,0.000000e+00)  (2.939054e-01,0.000000e+00)  (6.245864e-02,0.000000e+00)  (1.299128e-01,0.000000e+00)  (-6.113178e-01,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (-1.287161e-02,0.000000e+00)  (3.000699e-01,0.000000e+00)  (2.677272e-02,0.000000e+00)  (-1.295350e-15,0.000000e+00)  (6.241399e-01,0.000000e+00)  (3.291666e-16,0.000000e+00)  (-1.161898e-16,0.000000e+00)  (-2.645483e-17,0.000000e+00)  (6.042535e-02,0.000000e+00)  (3.813120e-03,0.000000e+00)  (1.256836e-01,0.000000e+00)  (-4.376776e-17,0.000000e+00)  (-7.931219e-03,0.000000e+00)  (-1.252272e-16,0.000000e+00)  (-1.287161e-02,0.000000e+00)  (3.000699e-01,0.000000e+00)  (-6.241399e-01,0.000000e+00)  (-2.677272e-02,0.000000e+00)  (-6.042535e-02,0.000000e+00)  (-3.813120e-03,0.000000e+00)  (-7.931219e-03,0.000000e+00)  (1.256836e-01,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (3.061136e-01,0.000000e+00)  (1.290893e-02,0.000000e+00)  (-6.367106e-01,0.000000e+00)  (-8.269189e-16,0.000000e+00)  (2.685034e-02,0.000000e+00)  (6.818452e-18,0.000000e+00)  (-4.359056e-18,0.000000e+00)  (-1.415015e-18,0.000000e+00)  (1.100386e-03,0.000000e+00)  (2.698148e-05,0.000000e+00)  (2.288784e-03,0.000000e+00)  (-7.905812e-19,0.000000e+00)  (-5.612098e-05,0.000000e+00)  (-2.178144e-18,0.000000e+00)  (3.061136e-01,0.000000e+00)  (1.290893e-02,0.000000e+00)  (-2.685034e-02,0.000000e+00)  (6.367106e-01,0.000000e+00)  (-1.100386e-03,0.000000e+00)  (-2.698148e-05,0.000000e+00)  (-5.612098e-05,0.000000e+00)  (2.288784e-03,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (2.036798e-01,0.000000e+00)  (-1.674596e-01,0.000000e+00)  (5.007482e-01,0.000000e+00)  (-9.582801e-17,0.000000e+00)  (4.117006e-01,0.000000e+00)  (2.680917e-17,0.000000e+00)  (-6.935504e-17,0.000000e+00)  (1.914314e-17,0.000000e+00)  (2.961788e-02,0.000000e+00)  (2.396699e-02,0.000000e+00)  (-7.281578e-02,0.000000e+00)  (5.489972e-17,0.000000e+00)  (5.892303e-02,0.000000e+00)  (4.302382e-17,0.000000e+00)  (-2.036798e-01,0.000000e+00)  (1.674596e-01,0.000000e+00)  (4.117006e-01,0.000000e+00)  (5.007482e-01,0.000000e+00)  (2.961788e-02,0.000000e+00)  (2.396699e-02,0.000000e+00)  (-5.892303e-02,0.000000e+00)  (7.281578e-02,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (9.807389e-03,0.000000e+00)  (6.201071e-02,0.000000e+00)  (2.411154e-02,0.000000e+00)  (2.663251e-16,0.000000e+00)  (-1.524538e-01,0.000000e+00)  (6.493331e-16,0.000000e+00)  (3.960064e-18,0.000000e+00)  (4.652535e-17,0.000000e+00)  (2.568706e-01,0.000000e+00)  (3.249296e-02,0.000000e+00)  (-6.315182e-01,0.000000e+00)  (3.031846e-18,0.000000e+00)  (7.988418e-02,0.000000e+00)  (3.157360e-16,0.000000e+00)  (-9.807389e-03,0.000000e+00)  (-6.201071e-02,0.000000e+00)  (-1.524538e-01,0.000000e+00)  (2.411154e-02,0.000000e+00)  (2.568706e-01,0.000000e+00)  (3.249296e-02,0.000000e+00)  (-7.988418e-02,0.000000e+00)  (6.315182e-01,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (-1.083435e-03,0.000000e+00)  (-3.152722e-02,0.000000e+00)  (-2.663633e-03,0.000000e+00)  (-9.329570e-17,0.000000e+00)  (7.750989e-02,0.000000e+00)  (4.585541e-16,0.000000e+00)  (-6.336073e-17,0.000000e+00)  (1.080622e-16,0.000000e+00)  (4.071744e-02,0.000000e+00)  (-2.613939e-01,0.000000e+00)  (-1.001041e-01,0.000000e+00)  (-7.185947e-16,0.000000e+00)  (-6.426387e-01,0.000000e+00)  (-3.719730e-17,0.000000e+00)  (1.083435e-03,0.000000e+00)  (3.152722e-02,0.000000e+00)  (7.750989e-02,0.000000e+00)  (-2.663633e-03,0.000000e+00)  (4.071744e-02,0.000000e+00)  (-2.613939e-01,0.000000e+00)  (6.426387e-01,0.000000e+00)  (1.001041e-01,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (-1.714555e-01,0.000000e+00)  (-1.951866e-01,0.000000e+00)  (-4.215246e-01,0.000000e+00)  (-9.679571e-16,0.000000e+00)  (4.798676e-01,0.000000e+00)  (6.609257e-17,0.000000e+00)  (-8.176311e-17,0.000000e+00)  (2.471945e-17,0.000000e+00)  (4.962033e-02,0.000000e+00)  (3.198186e-02,0.000000e+00)  (-1.219920e-01,0.000000e+00)  (6.993214e-17,0.000000e+00)  (7.862765e-02,0.000000e+00)  (6.940535e-17,0.000000e+00)  (1.714555e-01,0.000000e+00)  (1.951866e-01,0.000000e+00)  (4.798676e-01,0.000000e+00)  (-4.215246e-01,0.000000e+00)  (4.962033e-02,0.000000e+00)  (3.198186e-02,0.000000e+00)  (-7.862765e-02,0.000000e+00)  (1.219920e-01,0.000000e+00)  
+ ******************* 
+Block no. 5 : 2.000000 1.000000 
+ Beg: 88 End: 111
+88 Eold = 0.000000e+00  type = 3  StCFrom = 8  
+89 Eold = 0.000000e+00  type = 3  StCFrom = 9  
+90 Eold = 0.000000e+00  type = 3  StCFrom = 10  
+91 Eold = 0.000000e+00  type = 3  StCFrom = 11  
+92 Eold = 1.437685e-01  type = 3  StCFrom = 12  
+93 Eold = 1.437685e-01  type = 3  StCFrom = 13  
+94 Eold = 1.437685e-01  type = 3  StCFrom = 14  
+95 Eold = 1.437685e-01  type = 3  StCFrom = 15  
+96 Eold = 0.000000e+00  type = 1  StCFrom = 16  
+97 Eold = 0.000000e+00  type = 1  StCFrom = 17  
+98 Eold = 0.000000e+00  type = 1  StCFrom = 18  
+99 Eold = 0.000000e+00  type = 1  StCFrom = 19  
+100 Eold = 1.437685e-01  type = 1  StCFrom = 20  
+101 Eold = 1.437685e-01  type = 1  StCFrom = 21  
+102 Eold = 1.437685e-01  type = 1  StCFrom = 22  
+103 Eold = 1.437685e-01  type = 1  StCFrom = 23  
+104 Eold = 0.000000e+00  type = 2  StCFrom = 24  
+105 Eold = 0.000000e+00  type = 2  StCFrom = 25  
+106 Eold = 1.437685e-01  type = 2  StCFrom = 26  
+107 Eold = 1.437685e-01  type = 2  StCFrom = 27  
+108 Eold = 0.000000e+00  type = 0  StCFrom = 28  
+109 Eold = 0.000000e+00  type = 0  StCFrom = 29  
+110 Eold = 1.437685e-01  type = 0  StCFrom = 30  
+111 Eold = 1.437685e-01  type = 0  StCFrom = 31  
+ Block (5) x Block (5) : 2.000000 1.000000   x  2.000000 1.000000 
+Nsti = 88 to 111   ;   Nstj = 88 to 111
+(0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0.00704419,0) (0,0) (0,0) (0,0) (0.124922,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0.00704419,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (-0.124922,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (-0.00704419,0) (0,0) (0,0) (-0.000397213,0) (0,0) (-0.0140884,0) (0,0) (0,0) (-0.124525,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (-0.00704419,0) (0,0) (0.000397213,0) (0,0) (0,0) (0,0) (0,0) (-0.0140884,0) (0.124525,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0.124922,0) (0,0) (0,0) (0.00704419,0) (0,0) (0.124525,0) (0,0) (0,0) (-0.0140884,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0.000397213,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (-0.00704419,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0,0) (-0.124922,0) (0,0) (0.00704419,0) (0,0) (0,0) (0,0) (0,0) (-0.124525,0) (-0.0140884,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (-0.000397213,0) (0,0) (0,0) (0,0) (-0.00704419,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0.00704419,-0) (0,-0) (0,-0) (0,-0) (0.000397213,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0.00704419,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (-0.000397213,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (-0.00704419,-0) (0,-0) (0,-0) (-0.124922,-0) (0,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0.0140884,0) (0,0) (0,0) (-0.124525,0) 
+(0,-0) (0,-0) (-0.00704419,-0) (0,-0) (0.124922,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0.0140884,0) (0.124525,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0.000397213,-0) (0,-0) (0,-0) (0.00704419,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0.124525,0) (0,0) (0,0) (0.0140884,0) 
+(0.124922,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (-0.00704419,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (-0.000397213,-0) (0,-0) (0.00704419,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (-0.124525,0) (0.0140884,0) (0,0) 
+(0,-0) (-0.124922,-0) (0,-0) (0,-0) (0,-0) (-0.00704419,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (-0.0140884,-0) (0,-0) (0.124525,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0.00704419,0) (0.124922,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (-0.0140884,-0) (0,-0) (0,-0) (-0.124525,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) (0.00704419,0) (0,0) (0,0) (-0.124922,0) 
+(0,-0) (0,-0) (0,-0) (0.124525,-0) (0,-0) (0,-0) (-0.0140884,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0.000397213,0) (0,0) (0,0) (-0.00704419,0) 
+(0,-0) (0,-0) (-0.124525,-0) (0,-0) (-0.0140884,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (-0.000397213,0) (-0.00704419,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.0140884,-0) (0,-0) (0.124525,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.00704419,-0) (0.000397213,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.0140884,-0) (0,-0) (0,-0) (-0.124525,-0) (0,-0) (0.00704419,-0) (0,-0) (0,-0) (-0.000397213,-0) (0,-0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.124525,-0) (0,-0) (0,-0) (0.0140884,-0) (0,-0) (0.124922,-0) (0,-0) (0,-0) (-0.00704419,-0) (0,-0) (0,-0) (0.227318,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (-0.124525,-0) (0,-0) (0.0140884,-0) (0,-0) (0,-0) (0,-0) (0,-0) (-0.124922,-0) (-0.00704419,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) 
+
+ Diagonalizing block 5 of 7
+Upper triangular
+Block no. 5 : 2.000000 1.000000 
+ dEn : 
+88 : -1.624260e-01
+89 : -1.624260e-01
+90 : -5.600215e-02
+91 : -5.600215e-02
+92 : -5.600215e-02
+93 : -5.600215e-02
+94 : -5.408633e-02
+95 : -5.408633e-02
+96 : 7.131464e-04
+97 : 7.131464e-04
+98 : 7.131464e-04
+99 : 7.131464e-04
+100 : 2.266048e-01
+101 : 2.266048e-01
+102 : 2.266048e-01
+103 : 2.266048e-01
+104 : 2.814043e-01
+105 : 2.814043e-01
+106 : 2.833201e-01
+107 : 2.833201e-01
+108 : 2.833201e-01
+109 : 2.833201e-01
+110 : 3.897440e-01
+111 : 3.897440e-01
+Kept States: 
+ dEigVec (rows): 
+(-2.495096e-19,0.000000e+00)  (-1.265896e-16,0.000000e+00)  (5.669120e-02,0.000000e+00)  (5.789829e-02,0.000000e+00)  (-2.647745e-01,0.000000e+00)  (-1.749691e-17,0.000000e+00)  (2.704121e-01,0.000000e+00)  (-1.042173e-17,0.000000e+00)  (-3.890312e-17,0.000000e+00)  (-2.388335e-17,0.000000e+00)  (4.228205e-01,0.000000e+00)  (4.140054e-01,0.000000e+00)  (3.777546e-03,0.000000e+00)  (3.018306e-18,0.000000e+00)  (-3.698790e-03,0.000000e+00)  (5.322240e-17,0.000000e+00)  (4.140054e-01,0.000000e+00)  (4.228205e-01,0.000000e+00)  (-3.777546e-03,0.000000e+00)  (3.698790e-03,0.000000e+00)  (-5.789829e-02,0.000000e+00)  (-5.669120e-02,0.000000e+00)  (-2.647745e-01,0.000000e+00)  (2.704121e-01,0.000000e+00)  
+(4.645701e-20,0.000000e+00)  (5.126460e-18,0.000000e+00)  (-5.789829e-02,0.000000e+00)  (5.669120e-02,-0.000000e+00)  (2.704121e-01,0.000000e+00)  (5.671002e-18,0.000000e+00)  (2.647745e-01,0.000000e+00)  (6.000522e-18,0.000000e+00)  (-1.159429e-16,-0.000000e+00)  (2.457183e-17,-0.000000e+00)  (4.140054e-01,-0.000000e+00)  (-4.228205e-01,0.000000e+00)  (3.698790e-03,0.000000e+00)  (-1.917673e-18,0.000000e+00)  (3.777546e-03,0.000000e+00)  (-3.653176e-17,0.000000e+00)  (-4.228205e-01,0.000000e+00)  (4.140054e-01,-0.000000e+00)  (-3.698790e-03,-0.000000e+00)  (-3.777546e-03,-0.000000e+00)  (-5.669120e-02,0.000000e+00)  (5.789829e-02,-0.000000e+00)  (2.704121e-01,0.000000e+00)  (2.647745e-01,0.000000e+00)  
+(-4.463868e-02,0.000000e+00)  (3.277641e-01,0.000000e+00)  (1.036769e-01,0.000000e+00)  (5.895344e-01,0.000000e+00)  (1.155583e-03,0.000000e+00)  (3.653259e-03,0.000000e+00)  (-6.570951e-03,0.000000e+00)  (4.975428e-04,0.000000e+00)  (-4.125350e-02,0.000000e+00)  (5.618375e-03,0.000000e+00)  (-7.420079e-02,0.000000e+00)  (-1.304912e-02,0.000000e+00)  (-2.601021e-01,0.000000e+00)  (1.969455e-02,0.000000e+00)  (4.574216e-02,0.000000e+00)  (1.446093e-01,0.000000e+00)  (1.304912e-02,0.000000e+00)  (7.420079e-02,0.000000e+00)  (-2.601021e-01,0.000000e+00)  (4.574216e-02,0.000000e+00)  (5.895344e-01,0.000000e+00)  (1.036769e-01,0.000000e+00)  (-1.155583e-03,0.000000e+00)  (6.570951e-03,0.000000e+00)  
+(-9.057223e-01,0.000000e+00)  (-7.276996e-02,0.000000e+00)  (-2.787548e-04,0.000000e+00)  (-1.401196e-02,0.000000e+00)  (-3.107001e-06,0.000000e+00)  (-8.110941e-04,0.000000e+00)  (1.561773e-04,-0.000000e+00)  (1.009518e-02,-0.000000e+00)  (9.159074e-03,-0.000000e+00)  (1.139973e-01,-0.000000e+00)  (1.763593e-03,-0.000000e+00)  (3.508502e-05,-0.000000e+00)  (6.182066e-03,-0.000000e+00)  (3.996040e-01,-0.000000e+00)  (-1.229864e-04,0.000000e+00)  (-3.210605e-02,0.000000e+00)  (-3.508502e-05,0.000000e+00)  (-1.763593e-03,0.000000e+00)  (6.182066e-03,-0.000000e+00)  (-1.229864e-04,0.000000e+00)  (-1.401196e-02,0.000000e+00)  (-2.787548e-04,0.000000e+00)  (3.107001e-06,-0.000000e+00)  (-1.561773e-04,0.000000e+00)  
+(6.307727e-04,0.000000e+00)  (3.363204e-02,0.000000e+00)  (6.308567e-01,0.000000e+00)  (-1.202693e-01,0.000000e+00)  (7.031530e-03,0.000000e+00)  (3.748627e-04,0.000000e+00)  (1.340521e-03,0.000000e+00)  (-7.030594e-06,0.000000e+00)  (-4.233042e-03,0.000000e+00)  (-7.939119e-05,0.000000e+00)  (1.513749e-02,0.000000e+00)  (-7.940176e-02,0.000000e+00)  (5.306270e-02,0.000000e+00)  (-2.782964e-04,0.000000e+00)  (2.783335e-01,0.000000e+00)  (1.483843e-02,0.000000e+00)  (7.940176e-02,0.000000e+00)  (-1.513749e-02,0.000000e+00)  (5.306270e-02,0.000000e+00)  (2.783335e-01,0.000000e+00)  (-1.202693e-01,0.000000e+00)  (6.308567e-01,0.000000e+00)  (-7.031530e-03,0.000000e+00)  (-1.340521e-03,0.000000e+00)  
+(-6.078885e-02,0.000000e+00)  (8.438989e-01,0.000000e+00)  (-6.543300e-02,0.000000e+00)  (-2.253860e-01,0.000000e+00)  (-7.293163e-04,0.000000e+00)  (9.406099e-03,0.000000e+00)  (2.512152e-03,0.000000e+00)  (6.775526e-04,0.000000e+00)  (-1.062160e-01,0.000000e+00)  (7.651090e-03,0.000000e+00)  (2.836784e-02,0.000000e+00)  (8.235619e-03,0.000000e+00)  (9.944011e-02,0.000000e+00)  (2.681999e-02,0.000000e+00)  (-2.886899e-02,0.000000e+00)  (3.723276e-01,0.000000e+00)  (-8.235619e-03,0.000000e+00)  (-2.836784e-02,0.000000e+00)  (9.944011e-02,0.000000e+00)  (-2.886899e-02,0.000000e+00)  (-2.253860e-01,0.000000e+00)  (-6.543300e-02,0.000000e+00)  (7.293163e-04,0.000000e+00)  (-2.512152e-03,0.000000e+00)  
+(-3.455395e-16,0.000000e+00)  (3.303175e-15,0.000000e+00)  (1.402143e-02,0.000000e+00)  (-6.407169e-01,0.000000e+00)  (1.419513e-03,0.000000e+00)  (7.102281e-17,0.000000e+00)  (6.486542e-02,0.000000e+00)  (-6.688089e-17,0.000000e+00)  (-4.682177e-16,0.000000e+00)  (-7.706734e-17,0.000000e+00)  (4.881984e-02,0.000000e+00)  (-1.068372e-03,0.000000e+00)  (-2.874920e-01,0.000000e+00)  (1.532986e-16,0.000000e+00)  (-6.291466e-03,0.000000e+00)  (1.493177e-15,0.000000e+00)  (-1.068372e-03,0.000000e+00)  (4.881984e-02,0.000000e+00)  (2.874920e-01,0.000000e+00)  (6.291466e-03,0.000000e+00)  (6.407169e-01,0.000000e+00)  (-1.402143e-02,0.000000e+00)  (1.419513e-03,0.000000e+00)  (6.486542e-02,0.000000e+00)  
+(1.668477e-16,0.000000e+00)  (1.801501e-15,0.000000e+00)  (6.407169e-01,0.000000e+00)  (1.402143e-02,0.000000e+00)  (6.486542e-02,0.000000e+00)  (-1.603422e-17,0.000000e+00)  (-1.419513e-03,0.000000e+00)  (-2.458575e-17,0.000000e+00)  (-2.465999e-16,0.000000e+00)  (-2.628748e-16,0.000000e+00)  (-1.068372e-03,0.000000e+00)  (-4.881984e-02,0.000000e+00)  (6.291466e-03,0.000000e+00)  (-4.958162e-17,0.000000e+00)  (-2.874920e-01,0.000000e+00)  (7.933453e-16,0.000000e+00)  (-4.881984e-02,0.000000e+00)  (-1.068372e-03,0.000000e+00)  (-6.291466e-03,0.000000e+00)  (2.874920e-01,0.000000e+00)  (-1.402143e-02,0.000000e+00)  (-6.407169e-01,0.000000e+00)  (6.486542e-02,0.000000e+00)  (-1.419513e-03,0.000000e+00)  
+(-1.661395e-05,0.000000e+00)  (-2.046287e-03,0.000000e+00)  (7.106662e-02,0.000000e+00)  (2.148759e-03,0.000000e+00)  (-1.261151e-05,0.000000e+00)  (3.631348e-07,0.000000e+00)  (3.813196e-07,0.000000e+00)  (-2.948317e-09,0.000000e+00)  (-2.021225e-02,0.000000e+00)  (-1.641047e-04,0.000000e+00)  (2.122442e-02,0.000000e+00)  (7.019624e-01,0.000000e+00)  (-1.184550e-03,0.000000e+00)  (9.158802e-06,0.000000e+00)  (3.917703e-02,0.000000e+00)  (-1.128060e-03,0.000000e+00)  (-7.019624e-01,0.000000e+00)  (-2.122442e-02,0.000000e+00)  (-1.184550e-03,0.000000e+00)  (3.917703e-02,0.000000e+00)  (2.148759e-03,0.000000e+00)  (7.106662e-02,0.000000e+00)  (1.261151e-05,0.000000e+00)  (-3.813196e-07,0.000000e+00)  
+(-1.005657e-01,0.000000e+00)  (-3.299480e-05,0.000000e+00)  (7.874165e-06,0.000000e+00)  (-6.649166e-04,0.000000e+00)  (-1.397352e-09,0.000000e+00)  (5.855269e-09,0.000000e+00)  (-1.179964e-07,0.000000e+00)  (-1.784643e-05,0.000000e+00)  (-3.259069e-04,0.000000e+00)  (-9.933406e-01,0.000000e+00)  (-6.567731e-03,0.000000e+00)  (7.777727e-05,0.000000e+00)  (3.665498e-04,0.000000e+00)  (5.543905e-02,0.000000e+00)  (4.340805e-06,0.000000e+00)  (-1.818910e-05,0.000000e+00)  (-7.777727e-05,0.000000e+00)  (6.567731e-03,0.000000e+00)  (3.665498e-04,0.000000e+00)  (4.340805e-06,0.000000e+00)  (-6.649166e-04,0.000000e+00)  (7.874165e-06,0.000000e+00)  (1.397352e-09,0.000000e+00)  (1.179964e-07,0.000000e+00)  
+(9.387879e-04,0.000000e+00)  (3.065168e-03,0.000000e+00)  (2.192310e-03,0.000000e+00)  (-7.104387e-02,0.000000e+00)  (-3.890482e-07,0.000000e+00)  (-5.439459e-07,0.000000e+00)  (-1.260747e-05,0.000000e+00)  (1.665976e-07,0.000000e+00)  (3.027628e-02,0.000000e+00)  (9.272901e-03,0.000000e+00)  (-7.017376e-01,0.000000e+00)  (2.165460e-02,0.000000e+00)  (3.916448e-02,0.000000e+00)  (-5.175273e-04,0.000000e+00)  (1.208559e-03,0.000000e+00)  (1.689741e-03,0.000000e+00)  (-2.165460e-02,0.000000e+00)  (7.017376e-01,0.000000e+00)  (3.916448e-02,0.000000e+00)  (1.208559e-03,0.000000e+00)  (-7.104387e-02,0.000000e+00)  (2.192310e-03,0.000000e+00)  (3.890482e-07,0.000000e+00)  (1.260747e-05,0.000000e+00)  
+(-6.198533e-05,0.000000e+00)  (1.005026e-01,0.000000e+00)  (1.380096e-03,0.000000e+00)  (2.210256e-03,0.000000e+00)  (-2.449123e-07,0.000000e+00)  (-1.783522e-05,0.000000e+00)  (3.922329e-07,0.000000e+00)  (-1.099994e-08,0.000000e+00)  (9.927168e-01,0.000000e+00)  (-6.122617e-04,0.000000e+00)  (2.183186e-02,0.000000e+00)  (1.363193e-02,0.000000e+00)  (-1.218452e-03,0.000000e+00)  (3.417077e-05,0.000000e+00)  (7.608078e-04,0.000000e+00)  (5.540424e-02,0.000000e+00)  (-1.363193e-02,0.000000e+00)  (-2.183186e-02,0.000000e+00)  (-1.218452e-03,0.000000e+00)  (7.608078e-04,0.000000e+00)  (2.210256e-03,0.000000e+00)  (1.380096e-03,0.000000e+00)  (2.449123e-07,0.000000e+00)  (-3.922329e-07,0.000000e+00)  
+(-5.543578e-02,0.000000e+00)  (1.199741e-05,0.000000e+00)  (-5.089683e-04,0.000000e+00)  (2.388485e-04,0.000000e+00)  (9.119543e-03,0.000000e+00)  (-2.149660e-04,0.000000e+00)  (4.279616e-03,0.000000e+00)  (-9.932819e-01,0.000000e+00)  (-3.862096e-09,0.000000e+00)  (1.784538e-05,0.000000e+00)  (-7.688791e-08,0.000000e+00)  (1.638424e-07,0.000000e+00)  (4.332681e-04,0.000000e+00)  (-1.005598e-01,0.000000e+00)  (9.232620e-04,0.000000e+00)  (-2.176315e-05,0.000000e+00)  (-1.638424e-07,0.000000e+00)  (7.688791e-08,0.000000e+00)  (4.332681e-04,0.000000e+00)  (9.232620e-04,0.000000e+00)  (2.388485e-04,0.000000e+00)  (-5.089683e-04,0.000000e+00)  (-9.119543e-03,0.000000e+00)  (-4.279616e-03,0.000000e+00)  
+(-1.862188e-07,0.000000e+00)  (1.138175e-02,0.000000e+00)  (-1.618144e-02,0.000000e+00)  (-3.478890e-02,0.000000e+00)  (2.899342e-01,0.000000e+00)  (-2.039348e-01,0.000000e+00)  (-6.233373e-01,0.000000e+00)  (-3.336614e-06,0.000000e+00)  (-3.663908e-06,0.000000e+00)  (5.994588e-11,0.000000e+00)  (1.119893e-05,0.000000e+00)  (5.208980e-06,0.000000e+00)  (-6.310663e-02,0.000000e+00)  (-3.377986e-07,0.000000e+00)  (2.935292e-02,0.000000e+00)  (-2.064634e-02,0.000000e+00)  (-5.208980e-06,0.000000e+00)  (-1.119893e-05,0.000000e+00)  (-6.310663e-02,0.000000e+00)  (2.935292e-02,0.000000e+00)  (-3.478890e-02,0.000000e+00)  (-1.618144e-02,0.000000e+00)  (-2.899342e-01,0.000000e+00)  (6.233373e-01,0.000000e+00)  
+(7.951649e-04,0.000000e+00)  (1.327404e-03,0.000000e+00)  (-3.544869e-02,0.000000e+00)  (1.670546e-02,0.000000e+00)  (6.351591e-01,0.000000e+00)  (-2.378403e-02,0.000000e+00)  (2.993235e-01,0.000000e+00)  (1.424753e-02,0.000000e+00)  (-4.273056e-07,0.000000e+00)  (-2.559722e-07,0.000000e+00)  (-5.377669e-06,0.000000e+00)  (1.141132e-05,0.000000e+00)  (3.030350e-02,0.000000e+00)  (1.442419e-03,0.000000e+00)  (6.430346e-02,0.000000e+00)  (-2.407893e-03,0.000000e+00)  (-1.141132e-05,0.000000e+00)  (5.377669e-06,0.000000e+00)  (3.030350e-02,0.000000e+00)  (6.430346e-02,0.000000e+00)  (1.670546e-02,0.000000e+00)  (-3.544869e-02,0.000000e+00)  (-6.351591e-01,0.000000e+00)  (-2.993235e-01,0.000000e+00)  
+(7.158340e-06,0.000000e+00)  (-5.424437e-02,0.000000e+00)  (-4.262818e-03,0.000000e+00)  (-6.890683e-03,0.000000e+00)  (7.637991e-02,0.000000e+00)  (9.719345e-01,0.000000e+00)  (-1.234652e-01,0.000000e+00)  (1.282610e-04,0.000000e+00)  (1.746185e-05,0.000000e+00)  (-2.304347e-09,0.000000e+00)  (2.218186e-06,0.000000e+00)  (1.372247e-06,0.000000e+00)  (-1.249961e-02,0.000000e+00)  (1.298514e-05,0.000000e+00)  (7.732697e-03,0.000000e+00)  (9.839859e-02,0.000000e+00)  (-1.372247e-06,0.000000e+00)  (-2.218186e-06,0.000000e+00)  (-1.249961e-02,0.000000e+00)  (7.732697e-03,0.000000e+00)  (-6.890683e-03,0.000000e+00)  (-4.262818e-03,0.000000e+00)  (-7.637991e-02,0.000000e+00)  (1.234652e-01,0.000000e+00)  
+(1.322699e-17,0.000000e+00)  (-3.661109e-16,0.000000e+00)  (-1.094296e-01,0.000000e+00)  (-2.659255e-01,0.000000e+00)  (1.858256e-02,0.000000e+00)  (2.911112e-16,0.000000e+00)  (-4.515757e-02,0.000000e+00)  (-4.375546e-17,0.000000e+00)  (-8.740547e-18,0.000000e+00)  (7.726307e-17,0.000000e+00)  (5.999948e-02,0.000000e+00)  (2.469007e-02,0.000000e+00)  (5.926529e-01,0.000000e+00)  (2.762111e-17,0.000000e+00)  (-2.438795e-01,0.000000e+00)  (8.030354e-16,0.000000e+00)  (2.469007e-02,0.000000e+00)  (5.999948e-02,0.000000e+00)  (-5.926529e-01,0.000000e+00)  (2.438795e-01,0.000000e+00)  (2.659255e-01,0.000000e+00)  (1.094296e-01,0.000000e+00)  (1.858256e-02,0.000000e+00)  (-4.515757e-02,0.000000e+00)  
+(4.437787e-16,0.000000e+00)  (1.193912e-14,0.000000e+00)  (-2.659255e-01,0.000000e+00)  (1.094296e-01,0.000000e+00)  (4.515757e-02,0.000000e+00)  (3.069100e-15,0.000000e+00)  (1.858256e-02,0.000000e+00)  (2.818078e-16,0.000000e+00)  (3.602735e-16,0.000000e+00)  (9.637497e-17,0.000000e+00)  (-2.469007e-02,0.000000e+00)  (5.999948e-02,0.000000e+00)  (-2.438795e-01,0.000000e+00)  (9.986575e-16,0.000000e+00)  (-5.926529e-01,0.000000e+00)  (-2.681236e-14,0.000000e+00)  (5.999948e-02,0.000000e+00)  (-2.469007e-02,0.000000e+00)  (2.438795e-01,0.000000e+00)  (5.926529e-01,0.000000e+00)  (-1.094296e-01,0.000000e+00)  (2.659255e-01,0.000000e+00)  (4.515757e-02,0.000000e+00)  (1.858256e-02,0.000000e+00)  
+(4.339123e-02,0.000000e+00)  (-1.116809e-02,0.000000e+00)  (2.163227e-01,0.000000e+00)  (1.805438e-01,0.000000e+00)  (6.171158e-02,0.000000e+00)  (-3.185983e-03,0.000000e+00)  (-5.150474e-02,0.000000e+00)  (-1.237846e-02,0.000000e+00)  (-2.821390e-04,0.000000e+00)  (1.096191e-03,0.000000e+00)  (4.561071e-03,0.000000e+00)  (5.464952e-03,0.000000e+00)  (4.092114e-01,0.000000e+00)  (9.834838e-02,0.000000e+00)  (-4.903061e-01,0.000000e+00)  (2.531302e-02,0.000000e+00)  (-5.464952e-03,0.000000e+00)  (-4.561071e-03,0.000000e+00)  (4.092114e-01,0.000000e+00)  (-4.903061e-01,0.000000e+00)  (1.805438e-01,0.000000e+00)  (2.163227e-01,0.000000e+00)  (-6.171158e-02,0.000000e+00)  (5.150474e-02,0.000000e+00)  
+(-4.174706e-03,0.000000e+00)  (2.160651e-03,0.000000e+00)  (-1.813892e-01,0.000000e+00)  (2.179041e-01,0.000000e+00)  (-5.174592e-02,0.000000e+00)  (6.163812e-04,0.000000e+00)  (-6.216274e-02,0.000000e+00)  (1.190942e-03,0.000000e+00)  (5.458447e-05,0.000000e+00)  (-1.054655e-04,0.000000e+00)  (5.504905e-03,0.000000e+00)  (-4.582430e-03,0.000000e+00)  (4.938906e-01,0.000000e+00)  (-9.462180e-03,0.000000e+00)  (4.111277e-01,0.000000e+00)  (-4.897224e-03,0.000000e+00)  (4.582430e-03,0.000000e+00)  (-5.504905e-03,0.000000e+00)  (4.938906e-01,0.000000e+00)  (4.111277e-01,0.000000e+00)  (2.179041e-01,0.000000e+00)  (-1.813892e-01,0.000000e+00)  (5.174592e-02,0.000000e+00)  (6.216274e-02,0.000000e+00)  
+(3.985415e-01,0.000000e+00)  (-6.225355e-03,0.000000e+00)  (-2.557527e-02,0.000000e+00)  (-1.744095e-02,0.000000e+00)  (-7.296000e-03,0.000000e+00)  (-1.775942e-03,0.000000e+00)  (4.975478e-03,0.000000e+00)  (-1.136942e-01,0.000000e+00)  (-1.572709e-04,0.000000e+00)  (1.006834e-02,0.000000e+00)  (-4.406101e-04,0.000000e+00)  (-6.461071e-04,0.000000e+00)  (-3.953078e-02,0.000000e+00)  (9.033141e-01,0.000000e+00)  (5.796761e-02,0.000000e+00)  (1.411008e-02,0.000000e+00)  (6.461071e-04,0.000000e+00)  (4.406101e-04,0.000000e+00)  (-3.953078e-02,0.000000e+00)  (5.796761e-02,0.000000e+00)  (-1.744095e-02,0.000000e+00)  (-2.557527e-02,0.000000e+00)  (7.296000e-03,0.000000e+00)  (-4.975478e-03,0.000000e+00)  
+(-7.422274e-03,0.000000e+00)  (-4.007773e-01,0.000000e+00)  (-6.608692e-03,0.000000e+00)  (-3.585376e-03,0.000000e+00)  (-1.885299e-03,0.000000e+00)  (-1.143320e-01,0.000000e+00)  (1.022820e-03,0.000000e+00)  (2.117394e-03,0.000000e+00)  (-1.012482e-02,0.000000e+00)  (-1.875087e-04,0.000000e+00)  (-9.057724e-05,0.000000e+00)  (-1.669552e-04,0.000000e+00)  (-8.126434e-03,0.000000e+00)  (-1.682295e-02,0.000000e+00)  (1.497893e-02,0.000000e+00)  (9.083818e-01,0.000000e+00)  (1.669552e-04,0.000000e+00)  (9.057724e-05,0.000000e+00)  (-8.126434e-03,0.000000e+00)  (1.497893e-02,0.000000e+00)  (-3.585376e-03,0.000000e+00)  (-6.608692e-03,0.000000e+00)  (1.885299e-03,0.000000e+00)  (-1.022820e-03,0.000000e+00)  
+(1.457803e-35,0.000000e+00)  (-1.130150e-17,0.000000e+00)  (1.283506e-03,0.000000e+00)  (5.128695e-03,0.000000e+00)  (1.436628e-01,0.000000e+00)  (2.358079e-17,0.000000e+00)  (-5.740546e-01,0.000000e+00)  (3.538049e-17,0.000000e+00)  (1.439162e-16,0.000000e+00)  (-1.363852e-17,0.000000e+00)  (3.671329e-01,0.000000e+00)  (9.187859e-02,0.000000e+00)  (-7.860730e-02,0.000000e+00)  (-1.279903e-17,0.000000e+00)  (1.967224e-02,0.000000e+00)  (-1.029254e-16,0.000000e+00)  (9.187859e-02,0.000000e+00)  (3.671329e-01,0.000000e+00)  (7.860730e-02,0.000000e+00)  (-1.967224e-02,0.000000e+00)  (-5.128695e-03,0.000000e+00)  (-1.283506e-03,0.000000e+00)  (1.436628e-01,0.000000e+00)  (-5.740546e-01,0.000000e+00)  
+(3.917699e-20,0.000000e+00)  (1.348834e-16,0.000000e+00)  (5.128695e-03,0.000000e+00)  (-1.283506e-03,0.000000e+00)  (5.740546e-01,0.000000e+00)  (2.522114e-17,0.000000e+00)  (1.436628e-01,0.000000e+00)  (8.493349e-18,0.000000e+00)  (-2.446705e-17,0.000000e+00)  (-1.225569e-17,0.000000e+00)  (-9.187859e-02,0.000000e+00)  (3.671329e-01,0.000000e+00)  (1.967224e-02,0.000000e+00)  (1.581291e-18,0.000000e+00)  (7.860730e-02,0.000000e+00)  (2.203119e-17,0.000000e+00)  (3.671329e-01,0.000000e+00)  (-9.187859e-02,0.000000e+00)  (-1.967224e-02,0.000000e+00)  (-7.860730e-02,0.000000e+00)  (1.283506e-03,0.000000e+00)  (-5.128695e-03,0.000000e+00)  (5.740546e-01,0.000000e+00)  (1.436628e-01,0.000000e+00)  
+ ******************* 
+Block no. 6 : 3.000000 -1.000000 
+ Beg: 112 End: 119
+112 Eold = 0.000000e+00  type = 1  StCFrom = 24  
+113 Eold = 0.000000e+00  type = 1  StCFrom = 25  
+114 Eold = 1.437685e-01  type = 1  StCFrom = 26  
+115 Eold = 1.437685e-01  type = 1  StCFrom = 27  
+116 Eold = 0.000000e+00  type = 3  StCFrom = 28  
+117 Eold = 0.000000e+00  type = 3  StCFrom = 29  
+118 Eold = 1.437685e-01  type = 3  StCFrom = 30  
+119 Eold = 1.437685e-01  type = 3  StCFrom = 31  
+ Block (6) x Block (6) : 3.000000 -1.000000   x  3.000000 -1.000000 
+Nsti = 112 to 119   ;   Nstj = 112 to 119
+(0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,0) (0,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) 
+(0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) 
+
+ Diagonalizing block 6 of 7
+Upper triangular
+Block no. 6 : 3.000000 -1.000000 
+ dEn : 
+112 : 0.000000e+00
+113 : 0.000000e+00
+114 : 0.000000e+00
+115 : 0.000000e+00
+116 : 2.273180e-01
+117 : 2.273180e-01
+118 : 2.273180e-01
+119 : 2.273180e-01
+Kept States: 
+ dEigVec (rows): 
+(1.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (1.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (1.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (1.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (1.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (1.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (1.000000e+00,0.000000e+00)  (-0.000000e+00,0.000000e+00)  
+(0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (0.000000e+00,0.000000e+00)  (1.000000e+00,0.000000e+00)  
+ ******************* 
+Block no. 7 : 3.000000 1.000000 
+ Beg: 120 End: 127
+120 Eold = 0.000000e+00  type = 3  StCFrom = 24  
+121 Eold = 0.000000e+00  type = 3  StCFrom = 25  
+122 Eold = 1.437685e-01  type = 3  StCFrom = 26  
+123 Eold = 1.437685e-01  type = 3  StCFrom = 27  
+124 Eold = 0.000000e+00  type = 1  StCFrom = 28  
+125 Eold = 0.000000e+00  type = 1  StCFrom = 29  
+126 Eold = 1.437685e-01  type = 1  StCFrom = 30  
+127 Eold = 1.437685e-01  type = 1  StCFrom = 31  
+ Block (7) x Block (7) : 3.000000 1.000000   x  3.000000 1.000000 
+Nsti = 120 to 127   ;   Nstj = 120 to 127
+(0,0) (0,0) (0,0) (0,0) (0,0) (0.00704419,0) (0.124922,0) (0,0) 
+(0,-0) (0,0) (0,0) (0,0) (0.00704419,0) (0,0) (0,0) (-0.124922,0) 
+(0,-0) (0,-0) (0.227318,0) (0,0) (0.000397213,0) (0,0) (0,0) (-0.00704419,0) 
+(0,-0) (0,-0) (0,-0) (0.227318,0) (0,0) (-0.000397213,0) (-0.00704419,0) (0,0) 
+(0,-0) (0.00704419,-0) (0.000397213,-0) (0,-0) (0,0) (0,0) (0,0) (0,0) 
+(0.00704419,-0) (0,-0) (0,-0) (-0.000397213,-0) (0,-0) (0,0) (0,0) (0,0) 
+(0.124922,-0) (0,-0) (0,-0) (-0.00704419,-0) (0,-0) (0,-0) (0.227318,0) (0,0) 
+(0,-0) (-0.124922,-0) (-0.00704419,-0) (0,-0) (0,-0) (0,-0) (0,-0) (0.227318,0) 
+
+ Diagonalizing block 7 of 7
+Upper triangular
+Block no. 7 : 3.000000 1.000000 
+ dEn : 
+120 : -5.600215e-02
+121 : -5.600215e-02
+122 : 7.131464e-04
+123 : 7.131464e-04
+124 : 2.266048e-01
+125 : 2.266048e-01
+126 : 2.833201e-01
+127 : 2.833201e-01
+Kept States: 
+ dEigVec (rows): 
+(5.252961e-02,0.000000e+00)  (9.073378e-01,0.000000e+00)  (1.011319e-02,0.000000e+00)  (-5.854951e-04,0.000000e+00)  (-1.142006e-01,0.000000e+00)  (-6.611554e-03,0.000000e+00)  (-2.317602e-02,0.000000e+00)  (4.003167e-01,0.000000e+00)  
+(9.073378e-01,0.000000e+00)  (-5.252961e-02,0.000000e+00)  (-5.854951e-04,0.000000e+00)  (-1.011319e-02,0.000000e+00)  (6.611554e-03,0.000000e+00)  (-1.142006e-01,0.000000e+00)  (-4.003167e-01,0.000000e+00)  (-2.317602e-02,0.000000e+00)  
+(-4.231920e-04,-0.000000e+00)  (-1.005692e-01,0.000000e+00)  (1.784706e-05,-0.000000e+00)  (-7.509982e-08,-0.000000e+00)  (-9.933753e-01,0.000000e+00)  (-4.180090e-03,-0.000000e+00)  (2.332938e-04,0.000000e+00)  (-5.544099e-02,0.000000e+00)  
+(-1.005692e-01,0.000000e+00)  (4.231920e-04,0.000000e+00)  (-7.509982e-08,0.000000e+00)  (-1.784706e-05,0.000000e+00)  (4.180090e-03,0.000000e+00)  (-9.933753e-01,0.000000e+00)  (5.544099e-02,0.000000e+00)  (2.332938e-04,0.000000e+00)  
+(2.313861e-02,-0.000000e+00)  (-5.038216e-02,0.000000e+00)  (9.027327e-01,0.000000e+00)  (4.145908e-01,0.000000e+00)  (1.621856e-05,-0.000000e+00)  (-7.448570e-06,0.000000e+00)  (4.197315e-02,-0.000000e+00)  (9.139260e-02,0.000000e+00)  
+(5.038216e-02,0.000000e+00)  (2.313861e-02,0.000000e+00)  (-4.145908e-01,0.000000e+00)  (9.027327e-01,0.000000e+00)  (-7.448570e-06,0.000000e+00)  (-1.621856e-05,0.000000e+00)  (9.139260e-02,0.000000e+00)  (-4.197315e-02,0.000000e+00)  
+(-3.992333e-01,0.000000e+00)  (3.746200e-02,0.000000e+00)  (1.068699e-02,0.000000e+00)  (1.138915e-01,0.000000e+00)  (9.464011e-04,0.000000e+00)  (-1.008582e-02,0.000000e+00)  (-9.048821e-01,0.000000e+00)  (-8.490947e-02,0.000000e+00)  
+(-3.746200e-02,0.000000e+00)  (-3.992333e-01,0.000000e+00)  (-1.138915e-01,0.000000e+00)  (1.068699e-02,0.000000e+00)  (-1.008582e-02,0.000000e+00)  (-9.464011e-04,0.000000e+00)  (-8.490947e-02,0.000000e+00)  (9.048821e-01,0.000000e+00)  
+Emin = -0.162426
+En = 0.162426 ---| 0  -1  >_N= 0
+En = 0.162426 ---| 0  -1  >_N= 0
+En = 0.162426 ---| 0  -1  >_N= 0
+En = 0.162426 ---| 0  -1  >_N= 0
+En = 0.389744 ---| 0  -1  >_N= 0
+En = 0.389744 ---| 0  -1  >_N= 0
+En = 0.389744 ---| 0  -1  >_N= 0
+En = 0.389744 ---| 0  -1  >_N= 0
+En = 0.097687 ---| 1  -1  >_N= 0
+En = 0.097687 ---| 1  -1  >_N= 0
+En = 0.097687 ---| 1  -1  >_N= 0
+En = 0.097687 ---| 1  -1  >_N= 0
+En = 0.116646 ---| 1  -1  >_N= 0
+En = 0.116646 ---| 1  -1  >_N= 0
+En = 0.116646 ---| 1  -1  >_N= 0
+En = 0.116646 ---| 1  -1  >_N= 0
+En = 0.162426 ---| 1  -1  >_N= 0
+En = 0.162426 ---| 1  -1  >_N= 0
+En = 0.162426 ---| 1  -1  >_N= 0
+En = 0.162426 ---| 1  -1  >_N= 0
+En = 0.389744 ---| 1  -1  >_N= 0
+En = 0.389744 ---| 1  -1  >_N= 0
+En = 0.389744 ---| 1  -1  >_N= 0
+En = 0.389744 ---| 1  -1  >_N= 0
+En = 0.435524 ---| 1  -1  >_N= 0
+En = 0.435524 ---| 1  -1  >_N= 0
+En = 0.435524 ---| 1  -1  >_N= 0
+En = 0.435524 ---| 1  -1  >_N= 0
+En = 0.454483 ---| 1  -1  >_N= 0
+En = 0.454483 ---| 1  -1  >_N= 0
+En = 0.454483 ---| 1  -1  >_N= 0
+En = 0.454483 ---| 1  -1  >_N= 0
+En = 0.106424 ---| 0  1  >_N= 0
+En = 0.106424 ---| 0  1  >_N= 0
+En = 0.163139 ---| 0  1  >_N= 0
+En = 0.163139 ---| 0  1  >_N= 0
+En = 0.389031 ---| 0  1  >_N= 0
+En = 0.389031 ---| 0  1  >_N= 0
+En = 0.445746 ---| 0  1  >_N= 0
+En = 0.445746 ---| 0  1  >_N= 0
+En = 0 ---| 1  1  >_N= 0
+En = 4.16334e-16 ---| 1  1  >_N= 0
+En = 0.106424 ---| 1  1  >_N= 0
+En = 0.106424 ---| 1  1  >_N= 0
+En = 0.106424 ---| 1  1  >_N= 0
+En = 0.106424 ---| 1  1  >_N= 0
+En = 0.10834 ---| 1  1  >_N= 0
+En = 0.10834 ---| 1  1  >_N= 0
+En = 0.163139 ---| 1  1  >_N= 0
+En = 0.163139 ---| 1  1  >_N= 0
+En = 0.163139 ---| 1  1  >_N= 0
+En = 0.163139 ---| 1  1  >_N= 0
+En = 0.389031 ---| 1  1  >_N= 0
+En = 0.389031 ---| 1  1  >_N= 0
+En = 0.389031 ---| 1  1  >_N= 0
+En = 0.389031 ---| 1  1  >_N= 0
+En = 0.44383 ---| 1  1  >_N= 0
+En = 0.44383 ---| 1  1  >_N= 0
+En = 0.445746 ---| 1  1  >_N= 0
+En = 0.445746 ---| 1  1  >_N= 0
+En = 0.445746 ---| 1  1  >_N= 0
+En = 0.445746 ---| 1  1  >_N= 0
+En = 0.55217 ---| 1  1  >_N= 0
+En = 0.55217 ---| 1  1  >_N= 0
+En = 0.097687 ---| 2  -1  >_N= 0
+En = 0.097687 ---| 2  -1  >_N= 0
+En = 0.097687 ---| 2  -1  >_N= 0
+En = 0.097687 ---| 2  -1  >_N= 0
+En = 0.116646 ---| 2  -1  >_N= 0
+En = 0.116646 ---| 2  -1  >_N= 0
+En = 0.116646 ---| 2  -1  >_N= 0
+En = 0.116646 ---| 2  -1  >_N= 0
+En = 0.162426 ---| 2  -1  >_N= 0
+En = 0.162426 ---| 2  -1  >_N= 0
+En = 0.162426 ---| 2  -1  >_N= 0
+En = 0.162426 ---| 2  -1  >_N= 0
+En = 0.389744 ---| 2  -1  >_N= 0
+En = 0.389744 ---| 2  -1  >_N= 0
+En = 0.389744 ---| 2  -1  >_N= 0
+En = 0.389744 ---| 2  -1  >_N= 0
+En = 0.435524 ---| 2  -1  >_N= 0
+En = 0.435524 ---| 2  -1  >_N= 0
+En = 0.435524 ---| 2  -1  >_N= 0
+En = 0.435524 ---| 2  -1  >_N= 0
+En = 0.454483 ---| 2  -1  >_N= 0
+En = 0.454483 ---| 2  -1  >_N= 0
+En = 0.454483 ---| 2  -1  >_N= 0
+En = 0.454483 ---| 2  -1  >_N= 0
+En = 2.77556e-17 ---| 2  1  >_N= 0
+En = 3.05311e-16 ---| 2  1  >_N= 0
+En = 0.106424 ---| 2  1  >_N= 0
+En = 0.106424 ---| 2  1  >_N= 0
+En = 0.106424 ---| 2  1  >_N= 0
+En = 0.106424 ---| 2  1  >_N= 0
+En = 0.10834 ---| 2  1  >_N= 0
+En = 0.10834 ---| 2  1  >_N= 0
+En = 0.163139 ---| 2  1  >_N= 0
+En = 0.163139 ---| 2  1  >_N= 0
+En = 0.163139 ---| 2  1  >_N= 0
+En = 0.163139 ---| 2  1  >_N= 0
+En = 0.389031 ---| 2  1  >_N= 0
+En = 0.389031 ---| 2  1  >_N= 0
+En = 0.389031 ---| 2  1  >_N= 0
+En = 0.389031 ---| 2  1  >_N= 0
+En = 0.44383 ---| 2  1  >_N= 0
+En = 0.44383 ---| 2  1  >_N= 0
+En = 0.445746 ---| 2  1  >_N= 0
+En = 0.445746 ---| 2  1  >_N= 0
+En = 0.445746 ---| 2  1  >_N= 0
+En = 0.445746 ---| 2  1  >_N= 0
+En = 0.55217 ---| 2  1  >_N= 0
+En = 0.55217 ---| 2  1  >_N= 0
+En = 0.162426 ---| 3  -1  >_N= 0
+En = 0.162426 ---| 3  -1  >_N= 0
+En = 0.162426 ---| 3  -1  >_N= 0
+En = 0.162426 ---| 3  -1  >_N= 0
+En = 0.389744 ---| 3  -1  >_N= 0
+En = 0.389744 ---| 3  -1  >_N= 0
+En = 0.389744 ---| 3  -1  >_N= 0
+En = 0.389744 ---| 3  -1  >_N= 0
+En = 0.106424 ---| 3  1  >_N= 0
+En = 0.106424 ---| 3  1  >_N= 0
+En = 0.163139 ---| 3  1  >_N= 0
+En = 0.163139 ---| 3  1  >_N= 0
+En = 0.389031 ---| 3  1  >_N= 0
+En = 0.389031 ---| 3  1  >_N= 0
+En = 0.445746 ---| 3  1  >_N= 0
+En = 0.445746 ---| 3  1  >_N= 0
+Block i : 0/7 (sz=8) Nshell=0
+  Block j : 0/7 (sz=8) Time to here 7e-06; last lap 7e-06
+   Updating Op : 3 of 5
+   Updating Op : 4 of 5
+   Updating Op : 5 of 5
+  Block j : 1/7 (sz=24) Time to here 0.000149; last lap 0.000135
+   Updating Op : 1 of 5
+  Block j : 2/7 (sz=8) Time to here 0.000357; last lap 0.000203
+   Updating Op : 2 of 5
+  Block j : 3/7 (sz=24) Time to here 0.000408; last lap 4.5e-05
+  Block j : 4/7 (sz=24) Time to here 0.000414; last lap 1e-06
+  Block j : 5/7 (sz=24) Time to here 0.00042; last lap 1e-06
+  Block j : 6/7 (sz=8) Time to here 0.000426; last lap 1e-06
+  Block j : 7/7 (sz=8) Time to here 0.000432; last lap 0
+Block i : 1/7 (sz=24) Nshell=0
+  Block j : 0/7 (sz=8) Time to here 0.00044; last lap 4e-06
+  Block j : 1/7 (sz=24) Time to here 0.000446; last lap 1e-06
+   Updating Op : 3 of 5
+   Updating Op : 4 of 5
+   Updating Op : 5 of 5
+  Block j : 2/7 (sz=8) Time to here 0.002834; last lap 0.002383
+  Block j : 3/7 (sz=24) Time to here 0.002845; last lap 1e-06
+   Updating Op : 2 of 5
+  Block j : 4/7 (sz=24) Time to here 0.00366; last lap 0.00081
+   Updating Op : 1 of 5
+  Block j : 5/7 (sz=24) Time to here 0.004472; last lap 0.000804
+  Block j : 6/7 (sz=8) Time to here 0.004479; last lap 1e-06
+  Block j : 7/7 (sz=8) Time to here 0.004484; last lap 0
+Block i : 2/7 (sz=8) Nshell=0
+  Block j : 0/7 (sz=8) Time to here 0.004493; last lap 4e-06
+   Updating Op : 2 of 5
+  Block j : 1/7 (sz=24) Time to here 0.004543; last lap 4.4e-05
+  Block j : 2/7 (sz=8) Time to here 0.004549; last lap 1e-06
+   Updating Op : 3 of 5
+   Updating Op : 4 of 5
+   Updating Op : 5 of 5
+  Block j : 3/7 (sz=24) Time to here 0.004689; last lap 0.000135
+   Updating Op : 1 of 5
+  Block j : 4/7 (sz=24) Time to here 0.004894; last lap 0.000199
+  Block j : 5/7 (sz=24) Time to here 0.0049; last lap 1e-06
+  Block j : 6/7 (sz=8) Time to here 0.004906; last lap 1e-06
+  Block j : 7/7 (sz=8) Time to here 0.004916; last lap 0
+Block i : 3/7 (sz=24) Nshell=0
+  Block j : 0/7 (sz=8) Time to here 0.004925; last lap 4e-06
+  Block j : 1/7 (sz=24) Time to here 0.004931; last lap 0
+   Updating Op : 2 of 5
+  Block j : 2/7 (sz=8) Time to here 0.005711; last lap 0.000776
+  Block j : 3/7 (sz=24) Time to here 0.005719; last lap 1e-06
+   Updating Op : 3 of 5
+   Updating Op : 4 of 5
+   Updating Op : 5 of 5
+  Block j : 4/7 (sz=24) Time to here 0.008223; last lap 0.002499
+  Block j : 5/7 (sz=24) Time to here 0.008231; last lap 1e-06
+   Updating Op : 1 of 5
+  Block j : 6/7 (sz=8) Time to here 0.009051; last lap 0.000815
+  Block j : 7/7 (sz=8) Time to here 0.009059; last lap 1e-06
+Block i : 4/7 (sz=24) Nshell=0
+  Block j : 0/7 (sz=8) Time to here 0.009068; last lap 3e-06
+  Block j : 1/7 (sz=24) Time to here 0.009073; last lap 0
+  Block j : 2/7 (sz=8) Time to here 0.009079; last lap 1e-06
+  Block j : 3/7 (sz=24) Time to here 0.009084; last lap 0
+  Block j : 4/7 (sz=24) Time to here 0.00909; last lap 1e-06
+   Updating Op : 3 of 5
+   Updating Op : 4 of 5
+   Updating Op : 5 of 5
+  Block j : 5/7 (sz=24) Time to here 0.011562; last lap 0.002467
+   Updating Op : 2 of 5
+  Block j : 6/7 (sz=8) Time to here 0.012318; last lap 0.000748
+   Updating Op : 1 of 5
+  Block j : 7/7 (sz=8) Time to here 0.0125; last lap 0.000174
+Block i : 5/7 (sz=24) Nshell=0
+  Block j : 0/7 (sz=8) Time to here 0.01251; last lap 4e-06
+  Block j : 1/7 (sz=24) Time to here 0.012515; last lap 1e-06
+  Block j : 2/7 (sz=8) Time to here 0.01252; last lap 1e-06
+  Block j : 3/7 (sz=24) Time to here 0.012525; last lap 1e-06
+  Block j : 4/7 (sz=24) Time to here 0.01253; last lap 1e-06
+   Updating Op : 2 of 5
+  Block j : 5/7 (sz=24) Time to here 0.013214; last lap 0.00068
+   Updating Op : 3 of 5
+   Updating Op : 4 of 5
+   Updating Op : 5 of 5
+  Block j : 6/7 (sz=8) Time to here 0.015434; last lap 0.002213
+  Block j : 7/7 (sz=8) Time to here 0.015441; last lap 1e-06
+   Updating Op : 1 of 5
+Block i : 6/7 (sz=8) Nshell=0
+  Block j : 0/7 (sz=8) Time to here 0.015624; last lap 0.000179
+  Block j : 1/7 (sz=24) Time to here 0.015629; last lap 0
+  Block j : 2/7 (sz=8) Time to here 0.015635; last lap 0
+  Block j : 3/7 (sz=24) Time to here 0.015639; last lap 0
+  Block j : 4/7 (sz=24) Time to here 0.015644; last lap 0
+  Block j : 5/7 (sz=24) Time to here 0.015649; last lap 0
+  Block j : 6/7 (sz=8) Time to here 0.015654; last lap 1e-06
+   Updating Op : 3 of 5
+   Updating Op : 4 of 5
+   Updating Op : 5 of 5
+  Block j : 7/7 (sz=8) Time to here 0.015784; last lap 0.000125
+   Updating Op : 2 of 5
+Block i : 7/7 (sz=8) Nshell=0
+  Block j : 0/7 (sz=8) Time to here 0.015832; last lap 4.2e-05
+  Block j : 1/7 (sz=24) Time to here 0.015837; last lap 1e-06
+  Block j : 2/7 (sz=8) Time to here 0.015842; last lap 1e-06
+  Block j : 3/7 (sz=24) Time to here 0.015847; last lap 1e-06
+  Block j : 4/7 (sz=24) Time to here 0.015852; last lap 1e-06
+  Block j : 5/7 (sz=24) Time to here 0.015857; last lap 1e-06
+  Block j : 6/7 (sz=8) Time to here 0.015862; last lap 1e-06
+   Updating Op : 2 of 5
+  Block j : 7/7 (sz=8) Time to here 0.015906; last lap 3.9e-05
+   Updating Op : 3 of 5
+   Updating Op : 4 of 5
+   Updating Op : 5 of 5
+ DONE updating operators in Nshell = 0
+ ...  1chQSz_DQD H0 done. 
+ N=-1 and N=0 ok. Going to N=1... 
+ pAeig is complex ? 1
+DN = 1.1068  TM = 1.52242
+CalcThermo: Not calculating thermodynamics 
+CalcThermo: Not calculating thermodynamics 
+CalcThermo: Not calculating thermodynamics 
+CalcThermo: Not calculating thermodynamics 
+ CalcStuff: Not Calculating stuff for Mat 0
+ CalcStuff: Not Calculating stuff for Mat 1
+ T= 1.52242 Ndot= 1
+ T= 1.52242 Szdot= 1
+ T= 1.52242 Nf= 0.00258705
+DN = 0.7 TM = 0.962861
+ Use parity: 1  1
+ NoCommon = 2
+ ParityQN : 0 1 
+ PosInOld : 0 1 
+ PosInSingleSite : 0 1 
+ MatchOld : 1 1 
+No blocks = 10
+No states = 512
+Diagonalizing H(N=1)... 
+ chi_N = 0.800641
+ Setting up H_(N =1 : ibl = 0 size = 16 (Nbls = 10)
+ Limits : 0  15
+ Setting up H_(N =1 : ibl = 1 size = 64 (Nbls = 10)
+ Limits : 16  79
+ Setting up H_(N =1 : ibl = 2 size = 16 (Nbls = 10)
+ Limits : 80  95
+ Setting up H_(N =1 : ibl = 3 size = 64 (Nbls = 10)
+ Limits : 96  159
+ Setting up H_(N =1 : ibl = 4 size = 96 (Nbls = 10)
+ Limits : 160  255
+ Setting up H_(N =1 : ibl = 5 size = 96 (Nbls = 10)
+ Limits : 256  351
+ Setting up H_(N =1 : ibl = 6 size = 64 (Nbls = 10)
+ Limits : 352  415
+ Setting up H_(N =1 : ibl = 7 size = 64 (Nbls = 10)
+ Limits : 416  479
+ Setting up H_(N =1 : ibl = 8 size = 16 (Nbls = 10)
+ Limits : 480  495
+ Setting up H_(N =1 : ibl = 9 size = 16 (Nbls = 10)
+ Limits : 496  511
+ Done setting up HN. 
+Updating Aeig... 
+ Diagonalizing block 0 of 9
+Upper triangular
+ Diagonalizing block 1 of 9
+Upper triangular
+ Diagonalizing block 2 of 9
+Upper triangular
+ Diagonalizing block 3 of 9
+Upper triangular
+ Diagonalizing block 4 of 9
+Upper triangular
+ Diagonalizing block 5 of 9
+Upper triangular
+ Diagonalizing block 6 of 9
+Upper triangular
+ Diagonalizing block 7 of 9
+Upper triangular
+ Diagonalizing block 8 of 9
+Upper triangular
+ Diagonalizing block 9 of 9
+Upper triangular
+Emin = -1.37844
+... done diagonalizing HN. 
+SetKept: Ncutoff = 1000 Ecut = 3.62995
+SetKept: Nkept = 512 Ndisc = 0
+En = 0.817795 ---| 0  -1  (K)>_N= 1
+En = 0.817795 ---| 0  -1  (K)>_N= 1
+En = 1.19397 ---| 0  -1  (K)>_N= 1
+En = 1.19397 ---| 0  -1  (K)>_N= 1
+En = 1.63526 ---| 0  -1  (K)>_N= 1
+En = 1.63526 ---| 0  -1  (K)>_N= 1
+En = 1.63526 ---| 0  -1  (K)>_N= 1
+En = 1.63526 ---| 0  -1  (K)>_N= 1
+En = 1.97001 ---| 0  -1  (K)>_N= 1
+En = 1.97001 ---| 0  -1  (K)>_N= 1
+En = 1.99468 ---| 0  -1  (K)>_N= 1
+En = 1.99468 ---| 0  -1  (K)>_N= 1
+En = 2.4774 ---| 0  -1  (K)>_N= 1
+En = 2.4774 ---| 0  -1  (K)>_N= 1
+En = 2.79541 ---| 0  -1  (K)>_N= 1
+En = 2.79541 ---| 0  -1  (K)>_N= 1
+En = 0 ---| 1  -1  (K)>_N= 1
+En = 1.9984e-15 ---| 1  -1  (K)>_N= 1
+En = 0.351857 ---| 1  -1  (K)>_N= 1
+En = 0.351857 ---| 1  -1  (K)>_N= 1
+En = 0.81767 ---| 1  -1  (K)>_N= 1
+En = 0.81767 ---| 1  -1  (K)>_N= 1
+En = 0.817672 ---| 1  -1  (K)>_N= 1
+En = 0.817672 ---| 1  -1  (K)>_N= 1
+En = 0.817795 ---| 1  -1  (K)>_N= 1
+En = 0.817795 ---| 1  -1  (K)>_N= 1
+En = 0.859008 ---| 1  -1  (K)>_N= 1
+En = 0.859008 ---| 1  -1  (K)>_N= 1
+En = 1.11087 ---| 1  -1  (K)>_N= 1
+En = 1.11087 ---| 1  -1  (K)>_N= 1
+En = 1.15257 ---| 1  -1  (K)>_N= 1
+En = 1.15257 ---| 1  -1  (K)>_N= 1
+En = 1.15258 ---| 1  -1  (K)>_N= 1
+En = 1.15258 ---| 1  -1  (K)>_N= 1
+En = 1.19397 ---| 1  -1  (K)>_N= 1
+En = 1.19397 ---| 1  -1  (K)>_N= 1
+En = 1.63526 ---| 1  -1  (K)>_N= 1
+En = 1.63526 ---| 1  -1  (K)>_N= 1
+En = 1.63526 ---| 1  -1  (K)>_N= 1
+En = 1.63526 ---| 1  -1  (K)>_N= 1
+En = 1.63526 ---| 1  -1  (K)>_N= 1
+En = 1.63526 ---| 1  -1  (K)>_N= 1
+En = 1.65977 ---| 1  -1  (K)>_N= 1
+En = 1.65977 ---| 1  -1  (K)>_N= 1
+En = 1.65985 ---| 1  -1  (K)>_N= 1
+En = 1.65985 ---| 1  -1  (K)>_N= 1
+En = 1.70111 ---| 1  -1  (K)>_N= 1
+En = 1.70111 ---| 1  -1  (K)>_N= 1
+En = 1.95332 ---| 1  -1  (K)>_N= 1
+En = 1.95332 ---| 1  -1  (K)>_N= 1
+En = 1.97001 ---| 1  -1  (K)>_N= 1
+En = 1.97001 ---| 1  -1  (K)>_N= 1
+En = 1.97018 ---| 1  -1  (K)>_N= 1
+En = 1.97018 ---| 1  -1  (K)>_N= 1
+En = 1.97019 ---| 1  -1  (K)>_N= 1
+En = 1.97019 ---| 1  -1  (K)>_N= 1
+En = 1.99468 ---| 1  -1  (K)>_N= 1
+En = 1.99468 ---| 1  -1  (K)>_N= 1
+En = 2.01155 ---| 1  -1  (K)>_N= 1
+En = 2.01155 ---| 1  -1  (K)>_N= 1
+En = 2.4605 ---| 1  -1  (K)>_N= 1
+En = 2.4605 ---| 1  -1  (K)>_N= 1
+En = 2.47736 ---| 1  -1  (K)>_N= 1
+En = 2.47736 ---| 1  -1  (K)>_N= 1
+En = 2.47737 ---| 1  -1  (K)>_N= 1
+En = 2.47737 ---| 1  -1  (K)>_N= 1
+En = 2.4774 ---| 1  -1  (K)>_N= 1
+En = 2.4774 ---| 1  -1  (K)>_N= 1
+En = 2.76629 ---| 1  -1  (K)>_N= 1
+En = 2.76629 ---| 1  -1  (K)>_N= 1
+En = 2.79541 ---| 1  -1  (K)>_N= 1
+En = 2.79541 ---| 1  -1  (K)>_N= 1
+En = 2.81221 ---| 1  -1  (K)>_N= 1
+En = 2.81221 ---| 1  -1  (K)>_N= 1
+En = 2.81227 ---| 1  -1  (K)>_N= 1
+En = 2.81227 ---| 1  -1  (K)>_N= 1
+En = 3.31689 ---| 1  -1  (K)>_N= 1
+En = 3.31689 ---| 1  -1  (K)>_N= 1
+En = 3.61301 ---| 1  -1  (K)>_N= 1
+En = 3.61301 ---| 1  -1  (K)>_N= 1
+En = 0.834537 ---| 0  1  (K)>_N= 1
+En = 0.834537 ---| 0  1  (K)>_N= 1
+En = 1.15255 ---| 0  1  (K)>_N= 1
+En = 1.15255 ---| 0  1  (K)>_N= 1
+En = 1.63526 ---| 0  1  (K)>_N= 1
+En = 1.63526 ---| 0  1  (K)>_N= 1
+En = 1.65994 ---| 0  1  (K)>_N= 1
+En = 1.65994 ---| 0  1  (K)>_N= 1
+En = 1.99468 ---| 0  1  (K)>_N= 1
+En = 1.99468 ---| 0  1  (K)>_N= 1
+En = 1.99468 ---| 0  1  (K)>_N= 1
+En = 1.99468 ---| 0  1  (K)>_N= 1
+En = 2.43598 ---| 0  1  (K)>_N= 1
+En = 2.43598 ---| 0  1  (K)>_N= 1
+En = 2.81215 ---| 0  1  (K)>_N= 1
+En = 2.81215 ---| 0  1  (K)>_N= 1
+En = 0.0169364 ---| 1  1  (K)>_N= 1
+En = 0.0169364 ---| 1  1  (K)>_N= 1
+En = 0.313059 ---| 1  1  (K)>_N= 1
+En = 0.313059 ---| 1  1  (K)>_N= 1
+En = 0.817672 ---| 1  1  (K)>_N= 1
+En = 0.817672 ---| 1  1  (K)>_N= 1
+En = 0.817737 ---| 1  1  (K)>_N= 1
+En = 0.817737 ---| 1  1  (K)>_N= 1
+En = 0.834537 ---| 1  1  (K)>_N= 1
+En = 0.834537 ---| 1  1  (K)>_N= 1
+En = 0.863659 ---| 1  1  (K)>_N= 1
+En = 0.863659 ---| 1  1  (K)>_N= 1
+En = 1.15255 ---| 1  1  (K)>_N= 1
+En = 1.15255 ---| 1  1  (K)>_N= 1
+En = 1.15258 ---| 1  1  (K)>_N= 1
+En = 1.15258 ---| 1  1  (K)>_N= 1
+En = 1.15259 ---| 1  1  (K)>_N= 1
+En = 1.15259 ---| 1  1  (K)>_N= 1
+En = 1.16945 ---| 1  1  (K)>_N= 1
+En = 1.16945 ---| 1  1  (K)>_N= 1
+En = 1.61839 ---| 1  1  (K)>_N= 1
+En = 1.61839 ---| 1  1  (K)>_N= 1
+En = 1.63526 ---| 1  1  (K)>_N= 1
+En = 1.63526 ---| 1  1  (K)>_N= 1
+En = 1.65975 ---| 1  1  (K)>_N= 1
+En = 1.65975 ---| 1  1  (K)>_N= 1
+En = 1.65977 ---| 1  1  (K)>_N= 1
+En = 1.65977 ---| 1  1  (K)>_N= 1
+En = 1.65994 ---| 1  1  (K)>_N= 1
+En = 1.65994 ---| 1  1  (K)>_N= 1
+En = 1.67662 ---| 1  1  (K)>_N= 1
+En = 1.67662 ---| 1  1  (K)>_N= 1
+En = 1.92884 ---| 1  1  (K)>_N= 1
+En = 1.92884 ---| 1  1  (K)>_N= 1
+En = 1.9701 ---| 1  1  (K)>_N= 1
+En = 1.9701 ---| 1  1  (K)>_N= 1
+En = 1.97018 ---| 1  1  (K)>_N= 1
+En = 1.97018 ---| 1  1  (K)>_N= 1
+En = 1.99468 ---| 1  1  (K)>_N= 1
+En = 1.99468 ---| 1  1  (K)>_N= 1
+En = 1.99468 ---| 1  1  (K)>_N= 1
+En = 1.99468 ---| 1  1  (K)>_N= 1
+En = 1.99469 ---| 1  1  (K)>_N= 1
+En = 1.99469 ---| 1  1  (K)>_N= 1
+En = 2.43598 ---| 1  1  (K)>_N= 1
+En = 2.43598 ---| 1  1  (K)>_N= 1
+En = 2.47737 ---| 1  1  (K)>_N= 1
+En = 2.47737 ---| 1  1  (K)>_N= 1
+En = 2.47737 ---| 1  1  (K)>_N= 1
+En = 2.47737 ---| 1  1  (K)>_N= 1
+En = 2.51907 ---| 1  1  (K)>_N= 1
+En = 2.51907 ---| 1  1  (K)>_N= 1
+En = 2.77094 ---| 1  1  (K)>_N= 1
+En = 2.77094 ---| 1  1  (K)>_N= 1
+En = 2.81215 ---| 1  1  (K)>_N= 1
+En = 2.81215 ---| 1  1  (K)>_N= 1
+En = 2.81227 ---| 1  1  (K)>_N= 1
+En = 2.81227 ---| 1  1  (K)>_N= 1
+En = 2.81228 ---| 1  1  (K)>_N= 1
+En = 2.81228 ---| 1  1  (K)>_N= 1
+En = 3.27809 ---| 1  1  (K)>_N= 1
+En = 3.27809 ---| 1  1  (K)>_N= 1
+En = 3.62995 ---| 1  1  (K)>_N= 1
+En = 3.62995 ---| 1  1  (K)>_N= 1
+En = 2.22045e-16 ---| 2  -1  (K)>_N= 1
+En = 3.33067e-15 ---| 2  -1  (K)>_N= 1
+En = 0.0169364 ---| 2  -1  (K)>_N= 1
+En = 0.0169364 ---| 2  -1  (K)>_N= 1
+En = 0.313059 ---| 2  -1  (K)>_N= 1
+En = 0.313059 ---| 2  -1  (K)>_N= 1
+En = 0.351857 ---| 2  -1  (K)>_N= 1
+En = 0.351857 ---| 2  -1  (K)>_N= 1
+En = 0.81767 ---| 2  -1  (K)>_N= 1
+En = 0.81767 ---| 2  -1  (K)>_N= 1
+En = 0.817672 ---| 2  -1  (K)>_N= 1
+En = 0.817672 ---| 2  -1  (K)>_N= 1
+En = 0.817672 ---| 2  -1  (K)>_N= 1
+En = 0.817672 ---| 2  -1  (K)>_N= 1
+En = 0.817737 ---| 2  -1  (K)>_N= 1
+En = 0.817737 ---| 2  -1  (K)>_N= 1
+En = 0.859008 ---| 2  -1  (K)>_N= 1
+En = 0.859008 ---| 2  -1  (K)>_N= 1
+En = 0.863659 ---| 2  -1  (K)>_N= 1
+En = 0.863659 ---| 2  -1  (K)>_N= 1
+En = 1.11087 ---| 2  -1  (K)>_N= 1
+En = 1.11087 ---| 2  -1  (K)>_N= 1
+En = 1.15257 ---| 2  -1  (K)>_N= 1
+En = 1.15257 ---| 2  -1  (K)>_N= 1
+En = 1.15258 ---| 2  -1  (K)>_N= 1
+En = 1.15258 ---| 2  -1  (K)>_N= 1
+En = 1.15258 ---| 2  -1  (K)>_N= 1
+En = 1.15258 ---| 2  -1  (K)>_N= 1
+En = 1.15259 ---| 2  -1  (K)>_N= 1
+En = 1.15259 ---| 2  -1  (K)>_N= 1
+En = 1.16945 ---| 2  -1  (K)>_N= 1
+En = 1.16945 ---| 2  -1  (K)>_N= 1
+En = 1.61839 ---| 2  -1  (K)>_N= 1
+En = 1.61839 ---| 2  -1  (K)>_N= 1
+En = 1.63526 ---| 2  -1  (K)>_N= 1
+En = 1.63526 ---| 2  -1  (K)>_N= 1
+En = 1.65975 ---| 2  -1  (K)>_N= 1
+En = 1.65975 ---| 2  -1  (K)>_N= 1
+En = 1.65977 ---| 2  -1  (K)>_N= 1
+En = 1.65977 ---| 2  -1  (K)>_N= 1
+En = 1.65977 ---| 2  -1  (K)>_N= 1
+En = 1.65977 ---| 2  -1  (K)>_N= 1
+En = 1.65985 ---| 2  -1  (K)>_N= 1
+En = 1.65985 ---| 2  -1  (K)>_N= 1
+En = 1.67662 ---| 2  -1  (K)>_N= 1
+En = 1.67662 ---| 2  -1  (K)>_N= 1
+En = 1.70111 ---| 2  -1  (K)>_N= 1
+En = 1.70111 ---| 2  -1  (K)>_N= 1
+En = 1.92884 ---| 2  -1  (K)>_N= 1
+En = 1.92884 ---| 2  -1  (K)>_N= 1
+En = 1.95332 ---| 2  -1  (K)>_N= 1
+En = 1.95332 ---| 2  -1  (K)>_N= 1
+En = 1.9701 ---| 2  -1  (K)>_N= 1
+En = 1.9701 ---| 2  -1  (K)>_N= 1
+En = 1.97018 ---| 2  -1  (K)>_N= 1
+En = 1.97018 ---| 2  -1  (K)>_N= 1
+En = 1.97018 ---| 2  -1  (K)>_N= 1
+En = 1.97018 ---| 2  -1  (K)>_N= 1
+En = 1.97019 ---| 2  -1  (K)>_N= 1
+En = 1.97019 ---| 2  -1  (K)>_N= 1
+En = 1.99469 ---| 2  -1  (K)>_N= 1
+En = 1.99469 ---| 2  -1  (K)>_N= 1
+En = 2.01155 ---| 2  -1  (K)>_N= 1
+En = 2.01155 ---| 2  -1  (K)>_N= 1
+En = 2.4605 ---| 2  -1  (K)>_N= 1
+En = 2.4605 ---| 2  -1  (K)>_N= 1
+En = 2.47736 ---| 2  -1  (K)>_N= 1
+En = 2.47736 ---| 2  -1  (K)>_N= 1
+En = 2.47737 ---| 2  -1  (K)>_N= 1
+En = 2.47737 ---| 2  -1  (K)>_N= 1
+En = 2.47737 ---| 2  -1  (K)>_N= 1
+En = 2.47737 ---| 2  -1  (K)>_N= 1
+En = 2.47737 ---| 2  -1  (K)>_N= 1
+En = 2.47737 ---| 2  -1  (K)>_N= 1
+En = 2.51907 ---| 2  -1  (K)>_N= 1
+En = 2.51907 ---| 2  -1  (K)>_N= 1
+En = 2.76629 ---| 2  -1  (K)>_N= 1
+En = 2.76629 ---| 2  -1  (K)>_N= 1
+En = 2.77094 ---| 2  -1  (K)>_N= 1
+En = 2.77094 ---| 2  -1  (K)>_N= 1
+En = 2.81221 ---| 2  -1  (K)>_N= 1
+En = 2.81221 ---| 2  -1  (K)>_N= 1
+En = 2.81227 ---| 2  -1  (K)>_N= 1
+En = 2.81227 ---| 2  -1  (K)>_N= 1
+En = 2.81227 ---| 2  -1  (K)>_N= 1
+En = 2.81227 ---| 2  -1  (K)>_N= 1
+En = 2.81228 ---| 2  -1  (K)>_N= 1
+En = 2.81228 ---| 2  -1  (K)>_N= 1
+En = 3.27809 ---| 2  -1  (K)>_N= 1
+En = 3.27809 ---| 2  -1  (K)>_N= 1
+En = 3.31689 ---| 2  -1  (K)>_N= 1
+En = 3.31689 ---| 2  -1  (K)>_N= 1
+En = 3.61301 ---| 2  -1  (K)>_N= 1
+En = 3.61301 ---| 2  -1  (K)>_N= 1
+En = 3.62995 ---| 2  -1  (K)>_N= 1
+En = 3.62995 ---| 2  -1  (K)>_N= 1
+En = 3.10862e-15 ---| 2  1  (K)>_N= 1
+En = 5.32907e-15 ---| 2  1  (K)>_N= 1
+En = 0.0169364 ---| 2  1  (K)>_N= 1
+En = 0.0169364 ---| 2  1  (K)>_N= 1
+En = 0.313059 ---| 2  1  (K)>_N= 1
+En = 0.313059 ---| 2  1  (K)>_N= 1
+En = 0.351857 ---| 2  1  (K)>_N= 1
+En = 0.351857 ---| 2  1  (K)>_N= 1
+En = 0.81767 ---| 2  1  (K)>_N= 1
+En = 0.81767 ---| 2  1  (K)>_N= 1
+En = 0.817672 ---| 2  1  (K)>_N= 1
+En = 0.817672 ---| 2  1  (K)>_N= 1
+En = 0.817672 ---| 2  1  (K)>_N= 1
+En = 0.817672 ---| 2  1  (K)>_N= 1
+En = 0.817737 ---| 2  1  (K)>_N= 1
+En = 0.817737 ---| 2  1  (K)>_N= 1
+En = 0.859008 ---| 2  1  (K)>_N= 1
+En = 0.859008 ---| 2  1  (K)>_N= 1
+En = 0.863659 ---| 2  1  (K)>_N= 1
+En = 0.863659 ---| 2  1  (K)>_N= 1
+En = 1.11087 ---| 2  1  (K)>_N= 1
+En = 1.11087 ---| 2  1  (K)>_N= 1
+En = 1.15257 ---| 2  1  (K)>_N= 1
+En = 1.15257 ---| 2  1  (K)>_N= 1
+En = 1.15258 ---| 2  1  (K)>_N= 1
+En = 1.15258 ---| 2  1  (K)>_N= 1
+En = 1.15258 ---| 2  1  (K)>_N= 1
+En = 1.15258 ---| 2  1  (K)>_N= 1
+En = 1.15259 ---| 2  1  (K)>_N= 1
+En = 1.15259 ---| 2  1  (K)>_N= 1
+En = 1.16945 ---| 2  1  (K)>_N= 1
+En = 1.16945 ---| 2  1  (K)>_N= 1
+En = 1.61839 ---| 2  1  (K)>_N= 1
+En = 1.61839 ---| 2  1  (K)>_N= 1
+En = 1.63526 ---| 2  1  (K)>_N= 1
+En = 1.63526 ---| 2  1  (K)>_N= 1
+En = 1.65975 ---| 2  1  (K)>_N= 1
+En = 1.65975 ---| 2  1  (K)>_N= 1
+En = 1.65977 ---| 2  1  (K)>_N= 1
+En = 1.65977 ---| 2  1  (K)>_N= 1
+En = 1.65977 ---| 2  1  (K)>_N= 1
+En = 1.65977 ---| 2  1  (K)>_N= 1
+En = 1.65985 ---| 2  1  (K)>_N= 1
+En = 1.65985 ---| 2  1  (K)>_N= 1
+En = 1.67662 ---| 2  1  (K)>_N= 1
+En = 1.67662 ---| 2  1  (K)>_N= 1
+En = 1.70111 ---| 2  1  (K)>_N= 1
+En = 1.70111 ---| 2  1  (K)>_N= 1
+En = 1.92884 ---| 2  1  (K)>_N= 1
+En = 1.92884 ---| 2  1  (K)>_N= 1
+En = 1.95332 ---| 2  1  (K)>_N= 1
+En = 1.95332 ---| 2  1  (K)>_N= 1
+En = 1.9701 ---| 2  1  (K)>_N= 1
+En = 1.9701 ---| 2  1  (K)>_N= 1
+En = 1.97018 ---| 2  1  (K)>_N= 1
+En = 1.97018 ---| 2  1  (K)>_N= 1
+En = 1.97018 ---| 2  1  (K)>_N= 1
+En = 1.97018 ---| 2  1  (K)>_N= 1
+En = 1.97019 ---| 2  1  (K)>_N= 1
+En = 1.97019 ---| 2  1  (K)>_N= 1
+En = 1.99469 ---| 2  1  (K)>_N= 1
+En = 1.99469 ---| 2  1  (K)>_N= 1
+En = 2.01155 ---| 2  1  (K)>_N= 1
+En = 2.01155 ---| 2  1  (K)>_N= 1
+En = 2.4605 ---| 2  1  (K)>_N= 1
+En = 2.4605 ---| 2  1  (K)>_N= 1
+En = 2.47736 ---| 2  1  (K)>_N= 1
+En = 2.47736 ---| 2  1  (K)>_N= 1
+En = 2.47737 ---| 2  1  (K)>_N= 1
+En = 2.47737 ---| 2  1  (K)>_N= 1
+En = 2.47737 ---| 2  1  (K)>_N= 1
+En = 2.47737 ---| 2  1  (K)>_N= 1
+En = 2.47737 ---| 2  1  (K)>_N= 1
+En = 2.47737 ---| 2  1  (K)>_N= 1
+En = 2.51907 ---| 2  1  (K)>_N= 1
+En = 2.51907 ---| 2  1  (K)>_N= 1
+En = 2.76629 ---| 2  1  (K)>_N= 1
+En = 2.76629 ---| 2  1  (K)>_N= 1
+En = 2.77094 ---| 2  1  (K)>_N= 1
+En = 2.77094 ---| 2  1  (K)>_N= 1
+En = 2.81221 ---| 2  1  (K)>_N= 1
+En = 2.81221 ---| 2  1  (K)>_N= 1
+En = 2.81227 ---| 2  1  (K)>_N= 1
+En = 2.81227 ---| 2  1  (K)>_N= 1
+En = 2.81227 ---| 2  1  (K)>_N= 1
+En = 2.81227 ---| 2  1  (K)>_N= 1
+En = 2.81228 ---| 2  1  (K)>_N= 1
+En = 2.81228 ---| 2  1  (K)>_N= 1
+En = 3.27809 ---| 2  1  (K)>_N= 1
+En = 3.27809 ---| 2  1  (K)>_N= 1
+En = 3.31689 ---| 2  1  (K)>_N= 1
+En = 3.31689 ---| 2  1  (K)>_N= 1
+En = 3.61301 ---| 2  1  (K)>_N= 1
+En = 3.61301 ---| 2  1  (K)>_N= 1
+En = 3.62995 ---| 2  1  (K)>_N= 1
+En = 3.62995 ---| 2  1  (K)>_N= 1
+En = 0.0169364 ---| 3  -1  (K)>_N= 1
+En = 0.0169364 ---| 3  -1  (K)>_N= 1
+En = 0.313059 ---| 3  -1  (K)>_N= 1
+En = 0.313059 ---| 3  -1  (K)>_N= 1
+En = 0.817672 ---| 3  -1  (K)>_N= 1
+En = 0.817672 ---| 3  -1  (K)>_N= 1
+En = 0.817737 ---| 3  -1  (K)>_N= 1
+En = 0.817737 ---| 3  -1  (K)>_N= 1
+En = 0.834537 ---| 3  -1  (K)>_N= 1
+En = 0.834537 ---| 3  -1  (K)>_N= 1
+En = 0.863659 ---| 3  -1  (K)>_N= 1
+En = 0.863659 ---| 3  -1  (K)>_N= 1
+En = 1.15255 ---| 3  -1  (K)>_N= 1
+En = 1.15255 ---| 3  -1  (K)>_N= 1
+En = 1.15258 ---| 3  -1  (K)>_N= 1
+En = 1.15258 ---| 3  -1  (K)>_N= 1
+En = 1.15259 ---| 3  -1  (K)>_N= 1
+En = 1.15259 ---| 3  -1  (K)>_N= 1
+En = 1.16945 ---| 3  -1  (K)>_N= 1
+En = 1.16945 ---| 3  -1  (K)>_N= 1
+En = 1.61839 ---| 3  -1  (K)>_N= 1
+En = 1.61839 ---| 3  -1  (K)>_N= 1
+En = 1.63526 ---| 3  -1  (K)>_N= 1
+En = 1.63526 ---| 3  -1  (K)>_N= 1
+En = 1.65975 ---| 3  -1  (K)>_N= 1
+En = 1.65975 ---| 3  -1  (K)>_N= 1
+En = 1.65977 ---| 3  -1  (K)>_N= 1
+En = 1.65977 ---| 3  -1  (K)>_N= 1
+En = 1.65994 ---| 3  -1  (K)>_N= 1
+En = 1.65994 ---| 3  -1  (K)>_N= 1
+En = 1.67662 ---| 3  -1  (K)>_N= 1
+En = 1.67662 ---| 3  -1  (K)>_N= 1
+En = 1.92884 ---| 3  -1  (K)>_N= 1
+En = 1.92884 ---| 3  -1  (K)>_N= 1
+En = 1.9701 ---| 3  -1  (K)>_N= 1
+En = 1.9701 ---| 3  -1  (K)>_N= 1
+En = 1.97018 ---| 3  -1  (K)>_N= 1
+En = 1.97018 ---| 3  -1  (K)>_N= 1
+En = 1.99468 ---| 3  -1  (K)>_N= 1
+En = 1.99468 ---| 3  -1  (K)>_N= 1
+En = 1.99468 ---| 3  -1  (K)>_N= 1
+En = 1.99468 ---| 3  -1  (K)>_N= 1
+En = 1.99469 ---| 3  -1  (K)>_N= 1
+En = 1.99469 ---| 3  -1  (K)>_N= 1
+En = 2.43598 ---| 3  -1  (K)>_N= 1
+En = 2.43598 ---| 3  -1  (K)>_N= 1
+En = 2.47737 ---| 3  -1  (K)>_N= 1
+En = 2.47737 ---| 3  -1  (K)>_N= 1
+En = 2.47737 ---| 3  -1  (K)>_N= 1
+En = 2.47737 ---| 3  -1  (K)>_N= 1
+En = 2.51907 ---| 3  -1  (K)>_N= 1
+En = 2.51907 ---| 3  -1  (K)>_N= 1
+En = 2.77094 ---| 3  -1  (K)>_N= 1
+En = 2.77094 ---| 3  -1  (K)>_N= 1
+En = 2.81215 ---| 3  -1  (K)>_N= 1
+En = 2.81215 ---| 3  -1  (K)>_N= 1
+En = 2.81227 ---| 3  -1  (K)>_N= 1
+En = 2.81227 ---| 3  -1  (K)>_N= 1
+En = 2.81228 ---| 3  -1  (K)>_N= 1
+En = 2.81228 ---| 3  -1  (K)>_N= 1
+En = 3.27809 ---| 3  -1  (K)>_N= 1
+En = 3.27809 ---| 3  -1  (K)>_N= 1
+En = 3.62995 ---| 3  -1  (K)>_N= 1
+En = 3.62995 ---| 3  -1  (K)>_N= 1
+En = 1.11022e-15 ---| 3  1  (K)>_N= 1
+En = 1.77636e-15 ---| 3  1  (K)>_N= 1
+En = 0.351857 ---| 3  1  (K)>_N= 1
+En = 0.351857 ---| 3  1  (K)>_N= 1
+En = 0.81767 ---| 3  1  (K)>_N= 1
+En = 0.81767 ---| 3  1  (K)>_N= 1
+En = 0.817672 ---| 3  1  (K)>_N= 1
+En = 0.817672 ---| 3  1  (K)>_N= 1
+En = 0.817795 ---| 3  1  (K)>_N= 1
+En = 0.817795 ---| 3  1  (K)>_N= 1
+En = 0.859008 ---| 3  1  (K)>_N= 1
+En = 0.859008 ---| 3  1  (K)>_N= 1
+En = 1.11087 ---| 3  1  (K)>_N= 1
+En = 1.11087 ---| 3  1  (K)>_N= 1
+En = 1.15257 ---| 3  1  (K)>_N= 1
+En = 1.15257 ---| 3  1  (K)>_N= 1
+En = 1.15258 ---| 3  1  (K)>_N= 1
+En = 1.15258 ---| 3  1  (K)>_N= 1
+En = 1.19397 ---| 3  1  (K)>_N= 1
+En = 1.19397 ---| 3  1  (K)>_N= 1
+En = 1.63526 ---| 3  1  (K)>_N= 1
+En = 1.63526 ---| 3  1  (K)>_N= 1
+En = 1.63526 ---| 3  1  (K)>_N= 1
+En = 1.63526 ---| 3  1  (K)>_N= 1
+En = 1.63526 ---| 3  1  (K)>_N= 1
+En = 1.63526 ---| 3  1  (K)>_N= 1
+En = 1.65977 ---| 3  1  (K)>_N= 1
+En = 1.65977 ---| 3  1  (K)>_N= 1
+En = 1.65985 ---| 3  1  (K)>_N= 1
+En = 1.65985 ---| 3  1  (K)>_N= 1
+En = 1.70111 ---| 3  1  (K)>_N= 1
+En = 1.70111 ---| 3  1  (K)>_N= 1
+En = 1.95332 ---| 3  1  (K)>_N= 1
+En = 1.95332 ---| 3  1  (K)>_N= 1
+En = 1.97001 ---| 3  1  (K)>_N= 1
+En = 1.97001 ---| 3  1  (K)>_N= 1
+En = 1.97018 ---| 3  1  (K)>_N= 1
+En = 1.97018 ---| 3  1  (K)>_N= 1
+En = 1.97019 ---| 3  1  (K)>_N= 1
+En = 1.97019 ---| 3  1  (K)>_N= 1
+En = 1.99468 ---| 3  1  (K)>_N= 1
+En = 1.99468 ---| 3  1  (K)>_N= 1
+En = 2.01155 ---| 3  1  (K)>_N= 1
+En = 2.01155 ---| 3  1  (K)>_N= 1
+En = 2.4605 ---| 3  1  (K)>_N= 1
+En = 2.4605 ---| 3  1  (K)>_N= 1
+En = 2.47736 ---| 3  1  (K)>_N= 1
+En = 2.47736 ---| 3  1  (K)>_N= 1
+En = 2.47737 ---| 3  1  (K)>_N= 1
+En = 2.47737 ---| 3  1  (K)>_N= 1
+En = 2.4774 ---| 3  1  (K)>_N= 1
+En = 2.4774 ---| 3  1  (K)>_N= 1
+En = 2.76629 ---| 3  1  (K)>_N= 1
+En = 2.76629 ---| 3  1  (K)>_N= 1
+En = 2.79541 ---| 3  1  (K)>_N= 1
+En = 2.79541 ---| 3  1  (K)>_N= 1
+En = 2.81221 ---| 3  1  (K)>_N= 1
+En = 2.81221 ---| 3  1  (K)>_N= 1
+En = 2.81227 ---| 3  1  (K)>_N= 1
+En = 2.81227 ---| 3  1  (K)>_N= 1
+En = 3.31689 ---| 3  1  (K)>_N= 1
+En = 3.31689 ---| 3  1  (K)>_N= 1
+En = 3.61301 ---| 3  1  (K)>_N= 1
+En = 3.61301 ---| 3  1  (K)>_N= 1
+En = 0.834537 ---| 4  -1  (K)>_N= 1
+En = 0.834537 ---| 4  -1  (K)>_N= 1
+En = 1.15255 ---| 4  -1  (K)>_N= 1
+En = 1.15255 ---| 4  -1  (K)>_N= 1
+En = 1.63526 ---| 4  -1  (K)>_N= 1
+En = 1.63526 ---| 4  -1  (K)>_N= 1
+En = 1.65994 ---| 4  -1  (K)>_N= 1
+En = 1.65994 ---| 4  -1  (K)>_N= 1
+En = 1.99468 ---| 4  -1  (K)>_N= 1
+En = 1.99468 ---| 4  -1  (K)>_N= 1
+En = 1.99468 ---| 4  -1  (K)>_N= 1
+En = 1.99468 ---| 4  -1  (K)>_N= 1
+En = 2.43598 ---| 4  -1  (K)>_N= 1
+En = 2.43598 ---| 4  -1  (K)>_N= 1
+En = 2.81215 ---| 4  -1  (K)>_N= 1
+En = 2.81215 ---| 4  -1  (K)>_N= 1
+En = 0.817795 ---| 4  1  (K)>_N= 1
+En = 0.817795 ---| 4  1  (K)>_N= 1
+En = 1.19397 ---| 4  1  (K)>_N= 1
+En = 1.19397 ---| 4  1  (K)>_N= 1
+En = 1.63526 ---| 4  1  (K)>_N= 1
+En = 1.63526 ---| 4  1  (K)>_N= 1
+En = 1.63526 ---| 4  1  (K)>_N= 1
+En = 1.63526 ---| 4  1  (K)>_N= 1
+En = 1.97001 ---| 4  1  (K)>_N= 1
+En = 1.97001 ---| 4  1  (K)>_N= 1
+En = 1.99468 ---| 4  1  (K)>_N= 1
+En = 1.99468 ---| 4  1  (K)>_N= 1
+En = 2.4774 ---| 4  1  (K)>_N= 1
+En = 2.4774 ---| 4  1  (K)>_N= 1
+En = 2.79541 ---| 4  1  (K)>_N= 1
+En = 2.79541 ---| 4  1  (K)>_N= 1
+CalcThermo: Not calculating thermodynamics 
+CalcThermo: Not calculating thermodynamics 
+CalcThermo: Not calculating thermodynamics 
+CalcThermo: Not calculating thermodynamics 
+Block i : 0/9 (sz=16) Nshell=1
+  Block j : 0/9 (sz=16) Time to here 7e-06; last lap 7e-06
+   Updating Op : 3 of 5
+   Updating Op : 4 of 5
+   Updating Op : 5 of 5
+  Block j : 1/9 (sz=64) Time to here 0.000674; last lap 0.00066
+   Updating Op : 1 of 5
+  Block j : 2/9 (sz=16) Time to here 0.002662; last lap 0.001982
+   Updating Op : 2 of 5
+  Block j : 3/9 (sz=64) Time to here 0.002887; last lap 0.000218
+  Block j : 4/9 (sz=96) Time to here 0.002893; last lap 1e-06
+  Block j : 5/9 (sz=96) Time to here 0.002898; last lap 1e-06
+  Block j : 6/9 (sz=64) Time to here 0.002903; last lap 1e-06
+  Block j : 7/9 (sz=64) Time to here 0.002908; last lap 1e-06
+  Block j : 8/9 (sz=16) Time to here 0.002912; last lap 0
+  Block j : 9/9 (sz=16) Time to here 0.002917; last lap 1e-06
+Block i : 1/9 (sz=64) Nshell=1
+  Block j : 0/9 (sz=16) Time to here 0.002925; last lap 3e-06
+  Block j : 1/9 (sz=64) Time to here 0.002929; last lap 0
+   Updating Op : 3 of 5
+   Updating Op : 4 of 5
+   Updating Op : 5 of 5
+  Block j : 2/9 (sz=16) Time to here 0.036094; last lap 0.033161
+  Block j : 3/9 (sz=64) Time to here 0.036111; last lap 1e-06
+   Updating Op : 2 of 5
+  Block j : 4/9 (sz=96) Time to here 0.046782; last lap 0.010666
+   Updating Op : 1 of 5
+  Block j : 5/9 (sz=96) Time to here 0.066628; last lap 0.01983
+  Block j : 6/9 (sz=64) Time to here 0.066637; last lap 1e-06
+  Block j : 7/9 (sz=64) Time to here 0.066642; last lap 1e-06
+  Block j : 8/9 (sz=16) Time to here 0.066653; last lap 1e-06
+  Block j : 9/9 (sz=16) Time to here 0.066657; last lap 0
+Block i : 2/9 (sz=16) Nshell=1
+  Block j : 0/9 (sz=16) Time to here 0.066664; last lap 3e-06
+   Updating Op : 2 of 5
+  Block j : 1/9 (sz=64) Time to here 0.066868; last lap 0.000199
+  Block j : 2/9 (sz=16) Time to here 0.066873; last lap 1e-06
+   Updating Op : 3 of 5
+   Updating Op : 4 of 5
+   Updating Op : 5 of 5
+  Block j : 3/9 (sz=64) Time to here 0.067493; last lap 0.000616
+   Updating Op : 1 of 5
+  Block j : 4/9 (sz=96) Time to here 0.069316; last lap 0.001819
+  Block j : 5/9 (sz=96) Time to here 0.069323; last lap 1e-06
+  Block j : 6/9 (sz=64) Time to here 0.069328; last lap 0
+  Block j : 7/9 (sz=64) Time to here 0.069332; last lap 1e-06
+  Block j : 8/9 (sz=16) Time to here 0.069336; last lap 0
+  Block j : 9/9 (sz=16) Time to here 0.069341; last lap 0
+Block i : 3/9 (sz=64) Nshell=1
+  Block j : 0/9 (sz=16) Time to here 0.069347; last lap 3e-06
+  Block j : 1/9 (sz=64) Time to here 0.069351; last lap 0
+   Updating Op : 2 of 5
+  Block j : 2/9 (sz=16) Time to here 0.079568; last lap 0.010213
+  Block j : 3/9 (sz=64) Time to here 0.079576; last lap 1e-06
+   Updating Op : 3 of 5
+   Updating Op : 4 of 5
+   Updating Op : 5 of 5
+  Block j : 4/9 (sz=96) Time to here 0.111074; last lap 0.031494
+  Block j : 5/9 (sz=96) Time to here 0.111083; last lap 1e-06
+   Updating Op : 1 of 5
+  Block j : 6/9 (sz=64) Time to here 0.131033; last lap 0.019946
+  Block j : 7/9 (sz=64) Time to here 0.131059; last lap 1e-06
+  Block j : 8/9 (sz=16) Time to here 0.131063; last lap 0
+  Block j : 9/9 (sz=16) Time to here 0.131068; last lap 0
+Block i : 4/9 (sz=96) Nshell=1
+  Block j : 0/9 (sz=16) Time to here 0.131075; last lap 4e-06
+  Block j : 1/9 (sz=64) Time to here 0.131079; last lap 0
+  Block j : 2/9 (sz=16) Time to here 0.131083; last lap 0
+  Block j : 3/9 (sz=64) Time to here 0.131087; last lap 0
+  Block j : 4/9 (sz=96) Time to here 0.131092; last lap 0
+   Updating Op : 3 of 5
+   Updating Op : 4 of 5
+   Updating Op : 5 of 5
+  Block j : 5/9 (sz=96) Time to here 0.235498; last lap 0.104403
+   Updating Op : 2 of 5
+  Block j : 6/9 (sz=64) Time to here 0.27001; last lap 0.034498
+   Updating Op : 1 of 5
+  Block j : 7/9 (sz=64) Time to here 0.288746; last lap 0.018726
+  Block j : 8/9 (sz=16) Time to here 0.288754; last lap 1e-06
+  Block j : 9/9 (sz=16) Time to here 0.288759; last lap 1e-06
+Block i : 5/9 (sz=96) Nshell=1
+  Block j : 0/9 (sz=16) Time to here 0.288766; last lap 3e-06
+  Block j : 1/9 (sz=64) Time to here 0.28877; last lap 0
+  Block j : 2/9 (sz=16) Time to here 0.288774; last lap 0
+  Block j : 3/9 (sz=64) Time to here 0.288778; last lap 0
+  Block j : 4/9 (sz=96) Time to here 0.288783; last lap 0
+   Updating Op : 2 of 5
+  Block j : 5/9 (sz=96) Time to here 0.322913; last lap 0.034127
+   Updating Op : 3 of 5
+   Updating Op : 4 of 5
+   Updating Op : 5 of 5
+  Block j : 6/9 (sz=64) Time to here 0.427863; last lap 0.104942
+  Block j : 7/9 (sz=64) Time to here 0.42789; last lap 2e-06
+   Updating Op : 1 of 5
+  Block j : 8/9 (sz=16) Time to here 0.44672; last lap 0.018825
+  Block j : 9/9 (sz=16) Time to here 0.446729; last lap 0
+Block i : 6/9 (sz=64) Nshell=1
+  Block j : 0/9 (sz=16) Time to here 0.446737; last lap 2e-06
+  Block j : 1/9 (sz=64) Time to here 0.446749; last lap 1e-06
+  Block j : 2/9 (sz=16) Time to here 0.446753; last lap 0
+  Block j : 3/9 (sz=64) Time to here 0.446757; last lap 0
+  Block j : 4/9 (sz=96) Time to here 0.446762; last lap 1e-06
+  Block j : 5/9 (sz=96) Time to here 0.446766; last lap 1e-06
+  Block j : 6/9 (sz=64) Time to here 0.44677; last lap 0
+   Updating Op : 3 of 5
+   Updating Op : 4 of 5
+   Updating Op : 5 of 5
+  Block j : 7/9 (sz=64) Time to here 0.478535; last lap 0.031753
+   Updating Op : 2 of 5
+  Block j : 8/9 (sz=16) Time to here 0.488922; last lap 0.010379
+   Updating Op : 1 of 5
+  Block j : 9/9 (sz=16) Time to here 0.490538; last lap 0.00161
+Block i : 7/9 (sz=64) Nshell=1
+  Block j : 0/9 (sz=16) Time to here 0.490547; last lap 3e-06
+  Block j : 1/9 (sz=64) Time to here 0.490552; last lap 1e-06
+  Block j : 2/9 (sz=16) Time to here 0.490562; last lap 0
+  Block j : 3/9 (sz=64) Time to here 0.490567; last lap 1e-06
+  Block j : 4/9 (sz=96) Time to here 0.490571; last lap 0
+  Block j : 5/9 (sz=96) Time to here 0.490576; last lap 0
+  Block j : 6/9 (sz=64) Time to here 0.49058; last lap 0
+   Updating Op : 2 of 5
+  Block j : 7/9 (sz=64) Time to here 0.5008; last lap 0.010217
+   Updating Op : 3 of 5
+   Updating Op : 4 of 5
+   Updating Op : 5 of 5
+  Block j : 8/9 (sz=16) Time to here 0.532553; last lap 0.031746
+  Block j : 9/9 (sz=16) Time to here 0.53257; last lap 2e-06
+   Updating Op : 1 of 5
+Block i : 8/9 (sz=16) Nshell=1
+  Block j : 0/9 (sz=16) Time to here 0.534193; last lap 0.001619
+  Block j : 1/9 (sz=64) Time to here 0.534199; last lap 1e-06
+  Block j : 2/9 (sz=16) Time to here 0.534203; last lap 0
+  Block j : 3/9 (sz=64) Time to here 0.534207; last lap 0
+  Block j : 4/9 (sz=96) Time to here 0.534211; last lap 0
+  Block j : 5/9 (sz=96) Time to here 0.534215; last lap 0
+  Block j : 6/9 (sz=64) Time to here 0.534219; last lap 0
+  Block j : 7/9 (sz=64) Time to here 0.534223; last lap 0
+  Block j : 8/9 (sz=16) Time to here 0.534227; last lap 0
+   Updating Op : 3 of 5
+   Updating Op : 4 of 5
+   Updating Op : 5 of 5
+  Block j : 9/9 (sz=16) Time to here 0.5349; last lap 0.000669
+   Updating Op : 2 of 5
+Block i : 9/9 (sz=16) Nshell=1
+  Block j : 0/9 (sz=16) Time to here 0.535109; last lap 0.000204
+  Block j : 1/9 (sz=64) Time to here 0.535114; last lap 0
+  Block j : 2/9 (sz=16) Time to here 0.535118; last lap 1e-06
+  Block j : 3/9 (sz=64) Time to here 0.535122; last lap 1e-06
+  Block j : 4/9 (sz=96) Time to here 0.535126; last lap 0
+  Block j : 5/9 (sz=96) Time to here 0.53513; last lap 0
+  Block j : 6/9 (sz=64) Time to here 0.535134; last lap 0
+  Block j : 7/9 (sz=64) Time to here 0.535138; last lap 0
+  Block j : 8/9 (sz=16) Time to here 0.535142; last lap 0
+   Updating Op : 2 of 5
+  Block j : 9/9 (sz=16) Time to here 0.535346; last lap 0.0002
+   Updating Op : 3 of 5
+   Updating Op : 4 of 5
+   Updating Op : 5 of 5
+ DONE updating operators in Nshell = 1
+ CalcStuff: Not Calculating stuff for Mat 0
+ CalcStuff: Not Calculating stuff for Mat 1
+ T= 0.962861 Ndot= 1
+ T= 0.962861 Szdot= 1
+ T= 0.962861 Nf= 0.00409232
+ N = 1
+ eN_2 = 0
+ ScaleFactorN_1 = 2.25877 DeltaSC_scaled =  DeltaSC_scaled = 0
+=== Calculation Finished! ==== 

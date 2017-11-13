@@ -877,8 +877,6 @@ complex<double> OneChNupPdn_H0DQD_MatEl(vector<double> Params,
     //state came from
     int stcfj=pAbasis->StCameFrom[jst];
 
-
-
     // Get c1_up matrix element from MatArray[0]
     // Get c1_dn matrix element from MatArray[1]
     // Get c2_up matrix element from MatArray[2]
@@ -902,10 +900,12 @@ complex<double> OneChNupPdn_H0DQD_MatEl(vector<double> Params,
 
 
 	// if zero, try h.c.
+	int help = 0.0;
 	if ((dEqual(fabs(OldEl[icounter].real()),0.0))&&(dEqual(fabs(OldEl[icounter].imag()),0.0))){
 	  OldEl[icounter]=MatArray[icounter].cGetMatEl(stcfj,stcfi);
 	  typep=typej;
 	  type=typei;
+		help=1.0;
 	  }
 
 	// I NEED TO CHANGE THIS RULE NOW Get SingleSite QNumbers
@@ -922,29 +922,45 @@ complex<double> OneChNupPdn_H0DQD_MatEl(vector<double> Params,
 	      )
 	  FermiSign=-1.0;
 
-
 	// I HAVE TO CHANGE THIS TABLE?
-	double FullMatEl=OneCh_fd_table(sigma,typep,type)*FermiSign;
+	double FullMatEl= OneCh_fd_table(sigma,typep,type)*FermiSign;
 
 	cMatEl+=chi_N[idot-1]*OldEl[icounter]*FullMatEl;
 
 	//MatEl+=chi_N[idot-1]*FullMatEl;
 	//if (( (ist==8)||(ist==10) )&&( (jst==8)||(jst==10) ))
-	if (dEqual(Nupi,0.0)&&dEqual(Pdni,-1.0))
-	  cout << " Oiiiiiiiii"
-					<< " ist= " << ist
+	if (dEqual(Nupi,0.0)&&dEqual(Pdni,-1.0)){
+	  cout	<< " ist= " << ist
 					<< " jst = " << jst
 					<< " idot = " << idot
-	       << " FermiSign = " << FermiSign
+	       << " Chi = " << chi_N[idot-1]
 	       << " sigma = " << sigma
 	    //<< " Szold = " << Szold
 	       << " OldEl = " << OldEl[icounter]
 	       << " FullMatEl = " << FullMatEl
 	       << " MatEl = " << cMatEl
-				 << "chi_N[idot-1]*OldEl[icounter]" << chi_N[idot-1]*OldEl[icounter]
+				 << " Prefactor" << chi_N[idot-1]*OldEl[icounter]
+				 << " Help" << help
+				 << endl
 	       << endl;
 
+}
+if (dEqual(Nupi,0.0)&&dEqual(Pdni,1.0)){
+	cout	<< " ist= " << ist
+				<< " jst = " << jst
+				<< " idot = " << idot
+			 << " Chi = " << chi_N[idot-1]
+			 << " sigma = " << sigma
+		//<< " Szold = " << Szold
+			 << " OldEl = " << OldEl[icounter]
+			 << " FullMatEl = " << FullMatEl
+			 << " MatEl = " << cMatEl
+			 << " Prefactor" << chi_N[idot-1]*OldEl[icounter]
+			 << " Help" << help
+			 << endl
+			 << endl;
 
+}
 	icounter++;
       }
       // end loop in sigma
