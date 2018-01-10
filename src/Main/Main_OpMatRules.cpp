@@ -898,10 +898,10 @@ complex<double> OneChNupPdn_H0DQD_MatEl(vector<double> Params,
 	int typep=typei;
 	int type=typej;
 
-
+  complex<double>  param = OldEl[icounter]*OneCh_fd_table(sigma,typep,type);
 	// if zero, try h.c.
 	int help = 0.0;
-	if ((dEqual(fabs(OldEl[icounter].real()),0.0))&&(dEqual(fabs(OldEl[icounter].imag()),0.0))){
+	if ((dEqual(fabs(param.real()),0.0))&&(dEqual(param.imag(),0.0) )){
 	  OldEl[icounter]=MatArray[icounter].cGetMatEl(stcfj,stcfi);
 	  typep=typej;
 	  type=typei;
@@ -929,7 +929,7 @@ complex<double> OneChNupPdn_H0DQD_MatEl(vector<double> Params,
 
 	//MatEl+=chi_N[idot-1]*FullMatEl;
 	//if (( (ist==8)||(ist==10) )&&( (jst==8)||(jst==10) ))
-	if (dEqual(Nupi,0.0)&&dEqual(Pdni,-1.0)){
+	if (dEqual(Nupi,0.0)&&dEqual(Pdni,-1.0)&&dEqual(sigma,-1.0)&&(idot == 1)){
 	  cout	<< " ist= " << ist
 					<< " jst = " << jst
 					<< " idot = " << idot
@@ -945,7 +945,7 @@ complex<double> OneChNupPdn_H0DQD_MatEl(vector<double> Params,
 	       << endl;
 
 }
-if (dEqual(Nupi,0.0)&&dEqual(Pdni,1.0)){
+/*if (dEqual(Nupi,0.0)&&dEqual(Pdni,1.0)){
 	cout	<< " ist= " << ist
 				<< " jst = " << jst
 				<< " idot = " << idot
@@ -960,7 +960,7 @@ if (dEqual(Nupi,0.0)&&dEqual(Pdni,1.0)){
 			 << endl
 			 << endl;
 
-}
+}*/
 	icounter++;
       }
       // end loop in sigma

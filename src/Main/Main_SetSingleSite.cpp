@@ -23,7 +23,7 @@ int TwoChQSNoSz_SetSingleSite(CNRGbasisarray* pSingleSite){
 
   pSingleSite->iDegen.push_back(0); // Sz=0
 
-  // -1 1/2 : | 0 up> and | up 0> ; | 0 dn> and | dn 0> 
+  // -1 1/2 : | 0 up> and | up 0> ; | 0 dn> and | dn 0>
 
   pSingleSite->QNumbers.push_back(-1.0);
   pSingleSite->QNumbers.push_back(0.5);
@@ -31,13 +31,13 @@ int TwoChQSNoSz_SetSingleSite(CNRGbasisarray* pSingleSite){
   pSingleSite->BlockBegEnd.push_back(1);
   pSingleSite->BlockBegEnd.push_back(4);
 
-  pSingleSite->iDegen.push_back(5); // Sz=0.5  
   pSingleSite->iDegen.push_back(5); // Sz=0.5
-  pSingleSite->iDegen.push_back(-5); // Sz=-0.5  
+  pSingleSite->iDegen.push_back(5); // Sz=0.5
+  pSingleSite->iDegen.push_back(-5); // Sz=-0.5
   pSingleSite->iDegen.push_back(-5); // Sz=-0.5
 
 
-  // 0 0 : 1/sqrt(2)(| up dn>-| dn up>); | 0 up dn>; | up dn 0>; 
+  // 0 0 : 1/sqrt(2)(| up dn>-| dn up>); | 0 up dn>; | up dn 0>;
 
   pSingleSite->QNumbers.push_back(0.0);
   pSingleSite->QNumbers.push_back(0.0); // includes Singlet
@@ -50,7 +50,7 @@ int TwoChQSNoSz_SetSingleSite(CNRGbasisarray* pSingleSite){
   pSingleSite->iDegen.push_back(0); // Sz=0
 
 
-  // 0 1 : | dn dn> ;  1/sqrt(2)(| up dn>+| dn up>) ;  | up up> 
+  // 0 1 : | dn dn> ;  1/sqrt(2)(| up dn>+| dn up>) ;  | up up>
 
   pSingleSite->QNumbers.push_back(0.0);
   pSingleSite->QNumbers.push_back(1.0); // Triplet
@@ -63,7 +63,7 @@ int TwoChQSNoSz_SetSingleSite(CNRGbasisarray* pSingleSite){
   pSingleSite->iDegen.push_back(10); // Sz=0
 
 
-  // 1 1/2 : | up  up dn>; | up dn   up> ; | dn  up dn>; | up dn   dn> 
+  // 1 1/2 : | up  up dn>; | up dn   up> ; | dn  up dn>; | up dn   dn>
 
   pSingleSite->QNumbers.push_back(1.0);
   pSingleSite->QNumbers.push_back(0.5);
@@ -71,9 +71,9 @@ int TwoChQSNoSz_SetSingleSite(CNRGbasisarray* pSingleSite){
   pSingleSite->BlockBegEnd.push_back(11);
   pSingleSite->BlockBegEnd.push_back(14);
 
-  pSingleSite->iDegen.push_back(5); // Sz=0.5  
   pSingleSite->iDegen.push_back(5); // Sz=0.5
-  pSingleSite->iDegen.push_back(-5); // Sz=-0.5  
+  pSingleSite->iDegen.push_back(5); // Sz=0.5
+  pSingleSite->iDegen.push_back(-5); // Sz=-0.5
   pSingleSite->iDegen.push_back(-5); // Sz=-0.5
 
 
@@ -153,7 +153,7 @@ int TwoChISP_SetSingleSite(CNRGbasisarray* pSingleSite){
   pSingleSite->BlockBegEnd.push_back(1);
   pSingleSite->BlockBegEnd.push_back(1);
 
-  
+
   // | up dn   up dn >  (I=1 Iz=1 S=0 Sz=0 P=+1)
   pSingleSite->QNumbers.push_back(1.0);
   pSingleSite->QNumbers.push_back(1.0);
@@ -169,7 +169,7 @@ int TwoChISP_SetSingleSite(CNRGbasisarray* pSingleSite){
   // I=1/2 S=1/2 P=-1 (4 states)
   //
 
-  // |up dn  up >  (I=1/2 Iz=+1/2 S=1/2 Sz=+1/2 P=-1) 
+  // |up dn  up >  (I=1/2 Iz=+1/2 S=1/2 Sz=+1/2 P=-1)
 
   pSingleSite->QNumbers.push_back(0.5);
   pSingleSite->QNumbers.push_back(0.5);
@@ -180,7 +180,7 @@ int TwoChISP_SetSingleSite(CNRGbasisarray* pSingleSite){
   pSingleSite->BlockBegEnd.push_back(3);
   pSingleSite->BlockBegEnd.push_back(3);
 
-  // | 0  up >  (I=1/2 Iz=-1/2 S=1/2 Sz=+1/2 P=-1) 
+  // | 0  up >  (I=1/2 Iz=-1/2 S=1/2 Sz=+1/2 P=-1)
 
   pSingleSite->QNumbers.push_back(0.5);
   pSingleSite->QNumbers.push_back(-0.5);
@@ -191,7 +191,7 @@ int TwoChISP_SetSingleSite(CNRGbasisarray* pSingleSite){
   pSingleSite->BlockBegEnd.push_back(4);
   pSingleSite->BlockBegEnd.push_back(4);
 
-  // |up dn  dn >  (I=1/2 Iz=+1/2 S=1/2 Sz=-1/2 P=-1) 
+  // |up dn  dn >  (I=1/2 Iz=+1/2 S=1/2 Sz=-1/2 P=-1)
 
   pSingleSite->QNumbers.push_back(0.5);
   pSingleSite->QNumbers.push_back(0.5);
@@ -202,7 +202,7 @@ int TwoChISP_SetSingleSite(CNRGbasisarray* pSingleSite){
   pSingleSite->BlockBegEnd.push_back(5);
   pSingleSite->BlockBegEnd.push_back(5);
 
-  // | 0  dn >  (I=1/2 Iz=-1/2 S=1/2 Sz=-1/2 P=-1) 
+  // | 0  dn >  (I=1/2 Iz=-1/2 S=1/2 Sz=-1/2 P=-1)
 
   pSingleSite->QNumbers.push_back(0.5);
   pSingleSite->QNumbers.push_back(-0.5);
@@ -218,7 +218,7 @@ int TwoChISP_SetSingleSite(CNRGbasisarray* pSingleSite){
   // I=1/2 S=1/2 P=+1 (4 states)
   //
 
-  // |up  up dn >  (I=1/2 Iz=+1/2 S=1/2 Sz=+1/2 P=+1) 
+  // |up  up dn >  (I=1/2 Iz=+1/2 S=1/2 Sz=+1/2 P=+1)
 
   pSingleSite->QNumbers.push_back(0.5);
   pSingleSite->QNumbers.push_back(0.5);
@@ -229,7 +229,7 @@ int TwoChISP_SetSingleSite(CNRGbasisarray* pSingleSite){
   pSingleSite->BlockBegEnd.push_back(7);
   pSingleSite->BlockBegEnd.push_back(7);
 
-  // | up  0 >  (I=1/2 Iz=-1/2 S=1/2 Sz=+1/2 P=+1) 
+  // | up  0 >  (I=1/2 Iz=-1/2 S=1/2 Sz=+1/2 P=+1)
 
   pSingleSite->QNumbers.push_back(0.5);
   pSingleSite->QNumbers.push_back(-0.5);
@@ -240,7 +240,7 @@ int TwoChISP_SetSingleSite(CNRGbasisarray* pSingleSite){
   pSingleSite->BlockBegEnd.push_back(8);
   pSingleSite->BlockBegEnd.push_back(8);
 
-  // |dn  up dn >  (I=1/2 Iz=+1/2 S=1/2 Sz=-1/2 P=1) 
+  // |dn  up dn >  (I=1/2 Iz=+1/2 S=1/2 Sz=-1/2 P=1)
 
   pSingleSite->QNumbers.push_back(0.5);
   pSingleSite->QNumbers.push_back(0.5);
@@ -251,7 +251,7 @@ int TwoChISP_SetSingleSite(CNRGbasisarray* pSingleSite){
   pSingleSite->BlockBegEnd.push_back(9);
   pSingleSite->BlockBegEnd.push_back(9);
 
-  // | dn  0 >  (I=1/2 Iz=-1/2 S=1/2 Sz=-1/2 P=1) 
+  // | dn  0 >  (I=1/2 Iz=-1/2 S=1/2 Sz=-1/2 P=1)
 
   pSingleSite->QNumbers.push_back(0.5);
   pSingleSite->QNumbers.push_back(-0.5);
@@ -354,7 +354,7 @@ int OneChQSz_SetSingleSite(CNRGbasisarray &SingleSite){
   // new. Needs check.
   SingleSite.totalS=false;
 
-  
+
   // QSz blocks
   SingleSite.QNumbers.push_back(-1.0);
   SingleSite.QNumbers.push_back(0.0);
@@ -397,7 +397,7 @@ void TwoChQSP_SetSingleSite(CNRGbasisarray &SingleSite){
   SingleSite.totalS=true;
   SingleSite.Sqnumbers.push_back(1);
 
-  
+
   // 16 states divided in 10 blocks
 
   // -2 0 0 P=+1 : | 0 0>
@@ -410,7 +410,7 @@ void TwoChQSP_SetSingleSite(CNRGbasisarray &SingleSite){
   SingleSite.BlockBegEnd.push_back(0);
   SingleSite.BlockBegEnd.push_back(0);
 
-  // -1 1/2 1/2 P=-1 : | 0 up> 
+  // -1 1/2 1/2 P=-1 : | 0 up>
 
   SingleSite.QNumbers.push_back(-1.0);
   SingleSite.QNumbers.push_back(0.5);
@@ -421,7 +421,7 @@ void TwoChQSP_SetSingleSite(CNRGbasisarray &SingleSite){
   SingleSite.BlockBegEnd.push_back(1);
 
 
-  // -1 1/2 1/2 P=+1 : | up 0> 
+  // -1 1/2 1/2 P=+1 : | up 0>
 
   SingleSite.QNumbers.push_back(-1.0);
   SingleSite.QNumbers.push_back(0.5);
@@ -432,7 +432,7 @@ void TwoChQSP_SetSingleSite(CNRGbasisarray &SingleSite){
   SingleSite.BlockBegEnd.push_back(2);
 
 
-  // -1 1/2 -1/2 P=-1 : | 0 dn> 
+  // -1 1/2 -1/2 P=-1 : | 0 dn>
 
 
   SingleSite.QNumbers.push_back(-1.0);
@@ -443,7 +443,7 @@ void TwoChQSP_SetSingleSite(CNRGbasisarray &SingleSite){
   SingleSite.BlockBegEnd.push_back(3);
   SingleSite.BlockBegEnd.push_back(3);
 
-  // -1 1/2 -1/2 P=+1 : | dn 0> 
+  // -1 1/2 -1/2 P=+1 : | dn 0>
 
 
   SingleSite.QNumbers.push_back(-1.0);
@@ -455,7 +455,7 @@ void TwoChQSP_SetSingleSite(CNRGbasisarray &SingleSite){
   SingleSite.BlockBegEnd.push_back(4);
 
 
-  // 0 0 0 P=-1 : 1/sqrt(2)(| up dn>-| dn up>); 
+  // 0 0 0 P=-1 : 1/sqrt(2)(| up dn>-| dn up>);
 
   SingleSite.QNumbers.push_back(0.0);
   SingleSite.QNumbers.push_back(0.0); // Singlet
@@ -476,10 +476,10 @@ void TwoChQSP_SetSingleSite(CNRGbasisarray &SingleSite){
 
   SingleSite.BlockBegEnd.push_back(6);
   SingleSite.BlockBegEnd.push_back(7);
- 
 
 
-  // 0 1 -1 P=-1: | dn dn> 
+
+  // 0 1 -1 P=-1: | dn dn>
 
   SingleSite.QNumbers.push_back(0.0);
   SingleSite.QNumbers.push_back(1.0); // Triplet
@@ -490,7 +490,7 @@ void TwoChQSP_SetSingleSite(CNRGbasisarray &SingleSite){
   SingleSite.BlockBegEnd.push_back(8);
 
 
-  // 0 1 0 P=-1: 1/sqrt(2)(| up dn>+| dn up>) 
+  // 0 1 0 P=-1: 1/sqrt(2)(| up dn>+| dn up>)
 
   SingleSite.QNumbers.push_back(0.0);
   SingleSite.QNumbers.push_back(1.0); // Triplet
@@ -501,7 +501,7 @@ void TwoChQSP_SetSingleSite(CNRGbasisarray &SingleSite){
   SingleSite.BlockBegEnd.push_back(9);
 
 
-  // 0 1 1 P=-1: | up up> 
+  // 0 1 1 P=-1: | up up>
 
   SingleSite.QNumbers.push_back(0.0);
   SingleSite.QNumbers.push_back(1.0); // Triplet
@@ -521,7 +521,7 @@ void TwoChQSP_SetSingleSite(CNRGbasisarray &SingleSite){
   SingleSite.BlockBegEnd.push_back(11);
   SingleSite.BlockBegEnd.push_back(11);
 
-  // 1 1/2 1/2 P=-1: | up dn   up> 
+  // 1 1/2 1/2 P=-1: | up dn   up>
 
   SingleSite.QNumbers.push_back(1.0);
   SingleSite.QNumbers.push_back(0.5);
@@ -542,7 +542,7 @@ void TwoChQSP_SetSingleSite(CNRGbasisarray &SingleSite){
   SingleSite.BlockBegEnd.push_back(13);
   SingleSite.BlockBegEnd.push_back(13);
 
-  // 1 1/2 -1/2 P=-1: | up dn   dn> 
+  // 1 1/2 -1/2 P=-1: | up dn   dn>
 
   SingleSite.QNumbers.push_back(1.0);
   SingleSite.QNumbers.push_back(0.5);
@@ -569,7 +569,7 @@ void TwoChQSP_SetSingleSite(CNRGbasisarray &SingleSite){
   }
 
   SingleSite.ChildStates.push_back( vector<int>());
-  SingleSite.ChildStates.clear();  
+  SingleSite.ChildStates.clear();
 
   return;
 
@@ -588,7 +588,7 @@ void TwoDotQS_SetInitialSite(CNRGbasisarray* pSingleSite){
   // new
   pSingleSite->totalS=true;
   pSingleSite->Sqnumbers.push_back(1);
-  
+
   // 10 states divided in 6 blocks
 
   // -2 0 0 : | 0 0>
@@ -598,7 +598,7 @@ void TwoDotQS_SetInitialSite(CNRGbasisarray* pSingleSite){
   pSingleSite->BlockBegEnd.push_back(0);
   pSingleSite->BlockBegEnd.push_back(0);
 
-  // -1 1/2 1/2 : | 0 up> and | up 0> 
+  // -1 1/2 1/2 : | 0 up> and | up 0>
   // -1 1/2 -1/2 : | 0 dn> and | dn 0> not included
 
   pSingleSite->QNumbers.push_back(-1.0);
@@ -608,7 +608,7 @@ void TwoDotQS_SetInitialSite(CNRGbasisarray* pSingleSite){
   pSingleSite->BlockBegEnd.push_back(2);
 
 
-  // 0 0 0 : 1/sqrt(2)(| up dn>-| dn up>); | 0 up dn>; | up dn 0>; 
+  // 0 0 0 : 1/sqrt(2)(| up dn>-| dn up>); | 0 up dn>; | up dn 0>;
 
   pSingleSite->QNumbers.push_back(0.0);
   pSingleSite->QNumbers.push_back(0.0); // includes Singlet
@@ -617,7 +617,7 @@ void TwoDotQS_SetInitialSite(CNRGbasisarray* pSingleSite){
   pSingleSite->BlockBegEnd.push_back(5);
 
 
-  // 0 1 1 : | up up> 
+  // 0 1 1 : | up up>
 
   // 0 1 -1 : | dn dn> not included
   // 0 1 0 : 1/sqrt(2)(| up dn>+| dn up>) not included
@@ -628,7 +628,7 @@ void TwoDotQS_SetInitialSite(CNRGbasisarray* pSingleSite){
   pSingleSite->BlockBegEnd.push_back(6);
   pSingleSite->BlockBegEnd.push_back(6);
 
-  // 1 1/2 1/2 : | up  up dn> and | up dn   up> 
+  // 1 1/2 1/2 : | up  up dn> and | up dn   up>
   // 1 1/2 -1/2 : | dn  up dn>; | up dn   dn> not included
 
   pSingleSite->QNumbers.push_back(1.0);
@@ -668,7 +668,7 @@ void TwoChQSz_SetSingleSite(CNRGbasisarray* pSingleSite){
   // new. Needs check.
   pSingleSite->totalS=false;
 
-  
+
   // 16 states divided in 9 blocks
 
   // -2 0 : | 0 0>
@@ -678,7 +678,7 @@ void TwoChQSz_SetSingleSite(CNRGbasisarray* pSingleSite){
   pSingleSite->BlockBegEnd.push_back(0);
   pSingleSite->BlockBegEnd.push_back(0);
 
-  // -1 1/2 : | 0 up> and | up 0> 
+  // -1 1/2 : | 0 up> and | up 0>
 
   pSingleSite->QNumbers.push_back(-1.0);
   pSingleSite->QNumbers.push_back(0.5);
@@ -695,7 +695,7 @@ void TwoChQSz_SetSingleSite(CNRGbasisarray* pSingleSite){
   pSingleSite->BlockBegEnd.push_back(4);
 
 
-  // 0 0 : | up dn>; | 0 up dn>; | up dn 0>; | dn up> 
+  // 0 0 : | up dn>; | 0 up dn>; | up dn 0>; | dn up>
 
   pSingleSite->QNumbers.push_back(0.0);
   pSingleSite->QNumbers.push_back(0.0);
@@ -704,7 +704,7 @@ void TwoChQSz_SetSingleSite(CNRGbasisarray* pSingleSite){
   pSingleSite->BlockBegEnd.push_back(8);
 
 
-  // 0 1 : | up up> 
+  // 0 1 : | up up>
 
   pSingleSite->QNumbers.push_back(0.0);
   pSingleSite->QNumbers.push_back(1.0);
@@ -721,8 +721,8 @@ void TwoChQSz_SetSingleSite(CNRGbasisarray* pSingleSite){
   pSingleSite->BlockBegEnd.push_back(10);
 
 
-  // 1 1/2 : | up  up dn> and | up dn   up> 
-  // 1 -1/2 : | dn  up dn>; | up dn   dn> 
+  // 1 1/2 : | up  up dn> and | up dn   up>
+  // 1 -1/2 : | dn  up dn>; | up dn   dn>
 
   pSingleSite->QNumbers.push_back(1.0);
   pSingleSite->QNumbers.push_back(0.5);

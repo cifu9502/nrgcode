@@ -2644,6 +2644,7 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   // Set initial CNRG array (N=-1)
 
 
+
   double Lambda=Params[0];
   double HalfLambdaFactor=Params[1];
   double U1=Params[2]/(Lambda*HalfLambdaFactor);
@@ -2695,6 +2696,8 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   double Uplus = U1 + U2;
   double edplus = ed2 + ed1;
 
+//cout  << " Lets begin"
+//			<< endl ;
 
 
   cout  << " Lambda= " << Lambda
