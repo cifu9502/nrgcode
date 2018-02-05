@@ -4,7 +4,7 @@ CLIBDIR=$(HOME)/Cprogs/Clibrary/
 ANDLIBDIR=$(NRGANDDIR)lib/
 DATSDIR=$(NRGANDDIR)Dats/
 
-TWOCHDIR=$(HOME)/master/nrgcode/
+TWOCHDIR=$(HOME)/nrgcode/TwoChNRG/
 LAPACKDIR=/usr/src/lapack-3.0-5/lapack-3.0/SRC/
 
 
@@ -23,7 +23,7 @@ OBJS=NRGarrayClass.o NRGmatrixClass.o NRGthermoClass.o NRGchainClass.o \
      OneChQS_SetSingleSite.o \
      TwoChQS_SetSingleSite.o TwoChQS_OpTables.o TwoChQS_OpMatRules.o \
      CalcDN.o CodeHandler_ModelSwitch.o HybFuncDefs.o SpecFuncClass.o \
-     GSL_Integrator.o SpecFunc_CFSmethod.o RotateMatrix.o
+     GSL_Integrator.o SpecFunc_CFSmethod.o RotateMatrix.o 
 
 OBJS_MAIN=Main_SetH0.o Main_OpMatRules.o Main_SetSingleSite.o
 
@@ -32,7 +32,7 @@ CXXFLAGS =  -I$(CLIBDIR) -I$(TWOCHDIR)include/ -I$(TWOCHDIR)src/ \
 ##LDFLAGS =  -lgsl -lgslcblas -llapack -lblas -lg2c -lm
 # Ubuntu 8.10 does NOT have g77 (or g2c)
 LDFLAGS =  -lgsl -lgslcblas -llapack -lblas -lm
-## -loption SHOULD be added AT THE END!!! Stupid Make...
+## -loption SHOULD be added AT THE END!!! Stupid Make... 
 
 
 ##
@@ -61,14 +61,14 @@ VPATH=$(CLIBDIR):$(TWOCHDIR)src/:$(TWOCHDIR)include/:$(TWOCHDIR)src/OneChQS/:$(T
 
 
 NRG_main : NRG_main.cpp $(OBJS) $(OBJS_MAIN)
-	$(CXX)  $^ $(CXXFLAGS) $(LDFLAGS) -o $@
+	$(CXX)  $^ $(CXXFLAGS) $(LDFLAGS) -o $@ 
 ##
 ## Don't know why it doesn't put LDFLAGS after the objects
 ##
 
 
 NRG_main_bkup : NRG_main_bkup.cpp $(OBJS) $(OBJS_MAIN)
-	$(CXX)  $^ $(CXXFLAGS) $(LDFLAGS) -o $@
+	$(CXX)  $^ $(CXXFLAGS) $(LDFLAGS) -o $@ 
 
 clean :
 	-rm *.o *~
