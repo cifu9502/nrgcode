@@ -929,6 +929,7 @@ complex<double> OneChNupPdn_H0DQD_MatEl(vector<double> Params,
 
 	//MatEl+=chi_N[idot-1]*FullMatEl;
 	//if (( (ist==8)||(ist==10) )&&( (jst==8)||(jst==10) ))
+	/*
 	if (dEqual(Nupi,0.0)&&dEqual(Pdni,-1.0)&&dEqual(sigma,-1.0)&&(idot == 1)){
 	  cout	<< " ist= " << ist
 					<< " jst = " << jst
@@ -944,7 +945,7 @@ complex<double> OneChNupPdn_H0DQD_MatEl(vector<double> Params,
 				 << endl
 	       << endl;
 
-}
+}*/
 /*if (dEqual(Nupi,0.0)&&dEqual(Pdni,1.0)){
 	cout	<< " ist= " << ist
 				<< " jst = " << jst

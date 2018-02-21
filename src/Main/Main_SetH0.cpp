@@ -2684,8 +2684,8 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
 
   //double t11 = t1;
   //double t12 = 0;
-	double t11 = 0;
-	double t12 = t1;
+	double t11 = t1;
+	double t12 = 0;
 
   //  double U2 = Utilde;
   //double ed2 = edtilde;
