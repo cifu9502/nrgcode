@@ -1,0 +1,692 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     26811,        682]
+NotebookOptionsPosition[     24714,        626]
+NotebookOutlinePosition[     25048,        641]
+CellTagsIndexPosition[     25005,        638]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"var1", " ", "=", " ", "46"}], " ", ";", " ", 
+  RowBox[{"var2", " ", "=", "0"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"s", "=", 
+   RowBox[{"StringForm", "[", 
+    RowBox[{
+    "\"\</home/cifucito/nrgcode/TwoChNRG/Images/run`1`/rho_`2`_`2`_OmegaRhow.\
+dat\>\"", ",", "var1", ",", "var2"}], "]"}]}], ";", 
+  RowBox[{"tab", " ", "=", " ", 
+   RowBox[{"Import", "[", 
+    RowBox[{
+     RowBox[{"ToString", "[", "s", "]"}], ",", "\"\<Table\>\""}], "]"}]}], 
+  ";", 
+  RowBox[{"ListLinePlot", "[", 
+   RowBox[{
+    RowBox[{"Transpose", "[", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"tab", "[", 
+        RowBox[{"[", 
+         RowBox[{"All", ",", "1"}], "]"}], "]"}], ",", 
+       RowBox[{"tab", "[", 
+        RowBox[{"[", 
+         RowBox[{"All", ",", "3"}], "]"}], "]"}]}], "}"}], "]"}], ",", 
+    RowBox[{"PlotRange", "\[Rule]", "All"}]}], "]"}]}]}], "Input",
+ CellChangeTimes->{{3.7287494188671017`*^9, 3.728749420050686*^9}, {
+   3.728749487187405*^9, 3.728749488372118*^9}, {3.7287495516680727`*^9, 
+   3.728749643234787*^9}, 3.7287496844034967`*^9, {3.728749721795445*^9, 
+   3.7287497618272038`*^9}},ExpressionUUID->"557e9252-34a1-475b-a503-\
+96f8d04af4eb"],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {{}, {}, 
+    {RGBColor[0.368417, 0.506779, 0.709798], PointSize[0.01388888888888889], 
+     AbsoluteThickness[1.6], LineBox[CompressedData["
+1:eJxFlXtMk1cYxqFIBTWVCHVc50AKTIcIGkSw53xB1MG2cBER3MaQDctllFsU
+HTEUAtpqMTqtOLRYXLexgrddWID0HHWIKAJueClUGIoomcgkGqiMsfXbeZf9
+8eXLk5ycy/s+z+/1Ts9LyBDY2NhkWj/+b5NxdJW+xvaSYZvX+u2cKy48Gumn
+iJqks86GPp8DB3GGvDJBt2yMlvq/2BVc34TVCwWVO249oLG5+8vyFvTj+OQ5
+kQrlXSpz27jfwj3D4nftHPSKm9S0q73Y8vI53uWste0SXqFDBrthF9UoNjhm
+CeO6mujqsNIdi+kQ3pzwZ+a5e400P/1CQNrwAPaRt9T2Sc9Qg2Cq7qPZ3/BO
+s+bZxKJqOlt67mRR8kO85sLh6itBVfSD9ldxja1PsEXcsPXQznKqupfduv3u
+czyl5vZkphTTCnXtt9OKGey3dDcdVubSRfOu7V2ldOCOSbsCn51Np+MK38yU
+J85cZXl7SJNuK3W0ETl1unhym4PEi8XD79HIOdpHMZu8uV+6awMsjyNpU8id
+DnHeUs4siWoYGF1Dt/VeCxLt8eViL1b3p6AVdPXMnblZAgkX/fqtLRffWErv
+x2gKTq2UcKaqxpIHwa7UsXOgTbNRwoluuCX9WCOiV4rHZQvjJNzQvaTr7u/b
+UVODduRhooQrlD+IaiuxEI/fC/bVJ0m4ED9iXmYZJ/Uys+uJrRIuQFKmDT0+
+TBSWse9fWfXl+M7zynYTKUxMexyULOH66ro7jEk95KfmjzOjrTpU5PhC+OvP
+5MP5ntHJVi32KMwNXtRMUh/VRKRZ9Xi0uaKg6TwZzTljm2HVBnHARJVIT8Zu
+lhtlVk1vi9dcTv2C5Iw3pGVZtffg2CX9/MPkIJHGZ1v1SaeGq13vVJALyw+Z
+eN1zfVN3eOMekqHL8Mqx6rNFPrX6dfnEbSRwLa8XRAi/6lB9QuZMrY/g9aYx
+u7900ynkpee8QF7rNbVe4fI48t2RNhde31Zl3VB0RJFsge8kv7+96oZmMjqc
+mMOO9/I6Up7oINOtJB6+0+d5nRN+p9gyV0K+DNUf4LUwpqUI1biT8vv9cl77
+aAxvBfY6kZSok3G81tatmAx+254UGI/u5nWo0vBZydNpY96RZhWvS384mHpI
+OGF0SSwrzbXqq2u3aIJUI8YZ+WlZ3v9a+qqAaVgvrYD1sJ907udsPzgPHSfs
+PLgP8tzI7gP3RScG2X3hPUgdxt4D70VFEvZeqAf6ei2rB9QLTUG9oJ7oKdQT
+6o3+hnpDP9B//YB+IQfoF/QTrYJ+Qr/Rp9Bv8APaB34Av6AlfzC/gJ9QVTfz
+E/gNteYyv4EfkWGE+RH8ivwXML+Cn9FrLczP4Hd0GvwOeUBHIA+QF9QGeYE8
+oeuQJ8gb1p1leYM8YrsSlkfIK57pYXmFPOPqeJZnyDsus7/7b96BB7h6iPEA
+eIGXbGC8AJ7gfDfGE+AN9nqT8QZ4hE2nGI+AV9jJn/EKeIZjdYxnwDusGmS8
+Ax7iYz2Mh8BLnH6A8RJ4ikPcGU+Bt1i5l/EWeIxRDOMx8BrXdzBeA8+xQM14
+DrzH30gZ72Ee4HI1mwcwL/A6js0LmCdYu5zNE5g3nE02mzf/AL/J+T0=
+      
+      "]]}}, {}, {}, {{}, {}}, {{}, {}}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{0, 0},
+  DisplayFunction->Identity,
+  Frame->{{False, False}, {False, False}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  ImagePadding->All,
+  Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        (Identity[#]& )[
+         Part[#, 1]], 
+        (Identity[#]& )[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        (Identity[#]& )[
+         Part[#, 1]], 
+        (Identity[#]& )[
+         Part[#, 2]]}& )}},
+  PlotRange->{{-2.200508501945137, 2.200508501945137}, {0, 10.67272495099404}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.02], 
+     Scaled[0.05]}},
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{{3.7287497420991707`*^9, 
+  3.728749762495391*^9}},ExpressionUUID->"9197fb03-60f6-4056-be60-\
+aee73108da95"]
+}, Open  ]],
+
+Cell["\<\
+46-50
+t_2 = 0.02 STATIC
+Gamma_2 = 0
+U = .5
+E = -.25 , -.20 , -.15 , -.10 , -.5 \
+\>", "Text",
+ CellChangeTimes->{3.7287533231787443`*^9, 
+  3.728753357386319*^9},ExpressionUUID->"52d97a48-daaf-41df-9e05-\
+1a0b7722acda"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"s", "=", 
+     RowBox[{"StringForm", "[", 
+      RowBox[{
+      "\"\</home/cifucito/nrgcode/TwoChNRG/Data/run`1`/rho_`2`_`2`_OmegaRhow.\
+dat\>\"", ",", "Ed2", ",", "nDot"}], "]"}]}], ";", 
+    RowBox[{"tab", " ", "=", " ", 
+     RowBox[{"Import", "[", 
+      RowBox[{
+       RowBox[{"ToString", "[", "s", "]"}], ",", "\"\<Table\>\""}], "]"}]}], 
+    ";", 
+    RowBox[{"ListLinePlot", "[", 
+     RowBox[{
+      RowBox[{"Transpose", "[", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"tab", "[", 
+          RowBox[{"[", 
+           RowBox[{"All", ",", "1"}], "]"}], "]"}], ",", 
+         RowBox[{"tab", "[", 
+          RowBox[{"[", 
+           RowBox[{"All", ",", "3"}], "]"}], "]"}]}], "}"}], "]"}], ",", 
+      RowBox[{"PlotRange", "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"-", "2.0"}], ",", "2.0"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"0", ",", "15.0"}], "}"}]}], "}"}]}], ",", 
+      RowBox[{"PlotLabel", "\[Rule]", 
+       RowBox[{"ToString", "[", 
+        RowBox[{"StringForm", "[", 
+         RowBox[{"\"\<Ed2 =`1` Dot`2`\>\"", ",", 
+          RowBox[{
+           RowBox[{"-", "0.25"}], "+", 
+           RowBox[{"0.05", 
+            RowBox[{"(", 
+             RowBox[{"Ed2", "-", "46"}], ")"}]}]}], ",", "nDot"}], "]"}], 
+        "]"}]}]}], "]"}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"Ed2", ",", "46", ",", "50", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"nDot", ",", "0", ",", "4", ",", "1"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.7287494107149887`*^9, 3.728749414009645*^9}, 
+   3.728749491939465*^9, {3.7287495558754253`*^9, 3.728749557171008*^9}, {
+   3.728749598003532*^9, 3.728749599522674*^9}, {3.728749686739146*^9, 
+   3.728749709346463*^9}, {3.7287502236682177`*^9, 3.728750295155846*^9}, {
+   3.728750326901024*^9, 3.728750387700905*^9}, {3.7287505669000273`*^9, 
+   3.7287506174282427`*^9}, {3.7287507483084297`*^9, 3.728750853620057*^9}, {
+   3.728750929060439*^9, 3.728750938148016*^9}, {3.7287511438603487`*^9, 
+   3.72875124245225*^9}, {3.728751482327462*^9, 3.7287514968202753`*^9}, {
+   3.728751541765733*^9, 3.7287515444847383`*^9}, {3.728751632309937*^9, 
+   3.728751634084633*^9}, {3.728751693861396*^9, 3.728751694772241*^9}, {
+   3.7287518413972273`*^9, 3.7287518420042553`*^9}, {3.728752575622583*^9, 
+   3.7287525765804663`*^9}, {3.728752811030817*^9, 3.7287528338293943`*^9}, {
+   3.728753557735807*^9, 
+   3.728753591380073*^9}},ExpressionUUID->"4c69cf60-7949-49ba-b040-\
+e8c037eaa628"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`Ed2$$ = 50, $CellContext`nDot$$ = 4, 
+    Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
+    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`Ed2$$], 46, 50, 1}, {
+      Hold[$CellContext`nDot$$], 0, 4, 1}}, Typeset`size$$ = {
+    854., {275., 279.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = True, $CellContext`Ed2$1475900$$ = 
+    0, $CellContext`nDot$1475901$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`Ed2$$ = 46, $CellContext`nDot$$ = 0}, 
+      "ControllerVariables" :> {
+        Hold[$CellContext`Ed2$$, $CellContext`Ed2$1475900$$, 0], 
+        Hold[$CellContext`nDot$$, $CellContext`nDot$1475901$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, 
+      "Body" :> ($CellContext`s = 
+        StringForm[
+         "/home/cifucito/nrgcode/TwoChNRG/Data/run`1`/rho_`2`_`2`_OmegaRhow.\
+dat", $CellContext`Ed2$$, $CellContext`nDot$$]; $CellContext`tab = Import[
+          ToString[$CellContext`s], "Table"]; ListLinePlot[
+         Transpose[{
+           Part[$CellContext`tab, All, 1], 
+           Part[$CellContext`tab, All, 3]}], 
+         PlotRange -> {{-2., 2.}, {0, 15.}}, PlotLabel -> ToString[
+           StringForm[
+           "Ed2 =`1` Dot`2`", -0.25 + 
+            0.05 ($CellContext`Ed2$$ - 46), $CellContext`nDot$$]]]), 
+      "Specifications" :> {{$CellContext`Ed2$$, 46, 50, 
+         1}, {$CellContext`nDot$$, 0, 4, 1}}, "Options" :> {}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{901., {332., 337.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{{3.728749414856984*^9, 3.7287494237906017`*^9}, 
+   3.728749492413534*^9, 3.728749558162265*^9, 3.7287496005360394`*^9, {
+   3.728749681534157*^9, 3.728749709817401*^9}, {3.728750313848311*^9, 
+   3.728750327788001*^9}, 3.7287503949350367`*^9, 3.728750719976019*^9, {
+   3.7287507823294163`*^9, 3.728750854241579*^9}, 3.728750946847077*^9, 
+   3.728751249106819*^9, 3.7287514976296*^9, 3.728751545251466*^9, 
+   3.728751634685636*^9, 3.72875169583724*^9, 3.728751842706152*^9, 
+   3.7287525804656887`*^9, 3.72875264045173*^9, {3.728752812429397*^9, 
+   3.728752835424082*^9}, {3.728753575377303*^9, 
+   3.728753592331545*^9}},ExpressionUUID->"b5ca8484-4715-4a83-bb68-\
+4f9419617901"]
+}, Open  ]],
+
+Cell["", "Text",ExpressionUUID->"9f3e65e2-60f5-429e-b1d6-b91d0abb2265"],
+
+Cell["\<\
+40-45
+t_2 = 0.02 STATIC
+Gamma_2 = Gamma1
+U = .5
+E = -.25 , -.20 , -.15 , -.10 , -.5 , .0\
+\>", "Text",
+ CellChangeTimes->{
+  3.728753381985952*^9},ExpressionUUID->"16fce68d-896b-43cd-83cf-\
+5759e20f662f"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.728751465388154*^9, 3.728751465388514*^9}, 
+   3.7287519064839*^9},ExpressionUUID->"817d9acf-f957-4d18-b7da-46a4129d37cd"],
+
+Cell["", "Text",
+ CellChangeTimes->{
+  3.728754365221471*^9},ExpressionUUID->"8bdb9b09-5072-4062-a1f3-\
+886e3f8f0617"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"s", "=", 
+     RowBox[{"StringForm", "[", 
+      RowBox[{
+      "\"\</home/cifucito/nrgcode/TwoChNRG/Data/run`1`/rho_`2`_`2`_OmegaRhow_\
+zEQ1.40.dat\>\"", ",", "Ed2", ",", "nDot"}], "]"}]}], ";", 
+    RowBox[{"tab", " ", "=", " ", 
+     RowBox[{"Import", "[", 
+      RowBox[{
+       RowBox[{"ToString", "[", "s", "]"}], ",", "\"\<Table\>\""}], "]"}]}], 
+    ";", 
+    RowBox[{"ListLinePlot", "[", 
+     RowBox[{
+      RowBox[{"Transpose", "[", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"tab", "[", 
+          RowBox[{"[", 
+           RowBox[{"All", ",", "1"}], "]"}], "]"}], ",", 
+         RowBox[{"tab", "[", 
+          RowBox[{"[", 
+           RowBox[{"All", ",", "3"}], "]"}], "]"}]}], "}"}], "]"}], ",", 
+      RowBox[{"PlotRange", "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"-", "2.0"}], ",", "2.0"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"0", ",", "15.0"}], "}"}]}], "}"}]}], ",", 
+      RowBox[{"PlotLabel", "\[Rule]", 
+       RowBox[{"ToString", "[", 
+        RowBox[{"StringForm", "[", 
+         RowBox[{"\"\<Ed2 =`1` Dot`2`\>\"", ",", 
+          RowBox[{
+           RowBox[{"-", "0.25"}], "+", 
+           RowBox[{"0.05", 
+            RowBox[{"(", 
+             RowBox[{"Ed2", "-", "40"}], ")"}]}]}], ",", "nDot"}], "]"}], 
+        "]"}]}]}], "]"}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"Ed2", ",", "40", ",", "45", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"nDot", ",", "0", ",", "4", ",", "1"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.728751896069297*^9, 3.72875189960421*^9}, 
+   3.728751945339036*^9, {3.728752585648015*^9, 3.728752586414431*^9}, {
+   3.728753416613564*^9, 
+   3.72875352826157*^9}},ExpressionUUID->"87cf6e3f-21b1-470c-abd5-\
+fb9d518d0fbb"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`Ed2$$ = 44, $CellContext`nDot$$ = 4, 
+    Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
+    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`Ed2$$], 40, 45, 1}, {
+      Hold[$CellContext`nDot$$], 0, 4, 1}}, Typeset`size$$ = {
+    816., {263., 267.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = True, $CellContext`Ed2$1465631$$ = 
+    0, $CellContext`nDot$1465632$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`Ed2$$ = 40, $CellContext`nDot$$ = 0}, 
+      "ControllerVariables" :> {
+        Hold[$CellContext`Ed2$$, $CellContext`Ed2$1465631$$, 0], 
+        Hold[$CellContext`nDot$$, $CellContext`nDot$1465632$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, 
+      "Body" :> ($CellContext`s = 
+        StringForm[
+         "/home/cifucito/nrgcode/TwoChNRG/Data/run`1`/rho_`2`_`2`_OmegaRhow_\
+zEQ1.40.dat", $CellContext`Ed2$$, $CellContext`nDot$$]; $CellContext`tab = 
+        Import[
+          ToString[$CellContext`s], "Table"]; ListLinePlot[
+         Transpose[{
+           Part[$CellContext`tab, All, 1], 
+           Part[$CellContext`tab, All, 3]}], 
+         PlotRange -> {{-2., 2.}, {0, 15.}}, PlotLabel -> ToString[
+           StringForm[
+           "Ed2 =`1` Dot`2`", -0.25 + 
+            0.05 ($CellContext`Ed2$$ - 40), $CellContext`nDot$$]]]), 
+      "Specifications" :> {{$CellContext`Ed2$$, 40, 45, 
+         1}, {$CellContext`nDot$$, 0, 4, 1}}, "Options" :> {}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{863., {320., 325.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{
+  3.728751947584465*^9, 3.72875258879636*^9, {3.728753493827795*^9, 
+   3.728753530887662*^9}},ExpressionUUID->"7db71e6d-98c0-40a3-8daf-\
+84759f5797fc"]
+}, Open  ]],
+
+Cell["\<\
+30-34
+t_2 = 0 , 0.005 , 0.01 , 0.015 , 0.02
+Gamma_2 = 0
+U = E =NOT 0\
+\>", "Text",
+ CellChangeTimes->{{3.7287543827067623`*^9, 
+  3.7287543930100718`*^9}},ExpressionUUID->"ff16e6c7-0251-4ec1-8118-\
+ef0103ef02f4"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"s", "=", 
+     RowBox[{"StringForm", "[", 
+      RowBox[{
+      "\"\</home/cifucito/nrgcode/TwoChNRG/Data/run`1`/rho_`2`_`2`_OmegaRhow.\
+dat\>\"", ",", "t2", ",", "nDot"}], "]"}]}], ";", 
+    RowBox[{"tab", " ", "=", " ", 
+     RowBox[{"Import", "[", 
+      RowBox[{
+       RowBox[{"ToString", "[", "s", "]"}], ",", "\"\<Table\>\""}], "]"}]}], 
+    ";", 
+    RowBox[{"ListLinePlot", "[", 
+     RowBox[{
+      RowBox[{"Transpose", "[", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"tab", "[", 
+          RowBox[{"[", 
+           RowBox[{"All", ",", "1"}], "]"}], "]"}], ",", 
+         RowBox[{"tab", "[", 
+          RowBox[{"[", 
+           RowBox[{"All", ",", "3"}], "]"}], "]"}]}], "}"}], "]"}], ",", 
+      RowBox[{"PlotRange", "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"-", "2.0"}], ",", "2.0"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"0", ",", "15.0"}], "}"}]}], "}"}]}], ",", 
+      RowBox[{"PlotLabel", "\[Rule]", 
+       RowBox[{"ToString", "[", 
+        RowBox[{"StringForm", "[", 
+         RowBox[{"\"\<t2 =`1` Dot`2`\>\"", ",", 
+          RowBox[{"0.05", 
+           RowBox[{"(", 
+            RowBox[{"t2", "-", "30"}], ")"}]}], ",", "nDot"}], "]"}], 
+        "]"}]}]}], "]"}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"t2", ",", "30", ",", "34", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"nDot", ",", "0", ",", "4", ",", "1"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.7287540542927856`*^9, 3.728754066613347*^9}, {
+  3.728754128231772*^9, 3.728754132262981*^9}, {3.728754213797377*^9, 
+  3.728754259926846*^9}},ExpressionUUID->"c8a726ad-d56c-4791-85c6-\
+875df28ed127"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`nDot$$ = 3, $CellContext`t2$$ = 34, 
+    Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
+    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`t2$$], 30, 34, 1}, {
+      Hold[$CellContext`nDot$$], 0, 4, 1}}, Typeset`size$$ = {
+    360., {122., 127.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = True, $CellContext`t2$1935490$$ = 
+    0, $CellContext`nDot$1935491$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`nDot$$ = 0, $CellContext`t2$$ = 30}, 
+      "ControllerVariables" :> {
+        Hold[$CellContext`t2$$, $CellContext`t2$1935490$$, 0], 
+        Hold[$CellContext`nDot$$, $CellContext`nDot$1935491$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, 
+      "Body" :> ($CellContext`s = 
+        StringForm[
+         "/home/cifucito/nrgcode/TwoChNRG/Data/run`1`/rho_`2`_`2`_OmegaRhow.\
+dat", $CellContext`t2$$, $CellContext`nDot$$]; $CellContext`tab = Import[
+          ToString[$CellContext`s], "Table"]; ListLinePlot[
+         Transpose[{
+           Part[$CellContext`tab, All, 1], 
+           Part[$CellContext`tab, All, 3]}], 
+         PlotRange -> {{-2., 2.}, {0, 15.}}, PlotLabel -> ToString[
+           StringForm[
+           "t2 =`1` Dot`2`", 
+            0.05 ($CellContext`t2$$ - 30), $CellContext`nDot$$]]]), 
+      "Specifications" :> {{$CellContext`t2$$, 30, 34, 
+         1}, {$CellContext`nDot$$, 0, 4, 1}}, "Options" :> {}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{407., {180., 185.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{
+  3.728754067346052*^9, 3.728754133157136*^9, {3.728754248117453*^9, 
+   3.728754260959651*^9}},ExpressionUUID->"757f47d0-1603-449f-bb8f-\
+81baa82763a4"]
+}, Open  ]],
+
+Cell["\<\
+35-39
+t_2 = 0 , 0.005 , 0.01 , 0.015 , 0.02
+Gamma_2 =Gamma1
+U = E =NOT 0\
+\>", "Text",
+ CellChangeTimes->{
+  3.728754452664961*^9},ExpressionUUID->"5af7bbc2-6223-4ff8-8373-\
+45b1950fccea"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"s", "=", 
+     RowBox[{"StringForm", "[", 
+      RowBox[{
+      "\"\</home/cifucito/nrgcode/TwoChNRG/Data/run`1`/rho_`2`_`2`_OmegaRhow.\
+dat\>\"", ",", "t2", ",", "nDot"}], "]"}]}], ";", 
+    RowBox[{"tab", " ", "=", " ", 
+     RowBox[{"Import", "[", 
+      RowBox[{
+       RowBox[{"ToString", "[", "s", "]"}], ",", "\"\<Table\>\""}], "]"}]}], 
+    ";", 
+    RowBox[{"ListLinePlot", "[", 
+     RowBox[{
+      RowBox[{"Transpose", "[", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"tab", "[", 
+          RowBox[{"[", 
+           RowBox[{"All", ",", "1"}], "]"}], "]"}], ",", 
+         RowBox[{"tab", "[", 
+          RowBox[{"[", 
+           RowBox[{"All", ",", "3"}], "]"}], "]"}]}], "}"}], "]"}], ",", 
+      RowBox[{"PlotRange", "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"-", "2.0"}], ",", "2.0"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"0", ",", "15.0"}], "}"}]}], "}"}]}], ",", 
+      RowBox[{"PlotLabel", "\[Rule]", 
+       RowBox[{"ToString", "[", 
+        RowBox[{"StringForm", "[", 
+         RowBox[{"\"\<t2 =`1` Dot`2`\>\"", ",", 
+          RowBox[{"0.05", 
+           RowBox[{"(", 
+            RowBox[{"t2", "-", "35"}], ")"}]}], ",", "nDot"}], "]"}], 
+        "]"}]}]}], "]"}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"t2", ",", "35", ",", "39", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"nDot", ",", "0", ",", "4", ",", "1"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.72875441534969*^9, 3.728754423237411*^9}, {
+  3.728754512363303*^9, 3.728754513617791*^9}, {3.728754567958675*^9, 
+  3.728754569857703*^9}},ExpressionUUID->"0c48ba44-4ada-416d-9c63-\
+c798bb4cc2d1"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`nDot$$ = 3, $CellContext`t2$$ = 35, 
+    Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
+    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`t2$$], 35, 39, 1}, {
+      Hold[$CellContext`nDot$$], 0, 4, 1}}, Typeset`size$$ = {
+    360., {122., 127.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = True, $CellContext`t2$2325344$$ = 
+    0, $CellContext`nDot$2325345$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`nDot$$ = 0, $CellContext`t2$$ = 35}, 
+      "ControllerVariables" :> {
+        Hold[$CellContext`t2$$, $CellContext`t2$2325344$$, 0], 
+        Hold[$CellContext`nDot$$, $CellContext`nDot$2325345$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, 
+      "Body" :> ($CellContext`s = 
+        StringForm[
+         "/home/cifucito/nrgcode/TwoChNRG/Data/run`1`/rho_`2`_`2`_OmegaRhow.\
+dat", $CellContext`t2$$, $CellContext`nDot$$]; $CellContext`tab = Import[
+          ToString[$CellContext`s], "Table"]; ListLinePlot[
+         Transpose[{
+           Part[$CellContext`tab, All, 1], 
+           Part[$CellContext`tab, All, 3]}], 
+         PlotRange -> {{-2., 2.}, {0, 15.}}, PlotLabel -> ToString[
+           StringForm[
+           "t2 =`1` Dot`2`", 
+            0.05 ($CellContext`t2$$ - 35), $CellContext`nDot$$]]]), 
+      "Specifications" :> {{$CellContext`t2$$, 35, 39, 
+         1}, {$CellContext`nDot$$, 0, 4, 1}}, "Options" :> {}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{407., {180., 185.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{3.728754430144101*^9, 3.728754514468253*^9, 
+  3.7287545711094933`*^9},ExpressionUUID->"065aac72-3257-4ca9-be20-\
+b54b32c8b867"]
+}, Open  ]]
+},
+WindowSize->{1301, 716},
+WindowMargins->{{0, Automatic}, {0, Automatic}},
+FrontEndVersion->"11.1 for Linux x86 (64-bit) (April 18, 2017)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1218, 31, 103, "Input", "ExpressionUUID" -> \
+"557e9252-34a1-475b-a503-96f8d04af4eb"],
+Cell[1801, 55, 2960, 64, 250, "Output", "ExpressionUUID" -> \
+"9197fb03-60f6-4056-be60-aee73108da95"]
+}, Open  ]],
+Cell[4776, 122, 229, 9, 121, "Text", "ExpressionUUID" -> \
+"52d97a48-daaf-41df-9e05-1a0b7722acda"],
+Cell[CellGroupData[{
+Cell[5030, 135, 2619, 61, 103, "Input", "ExpressionUUID" -> \
+"4c69cf60-7949-49ba-b040-e8c037eaa628"],
+Cell[7652, 198, 3035, 59, 686, "Output", "ExpressionUUID" -> \
+"b5ca8484-4715-4a83-bb68-4f9419617901"]
+}, Open  ]],
+Cell[10702, 260, 71, 0, 33, "Text", "ExpressionUUID" -> \
+"7d07c0d3-38ca-4f92-9e14-89c0e95732a2"],
+Cell[10776, 262, 214, 9, 121, "Text", "ExpressionUUID" -> \
+"a472c822-2ba0-4da3-8619-781e31a84f44"],
+Cell[10993, 273, 171, 2, 32, "Input", "ExpressionUUID" -> \
+"b973cc23-6568-4462-9550-66eccbd4ff0c"],
+Cell[11167, 277, 118, 3, 33, "Text", "ExpressionUUID" -> \
+"a6771e59-b9dd-4e0f-bb3e-d9e198daf9a2"],
+Cell[CellGroupData[{
+Cell[11310, 284, 1870, 51, 103, "Input", "ExpressionUUID" -> \
+"87cf6e3f-21b1-470c-abd5-fb9d518d0fbb"],
+Cell[13183, 337, 2522, 53, 662, "Output", "ExpressionUUID" -> \
+"7db71e6d-98c0-40a3-8daf-84759f5797fc"]
+}, Open  ]],
+Cell[15720, 393, 222, 8, 99, "Text", "ExpressionUUID" -> \
+"eece3002-4b7f-4578-a96f-2e2ae727b0ea"],
+Cell[CellGroupData[{
+Cell[15967, 405, 1770, 48, 103, "Input", "ExpressionUUID" -> \
+"c8a726ad-d56c-4791-85c6-875df28ed127"],
+Cell[17740, 455, 2488, 52, 382, "Output", "ExpressionUUID" -> \
+"757f47d0-1603-449f-bb8f-81baa82763a4"]
+}, Open  ]],
+Cell[20243, 510, 198, 8, 99, "Text", "ExpressionUUID" -> \
+"297c874e-6dcb-472c-bf63-e57154549f84"],
+Cell[CellGroupData[{
+Cell[20466, 522, 1767, 48, 103, "Input", "ExpressionUUID" -> \
+"0c48ba44-4ada-416d-9c63-c798bb4cc2d1"],
+Cell[22236, 572, 2462, 51, 382, "Output", "ExpressionUUID" -> \
+"065aac72-3257-4ca9-be20-b54b32c8b867"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

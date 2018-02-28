@@ -25,7 +25,7 @@ for ii in `seq $ni $nf`; do
   #  echo "run$ii exists"
   #else
     echo "Creating new Images/run$ii in $TWOCHDIR/Runs"
-    mkdir $TWOCHDIR/Images/run$ii
+    mkdir $TWOCHDIR/Data/run$ii
 ##    ln -sf $TWOCHDIR/src/TwoChQS/TwoChQS ./run$ii/TwoChQS
 ##    ln -sf $TWOCHDIR/src/OneChQS/OneChQS ./run$ii/OneChQS
     #ln -sf $TWOCHDIR/src/Main/NRG_main ./run$ii/NRG_main
@@ -37,7 +37,7 @@ for ii in `seq $ni $nf`; do
 ##    cp ./run3/nrg_input_TwoCh.dat ./run$ii
 ##    cp ./run3/Input_Phonon.dat  ./run$ii
 ##    cp ./run1/nrg_input_OneChQS.dat ./run$ii
-    cp ./run$ii/*.dat .$TWOCHDIR/Images/run$ii/run$ii
+    cp ./run$ii/*.dat $TWOCHDIR/Data/run$ii
     #cp ./run3/lanc.in ./run$ii
 #    ln -sf $TWOCHDIR/src/GetEnLevels.sh  ./run$ii/GetEnLevels
     #ln -sf $NRGANDDIR/Dats/CalcTK/CalcTK ./run$ii/CalcTK
