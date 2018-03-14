@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     26811,        682]
-NotebookOptionsPosition[     24714,        626]
-NotebookOutlinePosition[     25048,        641]
-CellTagsIndexPosition[     25005,        638]
+NotebookDataLength[     26900,        684]
+NotebookOptionsPosition[     24803,        628]
+NotebookOutlinePosition[     25137,        643]
+CellTagsIndexPosition[     25094,        640]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -205,7 +205,7 @@ Cell[BoxData[
     1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{
       Hold[$CellContext`Ed2$$], 46, 50, 1}, {
       Hold[$CellContext`nDot$$], 0, 4, 1}}, Typeset`size$$ = {
-    854., {275., 279.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    360., {122., 127.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
     Typeset`skipInitDone$$ = True, $CellContext`Ed2$1475900$$ = 
     0, $CellContext`nDot$1475901$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
@@ -234,7 +234,7 @@ dat", $CellContext`Ed2$$, $CellContext`nDot$$]; $CellContext`tab = Import[
       "Specifications" :> {{$CellContext`Ed2$$, 46, 50, 
          1}, {$CellContext`nDot$$, 0, 4, 1}}, "Options" :> {}, 
       "DefaultOptions" :> {}],
-     ImageSizeCache->{901., {332., 337.}},
+     ImageSizeCache->{407., {180., 185.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -344,7 +344,7 @@ Cell[BoxData[
     1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{
       Hold[$CellContext`Ed2$$], 40, 45, 1}, {
       Hold[$CellContext`nDot$$], 0, 4, 1}}, Typeset`size$$ = {
-    816., {263., 267.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    360., {122., 127.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
     Typeset`skipInitDone$$ = True, $CellContext`Ed2$1465631$$ = 
     0, $CellContext`nDot$1465632$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
@@ -374,7 +374,7 @@ zEQ1.40.dat", $CellContext`Ed2$$, $CellContext`nDot$$]; $CellContext`tab =
       "Specifications" :> {{$CellContext`Ed2$$, 40, 45, 
          1}, {$CellContext`nDot$$, 0, 4, 1}}, "Options" :> {}, 
       "DefaultOptions" :> {}],
-     ImageSizeCache->{863., {320., 325.}},
+     ImageSizeCache->{407., {180., 185.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -435,7 +435,7 @@ dat\>\"", ",", "t2", ",", "nDot"}], "]"}]}], ";",
           RowBox[{
            RowBox[{"-", "2.0"}], ",", "2.0"}], "}"}], ",", 
          RowBox[{"{", 
-          RowBox[{"0", ",", "15.0"}], "}"}]}], "}"}]}], ",", 
+          RowBox[{"0", ",", "1.0"}], "}"}]}], "}"}]}], ",", 
       RowBox[{"PlotLabel", "\[Rule]", 
        RowBox[{"ToString", "[", 
         RowBox[{"StringForm", "[", 
@@ -450,27 +450,28 @@ dat\>\"", ",", "t2", ",", "nDot"}], "]"}]}], ";",
     RowBox[{"nDot", ",", "0", ",", "4", ",", "1"}], "}"}]}], "]"}]], "Input",
  CellChangeTimes->{{3.7287540542927856`*^9, 3.728754066613347*^9}, {
   3.728754128231772*^9, 3.728754132262981*^9}, {3.728754213797377*^9, 
-  3.728754259926846*^9}},ExpressionUUID->"c8a726ad-d56c-4791-85c6-\
+  3.728754259926846*^9}, {3.729887483710898*^9, 
+  3.729887504043088*^9}},ExpressionUUID->"c8a726ad-d56c-4791-85c6-\
 875df28ed127"],
 
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{$CellContext`nDot$$ = 3, $CellContext`t2$$ = 34, 
+   DynamicModuleBox[{$CellContext`nDot$$ = 2, $CellContext`t2$$ = 34, 
     Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
     Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
     1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{
       Hold[$CellContext`t2$$], 30, 34, 1}, {
       Hold[$CellContext`nDot$$], 0, 4, 1}}, Typeset`size$$ = {
-    360., {122., 127.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
-    Typeset`skipInitDone$$ = True, $CellContext`t2$1935490$$ = 
-    0, $CellContext`nDot$1935491$$ = 0}, 
+    360., {126., 129.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = True, $CellContext`t2$84559$$ = 
+    0, $CellContext`nDot$84560$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`nDot$$ = 0, $CellContext`t2$$ = 30}, 
       "ControllerVariables" :> {
-        Hold[$CellContext`t2$$, $CellContext`t2$1935490$$, 0], 
-        Hold[$CellContext`nDot$$, $CellContext`nDot$1935491$$, 0]}, 
+        Hold[$CellContext`t2$$, $CellContext`t2$84559$$, 0], 
+        Hold[$CellContext`nDot$$, $CellContext`nDot$84560$$, 0]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -484,14 +485,14 @@ dat", $CellContext`t2$$, $CellContext`nDot$$]; $CellContext`tab = Import[
          Transpose[{
            Part[$CellContext`tab, All, 1], 
            Part[$CellContext`tab, All, 3]}], 
-         PlotRange -> {{-2., 2.}, {0, 15.}}, PlotLabel -> ToString[
+         PlotRange -> {{-2., 2.}, {0, 1.}}, PlotLabel -> ToString[
            StringForm[
            "t2 =`1` Dot`2`", 
             0.05 ($CellContext`t2$$ - 30), $CellContext`nDot$$]]]), 
       "Specifications" :> {{$CellContext`t2$$, 30, 34, 
          1}, {$CellContext`nDot$$, 0, 4, 1}}, "Options" :> {}, 
       "DefaultOptions" :> {}],
-     ImageSizeCache->{407., {180., 185.}},
+     ImageSizeCache->{407., {183., 188.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -504,8 +505,9 @@ dat", $CellContext`t2$$, $CellContext`nDot$$]; $CellContext`tab = Import[
   Manipulate`InterpretManipulate[1]]], "Output",
  CellChangeTimes->{
   3.728754067346052*^9, 3.728754133157136*^9, {3.728754248117453*^9, 
-   3.728754260959651*^9}},ExpressionUUID->"757f47d0-1603-449f-bb8f-\
-81baa82763a4"]
+   3.728754260959651*^9}, {3.729887486307468*^9, 
+   3.729887504937932*^9}},ExpressionUUID->"3d92909e-2055-4217-bce7-\
+2b34ed9f8265"]
 }, Open  ]],
 
 Cell["\<\
@@ -651,42 +653,40 @@ Cell[4776, 122, 229, 9, 121, "Text", "ExpressionUUID" -> \
 Cell[CellGroupData[{
 Cell[5030, 135, 2619, 61, 103, "Input", "ExpressionUUID" -> \
 "4c69cf60-7949-49ba-b040-e8c037eaa628"],
-Cell[7652, 198, 3035, 59, 686, "Output", "ExpressionUUID" -> \
+Cell[7652, 198, 3035, 59, 382, "Output", "ExpressionUUID" -> \
 "b5ca8484-4715-4a83-bb68-4f9419617901"]
 }, Open  ]],
 Cell[10702, 260, 71, 0, 33, "Text", "ExpressionUUID" -> \
-"7d07c0d3-38ca-4f92-9e14-89c0e95732a2"],
+"9f3e65e2-60f5-429e-b1d6-b91d0abb2265"],
 Cell[10776, 262, 214, 9, 121, "Text", "ExpressionUUID" -> \
-"a472c822-2ba0-4da3-8619-781e31a84f44"],
+"16fce68d-896b-43cd-83cf-5759e20f662f"],
 Cell[10993, 273, 171, 2, 32, "Input", "ExpressionUUID" -> \
-"b973cc23-6568-4462-9550-66eccbd4ff0c"],
+"817d9acf-f957-4d18-b7da-46a4129d37cd"],
 Cell[11167, 277, 118, 3, 33, "Text", "ExpressionUUID" -> \
-"a6771e59-b9dd-4e0f-bb3e-d9e198daf9a2"],
+"8bdb9b09-5072-4062-a1f3-886e3f8f0617"],
 Cell[CellGroupData[{
 Cell[11310, 284, 1870, 51, 103, "Input", "ExpressionUUID" -> \
 "87cf6e3f-21b1-470c-abd5-fb9d518d0fbb"],
-Cell[13183, 337, 2522, 53, 662, "Output", "ExpressionUUID" -> \
+Cell[13183, 337, 2522, 53, 382, "Output", "ExpressionUUID" -> \
 "7db71e6d-98c0-40a3-8daf-84759f5797fc"]
 }, Open  ]],
 Cell[15720, 393, 222, 8, 99, "Text", "ExpressionUUID" -> \
-"eece3002-4b7f-4578-a96f-2e2ae727b0ea"],
+"ff16e6c7-0251-4ec1-8118-ef0103ef02f4"],
 Cell[CellGroupData[{
-Cell[15967, 405, 1770, 48, 103, "Input", "ExpressionUUID" -> \
+Cell[15967, 405, 1818, 49, 103, "Input", "ExpressionUUID" -> \
 "c8a726ad-d56c-4791-85c6-875df28ed127"],
-Cell[17740, 455, 2488, 52, 382, "Output", "ExpressionUUID" -> \
-"757f47d0-1603-449f-bb8f-81baa82763a4"]
+Cell[17788, 456, 2529, 53, 388, "Output", "ExpressionUUID" -> \
+"3d92909e-2055-4217-bce7-2b34ed9f8265"]
 }, Open  ]],
-Cell[20243, 510, 198, 8, 99, "Text", "ExpressionUUID" -> \
-"297c874e-6dcb-472c-bf63-e57154549f84"],
+Cell[20332, 512, 198, 8, 99, "Text", "ExpressionUUID" -> \
+"5af7bbc2-6223-4ff8-8373-45b1950fccea"],
 Cell[CellGroupData[{
-Cell[20466, 522, 1767, 48, 103, "Input", "ExpressionUUID" -> \
+Cell[20555, 524, 1767, 48, 103, "Input", "ExpressionUUID" -> \
 "0c48ba44-4ada-416d-9c63-c798bb4cc2d1"],
-Cell[22236, 572, 2462, 51, 382, "Output", "ExpressionUUID" -> \
+Cell[22325, 574, 2462, 51, 382, "Output", "ExpressionUUID" -> \
 "065aac72-3257-4ca9-be20-b54b32c8b867"]
 }, Open  ]]
 }
 ]
 *)
-
-(* End of internal cache information *)
 
