@@ -1649,7 +1649,7 @@ void CNRGCodeHandler::ModelSwitch(  vector<int> &CommonQNs,
 	  strcat(ThermoArray[0].ChainArqName,zstring);
 	  strcat(ThermoArray[0].ChainArqName,".dat");
 	  ThermoArray[0].Calc=CalcEntropy;
-	  ThermoArray[0].dImpValue=3.0*log(2.0); // log(8)
+	  ThermoArray[0].dImpValue=5.0*log(2.0); // log(8)
 	  ThermoArray[0].CalcChain=false;
 	  NumThermoMats=1;
 	  SaveData=false;

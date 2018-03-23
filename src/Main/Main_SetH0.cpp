@@ -2708,8 +2708,8 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
 	<< " ed1~= " << ed1
 	<< " ed2~= " << ed2
 	<< " hz~= " << hz << endl
-	<< " t1~= " << t1
-	<< " t2~= " << t2
+	<< " t11~= " << t1
+	<< " t21~= " << t2
 	<< " phimag= " << phi_mag
 	<< " em~= " << em
 	<< " t12~= " << t12
