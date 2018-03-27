@@ -345,8 +345,8 @@ int main (int argc, char* argv[]){
   // Given AcutN, rhoN and the Operators, calculate the spectral density
 
   // Calculate rho_0_0 and rho_Costi. Good for debugging
-//   DM_NRG_CalcSpecFuncs(&ThisCode,AcutN,RhoN,OpArrayN,0,0);
-//   DM_NRG_CalcSpecFuncs(&ThisCode,AcutN,RhoN,OpArrayN,1,1);
+   DM_NRG_CalcSpecFuncs(&ThisCode,AcutN,RhoN,OpArrayN,0,0);
+  // DM_NRG_CalcSpecFuncs(&ThisCode,AcutN,RhoN,OpArrayN,1,1);
 //   DM_NRG_CalcSpecFuncs(&ThisCode,AcutN,RhoN,OpArrayN,2,2);
 
 
