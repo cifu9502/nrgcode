@@ -1,0 +1,246 @@
+ Inside Mtemp = 1001 betabar = 0.727
+ Mtemp = 1001 betabar = 0.727 twindow = 2 dBroad = 0.693147 dBroadTemp = 0.8
+ NomegasEachShell = 1 (if =0 then use standard interpolation) 
+ Temp = 1.0449e-63 DMtemp = 0.0012207
+Lambda    = 4
+Nsites0   = 1
+Nsitesmax = 11
+NFermiOps = 5
+Ext arq   = test
+Symmetry  = 6
+ DM-NRG: Only 1chQSz and 1chQ symmetries supported at this point. Testing QS symmetry now...
+Oliveira z = 1.2
+ SetSingleSite begin... 
+ Got OneChNupPdn 
+ .. SetSingleSite done!
+ Reading bin Files for NshellMax = 10
+ NshellMax Files read 
+ DM-NRG: Calculating Rho Nmax ...
+ Got here 
+ TempBar = 8.55986e-61 betabar = 1e+10 ZN = 3.92287 at Nmax. Matrix is complex? 1 Zero Temperature? 1
+ DMNRG_SetRhoNmax: non-zero element  ibl= 4 ist= 204 betabar= 1e+10 Ei= 0 auxExp= 1
+ DMNRG_SetRhoNmax: non-zero element  ibl= 5 ist= 356 betabar= 1e+10 Ei= 2.26263e-12 auxExp= 0.977628
+ DMNRG_SetRhoNmax: non-zero element  ibl= 6 ist= 508 betabar= 1e+10 Ei= 2.69273e-12 auxExp= 0.973432
+ DMNRG_SetRhoNmax: non-zero element  ibl= 7 ist= 660 betabar= 1e+10 Ei= 2.85927e-12 auxExp= 0.971812
+ ... Rho Nmax done.
+ Rho Nshell = 10
+DM-NRG: working on Nshell = 9
+ DM-NRG: Setting child states... 
+ ...Set child states done.
+ DM-NRG: Calculating Rho N ...
+ Rotating Rho N... 
+ ... done in 5.97695 secs. 
+ ... Rho N done.
+ Rho Nshell = 9 completed in 6.08584 secs 
+DM-NRG: working on Nshell = 8
+ DM-NRG: Setting child states... 
+ ...Set child states done.
+ DM-NRG: Calculating Rho N ...
+ Rotating Rho N... 
+ ... done in 5.68046 secs. 
+ ... Rho N done.
+ Rho Nshell = 8 completed in 5.76965 secs 
+DM-NRG: working on Nshell = 7
+ DM-NRG: Setting child states... 
+ ...Set child states done.
+ DM-NRG: Calculating Rho N ...
+ Rotating Rho N... 
+ ... done in 6.35555 secs. 
+ ... Rho N done.
+ Rho Nshell = 7 completed in 6.46132 secs 
+DM-NRG: working on Nshell = 6
+ DM-NRG: Setting child states... 
+ ...Set child states done.
+ DM-NRG: Calculating Rho N ...
+ Rotating Rho N... 
+ ... done in 6.36026 secs. 
+ ... Rho N done.
+ Rho Nshell = 6 completed in 6.46936 secs 
+DM-NRG: working on Nshell = 5
+ DM-NRG: Setting child states... 
+ ...Set child states done.
+ DM-NRG: Calculating Rho N ...
+ Rotating Rho N... 
+ ... done in 6.37745 secs. 
+ ... Rho N done.
+ Rho Nshell = 5 completed in 6.48739 secs 
+DM-NRG: working on Nshell = 4
+ DM-NRG: Setting child states... 
+ ...Set child states done.
+ DM-NRG: Calculating Rho N ...
+ Rotating Rho N... 
+ ... done in 6.59154 secs. 
+ ... Rho N done.
+ Rho Nshell = 4 completed in 6.70184 secs 
+DM-NRG: working on Nshell = 3
+ DM-NRG: Setting child states... 
+ ...Set child states done.
+ DM-NRG: Calculating Rho N ...
+ Rotating Rho N... 
+ ... done in 7.04907 secs. 
+ ... Rho N done.
+ Rho Nshell = 3 completed in 7.16704 secs 
+DM-NRG: working on Nshell = 2
+ DM-NRG: Setting child states... 
+ ...Set child states done.
+ DM-NRG: Calculating Rho N ...
+ Rotating Rho N... 
+ ... done in 7.79986 secs. 
+ ... Rho N done.
+ Rho Nshell = 2 completed in 7.91753 secs 
+DM-NRG: working on Nshell = 1
+ DM-NRG: Setting child states... 
+ ...Set child states done.
+ DM-NRG: Calculating Rho N ...
+ Rotating Rho N... 
+ ... done in 2.59503 secs. 
+ ... Rho N done.
+ Rho Nshell = 1 completed in 2.62135 secs 
+ Spectral functions (Working on this)... 
+CalcSpecCosti_T: Implementing it 
+CalcSpecCosti_T: Zero Temp 
+ Nomegas = 5 Size of RhowCosti = 5
+RhoCosti0_0(omega= 1.76777 )= 0.0148068
+RhoCosti0_0(omega= -1.76777 )= 0.0148062
+RhoCosti0_0(omega= 0.441942 )= 0.648365
+RhoCosti0_0(omega= -0.441942 )= 0.648161
+RhoCosti0_0(omega= 0.110485 )= 0.369615
+RhoCosti0_0(omega= -0.110485 )= 0.369331
+RhoCosti0_0(omega= 0.0276214 )= 0.427035
+RhoCosti0_0(omega= -0.0276214 )= 0.426115
+RhoCosti0_0(omega= 0.00690534 )= 0.562592
+RhoCosti0_0(omega= -0.00690534 )= 0.55819
+ SaveOmegaRhow Error: Omega_Rhow not set.
+ Calculating Spectral function rho_0_0... 
+CalcSpec_ManyOmegas : Negative w 
+ N = 1 DN = 0.473661 WN = 2.67943
+ N = 2 DN = 0.236831 WN = 1.33972
+ N = 3 DN = 0.118415 WN = 0.669858
+ N = 4 DN = 0.0592077 WN = 0.334929
+ N = 5 DN = 0.0296038 WN = 0.167465
+ N = 6 DN = 0.0148019 WN = 0.0837323
+ N = 7 DN = 0.00740096 WN = 0.0418662
+ N = 8 DN = 0.00370048 WN = 0.0209331
+ N = 9 DN = 0.00185024 WN = 0.0104665
+ N = 10 DN = 0.00092512 WN = 0.00523327
+CalcSpec_ManyOmegas : Positive w 
+ N = 10 DN = 0.00092512 WN = 0.00523327
+ N = 9 DN = 0.00185024 WN = 0.0104665
+ N = 8 DN = 0.00370048 WN = 0.0209331
+ N = 7 DN = 0.00740096 WN = 0.0418662
+ N = 6 DN = 0.0148019 WN = 0.0837323
+ N = 5 DN = 0.0296038 WN = 0.167465
+ N = 4 DN = 0.0592077 WN = 0.334929
+ N = 3 DN = 0.118415 WN = 0.669858
+ N = 2 DN = 0.236831 WN = 1.33972
+ N = 1 DN = 0.473661 WN = 2.67943
+ ... done.
+ GSL_Integrator: Reducing error tolerance. 
+ GSL_Integrator: Reducing error tolerance. 
+NormInteg= 0.959389
+ Calculating Spectral function rho_1_1... 
+CalcSpec_ManyOmegas : Negative w 
+ N = 1 DN = 0.473661 WN = 2.67943
+ N = 2 DN = 0.236831 WN = 1.33972
+ N = 3 DN = 0.118415 WN = 0.669858
+ N = 4 DN = 0.0592077 WN = 0.334929
+ N = 5 DN = 0.0296038 WN = 0.167465
+ N = 6 DN = 0.0148019 WN = 0.0837323
+ N = 7 DN = 0.00740096 WN = 0.0418662
+ N = 8 DN = 0.00370048 WN = 0.0209331
+ N = 9 DN = 0.00185024 WN = 0.0104665
+ N = 10 DN = 0.00092512 WN = 0.00523327
+CalcSpec_ManyOmegas : Positive w 
+ N = 10 DN = 0.00092512 WN = 0.00523327
+ N = 9 DN = 0.00185024 WN = 0.0104665
+ N = 8 DN = 0.00370048 WN = 0.0209331
+ N = 7 DN = 0.00740096 WN = 0.0418662
+ N = 6 DN = 0.0148019 WN = 0.0837323
+ N = 5 DN = 0.0296038 WN = 0.167465
+ N = 4 DN = 0.0592077 WN = 0.334929
+ N = 3 DN = 0.118415 WN = 0.669858
+ N = 2 DN = 0.236831 WN = 1.33972
+ N = 1 DN = 0.473661 WN = 2.67943
+ ... done.
+ GSL_Integrator: Reducing error tolerance. 
+ GSL_Integrator: Reducing error tolerance. 
+NormInteg= 0.959389
+ Calculating Spectral function rho_2_2... 
+CalcSpec_ManyOmegas : Negative w 
+ N = 1 DN = 0.473661 WN = 2.67943
+ N = 2 DN = 0.236831 WN = 1.33972
+ N = 3 DN = 0.118415 WN = 0.669858
+ N = 4 DN = 0.0592077 WN = 0.334929
+ N = 5 DN = 0.0296038 WN = 0.167465
+ N = 6 DN = 0.0148019 WN = 0.0837323
+ N = 7 DN = 0.00740096 WN = 0.0418662
+ N = 8 DN = 0.00370048 WN = 0.0209331
+ N = 9 DN = 0.00185024 WN = 0.0104665
+ N = 10 DN = 0.00092512 WN = 0.00523327
+CalcSpec_ManyOmegas : Positive w 
+ N = 10 DN = 0.00092512 WN = 0.00523327
+ N = 9 DN = 0.00185024 WN = 0.0104665
+ N = 8 DN = 0.00370048 WN = 0.0209331
+ N = 7 DN = 0.00740096 WN = 0.0418662
+ N = 6 DN = 0.0148019 WN = 0.0837323
+ N = 5 DN = 0.0296038 WN = 0.167465
+ N = 4 DN = 0.0592077 WN = 0.334929
+ N = 3 DN = 0.118415 WN = 0.669858
+ N = 2 DN = 0.236831 WN = 1.33972
+ N = 1 DN = 0.473661 WN = 2.67943
+ ... done.
+ GSL_Integrator: Reducing error tolerance. 
+ GSL_Integrator: Reducing error tolerance. 
+NormInteg= 0.959389
+ Calculating Spectral function rho_3_3... 
+CalcSpec_ManyOmegas : Negative w 
+ N = 1 DN = 0.473661 WN = 2.67943
+ N = 2 DN = 0.236831 WN = 1.33972
+ N = 3 DN = 0.118415 WN = 0.669858
+ N = 4 DN = 0.0592077 WN = 0.334929
+ N = 5 DN = 0.0296038 WN = 0.167465
+ N = 6 DN = 0.0148019 WN = 0.0837323
+ N = 7 DN = 0.00740096 WN = 0.0418662
+ N = 8 DN = 0.00370048 WN = 0.0209331
+ N = 9 DN = 0.00185024 WN = 0.0104665
+ N = 10 DN = 0.00092512 WN = 0.00523327
+CalcSpec_ManyOmegas : Positive w 
+ N = 10 DN = 0.00092512 WN = 0.00523327
+ N = 9 DN = 0.00185024 WN = 0.0104665
+ N = 8 DN = 0.00370048 WN = 0.0209331
+ N = 7 DN = 0.00740096 WN = 0.0418662
+ N = 6 DN = 0.0148019 WN = 0.0837323
+ N = 5 DN = 0.0296038 WN = 0.167465
+ N = 4 DN = 0.0592077 WN = 0.334929
+ N = 3 DN = 0.118415 WN = 0.669858
+ N = 2 DN = 0.236831 WN = 1.33972
+ N = 1 DN = 0.473661 WN = 2.67943
+ ... done.
+ GSL_Integrator: Reducing error tolerance. 
+ GSL_Integrator: Reducing error tolerance. 
+NormInteg= 0.959389
+ Calculating Spectral function rho_4_4... 
+CalcSpec_ManyOmegas : Negative w 
+ N = 1 DN = 0.473661 WN = 2.67943
+ N = 2 DN = 0.236831 WN = 1.33972
+ N = 3 DN = 0.118415 WN = 0.669858
+ N = 4 DN = 0.0592077 WN = 0.334929
+ N = 5 DN = 0.0296038 WN = 0.167465
+ N = 6 DN = 0.0148019 WN = 0.0837323
+ N = 7 DN = 0.00740096 WN = 0.0418662
+ N = 8 DN = 0.00370048 WN = 0.0209331
+ N = 9 DN = 0.00185024 WN = 0.0104665
+ N = 10 DN = 0.00092512 WN = 0.00523327
+CalcSpec_ManyOmegas : Positive w 
+ N = 10 DN = 0.00092512 WN = 0.00523327
+ N = 9 DN = 0.00185024 WN = 0.0104665
+ N = 8 DN = 0.00370048 WN = 0.0209331
+ N = 7 DN = 0.00740096 WN = 0.0418662
+ N = 6 DN = 0.0148019 WN = 0.0837323
+ N = 5 DN = 0.0296038 WN = 0.167465
+ N = 4 DN = 0.0592077 WN = 0.334929
+ N = 3 DN = 0.118415 WN = 0.669858
+ N = 2 DN = 0.236831 WN = 1.33972
+ N = 1 DN = 0.473661 WN = 2.67943
+ ... done.
+NormInteg= -4.58419e-18
