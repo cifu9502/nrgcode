@@ -331,3 +331,22 @@ NormInteg= 1.08232
  CalcSpecDM_NRG_FixedOmegas: Even negative 
   Nsh0Even = 2
  CalcSpecDM_NRG_FixedOmegas: Even positive 
+ CalcSpecDM_NRG_FixedOmegas: Odd negative 
+  Nsh0Odd = 1
+ CalcSpecDM_NRG_FixedOmegas: Odd positive 
+ ... done. NomegasEven= 30 NomegasOdd= 30
+ Interpolating... 
+ ... done.
+ GSL_Integrator: Reducing error tolerance. 
+NormInteg= 1.08232
+ Calculating Spectral function rho_4_4... 
+ CalcSpecDM_NRG_FixedOmegas: Even negative 
+  Nsh0Even = 2
+ CalcSpecDM_NRG_FixedOmegas: Even positive 
+ CalcSpecDM_NRG_FixedOmegas: Odd negative 
+  Nsh0Odd = 1
+ CalcSpecDM_NRG_FixedOmegas: Odd positive 
+ ... done. NomegasEven= 30 NomegasOdd= 30
+ Interpolating... 
+ ... done.
+NormInteg= -1.32853e-17
