@@ -1,10 +1,10 @@
  Inside Mtemp = 1001 betabar = 0.727
  Mtemp = 1001 betabar = 0.727 twindow = 2 dBroad = 0.458145 dBroadTemp = 0.8
  NomegasEachShell = 0 (if =0 then use standard interpolation) 
- Temp = 1.02611e-44 DMtemp = 4.64224e-05
+ Temp = 2.56527e-44 DMtemp = 0.000116056
 Lambda    = 2.5
 Nsites0   = 1
-Nsitesmax = 23
+Nsitesmax = 21
 NFermiOps = 5
 Ext arq   = test
 Symmetry  = 6
@@ -13,119 +13,109 @@ Oliveira z = 1
  SetSingleSite begin... 
  Got OneChNupPdn 
  .. SetSingleSite done!
- Reading bin Files for NshellMax = 22
+ Reading bin Files for NshellMax = 20
  NshellMax Files read 
- DM_NRG: Found file rhoDM_test_N22.bin
- Rho Nshell = 22
-DM-NRG: working on Nshell = 21
- DM-NRG: Setting child states... 
- ...Set child states done.
- DM_NRG: Found file rhoDM_test_N21.bin
- Rho Nshell = 21 completed in 0.00276 secs 
-DM-NRG: working on Nshell = 20
- DM-NRG: Setting child states... 
- ...Set child states done.
  DM_NRG: Found file rhoDM_test_N20.bin
- Rho Nshell = 20 completed in 0.002806 secs 
+ Rho Nshell = 20
 DM-NRG: working on Nshell = 19
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM_NRG: Found file rhoDM_test_N19.bin
- Rho Nshell = 19 completed in 0.002775 secs 
+ Rho Nshell = 19 completed in 0.002618 secs 
 DM-NRG: working on Nshell = 18
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM_NRG: Found file rhoDM_test_N18.bin
- Rho Nshell = 18 completed in 0.002729 secs 
+ Rho Nshell = 18 completed in 0.002602 secs 
 DM-NRG: working on Nshell = 17
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM_NRG: Found file rhoDM_test_N17.bin
- Rho Nshell = 17 completed in 0.002791 secs 
+ Rho Nshell = 17 completed in 0.00265 secs 
 DM-NRG: working on Nshell = 16
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM_NRG: Found file rhoDM_test_N16.bin
- Rho Nshell = 16 completed in 0.002841 secs 
+ Rho Nshell = 16 completed in 0.002608 secs 
 DM-NRG: working on Nshell = 15
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM_NRG: Found file rhoDM_test_N15.bin
- Rho Nshell = 15 completed in 0.002766 secs 
+ Rho Nshell = 15 completed in 0.002652 secs 
 DM-NRG: working on Nshell = 14
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM_NRG: Found file rhoDM_test_N14.bin
- Rho Nshell = 14 completed in 0.002788 secs 
+ Rho Nshell = 14 completed in 0.002818 secs 
 DM-NRG: working on Nshell = 13
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM_NRG: Found file rhoDM_test_N13.bin
- Rho Nshell = 13 completed in 0.002886 secs 
+ Rho Nshell = 13 completed in 0.003015 secs 
 DM-NRG: working on Nshell = 12
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM_NRG: Found file rhoDM_test_N12.bin
- Rho Nshell = 12 completed in 0.002861 secs 
+ Rho Nshell = 12 completed in 0.002951 secs 
 DM-NRG: working on Nshell = 11
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM_NRG: Found file rhoDM_test_N11.bin
- Rho Nshell = 11 completed in 0.002855 secs 
+ Rho Nshell = 11 completed in 0.002725 secs 
 DM-NRG: working on Nshell = 10
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM_NRG: Found file rhoDM_test_N10.bin
- Rho Nshell = 10 completed in 0.003059 secs 
+ Rho Nshell = 10 completed in 0.002906 secs 
 DM-NRG: working on Nshell = 9
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM_NRG: Found file rhoDM_test_N9.bin
- Rho Nshell = 9 completed in 0.002887 secs 
+ Rho Nshell = 9 completed in 0.002836 secs 
 DM-NRG: working on Nshell = 8
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM_NRG: Found file rhoDM_test_N8.bin
- Rho Nshell = 8 completed in 0.002978 secs 
+ Rho Nshell = 8 completed in 0.002971 secs 
 DM-NRG: working on Nshell = 7
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM_NRG: Found file rhoDM_test_N7.bin
- Rho Nshell = 7 completed in 0.003035 secs 
+ Rho Nshell = 7 completed in 0.003008 secs 
 DM-NRG: working on Nshell = 6
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM_NRG: Found file rhoDM_test_N6.bin
- Rho Nshell = 6 completed in 0.003104 secs 
+ Rho Nshell = 6 completed in 0.003117 secs 
 DM-NRG: working on Nshell = 5
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM_NRG: Found file rhoDM_test_N5.bin
- Rho Nshell = 5 completed in 0.003147 secs 
+ Rho Nshell = 5 completed in 0.003016 secs 
 DM-NRG: working on Nshell = 4
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM_NRG: Found file rhoDM_test_N4.bin
- Rho Nshell = 4 completed in 0.003122 secs 
+ Rho Nshell = 4 completed in 0.003049 secs 
 DM-NRG: working on Nshell = 3
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM_NRG: Found file rhoDM_test_N3.bin
- Rho Nshell = 3 completed in 0.00312 secs 
+ Rho Nshell = 3 completed in 0.002945 secs 
 DM-NRG: working on Nshell = 2
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM_NRG: Found file rhoDM_test_N2.bin
- Rho Nshell = 2 completed in 0.002945 secs 
+ Rho Nshell = 2 completed in 0.002893 secs 
 DM-NRG: working on Nshell = 1
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM_NRG: Found file rhoDM_test_N1.bin
- Rho Nshell = 1 completed in 0.0009 secs 
+ Rho Nshell = 1 completed in 0.000959 secs 
  Spectral functions (Working on this)... 
 CalcSpecCosti_T: Implementing it 
 CalcSpecCosti_T: Zero Temp 
- Nomegas = 11 Size of RhowCosti = 11
+ Nomegas = 10 Size of RhowCosti = 10
 RhoCosti0_0(omega= 1.39172 )= 0.00497326
 RhoCosti0_0(omega= -1.39172 )= 0.00497323
 RhoCosti0_0(omega= 0.55669 )= 0.224204
@@ -146,8 +136,6 @@ RhoCosti0_0(omega= 0.00091208 )= 1.64435
 RhoCosti0_0(omega= -0.00091208 )= 1.66282
 RhoCosti0_0(omega= 0.000364832 )= 1.97603
 RhoCosti0_0(omega= -0.000364832 )= 2.00471
-RhoCosti0_0(omega= 0.000145933 )= 2.17718
-RhoCosti0_0(omega= -0.000145933 )= 2.22057
  SaveOmegaRhow Error: Omega_Rhow not set.
  Calculating Spectral function rho_0_0... 
  CalcSpecDM_NRG_FixedOmegas: Even negative 
@@ -156,11 +144,11 @@ RhoCosti0_0(omega= -0.000145933 )= 2.22057
  CalcSpecDM_NRG_FixedOmegas: Odd negative 
   Nsh0Odd = 1
  CalcSpecDM_NRG_FixedOmegas: Odd positive 
- ... done. NomegasEven= 22 NomegasOdd= 22
+ ... done. NomegasEven= 20 NomegasOdd= 20
  Interpolating... 
  ... done.
  GSL_Integrator: Reducing error tolerance. 
-NormInteg= 1.08204
+NormInteg= 1.08189
  Calculating Spectral function rho_1_1... 
  CalcSpecDM_NRG_FixedOmegas: Even negative 
   Nsh0Even = 2
@@ -168,12 +156,11 @@ NormInteg= 1.08204
  CalcSpecDM_NRG_FixedOmegas: Odd negative 
   Nsh0Odd = 1
  CalcSpecDM_NRG_FixedOmegas: Odd positive 
- ... done. NomegasEven= 22 NomegasOdd= 22
+ ... done. NomegasEven= 20 NomegasOdd= 20
  Interpolating... 
  ... done.
  GSL_Integrator: Reducing error tolerance. 
- GSL_Integrator: Reducing error tolerance. 
-NormInteg= 1.08228
+NormInteg= 1.08222
  Calculating Spectral function rho_2_2... 
  CalcSpecDM_NRG_FixedOmegas: Even negative 
   Nsh0Even = 2
@@ -181,11 +168,11 @@ NormInteg= 1.08228
  CalcSpecDM_NRG_FixedOmegas: Odd negative 
   Nsh0Odd = 1
  CalcSpecDM_NRG_FixedOmegas: Odd positive 
- ... done. NomegasEven= 22 NomegasOdd= 22
+ ... done. NomegasEven= 20 NomegasOdd= 20
  Interpolating... 
  ... done.
  GSL_Integrator: Reducing error tolerance. 
-NormInteg= 1.08204
+NormInteg= 1.08189
  Calculating Spectral function rho_3_3... 
  CalcSpecDM_NRG_FixedOmegas: Even negative 
   Nsh0Even = 2
@@ -193,12 +180,11 @@ NormInteg= 1.08204
  CalcSpecDM_NRG_FixedOmegas: Odd negative 
   Nsh0Odd = 1
  CalcSpecDM_NRG_FixedOmegas: Odd positive 
- ... done. NomegasEven= 22 NomegasOdd= 22
+ ... done. NomegasEven= 20 NomegasOdd= 20
  Interpolating... 
  ... done.
  GSL_Integrator: Reducing error tolerance. 
- GSL_Integrator: Reducing error tolerance. 
-NormInteg= 1.08228
+NormInteg= 1.08222
  Calculating Spectral function rho_4_4... 
  CalcSpecDM_NRG_FixedOmegas: Even negative 
   Nsh0Even = 2
@@ -206,9 +192,9 @@ NormInteg= 1.08228
  CalcSpecDM_NRG_FixedOmegas: Odd negative 
   Nsh0Odd = 1
  CalcSpecDM_NRG_FixedOmegas: Odd positive 
- ... done. NomegasEven= 22 NomegasOdd= 22
+ ... done. NomegasEven= 20 NomegasOdd= 20
  Interpolating... 
  ... done.
  GSL_Integrator: Reducing error tolerance. 
  GSL_Integrator: Reducing error tolerance. 
-NormInteg= 0.580645
+NormInteg= 0.589381
