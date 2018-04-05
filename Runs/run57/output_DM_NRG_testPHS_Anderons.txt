@@ -1,0 +1,78 @@
+ Inside Mtemp = 1001 betabar = 0.727
+ Mtemp = 1001 betabar = 0.727 twindow = 2 dBroad = 0.458145 dBroadTemp = 0.8
+ NomegasEachShell = 0 (if =0 then use standard interpolation) 
+ Temp = 3.91429e-41 DMtemp = 0.177088
+Lambda    = 2.5
+Nsites0   = 0
+Nsitesmax = 5
+NFermiOps = 1
+Ext arq   = 1chQSAnderson
+Symmetry  = 0
+ DM-NRG: Only 1chQSz and 1chQ symmetries supported at this point. Testing QS symmetry now...
+ SU(2) symmetry detected. 
+Oliveira z = 1
+ SetSingleSite begin... 
+ Got OneChQS 
+ .. SetSingleSite done!
+ Reading bin Files for NshellMax = 4
+ NshellMax Files read 
+ DM-NRG: Calculating Rho Nmax ...
+ Got here 
+ TempBar = 2.21037e-40 betabar = 1e+10 ZN = 1 at Nmax. Matrix is complex? 0 Zero Temperature? 1
+ DMNRG_SetRhoNmax: non-zero element  ibl= 9 ist= 322 betabar= 1e+10 Ei= 0 auxExp= 1
+ ... Rho Nmax done.
+ Rho Nshell = 4
+DM-NRG: working on Nshell = 3
+ DM-NRG: Setting child states... 
+ ...Set child states done.
+ DM-NRG: Calculating Rho N (w SU(2))...
+ Rotating Rho N... 
+ ... done in 0.298143 secs. 
+ ... Rho N done.
+ Rho Nshell = 3 completed in 0.314091 secs 
+DM-NRG: working on Nshell = 2
+ DM-NRG: Setting child states... 
+ ...Set child states done.
+ DM-NRG: Calculating Rho N (w SU(2))...
+ Rotating Rho N... 
+ ... done in 0.020628 secs. 
+ ... Rho N done.
+ Rho Nshell = 2 completed in 0.022124 secs 
+DM-NRG: working on Nshell = 1
+ DM-NRG: Setting child states... 
+ ...Set child states done.
+ DM-NRG: Calculating Rho N (w SU(2))...
+ Rotating Rho N... 
+ ... done in 0.000738 secs. 
+ ... Rho N done.
+ Rho Nshell = 1 completed in 0.000945 secs 
+DM-NRG: working on Nshell = 0
+ DM-NRG: Setting child states... 
+ ...Set child states done.
+ DM-NRG: Calculating Rho N (w SU(2))...
+ Rotating Rho N... 
+ ... done in 5e-05 secs. 
+ ... Rho N done.
+ Rho Nshell = 0 completed in 0.000119 secs 
+ Spectral functions (Working on this)... 
+CalcSpecCosti_T: Implementing it 
+CalcSpecCosti_T: Zero Temp 
+ Nomegas = 2 Size of RhowCosti = 3
+RhoCosti0_0(omega= 3.47931 )= 4.14242e-09
+RhoCosti0_0(omega= -3.47931 )= 4.14242e-09
+RhoCosti0_0(omega= 1.39172 )= 0.00491894
+RhoCosti0_0(omega= -1.39172 )= 0.00491894
+RhoCosti0_0(omega= 0.55669 )= 0.242422
+RhoCosti0_0(omega= -0.55669 )= 0.242422
+ SaveOmegaRhow Error: Omega_Rhow not set.
+ Calculating Spectral function rho_0_0... 
+ CalcSpecDM_NRG_FixedOmegas: Even negative 
+  Nsh0Even = 0
+ CalcSpecDM_NRG_FixedOmegas: Even positive 
+ CalcSpecDM_NRG_FixedOmegas: Odd negative 
+  Nsh0Odd = 1
+ CalcSpecDM_NRG_FixedOmegas: Odd positive 
+ ... done. NomegasEven= 6 NomegasOdd= 4
+ Interpolating... 
+ ... done.
+NormInteg= 0.253704

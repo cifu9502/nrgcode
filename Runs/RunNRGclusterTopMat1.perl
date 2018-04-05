@@ -430,7 +430,9 @@ for ($Dir=$Dir0;
 ## end special
        if ($UseAllCodes==1){
 	 if ($FiniteT!=1) { ## T=0: onde file for each Z.
-	   if ($UseCFS==1) {
+	     if ($UseCFS==1) {
+	     $String.="sed '3 c\21 ' ThisCodePars.dat > a.dat \n";
+	     $String.="cat a.dat > ThisCodePars.dat \n";
 	     $String.="nice ./".$DMNRGExecName."  > output_DMNRG_CFS_zEQ${zz}_Dir${Dir}.txt \n";
 	   } else {
 	     $String.="nice ./".$DMNRGExecName." -n ${Nw} > output_DMNRG_zEQ${zz}_Dir${Dir}.txt \n";
