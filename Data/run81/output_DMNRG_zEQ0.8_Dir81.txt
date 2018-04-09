@@ -1,10 +1,10 @@
  Inside Mtemp = 1001 betabar = 0.727
  Mtemp = 1001 betabar = 0.727 twindow = 2 dBroad = 0.458145 dBroadTemp = 0.8
- NomegasEachShell = 5 (if =0 then use standard interpolation) 
- Temp = 1.10177e-50 DMtemp = 4.98457e-11
+ NomegasEachShell = 3 (if =0 then use standard interpolation) 
+ Temp = 2.56527e-44 DMtemp = 0.000116056
 Lambda    = 2.5
 Nsites0   = 1
-Nsitesmax = 53
+Nsitesmax = 21
 NFermiOps = 5
 Ext arq   = test
 Symmetry  = 6
@@ -13,423 +13,191 @@ Oliveira z = 0.8
  SetSingleSite begin... 
  Got OneChNupPdn 
  .. SetSingleSite done!
- Reading bin Files for NshellMax = 52
+ Reading bin Files for NshellMax = 20
  NshellMax Files read 
  DM-NRG: Calculating Rho Nmax ...
  Got here 
  TempBar = 2.21037e-40 betabar = 1e+10 ZN = 1 at Nmax. Matrix is complex? 1 Zero Temperature? 1
- DMNRG_SetRhoNmax: non-zero element  ibl= 6 ist= 250 betabar= 1e+10 Ei= 1.3613e-09 auxExp= 1.22442e-06
- DMNRG_SetRhoNmax: non-zero element  ibl= 7 ist= 425 betabar= 1e+10 Ei= 0 auxExp= 1
+ DMNRG_SetRhoNmax: non-zero element  ibl= 7 ist= 400 betabar= 1e+10 Ei= 0 auxExp= 1
  ... Rho Nmax done.
- Rho Nshell = 52
-DM-NRG: working on Nshell = 51
- DM-NRG: Setting child states... 
- ...Set child states done.
- DM-NRG: Calculating Rho N ...
- Rotating Rho N... 
- ... done in 9.53588 secs. 
- ... Rho N done.
- Rho Nshell = 51 completed in 9.69085 secs 
-DM-NRG: working on Nshell = 50
- DM-NRG: Setting child states... 
- ...Set child states done.
- DM-NRG: Calculating Rho N ...
- Rotating Rho N... 
- ... done in 9.95396 secs. 
- ... Rho N done.
- Rho Nshell = 50 completed in 10.1114 secs 
-DM-NRG: working on Nshell = 49
- DM-NRG: Setting child states... 
- ...Set child states done.
- DM-NRG: Calculating Rho N ...
- Rotating Rho N... 
- ... done in 9.56773 secs. 
- ... Rho N done.
- Rho Nshell = 49 completed in 9.7233 secs 
-DM-NRG: working on Nshell = 48
- DM-NRG: Setting child states... 
- ...Set child states done.
- DM-NRG: Calculating Rho N ...
- Rotating Rho N... 
- ... done in 9.69113 secs. 
- ... Rho N done.
- Rho Nshell = 48 completed in 9.84348 secs 
-DM-NRG: working on Nshell = 47
- DM-NRG: Setting child states... 
- ...Set child states done.
- DM-NRG: Calculating Rho N ...
- Rotating Rho N... 
- ... done in 9.86527 secs. 
- ... Rho N done.
- Rho Nshell = 47 completed in 10.016 secs 
-DM-NRG: working on Nshell = 46
- DM-NRG: Setting child states... 
- ...Set child states done.
- DM-NRG: Calculating Rho N ...
- Rotating Rho N... 
- ... done in 9.42382 secs. 
- ... Rho N done.
- Rho Nshell = 46 completed in 9.57532 secs 
-DM-NRG: working on Nshell = 45
- DM-NRG: Setting child states... 
- ...Set child states done.
- DM-NRG: Calculating Rho N ...
- Rotating Rho N... 
- ... done in 9.57406 secs. 
- ... Rho N done.
- Rho Nshell = 45 completed in 9.72483 secs 
-DM-NRG: working on Nshell = 44
- DM-NRG: Setting child states... 
- ...Set child states done.
- DM-NRG: Calculating Rho N ...
- Rotating Rho N... 
- ... done in 9.95706 secs. 
- ... Rho N done.
- Rho Nshell = 44 completed in 10.1103 secs 
-DM-NRG: working on Nshell = 43
- DM-NRG: Setting child states... 
- ...Set child states done.
- DM-NRG: Calculating Rho N ...
- Rotating Rho N... 
- ... done in 9.85006 secs. 
- ... Rho N done.
- Rho Nshell = 43 completed in 10.003 secs 
-DM-NRG: working on Nshell = 42
- DM-NRG: Setting child states... 
- ...Set child states done.
- DM-NRG: Calculating Rho N ...
- Rotating Rho N... 
- ... done in 9.73096 secs. 
- ... Rho N done.
- Rho Nshell = 42 completed in 9.8836 secs 
-DM-NRG: working on Nshell = 41
- DM-NRG: Setting child states... 
- ...Set child states done.
- DM-NRG: Calculating Rho N ...
- Rotating Rho N... 
- ... done in 9.86527 secs. 
- ... Rho N done.
- Rho Nshell = 41 completed in 10.0175 secs 
-DM-NRG: working on Nshell = 40
- DM-NRG: Setting child states... 
- ...Set child states done.
- DM-NRG: Calculating Rho N ...
- Rotating Rho N... 
- ... done in 9.94903 secs. 
- ... Rho N done.
- Rho Nshell = 40 completed in 10.1017 secs 
-DM-NRG: working on Nshell = 39
- DM-NRG: Setting child states... 
- ...Set child states done.
- DM-NRG: Calculating Rho N ...
- Rotating Rho N... 
- ... done in 9.80147 secs. 
- ... Rho N done.
- Rho Nshell = 39 completed in 9.95389 secs 
-DM-NRG: working on Nshell = 38
- DM-NRG: Setting child states... 
- ...Set child states done.
- DM-NRG: Calculating Rho N ...
- Rotating Rho N... 
- ... done in 9.94923 secs. 
- ... Rho N done.
- Rho Nshell = 38 completed in 10.1031 secs 
-DM-NRG: working on Nshell = 37
- DM-NRG: Setting child states... 
- ...Set child states done.
- DM-NRG: Calculating Rho N ...
- Rotating Rho N... 
- ... done in 9.85324 secs. 
- ... Rho N done.
- Rho Nshell = 37 completed in 10.005 secs 
-DM-NRG: working on Nshell = 36
- DM-NRG: Setting child states... 
- ...Set child states done.
- DM-NRG: Calculating Rho N ...
- Rotating Rho N... 
- ... done in 9.92513 secs. 
- ... Rho N done.
- Rho Nshell = 36 completed in 10.0753 secs 
-DM-NRG: working on Nshell = 35
- DM-NRG: Setting child states... 
- ...Set child states done.
- DM-NRG: Calculating Rho N ...
- Rotating Rho N... 
- ... done in 9.74982 secs. 
- ... Rho N done.
- Rho Nshell = 35 completed in 9.90302 secs 
-DM-NRG: working on Nshell = 34
- DM-NRG: Setting child states... 
- ...Set child states done.
- DM-NRG: Calculating Rho N ...
- Rotating Rho N... 
- ... done in 10.0303 secs. 
- ... Rho N done.
- Rho Nshell = 34 completed in 10.1853 secs 
-DM-NRG: working on Nshell = 33
- DM-NRG: Setting child states... 
- ...Set child states done.
- DM-NRG: Calculating Rho N ...
- Rotating Rho N... 
- ... done in 9.83705 secs. 
- ... Rho N done.
- Rho Nshell = 33 completed in 9.99006 secs 
-DM-NRG: working on Nshell = 32
- DM-NRG: Setting child states... 
- ...Set child states done.
- DM-NRG: Calculating Rho N ...
- Rotating Rho N... 
- ... done in 10.5463 secs. 
- ... Rho N done.
- Rho Nshell = 32 completed in 10.7045 secs 
-DM-NRG: working on Nshell = 31
- DM-NRG: Setting child states... 
- ...Set child states done.
- DM-NRG: Calculating Rho N ...
- Rotating Rho N... 
- ... done in 10.2063 secs. 
- ... Rho N done.
- Rho Nshell = 31 completed in 10.3539 secs 
-DM-NRG: working on Nshell = 30
- DM-NRG: Setting child states... 
- ...Set child states done.
- DM-NRG: Calculating Rho N ...
- Rotating Rho N... 
- ... done in 10.0468 secs. 
- ... Rho N done.
- Rho Nshell = 30 completed in 10.2002 secs 
-DM-NRG: working on Nshell = 29
- DM-NRG: Setting child states... 
- ...Set child states done.
- DM-NRG: Calculating Rho N ...
- Rotating Rho N... 
- ... done in 10.0423 secs. 
- ... Rho N done.
- Rho Nshell = 29 completed in 10.1907 secs 
-DM-NRG: working on Nshell = 28
- DM-NRG: Setting child states... 
- ...Set child states done.
- DM-NRG: Calculating Rho N ...
- Rotating Rho N... 
- ... done in 10.0152 secs. 
- ... Rho N done.
- Rho Nshell = 28 completed in 10.1675 secs 
-DM-NRG: working on Nshell = 27
- DM-NRG: Setting child states... 
- ...Set child states done.
- DM-NRG: Calculating Rho N ...
- Rotating Rho N... 
- ... done in 9.9353 secs. 
- ... Rho N done.
- Rho Nshell = 27 completed in 10.0854 secs 
-DM-NRG: working on Nshell = 26
- DM-NRG: Setting child states... 
- ...Set child states done.
- DM-NRG: Calculating Rho N ...
- Rotating Rho N... 
- ... done in 10.3541 secs. 
- ... Rho N done.
- Rho Nshell = 26 completed in 10.5122 secs 
-DM-NRG: working on Nshell = 25
- DM-NRG: Setting child states... 
- ...Set child states done.
- DM-NRG: Calculating Rho N ...
- Rotating Rho N... 
- ... done in 9.87611 secs. 
- ... Rho N done.
- Rho Nshell = 25 completed in 10.0237 secs 
-DM-NRG: working on Nshell = 24
- DM-NRG: Setting child states... 
- ...Set child states done.
- DM-NRG: Calculating Rho N ...
- Rotating Rho N... 
- ... done in 9.78214 secs. 
- ... Rho N done.
- Rho Nshell = 24 completed in 9.93713 secs 
-DM-NRG: working on Nshell = 23
- DM-NRG: Setting child states... 
- ...Set child states done.
- DM-NRG: Calculating Rho N ...
- Rotating Rho N... 
- ... done in 9.66491 secs. 
- ... Rho N done.
- Rho Nshell = 23 completed in 9.81253 secs 
-DM-NRG: working on Nshell = 22
- DM-NRG: Setting child states... 
- ...Set child states done.
- DM-NRG: Calculating Rho N ...
- Rotating Rho N... 
- ... done in 10.009 secs. 
- ... Rho N done.
- Rho Nshell = 22 completed in 10.1606 secs 
-DM-NRG: working on Nshell = 21
- DM-NRG: Setting child states... 
- ...Set child states done.
- DM-NRG: Calculating Rho N ...
- Rotating Rho N... 
- ... done in 9.61551 secs. 
- ... Rho N done.
- Rho Nshell = 21 completed in 9.76499 secs 
-DM-NRG: working on Nshell = 20
- DM-NRG: Setting child states... 
- ...Set child states done.
- DM-NRG: Calculating Rho N ...
- Rotating Rho N... 
- ... done in 9.77734 secs. 
- ... Rho N done.
- Rho Nshell = 20 completed in 9.92805 secs 
+ Rho Nshell = 20
 DM-NRG: working on Nshell = 19
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 9.51582 secs. 
+ ... done in 6.84428 secs. 
  ... Rho N done.
- Rho Nshell = 19 completed in 9.66458 secs 
+ Rho Nshell = 19 completed in 6.95923 secs 
 DM-NRG: working on Nshell = 18
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 9.73101 secs. 
+ ... done in 5.96385 secs. 
  ... Rho N done.
- Rho Nshell = 18 completed in 9.88444 secs 
+ Rho Nshell = 18 completed in 6.05216 secs 
 DM-NRG: working on Nshell = 17
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 9.43062 secs. 
+ ... done in 6.55016 secs. 
  ... Rho N done.
- Rho Nshell = 17 completed in 9.57597 secs 
+ Rho Nshell = 17 completed in 6.66832 secs 
 DM-NRG: working on Nshell = 16
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 9.53069 secs. 
+ ... done in 6.34129 secs. 
  ... Rho N done.
- Rho Nshell = 16 completed in 9.68081 secs 
+ Rho Nshell = 16 completed in 6.46224 secs 
 DM-NRG: working on Nshell = 15
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 9.64149 secs. 
+ ... done in 6.51194 secs. 
  ... Rho N done.
- Rho Nshell = 15 completed in 9.79143 secs 
+ Rho Nshell = 15 completed in 6.63243 secs 
 DM-NRG: working on Nshell = 14
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 10.0384 secs. 
+ ... done in 6.66474 secs. 
  ... Rho N done.
- Rho Nshell = 14 completed in 10.1926 secs 
+ Rho Nshell = 14 completed in 6.77056 secs 
 DM-NRG: working on Nshell = 13
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 10.0559 secs. 
+ ... done in 7.10287 secs. 
  ... Rho N done.
- Rho Nshell = 13 completed in 10.2061 secs 
+ Rho Nshell = 13 completed in 7.2101 secs 
 DM-NRG: working on Nshell = 12
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 10.064 secs. 
+ ... done in 7.69662 secs. 
  ... Rho N done.
- Rho Nshell = 12 completed in 10.218 secs 
+ Rho Nshell = 12 completed in 7.82708 secs 
 DM-NRG: working on Nshell = 11
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 9.87865 secs. 
+ ... done in 8.01258 secs. 
  ... Rho N done.
- Rho Nshell = 11 completed in 10.0289 secs 
+ Rho Nshell = 11 completed in 8.12529 secs 
 DM-NRG: working on Nshell = 10
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 10.1065 secs. 
+ ... done in 8.14753 secs. 
  ... Rho N done.
- Rho Nshell = 10 completed in 10.2595 secs 
+ Rho Nshell = 10 completed in 8.2771 secs 
 DM-NRG: working on Nshell = 9
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 10.4326 secs. 
+ ... done in 7.62012 secs. 
  ... Rho N done.
- Rho Nshell = 9 completed in 10.5843 secs 
+ Rho Nshell = 9 completed in 7.72838 secs 
 DM-NRG: working on Nshell = 8
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 10.1966 secs. 
+ ... done in 7.92832 secs. 
  ... Rho N done.
- Rho Nshell = 8 completed in 10.3519 secs 
+ Rho Nshell = 8 completed in 8.06744 secs 
 DM-NRG: working on Nshell = 7
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 10.34 secs. 
+ ... done in 7.04347 secs. 
  ... Rho N done.
- Rho Nshell = 7 completed in 10.5001 secs 
+ Rho Nshell = 7 completed in 7.15505 secs 
 DM-NRG: working on Nshell = 6
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 10.9405 secs. 
+ ... done in 6.81992 secs. 
  ... Rho N done.
- Rho Nshell = 6 completed in 11.0949 secs 
+ Rho Nshell = 6 completed in 6.9412 secs 
 DM-NRG: working on Nshell = 5
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 11.064 secs. 
+ ... done in 7.4486 secs. 
  ... Rho N done.
- Rho Nshell = 5 completed in 11.2185 secs 
+ Rho Nshell = 5 completed in 7.57867 secs 
 DM-NRG: working on Nshell = 4
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 11.4668 secs. 
+ ... done in 7.60686 secs. 
  ... Rho N done.
- Rho Nshell = 4 completed in 11.624 secs 
+ Rho Nshell = 4 completed in 7.73073 secs 
 DM-NRG: working on Nshell = 3
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 12.036 secs. 
+ ... done in 7.97399 secs. 
  ... Rho N done.
- Rho Nshell = 3 completed in 12.1933 secs 
+ Rho Nshell = 3 completed in 8.08091 secs 
 DM-NRG: working on Nshell = 2
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 11.9497 secs. 
+ ... done in 8.22713 secs. 
  ... Rho N done.
- Rho Nshell = 2 completed in 12.0997 secs 
+ Rho Nshell = 2 completed in 8.35023 secs 
 DM-NRG: working on Nshell = 1
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 3.03551 secs. 
+ ... done in 2.83456 secs. 
  ... Rho N done.
- Rho Nshell = 1 completed in 3.06443 secs 
+ Rho Nshell = 1 completed in 2.86316 secs 
+ Spectral functions (Working on this)... 
+CalcSpecCosti_T: Implementing it 
+CalcSpecCosti_T: Zero Temp 
+ Nomegas = 10 Size of RhowCosti = 10
+RhoCosti0_0(omega= 1.39172 )= 0.0018109
+RhoCosti0_0(omega= -1.39172 )= 0.00181257
+RhoCosti0_0(omega= 0.55669 )= 0.147531
+RhoCosti0_0(omega= -0.55669 )= 0.147887
+RhoCosti0_0(omega= 0.222676 )= 1.44294
+RhoCosti0_0(omega= -0.222676 )= 1.45046
+RhoCosti0_0(omega= 0.0890703 )= 0.592953
+RhoCosti0_0(omega= -0.0890703 )= 0.598063
+RhoCosti0_0(omega= 0.0356281 )= 0.542945
+RhoCosti0_0(omega= -0.0356281 )= 0.548273
+RhoCosti0_0(omega= 0.0142513 )= 0.714238
+RhoCosti0_0(omega= -0.0142513 )= 0.72092
+RhoCosti0_0(omega= 0.0057005 )= 1.37262
+RhoCosti0_0(omega= -0.0057005 )= 1.39443
+RhoCosti0_0(omega= 0.0022802 )= 4.33085
+RhoCosti0_0(omega= -0.0022802 )= 4.52201
+RhoCosti0_0(omega= 0.00091208 )= 9.12068
+RhoCosti0_0(omega= -0.00091208 )= 9.5417
+RhoCosti0_0(omega= 0.000364832 )= 11.678
+RhoCosti0_0(omega= -0.000364832 )= 12.0534
+ SaveOmegaRhow Error: Omega_Rhow not set.
  Calculating Spectral function rho_0_0... 
 CalcSpec_ManyOmegas : Negative w 
  N = 1 DN = 0.840787 WN = 2.64308
@@ -452,71 +220,7 @@ CalcSpec_ManyOmegas : Negative w
  N = 18 DN = 0.000348495 WN = 0.00109552
  N = 19 DN = 0.000220407 WN = 0.000692869
  N = 20 DN = 0.000139398 WN = 0.000438209
- N = 21 DN = 8.81629e-05 WN = 0.000277148
- N = 22 DN = 5.57591e-05 WN = 0.000175283
- N = 23 DN = 3.52652e-05 WN = 0.000110859
- N = 24 DN = 2.23037e-05 WN = 7.01134e-05
- N = 25 DN = 1.41061e-05 WN = 4.43436e-05
- N = 26 DN = 8.92146e-06 WN = 2.80454e-05
- N = 27 DN = 5.64243e-06 WN = 1.77374e-05
- N = 28 DN = 3.56858e-06 WN = 1.12181e-05
- N = 29 DN = 2.25697e-06 WN = 7.09498e-06
- N = 30 DN = 1.42743e-06 WN = 4.48726e-06
- N = 31 DN = 9.02788e-07 WN = 2.83799e-06
- N = 32 DN = 5.70973e-07 WN = 1.7949e-06
- N = 33 DN = 3.61115e-07 WN = 1.1352e-06
- N = 34 DN = 2.28389e-07 WN = 7.17961e-07
- N = 35 DN = 1.44446e-07 WN = 4.54078e-07
- N = 36 DN = 9.13558e-08 WN = 2.87184e-07
- N = 37 DN = 5.77784e-08 WN = 1.81631e-07
- N = 38 DN = 3.65423e-08 WN = 1.14874e-07
- N = 39 DN = 2.31114e-08 WN = 7.26526e-08
- N = 40 DN = 1.46169e-08 WN = 4.59495e-08
- N = 41 DN = 9.24455e-09 WN = 2.9061e-08
- N = 42 DN = 5.84677e-09 WN = 1.83798e-08
- N = 43 DN = 3.69782e-09 WN = 1.16244e-08
- N = 44 DN = 2.33871e-09 WN = 7.35192e-09
- N = 45 DN = 1.47913e-09 WN = 4.64976e-09
- N = 46 DN = 9.35483e-10 WN = 2.94077e-09
- N = 47 DN = 5.91651e-10 WN = 1.85991e-09
- N = 48 DN = 3.74193e-10 WN = 1.17631e-09
- N = 49 DN = 2.36661e-10 WN = 7.43962e-10
- N = 50 DN = 1.49677e-10 WN = 4.70523e-10
- N = 51 DN = 9.46642e-11 WN = 2.97585e-10
- N = 52 DN = 5.98709e-11 WN = 1.88209e-10
 CalcSpec_ManyOmegas : Positive w 
- N = 52 DN = 5.98709e-11 WN = 1.88209e-10
- N = 51 DN = 9.46642e-11 WN = 2.97585e-10
- N = 50 DN = 1.49677e-10 WN = 4.70523e-10
- N = 49 DN = 2.36661e-10 WN = 7.43962e-10
- N = 48 DN = 3.74193e-10 WN = 1.17631e-09
- N = 47 DN = 5.91651e-10 WN = 1.85991e-09
- N = 46 DN = 9.35483e-10 WN = 2.94077e-09
- N = 45 DN = 1.47913e-09 WN = 4.64976e-09
- N = 44 DN = 2.33871e-09 WN = 7.35192e-09
- N = 43 DN = 3.69782e-09 WN = 1.16244e-08
- N = 42 DN = 5.84677e-09 WN = 1.83798e-08
- N = 41 DN = 9.24455e-09 WN = 2.9061e-08
- N = 40 DN = 1.46169e-08 WN = 4.59495e-08
- N = 39 DN = 2.31114e-08 WN = 7.26526e-08
- N = 38 DN = 3.65423e-08 WN = 1.14874e-07
- N = 37 DN = 5.77784e-08 WN = 1.81631e-07
- N = 36 DN = 9.13558e-08 WN = 2.87184e-07
- N = 35 DN = 1.44446e-07 WN = 4.54078e-07
- N = 34 DN = 2.28389e-07 WN = 7.17961e-07
- N = 33 DN = 3.61115e-07 WN = 1.1352e-06
- N = 32 DN = 5.70973e-07 WN = 1.7949e-06
- N = 31 DN = 9.02788e-07 WN = 2.83799e-06
- N = 30 DN = 1.42743e-06 WN = 4.48726e-06
- N = 29 DN = 2.25697e-06 WN = 7.09498e-06
- N = 28 DN = 3.56858e-06 WN = 1.12181e-05
- N = 27 DN = 5.64243e-06 WN = 1.77374e-05
- N = 26 DN = 8.92146e-06 WN = 2.80454e-05
- N = 25 DN = 1.41061e-05 WN = 4.43436e-05
- N = 24 DN = 2.23037e-05 WN = 7.01134e-05
- N = 23 DN = 3.52652e-05 WN = 0.000110859
- N = 22 DN = 5.57591e-05 WN = 0.000175283
- N = 21 DN = 8.81629e-05 WN = 0.000277148
  N = 20 DN = 0.000139398 WN = 0.000438209
  N = 19 DN = 0.000220407 WN = 0.000692869
  N = 18 DN = 0.000348495 WN = 0.00109552
@@ -540,7 +244,8 @@ CalcSpec_ManyOmegas : Positive w
  ... done.
  GSL_Integrator: Reducing error tolerance. 
  GSL_Integrator: Reducing error tolerance. 
-NormInteg= 0.676057
+ GSL_Integrator: Reducing error tolerance. 
+NormInteg= 0.717933
  Calculating Spectral function rho_1_1... 
 CalcSpec_ManyOmegas : Negative w 
  N = 1 DN = 0.840787 WN = 2.64308
@@ -563,71 +268,7 @@ CalcSpec_ManyOmegas : Negative w
  N = 18 DN = 0.000348495 WN = 0.00109552
  N = 19 DN = 0.000220407 WN = 0.000692869
  N = 20 DN = 0.000139398 WN = 0.000438209
- N = 21 DN = 8.81629e-05 WN = 0.000277148
- N = 22 DN = 5.57591e-05 WN = 0.000175283
- N = 23 DN = 3.52652e-05 WN = 0.000110859
- N = 24 DN = 2.23037e-05 WN = 7.01134e-05
- N = 25 DN = 1.41061e-05 WN = 4.43436e-05
- N = 26 DN = 8.92146e-06 WN = 2.80454e-05
- N = 27 DN = 5.64243e-06 WN = 1.77374e-05
- N = 28 DN = 3.56858e-06 WN = 1.12181e-05
- N = 29 DN = 2.25697e-06 WN = 7.09498e-06
- N = 30 DN = 1.42743e-06 WN = 4.48726e-06
- N = 31 DN = 9.02788e-07 WN = 2.83799e-06
- N = 32 DN = 5.70973e-07 WN = 1.7949e-06
- N = 33 DN = 3.61115e-07 WN = 1.1352e-06
- N = 34 DN = 2.28389e-07 WN = 7.17961e-07
- N = 35 DN = 1.44446e-07 WN = 4.54078e-07
- N = 36 DN = 9.13558e-08 WN = 2.87184e-07
- N = 37 DN = 5.77784e-08 WN = 1.81631e-07
- N = 38 DN = 3.65423e-08 WN = 1.14874e-07
- N = 39 DN = 2.31114e-08 WN = 7.26526e-08
- N = 40 DN = 1.46169e-08 WN = 4.59495e-08
- N = 41 DN = 9.24455e-09 WN = 2.9061e-08
- N = 42 DN = 5.84677e-09 WN = 1.83798e-08
- N = 43 DN = 3.69782e-09 WN = 1.16244e-08
- N = 44 DN = 2.33871e-09 WN = 7.35192e-09
- N = 45 DN = 1.47913e-09 WN = 4.64976e-09
- N = 46 DN = 9.35483e-10 WN = 2.94077e-09
- N = 47 DN = 5.91651e-10 WN = 1.85991e-09
- N = 48 DN = 3.74193e-10 WN = 1.17631e-09
- N = 49 DN = 2.36661e-10 WN = 7.43962e-10
- N = 50 DN = 1.49677e-10 WN = 4.70523e-10
- N = 51 DN = 9.46642e-11 WN = 2.97585e-10
- N = 52 DN = 5.98709e-11 WN = 1.88209e-10
 CalcSpec_ManyOmegas : Positive w 
- N = 52 DN = 5.98709e-11 WN = 1.88209e-10
- N = 51 DN = 9.46642e-11 WN = 2.97585e-10
- N = 50 DN = 1.49677e-10 WN = 4.70523e-10
- N = 49 DN = 2.36661e-10 WN = 7.43962e-10
- N = 48 DN = 3.74193e-10 WN = 1.17631e-09
- N = 47 DN = 5.91651e-10 WN = 1.85991e-09
- N = 46 DN = 9.35483e-10 WN = 2.94077e-09
- N = 45 DN = 1.47913e-09 WN = 4.64976e-09
- N = 44 DN = 2.33871e-09 WN = 7.35192e-09
- N = 43 DN = 3.69782e-09 WN = 1.16244e-08
- N = 42 DN = 5.84677e-09 WN = 1.83798e-08
- N = 41 DN = 9.24455e-09 WN = 2.9061e-08
- N = 40 DN = 1.46169e-08 WN = 4.59495e-08
- N = 39 DN = 2.31114e-08 WN = 7.26526e-08
- N = 38 DN = 3.65423e-08 WN = 1.14874e-07
- N = 37 DN = 5.77784e-08 WN = 1.81631e-07
- N = 36 DN = 9.13558e-08 WN = 2.87184e-07
- N = 35 DN = 1.44446e-07 WN = 4.54078e-07
- N = 34 DN = 2.28389e-07 WN = 7.17961e-07
- N = 33 DN = 3.61115e-07 WN = 1.1352e-06
- N = 32 DN = 5.70973e-07 WN = 1.7949e-06
- N = 31 DN = 9.02788e-07 WN = 2.83799e-06
- N = 30 DN = 1.42743e-06 WN = 4.48726e-06
- N = 29 DN = 2.25697e-06 WN = 7.09498e-06
- N = 28 DN = 3.56858e-06 WN = 1.12181e-05
- N = 27 DN = 5.64243e-06 WN = 1.77374e-05
- N = 26 DN = 8.92146e-06 WN = 2.80454e-05
- N = 25 DN = 1.41061e-05 WN = 4.43436e-05
- N = 24 DN = 2.23037e-05 WN = 7.01134e-05
- N = 23 DN = 3.52652e-05 WN = 0.000110859
- N = 22 DN = 5.57591e-05 WN = 0.000175283
- N = 21 DN = 8.81629e-05 WN = 0.000277148
  N = 20 DN = 0.000139398 WN = 0.000438209
  N = 19 DN = 0.000220407 WN = 0.000692869
  N = 18 DN = 0.000348495 WN = 0.00109552
@@ -651,7 +292,8 @@ CalcSpec_ManyOmegas : Positive w
  ... done.
  GSL_Integrator: Reducing error tolerance. 
  GSL_Integrator: Reducing error tolerance. 
-NormInteg= 0.676036
+ GSL_Integrator: Reducing error tolerance. 
+NormInteg= 0.717971
  Calculating Spectral function rho_2_2... 
 CalcSpec_ManyOmegas : Negative w 
  N = 1 DN = 0.840787 WN = 2.64308
@@ -674,71 +316,7 @@ CalcSpec_ManyOmegas : Negative w
  N = 18 DN = 0.000348495 WN = 0.00109552
  N = 19 DN = 0.000220407 WN = 0.000692869
  N = 20 DN = 0.000139398 WN = 0.000438209
- N = 21 DN = 8.81629e-05 WN = 0.000277148
- N = 22 DN = 5.57591e-05 WN = 0.000175283
- N = 23 DN = 3.52652e-05 WN = 0.000110859
- N = 24 DN = 2.23037e-05 WN = 7.01134e-05
- N = 25 DN = 1.41061e-05 WN = 4.43436e-05
- N = 26 DN = 8.92146e-06 WN = 2.80454e-05
- N = 27 DN = 5.64243e-06 WN = 1.77374e-05
- N = 28 DN = 3.56858e-06 WN = 1.12181e-05
- N = 29 DN = 2.25697e-06 WN = 7.09498e-06
- N = 30 DN = 1.42743e-06 WN = 4.48726e-06
- N = 31 DN = 9.02788e-07 WN = 2.83799e-06
- N = 32 DN = 5.70973e-07 WN = 1.7949e-06
- N = 33 DN = 3.61115e-07 WN = 1.1352e-06
- N = 34 DN = 2.28389e-07 WN = 7.17961e-07
- N = 35 DN = 1.44446e-07 WN = 4.54078e-07
- N = 36 DN = 9.13558e-08 WN = 2.87184e-07
- N = 37 DN = 5.77784e-08 WN = 1.81631e-07
- N = 38 DN = 3.65423e-08 WN = 1.14874e-07
- N = 39 DN = 2.31114e-08 WN = 7.26526e-08
- N = 40 DN = 1.46169e-08 WN = 4.59495e-08
- N = 41 DN = 9.24455e-09 WN = 2.9061e-08
- N = 42 DN = 5.84677e-09 WN = 1.83798e-08
- N = 43 DN = 3.69782e-09 WN = 1.16244e-08
- N = 44 DN = 2.33871e-09 WN = 7.35192e-09
- N = 45 DN = 1.47913e-09 WN = 4.64976e-09
- N = 46 DN = 9.35483e-10 WN = 2.94077e-09
- N = 47 DN = 5.91651e-10 WN = 1.85991e-09
- N = 48 DN = 3.74193e-10 WN = 1.17631e-09
- N = 49 DN = 2.36661e-10 WN = 7.43962e-10
- N = 50 DN = 1.49677e-10 WN = 4.70523e-10
- N = 51 DN = 9.46642e-11 WN = 2.97585e-10
- N = 52 DN = 5.98709e-11 WN = 1.88209e-10
 CalcSpec_ManyOmegas : Positive w 
- N = 52 DN = 5.98709e-11 WN = 1.88209e-10
- N = 51 DN = 9.46642e-11 WN = 2.97585e-10
- N = 50 DN = 1.49677e-10 WN = 4.70523e-10
- N = 49 DN = 2.36661e-10 WN = 7.43962e-10
- N = 48 DN = 3.74193e-10 WN = 1.17631e-09
- N = 47 DN = 5.91651e-10 WN = 1.85991e-09
- N = 46 DN = 9.35483e-10 WN = 2.94077e-09
- N = 45 DN = 1.47913e-09 WN = 4.64976e-09
- N = 44 DN = 2.33871e-09 WN = 7.35192e-09
- N = 43 DN = 3.69782e-09 WN = 1.16244e-08
- N = 42 DN = 5.84677e-09 WN = 1.83798e-08
- N = 41 DN = 9.24455e-09 WN = 2.9061e-08
- N = 40 DN = 1.46169e-08 WN = 4.59495e-08
- N = 39 DN = 2.31114e-08 WN = 7.26526e-08
- N = 38 DN = 3.65423e-08 WN = 1.14874e-07
- N = 37 DN = 5.77784e-08 WN = 1.81631e-07
- N = 36 DN = 9.13558e-08 WN = 2.87184e-07
- N = 35 DN = 1.44446e-07 WN = 4.54078e-07
- N = 34 DN = 2.28389e-07 WN = 7.17961e-07
- N = 33 DN = 3.61115e-07 WN = 1.1352e-06
- N = 32 DN = 5.70973e-07 WN = 1.7949e-06
- N = 31 DN = 9.02788e-07 WN = 2.83799e-06
- N = 30 DN = 1.42743e-06 WN = 4.48726e-06
- N = 29 DN = 2.25697e-06 WN = 7.09498e-06
- N = 28 DN = 3.56858e-06 WN = 1.12181e-05
- N = 27 DN = 5.64243e-06 WN = 1.77374e-05
- N = 26 DN = 8.92146e-06 WN = 2.80454e-05
- N = 25 DN = 1.41061e-05 WN = 4.43436e-05
- N = 24 DN = 2.23037e-05 WN = 7.01134e-05
- N = 23 DN = 3.52652e-05 WN = 0.000110859
- N = 22 DN = 5.57591e-05 WN = 0.000175283
- N = 21 DN = 8.81629e-05 WN = 0.000277148
  N = 20 DN = 0.000139398 WN = 0.000438209
  N = 19 DN = 0.000220407 WN = 0.000692869
  N = 18 DN = 0.000348495 WN = 0.00109552
@@ -761,9 +339,7 @@ CalcSpec_ManyOmegas : Positive w
  N = 1 DN = 0.840787 WN = 2.64308
  ... done.
  GSL_Integrator: Reducing error tolerance. 
- GSL_Integrator: Reducing error tolerance. 
- GSL_Integrator: Reducing error tolerance. 
-NormInteg= 0.67674
+NormInteg= 0.733356
  Calculating Spectral function rho_3_3... 
 CalcSpec_ManyOmegas : Negative w 
  N = 1 DN = 0.840787 WN = 2.64308
@@ -786,71 +362,7 @@ CalcSpec_ManyOmegas : Negative w
  N = 18 DN = 0.000348495 WN = 0.00109552
  N = 19 DN = 0.000220407 WN = 0.000692869
  N = 20 DN = 0.000139398 WN = 0.000438209
- N = 21 DN = 8.81629e-05 WN = 0.000277148
- N = 22 DN = 5.57591e-05 WN = 0.000175283
- N = 23 DN = 3.52652e-05 WN = 0.000110859
- N = 24 DN = 2.23037e-05 WN = 7.01134e-05
- N = 25 DN = 1.41061e-05 WN = 4.43436e-05
- N = 26 DN = 8.92146e-06 WN = 2.80454e-05
- N = 27 DN = 5.64243e-06 WN = 1.77374e-05
- N = 28 DN = 3.56858e-06 WN = 1.12181e-05
- N = 29 DN = 2.25697e-06 WN = 7.09498e-06
- N = 30 DN = 1.42743e-06 WN = 4.48726e-06
- N = 31 DN = 9.02788e-07 WN = 2.83799e-06
- N = 32 DN = 5.70973e-07 WN = 1.7949e-06
- N = 33 DN = 3.61115e-07 WN = 1.1352e-06
- N = 34 DN = 2.28389e-07 WN = 7.17961e-07
- N = 35 DN = 1.44446e-07 WN = 4.54078e-07
- N = 36 DN = 9.13558e-08 WN = 2.87184e-07
- N = 37 DN = 5.77784e-08 WN = 1.81631e-07
- N = 38 DN = 3.65423e-08 WN = 1.14874e-07
- N = 39 DN = 2.31114e-08 WN = 7.26526e-08
- N = 40 DN = 1.46169e-08 WN = 4.59495e-08
- N = 41 DN = 9.24455e-09 WN = 2.9061e-08
- N = 42 DN = 5.84677e-09 WN = 1.83798e-08
- N = 43 DN = 3.69782e-09 WN = 1.16244e-08
- N = 44 DN = 2.33871e-09 WN = 7.35192e-09
- N = 45 DN = 1.47913e-09 WN = 4.64976e-09
- N = 46 DN = 9.35483e-10 WN = 2.94077e-09
- N = 47 DN = 5.91651e-10 WN = 1.85991e-09
- N = 48 DN = 3.74193e-10 WN = 1.17631e-09
- N = 49 DN = 2.36661e-10 WN = 7.43962e-10
- N = 50 DN = 1.49677e-10 WN = 4.70523e-10
- N = 51 DN = 9.46642e-11 WN = 2.97585e-10
- N = 52 DN = 5.98709e-11 WN = 1.88209e-10
 CalcSpec_ManyOmegas : Positive w 
- N = 52 DN = 5.98709e-11 WN = 1.88209e-10
- N = 51 DN = 9.46642e-11 WN = 2.97585e-10
- N = 50 DN = 1.49677e-10 WN = 4.70523e-10
- N = 49 DN = 2.36661e-10 WN = 7.43962e-10
- N = 48 DN = 3.74193e-10 WN = 1.17631e-09
- N = 47 DN = 5.91651e-10 WN = 1.85991e-09
- N = 46 DN = 9.35483e-10 WN = 2.94077e-09
- N = 45 DN = 1.47913e-09 WN = 4.64976e-09
- N = 44 DN = 2.33871e-09 WN = 7.35192e-09
- N = 43 DN = 3.69782e-09 WN = 1.16244e-08
- N = 42 DN = 5.84677e-09 WN = 1.83798e-08
- N = 41 DN = 9.24455e-09 WN = 2.9061e-08
- N = 40 DN = 1.46169e-08 WN = 4.59495e-08
- N = 39 DN = 2.31114e-08 WN = 7.26526e-08
- N = 38 DN = 3.65423e-08 WN = 1.14874e-07
- N = 37 DN = 5.77784e-08 WN = 1.81631e-07
- N = 36 DN = 9.13558e-08 WN = 2.87184e-07
- N = 35 DN = 1.44446e-07 WN = 4.54078e-07
- N = 34 DN = 2.28389e-07 WN = 7.17961e-07
- N = 33 DN = 3.61115e-07 WN = 1.1352e-06
- N = 32 DN = 5.70973e-07 WN = 1.7949e-06
- N = 31 DN = 9.02788e-07 WN = 2.83799e-06
- N = 30 DN = 1.42743e-06 WN = 4.48726e-06
- N = 29 DN = 2.25697e-06 WN = 7.09498e-06
- N = 28 DN = 3.56858e-06 WN = 1.12181e-05
- N = 27 DN = 5.64243e-06 WN = 1.77374e-05
- N = 26 DN = 8.92146e-06 WN = 2.80454e-05
- N = 25 DN = 1.41061e-05 WN = 4.43436e-05
- N = 24 DN = 2.23037e-05 WN = 7.01134e-05
- N = 23 DN = 3.52652e-05 WN = 0.000110859
- N = 22 DN = 5.57591e-05 WN = 0.000175283
- N = 21 DN = 8.81629e-05 WN = 0.000277148
  N = 20 DN = 0.000139398 WN = 0.000438209
  N = 19 DN = 0.000220407 WN = 0.000692869
  N = 18 DN = 0.000348495 WN = 0.00109552
@@ -873,9 +385,7 @@ CalcSpec_ManyOmegas : Positive w
  N = 1 DN = 0.840787 WN = 2.64308
  ... done.
  GSL_Integrator: Reducing error tolerance. 
- GSL_Integrator: Reducing error tolerance. 
- GSL_Integrator: Reducing error tolerance. 
-NormInteg= 0.676519
+NormInteg= 0.733656
  Calculating Spectral function rho_4_4... 
 CalcSpec_ManyOmegas : Negative w 
  N = 1 DN = 0.840787 WN = 2.64308
@@ -898,71 +408,7 @@ CalcSpec_ManyOmegas : Negative w
  N = 18 DN = 0.000348495 WN = 0.00109552
  N = 19 DN = 0.000220407 WN = 0.000692869
  N = 20 DN = 0.000139398 WN = 0.000438209
- N = 21 DN = 8.81629e-05 WN = 0.000277148
- N = 22 DN = 5.57591e-05 WN = 0.000175283
- N = 23 DN = 3.52652e-05 WN = 0.000110859
- N = 24 DN = 2.23037e-05 WN = 7.01134e-05
- N = 25 DN = 1.41061e-05 WN = 4.43436e-05
- N = 26 DN = 8.92146e-06 WN = 2.80454e-05
- N = 27 DN = 5.64243e-06 WN = 1.77374e-05
- N = 28 DN = 3.56858e-06 WN = 1.12181e-05
- N = 29 DN = 2.25697e-06 WN = 7.09498e-06
- N = 30 DN = 1.42743e-06 WN = 4.48726e-06
- N = 31 DN = 9.02788e-07 WN = 2.83799e-06
- N = 32 DN = 5.70973e-07 WN = 1.7949e-06
- N = 33 DN = 3.61115e-07 WN = 1.1352e-06
- N = 34 DN = 2.28389e-07 WN = 7.17961e-07
- N = 35 DN = 1.44446e-07 WN = 4.54078e-07
- N = 36 DN = 9.13558e-08 WN = 2.87184e-07
- N = 37 DN = 5.77784e-08 WN = 1.81631e-07
- N = 38 DN = 3.65423e-08 WN = 1.14874e-07
- N = 39 DN = 2.31114e-08 WN = 7.26526e-08
- N = 40 DN = 1.46169e-08 WN = 4.59495e-08
- N = 41 DN = 9.24455e-09 WN = 2.9061e-08
- N = 42 DN = 5.84677e-09 WN = 1.83798e-08
- N = 43 DN = 3.69782e-09 WN = 1.16244e-08
- N = 44 DN = 2.33871e-09 WN = 7.35192e-09
- N = 45 DN = 1.47913e-09 WN = 4.64976e-09
- N = 46 DN = 9.35483e-10 WN = 2.94077e-09
- N = 47 DN = 5.91651e-10 WN = 1.85991e-09
- N = 48 DN = 3.74193e-10 WN = 1.17631e-09
- N = 49 DN = 2.36661e-10 WN = 7.43962e-10
- N = 50 DN = 1.49677e-10 WN = 4.70523e-10
- N = 51 DN = 9.46642e-11 WN = 2.97585e-10
- N = 52 DN = 5.98709e-11 WN = 1.88209e-10
 CalcSpec_ManyOmegas : Positive w 
- N = 52 DN = 5.98709e-11 WN = 1.88209e-10
- N = 51 DN = 9.46642e-11 WN = 2.97585e-10
- N = 50 DN = 1.49677e-10 WN = 4.70523e-10
- N = 49 DN = 2.36661e-10 WN = 7.43962e-10
- N = 48 DN = 3.74193e-10 WN = 1.17631e-09
- N = 47 DN = 5.91651e-10 WN = 1.85991e-09
- N = 46 DN = 9.35483e-10 WN = 2.94077e-09
- N = 45 DN = 1.47913e-09 WN = 4.64976e-09
- N = 44 DN = 2.33871e-09 WN = 7.35192e-09
- N = 43 DN = 3.69782e-09 WN = 1.16244e-08
- N = 42 DN = 5.84677e-09 WN = 1.83798e-08
- N = 41 DN = 9.24455e-09 WN = 2.9061e-08
- N = 40 DN = 1.46169e-08 WN = 4.59495e-08
- N = 39 DN = 2.31114e-08 WN = 7.26526e-08
- N = 38 DN = 3.65423e-08 WN = 1.14874e-07
- N = 37 DN = 5.77784e-08 WN = 1.81631e-07
- N = 36 DN = 9.13558e-08 WN = 2.87184e-07
- N = 35 DN = 1.44446e-07 WN = 4.54078e-07
- N = 34 DN = 2.28389e-07 WN = 7.17961e-07
- N = 33 DN = 3.61115e-07 WN = 1.1352e-06
- N = 32 DN = 5.70973e-07 WN = 1.7949e-06
- N = 31 DN = 9.02788e-07 WN = 2.83799e-06
- N = 30 DN = 1.42743e-06 WN = 4.48726e-06
- N = 29 DN = 2.25697e-06 WN = 7.09498e-06
- N = 28 DN = 3.56858e-06 WN = 1.12181e-05
- N = 27 DN = 5.64243e-06 WN = 1.77374e-05
- N = 26 DN = 8.92146e-06 WN = 2.80454e-05
- N = 25 DN = 1.41061e-05 WN = 4.43436e-05
- N = 24 DN = 2.23037e-05 WN = 7.01134e-05
- N = 23 DN = 3.52652e-05 WN = 0.000110859
- N = 22 DN = 5.57591e-05 WN = 0.000175283
- N = 21 DN = 8.81629e-05 WN = 0.000277148
  N = 20 DN = 0.000139398 WN = 0.000438209
  N = 19 DN = 0.000220407 WN = 0.000692869
  N = 18 DN = 0.000348495 WN = 0.00109552
@@ -986,4 +432,4 @@ CalcSpec_ManyOmegas : Positive w
  ... done.
  GSL_Integrator: Reducing error tolerance. 
  GSL_Integrator: Reducing error tolerance. 
-NormInteg= 0.359034
+NormInteg= 0.387087
