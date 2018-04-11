@@ -1265,17 +1265,17 @@ complex<double> OneChNupPdn_Hm1_DoubleDotMajorana_MatEl(vector<double> Params,
     if ( (ist==23)&&(jst==22) ) cMatEl= -tdots;
 
                //Adding link between dots
-    if ( (ist==8)&&(jst==12) ) cMatEl= tdots;
-    if ( (ist==12)&&(jst==8) ) cMatEl= tdots;
+    if ( (ist==16)&(jst==20) ) cMatEl= tdots;
+    if ( (ist==20)&&(jst==16) ) cMatEl= tdots;
 
-    if ( (ist==9)&&(jst==13) ) cMatEl= -tdots;
-    if ( (ist==13)&&(jst==9) ) cMatEl= -tdots;
+    if ( (ist==17)&&(jst==21) ) cMatEl= -tdots;
+    if ( (ist==21)&&(jst==17) ) cMatEl= -tdots;
 
-    if ( (ist==10)&&(jst==14) ) cMatEl= -tdots;
-    if ( (ist==14)&&(jst==10) ) cMatEl= -tdots;
+    if ( (ist==18)&&(jst==22) ) cMatEl= -tdots;
+    if ( (ist==22)&&(jst==18) ) cMatEl= -tdots;
 
-    if ( (ist==11)&&(jst==15) ) cMatEl= tdots;
-    if ( (ist==15)&&(jst==11) ) cMatEl= tdots;
+    if ( (ist==19)&&(jst==23) ) cMatEl= tdots;
+    if ( (ist==23)&&(jst==19) ) cMatEl= tdots;
 
 
 
