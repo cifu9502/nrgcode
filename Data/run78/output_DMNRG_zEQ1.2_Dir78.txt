@@ -1,6 +1,6 @@
  Inside Mtemp = 1001 betabar = 0.727
  Mtemp = 1001 betabar = 0.727 twindow = 2 dBroad = 0.458145 dBroadTemp = 0.8
- NomegasEachShell = 3 (if =0 then use standard interpolation) 
+ NomegasEachShell = 1 (if =0 then use standard interpolation) 
  Temp = 2.56527e-44 DMtemp = 0.000116056
 Lambda    = 2.5
 Nsites0   = 1
@@ -17,8 +17,9 @@ Oliveira z = 1.2
  NshellMax Files read 
  DM-NRG: Calculating Rho Nmax ...
  Got here 
- TempBar = 2.21037e-40 betabar = 1e+10 ZN = 1 at Nmax. Matrix is complex? 1 Zero Temperature? 1
- DMNRG_SetRhoNmax: non-zero element  ibl= 6 ist= 385 betabar= 1e+10 Ei= 0 auxExp= 1
+ TempBar = 2.21037e-40 betabar = 1e+10 ZN = 1.98808 at Nmax. Matrix is complex? 1 Zero Temperature? 1
+ DMNRG_SetRhoNmax: non-zero element  ibl= 6 ist= 264 betabar= 1e+10 Ei= 1.19904e-12 auxExp= 0.988081
+ DMNRG_SetRhoNmax: non-zero element  ibl= 7 ist= 416 betabar= 1e+10 Ei= 0 auxExp= 1
  ... Rho Nmax done.
  Rho Nshell = 20
 DM-NRG: working on Nshell = 19
@@ -26,177 +27,177 @@ DM-NRG: working on Nshell = 19
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 7.39721 secs. 
+ ... done in 5.62002 secs. 
  ... Rho N done.
- Rho Nshell = 19 completed in 7.50348 secs 
+ Rho Nshell = 19 completed in 5.7217 secs 
 DM-NRG: working on Nshell = 18
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 7.12362 secs. 
+ ... done in 5.79165 secs. 
  ... Rho N done.
- Rho Nshell = 18 completed in 7.2401 secs 
+ Rho Nshell = 18 completed in 5.88598 secs 
 DM-NRG: working on Nshell = 17
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 6.92778 secs. 
+ ... done in 5.49156 secs. 
  ... Rho N done.
- Rho Nshell = 17 completed in 7.04551 secs 
+ Rho Nshell = 17 completed in 5.5988 secs 
 DM-NRG: working on Nshell = 16
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 6.73738 secs. 
+ ... done in 5.43616 secs. 
  ... Rho N done.
- Rho Nshell = 16 completed in 6.85465 secs 
+ Rho Nshell = 16 completed in 5.53072 secs 
 DM-NRG: working on Nshell = 15
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 5.86349 secs. 
+ ... done in 5.48218 secs. 
  ... Rho N done.
- Rho Nshell = 15 completed in 5.96455 secs 
+ Rho Nshell = 15 completed in 5.59095 secs 
 DM-NRG: working on Nshell = 14
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 6.419 secs. 
+ ... done in 5.21207 secs. 
  ... Rho N done.
- Rho Nshell = 14 completed in 6.53721 secs 
+ Rho Nshell = 14 completed in 5.32982 secs 
 DM-NRG: working on Nshell = 13
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 6.16572 secs. 
+ ... done in 5.81344 secs. 
  ... Rho N done.
- Rho Nshell = 13 completed in 6.27814 secs 
+ Rho Nshell = 13 completed in 5.92644 secs 
 DM-NRG: working on Nshell = 12
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 6.4628 secs. 
+ ... done in 5.94227 secs. 
  ... Rho N done.
- Rho Nshell = 12 completed in 6.56559 secs 
+ Rho Nshell = 12 completed in 6.05784 secs 
 DM-NRG: working on Nshell = 11
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 6.26969 secs. 
+ ... done in 5.98341 secs. 
  ... Rho N done.
- Rho Nshell = 11 completed in 6.38207 secs 
+ Rho Nshell = 11 completed in 6.09784 secs 
 DM-NRG: working on Nshell = 10
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 7.36416 secs. 
+ ... done in 5.79589 secs. 
  ... Rho N done.
- Rho Nshell = 10 completed in 7.50113 secs 
+ Rho Nshell = 10 completed in 5.90089 secs 
 DM-NRG: working on Nshell = 9
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 7.33772 secs. 
+ ... done in 5.80649 secs. 
  ... Rho N done.
- Rho Nshell = 9 completed in 7.43931 secs 
+ Rho Nshell = 9 completed in 5.92129 secs 
 DM-NRG: working on Nshell = 8
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 6.63592 secs. 
+ ... done in 6.14899 secs. 
  ... Rho N done.
- Rho Nshell = 8 completed in 6.74181 secs 
+ Rho Nshell = 8 completed in 6.26047 secs 
 DM-NRG: working on Nshell = 7
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 6.73185 secs. 
+ ... done in 6.27581 secs. 
  ... Rho N done.
- Rho Nshell = 7 completed in 6.84839 secs 
+ Rho Nshell = 7 completed in 6.38813 secs 
 DM-NRG: working on Nshell = 6
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 6.2429 secs. 
+ ... done in 6.39117 secs. 
  ... Rho N done.
- Rho Nshell = 6 completed in 6.34295 secs 
+ Rho Nshell = 6 completed in 6.50517 secs 
 DM-NRG: working on Nshell = 5
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 7.02771 secs. 
+ ... done in 6.83544 secs. 
  ... Rho N done.
- Rho Nshell = 5 completed in 7.13359 secs 
+ Rho Nshell = 5 completed in 6.95208 secs 
 DM-NRG: working on Nshell = 4
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 7.82402 secs. 
+ ... done in 7.62168 secs. 
  ... Rho N done.
- Rho Nshell = 4 completed in 7.93445 secs 
+ Rho Nshell = 4 completed in 7.73867 secs 
 DM-NRG: working on Nshell = 3
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 7.77932 secs. 
+ ... done in 6.9228 secs. 
  ... Rho N done.
- Rho Nshell = 3 completed in 7.90198 secs 
+ Rho Nshell = 3 completed in 7.04068 secs 
 DM-NRG: working on Nshell = 2
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 7.46514 secs. 
+ ... done in 6.95072 secs. 
  ... Rho N done.
- Rho Nshell = 2 completed in 7.58239 secs 
+ Rho Nshell = 2 completed in 7.0653 secs 
 DM-NRG: working on Nshell = 1
  DM-NRG: Setting child states... 
  ...Set child states done.
  DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 2.58945 secs. 
+ ... done in 2.47456 secs. 
  ... Rho N done.
- Rho Nshell = 1 completed in 2.61561 secs 
+ Rho Nshell = 1 completed in 2.50125 secs 
  Spectral functions (Working on this)... 
 CalcSpecCosti_T: Implementing it 
 CalcSpecCosti_T: Zero Temp 
  Nomegas = 10 Size of RhowCosti = 10
-RhoCosti0_0(omega= 1.39172 )= 0.0160358
-RhoCosti0_0(omega= -1.39172 )= 0.00637795
-RhoCosti0_0(omega= 0.55669 )= 0.618896
-RhoCosti0_0(omega= -0.55669 )= 0.139516
-RhoCosti0_0(omega= 0.222676 )= 1.55488
-RhoCosti0_0(omega= -0.222676 )= 0.252052
-RhoCosti0_0(omega= 0.0890703 )= 0.645915
-RhoCosti0_0(omega= -0.0890703 )= 0.173164
-RhoCosti0_0(omega= 0.0356281 )= 0.79355
-RhoCosti0_0(omega= -0.0356281 )= 0.246998
-RhoCosti0_0(omega= 0.0142513 )= 2.55126
-RhoCosti0_0(omega= -0.0142513 )= 0.414066
-RhoCosti0_0(omega= 0.0057005 )= 1.22445
-RhoCosti0_0(omega= -0.0057005 )= 0.773917
-RhoCosti0_0(omega= 0.0022802 )= 2.13941
-RhoCosti0_0(omega= -0.0022802 )= 1.17403
-RhoCosti0_0(omega= 0.00091208 )= 2.21217
-RhoCosti0_0(omega= -0.00091208 )= 1.42942
-RhoCosti0_0(omega= 0.000364832 )= 2.14287
-RhoCosti0_0(omega= -0.000364832 )= 1.55024
+RhoCosti0_0(omega= 1.39172 )= 0.0173329
+RhoCosti0_0(omega= -1.39172 )= 0.00604676
+RhoCosti0_0(omega= 0.55669 )= 0.599824
+RhoCosti0_0(omega= -0.55669 )= 0.137332
+RhoCosti0_0(omega= 0.222676 )= 1.62637
+RhoCosti0_0(omega= -0.222676 )= 0.247281
+RhoCosti0_0(omega= 0.0890703 )= 0.650396
+RhoCosti0_0(omega= -0.0890703 )= 0.152471
+RhoCosti0_0(omega= 0.0356281 )= 0.735079
+RhoCosti0_0(omega= -0.0356281 )= 0.207011
+RhoCosti0_0(omega= 0.0142513 )= 2.2888
+RhoCosti0_0(omega= -0.0142513 )= 0.328944
+RhoCosti0_0(omega= 0.0057005 )= 2.488
+RhoCosti0_0(omega= -0.0057005 )= 0.605939
+RhoCosti0_0(omega= 0.0022802 )= 1.59996
+RhoCosti0_0(omega= -0.0022802 )= 0.996225
+RhoCosti0_0(omega= 0.00091208 )= 1.7646
+RhoCosti0_0(omega= -0.00091208 )= 1.31803
+RhoCosti0_0(omega= 0.000364832 )= 1.95441
+RhoCosti0_0(omega= -0.000364832 )= 1.51506
  SaveOmegaRhow Error: Omega_Rhow not set.
  Calculating Spectral function rho_0_0... 
 CalcSpec_ManyOmegas : Negative w 
@@ -244,7 +245,7 @@ CalcSpec_ManyOmegas : Positive w
  ... done.
  GSL_Integrator: Reducing error tolerance. 
  GSL_Integrator: Reducing error tolerance. 
-NormInteg= 0.730819
+NormInteg= 0.995946
  Calculating Spectral function rho_1_1... 
 CalcSpec_ManyOmegas : Negative w 
  N = 1 DN = 0.582787 WN = 1.83204
@@ -290,8 +291,7 @@ CalcSpec_ManyOmegas : Positive w
  N = 1 DN = 0.582787 WN = 1.83204
  ... done.
  GSL_Integrator: Reducing error tolerance. 
- GSL_Integrator: Reducing error tolerance. 
-NormInteg= 0.730549
+NormInteg= 0.999579
  Calculating Spectral function rho_2_2... 
 CalcSpec_ManyOmegas : Negative w 
  N = 1 DN = 0.582787 WN = 1.83204
@@ -338,7 +338,7 @@ CalcSpec_ManyOmegas : Positive w
  ... done.
  GSL_Integrator: Reducing error tolerance. 
  GSL_Integrator: Reducing error tolerance. 
-NormInteg= 0.730819
+NormInteg= 0.995946
  Calculating Spectral function rho_3_3... 
 CalcSpec_ManyOmegas : Negative w 
  N = 1 DN = 0.582787 WN = 1.83204
@@ -384,8 +384,7 @@ CalcSpec_ManyOmegas : Positive w
  N = 1 DN = 0.582787 WN = 1.83204
  ... done.
  GSL_Integrator: Reducing error tolerance. 
- GSL_Integrator: Reducing error tolerance. 
-NormInteg= 0.730549
+NormInteg= 0.999579
  Calculating Spectral function rho_4_4... 
 CalcSpec_ManyOmegas : Negative w 
  N = 1 DN = 0.582787 WN = 1.83204
@@ -432,4 +431,4 @@ CalcSpec_ManyOmegas : Positive w
  ... done.
  GSL_Integrator: Reducing error tolerance. 
  GSL_Integrator: Reducing error tolerance. 
-NormInteg= 0.639
+NormInteg= 0.523312
