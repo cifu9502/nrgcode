@@ -664,14 +664,16 @@ double CNRGarray::Ecut(int Ncut){
 	 << " Ecut+1 = " << aux2 << endl;
     //check for near-degenerate levels
     int ii=1;
-//     while ( (aux2>0.0)&&(fabs((aux2-aux)/aux)<0.001)
-    while ( (aux2>0.0)&&(fabs((aux2-aux)/aux)<0.01)
+//    while ( (aux2>0.0)&&(fabs((aux2-aux)/aux)<0.001)
+while ( (aux2>0.0)&&(fabs((aux2-aux)/aux)<0.01)
 	    &&(ii<Eaux.size()) ){aux2=Eaux[Ncut+ii];ii++;}
-    if (ii>1) {aux=Eaux[Ncut+ii-2];aux2=Eaux[Ncut+ii-1];}
+//    if (ii>1) aux=Eaux[Ncut+ii-2];
+ //   cout << " CNRGarray::Ecut : Ecut = "<< aux << " Nkept = " << Ncut+ii-1 << endl;
+ if (ii>1) {aux=Eaux[Ncut+ii-2];aux2=Eaux[Ncut+ii-1];}
     cout << " CNRGarray::Ecut : New Ecut = "<< aux 
 	 << " New Ecut+1 = " << aux2 
-         << " Nkept = " << Ncut+ii-1 << endl;
-  }
+         << " Nkept = " << Ncut+ii-1 << endl;  
+}
 
   return(aux);
 }

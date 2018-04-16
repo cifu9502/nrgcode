@@ -1192,6 +1192,12 @@ void CSpecFunction::DMNRG_SpecDens_ChkPHS(int Nshell){
 
       int iMatbl=Op1N[Nshell].FindMatBlock(ibl1,ibl2);
 
+	cout << "DMNRG_SpecDens_ChkPHS: Nshell = " << Nshell
+             << " ibl1 = " << ibl1 
+	     << " ibl2 = " << ibl2 
+             << " iMatbl = " << iMatbl
+             << endl;
+
       if (iMatbl>=0){ // Only <ibl1|A|ibl2>
 	
 	if ( (NonDiagGF)&&(Op2N[Nshell].FindMatBlock(ibl2,ibl1)<0) ){
@@ -1202,6 +1208,12 @@ void CSpecFunction::DMNRG_SpecDens_ChkPHS(int Nshell){
 
 	int Nst_bl1=Op1N[Nshell].GetBlockSize(ibl1);  
 	int Nst_bl2=Op1N[Nshell].GetBlockSize(ibl2); 
+
+	cout << "DMNRG_SpecDens_ChkPHS: " 
+             << " Nst_bl1 = " << Nst_bl1 
+             << " Nst_bl2 = " << Nst_bl2
+             << endl; 
+
 
 	// Check block sizes
 	if ( (Nst_bl1!=RhoN[Nshell].GetBlockSize(ibl1))||
@@ -1228,16 +1240,21 @@ void CSpecFunction::DMNRG_SpecDens_ChkPHS(int Nshell){
 
 	// Try something different
 
- 	Rho1=RhoN[Nshell].MatBlock2BLAS(ibl1,ibl1);
+        cout << " Got here -1 " << endl;
+ 	
+        Rho1=RhoN[Nshell].MatBlock2BLAS(ibl1,ibl1);
  	Rho2=RhoN[Nshell].MatBlock2BLAS(ibl2,ibl2);
+
+        cout << " Got here 0 " << endl;
+
 
 	// Debuging
 // 	if ( ((ibl1==3)&&(ibl2==4))|| //  N=5 1000 and 1200 st
 // 	     ((ibl1==4)&&(ibl2==5)) ){
 // 	if ( ((ibl1==2)&&(ibl2==3))|| // 1200 st N=4
 // 	     ((ibl1==7)&&(ibl2==8)) ){
-// 	if ( ((ibl1==2)&&(ibl2==3))|| // 1000 st N =4
-// 	     ((ibl1==5)&&(ibl2==6)) ){
+// 	if ( ((ibl1==0)&&(ibl2==2))|| // 2000 st N = 88
+// 	     ((ibl1==0)&&(ibl2==2)) ){
 // 	  Rho1=RhoN[Nshell].MatBlock2BLAS(ibl1,ibl1);
 // 	  Rho2=RhoN[Nshell].MatBlock2BLAS(ibl2,ibl2);
 //  	  if (ibl1==3){
@@ -1278,6 +1295,7 @@ void CSpecFunction::DMNRG_SpecDens_ChkPHS(int Nshell){
 // 	}
 	/////////// end Debugging
 
+        cout << " Got here I " << endl;
 
 	opA=Op1N[Nshell].MatBlock2BLAS(ibl1,ibl2);
 
@@ -1291,6 +1309,8 @@ void CSpecFunction::DMNRG_SpecDens_ChkPHS(int Nshell){
 
 	// Ok, now separating the contributions instead of doing 
 	// noalias(Rho2)=prod(Sum12,opA); // Sum*A
+
+        cout << " Got here II " << endl;
 
 	double tracePartialPos=0.0;
 	double tracePartialNeg=0.0;
@@ -1320,6 +1340,7 @@ void CSpecFunction::DMNRG_SpecDens_ChkPHS(int Nshell){
 	// end if totalS
 
 
+        cout << " Got here III " << endl;
 
 	for(int np=0;np<Sum12.size1();np++){ // sum in np (Nst_bl2)
 	  double Enp=AcutN[Nshell].dEn[np0+np];

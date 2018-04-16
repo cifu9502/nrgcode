@@ -4,7 +4,7 @@ CLIBDIR=$(HOME)/Cprogs/Clibrary/
 ANDLIBDIR=$(NRGANDDIR)lib/
 DATSDIR=$(NRGANDDIR)Dats/
 
-TWOCHDIR=$(HOME)/nrgcode/TwoChNRG/
+TWOCHDIR=/work/jesus/nrgcode/
 LAPACKDIR=/usr/src/lapack-3.0-5/lapack-3.0/SRC/
 
 

@@ -996,7 +996,7 @@ bool CNRGCodeHandler::CheckFileExists(char arqname[]){
   // ifstream
   ifstream InFile(arqname);
 
-  return(InFile); // casts InFile into bool
+  return((bool) InFile); // casts InFile into bool
 
 }
 

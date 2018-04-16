@@ -37,8 +37,8 @@ for ii in `seq $ni $nf`; do
 ##    cp ./run3/nrg_input_TwoCh.dat ./run$ii
 ##    cp ./run3/Input_Phonon.dat  ./run$ii
 ##    cp ./run1/nrg_input_OneChQS.dat ./run$ii
-    cp ./run3/input_nrg.dat ./run$ii
-    cp ./run3/lanc.in ./run$ii
+    cp ./run1/input_nrg.dat ./run$ii
+    cp ./run1/lanc.in ./run$ii
 #    ln -sf $TWOCHDIR/src/GetEnLevels.sh  ./run$ii/GetEnLevels
     ln -sf $NRGANDDIR/Dats/CalcTK/CalcTK ./run$ii/CalcTK
   fi

@@ -200,11 +200,11 @@ void DM_NRG_CalcSpecFuncs(CNRGCodeHandler* pThisCode,
    spec1.dBroad=0.5*log(pThisCode->Lambda);
 
    // Debugging: Check particle-hole symmetry
-//    for (int Nsh=spec1.NshellMax-2; Nsh>=spec1.NshellMin;Nsh-=2){
-//      cout << " Checking phs for Nshell = : " << Nsh << endl;
-//      spec1.DMNRG_SpecDens_ChkPHS(Nsh);
+   // for (int Nsh=spec1.NshellMax-2; Nsh>=spec1.NshellMin;Nsh-=2){
+   //   cout << " Checking phs for Nshell = : " << Nsh << endl;
+   //   spec1.DMNRG_SpecDens_ChkPHS(Nsh);
 
-//    }
+    //}
    // end check phs
 
 
