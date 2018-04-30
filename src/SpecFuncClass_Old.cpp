@@ -1183,12 +1183,6 @@ void CSpecFunction::DMNRG_SpecDens_ChkPHS(int Nshell){
     return;
   }
 
-  bool UseComplex=false;
-  complex<double> auxC;
-  if ( (RhoN[Nshell].IsComplex)&&(Op1N[Nshell].IsComplex) ){
-    UseComplex=true;
-  }
-  // end check if complex
 
   double auxtracePos=0.0;
   double auxtraceNeg=0.0;
@@ -1197,6 +1191,12 @@ void CSpecFunction::DMNRG_SpecDens_ChkPHS(int Nshell){
     for (int ibl2=0;ibl2<Op1N[Nshell].NumBlocks();ibl2++) {
 
       int iMatbl=Op1N[Nshell].FindMatBlock(ibl1,ibl2);
+
+	cout << "DMNRG_SpecDens_ChkPHS: Nshell = " << Nshell
+             << " ibl1 = " << ibl1 
+	     << " ibl2 = " << ibl2 
+             << " iMatbl = " << iMatbl
+             << endl;
 
       if (iMatbl>=0){ // Only <ibl1|A|ibl2>
 	
@@ -1208,6 +1208,12 @@ void CSpecFunction::DMNRG_SpecDens_ChkPHS(int Nshell){
 
 	int Nst_bl1=Op1N[Nshell].GetBlockSize(ibl1);  
 	int Nst_bl2=Op1N[Nshell].GetBlockSize(ibl2); 
+
+	cout << "DMNRG_SpecDens_ChkPHS: " 
+             << " Nst_bl1 = " << Nst_bl1 
+             << " Nst_bl2 = " << Nst_bl2
+             << endl; 
+
 
 	// Check block sizes
 	if ( (Nst_bl1!=RhoN[Nshell].GetBlockSize(ibl1))||
@@ -1221,119 +1227,34 @@ void CSpecFunction::DMNRG_SpecDens_ChkPHS(int Nshell){
 	  return;
 	}
 
+	// Blas matrices
+	boost::numeric::ublas::matrix<double> Rho1(Nst_bl1,Nst_bl1);
+	boost::numeric::ublas::matrix<double> Rho2(Nst_bl2,Nst_bl2);
 
-	// Ok, now separating the contributions
+	boost::numeric::ublas::matrix<double> opAw(Nst_bl1,Nst_bl2);
+	boost::numeric::ublas::matrix<double> opA(Nst_bl1,Nst_bl2);
 
-	// Calculating the CGfactor
+	boost::numeric::ublas::matrix<double> opB(Nst_bl2,Nst_bl1);
 
-	// SU(2) symmetry: <ibl1|A|ibl2> (or <ibl2|B|ibl1> )
-	// auxCG1= sum_Szilb1 CGordan(Sibl1, Szibl1, 0.5, sigma, Sibl2, Szibl2=sigma+Szibl1)
-	double CGfactor=1.0;
-	// Get S from ibl
-	double Sbl1=0.0;
-	double Sbl2=0.0;
-	if (AcutN[Nshell].totalS){
-	  CGfactor=0.0;
-	  Sbl1=AcutN[Nshell].GetQNumber(ibl1,AcutN[Nshell].Sqnumbers[0]); 
-	  Sbl2=AcutN[Nshell].GetQNumber(ibl2,AcutN[Nshell].Sqnumbers[0]); 
-	  // only a single SU(2) for now
-	  for (double Szbl1=-Sbl1;Szbl1<=Sbl1;Szbl1+=1.0){
-	    double dSigma=0.5; 
-	    double Szbl2=Szbl1+dSigma;
-	    double auxCG=CGordan(Sbl1,Szbl1, 0.5, dSigma, Sbl2, Szbl2);
-	    CGfactor+=auxCG*auxCG;
-	  }
-	  if (dEqual(CGfactor,0.0)){cout << "Ops. CGfactor = 0.0 " << endl;}
-	}
-	// end if totalS
+	boost::numeric::ublas::matrix<double> Sum12(Nst_bl2,Nst_bl1);
 
-	// Calculating the traces
+	// Try something different
 
+        cout << " Got here -1 " << endl;
+ 	
+        Rho1=RhoN[Nshell].MatBlock2BLAS(ibl1,ibl1);
+ 	Rho2=RhoN[Nshell].MatBlock2BLAS(ibl2,ibl2);
 
-	double tracePartialPos=0.0;
-	double tracePartialNeg=0.0;
+        cout << " Got here 0 " << endl;
 
-	int nn0=AcutN[Nshell].GetBlockLimit(ibl1,0);
-	int np0=AcutN[Nshell].GetBlockLimit(ibl2,0);
-
-	if ( UseComplex ){
-	  
-	  //////
-	  /// COMPLEX operators
-	  /////
-
-
-	  // Blas matrices
-	  boost::numeric::ublas::matrix<complex<double> > cRho1(Nst_bl1,Nst_bl1);
-	  boost::numeric::ublas::matrix<complex<double> > cRho2(Nst_bl2,Nst_bl2);
-
-	  boost::numeric::ublas::matrix<complex<double> > copAw(Nst_bl1,Nst_bl2);
-	  boost::numeric::ublas::matrix<complex<double> > copA(Nst_bl1,Nst_bl2);
-
-	  boost::numeric::ublas::matrix<complex<double> > copB(Nst_bl2,Nst_bl1);
-
-	  boost::numeric::ublas::matrix<complex<double> > cSum12(Nst_bl2,Nst_bl1);
-
-
-	  cRho1=RhoN[Nshell].cMatBlock2BLAS(ibl1,ibl1);
-	  cRho2=RhoN[Nshell].cMatBlock2BLAS(ibl2,ibl2);
-
-	  copA=Op1N[Nshell].cMatBlock2BLAS(ibl1,ibl2);
-
-	  if (NonDiagGF)
-	    copB=Op2N[Nshell].cMatBlock2BLAS(ibl2,ibl1);
-	  else
-	    copB=trans(copA); // B=A^\dagger
- 
-	  // Positive and negative energies matrix elements
-	  noalias(cSum12)=prod(copB,cRho1)+prod(cRho2,copB); // Nst2 x Nst1 matrix
-
-	  for(int np=0;np<Nst_bl2;np++){ // sum in np (Nst_bl2)
-	    double Enp=AcutN[Nshell].dEn[np0+np];
-	    for(int nn=0;nn<Nst_bl1;nn++){ // sum in n (Nst_bl1)
-	      double En=AcutN[Nshell].dEn[nn0+nn];
-	      auxC=cSum12(np,nn)*copA(nn,np);
-	      if (Enp>En)
-		//tracePartialPos+=Sum12(np,nn)*opA(nn,np);
-		tracePartialPos+=CGfactor*auxC.real();
-	      else
-		tracePartialNeg+=CGfactor*auxC.real();
-	    }
-	    // end loop in ibl1 states (nn)
-	  }
-	  // end loop in ibl2 states (np)
-
-
-
-
-
-	} else {
-
-	  ///////// Real operators ////////////
-
-	  // Blas matrices
-	  boost::numeric::ublas::matrix<double> Rho1(Nst_bl1,Nst_bl1);
-	  boost::numeric::ublas::matrix<double> Rho2(Nst_bl2,Nst_bl2);
-
-	  boost::numeric::ublas::matrix<double> opAw(Nst_bl1,Nst_bl2);
-	  boost::numeric::ublas::matrix<double> opA(Nst_bl1,Nst_bl2);
-
-	  boost::numeric::ublas::matrix<double> opB(Nst_bl2,Nst_bl1);
-
-	  boost::numeric::ublas::matrix<double> Sum12(Nst_bl2,Nst_bl1);
-
-	  // Try something different
-
-	  Rho1=RhoN[Nshell].MatBlock2BLAS(ibl1,ibl1);
-	  Rho2=RhoN[Nshell].MatBlock2BLAS(ibl2,ibl2);
 
 	// Debuging
 // 	if ( ((ibl1==3)&&(ibl2==4))|| //  N=5 1000 and 1200 st
 // 	     ((ibl1==4)&&(ibl2==5)) ){
 // 	if ( ((ibl1==2)&&(ibl2==3))|| // 1200 st N=4
 // 	     ((ibl1==7)&&(ibl2==8)) ){
-// 	if ( ((ibl1==2)&&(ibl2==3))|| // 1000 st N =4
-// 	     ((ibl1==5)&&(ibl2==6)) ){
+// 	if ( ((ibl1==0)&&(ibl2==2))|| // 2000 st N = 88
+// 	     ((ibl1==0)&&(ibl2==2)) ){
 // 	  Rho1=RhoN[Nshell].MatBlock2BLAS(ibl1,ibl1);
 // 	  Rho2=RhoN[Nshell].MatBlock2BLAS(ibl2,ibl2);
 //  	  if (ibl1==3){
@@ -1374,38 +1295,68 @@ void CSpecFunction::DMNRG_SpecDens_ChkPHS(int Nshell){
 // 	}
 	/////////// end Debugging
 
+        cout << " Got here I " << endl;
 
-	    opA=Op1N[Nshell].MatBlock2BLAS(ibl1,ibl2);
+	opA=Op1N[Nshell].MatBlock2BLAS(ibl1,ibl2);
 
-	    if (NonDiagGF)
-	      opB=Op2N[Nshell].MatBlock2BLAS(ibl2,ibl1);
-	    else
-	      opB=trans(opA); // B=A^\dagger
+	if (NonDiagGF)
+	  opB=Op2N[Nshell].MatBlock2BLAS(ibl2,ibl1);
+	else
+	  opB=trans(opA); // B=A^\dagger
  
-	    // Positive and negative energies matrix elements
-	    noalias(Sum12)=prod(opB,Rho1)+prod(Rho2,opB); // Nst2 x Nst1 matrix
+	// Positive and negative energies matrix elements
+	noalias(Sum12)=prod(opB,Rho1)+prod(Rho2,opB); // Nst2 x Nst1 matrix
 
+	// Ok, now separating the contributions instead of doing 
+	// noalias(Rho2)=prod(Sum12,opA); // Sum*A
 
-	    for(int np=0;np<Nst_bl2;np++){ // sum in np (Nst_bl2)
-	      double Enp=AcutN[Nshell].dEn[np0+np];
-	      for(int nn=0;nn<Nst_bl1;nn++){ // sum in n (Nst_bl1)
-		double En=AcutN[Nshell].dEn[nn0+nn];
-		if (Enp>En)
-		  //tracePartialPos+=Sum12(np,nn)*opA(nn,np);
-		  tracePartialPos+=CGfactor*Sum12(np,nn)*opA(nn,np);
-		else
-		  //tracePartialNeg+=Sum12(np,nn)*opA(nn,np);
-		  tracePartialNeg+=CGfactor*Sum12(np,nn)*opA(nn,np);
-	      }
-	      // end loop in ibl1 states (nn)
-	    }
-	    // end loop in ibl2 states (np)
+        cout << " Got here II " << endl;
 
+	double tracePartialPos=0.0;
+	double tracePartialNeg=0.0;
+
+	int nn0=AcutN[Nshell].GetBlockLimit(ibl1,0);
+	int np0=AcutN[Nshell].GetBlockLimit(ibl2,0);
+
+	// SU(2) symmetry: <ibl1|A|ibl2> (or <ibl2|B|ibl1> )
+	// auxCG1= sum_Szilb1 CGordan(Sibl1, Szibl1, 0.5, sigma, Sibl2, Szibl2=sigma+Szibl1)
+	double CGfactor=1.0;
+	// Get S from ibl
+	double Sbl1=0.0;
+	double Sbl2=0.0;
+	if (AcutN[Nshell].totalS){
+	  CGfactor=0.0;
+	  Sbl1=AcutN[Nshell].GetQNumber(ibl1,AcutN[Nshell].Sqnumbers[0]); 
+	  Sbl2=AcutN[Nshell].GetQNumber(ibl2,AcutN[Nshell].Sqnumbers[0]); 
+	  // only a single SU(2) for now
+	  for (double Szbl1=-Sbl1;Szbl1<=Sbl1;Szbl1+=1.0){
+	    double dSigma=0.5; 
+	    double Szbl2=Szbl1+dSigma;
+	    double auxCG=CGordan(Sbl1,Szbl1, 0.5, dSigma, Sbl2, Szbl2);
+	    CGfactor+=auxCG*auxCG;
+	  }
+	  if (dEqual(CGfactor,0.0)){cout << "Ops. CGfactor = 0.0 " << endl;}
 	}
-	/////// END IF REAL OPERATORS
+	// end if totalS
 
 
+        cout << " Got here III " << endl;
 
+	for(int np=0;np<Sum12.size1();np++){ // sum in np (Nst_bl2)
+	  double Enp=AcutN[Nshell].dEn[np0+np];
+	  for(int nn=0;nn<Sum12.size2();nn++){ // sum in n (Nst_bl1)
+	    double En=AcutN[Nshell].dEn[nn0+nn];
+	    if (Enp>En)
+	      //tracePartialPos+=Sum12(np,nn)*opA(nn,np);
+	      tracePartialPos+=CGfactor*Sum12(np,nn)*opA(nn,np);
+	    else
+	      //tracePartialNeg+=Sum12(np,nn)*opA(nn,np);
+	      tracePartialNeg+=CGfactor*Sum12(np,nn)*opA(nn,np);
+
+	  }
+	  // end loop in ibl1 states (nn)
+	}
+	// end loop in ibl2 states (np)
 
 	cout << " ibl1 = " << ibl1 
 	     << " ibl2 = " << ibl2 
