@@ -665,7 +665,7 @@ double CNRGarray::Ecut(int Ncut){
     //check for near-degenerate levels
     int ii=1;
 //    while ( (aux2>0.0)&&(fabs((aux2-aux)/aux)<0.001)
-while ( (aux2>0.0)&&(fabs((aux2-aux)/aux)<0.01)
+	while ( (aux2>0.0)&&(fabs((aux2-aux)/aux)<0.01)
 	    &&(ii<Eaux.size()) ){aux2=Eaux[Ncut+ii];ii++;}
 //    if (ii>1) aux=Eaux[Ncut+ii-2];
  //   cout << " CNRGarray::Ecut : Ecut = "<< aux << " Nkept = " << Ncut+ii-1 << endl;
