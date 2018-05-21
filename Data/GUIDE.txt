@@ -34,7 +34,7 @@ HOPEFULLY OK
 30-34
 t_1 = 0.2
 t_2 = 0 , 0.005 , 0.01 , 0.015 , 0.02
-Gamma_2 = 0
+Gamma_2 = GAMMA1
 U = E =NOT 0
 
 35-39
@@ -50,33 +50,28 @@ E = -.25 , -.20 , -.15 , -.10 , -.5 , .0
 
 46-50
 t_2 = 0.02 STATIC
-Gamma_2 = 0
+Gamma_2 = GAMMA1
 U = .5
 E2 = -.25 , -.20 , -.15 , -.10 , -.5 
 
 55-60
 ed1 = ed_2 = 0.25 STATIC
-Gamma_2 = 0
+Gamma_2 = GAMMA1
 U = .5
 t1 = t2 = 0 , 0.005 , 0.01 , 0.015 , 0.02 
 
 
 60-67
 t_2 = 0.02 = t1 STATIC
-Gamma_2 = 0
+Gamma_2 = GAMMA1
 U = .5
 E2 = -.25 , -.20 , -.15 , -.10 , -.5 , 0 , .5
 
-70-75    Z-TRICK
-t_2 = 0.02 STATIC
-Gamma_2 = 0
-U = .5
-E = -.25 , -.20 , -.15 , -.10 , -.5 
 
 NEW IMPLEMENTATION
 70-75    
 t_2 = 0.02 STATIC
-Gamma_2 = 0
+Gamma_2 = GAMMA1
 U = .5 , .4 , .3 ,. 2 , .1
 E = -.25 , -.20 , -.15 , -.10 , -.5 
 
@@ -139,5 +134,30 @@ t_2 = 0.02 STATIC
 Gamma_2 = 0
 U = .5
 Gamma= 0.028 , 0.058 , 0.088 , 0.108 
+
+
+230-239
+t_1 = 0.2
+t_2 = FROM 0.0 TO 0.025 - 10 POINTS 
+Gamma_2 = GAMMA1
+U = E =NOT 0
+
+255-260
+ed1 = ed_2 = 0.25 STATIC
+Gamma_2 = GAMMA1
+U = .5
+t1 = t2 FROM 0.0225 TO 0.025 - 5 POINTS 
+
+
+261-269
+t_2 = 0.02 = t1 STATIC
+Gamma_2 = GAMMA1
+U = .5
+E2 = FROM -0.25 TO 0.5 - 10 POINTS
+
+270-279    Z-TRICK
+t_2 = 0.02 STATIC
+Gamma_2 = GAMMA1
+E = -U/2 FROM -0.25 TO 0.5 - 10 POINTS
 
 
