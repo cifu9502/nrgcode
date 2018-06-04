@@ -2673,25 +2673,32 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   double gammatilde2=Params[9]*sqrt(0.5*log(Lambda)*(Lambda+1)/(Lambda-1));
   double ed2=Params[10]/(Lambda*HalfLambdaFactor);
   double tdots=Params[11]/(Lambda*HalfLambdaFactor);
+  //double em=0.0;
+  double em = Params[12]/(Lambda*HalfLambdaFactor);
+  double phi1 = Params[13]/(Lambda*HalfLambdaFactor);
+  double phi2 = Params[14]/(Lambda*HalfLambdaFactor);
+  double eta1 = Params[15]/(Lambda*HalfLambdaFactor);
+  double eta2 = Params[16]/(Lambda*HalfLambdaFactor);
 
-  double phi_mag=0.0;
-  double em=0.0;
 
-
-
-  //NEW CODE, I START BY ADDING SOME MISSING PARAMETERS, THE PARAMETERS OF THE SECOND QD WILL BE INITIALIZED EQUAL TO THE FIRST ONE
+  //Nrams.push_back(dInitParams[10]); // em
+  //        Params.push_back(dInitParams[11]); // phi1
+  //                Params.push_back(dInitParams[12]); // phi2
+  //                        Params.push_back(dInitParams[13]); // eta1
+  //                                Params.push_back(dInitParams[14]); // eta2    
+  //EW CODE, I START BY ADDING SOME MISSING PARAMETERS, THE PARAMETERS OF THE SECOND QD WILL BE INITIALIZED EQUAL TO THE FIRST ONE
   //double tdots = t1+t2;
 
   //double t11 = t1;
   //double t12 = 0;
-	double t11 = t1;
-	double t12 = 0;
-
+  double t11 = t1;
+  double t12 = eta1;
+  double phi_mag = phi1;
   //  double U2 = Utilde;
   //double ed2 = edtilde;
   double t21 = t2;
-  double t22 = 0;
-  double phi_mag2 = 0;
+  double t22 = eta2;
+  double phi_mag2 = phi2;
 
   double Uplus = U1 + U2;
   double edplus = ed2 + ed1;
@@ -2708,12 +2715,12 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
 	<< " ed1~= " << ed1
 	<< " ed2~= " << ed2
 	<< " hz~= " << hz << endl
-	<< " t11~= " << t1
-	<< " t21~= " << t2
-	<< " phimag= " << phi_mag
+	<< " t1~= " << t1
+	<< " t2~= " << t2
+	<< " phimag1= " << phi_mag
 	<< " em~= " << em
-	<< " t12~= " << t12
-	<< " t22~= " << t22
+	<< " eta1~= " << t12
+	<< " eta2~= " << t22
 	<< " phimag2= " << phi_mag2
 	<< " U+~= " << Uplus
 	<< " ed+~= " << edplus

@@ -1545,8 +1545,12 @@ void CNRGCodeHandler::ModelSwitch(  vector<int> &CommonQNs,
 	Params.push_back(chi2_m1); // Gamma2
 	Params.push_back(dInitParams[8]); // ed2
 	Params.push_back(dInitParams[9]); // tdots
-
-	// Initialize matrices 
+	Params.push_back(dInitParams[10]); // em
+	Params.push_back(dInitParams[11]); // phi1
+	Params.push_back(dInitParams[12]); // phi2
+        Params.push_back(dInitParams[13]); // eta1
+	Params.push_back(dInitParams[14]); // eta2	
+// Initialize matrices 
 	// fd_up
 	STLMatArray[0].NeedOld=false;	  
  	STLMatArray[0].CheckForMatEl=OneChNupPdn_cdup_check;
