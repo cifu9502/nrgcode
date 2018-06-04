@@ -1,0 +1,26 @@
+ Inside Mtemp = 1001 betabar = 0.727
+ Mtemp = 1001 betabar = 0.727 twindow = 2 dBroad = 0.458145 dBroadTemp = 0.8
+ NomegasEachShell = 5 (if =0 then use standard interpolation) 
+ Temp = 2.75444e-50 DMtemp = 1.24614e-10
+Lambda    = 2.5
+Nsites0   = 1
+Nsitesmax = 51
+NFermiOps = 5
+Ext arq   = test
+Symmetry  = 6
+ DM-NRG: Only 1chQSz and 1chQ symmetries supported at this point. Testing QS symmetry now...
+Oliveira z = 1.2
+ SetSingleSite begin... 
+ Got OneChNupPdn 
+ .. SetSingleSite done!
+ Reading bin Files for NshellMax = 50
+ReadBin: Cannot read data in Abasis_test_N50.bin
+ReadBin: Cannot read data in Acut_test_N50.bin
+ReadBin: Cannot read data in Mat0_test_N50.bin
+ReadBin: Cannot read data in Mat1_test_N50.bin
+ReadBin: Cannot read data in Mat2_test_N50.bin
+ReadBin: Cannot read data in Mat3_test_N50.bin
+ReadBin: Cannot read data in Mat4_test_N50.bin
+ NshellMax Files read 
+ DM-NRG: Calculating Rho Nmax ...
+ Got here 
