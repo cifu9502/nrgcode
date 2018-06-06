@@ -67,6 +67,7 @@ void CNRGCodeHandler::InitialSetUp(bool ReadParamsOnly){
     if (SymNo==2){NoInputParamsDouble=9;} // Add lambda, B1, B2
     break;
   case 7: // Majorana
+    
     NoInputParamsDouble=15;
     break;
 
