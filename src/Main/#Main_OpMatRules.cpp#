@@ -22,8 +22,8 @@
 
 //   double Qi=pAeigCut->GetQNumber(iblock1,0);
 //   double Qj=pAeigCut->GetQNumber(iblock2,0);
-  
-//   if ( dEqual(Qj,(Qi+1.0)) ) 
+
+//   if ( dEqual(Qj,(Qi+1.0)) )
 //     return(true);
 //   else
 //     return(false);
@@ -43,10 +43,10 @@
 //   double Qj=pAeigCut->GetQNumber(iblock2,0);
 //   double Szj=pAeigCut->GetQNumber(iblock2,1);
 
-  
+
 //   if (  (dEqual(Qj,(Qi+1.0)))&&
 // 	( (dEqual(Szj,(Szi+0.5)))||(dEqual(Szj,(Szi-0.5))) )
-// 	) 
+// 	)
 //     return(true);
 //   else
 //     return(false);
@@ -75,11 +75,11 @@
 // Use TwoChQS_cd_check(CNRGbasisarray *pAeigCut, int iblock1, int iblock2)
 // for check
 
-double TwoChQSNoSz_fm1_dot1up_MatEl(CNRGbasisarray* pAbasis, 
+double TwoChQSNoSz_fm1_dot1up_MatEl(CNRGbasisarray* pAbasis,
 				  CNRGbasisarray* pSingleSite,
 				  int ist, int jst)
 {
-  // Basis has the SAME structure as TwoChQS_SingleSite. 
+  // Basis has the SAME structure as TwoChQS_SingleSite.
   /// Let's use that
   // channel 1 <-> dot 1
   return(TwoChQS_fd_table(1,1,jst,ist));
@@ -87,19 +87,19 @@ double TwoChQSNoSz_fm1_dot1up_MatEl(CNRGbasisarray* pAbasis,
 }
 
 ///
-double TwoChQSNoSz_fm1_dot1dn_MatEl(CNRGbasisarray* pAbasis, 
+double TwoChQSNoSz_fm1_dot1dn_MatEl(CNRGbasisarray* pAbasis,
 				  CNRGbasisarray* pSingleSite,
 				  int ist, int jst)
   {return(TwoChQS_fd_table(1,-1,jst,ist));}
 
 ///
-double TwoChQSNoSz_fm1_dot2up_MatEl(CNRGbasisarray* pAbasis, 
+double TwoChQSNoSz_fm1_dot2up_MatEl(CNRGbasisarray* pAbasis,
 				  CNRGbasisarray* pSingleSite,
 				  int ist, int jst)
   {return(TwoChQS_fd_table(2,1,jst,ist));}
 
 ///
-double TwoChQSNoSz_fm1_dot2dn_MatEl(CNRGbasisarray* pAbasis, 
+double TwoChQSNoSz_fm1_dot2dn_MatEl(CNRGbasisarray* pAbasis,
 				  CNRGbasisarray* pSingleSite,
 				  int ist, int jst)
   {return(TwoChQS_fd_table(2,-1,jst,ist));}
@@ -127,14 +127,14 @@ double TwoChQSNoSz_fm1_dot2dn_MatEl(CNRGbasisarray* pAbasis,
 
 
 double TwoChQSNoSz_Hm1SMM_MatEl(vector<double> Params,
-		       CNRGbasisarray* pAbasis, 
+		       CNRGbasisarray* pAbasis,
 		       CNRGbasisarray* pSingleSite,
 		       CNRGmatrix* MatArray,
 		       int ist, int jst)
 {
 
   // August 08
-  // Calculates matrix elements for H0SMM 
+  // Calculates matrix elements for H0SMM
   // Sz enters in pAbasis->iDegen[i]/10
 
   double MatEl=0.0;
@@ -154,7 +154,7 @@ double TwoChQSNoSz_Hm1SMM_MatEl(vector<double> Params,
 
   double BmagPar=Params[7];
   double BmagPerp=Params[8];
- 
+
   double Dz=Params[9];
   double B2=Params[10];
 
@@ -190,15 +190,15 @@ double TwoChQSNoSz_Hm1SMM_MatEl(vector<double> Params,
   double HJ[16]={0.0,0.0,0.0,0.0,0.0,-3.0*J12/4.0,0.0,0.0,
 		 J12/4.0,J12/4.0,J12/4.0,0.0,0.0,0.0,0.0,0.0};
 
-//   cout << " Ed1 = "; 
+//   cout << " Ed1 = ";
 //   for (int ii=0;ii<16;ii++) cout << Hd1[ii] << "  ";
 //   cout << endl;
 
-//   cout << " Ed2 = "; 
+//   cout << " Ed2 = ";
 //   for (int ii=0;ii<16;ii++) cout << Hd2[ii] << "  ";
 //   cout << endl;
 
-//   cout << " EJ = "; 
+//   cout << " EJ = ";
 //   for (int ii=0;ii<16;ii++) cout << HJ[ii] << "  ";
 //   cout << endl;
 
@@ -219,13 +219,13 @@ double TwoChQSNoSz_Hm1SMM_MatEl(vector<double> Params,
   double Szi=(double)(iSzi/10);
   double Szj=(double)(iSzj/10);
 
-  
+
 //   cout << " iSzi = " << iSzi
-//        << " iSzj = " << iSzj 
-//        << " Si = " << Si 
-//        << " Szi = " << Szi 
+//        << " iSzj = " << iSzj
+//        << " Si = " << Si
+//        << " Szi = " << Szi
 //        << " Szj = " << Szj
-//        << endl; 
+//        << endl;
 
   if (ist==jst)
     {
@@ -238,9 +238,9 @@ double TwoChQSNoSz_Hm1SMM_MatEl(vector<double> Params,
 //       cout << " Si*(Si+1.0)-Szj*(Szj-1.0) = " << Si*(Si+1.0)-Szj*(Szj-1.0) << endl;
 
       if (abs(iSzi-iSzj)==10) MatEl=BmagPerp;
-      if (iSzi==(iSzj+20)) 
+      if (iSzi==(iSzj+20))
 	MatEl=B2*sqrt(Si*(Si+1.0)-Szj*(Szj+1.0))*sqrt(Si*(Si+1.0)-(Szj+2.0)*(Szj+1.0));
-      if (iSzi==(iSzj-20)) 
+      if (iSzi==(iSzj-20))
 	MatEl=B2*sqrt(Si*(Si+1.0)-Szj*(Szj-1.0))*sqrt(Si*(Si+1.0)-(Szj-2.0)*(Szj-1.0));
     }
 
@@ -259,7 +259,7 @@ double TwoChQSNoSz_Hm1SMM_MatEl(vector<double> Params,
 
 
 double OneChQ_H0SMM_MatEl(vector<double> Params,
-			  CNRGbasisarray* pAbasis, 
+			  CNRGbasisarray* pAbasis,
 			  CNRGbasisarray* pSingleSite,
 			  CNRGmatrix* fHm1Array,
 			  int ist, int jst){
@@ -317,7 +317,7 @@ double OneChQ_H0SMM_MatEl(vector<double> Params,
 	      double FermiSign=1.0;
 	      if (dEqual(Qtilde,0.0)) FermiSign=-1.0;
 
-// 	      	  cout << " ist = " << ist 
+// 	      	  cout << " ist = " << ist
 // 	      	       << " jst = " << jst
 // 	      	       << " stcf_i = " << stcf_i
 // 	      	       << " stcf_j = " << stcf_j
@@ -325,11 +325,11 @@ double OneChQ_H0SMM_MatEl(vector<double> Params,
 // 	      	       << " type_j = " << type_j
 // 	      	       << " sigma = " << isigma << endl;
 // 	      	  cout << " typep = " << typep
-// 	      	       << " type = " << type 
+// 	      	       << " type = " << type
 // 	      	       << " OldEl = " << OldEl
 // 	      	       << endl;
 // 	      	  cout << " fd_table = "
-// 	      	       << OneCh_fd_table(isigma,typep,type) 
+// 	      	       << OneCh_fd_table(isigma,typep,type)
 // 	      	       << endl;
 // 	      	  cout << " Qtilde = " << Qtilde << endl;
 // 	      	  cout << " FermiSign = " << FermiSign << endl;
@@ -341,7 +341,7 @@ double OneChQ_H0SMM_MatEl(vector<double> Params,
 	      imat++;
 
 	    }
-	  // End sum over isigma     
+	  // End sum over isigma
 	}
       // End sum over dots
 
@@ -364,7 +364,7 @@ double OneChQ_H0SMM_MatEl(vector<double> Params,
 
 
 double TwoChQSP_H0ph_MatEl(vector<double> Params,
-		       CNRGbasisarray* pAbasis, 
+		       CNRGbasisarray* pAbasis,
 		       CNRGbasisarray* pSingleSite,
 		       CNRGmatrix* MatArray,
 		       int ist, int jst)
@@ -390,7 +390,7 @@ double TwoChQSP_H0ph_MatEl(vector<double> Params,
   int mj=pAbasis->iDegen[jst];
 
   double delta_mimj=(mi==mj)?1.0:0.0;
-  
+
   // Phonon Mat el
 
   double phonon_matel=Calc_apad((double)mi, (double)mj);
@@ -452,7 +452,7 @@ double TwoChQSP_H0ph_MatEl(vector<double> Params,
 ///
 
 double OneChQS_H0DQD_MatEl(vector<double> Params,
-			  CNRGbasisarray* pAbasis, 
+			  CNRGbasisarray* pAbasis,
 			  CNRGbasisarray* pSingleSite,
 			  CNRGmatrix* MatArray,
 			  int ist, int jst){
@@ -460,7 +460,7 @@ double OneChQS_H0DQD_MatEl(vector<double> Params,
   // Sep 09
   // Calculates matrix elements for H0 (DQD+site) in the QS basis.
   //
-  // Parameters: 
+  // Parameters:
   //  chi1        - Params[0]
   //  chi2        - Params[1]
   //  <Qm1 S +/-1/2|| f1 |Q S> - MatArray[0] (reduced)
@@ -484,7 +484,7 @@ double OneChQS_H0DQD_MatEl(vector<double> Params,
 
 
   double OldEl[2]={0.0,0.0};
-  
+
   // Includes the possibility of partiy/Other QNs
   int NqnsSite=pSingleSite->NQNumbers;
   double* siteqnumsp=new double [NqnsSite];
@@ -499,7 +499,7 @@ double OneChQS_H0DQD_MatEl(vector<double> Params,
   else{
     int typei=pAbasis->iType[ist];
     int stcfi=pAbasis->StCameFrom[ist];
-    
+
     int typej=pAbasis->iType[jst];
     int stcfj=pAbasis->StCameFrom[jst];
 
@@ -575,7 +575,7 @@ double OneChQS_H0DQD_MatEl(vector<double> Params,
 	    // CG coefs
 	    auxCG[0]=CGordan(Sold,Szold,
 			     Stilde,Sztilde,
-			     Si,Si);				 
+			     Si,Si);
 
 	    auxCG[1]=CGordan(Soldp,Szoldp,
 			     Stildep,Sztildep,
@@ -584,8 +584,8 @@ double OneChQS_H0DQD_MatEl(vector<double> Params,
 	    auxCG[2]=CGordan(Soldp,Szoldp,
 			     0.5,dSigma,
 			     Sold,Szold);
-				  
-	    auxCG[3]=OneCh_fd_table(sigma,sitestatep,sitestate); 
+
+	    auxCG[3]=OneCh_fd_table(sigma,sitestatep,sitestate);
 
 	    FullMatEl+=auxCG[0]*auxCG[1]*auxCG[2]*auxCG[3]*FermiSign;
 
@@ -634,7 +634,7 @@ double OneChQS_H0DQD_MatEl(vector<double> Params,
 ///
 
 double TwoDotQSz_Hm1_MatEl(vector<double> Params,
-			  CNRGbasisarray* pAbasis, 
+			  CNRGbasisarray* pAbasis,
 			  CNRGbasisarray* pSingleSite,
 			  CNRGmatrix* MatArray,
 			  int ist, int jst){
@@ -642,7 +642,7 @@ double TwoDotQSz_Hm1_MatEl(vector<double> Params,
   // Oct 11
   // Calculates matrix elements for Hm1 (DQD) in the QSz basis.
   //
-  // Parameters: 
+  // Parameters:
   //  small_lambda  - Params[0]
   // Abasis       - DQD with small_lambda=0
 
@@ -667,7 +667,7 @@ double TwoDotQSz_Hm1_MatEl(vector<double> Params,
   else{
 
 //     if ( (dEqual(Szi,1.0))||(dEqual(Szi,-1.0)) ) MatEl=0.0;
-    
+
 //     if ( (dEqual(Qi,2.0))||(dEqual(Qi,-2.0)) ) MatEl=0.0;
 
 
@@ -714,7 +714,7 @@ double TwoDotQSz_Hm1_MatEl(vector<double> Params,
 ///
 
 double OneChQSz_H0DQD_MatEl(vector<double> Params,
-			  CNRGbasisarray* pAbasis, 
+			  CNRGbasisarray* pAbasis,
 			  CNRGbasisarray* pSingleSite,
 			  CNRGmatrix* MatArray,
 			  int ist, int jst){
@@ -722,13 +722,13 @@ double OneChQSz_H0DQD_MatEl(vector<double> Params,
   // October 2011
   // Calculates matrix elements for H0 (DQD+site) in the QSz basis.
   //
-  // Parameters: 
+  // Parameters:
   //  chi1        - Params[0]
   //  chi2        - Params[1]
-  //  <Qold-1 Szold-1/2|| f1_up |Qold Szold> - MatArray[0] 
-  //  <Qold-1 Szold+1/2|| f1_dn |Qold Szold> - MatArray[1] 
-  //  <Qold-1 Szold-1/2|| f2_up |Qold Szold> - MatArray[2] 
-  //  <Qold-1 Szold+1/2|| f2_dn |Qold Szold> - MatArray[3] 
+  //  <Qold-1 Szold-1/2|| f1_up |Qold Szold> - MatArray[0]
+  //  <Qold-1 Szold+1/2|| f1_dn |Qold Szold> - MatArray[1]
+  //  <Qold-1 Szold-1/2|| f2_up |Qold Szold> - MatArray[2]
+  //  <Qold-1 Szold+1/2|| f2_dn |Qold Szold> - MatArray[3]
   // Abasis       - DQD + site
   // pSingleSite  - OneChQSz single site
 
@@ -747,7 +747,7 @@ double OneChQSz_H0DQD_MatEl(vector<double> Params,
   //
 
   double OldEl[4]={0.0,0.0,0.0,0.0};
-  
+
 
   if (ist==jst){ // Diagonal terms
     MatEl=pAbasis->dEn[ist];
@@ -755,7 +755,7 @@ double OneChQSz_H0DQD_MatEl(vector<double> Params,
   else{
     int typei=pAbasis->iType[ist];
     int stcfi=pAbasis->StCameFrom[ist];
-    
+
     int typej=pAbasis->iType[jst];
     int stcfj=pAbasis->StCameFrom[jst];
 
@@ -765,12 +765,10 @@ double OneChQSz_H0DQD_MatEl(vector<double> Params,
     // Get c2_dn matrix element from MatArray[3]
     // Get f0_sigma matrix element using pSingleSite
 
-
     // Sum in dots
 
     int icounter=0;
     for (int idot=1;idot<=2;idot++){
-
       // Add a sum in spins.
       for (int sigma=1;sigma>=-1;sigma-=2){
 	double dSigma=0.5*(double)sigma;
@@ -813,7 +811,7 @@ double OneChQSz_H0DQD_MatEl(vector<double> Params,
 	icounter++;
       }
       // end loop in sigma
- 
+
     }
     // end sum in dots
 
@@ -829,7 +827,7 @@ double OneChQSz_H0DQD_MatEl(vector<double> Params,
 
 
 complex<double> OneChNupPdn_H0DQD_MatEl(vector<double> Params,
-			  CNRGbasisarray* pAbasis, 
+			  CNRGbasisarray* pAbasis,
 			  CNRGbasisarray* pSingleSite,
 			  CNRGmatrix* MatArray,
 			  int ist, int jst){
@@ -837,13 +835,13 @@ complex<double> OneChNupPdn_H0DQD_MatEl(vector<double> Params,
   // October 2011
   // Calculates matrix elements for H0 (DQD+site) in the QSz basis.
   //
-  // Parameters: 
+  // Parameters:
   //  chi1        - Params[0]
   //  chi2        - Params[1]
-  //  <Qold-1 Szold-1/2|| f1_up |Qold Szold> - MatArray[0] 
-  //  <Qold-1 Szold+1/2|| f1_dn |Qold Szold> - MatArray[1] 
-  //  <Qold-1 Szold-1/2|| f2_up |Qold Szold> - MatArray[2] 
-  //  <Qold-1 Szold+1/2|| f2_dn |Qold Szold> - MatArray[3] 
+  //  <Qold-1 Szold-1/2|| f1_up |Qold Szold> - MatArray[0]
+  //  <Qold-1 Szold+1/2|| f1_dn |Qold Szold> - MatArray[1]
+  //  <Qold-1 Szold-1/2|| f2_up |Qold Szold> - MatArray[2]
+  //  <Qold-1 Szold+1/2|| f2_dn |Qold Szold> - MatArray[3]
   // Abasis       - DQD + site
   // pSingleSite  - OneChQSz single site
 
@@ -861,31 +859,20 @@ complex<double> OneChNupPdn_H0DQD_MatEl(vector<double> Params,
   //  if ( (dNEqual(Qi,Qj))||(dNEqual(Szi,Szj)) ) return(0.0);
   if ( (dNEqual(Nupi,Nupj))||(dNEqual(Pdni,Pdnj))) return(ZeroC);
 
-  //if (~ !(dLEqual(fabs(Nupi-Nupj),1)))
-  // return(0.0);
-  
-  //if (~ !(dLEqual(fabs(Pdni-Pdnj),1)))
-  // return(0.0);
 
-  //if ((dEqual(Nupi,Nupj)) && (dEqual(Pdni,Pdnj)))
-  //return(0.0);
-
-  //if ((dNEqual(Nupi,Nupj)) && (dNEqual(Pdni,Pdnj)))
-  //return(0.0);
-  
   complex<double> OldEl[4]={ZeroC,ZeroC,ZeroC,ZeroC};
   //double OldEl[4]={0.0,0.0,0.0,0.0};
-  
+
   if (ist==jst){ // Diagonal terms
     cMatEl=complex<double>(pAbasis->dEn[ist]*Params[2],0.0);
     //cout << " idot = " << cMatEl*Params[2];
-    
   }
   else{
-   
+
+
     int typei=pAbasis->iType[ist];
     int stcfi=pAbasis->StCameFrom[ist];
-    
+
     int typej=pAbasis->iType[jst];
     //state came from
     int stcfj=pAbasis->StCameFrom[jst];
@@ -896,17 +883,13 @@ complex<double> OneChNupPdn_H0DQD_MatEl(vector<double> Params,
     // Get c2_dn matrix element from MatArray[3]
     // Get f0_sigma matrix element using pSingleSite
 
-
     // Sum in dots
-
     int icounter=0;
-    
-
-    // return ZeroC;
+        // return ZeroC;
     for (int idot=1;idot<=2;idot++){
       // Add a sum in spins.
       for (int sigma=1;sigma>=-1;sigma-=2){
-	
+
 
 	double dSigma=0.5*(double)sigma;
 
@@ -915,12 +898,14 @@ complex<double> OneChNupPdn_H0DQD_MatEl(vector<double> Params,
 	int typep=typei;
 	int type=typej;
 
-
+  complex<double>  param = OldEl[icounter]*OneCh_fd_table(sigma,typep,type);
 	// if zero, try h.c.
-	if ((dEqual(fabs(OldEl[icounter].real()),0.0))&&(dEqual(fabs(OldEl[icounter].imag()),0.0))){
+	int help = 0.0;
+	if ((dEqual(fabs(param.real()),0.0))&&(dEqual(param.imag(),0.0) )){
 	  OldEl[icounter]=MatArray[icounter].cGetMatEl(stcfj,stcfi);
 	  typep=typej;
 	  type=typei;
+		help=1.0;
 	  }
 
 	// I NEED TO CHANGE THIS RULE NOW Get SingleSite QNumbers
@@ -929,42 +914,78 @@ complex<double> OneChNupPdn_H0DQD_MatEl(vector<double> Params,
  	double Nuptilde=pSingleSite->GetQNumber(type,0);
 	double Pdntilde=pSingleSite->GetQNumber(type,1);
 
-
-
-
 	double FermiSign=1.0;
 	// 	if (dEqual(Qtilde,0.0)) FermiSign=-1.0;
 	// |tilde> is |up>=|Nup=1 Pdn=1> or |dn>=|Nup=0 Pdn=-1>
 	if (  ( (dEqual(Nuptilde,1.0))&&(dEqual(Pdntilde,1.0)) )||
 	      ( (dEqual(Nuptilde,0.0))&&(dEqual(Pdntilde,-1.0)) )
-	      )  
+	      )
 	  FermiSign=-1.0;
 
-      
 	// I HAVE TO CHANGE THIS TABLE?
-	double FullMatEl=OneCh_fd_table(sigma,typep,type)*FermiSign;
+	double FullMatEl= OneCh_fd_table(sigma,typep,type)*FermiSign;
+
 	cMatEl+=chi_N[idot-1]*OldEl[icounter]*FullMatEl;
 
 	//MatEl+=chi_N[idot-1]*FullMatEl;
-	//if (( (ist==8)||(ist==10) )&&( (jst==8)||(jst==10) ))
-	if (( (ist==8)||(ist==10) )&&( (jst==8)||(jst==10) ))
-	  cout << " idot = " << idot
-	       << " FermiSign = " << FermiSign
+	//
+
+	//if (dEqual(Nupi,0.0)&&dEqual(Pdni,-1.0)&&dEqual(sigma,-1.0)&&(idot == 1)){
+	if (( (ist==33)||(ist==34) )&&( (jst==36)||(jst==37) )){
+		cout	<< " ist= " << ist
+					<< " jst = " << jst
+					<< " idot = " << idot
+				 << " Chi = " << chi_N[idot-1]
+				 << " sigma = " << sigma
+			//<< " Szold = " << Szold
+				 << " OldEl = " << OldEl[icounter]
+				 << " FullMatEl = " << FullMatEl
+				 << " MatEl = " << cMatEl
+				 << " Prefactor" << chi_N[idot-1]*OldEl[icounter]
+				 << " Help" << help
+				 << endl
+				 << endl;
+
+	}
+	if (( (ist==120)||(ist==121) )&&( (jst==126)||(jst==125) )){
+	  cout	<< " ist= " << ist
+					<< " jst = " << jst
+					<< " idot = " << idot
+	       << " Chi = " << chi_N[idot-1]
 	       << " sigma = " << sigma
 	    //<< " Szold = " << Szold
 	       << " OldEl = " << OldEl[icounter]
 	       << " FullMatEl = " << FullMatEl
 	       << " MatEl = " << cMatEl
+				 << " Prefactor" << chi_N[idot-1]*OldEl[icounter]
+				 << " Help" << help
+				 << endl
 	       << endl;
 
-	
+}
+
+
+/*if (dEqual(Nupi,0.0)&&dEqual(Pdni,1.0)){
+	cout	<< " ist= " << ist
+				<< " jst = " << jst
+				<< " idot = " << idot
+			 << " Chi = " << chi_N[idot-1]
+			 << " sigma = " << sigma
+		//<< " Szold = " << Szold
+			 << " OldEl = " << OldEl[icounter]
+			 << " FullMatEl = " << FullMatEl
+			 << " MatEl = " << cMatEl
+			 << " Prefactor" << chi_N[idot-1]*OldEl[icounter]
+			 << " Help" << help
+			 << endl
+			 << endl;
+
+}*/
 	icounter++;
       }
       // end loop in sigma
- 
     }
     // end sum in dots
-
   }
   // end if ist==jst
 
@@ -992,7 +1013,7 @@ complex<double> OneChNupPdn_H0DQD_MatEl(vector<double> Params,
 /// Complex BUT Params is double!
 
 complex<double> OneChNupPdn_Hm1_Majorana_MatEl(vector<double> Params,
-					       CNRGbasisarray* pAbasis, 
+					       CNRGbasisarray* pAbasis,
 					       CNRGbasisarray* pSingleSite,
 					       CNRGmatrix* MatArray,
 					       int ist, int jst){
@@ -1072,7 +1093,7 @@ complex<double> OneChNupPdn_Hm1_Majorana_MatEl(vector<double> Params,
 /// Complex BUT Params is double!
 
 complex<double> OneChNupPdn_Hm1_DoubleDotMajorana_MatEl(vector<double> Params,
-					       CNRGbasisarray* pAbasis, 
+					       CNRGbasisarray* pAbasis,
 					       CNRGbasisarray* pSingleSite,
 					       CNRGmatrix* MatArray,
 					       int ist, int jst){
@@ -1083,15 +1104,15 @@ complex<double> OneChNupPdn_Hm1_DoubleDotMajorana_MatEl(vector<double> Params,
 
   complex<double> tplus1,tminus1,tplus2,tminus2;
 
-  double t1=Params[0];
-  double t2=Params[1];
+  double t11=Params[0];
+  double t12=Params[1];
   double t21=Params[2];
   double t22=Params[3];
   double phi_mag=Params[4];
   double phi_mag2=Params[5];
   double en=Params[6];
-  // we are taking tdots as real for now. 
-  double tdots=Params[7]; 
+  // we are taking tdots as real for now.
+  double tdots=Params[7];
 
 //   tplus.real()=t1+t2*cos(phi_mag);
 //   tminus.real()=t1-t2*cos(phi_mag);
@@ -1101,22 +1122,19 @@ complex<double> OneChNupPdn_Hm1_DoubleDotMajorana_MatEl(vector<double> Params,
 
 
 
-  double re_tplus  = (t1+t2*cos(phi_mag))/sqrt(2.0);
-  double re_tminus = (t1-t2*cos(phi_mag))/sqrt(2.0);
-  double im_tplus  = (t2*sin(phi_mag))/sqrt(2.0);
-  double im_tminus = (-1.0*t2*sin(phi_mag))/sqrt(2.0);
+  double re_tplus1  = (t11+t12*cos(phi_mag))/sqrt(2.0);
+  double re_tminus1 = (t11-t12*cos(phi_mag))/sqrt(2.0);
+  double im_tplus1  = (t12*sin(phi_mag))/sqrt(2.0);
+  double im_tminus1 = (-1.0*t12*sin(phi_mag))/sqrt(2.0);
 
-  tplus1  = complex<double>(re_tplus , im_tplus );
-  tminus1 = complex<double>(re_tminus, im_tminus);
+  tplus1  = complex<double>(re_tplus1 , im_tplus1 );
+  tminus1 = complex<double>(re_tminus1, im_tminus1);
 
   //   tplus.real()=t1+t2*cos(phi_mag);
 //   tminus.real()=t1-t2*cos(phi_mag);
 
 //   tplus.imag()=t2*sin(phi_mag);
 //   tminus.imag()=-t2*sin(phi_mag);
-
-
-
   double re_tplus2  = (t21+t22*cos(phi_mag2))/sqrt(2.0);
   double re_tminus2 = (t21-t22*cos(phi_mag2))/sqrt(2.0);
   double im_tplus2  = (t22*sin(phi_mag2))/sqrt(2.0);
@@ -1151,7 +1169,7 @@ complex<double> OneChNupPdn_Hm1_DoubleDotMajorana_MatEl(vector<double> Params,
 
     if ( (ist==0)&&(jst==3) ) cMatEl= tplus2;
     if ( (ist==3)&&(jst==0) ) cMatEl= std::conj(tplus2);
-    
+
     if ( (ist==1)&&(jst==2) ) cMatEl= std::conj(tminus2);
     if ( (ist==2)&&(jst==1) ) cMatEl=tminus2;
 
@@ -1168,7 +1186,7 @@ complex<double> OneChNupPdn_Hm1_DoubleDotMajorana_MatEl(vector<double> Params,
 
     if ( (ist==4)&&(jst==7) ) cMatEl= std::conj(tplus2);;
     if ( (ist==7)&&(jst==4) ) cMatEl= tplus2;
-    
+
     if ( (ist==5)&&(jst==6) ) cMatEl= tminus2;
     if ( (ist==6)&&(jst==5) ) cMatEl= std::conj(tminus2);
 
@@ -1187,7 +1205,7 @@ complex<double> OneChNupPdn_Hm1_DoubleDotMajorana_MatEl(vector<double> Params,
 
     if ( (ist==8)&&(jst==11) ) cMatEl= tplus2;
     if ( (ist==11)&&(jst==8) ) cMatEl= std::conj(tplus2);
-    
+
     if ( (ist==9)&&(jst==10) ) cMatEl= std::conj(tminus2);
     if ( (ist==10)&&(jst==9) ) cMatEl=tminus2;
 
@@ -1204,7 +1222,7 @@ complex<double> OneChNupPdn_Hm1_DoubleDotMajorana_MatEl(vector<double> Params,
 
     if ( (ist==12)&&(jst==15) ) cMatEl= tplus2;
     if ( (ist==15)&&(jst==12) ) cMatEl= std::conj(tplus2);
-    
+
     if ( (ist==13)&&(jst==14) ) cMatEl= std::conj(tminus2);
     if ( (ist==14)&&(jst==13) ) cMatEl= tminus2;
 
@@ -1220,14 +1238,14 @@ complex<double> OneChNupPdn_Hm1_DoubleDotMajorana_MatEl(vector<double> Params,
 
     if ( (ist==9)&&(jst==13) ) cMatEl= tdots;
     if ( (ist==13)&&(jst==9) ) cMatEl= tdots;
-    
+
     if ( (ist==10)&&(jst==14) ) cMatEl= tdots;
     if ( (ist==14)&&(jst==10) ) cMatEl= tdots;
-        
+
     if ( (ist==11)&&(jst==15) ) cMatEl= -tdots;
     if ( (ist==15)&&(jst==11) ) cMatEl= -tdots;
 
-    
+
 
     //fill |1,+1>
 
@@ -1238,7 +1256,7 @@ complex<double> OneChNupPdn_Hm1_DoubleDotMajorana_MatEl(vector<double> Params,
 
     if ( (ist==16)&&(jst==19) ) cMatEl= std::conj(tplus2);;
     if ( (ist==19)&&(jst==16) ) cMatEl= tplus2;
-    
+
     if ( (ist==17)&&(jst==18) ) cMatEl= tminus2;
     if ( (ist==18)&&(jst==17) ) cMatEl= std::conj(tminus2);
 
@@ -1255,7 +1273,7 @@ complex<double> OneChNupPdn_Hm1_DoubleDotMajorana_MatEl(vector<double> Params,
 
     if ( (ist==20)&&(jst==23) ) cMatEl= std::conj(tplus2);;
     if ( (ist==23)&&(jst==20) ) cMatEl= tplus2;
-    
+
     if ( (ist==21)&&(jst==22) ) cMatEl= tminus2;
     if ( (ist==22)&&(jst==21) ) cMatEl= std::conj(tminus2);
 
@@ -1266,28 +1284,28 @@ complex<double> OneChNupPdn_Hm1_DoubleDotMajorana_MatEl(vector<double> Params,
     if ( (ist==23)&&(jst==22) ) cMatEl= -tdots;
 
                //Adding link between dots
-    if ( (ist==8)&&(jst==12) ) cMatEl= tdots;
-    if ( (ist==12)&&(jst==8) ) cMatEl= tdots;
+    if ( (ist==16)&(jst==20) ) cMatEl= tdots;
+    if ( (ist==20)&&(jst==16) ) cMatEl= tdots;
 
-    if ( (ist==9)&&(jst==13) ) cMatEl= -tdots;
-    if ( (ist==13)&&(jst==9) ) cMatEl= -tdots;
-    
-    if ( (ist==10)&&(jst==14) ) cMatEl= -tdots;
-    if ( (ist==14)&&(jst==10) ) cMatEl= -tdots;
-        
-    if ( (ist==11)&&(jst==15) ) cMatEl= tdots;
-    if ( (ist==15)&&(jst==11) ) cMatEl= tdots;
-    
+    if ( (ist==17)&&(jst==21) ) cMatEl= -tdots;
+    if ( (ist==21)&&(jst==17) ) cMatEl= -tdots;
 
-    
+    if ( (ist==18)&&(jst==22) ) cMatEl= -tdots;
+    if ( (ist==22)&&(jst==18) ) cMatEl= -tdots;
+
+    if ( (ist==19)&&(jst==23) ) cMatEl= tdots;
+    if ( (ist==23)&&(jst==19) ) cMatEl= tdots;
+
+
+
     //fill |2,-1>
 
     if ( (ist==24)&&(jst==26) ) cMatEl= tplus1;
-    if ( (ist==26)&&(jst==24) ) cMatEl=  std::conj(tplus1);
+    if ( (ist==26)&&(jst==24) ) cMatEl= std::conj(tplus1);
 
     if ( (ist==24)&&(jst==27) ) cMatEl= tplus2;
     if ( (ist==27)&&(jst==24) ) cMatEl= std::conj(tplus2);
-    
+
     if ( (ist==25)&&(jst==26) ) cMatEl= std::conj(tminus2);
     if ( (ist==26)&&(jst==25) ) cMatEl= tminus2;
 
@@ -1296,7 +1314,7 @@ complex<double> OneChNupPdn_Hm1_DoubleDotMajorana_MatEl(vector<double> Params,
 
     if ( (ist==26)&&(jst==27) ) cMatEl= -tdots;
     if ( (ist==27)&&(jst==26) ) cMatEl= -tdots;
-    
+
         //fill |2,+1>
 
     if ( (ist==28)&&(jst==30) ) cMatEl= -std::conj(tplus1);
@@ -1304,7 +1322,7 @@ complex<double> OneChNupPdn_Hm1_DoubleDotMajorana_MatEl(vector<double> Params,
 
     if ( (ist==28)&&(jst==31) ) cMatEl= std::conj(tplus2);;
     if ( (ist==31)&&(jst==28) ) cMatEl= tplus2;
-    
+
     if ( (ist==29)&&(jst==30) ) cMatEl= tminus2;
     if ( (ist==30)&&(jst==29) ) cMatEl= std::conj(tminus2);
 
@@ -1313,8 +1331,8 @@ complex<double> OneChNupPdn_Hm1_DoubleDotMajorana_MatEl(vector<double> Params,
 
     if ( (ist==30)&&(jst==31) ) cMatEl= -tdots;
     if ( (ist==31)&&(jst==30) ) cMatEl= -tdots;
-    
-  
+
+
 
   }
   // end if ist==jst
@@ -1323,4 +1341,3 @@ complex<double> OneChNupPdn_Hm1_DoubleDotMajorana_MatEl(vector<double> Params,
 }
 // end OneChNupPdn_Hm1_Majorana_MatEl
 /////////////////////////
-

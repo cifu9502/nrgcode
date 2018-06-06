@@ -928,9 +928,26 @@ complex<double> OneChNupPdn_H0DQD_MatEl(vector<double> Params,
 	cMatEl+=chi_N[idot-1]*OldEl[icounter]*FullMatEl;
 
 	//MatEl+=chi_N[idot-1]*FullMatEl;
-	//if (( (ist==8)||(ist==10) )&&( (jst==8)||(jst==10) ))
-	/*
-	if (dEqual(Nupi,0.0)&&dEqual(Pdni,-1.0)&&dEqual(sigma,-1.0)&&(idot == 1)){
+	//
+
+	//if (dEqual(Nupi,0.0)&&dEqual(Pdni,-1.0)&&dEqual(sigma,-1.0)&&(idot == 1)){
+	if (( (ist==33)||(ist==34) )&&( (jst==36)||(jst==37) )){
+		cout	<< " ist= " << ist
+					<< " jst = " << jst
+					<< " idot = " << idot
+				 << " Chi = " << chi_N[idot-1]
+				 << " sigma = " << sigma
+			//<< " Szold = " << Szold
+				 << " OldEl = " << OldEl[icounter]
+				 << " FullMatEl = " << FullMatEl
+				 << " MatEl = " << cMatEl
+				 << " Prefactor" << chi_N[idot-1]*OldEl[icounter]
+				 << " Help" << help
+				 << endl
+				 << endl;
+
+	}
+	if (( (ist==120)||(ist==121) )&&( (jst==126)||(jst==125) )){
 	  cout	<< " ist= " << ist
 					<< " jst = " << jst
 					<< " idot = " << idot
@@ -945,7 +962,9 @@ complex<double> OneChNupPdn_H0DQD_MatEl(vector<double> Params,
 				 << endl
 	       << endl;
 
-}*/
+}
+
+
 /*if (dEqual(Nupi,0.0)&&dEqual(Pdni,1.0)){
 	cout	<< " ist= " << ist
 				<< " jst = " << jst
