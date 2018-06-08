@@ -3239,7 +3239,7 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   //auxMat.DiagHN(ParamsHm1,&AbasisHm1,pSingleSite,&AuxMatArray[0],&AeigHm1);
   //AeigHm1.PrintEn();
 
-  auxMat.DiagHN(ParamsHm1,&AbasisHm1,pSingleSite,&AuxMatArray[0],&AeigHm1);
+  auxMat.DiagHN(ParamsHm1,&AbasisHm1,pSingleSite,&AuxMatArray[0],&AeigHm1,true);
 
   AeigHm1.PrintEn();
 

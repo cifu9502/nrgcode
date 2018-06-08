@@ -11,6 +11,68 @@ Gamma_2 = Gamma1
 U = E =NOT 0
 
 
+400-409 & 500-509
+t_2 = 0.0025 = t1 
+Gamma_2 = GAMMA1
+U = .5
+E2 = linspace(-0.25,-0.025,10)
+
+
+410-414 & 510-514
+t1 = 0.02;  t2 = 0 
+Gamma_2 = GAMMA1
+U = .5 = 2E
+tdots = linspace(0,0.02,5)
+
+420-429 & 520-529
+t1 = 0.02= t2 
+Gamma_2 = GAMMA1
+U = .5 = 2E
+tdots = linspace(0,0.0225,10)
+
+
+
+430-439 & 530-539
+t_1 = 0.2
+Gamma_2 = GAMMA1
+U = E =NOT 0
+t_2 =linspace(0,0.0225,10)
+
+
+450-459 & 550-559
+ed1 = ed_2 = 0.25 STATIC
+Gamma_2 = GAMMA1
+U = .5
+t1 = t2 =linspace(0,0.0225,10)
+
+
+460-469 & 560-569
+t_2 = 0.02 = t1 STATIC
+Gamma_2 = GAMMA1
+U = .5
+E2 = linspace(-0.25,-0.025,10)
+
+470-479 & 570-579    Z-TRICK
+t_2 = 0.02 STATIC
+Gamma_2 = GAMMA1
+E = -U/2 = linspace(-0.25,-0.025,10)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 PROBABLY WRONG
 
@@ -136,28 +198,5 @@ U = .5
 Gamma= 0.028 , 0.058 , 0.088 , 0.108 
 
 
-230-239
-t_1 = 0.2
-t_2 = FROM 0.0 TO 0.025 - 10 POINTS 
-Gamma_2 = GAMMA1
-U = E =NOT 0
-
-255-260
-ed1 = ed_2 = 0.25 STATIC
-Gamma_2 = GAMMA1
-U = .5
-t1 = t2 FROM 0.0225 TO 0.025 - 5 POINTS 
-
-
-261-269
-t_2 = 0.02 = t1 STATIC
-Gamma_2 = GAMMA1
-U = .5
-E2 = FROM -0.25 TO 0.5 - 10 POINTS
-
-270-279    Z-TRICK
-t_2 = 0.02 STATIC
-Gamma_2 = GAMMA1
-E = -U/2 FROM -0.25 TO 0.5 - 10 POINTS
 
 
