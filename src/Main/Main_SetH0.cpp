@@ -2718,6 +2718,7 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
 	<< " t1~= " << t1
 	<< " t2~= " << t2
 	<< " phimag1= " << phi_mag
+        << "cos(phimag1) = " << cos(phi_mag)
 	<< " em~= " << em
 	<< " eta1~= " << t12
 	<< " eta2~= " << t22
@@ -3227,10 +3228,10 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
 
   //CNRGarray AeigHm1; // will be AeigHm1
   vector<double> ParamsHm1;
-  ParamsHm1.push_back(t11);
-  ParamsHm1.push_back(t12);
-  ParamsHm1.push_back(t21);
-  ParamsHm1.push_back(t22);
+  ParamsHm1.push_back(t1);
+  ParamsHm1.push_back(eta1);
+  ParamsHm1.push_back(t2);
+  ParamsHm1.push_back(eta2);
   ParamsHm1.push_back(phi_mag);
   ParamsHm1.push_back(phi_mag2);
   ParamsHm1.push_back(em);
