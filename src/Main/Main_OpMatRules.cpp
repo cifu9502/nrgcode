@@ -1165,13 +1165,13 @@ complex<double> OneChNupPdn_Hm1_DoubleDotMajorana_MatEl(vector<double> Params,
     //fill |0,-1>
 
     if ( (ist==0)&&(jst==2) ) cMatEl=-tplus1;
-    if ( (ist==2)&&(jst==0) ) cMatEl= - std::conj(tplus1);
+    if ( (ist==2)&&(jst==0) ) cMatEl= std::conj(-tplus1);
 
     if ( (ist==0)&&(jst==3) ) cMatEl= tplus2;
     if ( (ist==3)&&(jst==0) ) cMatEl= std::conj(tplus2);
 
     if ( (ist==1)&&(jst==2) ) cMatEl= std::conj(tminus2);
-    if ( (ist==2)&&(jst==1) ) cMatEl=tminus2;
+    if ( (ist==2)&&(jst==1) ) cMatEl= tminus2;
 
     if ( (ist==1)&&(jst==3) ) cMatEl= std::conj(tminus1);
     if ( (ist==3)&&(jst==1) ) cMatEl= tminus1;
@@ -1191,7 +1191,7 @@ complex<double> OneChNupPdn_Hm1_DoubleDotMajorana_MatEl(vector<double> Params,
     if ( (ist==6)&&(jst==5) ) cMatEl= std::conj(tminus2);
 
     if ( (ist==5)&&(jst==7) ) cMatEl= -tminus1;
-    if ( (ist==7)&&(jst==5) ) cMatEl= -std::conj(tminus1);
+    if ( (ist==7)&&(jst==5) ) cMatEl= std::conj(-tminus1);
 
     if ( (ist==6)&&(jst==7) ) cMatEl= tdots;
     if ( (ist==7)&&(jst==6) ) cMatEl= tdots;
@@ -1201,7 +1201,7 @@ complex<double> OneChNupPdn_Hm1_DoubleDotMajorana_MatEl(vector<double> Params,
          //first one goes as |0,-1>
 
     if ( (ist==8)&&(jst==10) ) cMatEl= -tplus1;
-    if ( (ist==10)&&(jst==8) ) cMatEl= - std::conj(tplus1);
+    if ( (ist==10)&&(jst==8) ) cMatEl= std::conj(-tplus1);
 
     if ( (ist==8)&&(jst==11) ) cMatEl= tplus2;
     if ( (ist==11)&&(jst==8) ) cMatEl= std::conj(tplus2);
@@ -1261,14 +1261,14 @@ complex<double> OneChNupPdn_Hm1_DoubleDotMajorana_MatEl(vector<double> Params,
     if ( (ist==18)&&(jst==17) ) cMatEl= std::conj(tminus2);
 
     if ( (ist==17)&&(jst==19) ) cMatEl= -tminus1;
-    if ( (ist==19)&&(jst==17) ) cMatEl= -std::conj(tminus1);
+    if ( (ist==19)&&(jst==17) ) cMatEl= std::conj(-tminus1);
 
     if ( (ist==18)&&(jst==19) ) cMatEl= tdots;
     if ( (ist==19)&&(jst==18) ) cMatEl= tdots;
 
          //second one goes as |2,+1>
 
-    if ( (ist==20)&&(jst==22) ) cMatEl= -std::conj(tplus1);
+    if ( (ist==20)&&(jst==22) ) cMatEl= std::conj(-tplus1);
     if ( (ist==22)&&(jst==20) ) cMatEl= -tplus1;
 
     if ( (ist==20)&&(jst==23) ) cMatEl= std::conj(tplus2);;
@@ -1309,7 +1309,7 @@ complex<double> OneChNupPdn_Hm1_DoubleDotMajorana_MatEl(vector<double> Params,
     if ( (ist==25)&&(jst==26) ) cMatEl= std::conj(tminus2);
     if ( (ist==26)&&(jst==25) ) cMatEl= tminus2;
 
-    if ( (ist==25)&&(jst==27) ) cMatEl= -std::conj(tminus1);
+    if ( (ist==25)&&(jst==27) ) cMatEl= std::conj(-tminus1);
     if ( (ist==27)&&(jst==25) ) cMatEl= -tminus1;
 
     if ( (ist==26)&&(jst==27) ) cMatEl= -tdots;
@@ -1317,7 +1317,7 @@ complex<double> OneChNupPdn_Hm1_DoubleDotMajorana_MatEl(vector<double> Params,
 
         //fill |2,+1>
 
-    if ( (ist==28)&&(jst==30) ) cMatEl= -std::conj(tplus1);
+    if ( (ist==28)&&(jst==30) ) cMatEl= std::conj(-tplus1);
     if ( (ist==30)&&(jst==28) ) cMatEl= -tplus1;
 
     if ( (ist==28)&&(jst==31) ) cMatEl= std::conj(tplus2);;
