@@ -2674,9 +2674,9 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   double ed2=Params[10]/(Lambda*HalfLambdaFactor);
   double tdots=Params[11]/(Lambda*HalfLambdaFactor);
   //double em=0.0;
-  double em = Params[12]/(Lambda*HalfLambdaFactor);
-  double phi1 = Params[13];
-  double phi2 = Params[14];
+  double em = pow(10,Params[12])/(Lambda*HalfLambdaFactor);
+  double phi1 = Params[13]*pi;
+  double phi2 = Params[14]*pi;
   double eta1 = Params[15]/(Lambda*HalfLambdaFactor);
   double eta2 = Params[16]/(Lambda*HalfLambdaFactor);
 
@@ -3361,12 +3361,12 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   cout << " Error?." << AuxMatArray[0].GetMatEl(0,2);
 
 
-  AuxMatArray[0].PrintAllBlocks();
+  //AuxMatArray[0].PrintAllBlocks();
 
 
   printf ("\n \n \n \n \n Helloooooooooooooo, everything ready to start  \n \n \n \n");
   //auxMat.DiagHN(ParamsH0,&AbasisH0,pSingleSite,&AuxMatArray[0],pAeig,true);
-  auxMat.DiagHN(ParamsH0,&AbasisH0,pSingleSite,&AuxMatArray[0],pAeig);
+  auxMat.DiagHN(ParamsH0,&AbasisH0,pSingleSite,&AuxMatArray[0],pAeig,true);
   pAeig->PrintEn();
 
   // Update all operators return all.
