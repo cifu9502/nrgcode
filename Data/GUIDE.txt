@@ -10,6 +10,23 @@ t_1 = 0.00
 Gamma_2 = Gamma1
 U = E =NOT 0
 
+100-109 & 200-209
+JUST ONE DOT 
+Gamma_2 , t1 = 0.02
+em = linspace(0,0.25,10)
+
+110-119 & 210-219
+DQD ,  t1 = 0.02
+em = linspace(0,0.045,10)
+
+130-134 & 230-234
+JUST ONE DOT  ,  t1 = 0.02 , em = 0
+eta1 = linspace(0,0.009,5)
+
+150-154 & 250-254
+DQD ,  t2 = 0.02 , em = 0
+eta1 = linspace(0.001,0.02,5)
+
 
 400-409 & 500-509
 t_2 = 0.0025 = t1 
@@ -57,7 +74,10 @@ t_2 = 0.02 STATIC
 Gamma_2 = GAMMA1
 E = -U/2 = linspace(-0.25,-0.025,10)
 
-
+480-484 & 580-584    Z-TRICK
+t_2 = 0.02 STATIC
+Gamma_2 = GAMMA1
+tdots = linspace(-0.001,-0.25,5)
 
 
 
