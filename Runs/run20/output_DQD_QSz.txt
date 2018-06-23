@@ -1,0 +1,1744 @@
+ Got Model = 1chQSz_DQD Got 1chQSz DQD (Zeeman in both dots) 
+ - Model No: 6
+ Symmetry : OneChQSz - SymNo : 2
+ BandType : SquareWilson - BandNo : 0
+ NRG: Model : 1chQSz_DQD - Symmetry : OneChQSz - Band Type: SquareWilson
+ Nsitesmax    = 1
+ Ncutoff      = 1000
+ U            = 0.5
+ Gamma        = 0.0282691
+ ed           = -0.25
+ Lambda       = 2.5
+ ChemPot      = 0
+ UpdateBefCut = 0
+ calcdens     = 1
+ Oliveira z   = 1
+ Additional parameters : 
+ Param 3  = 0
+ Param 4  = 0.02
+ Param 5  = 0
+ Param 6  = 0.5
+ Param 7  = 0.0282691
+ Param 8  = -0.25
+ SetSingleSite begin... 
+ .. SetSingleSite done!
+ Fsq = 2 chi_m1 = 0.121207 eN(0) = 0
+ sqrt(ALambda)*chi_m1 = 0.125319
+Zstring = _zEQ1
+ U1~= 0.451754 ed1~= -0.225877 t1~= 0.125319 hz1~= 0.0127707
+ U2~= 0 ed2~= 0 t2~= 0.10195 hz2~= -0.112938 lambda= 0.451754
+ Setting up H_(N =-1 : ibl = 0 size = 1 (Nbls = 9)
+ Limits : 0  0
+ Setting up H_(N =-1 : ibl = 1 size = 2 (Nbls = 9)
+ Limits : 1  2
+ Setting up H_(N =-1 : ibl = 2 size = 2 (Nbls = 9)
+ Limits : 3  4
+ Setting up H_(N =-1 : ibl = 3 size = 4 (Nbls = 9)
+ Limits : 5  8
+ Setting up H_(N =-1 : ibl = 4 size = 1 (Nbls = 9)
+ Limits : 9  9
+ Setting up H_(N =-1 : ibl = 5 size = 1 (Nbls = 9)
+ Limits : 10  10
+ Setting up H_(N =-1 : ibl = 6 size = 2 (Nbls = 9)
+ Limits : 11  12
+ Setting up H_(N =-1 : ibl = 7 size = 2 (Nbls = 9)
+ Limits : 13  14
+ Setting up H_(N =-1 : ibl = 8 size = 1 (Nbls = 9)
+ Limits : 15  15
+ Done setting up HN. 
+Updating Aeig... 
+ Diagonalizing block 0 of 8
+Upper triangular
+ Diagonalizing block 1 of 8
+Upper triangular
+ Diagonalizing block 2 of 8
+Upper triangular
+ Diagonalizing block 3 of 8
+Upper triangular
+ Diagonalizing block 4 of 8
+Upper triangular
+ Diagonalizing block 5 of 8
+Upper triangular
+ Diagonalizing block 6 of 8
+Upper triangular
+ Diagonalizing block 7 of 8
+Upper triangular
+ Diagonalizing block 8 of 8
+Upper triangular
+Emin = -0.808636
+En = 1.03451 ---| -2  0  >_N= -1
+En = 0.486906 ---| -1  0.5  >_N= -1
+En = 1.45641 ---| -1  0.5  >_N= -1
+En = 0.416968 ---| -1  -0.5  >_N= -1
+En = 1.32601 ---| -1  -0.5  >_N= -1
+En = 0 ---| 0  0  >_N= -1
+En = 0.81292 ---| 0  0  >_N= -1
+En = 1.03451 ---| 0  0  >_N= -1
+En = 1.83886 ---| 0  0  >_N= -1
+En = 0.908803 ---| 0  1  >_N= -1
+En = 0.708468 ---| 0  -1  >_N= -1
+En = 0.486906 ---| 1  0.5  >_N= -1
+En = 1.45641 ---| 1  0.5  >_N= -1
+En = 0.416968 ---| 1  -0.5  >_N= -1
+En = 1.32601 ---| 1  -0.5  >_N= -1
+En = 1.03451 ---| 2  0  >_N= -1
+ DQD: spectral functions still at implementation stage...
+ NoCommon = 2
+ ParityQN : 0 0 
+ PosInOld : 0 1 
+ PosInSingleSite : 0 1 
+ MatchOld : 1 1 
+No blocks = 16
+No states = 64
+ Setting up H_(N =0 : ibl = 0 size = 1 (Nbls = 16)
+ Limits : 0  0
+ Setting up H_(N =0 : ibl = 1 size = 3 (Nbls = 16)
+ Limits : 1  3
+ Setting up H_(N =0 : ibl = 2 size = 3 (Nbls = 16)
+ Limits : 4  6
+ Setting up H_(N =0 : ibl = 3 size = 9 (Nbls = 16)
+ Limits : 7  15
+ Setting up H_(N =0 : ibl = 4 size = 3 (Nbls = 16)
+ Limits : 16  18
+ Setting up H_(N =0 : ibl = 5 size = 9 (Nbls = 16)
+ Limits : 19  27
+ Setting up H_(N =0 : ibl = 6 size = 3 (Nbls = 16)
+ Limits : 28  30
+ Setting up H_(N =0 : ibl = 7 size = 9 (Nbls = 16)
+ Limits : 31  39
+ Setting up H_(N =0 : ibl = 8 size = 9 (Nbls = 16)
+ Limits : 40  48
+ Setting up H_(N =0 : ibl = 9 size = 1 (Nbls = 16)
+ Limits : 49  49
+ Setting up H_(N =0 : ibl = 10 size = 3 (Nbls = 16)
+ Limits : 50  52
+ Setting up H_(N =0 : ibl = 11 size = 1 (Nbls = 16)
+ Limits : 53  53
+ Setting up H_(N =0 : ibl = 12 size = 3 (Nbls = 16)
+ Limits : 54  56
+ Setting up H_(N =0 : ibl = 13 size = 3 (Nbls = 16)
+ Limits : 57  59
+ Setting up H_(N =0 : ibl = 14 size = 3 (Nbls = 16)
+ Limits : 60  62
+ Setting up H_(N =0 : ibl = 15 size = 1 (Nbls = 16)
+ Limits : 63  63
+ Done setting up HN. 
+Updating Aeig... 
+ Diagonalizing block 0 of 15
+Upper triangular
+ Diagonalizing block 1 of 15
+Upper triangular
+ Diagonalizing block 2 of 15
+Upper triangular
+ Diagonalizing block 3 of 15
+Upper triangular
+ Diagonalizing block 4 of 15
+Upper triangular
+ Diagonalizing block 5 of 15
+Upper triangular
+ Diagonalizing block 6 of 15
+Upper triangular
+ Diagonalizing block 7 of 15
+Upper triangular
+ Diagonalizing block 8 of 15
+Upper triangular
+ Diagonalizing block 9 of 15
+Upper triangular
+ Diagonalizing block 10 of 15
+Upper triangular
+ Diagonalizing block 11 of 15
+Upper triangular
+ Diagonalizing block 12 of 15
+Upper triangular
+ Diagonalizing block 13 of 15
+Upper triangular
+ Diagonalizing block 14 of 15
+Upper triangular
+ Diagonalizing block 15 of 15
+Upper triangular
+Emin = -0.100486
+En = 1.135 ---| -3  0  >_N= 0
+En = 0.583396 ---| -2  0.5  >_N= 0
+En = 1.08803 ---| -2  0.5  >_N= 0
+En = 1.60786 ---| -2  0.5  >_N= 0
+En = 0.516365 ---| -2  -0.5  >_N= 0
+En = 1.06563 ---| -2  -0.5  >_N= 0
+En = 1.49695 ---| -2  -0.5  >_N= 0
+En = 0.0981439 ---| -1  0  >_N= 0
+En = 0.471247 ---| -1  0  >_N= 0
+En = 0.529469 ---| -1  0  >_N= 0
+En = 0.970012 ---| -1  0  >_N= 0
+En = 1.01858 ---| -1  0  >_N= 0
+En = 1.1773 ---| -1  0  >_N= 0
+En = 1.4529 ---| -1  0  >_N= 0
+En = 1.55045 ---| -1  0  >_N= 0
+En = 2.04339 ---| -1  0  >_N= 0
+En = 0.536429 ---| -1  1  >_N= 0
+En = 1.05626 ---| -1  1  >_N= 0
+En = 1.56089 ---| -1  1  >_N= 0
+En = 0.0537005 ---| 0  0.5  >_N= 0
+En = 0.482042 ---| 0  0.5  >_N= 0
+En = 0.631395 ---| 0  0.5  >_N= 0
+En = 0.925065 ---| 0  0.5  >_N= 0
+En = 1.01329 ---| 0  0.5  >_N= 0
+En = 1.13299 ---| 0  0.5  >_N= 0
+En = 1.50319 ---| 0  0.5  >_N= 0
+En = 1.64496 ---| 0  0.5  >_N= 0
+En = 1.99949 ---| 0  0.5  >_N= 0
+En = 0.447 ---| -1  -1  >_N= 0
+En = 0.87832 ---| -1  -1  >_N= 0
+En = 1.42759 ---| -1  -1  >_N= 0
+En = 0.0440244 ---| 0  -0.5  >_N= 0
+En = 0.402624 ---| 0  -0.5  >_N= 0
+En = 0.570823 ---| 0  -0.5  >_N= 0
+En = 0.836863 ---| 0  -0.5  >_N= 0
+En = 0.916752 ---| 0  -0.5  >_N= 0
+En = 1.11933 ---| 0  -0.5  >_N= 0
+En = 1.38419 ---| 0  -0.5  >_N= 0
+En = 1.52581 ---| 0  -0.5  >_N= 0
+En = 1.98469 ---| 0  -0.5  >_N= 0
+En = 0 ---| 1  0  >_N= 0
+En = 0.529557 ---| 1  0  >_N= 0
+En = 0.588004 ---| 1  0  >_N= 0
+En = 0.871882 ---| 1  0  >_N= 0
+En = 1.07545 ---| 1  0  >_N= 0
+En = 1.2192 ---| 1  0  >_N= 0
+En = 1.48492 ---| 1  0  >_N= 0
+En = 1.60124 ---| 1  0  >_N= 0
+En = 1.94123 ---| 1  0  >_N= 0
+En = 1.00929 ---| 0  1.5  >_N= 0
+En = 0.586937 ---| 1  1  >_N= 0
+En = 0.965908 ---| 1  1  >_N= 0
+En = 1.60073 ---| 1  1  >_N= 0
+En = 0.808954 ---| 0  -1.5  >_N= 0
+En = 0.517233 ---| 1  -1  >_N= 0
+En = 0.769547 ---| 1  -1  >_N= 0
+En = 1.46613 ---| 1  -1  >_N= 0
+En = 0.543555 ---| 2  0.5  >_N= 0
+En = 1.17838 ---| 2  0.5  >_N= 0
+En = 1.55735 ---| 2  0.5  >_N= 0
+En = 0.477826 ---| 2  -0.5  >_N= 0
+En = 1.17441 ---| 2  -0.5  >_N= 0
+En = 1.42672 ---| 2  -0.5  >_N= 0
+En = 1.135 ---| 3  0  >_N= 0
+Block i : 0/15 (sz=1) Nshell=0
+  Block j : 0/15 (sz=1) Time to here 9e-06; last lap 8e-06
+  Block j : 1/15 (sz=3) Time to here 2.5e-05; last lap 2e-06
+   Updating Op : 1 of 6
+   Updating Op : 3 of 6
+   Updating Op : 5 of 6
+  Block j : 2/15 (sz=3) Time to here 6.4e-05; last lap 3.2e-05
+   Updating Op : 2 of 6
+   Updating Op : 4 of 6
+   Updating Op : 6 of 6
+  Block j : 3/15 (sz=9) Time to here 9.8e-05; last lap 2.5e-05
+  Block j : 4/15 (sz=3) Time to here 0.000107; last lap 2e-06
+  Block j : 5/15 (sz=9) Time to here 0.000117; last lap 1e-06
+  Block j : 6/15 (sz=3) Time to here 0.000126; last lap 2e-06
+  Block j : 7/15 (sz=9) Time to here 0.000136; last lap 2e-06
+  Block j : 8/15 (sz=9) Time to here 0.000144; last lap 2e-06
+  Block j : 9/15 (sz=1) Time to here 0.000154; last lap 2e-06
+  Block j : 10/15 (sz=3) Time to here 0.000163; last lap 1e-06
+  Block j : 11/15 (sz=1) Time to here 0.000172; last lap 1e-06
+  Block j : 12/15 (sz=3) Time to here 0.000181; last lap 1e-06
+  Block j : 13/15 (sz=3) Time to here 0.00019; last lap 2e-06
+  Block j : 14/15 (sz=3) Time to here 0.000199; last lap 2e-06
+  Block j : 15/15 (sz=1) Time to here 0.000208; last lap 2e-06
+Block i : 1/15 (sz=3) Nshell=0
+  Block j : 0/15 (sz=1) Time to here 0.000221; last lap 6e-06
+  Block j : 1/15 (sz=3) Time to here 0.000229; last lap 2e-06
+  Block j : 2/15 (sz=3) Time to here 0.000238; last lap 1e-06
+  Block j : 3/15 (sz=9) Time to here 0.000247; last lap 1e-06
+   Updating Op : 2 of 6
+   Updating Op : 4 of 6
+   Updating Op : 6 of 6
+  Block j : 4/15 (sz=3) Time to here 0.000339; last lap 8.4e-05
+   Updating Op : 1 of 6
+   Updating Op : 3 of 6
+   Updating Op : 5 of 6
+  Block j : 5/15 (sz=9) Time to here 0.00039; last lap 4.3e-05
+  Block j : 6/15 (sz=3) Time to here 0.0004; last lap 2e-06
+  Block j : 7/15 (sz=9) Time to here 0.00041; last lap 1e-06
+  Block j : 8/15 (sz=9) Time to here 0.000419; last lap 1e-06
+  Block j : 9/15 (sz=1) Time to here 0.000428; last lap 1e-06
+  Block j : 10/15 (sz=3) Time to here 0.000437; last lap 1e-06
+  Block j : 11/15 (sz=1) Time to here 0.000446; last lap 1e-06
+  Block j : 12/15 (sz=3) Time to here 0.000455; last lap 1e-06
+  Block j : 13/15 (sz=3) Time to here 0.000464; last lap 1e-06
+  Block j : 14/15 (sz=3) Time to here 0.000473; last lap 1e-06
+  Block j : 15/15 (sz=1) Time to here 0.000482; last lap 1e-06
+Block i : 2/15 (sz=3) Nshell=0
+  Block j : 0/15 (sz=1) Time to here 0.000495; last lap 5e-06
+  Block j : 1/15 (sz=3) Time to here 0.000504; last lap 1e-06
+  Block j : 2/15 (sz=3) Time to here 0.000512; last lap 2e-06
+  Block j : 3/15 (sz=9) Time to here 0.000521; last lap 2e-06
+   Updating Op : 1 of 6
+   Updating Op : 3 of 6
+   Updating Op : 5 of 6
+  Block j : 4/15 (sz=3) Time to here 0.000612; last lap 8.3e-05
+  Block j : 5/15 (sz=9) Time to here 0.000622; last lap 1e-06
+  Block j : 6/15 (sz=3) Time to here 0.000631; last lap 1e-06
+   Updating Op : 2 of 6
+   Updating Op : 4 of 6
+   Updating Op : 6 of 6
+  Block j : 7/15 (sz=9) Time to here 0.000674; last lap 3.5e-05
+  Block j : 8/15 (sz=9) Time to here 0.000684; last lap 1e-06
+  Block j : 9/15 (sz=1) Time to here 0.000693; last lap 1e-06
+  Block j : 10/15 (sz=3) Time to here 0.000702; last lap 2e-06
+  Block j : 11/15 (sz=1) Time to here 0.000711; last lap 1e-06
+  Block j : 12/15 (sz=3) Time to here 0.00072; last lap 1e-06
+  Block j : 13/15 (sz=3) Time to here 0.000729; last lap 2e-06
+  Block j : 14/15 (sz=3) Time to here 0.000738; last lap 2e-06
+  Block j : 15/15 (sz=1) Time to here 0.000747; last lap 1e-06
+Block i : 3/15 (sz=9) Nshell=0
+  Block j : 0/15 (sz=1) Time to here 0.00076; last lap 5e-06
+  Block j : 1/15 (sz=3) Time to here 0.000769; last lap 1e-06
+  Block j : 2/15 (sz=3) Time to here 0.000777; last lap 1e-06
+  Block j : 3/15 (sz=9) Time to here 0.000786; last lap 2e-06
+  Block j : 4/15 (sz=3) Time to here 0.000795; last lap 1e-06
+  Block j : 5/15 (sz=9) Time to here 0.000804; last lap 1e-06
+   Updating Op : 1 of 6
+   Updating Op : 3 of 6
+   Updating Op : 5 of 6
+  Block j : 6/15 (sz=3) Time to here 0.001044; last lap 0.000232
+  Block j : 7/15 (sz=9) Time to here 0.001054; last lap 1e-06
+   Updating Op : 2 of 6
+   Updating Op : 4 of 6
+   Updating Op : 6 of 6
+  Block j : 8/15 (sz=9) Time to here 0.0013; last lap 0.000239
+  Block j : 9/15 (sz=1) Time to here 0.001311; last lap 2e-06
+  Block j : 10/15 (sz=3) Time to here 0.00132; last lap 1e-06
+  Block j : 11/15 (sz=1) Time to here 0.001329; last lap 1e-06
+  Block j : 12/15 (sz=3) Time to here 0.001338; last lap 1e-06
+  Block j : 13/15 (sz=3) Time to here 0.001347; last lap 2e-06
+  Block j : 14/15 (sz=3) Time to here 0.001356; last lap 2e-06
+  Block j : 15/15 (sz=1) Time to here 0.001365; last lap 2e-06
+Block i : 4/15 (sz=3) Nshell=0
+  Block j : 0/15 (sz=1) Time to here 0.001378; last lap 5e-06
+  Block j : 1/15 (sz=3) Time to here 0.001387; last lap 1e-06
+  Block j : 2/15 (sz=3) Time to here 0.001396; last lap 1e-06
+  Block j : 3/15 (sz=9) Time to here 0.001405; last lap 1e-06
+  Block j : 4/15 (sz=3) Time to here 0.001414; last lap 1e-06
+  Block j : 5/15 (sz=9) Time to here 0.001423; last lap 1e-06
+   Updating Op : 2 of 6
+   Updating Op : 4 of 6
+   Updating Op : 6 of 6
+  Block j : 6/15 (sz=3) Time to here 0.001521; last lap 9.1e-05
+  Block j : 7/15 (sz=9) Time to here 0.00153; last lap 2e-06
+  Block j : 8/15 (sz=9) Time to here 0.00154; last lap 1e-06
+  Block j : 9/15 (sz=1) Time to here 0.001549; last lap 1e-06
+   Updating Op : 1 of 6
+   Updating Op : 3 of 6
+   Updating Op : 5 of 6
+  Block j : 10/15 (sz=3) Time to here 0.001583; last lap 2.6e-05
+  Block j : 11/15 (sz=1) Time to here 0.001592; last lap 2e-06
+  Block j : 12/15 (sz=3) Time to here 0.001602; last lap 2e-06
+  Block j : 13/15 (sz=3) Time to here 0.001611; last lap 1e-06
+  Block j : 14/15 (sz=3) Time to here 0.001624; last lap 2e-06
+  Block j : 15/15 (sz=1) Time to here 0.001634; last lap 1e-06
+Block i : 5/15 (sz=9) Nshell=0
+  Block j : 0/15 (sz=1) Time to here 0.001648; last lap 6e-06
+  Block j : 1/15 (sz=3) Time to here 0.001657; last lap 1e-06
+  Block j : 2/15 (sz=3) Time to here 0.001666; last lap 1e-06
+  Block j : 3/15 (sz=9) Time to here 0.001675; last lap 1e-06
+  Block j : 4/15 (sz=3) Time to here 0.001684; last lap 1e-06
+  Block j : 5/15 (sz=9) Time to here 0.001692; last lap 2e-06
+  Block j : 6/15 (sz=3) Time to here 0.001701; last lap 2e-06
+  Block j : 7/15 (sz=9) Time to here 0.00171; last lap 2e-06
+  Block j : 8/15 (sz=9) Time to here 0.001719; last lap 2e-06
+   Updating Op : 2 of 6
+   Updating Op : 4 of 6
+   Updating Op : 6 of 6
+  Block j : 9/15 (sz=1) Time to here 0.001956; last lap 0.000229
+  Block j : 10/15 (sz=3) Time to here 0.001966; last lap 1e-06
+   Updating Op : 1 of 6
+   Updating Op : 3 of 6
+   Updating Op : 5 of 6
+  Block j : 11/15 (sz=1) Time to here 0.002059; last lap 8.6e-05
+  Block j : 12/15 (sz=3) Time to here 0.002069; last lap 1e-06
+  Block j : 13/15 (sz=3) Time to here 0.002078; last lap 2e-06
+  Block j : 14/15 (sz=3) Time to here 0.002087; last lap 2e-06
+  Block j : 15/15 (sz=1) Time to here 0.002096; last lap 2e-06
+Block i : 6/15 (sz=3) Nshell=0
+  Block j : 0/15 (sz=1) Time to here 0.00211; last lap 6e-06
+  Block j : 1/15 (sz=3) Time to here 0.002119; last lap 1e-06
+  Block j : 2/15 (sz=3) Time to here 0.002127; last lap 2e-06
+  Block j : 3/15 (sz=9) Time to here 0.002136; last lap 2e-06
+  Block j : 4/15 (sz=3) Time to here 0.002145; last lap 1e-06
+  Block j : 5/15 (sz=9) Time to here 0.002154; last lap 1e-06
+  Block j : 6/15 (sz=3) Time to here 0.002163; last lap 1e-06
+  Block j : 7/15 (sz=9) Time to here 0.002172; last lap 1e-06
+   Updating Op : 1 of 6
+   Updating Op : 3 of 6
+   Updating Op : 5 of 6
+  Block j : 8/15 (sz=9) Time to here 0.002262; last lap 8.3e-05
+  Block j : 9/15 (sz=1) Time to here 0.002272; last lap 1e-06
+  Block j : 10/15 (sz=3) Time to here 0.002281; last lap 1e-06
+  Block j : 11/15 (sz=1) Time to here 0.00229; last lap 1e-06
+   Updating Op : 2 of 6
+   Updating Op : 4 of 6
+   Updating Op : 6 of 6
+  Block j : 12/15 (sz=3) Time to here 0.002324; last lap 2.6e-05
+  Block j : 13/15 (sz=3) Time to here 0.002333; last lap 2e-06
+  Block j : 14/15 (sz=3) Time to here 0.002342; last lap 2e-06
+  Block j : 15/15 (sz=1) Time to here 0.002352; last lap 2e-06
+Block i : 7/15 (sz=9) Nshell=0
+  Block j : 0/15 (sz=1) Time to here 0.002365; last lap 6e-06
+  Block j : 1/15 (sz=3) Time to here 0.002374; last lap 1e-06
+  Block j : 2/15 (sz=3) Time to here 0.002382; last lap 2e-06
+  Block j : 3/15 (sz=9) Time to here 0.002391; last lap 2e-06
+  Block j : 4/15 (sz=3) Time to here 0.0024; last lap 1e-06
+  Block j : 5/15 (sz=9) Time to here 0.002409; last lap 1e-06
+  Block j : 6/15 (sz=3) Time to here 0.002418; last lap 1e-06
+  Block j : 7/15 (sz=9) Time to here 0.002426; last lap 2e-06
+  Block j : 8/15 (sz=9) Time to here 0.002435; last lap 2e-06
+   Updating Op : 1 of 6
+   Updating Op : 3 of 6
+   Updating Op : 5 of 6
+  Block j : 9/15 (sz=1) Time to here 0.002679; last lap 0.000236
+  Block j : 10/15 (sz=3) Time to here 0.00269; last lap 2e-06
+  Block j : 11/15 (sz=1) Time to here 0.002699; last lap 1e-06
+  Block j : 12/15 (sz=3) Time to here 0.002708; last lap 2e-06
+   Updating Op : 2 of 6
+   Updating Op : 4 of 6
+   Updating Op : 6 of 6
+  Block j : 13/15 (sz=3) Time to here 0.002802; last lap 8.6e-05
+  Block j : 14/15 (sz=3) Time to here 0.002812; last lap 1e-06
+  Block j : 15/15 (sz=1) Time to here 0.002821; last lap 2e-06
+Block i : 8/15 (sz=9) Nshell=0
+  Block j : 0/15 (sz=1) Time to here 0.002834; last lap 6e-06
+  Block j : 1/15 (sz=3) Time to here 0.002843; last lap 2e-06
+  Block j : 2/15 (sz=3) Time to here 0.002852; last lap 2e-06
+  Block j : 3/15 (sz=9) Time to here 0.002861; last lap 1e-06
+  Block j : 4/15 (sz=3) Time to here 0.00287; last lap 1e-06
+  Block j : 5/15 (sz=9) Time to here 0.002879; last lap 1e-06
+  Block j : 6/15 (sz=3) Time to here 0.002888; last lap 1e-06
+  Block j : 7/15 (sz=9) Time to here 0.002902; last lap 2e-06
+  Block j : 8/15 (sz=9) Time to here 0.002911; last lap 1e-06
+  Block j : 9/15 (sz=1) Time to here 0.00292; last lap 2e-06
+  Block j : 10/15 (sz=3) Time to here 0.002929; last lap 2e-06
+  Block j : 11/15 (sz=1) Time to here 0.002938; last lap 2e-06
+  Block j : 12/15 (sz=3) Time to here 0.002947; last lap 2e-06
+  Block j : 13/15 (sz=3) Time to here 0.002956; last lap 2e-06
+   Updating Op : 1 of 6
+   Updating Op : 3 of 6
+   Updating Op : 5 of 6
+  Block j : 14/15 (sz=3) Time to here 0.003048; last lap 8.5e-05
+   Updating Op : 2 of 6
+   Updating Op : 4 of 6
+   Updating Op : 6 of 6
+  Block j : 15/15 (sz=1) Time to here 0.003142; last lap 8.5e-05
+Block i : 9/15 (sz=1) Nshell=0
+  Block j : 0/15 (sz=1) Time to here 0.003155; last lap 6e-06
+  Block j : 1/15 (sz=3) Time to here 0.003164; last lap 1e-06
+  Block j : 2/15 (sz=3) Time to here 0.003173; last lap 2e-06
+  Block j : 3/15 (sz=9) Time to here 0.003182; last lap 1e-06
+  Block j : 4/15 (sz=3) Time to here 0.003191; last lap 1e-06
+  Block j : 5/15 (sz=9) Time to here 0.0032; last lap 1e-06
+  Block j : 6/15 (sz=3) Time to here 0.003209; last lap 1e-06
+  Block j : 7/15 (sz=9) Time to here 0.003217; last lap 2e-06
+  Block j : 8/15 (sz=9) Time to here 0.003226; last lap 2e-06
+  Block j : 9/15 (sz=1) Time to here 0.003235; last lap 2e-06
+  Block j : 10/15 (sz=3) Time to here 0.003244; last lap 1e-06
+   Updating Op : 2 of 6
+   Updating Op : 4 of 6
+   Updating Op : 6 of 6
+  Block j : 11/15 (sz=1) Time to here 0.003277; last lap 2.5e-05
+  Block j : 12/15 (sz=3) Time to here 0.003286; last lap 1e-06
+  Block j : 13/15 (sz=3) Time to here 0.003295; last lap 2e-06
+  Block j : 14/15 (sz=3) Time to here 0.003304; last lap 2e-06
+  Block j : 15/15 (sz=1) Time to here 0.003313; last lap 2e-06
+Block i : 10/15 (sz=3) Nshell=0
+  Block j : 0/15 (sz=1) Time to here 0.003326; last lap 6e-06
+  Block j : 1/15 (sz=3) Time to here 0.003335; last lap 1e-06
+  Block j : 2/15 (sz=3) Time to here 0.003344; last lap 1e-06
+  Block j : 3/15 (sz=9) Time to here 0.003353; last lap 1e-06
+  Block j : 4/15 (sz=3) Time to here 0.003362; last lap 1e-06
+  Block j : 5/15 (sz=9) Time to here 0.00337; last lap 2e-06
+  Block j : 6/15 (sz=3) Time to here 0.003379; last lap 1e-06
+  Block j : 7/15 (sz=9) Time to here 0.003388; last lap 1e-06
+  Block j : 8/15 (sz=9) Time to here 0.003397; last lap 1e-06
+  Block j : 9/15 (sz=1) Time to here 0.003406; last lap 1e-06
+  Block j : 10/15 (sz=3) Time to here 0.003415; last lap 2e-06
+  Block j : 11/15 (sz=1) Time to here 0.003423; last lap 2e-06
+  Block j : 12/15 (sz=3) Time to here 0.003432; last lap 2e-06
+  Block j : 13/15 (sz=3) Time to here 0.003441; last lap 2e-06
+   Updating Op : 2 of 6
+   Updating Op : 4 of 6
+   Updating Op : 6 of 6
+  Block j : 14/15 (sz=3) Time to here 0.003483; last lap 3.5e-05
+  Block j : 15/15 (sz=1) Time to here 0.003493; last lap 1e-06
+Block i : 11/15 (sz=1) Nshell=0
+  Block j : 0/15 (sz=1) Time to here 0.003506; last lap 6e-06
+  Block j : 1/15 (sz=3) Time to here 0.003515; last lap 2e-06
+  Block j : 2/15 (sz=3) Time to here 0.003524; last lap 2e-06
+  Block j : 3/15 (sz=9) Time to here 0.003533; last lap 2e-06
+  Block j : 4/15 (sz=3) Time to here 0.003542; last lap 1e-06
+  Block j : 5/15 (sz=9) Time to here 0.003551; last lap 1e-06
+  Block j : 6/15 (sz=3) Time to here 0.00356; last lap 1e-06
+  Block j : 7/15 (sz=9) Time to here 0.003568; last lap 2e-06
+  Block j : 8/15 (sz=9) Time to here 0.003577; last lap 2e-06
+  Block j : 9/15 (sz=1) Time to here 0.003586; last lap 2e-06
+  Block j : 10/15 (sz=3) Time to here 0.003595; last lap 1e-06
+  Block j : 11/15 (sz=1) Time to here 0.003604; last lap 1e-06
+  Block j : 12/15 (sz=3) Time to here 0.003613; last lap 1e-06
+   Updating Op : 1 of 6
+   Updating Op : 3 of 6
+   Updating Op : 5 of 6
+  Block j : 13/15 (sz=3) Time to here 0.003644; last lap 2.4e-05
+  Block j : 14/15 (sz=3) Time to here 0.003654; last lap 1e-06
+  Block j : 15/15 (sz=1) Time to here 0.003663; last lap 1e-06
+Block i : 12/15 (sz=3) Nshell=0
+  Block j : 0/15 (sz=1) Time to here 0.00368; last lap 9e-06
+  Block j : 1/15 (sz=3) Time to here 0.003689; last lap 1e-06
+  Block j : 2/15 (sz=3) Time to here 0.003699; last lap 1e-06
+  Block j : 3/15 (sz=9) Time to here 0.003707; last lap 1e-06
+  Block j : 4/15 (sz=3) Time to here 0.003725; last lap 2e-06
+  Block j : 5/15 (sz=9) Time to here 0.003735; last lap 1e-06
+  Block j : 6/15 (sz=3) Time to here 0.003744; last lap 1e-06
+  Block j : 7/15 (sz=9) Time to here 0.003753; last lap 1e-06
+  Block j : 8/15 (sz=9) Time to here 0.003762; last lap 1e-06
+  Block j : 9/15 (sz=1) Time to here 0.00377; last lap 2e-06
+  Block j : 10/15 (sz=3) Time to here 0.003779; last lap 2e-06
+  Block j : 11/15 (sz=1) Time to here 0.003788; last lap 2e-06
+  Block j : 12/15 (sz=3) Time to here 0.003797; last lap 2e-06
+  Block j : 13/15 (sz=3) Time to here 0.003806; last lap 2e-06
+  Block j : 14/15 (sz=3) Time to here 0.003815; last lap 2e-06
+   Updating Op : 1 of 6
+   Updating Op : 3 of 6
+   Updating Op : 5 of 6
+  Block j : 15/15 (sz=1) Time to here 0.003857; last lap 3.4e-05
+Block i : 13/15 (sz=3) Nshell=0
+  Block j : 0/15 (sz=1) Time to here 0.003871; last lap 6e-06
+  Block j : 1/15 (sz=3) Time to here 0.003879; last lap 2e-06
+  Block j : 2/15 (sz=3) Time to here 0.003888; last lap 1e-06
+  Block j : 3/15 (sz=9) Time to here 0.003897; last lap 1e-06
+  Block j : 4/15 (sz=3) Time to here 0.003906; last lap 1e-06
+  Block j : 5/15 (sz=9) Time to here 0.003914; last lap 1e-06
+  Block j : 6/15 (sz=3) Time to here 0.003923; last lap 2e-06
+  Block j : 7/15 (sz=9) Time to here 0.003932; last lap 1e-06
+  Block j : 8/15 (sz=9) Time to here 0.003941; last lap 1e-06
+  Block j : 9/15 (sz=1) Time to here 0.00395; last lap 1e-06
+  Block j : 10/15 (sz=3) Time to here 0.003958; last lap 2e-06
+  Block j : 11/15 (sz=1) Time to here 0.003967; last lap 2e-06
+  Block j : 12/15 (sz=3) Time to here 0.003976; last lap 1e-06
+  Block j : 13/15 (sz=3) Time to here 0.003985; last lap 1e-06
+  Block j : 14/15 (sz=3) Time to here 0.003994; last lap 1e-06
+  Block j : 15/15 (sz=1) Time to here 0.004002; last lap 2e-06
+   Updating Op : 2 of 6
+   Updating Op : 4 of 6
+   Updating Op : 6 of 6
+Block i : 14/15 (sz=3) Nshell=0
+  Block j : 0/15 (sz=1) Time to here 0.004039; last lap 2.9e-05
+  Block j : 1/15 (sz=3) Time to here 0.004048; last lap 1e-06
+  Block j : 2/15 (sz=3) Time to here 0.004057; last lap 1e-06
+  Block j : 3/15 (sz=9) Time to here 0.004066; last lap 1e-06
+  Block j : 4/15 (sz=3) Time to here 0.004074; last lap 1e-06
+  Block j : 5/15 (sz=9) Time to here 0.004083; last lap 2e-06
+  Block j : 6/15 (sz=3) Time to here 0.004092; last lap 2e-06
+  Block j : 7/15 (sz=9) Time to here 0.004101; last lap 1e-06
+  Block j : 8/15 (sz=9) Time to here 0.00411; last lap 1e-06
+  Block j : 9/15 (sz=1) Time to here 0.004118; last lap 2e-06
+  Block j : 10/15 (sz=3) Time to here 0.004127; last lap 2e-06
+  Block j : 11/15 (sz=1) Time to here 0.004136; last lap 1e-06
+  Block j : 12/15 (sz=3) Time to here 0.004145; last lap 1e-06
+  Block j : 13/15 (sz=3) Time to here 0.004154; last lap 1e-06
+  Block j : 14/15 (sz=3) Time to here 0.004163; last lap 1e-06
+  Block j : 15/15 (sz=1) Time to here 0.004171; last lap 2e-06
+   Updating Op : 1 of 6
+   Updating Op : 3 of 6
+   Updating Op : 5 of 6
+Block i : 15/15 (sz=1) Nshell=0
+  Block j : 0/15 (sz=1) Time to here 0.004207; last lap 2.8e-05
+  Block j : 1/15 (sz=3) Time to here 0.004216; last lap 2e-06
+  Block j : 2/15 (sz=3) Time to here 0.004225; last lap 2e-06
+  Block j : 3/15 (sz=9) Time to here 0.004234; last lap 2e-06
+  Block j : 4/15 (sz=3) Time to here 0.004243; last lap 1e-06
+  Block j : 5/15 (sz=9) Time to here 0.004252; last lap 1e-06
+  Block j : 6/15 (sz=3) Time to here 0.004261; last lap 1e-06
+  Block j : 7/15 (sz=9) Time to here 0.004269; last lap 2e-06
+  Block j : 8/15 (sz=9) Time to here 0.004278; last lap 2e-06
+  Block j : 9/15 (sz=1) Time to here 0.004287; last lap 1e-06
+  Block j : 10/15 (sz=3) Time to here 0.004296; last lap 1e-06
+  Block j : 11/15 (sz=1) Time to here 0.004305; last lap 1e-06
+  Block j : 12/15 (sz=3) Time to here 0.004314; last lap 1e-06
+  Block j : 13/15 (sz=3) Time to here 0.004327; last lap 1e-06
+  Block j : 14/15 (sz=3) Time to here 0.004336; last lap 2e-06
+  Block j : 15/15 (sz=1) Time to here 0.004346; last lap 1e-06
+ DONE updating operators in Nshell = 0
+ ...  1chQSz_DQD H0 done. 
+DN = 1.1068  TM = 1.52242
+CalcThermo: Not calculating thermodynamics 
+CalcThermo: Not calculating thermodynamics 
+CalcThermo: Not calculating thermodynamics 
+CalcThermo: Not calculating thermodynamics 
+ CalcStuff: Not Calculating stuff for Mat 0
+ CalcStuff: Not Calculating stuff for Mat 1
+ CalcStuff: Not Calculating stuff for Mat 2
+ CalcStuff: Not Calculating stuff for Mat 3
+ CalcStuff: Not Calculating stuff for Mat 4
+ CalcStuff: Not Calculating stuff for Mat 5
+DN = 0.7 TM = 0.962861
+ NoCommon = 2
+ ParityQN : 0 0 
+ PosInOld : 0 1 
+ PosInSingleSite : 0 1 
+ MatchOld : 1 1 
+No blocks = 25
+No states = 256
+Diagonalizing H(N=1)... 
+ chi_N = 0.800641
+ Setting up H_(N =1 : ibl = 0 size = 1 (Nbls = 25)
+ Limits : 0  0
+ Setting up H_(N =1 : ibl = 1 size = 4 (Nbls = 25)
+ Limits : 1  4
+ Setting up H_(N =1 : ibl = 2 size = 4 (Nbls = 25)
+ Limits : 5  8
+ Setting up H_(N =1 : ibl = 3 size = 16 (Nbls = 25)
+ Limits : 9  24
+ Setting up H_(N =1 : ibl = 4 size = 6 (Nbls = 25)
+ Limits : 25  30
+ Setting up H_(N =1 : ibl = 5 size = 24 (Nbls = 25)
+ Limits : 31  54
+ Setting up H_(N =1 : ibl = 6 size = 6 (Nbls = 25)
+ Limits : 55  60
+ Setting up H_(N =1 : ibl = 7 size = 24 (Nbls = 25)
+ Limits : 61  84
+ Setting up H_(N =1 : ibl = 8 size = 36 (Nbls = 25)
+ Limits : 85  120
+ Setting up H_(N =1 : ibl = 9 size = 4 (Nbls = 25)
+ Limits : 121  124
+ Setting up H_(N =1 : ibl = 10 size = 16 (Nbls = 25)
+ Limits : 125  140
+ Setting up H_(N =1 : ibl = 11 size = 24 (Nbls = 25)
+ Limits : 141  164
+ Setting up H_(N =1 : ibl = 12 size = 4 (Nbls = 25)
+ Limits : 165  168
+ Setting up H_(N =1 : ibl = 13 size = 16 (Nbls = 25)
+ Limits : 169  184
+ Setting up H_(N =1 : ibl = 14 size = 24 (Nbls = 25)
+ Limits : 185  208
+ Setting up H_(N =1 : ibl = 15 size = 16 (Nbls = 25)
+ Limits : 209  224
+ Setting up H_(N =1 : ibl = 16 size = 1 (Nbls = 25)
+ Limits : 225  225
+ Setting up H_(N =1 : ibl = 17 size = 4 (Nbls = 25)
+ Limits : 226  229
+ Setting up H_(N =1 : ibl = 18 size = 6 (Nbls = 25)
+ Limits : 230  235
+ Setting up H_(N =1 : ibl = 19 size = 1 (Nbls = 25)
+ Limits : 236  236
+ Setting up H_(N =1 : ibl = 20 size = 4 (Nbls = 25)
+ Limits : 237  240
+ Setting up H_(N =1 : ibl = 21 size = 6 (Nbls = 25)
+ Limits : 241  246
+ Setting up H_(N =1 : ibl = 22 size = 4 (Nbls = 25)
+ Limits : 247  250
+ Setting up H_(N =1 : ibl = 23 size = 4 (Nbls = 25)
+ Limits : 251  254
+ Setting up H_(N =1 : ibl = 24 size = 1 (Nbls = 25)
+ Limits : 255  255
+ Done setting up HN. 
+Updating Aeig... 
+ Diagonalizing block 0 of 24
+Upper triangular
+ Diagonalizing block 1 of 24
+Upper triangular
+ Diagonalizing block 2 of 24
+Upper triangular
+ Diagonalizing block 3 of 24
+Upper triangular
+ Diagonalizing block 4 of 24
+Upper triangular
+ Diagonalizing block 5 of 24
+Upper triangular
+ Diagonalizing block 6 of 24
+Upper triangular
+ Diagonalizing block 7 of 24
+Upper triangular
+ Diagonalizing block 8 of 24
+Upper triangular
+ Diagonalizing block 9 of 24
+Upper triangular
+ Diagonalizing block 10 of 24
+Upper triangular
+ Diagonalizing block 11 of 24
+Upper triangular
+ Diagonalizing block 12 of 24
+Upper triangular
+ Diagonalizing block 13 of 24
+Upper triangular
+ Diagonalizing block 14 of 24
+Upper triangular
+ Diagonalizing block 15 of 24
+Upper triangular
+ Diagonalizing block 16 of 24
+Upper triangular
+ Diagonalizing block 17 of 24
+Upper triangular
+ Diagonalizing block 18 of 24
+Upper triangular
+ Diagonalizing block 19 of 24
+Upper triangular
+ Diagonalizing block 20 of 24
+Upper triangular
+ Diagonalizing block 21 of 24
+Upper triangular
+ Diagonalizing block 22 of 24
+Upper triangular
+ Diagonalizing block 23 of 24
+Upper triangular
+ Diagonalizing block 24 of 24
+Upper triangular
+Emin = -1.48503
+... done diagonalizing HN. 
+SetKept: Ncutoff = 1000 Ecut = 6.19572
+SetKept: Nkept = 256 Ndisc = 0
+En = 3.27962 ---| -4  0  (K)>_N= 1
+En = 2.37887 ---| -3  0.5  (K)>_N= 1
+En = 2.49193 ---| -3  0.5  (K)>_N= 1
+En = 3.84296 ---| -3  0.5  (K)>_N= 1
+En = 4.20594 ---| -3  0.5  (K)>_N= 1
+En = 2.29755 ---| -3  -0.5  (K)>_N= 1
+En = 2.45906 ---| -3  -0.5  (K)>_N= 1
+En = 3.68618 ---| -3  -0.5  (K)>_N= 1
+En = 4.16014 ---| -3  -0.5  (K)>_N= 1
+En = 1.47098 ---| -2  0  (K)>_N= 1
+En = 1.55781 ---| -2  0  (K)>_N= 1
+En = 1.64631 ---| -2  0  (K)>_N= 1
+En = 1.67264 ---| -2  0  (K)>_N= 1
+En = 2.82278 ---| -2  0  (K)>_N= 1
+En = 2.88643 ---| -2  0  (K)>_N= 1
+En = 3.02002 ---| -2  0  (K)>_N= 1
+En = 3.0331 ---| -2  0  (K)>_N= 1
+En = 3.24431 ---| -2  0  (K)>_N= 1
+En = 3.34375 ---| -2  0  (K)>_N= 1
+En = 3.38518 ---| -2  0  (K)>_N= 1
+En = 3.43503 ---| -2  0  (K)>_N= 1
+En = 4.31218 ---| -2  0  (K)>_N= 1
+En = 4.65321 ---| -2  0  (K)>_N= 1
+En = 4.74957 ---| -2  0  (K)>_N= 1
+En = 5.0977 ---| -2  0  (K)>_N= 1
+En = 1.59118 ---| -2  1  (K)>_N= 1
+En = 2.94221 ---| -2  1  (K)>_N= 1
+En = 3.05528 ---| -2  1  (K)>_N= 1
+En = 3.30519 ---| -2  1  (K)>_N= 1
+En = 3.41825 ---| -2  1  (K)>_N= 1
+En = 4.76928 ---| -2  1  (K)>_N= 1
+En = 0.768614 ---| -1  0.5  (K)>_N= 1
+En = 0.82257 ---| -1  0.5  (K)>_N= 1
+En = 2.0244 ---| -1  0.5  (K)>_N= 1
+En = 2.12082 ---| -1  0.5  (K)>_N= 1
+En = 2.19811 ---| -1  0.5  (K)>_N= 1
+En = 2.23346 ---| -1  0.5  (K)>_N= 1
+En = 2.27554 ---| -1  0.5  (K)>_N= 1
+En = 2.43365 ---| -1  0.5  (K)>_N= 1
+En = 2.48412 ---| -1  0.5  (K)>_N= 1
+En = 2.58388 ---| -1  0.5  (K)>_N= 1
+En = 2.5963 ---| -1  0.5  (K)>_N= 1
+En = 2.63895 ---| -1  0.5  (K)>_N= 1
+En = 3.47721 ---| -1  0.5  (K)>_N= 1
+En = 3.58685 ---| -1  0.5  (K)>_N= 1
+En = 3.78087 ---| -1  0.5  (K)>_N= 1
+En = 3.85139 ---| -1  0.5  (K)>_N= 1
+En = 3.91891 ---| -1  0.5  (K)>_N= 1
+En = 3.94817 ---| -1  0.5  (K)>_N= 1
+En = 4.01288 ---| -1  0.5  (K)>_N= 1
+En = 4.0411 ---| -1  0.5  (K)>_N= 1
+En = 4.2589 ---| -1  0.5  (K)>_N= 1
+En = 4.35289 ---| -1  0.5  (K)>_N= 1
+En = 5.28533 ---| -1  0.5  (K)>_N= 1
+En = 5.68046 ---| -1  0.5  (K)>_N= 1
+En = 1.477 ---| -2  -1  (K)>_N= 1
+En = 2.70412 ---| -2  -1  (K)>_N= 1
+En = 2.86563 ---| -2  -1  (K)>_N= 1
+En = 3.17808 ---| -2  -1  (K)>_N= 1
+En = 3.33959 ---| -2  -1  (K)>_N= 1
+En = 4.56671 ---| -2  -1  (K)>_N= 1
+En = 0.650581 ---| -1  -0.5  (K)>_N= 1
+En = 0.826354 ---| -1  -0.5  (K)>_N= 1
+En = 1.88407 ---| -1  -0.5  (K)>_N= 1
+En = 2.00203 ---| -1  -0.5  (K)>_N= 1
+En = 2.06574 ---| -1  -0.5  (K)>_N= 1
+En = 2.19302 ---| -1  -0.5  (K)>_N= 1
+En = 2.21245 ---| -1  -0.5  (K)>_N= 1
+En = 2.35546 ---| -1  -0.5  (K)>_N= 1
+En = 2.42358 ---| -1  -0.5  (K)>_N= 1
+En = 2.5234 ---| -1  -0.5  (K)>_N= 1
+En = 2.57126 ---| -1  -0.5  (K)>_N= 1
+En = 2.61488 ---| -1  -0.5  (K)>_N= 1
+En = 3.38414 ---| -1  -0.5  (K)>_N= 1
+En = 3.49183 ---| -1  -0.5  (K)>_N= 1
+En = 3.68679 ---| -1  -0.5  (K)>_N= 1
+En = 3.75498 ---| -1  -0.5  (K)>_N= 1
+En = 3.82954 ---| -1  -0.5  (K)>_N= 1
+En = 3.83739 ---| -1  -0.5  (K)>_N= 1
+En = 3.92892 ---| -1  -0.5  (K)>_N= 1
+En = 3.96121 ---| -1  -0.5  (K)>_N= 1
+En = 4.23596 ---| -1  -0.5  (K)>_N= 1
+En = 4.27823 ---| -1  -0.5  (K)>_N= 1
+En = 5.20528 ---| -1  -0.5  (K)>_N= 1
+En = 5.55768 ---| -1  -0.5  (K)>_N= 1
+En = 0 ---| 0  0  (K)>_N= 1
+En = 1.20352 ---| 0  0  (K)>_N= 1
+En = 1.37031 ---| 0  0  (K)>_N= 1
+En = 1.38275 ---| 0  0  (K)>_N= 1
+En = 1.45334 ---| 0  0  (K)>_N= 1
+En = 1.61301 ---| 0  0  (K)>_N= 1
+En = 1.7469 ---| 0  0  (K)>_N= 1
+En = 1.76469 ---| 0  0  (K)>_N= 1
+En = 1.81693 ---| 0  0  (K)>_N= 1
+En = 2.56394 ---| 0  0  (K)>_N= 1
+En = 2.65688 ---| 0  0  (K)>_N= 1
+En = 2.76518 ---| 0  0  (K)>_N= 1
+En = 2.86281 ---| 0  0  (K)>_N= 1
+En = 2.87867 ---| 0  0  (K)>_N= 1
+En = 2.96 ---| 0  0  (K)>_N= 1
+En = 3.0117 ---| 0  0  (K)>_N= 1
+En = 3.03174 ---| 0  0  (K)>_N= 1
+En = 3.09821 ---| 0  0  (K)>_N= 1
+En = 3.1326 ---| 0  0  (K)>_N= 1
+En = 3.18755 ---| 0  0  (K)>_N= 1
+En = 3.19115 ---| 0  0  (K)>_N= 1
+En = 3.22064 ---| 0  0  (K)>_N= 1
+En = 3.28091 ---| 0  0  (K)>_N= 1
+En = 3.41324 ---| 0  0  (K)>_N= 1
+En = 3.44009 ---| 0  0  (K)>_N= 1
+En = 3.53095 ---| 0  0  (K)>_N= 1
+En = 3.59897 ---| 0  0  (K)>_N= 1
+En = 4.37018 ---| 0  0  (K)>_N= 1
+En = 4.4191 ---| 0  0  (K)>_N= 1
+En = 4.46527 ---| 0  0  (K)>_N= 1
+En = 4.58236 ---| 0  0  (K)>_N= 1
+En = 4.7315 ---| 0  0  (K)>_N= 1
+En = 4.82688 ---| 0  0  (K)>_N= 1
+En = 4.86063 ---| 0  0  (K)>_N= 1
+En = 5.00929 ---| 0  0  (K)>_N= 1
+En = 6.19572 ---| 0  0  (K)>_N= 1
+En = 2.15453 ---| -1  1.5  (K)>_N= 1
+En = 2.51751 ---| -1  1.5  (K)>_N= 1
+En = 3.86854 ---| -1  1.5  (K)>_N= 1
+En = 3.9816 ---| -1  1.5  (K)>_N= 1
+En = 1.33276 ---| 0  1  (K)>_N= 1
+En = 1.44327 ---| 0  1  (K)>_N= 1
+En = 1.69566 ---| 0  1  (K)>_N= 1
+En = 1.79343 ---| 0  1  (K)>_N= 1
+En = 2.75237 ---| 0  1  (K)>_N= 1
+En = 2.98468 ---| 0  1  (K)>_N= 1
+En = 3.04729 ---| 0  1  (K)>_N= 1
+En = 3.16013 ---| 0  1  (K)>_N= 1
+En = 3.17896 ---| 0  1  (K)>_N= 1
+En = 3.19472 ---| 0  1  (K)>_N= 1
+En = 3.26005 ---| 0  1  (K)>_N= 1
+En = 3.5125 ---| 0  1  (K)>_N= 1
+En = 4.45253 ---| 0  1  (K)>_N= 1
+En = 4.57144 ---| 0  1  (K)>_N= 1
+En = 4.84342 ---| 0  1  (K)>_N= 1
+En = 4.94623 ---| 0  1  (K)>_N= 1
+En = 0.621519 ---| 1  0.5  (K)>_N= 1
+En = 0.97158 ---| 1  0.5  (K)>_N= 1
+En = 1.9307 ---| 1  0.5  (K)>_N= 1
+En = 2.04468 ---| 1  0.5  (K)>_N= 1
+En = 2.16374 ---| 1  0.5  (K)>_N= 1
+En = 2.35714 ---| 1  0.5  (K)>_N= 1
+En = 2.3607 ---| 1  0.5  (K)>_N= 1
+En = 2.37511 ---| 1  0.5  (K)>_N= 1
+En = 2.43854 ---| 1  0.5  (K)>_N= 1
+En = 2.45999 ---| 1  0.5  (K)>_N= 1
+En = 2.6906 ---| 1  0.5  (K)>_N= 1
+En = 2.77528 ---| 1  0.5  (K)>_N= 1
+En = 3.58654 ---| 1  0.5  (K)>_N= 1
+En = 3.6325 ---| 1  0.5  (K)>_N= 1
+En = 3.7498 ---| 1  0.5  (K)>_N= 1
+En = 3.75876 ---| 1  0.5  (K)>_N= 1
+En = 3.89376 ---| 1  0.5  (K)>_N= 1
+En = 4.00108 ---| 1  0.5  (K)>_N= 1
+En = 4.02407 ---| 1  0.5  (K)>_N= 1
+En = 4.12472 ---| 1  0.5  (K)>_N= 1
+En = 4.18409 ---| 1  0.5  (K)>_N= 1
+En = 4.26775 ---| 1  0.5  (K)>_N= 1
+En = 5.37228 ---| 1  0.5  (K)>_N= 1
+En = 5.59043 ---| 1  0.5  (K)>_N= 1
+En = 1.88357 ---| -1  -1.5  (K)>_N= 1
+En = 2.35753 ---| -1  -1.5  (K)>_N= 1
+En = 3.58465 ---| -1  -1.5  (K)>_N= 1
+En = 3.74616 ---| -1  -1.5  (K)>_N= 1
+En = 1.06356 ---| 0  -1  (K)>_N= 1
+En = 1.37438 ---| 0  -1  (K)>_N= 1
+En = 1.535 ---| 0  -1  (K)>_N= 1
+En = 1.75126 ---| 0  -1  (K)>_N= 1
+En = 2.56381 ---| 0  -1  (K)>_N= 1
+En = 2.76543 ---| 0  -1  (K)>_N= 1
+En = 2.86613 ---| 0  -1  (K)>_N= 1
+En = 2.93447 ---| 0  -1  (K)>_N= 1
+En = 3.01392 ---| 0  -1  (K)>_N= 1
+En = 3.12194 ---| 0  -1  (K)>_N= 1
+En = 3.14241 ---| 0  -1  (K)>_N= 1
+En = 3.41646 ---| 0  -1  (K)>_N= 1
+En = 4.27819 ---| 0  -1  (K)>_N= 1
+En = 4.38494 ---| 0  -1  (K)>_N= 1
+En = 4.68534 ---| 0  -1  (K)>_N= 1
+En = 4.73813 ---| 0  -1  (K)>_N= 1
+En = 0.555056 ---| 1  -0.5  (K)>_N= 1
+En = 0.928119 ---| 1  -0.5  (K)>_N= 1
+En = 1.74368 ---| 1  -0.5  (K)>_N= 1
+En = 2.04119 ---| 1  -0.5  (K)>_N= 1
+En = 2.05793 ---| 1  -0.5  (K)>_N= 1
+En = 2.19232 ---| 1  -0.5  (K)>_N= 1
+En = 2.30117 ---| 1  -0.5  (K)>_N= 1
+En = 2.31538 ---| 1  -0.5  (K)>_N= 1
+En = 2.3674 ---| 1  -0.5  (K)>_N= 1
+En = 2.45903 ---| 1  -0.5  (K)>_N= 1
+En = 2.59451 ---| 1  -0.5  (K)>_N= 1
+En = 2.77689 ---| 1  -0.5  (K)>_N= 1
+En = 3.45895 ---| 1  -0.5  (K)>_N= 1
+En = 3.54987 ---| 1  -0.5  (K)>_N= 1
+En = 3.59916 ---| 1  -0.5  (K)>_N= 1
+En = 3.76031 ---| 1  -0.5  (K)>_N= 1
+En = 3.81905 ---| 1  -0.5  (K)>_N= 1
+En = 3.866 ---| 1  -0.5  (K)>_N= 1
+En = 3.9121 ---| 1  -0.5  (K)>_N= 1
+En = 4.00709 ---| 1  -0.5  (K)>_N= 1
+En = 4.18689 ---| 1  -0.5  (K)>_N= 1
+En = 4.22742 ---| 1  -0.5  (K)>_N= 1
+En = 5.36823 ---| 1  -0.5  (K)>_N= 1
+En = 5.38704 ---| 1  -0.5  (K)>_N= 1
+En = 1.22303 ---| 2  0  (K)>_N= 1
+En = 1.54135 ---| 2  0  (K)>_N= 1
+En = 1.63817 ---| 2  0  (K)>_N= 1
+En = 1.95336 ---| 2  0  (K)>_N= 1
+En = 2.76664 ---| 2  0  (K)>_N= 1
+En = 2.9367 ---| 2  0  (K)>_N= 1
+En = 2.99981 ---| 2  0  (K)>_N= 1
+En = 3.07217 ---| 2  0  (K)>_N= 1
+En = 3.1818 ---| 2  0  (K)>_N= 1
+En = 3.36189 ---| 2  0  (K)>_N= 1
+En = 3.40798 ---| 2  0  (K)>_N= 1
+En = 3.44622 ---| 2  0  (K)>_N= 1
+En = 4.54608 ---| 2  0  (K)>_N= 1
+En = 4.56657 ---| 2  0  (K)>_N= 1
+En = 4.76886 ---| 2  0  (K)>_N= 1
+En = 4.92037 ---| 2  0  (K)>_N= 1
+En = 3.08085 ---| 0  2  (K)>_N= 1
+En = 2.25929 ---| 1  1.5  (K)>_N= 1
+En = 2.4151 ---| 1  1.5  (K)>_N= 1
+En = 3.74005 ---| 1  1.5  (K)>_N= 1
+En = 4.10773 ---| 1  1.5  (K)>_N= 1
+En = 1.59354 ---| 2  1  (K)>_N= 1
+En = 2.91849 ---| 2  1  (K)>_N= 1
+En = 3.0743 ---| 2  1  (K)>_N= 1
+En = 3.28617 ---| 2  1  (K)>_N= 1
+En = 3.44198 ---| 2  1  (K)>_N= 1
+En = 4.76693 ---| 2  1  (K)>_N= 1
+En = 2.76409 ---| 0  -2  (K)>_N= 1
+En = 1.94491 ---| 1  -1.5  (K)>_N= 1
+En = 2.30334 ---| 1  -1.5  (K)>_N= 1
+En = 3.45787 ---| 1  -1.5  (K)>_N= 1
+En = 3.86578 ---| 1  -1.5  (K)>_N= 1
+En = 1.48416 ---| 2  -1  (K)>_N= 1
+En = 2.63868 ---| 2  -1  (K)>_N= 1
+En = 2.99711 ---| 2  -1  (K)>_N= 1
+En = 3.0466 ---| 2  -1  (K)>_N= 1
+En = 3.40503 ---| 2  -1  (K)>_N= 1
+En = 4.55955 ---| 2  -1  (K)>_N= 1
+En = 2.25273 ---| 3  0.5  (K)>_N= 1
+En = 2.62042 ---| 3  0.5  (K)>_N= 1
+En = 3.94537 ---| 3  0.5  (K)>_N= 1
+En = 4.10118 ---| 3  0.5  (K)>_N= 1
+En = 2.17793 ---| 3  -0.5  (K)>_N= 1
+En = 2.58584 ---| 3  -0.5  (K)>_N= 1
+En = 3.74037 ---| 3  -0.5  (K)>_N= 1
+En = 4.0988 ---| 3  -0.5  (K)>_N= 1
+En = 3.27962 ---| 4  0  (K)>_N= 1
+CalcThermo: Not calculating thermodynamics 
+CalcThermo: Not calculating thermodynamics 
+CalcThermo: Not calculating thermodynamics 
+CalcThermo: Not calculating thermodynamics 
+Block i : 0/24 (sz=1) Nshell=1
+  Block j : 0/24 (sz=1) Time to here 9e-06; last lap 8e-06
+  Block j : 1/24 (sz=4) Time to here 3.1e-05; last lap 2e-06
+   Updating Op : 1 of 6
+   Updating Op : 3 of 6
+   Updating Op : 5 of 6
+  Block j : 2/24 (sz=4) Time to here 8.3e-05; last lap 4.2e-05
+   Updating Op : 2 of 6
+   Updating Op : 4 of 6
+   Updating Op : 6 of 6
+  Block j : 3/24 (sz=16) Time to here 0.000116; last lap 2.5e-05
+  Block j : 4/24 (sz=6) Time to here 0.000125; last lap 1e-06
+  Block j : 5/24 (sz=24) Time to here 0.000134; last lap 1e-06
+  Block j : 6/24 (sz=6) Time to here 0.000142; last lap 2e-06
+  Block j : 7/24 (sz=24) Time to here 0.000151; last lap 1e-06
+  Block j : 8/24 (sz=36) Time to here 0.000159; last lap 2e-06
+  Block j : 9/24 (sz=4) Time to here 0.000168; last lap 2e-06
+  Block j : 10/24 (sz=16) Time to here 0.000177; last lap 1e-06
+  Block j : 11/24 (sz=24) Time to here 0.000185; last lap 2e-06
+  Block j : 12/24 (sz=4) Time to here 0.000194; last lap 1e-06
+  Block j : 13/24 (sz=16) Time to here 0.000202; last lap 2e-06
+  Block j : 14/24 (sz=24) Time to here 0.000211; last lap 1e-06
+  Block j : 15/24 (sz=16) Time to here 0.000219; last lap 2e-06
+  Block j : 16/24 (sz=1) Time to here 0.000228; last lap 1e-06
+  Block j : 17/24 (sz=4) Time to here 0.000236; last lap 2e-06
+  Block j : 18/24 (sz=6) Time to here 0.000245; last lap 1e-06
+  Block j : 19/24 (sz=1) Time to here 0.000254; last lap 1e-06
+  Block j : 20/24 (sz=4) Time to here 0.000262; last lap 2e-06
+  Block j : 21/24 (sz=6) Time to here 0.000271; last lap 1e-06
+  Block j : 22/24 (sz=4) Time to here 0.000279; last lap 2e-06
+  Block j : 23/24 (sz=4) Time to here 0.000288; last lap 1e-06
+  Block j : 24/24 (sz=1) Time to here 0.000296; last lap 2e-06
+Block i : 1/24 (sz=4) Nshell=1
+  Block j : 0/24 (sz=1) Time to here 0.000309; last lap 5e-06
+  Block j : 1/24 (sz=4) Time to here 0.000317; last lap 1e-06
+  Block j : 2/24 (sz=4) Time to here 0.000325; last lap 2e-06
+  Block j : 3/24 (sz=16) Time to here 0.000333; last lap 2e-06
+   Updating Op : 2 of 6
+   Updating Op : 4 of 6
+   Updating Op : 6 of 6
+  Block j : 4/24 (sz=6) Time to here 0.000548; last lap 0.000208
+   Updating Op : 1 of 6
+   Updating Op : 3 of 6
+   Updating Op : 5 of 6
+  Block j : 5/24 (sz=24) Time to here 0.000623; last lap 6.6e-05
+  Block j : 6/24 (sz=6) Time to here 0.000632; last lap 2e-06
+  Block j : 7/24 (sz=24) Time to here 0.000641; last lap 1e-06
+  Block j : 8/24 (sz=36) Time to here 0.00065; last lap 1e-06
+  Block j : 9/24 (sz=4) Time to here 0.000658; last lap 1e-06
+  Block j : 10/24 (sz=16) Time to here 0.000667; last lap 1e-06
+  Block j : 11/24 (sz=24) Time to here 0.000675; last lap 1e-06
+  Block j : 12/24 (sz=4) Time to here 0.000683; last lap 2e-06
+  Block j : 13/24 (sz=16) Time to here 0.000692; last lap 1e-06
+  Block j : 14/24 (sz=24) Time to here 0.0007; last lap 2e-06
+  Block j : 15/24 (sz=16) Time to here 0.000709; last lap 1e-06
+  Block j : 16/24 (sz=1) Time to here 0.000717; last lap 2e-06
+  Block j : 17/24 (sz=4) Time to here 0.000726; last lap 1e-06
+  Block j : 18/24 (sz=6) Time to here 0.000734; last lap 2e-06
+  Block j : 19/24 (sz=1) Time to here 0.000747; last lap 2e-06
+  Block j : 20/24 (sz=4) Time to here 0.000757; last lap 1e-06
+  Block j : 21/24 (sz=6) Time to here 0.000765; last lap 2e-06
+  Block j : 22/24 (sz=4) Time to here 0.000774; last lap 1e-06
+  Block j : 23/24 (sz=4) Time to here 0.000782; last lap 1e-06
+  Block j : 24/24 (sz=1) Time to here 0.000791; last lap 1e-06
+Block i : 2/24 (sz=4) Nshell=1
+  Block j : 0/24 (sz=1) Time to here 0.000803; last lap 5e-06
+  Block j : 1/24 (sz=4) Time to here 0.000811; last lap 1e-06
+  Block j : 2/24 (sz=4) Time to here 0.000819; last lap 1e-06
+  Block j : 3/24 (sz=16) Time to here 0.000828; last lap 1e-06
+   Updating Op : 1 of 6
+   Updating Op : 3 of 6
+   Updating Op : 5 of 6
+  Block j : 4/24 (sz=6) Time to here 0.001043; last lap 0.000208
+  Block j : 5/24 (sz=24) Time to here 0.001052; last lap 2e-06
+  Block j : 6/24 (sz=6) Time to here 0.001061; last lap 1e-06
+   Updating Op : 2 of 6
+   Updating Op : 4 of 6
+   Updating Op : 6 of 6
+  Block j : 7/24 (sz=24) Time to here 0.001133; last lap 6.5e-05
+  Block j : 8/24 (sz=36) Time to here 0.001142; last lap 1e-06
+  Block j : 9/24 (sz=4) Time to here 0.001151; last lap 2e-06
+  Block j : 10/24 (sz=16) Time to here 0.00116; last lap 1e-06
+  Block j : 11/24 (sz=24) Time to here 0.001169; last lap 1e-06
+  Block j : 12/24 (sz=4) Time to here 0.001177; last lap 1e-06
+  Block j : 13/24 (sz=16) Time to here 0.001185; last lap 2e-06
+  Block j : 14/24 (sz=24) Time to here 0.001194; last lap 1e-06
+  Block j : 15/24 (sz=16) Time to here 0.001202; last lap 2e-06
+  Block j : 16/24 (sz=1) Time to here 0.001211; last lap 1e-06
+  Block j : 17/24 (sz=4) Time to here 0.001219; last lap 2e-06
+  Block j : 18/24 (sz=6) Time to here 0.001228; last lap 1e-06
+  Block j : 19/24 (sz=1) Time to here 0.001236; last lap 2e-06
+  Block j : 20/24 (sz=4) Time to here 0.001245; last lap 1e-06
+  Block j : 21/24 (sz=6) Time to here 0.001253; last lap 2e-06
+  Block j : 22/24 (sz=4) Time to here 0.001261; last lap 2e-06
+  Block j : 23/24 (sz=4) Time to here 0.00127; last lap 1e-06
+  Block j : 24/24 (sz=1) Time to here 0.001278; last lap 1e-06
+Block i : 3/24 (sz=16) Nshell=1
+  Block j : 0/24 (sz=1) Time to here 0.00129; last lap 6e-06
+  Block j : 1/24 (sz=4) Time to here 0.001299; last lap 1e-06
+  Block j : 2/24 (sz=4) Time to here 0.001307; last lap 1e-06
+  Block j : 3/24 (sz=16) Time to here 0.001315; last lap 1e-06
+  Block j : 4/24 (sz=6) Time to here 0.001324; last lap 1e-06
+  Block j : 5/24 (sz=24) Time to here 0.001332; last lap 2e-06
+   Updating Op : 1 of 6
+   Updating Op : 3 of 6
+   Updating Op : 5 of 6
+  Block j : 6/24 (sz=6) Time to here 0.002998; last lap 0.001659
+  Block j : 7/24 (sz=24) Time to here 0.003008; last lap 2e-06
+   Updating Op : 2 of 6
+   Updating Op : 4 of 6
+   Updating Op : 6 of 6
+  Block j : 8/24 (sz=36) Time to here 0.004734; last lap 0.001718
+  Block j : 9/24 (sz=4) Time to here 0.004745; last lap 2e-06
+  Block j : 10/24 (sz=16) Time to here 0.004753; last lap 2e-06
+  Block j : 11/24 (sz=24) Time to here 0.004762; last lap 1e-06
+  Block j : 12/24 (sz=4) Time to here 0.00477; last lap 1e-06
+  Block j : 13/24 (sz=16) Time to here 0.004778; last lap 2e-06
+  Block j : 14/24 (sz=24) Time to here 0.004787; last lap 1e-06
+  Block j : 15/24 (sz=16) Time to here 0.004795; last lap 1e-06
+  Block j : 16/24 (sz=1) Time to here 0.004803; last lap 2e-06
+  Block j : 17/24 (sz=4) Time to here 0.004812; last lap 1e-06
+  Block j : 18/24 (sz=6) Time to here 0.00482; last lap 1e-06
+  Block j : 19/24 (sz=1) Time to here 0.004828; last lap 1e-06
+  Block j : 20/24 (sz=4) Time to here 0.004836; last lap 2e-06
+  Block j : 21/24 (sz=6) Time to here 0.004845; last lap 1e-06
+  Block j : 22/24 (sz=4) Time to here 0.004853; last lap 1e-06
+  Block j : 23/24 (sz=4) Time to here 0.004861; last lap 2e-06
+  Block j : 24/24 (sz=1) Time to here 0.00487; last lap 1e-06
+Block i : 4/24 (sz=6) Nshell=1
+  Block j : 0/24 (sz=1) Time to here 0.004882; last lap 5e-06
+  Block j : 1/24 (sz=4) Time to here 0.00489; last lap 1e-06
+  Block j : 2/24 (sz=4) Time to here 0.004898; last lap 1e-06
+  Block j : 3/24 (sz=16) Time to here 0.004911; last lap 1e-06
+  Block j : 4/24 (sz=6) Time to here 0.00492; last lap 2e-06
+  Block j : 5/24 (sz=24) Time to here 0.004929; last lap 1e-06
+   Updating Op : 2 of 6
+   Updating Op : 4 of 6
+   Updating Op : 6 of 6
+  Block j : 6/24 (sz=6) Time to here 0.005529; last lap 0.000594
+  Block j : 7/24 (sz=24) Time to here 0.005539; last lap 2e-06
+  Block j : 8/24 (sz=36) Time to here 0.005548; last lap 1e-06
+  Block j : 9/24 (sz=4) Time to here 0.005557; last lap 1e-06
+   Updating Op : 1 of 6
+   Updating Op : 3 of 6
+   Updating Op : 5 of 6
+  Block j : 10/24 (sz=16) Time to here 0.005631; last lap 6.7e-05
+  Block j : 11/24 (sz=24) Time to here 0.00564; last lap 2e-06
+  Block j : 12/24 (sz=4) Time to here 0.005649; last lap 1e-06
+  Block j : 13/24 (sz=16) Time to here 0.005658; last lap 1e-06
+  Block j : 14/24 (sz=24) Time to here 0.005666; last lap 2e-06
+  Block j : 15/24 (sz=16) Time to here 0.005674; last lap 2e-06
+  Block j : 16/24 (sz=1) Time to here 0.005683; last lap 1e-06
+  Block j : 17/24 (sz=4) Time to here 0.005691; last lap 1e-06
+  Block j : 18/24 (sz=6) Time to here 0.005699; last lap 2e-06
+  Block j : 19/24 (sz=1) Time to here 0.005708; last lap 1e-06
+  Block j : 20/24 (sz=4) Time to here 0.005716; last lap 1e-06
+  Block j : 21/24 (sz=6) Time to here 0.005724; last lap 2e-06
+  Block j : 22/24 (sz=4) Time to here 0.005733; last lap 1e-06
+  Block j : 23/24 (sz=4) Time to here 0.005741; last lap 1e-06
+  Block j : 24/24 (sz=1) Time to here 0.005749; last lap 2e-06
+Block i : 5/24 (sz=24) Nshell=1
+  Block j : 0/24 (sz=1) Time to here 0.005761; last lap 5e-06
+  Block j : 1/24 (sz=4) Time to here 0.00577; last lap 1e-06
+  Block j : 2/24 (sz=4) Time to here 0.005778; last lap 1e-06
+  Block j : 3/24 (sz=16) Time to here 0.005786; last lap 1e-06
+  Block j : 4/24 (sz=6) Time to here 0.005794; last lap 2e-06
+  Block j : 5/24 (sz=24) Time to here 0.005802; last lap 1e-06
+  Block j : 6/24 (sz=6) Time to here 0.005811; last lap 1e-06
+  Block j : 7/24 (sz=24) Time to here 0.005819; last lap 1e-06
+  Block j : 8/24 (sz=36) Time to here 0.005827; last lap 1e-06
+   Updating Op : 2 of 6
+   Updating Op : 4 of 6
+   Updating Op : 6 of 6
+  Block j : 9/24 (sz=4) Time to here 0.011015; last lap 0.005182
+  Block j : 10/24 (sz=16) Time to here 0.011028; last lap 1e-06
+   Updating Op : 1 of 6
+   Updating Op : 3 of 6
+   Updating Op : 5 of 6
+  Block j : 11/24 (sz=24) Time to here 0.012687; last lap 0.001651
+  Block j : 12/24 (sz=4) Time to here 0.012697; last lap 2e-06
+  Block j : 13/24 (sz=16) Time to here 0.012706; last lap 1e-06
+  Block j : 14/24 (sz=24) Time to here 0.012714; last lap 2e-06
+  Block j : 15/24 (sz=16) Time to here 0.012723; last lap 1e-06
+  Block j : 16/24 (sz=1) Time to here 0.012731; last lap 1e-06
+  Block j : 17/24 (sz=4) Time to here 0.012739; last lap 1e-06
+  Block j : 18/24 (sz=6) Time to here 0.012747; last lap 2e-06
+  Block j : 19/24 (sz=1) Time to here 0.012756; last lap 1e-06
+  Block j : 20/24 (sz=4) Time to here 0.012764; last lap 1e-06
+  Block j : 21/24 (sz=6) Time to here 0.012772; last lap 1e-06
+  Block j : 22/24 (sz=4) Time to here 0.01278; last lap 2e-06
+  Block j : 23/24 (sz=4) Time to here 0.012788; last lap 1e-06
+  Block j : 24/24 (sz=1) Time to here 0.012796; last lap 1e-06
+Block i : 6/24 (sz=6) Nshell=1
+  Block j : 0/24 (sz=1) Time to here 0.012807; last lap 5e-06
+  Block j : 1/24 (sz=4) Time to here 0.012815; last lap 1e-06
+  Block j : 2/24 (sz=4) Time to here 0.012823; last lap 1e-06
+  Block j : 3/24 (sz=16) Time to here 0.012831; last lap 1e-06
+  Block j : 4/24 (sz=6) Time to here 0.012839; last lap 1e-06
+  Block j : 5/24 (sz=24) Time to here 0.012847; last lap 1e-06
+  Block j : 6/24 (sz=6) Time to here 0.012855; last lap 1e-06
+  Block j : 7/24 (sz=24) Time to here 0.012862; last lap 2e-06
+   Updating Op : 1 of 6
+   Updating Op : 3 of 6
+   Updating Op : 5 of 6
+  Block j : 8/24 (sz=36) Time to here 0.013428; last lap 0.000559
+  Block j : 9/24 (sz=4) Time to here 0.013437; last lap 2e-06
+  Block j : 10/24 (sz=16) Time to here 0.013446; last lap 1e-06
+  Block j : 11/24 (sz=24) Time to here 0.013458; last lap 2e-06
+  Block j : 12/24 (sz=4) Time to here 0.013467; last lap 1e-06
+   Updating Op : 2 of 6
+   Updating Op : 4 of 6
+   Updating Op : 6 of 6
+  Block j : 13/24 (sz=16) Time to here 0.013538; last lap 6.4e-05
+  Block j : 14/24 (sz=24) Time to here 0.013547; last lap 1e-06
+  Block j : 15/24 (sz=16) Time to here 0.013555; last lap 1e-06
+  Block j : 16/24 (sz=1) Time to here 0.013563; last lap 2e-06
+  Block j : 17/24 (sz=4) Time to here 0.013571; last lap 2e-06
+  Block j : 18/24 (sz=6) Time to here 0.013579; last lap 2e-06
+  Block j : 19/24 (sz=1) Time to here 0.013587; last lap 2e-06
+  Block j : 20/24 (sz=4) Time to here 0.013595; last lap 2e-06
+  Block j : 21/24 (sz=6) Time to here 0.013603; last lap 1e-06
+  Block j : 22/24 (sz=4) Time to here 0.013612; last lap 1e-06
+  Block j : 23/24 (sz=4) Time to here 0.01362; last lap 1e-06
+  Block j : 24/24 (sz=1) Time to here 0.013628; last lap 1e-06
+Block i : 7/24 (sz=24) Nshell=1
+  Block j : 0/24 (sz=1) Time to here 0.013639; last lap 5e-06
+  Block j : 1/24 (sz=4) Time to here 0.013647; last lap 2e-06
+  Block j : 2/24 (sz=4) Time to here 0.013655; last lap 1e-06
+  Block j : 3/24 (sz=16) Time to here 0.013663; last lap 1e-06
+  Block j : 4/24 (sz=6) Time to here 0.013671; last lap 1e-06
+  Block j : 5/24 (sz=24) Time to here 0.013679; last lap 1e-06
+  Block j : 6/24 (sz=6) Time to here 0.013686; last lap 1e-06
+  Block j : 7/24 (sz=24) Time to here 0.013694; last lap 2e-06
+  Block j : 8/24 (sz=36) Time to here 0.013702; last lap 1e-06
+   Updating Op : 1 of 6
+   Updating Op : 3 of 6
+   Updating Op : 5 of 6
+  Block j : 9/24 (sz=4) Time to here 0.018639; last lap 0.004931
+  Block j : 10/24 (sz=16) Time to here 0.018651; last lap 1e-06
+  Block j : 11/24 (sz=24) Time to here 0.018659; last lap 2e-06
+  Block j : 12/24 (sz=4) Time to here 0.018668; last lap 1e-06
+  Block j : 13/24 (sz=16) Time to here 0.018676; last lap 1e-06
+   Updating Op : 2 of 6
+   Updating Op : 4 of 6
+   Updating Op : 6 of 6
+  Block j : 14/24 (sz=24) Time to here 0.020287; last lap 0.001605
+  Block j : 15/24 (sz=16) Time to here 0.0203; last lap 1e-06
+  Block j : 16/24 (sz=1) Time to here 0.020308; last lap 1e-06
+  Block j : 17/24 (sz=4) Time to here 0.020317; last lap 1e-06
+  Block j : 18/24 (sz=6) Time to here 0.020325; last lap 1e-06
+  Block j : 19/24 (sz=1) Time to here 0.020333; last lap 2e-06
+  Block j : 20/24 (sz=4) Time to here 0.020341; last lap 2e-06
+  Block j : 21/24 (sz=6) Time to here 0.020349; last lap 2e-06
+  Block j : 22/24 (sz=4) Time to here 0.020358; last lap 1e-06
+  Block j : 23/24 (sz=4) Time to here 0.020365; last lap 1e-06
+  Block j : 24/24 (sz=1) Time to here 0.020373; last lap 1e-06
+Block i : 8/24 (sz=36) Nshell=1
+  Block j : 0/24 (sz=1) Time to here 0.020385; last lap 5e-06
+  Block j : 1/24 (sz=4) Time to here 0.020393; last lap 1e-06
+  Block j : 2/24 (sz=4) Time to here 0.020401; last lap 1e-06
+  Block j : 3/24 (sz=16) Time to here 0.020409; last lap 1e-06
+  Block j : 4/24 (sz=6) Time to here 0.020417; last lap 1e-06
+  Block j : 5/24 (sz=24) Time to here 0.020425; last lap 1e-06
+  Block j : 6/24 (sz=6) Time to here 0.020433; last lap 1e-06
+  Block j : 7/24 (sz=24) Time to here 0.020441; last lap 1e-06
+  Block j : 8/24 (sz=36) Time to here 0.020449; last lap 1e-06
+  Block j : 9/24 (sz=4) Time to here 0.020457; last lap 1e-06
+  Block j : 10/24 (sz=16) Time to here 0.020465; last lap 1e-06
+  Block j : 11/24 (sz=24) Time to here 0.020473; last lap 1e-06
+   Updating Op : 1 of 6
+   Updating Op : 3 of 6
+   Updating Op : 5 of 6
+  Block j : 12/24 (sz=4) Time to here 0.025241; last lap 0.004761
+  Block j : 13/24 (sz=16) Time to here 0.025253; last lap 1e-06
+  Block j : 14/24 (sz=24) Time to here 0.025261; last lap 1e-06
+   Updating Op : 2 of 6
+   Updating Op : 4 of 6
+   Updating Op : 6 of 6
+  Block j : 15/24 (sz=16) Time to here 0.02985; last lap 0.004583
+  Block j : 16/24 (sz=1) Time to here 0.029861; last lap 1e-06
+  Block j : 17/24 (sz=4) Time to here 0.029868; last lap 1e-06
+  Block j : 18/24 (sz=6) Time to here 0.029876; last lap 2e-06
+  Block j : 19/24 (sz=1) Time to here 0.029888; last lap 1e-06
+  Block j : 20/24 (sz=4) Time to here 0.029895; last lap 1e-06
+  Block j : 21/24 (sz=6) Time to here 0.029903; last lap 1e-06
+  Block j : 22/24 (sz=4) Time to here 0.02991; last lap 2e-06
+  Block j : 23/24 (sz=4) Time to here 0.029917; last lap 1e-06
+  Block j : 24/24 (sz=1) Time to here 0.029925; last lap 1e-06
+Block i : 9/24 (sz=4) Nshell=1
+  Block j : 0/24 (sz=1) Time to here 0.029935; last lap 5e-06
+  Block j : 1/24 (sz=4) Time to here 0.029943; last lap 1e-06
+  Block j : 2/24 (sz=4) Time to here 0.02995; last lap 1e-06
+  Block j : 3/24 (sz=16) Time to here 0.029957; last lap 1e-06
+  Block j : 4/24 (sz=6) Time to here 0.029964; last lap 1e-06
+  Block j : 5/24 (sz=24) Time to here 0.029971; last lap 1e-06
+  Block j : 6/24 (sz=6) Time to here 0.029978; last lap 1e-06
+  Block j : 7/24 (sz=24) Time to here 0.029985; last lap 2e-06
+  Block j : 8/24 (sz=36) Time to here 0.029992; last lap 1e-06
+  Block j : 9/24 (sz=4) Time to here 0.03; last lap 1e-06
+  Block j : 10/24 (sz=16) Time to here 0.030007; last lap 1e-06
+   Updating Op : 2 of 6
+   Updating Op : 4 of 6
+   Updating Op : 6 of 6
+  Block j : 11/24 (sz=24) Time to here 0.030209; last lap 0.000195
+  Block j : 12/24 (sz=4) Time to here 0.030217; last lap 2e-06
+  Block j : 13/24 (sz=16) Time to here 0.030225; last lap 1e-06
+  Block j : 14/24 (sz=24) Time to here 0.030232; last lap 1e-06
+  Block j : 15/24 (sz=16) Time to here 0.030239; last lap 1e-06
+  Block j : 16/24 (sz=1) Time to here 0.030246; last lap 1e-06
+   Updating Op : 1 of 6
+   Updating Op : 3 of 6
+   Updating Op : 5 of 6
+  Block j : 17/24 (sz=4) Time to here 0.030277; last lap 2.5e-05
+  Block j : 18/24 (sz=6) Time to here 0.030285; last lap 2e-06
+  Block j : 19/24 (sz=1) Time to here 0.030293; last lap 1e-06
+  Block j : 20/24 (sz=4) Time to here 0.0303; last lap 1e-06
+  Block j : 21/24 (sz=6) Time to here 0.030307; last lap 1e-06
+  Block j : 22/24 (sz=4) Time to here 0.030315; last lap 1e-06
+  Block j : 23/24 (sz=4) Time to here 0.030322; last lap 1e-06
+  Block j : 24/24 (sz=1) Time to here 0.030329; last lap 2e-06
+Block i : 10/24 (sz=16) Nshell=1
+  Block j : 0/24 (sz=1) Time to here 0.03034; last lap 4e-06
+  Block j : 1/24 (sz=4) Time to here 0.030347; last lap 2e-06
+  Block j : 2/24 (sz=4) Time to here 0.030354; last lap 1e-06
+  Block j : 3/24 (sz=16) Time to here 0.030361; last lap 1e-06
+  Block j : 4/24 (sz=6) Time to here 0.030369; last lap 1e-06
+  Block j : 5/24 (sz=24) Time to here 0.030376; last lap 1e-06
+  Block j : 6/24 (sz=6) Time to here 0.030383; last lap 1e-06
+  Block j : 7/24 (sz=24) Time to here 0.03039; last lap 1e-06
+  Block j : 8/24 (sz=36) Time to here 0.030397; last lap 1e-06
+  Block j : 9/24 (sz=4) Time to here 0.030404; last lap 1e-06
+  Block j : 10/24 (sz=16) Time to here 0.030412; last lap 1e-06
+  Block j : 11/24 (sz=24) Time to here 0.030419; last lap 1e-06
+   Updating Op : 2 of 6
+   Updating Op : 4 of 6
+   Updating Op : 6 of 6
+  Block j : 12/24 (sz=4) Time to here 0.032068; last lap 0.001642
+  Block j : 13/24 (sz=16) Time to here 0.032091; last lap 3e-06
+  Block j : 14/24 (sz=24) Time to here 0.032101; last lap 1e-06
+  Block j : 15/24 (sz=16) Time to here 0.03211; last lap 1e-06
+  Block j : 16/24 (sz=1) Time to here 0.032118; last lap 1e-06
+  Block j : 17/24 (sz=4) Time to here 0.032125; last lap 2e-06
+   Updating Op : 1 of 6
+   Updating Op : 3 of 6
+   Updating Op : 5 of 6
+  Block j : 18/24 (sz=6) Time to here 0.032327; last lap 0.000195
+  Block j : 19/24 (sz=1) Time to here 0.032336; last lap 1e-06
+  Block j : 20/24 (sz=4) Time to here 0.032344; last lap 1e-06
+  Block j : 21/24 (sz=6) Time to here 0.032352; last lap 1e-06
+  Block j : 22/24 (sz=4) Time to here 0.032359; last lap 2e-06
+  Block j : 23/24 (sz=4) Time to here 0.032367; last lap 1e-06
+  Block j : 24/24 (sz=1) Time to here 0.032374; last lap 2e-06
+Block i : 11/24 (sz=24) Nshell=1
+  Block j : 0/24 (sz=1) Time to here 0.032385; last lap 5e-06
+  Block j : 1/24 (sz=4) Time to here 0.032393; last lap 1e-06
+  Block j : 2/24 (sz=4) Time to here 0.0324; last lap 1e-06
+  Block j : 3/24 (sz=16) Time to here 0.032414; last lap 1e-06
+  Block j : 4/24 (sz=6) Time to here 0.032423; last lap 1e-06
+  Block j : 5/24 (sz=24) Time to here 0.03243; last lap 1e-06
+  Block j : 6/24 (sz=6) Time to here 0.032438; last lap 1e-06
+  Block j : 7/24 (sz=24) Time to here 0.032446; last lap 1e-06
+  Block j : 8/24 (sz=36) Time to here 0.032453; last lap 2e-06
+  Block j : 9/24 (sz=4) Time to here 0.032461; last lap 1e-06
+  Block j : 10/24 (sz=16) Time to here 0.032468; last lap 1e-06
+  Block j : 11/24 (sz=24) Time to here 0.032476; last lap 1e-06
+  Block j : 12/24 (sz=4) Time to here 0.032483; last lap 1e-06
+  Block j : 13/24 (sz=16) Time to here 0.032491; last lap 1e-06
+  Block j : 14/24 (sz=24) Time to here 0.032498; last lap 1e-06
+  Block j : 15/24 (sz=16) Time to here 0.032506; last lap 1e-06
+   Updating Op : 2 of 6
+   Updating Op : 4 of 6
+   Updating Op : 6 of 6
+  Block j : 16/24 (sz=1) Time to here 0.03402; last lap 0.001507
+  Block j : 17/24 (sz=4) Time to here 0.034029; last lap 2e-06
+  Block j : 18/24 (sz=6) Time to here 0.034037; last lap 1e-06
+   Updating Op : 1 of 6
+   Updating Op : 3 of 6
+   Updating Op : 5 of 6
+  Block j : 19/24 (sz=1) Time to here 0.034555; last lap 0.000512
+  Block j : 20/24 (sz=4) Time to here 0.034564; last lap 1e-06
+  Block j : 21/24 (sz=6) Time to here 0.034572; last lap 1e-06
+  Block j : 22/24 (sz=4) Time to here 0.034579; last lap 1e-06
+  Block j : 23/24 (sz=4) Time to here 0.034587; last lap 1e-06
+  Block j : 24/24 (sz=1) Time to here 0.034594; last lap 1e-06
+Block i : 12/24 (sz=4) Nshell=1
+  Block j : 0/24 (sz=1) Time to here 0.034606; last lap 5e-06
+  Block j : 1/24 (sz=4) Time to here 0.034613; last lap 1e-06
+  Block j : 2/24 (sz=4) Time to here 0.034621; last lap 1e-06
+  Block j : 3/24 (sz=16) Time to here 0.034628; last lap 1e-06
+  Block j : 4/24 (sz=6) Time to here 0.034635; last lap 2e-06
+  Block j : 5/24 (sz=24) Time to here 0.034642; last lap 1e-06
+  Block j : 6/24 (sz=6) Time to here 0.03465; last lap 1e-06
+  Block j : 7/24 (sz=24) Time to here 0.034657; last lap 1e-06
+  Block j : 8/24 (sz=36) Time to here 0.034665; last lap 1e-06
+  Block j : 9/24 (sz=4) Time to here 0.034672; last lap 1e-06
+  Block j : 10/24 (sz=16) Time to here 0.03468; last lap 1e-06
+  Block j : 11/24 (sz=24) Time to here 0.034687; last lap 2e-06
+  Block j : 12/24 (sz=4) Time to here 0.034695; last lap 1e-06
+  Block j : 13/24 (sz=16) Time to here 0.034702; last lap 1e-06
+   Updating Op : 1 of 6
+   Updating Op : 3 of 6
+   Updating Op : 5 of 6
+  Block j : 14/24 (sz=24) Time to here 0.034909; last lap 0.000201
+  Block j : 15/24 (sz=16) Time to here 0.034918; last lap 1e-06
+  Block j : 16/24 (sz=1) Time to here 0.034925; last lap 1e-06
+  Block j : 17/24 (sz=4) Time to here 0.034933; last lap 2e-06
+  Block j : 18/24 (sz=6) Time to here 0.034941; last lap 1e-06
+  Block j : 19/24 (sz=1) Time to here 0.034948; last lap 2e-06
+   Updating Op : 2 of 6
+   Updating Op : 4 of 6
+   Updating Op : 6 of 6
+  Block j : 20/24 (sz=4) Time to here 0.034981; last lap 2.7e-05
+  Block j : 21/24 (sz=6) Time to here 0.03499; last lap 1e-06
+  Block j : 22/24 (sz=4) Time to here 0.034998; last lap 1e-06
+  Block j : 23/24 (sz=4) Time to here 0.035005; last lap 2e-06
+  Block j : 24/24 (sz=1) Time to here 0.035013; last lap 1e-06
+Block i : 13/24 (sz=16) Nshell=1
+  Block j : 0/24 (sz=1) Time to here 0.035024; last lap 5e-06
+  Block j : 1/24 (sz=4) Time to here 0.035031; last lap 1e-06
+  Block j : 2/24 (sz=4) Time to here 0.035039; last lap 1e-06
+  Block j : 3/24 (sz=16) Time to here 0.035046; last lap 1e-06
+  Block j : 4/24 (sz=6) Time to here 0.035053; last lap 1e-06
+  Block j : 5/24 (sz=24) Time to here 0.035061; last lap 1e-06
+  Block j : 6/24 (sz=6) Time to here 0.035068; last lap 1e-06
+  Block j : 7/24 (sz=24) Time to here 0.035075; last lap 1e-06
+  Block j : 8/24 (sz=36) Time to here 0.035083; last lap 1e-06
+  Block j : 9/24 (sz=4) Time to here 0.03509; last lap 2e-06
+  Block j : 10/24 (sz=16) Time to here 0.035097; last lap 1e-06
+  Block j : 11/24 (sz=24) Time to here 0.035105; last lap 1e-06
+  Block j : 12/24 (sz=4) Time to here 0.035112; last lap 1e-06
+  Block j : 13/24 (sz=16) Time to here 0.035124; last lap 1e-06
+  Block j : 14/24 (sz=24) Time to here 0.035133; last lap 1e-06
+   Updating Op : 1 of 6
+   Updating Op : 3 of 6
+   Updating Op : 5 of 6
+  Block j : 15/24 (sz=16) Time to here 0.036676; last lap 0.001536
+  Block j : 16/24 (sz=1) Time to here 0.036686; last lap 1e-06
+  Block j : 17/24 (sz=4) Time to here 0.036693; last lap 1e-06
+  Block j : 18/24 (sz=6) Time to here 0.036701; last lap 1e-06
+  Block j : 19/24 (sz=1) Time to here 0.036708; last lap 1e-06
+  Block j : 20/24 (sz=4) Time to here 0.036715; last lap 2e-06
+   Updating Op : 2 of 6
+   Updating Op : 4 of 6
+   Updating Op : 6 of 6
+  Block j : 21/24 (sz=6) Time to here 0.036909; last lap 0.000188
+  Block j : 22/24 (sz=4) Time to here 0.036917; last lap 1e-06
+  Block j : 23/24 (sz=4) Time to here 0.036924; last lap 1e-06
+  Block j : 24/24 (sz=1) Time to here 0.036931; last lap 1e-06
+Block i : 14/24 (sz=24) Nshell=1
+  Block j : 0/24 (sz=1) Time to here 0.036942; last lap 5e-06
+  Block j : 1/24 (sz=4) Time to here 0.036949; last lap 1e-06
+  Block j : 2/24 (sz=4) Time to here 0.036956; last lap 1e-06
+  Block j : 3/24 (sz=16) Time to here 0.036963; last lap 1e-06
+  Block j : 4/24 (sz=6) Time to here 0.03697; last lap 1e-06
+  Block j : 5/24 (sz=24) Time to here 0.036977; last lap 1e-06
+  Block j : 6/24 (sz=6) Time to here 0.036984; last lap 1e-06
+  Block j : 7/24 (sz=24) Time to here 0.036991; last lap 1e-06
+  Block j : 8/24 (sz=36) Time to here 0.036998; last lap 1e-06
+  Block j : 9/24 (sz=4) Time to here 0.037005; last lap 1e-06
+  Block j : 10/24 (sz=16) Time to here 0.037012; last lap 1e-06
+  Block j : 11/24 (sz=24) Time to here 0.03702; last lap 1e-06
+  Block j : 12/24 (sz=4) Time to here 0.037027; last lap 1e-06
+  Block j : 13/24 (sz=16) Time to here 0.037034; last lap 1e-06
+  Block j : 14/24 (sz=24) Time to here 0.037041; last lap 2e-06
+  Block j : 15/24 (sz=16) Time to here 0.037048; last lap 1e-06
+   Updating Op : 1 of 6
+   Updating Op : 3 of 6
+   Updating Op : 5 of 6
+  Block j : 16/24 (sz=1) Time to here 0.038499; last lap 0.001445
+  Block j : 17/24 (sz=4) Time to here 0.038508; last lap 1e-06
+  Block j : 18/24 (sz=6) Time to here 0.038516; last lap 1e-06
+  Block j : 19/24 (sz=1) Time to here 0.038523; last lap 2e-06
+  Block j : 20/24 (sz=4) Time to here 0.03853; last lap 1e-06
+  Block j : 21/24 (sz=6) Time to here 0.038538; last lap 1e-06
+   Updating Op : 2 of 6
+   Updating Op : 4 of 6
+   Updating Op : 6 of 6
+  Block j : 22/24 (sz=4) Time to here 0.039042; last lap 0.000499
+  Block j : 23/24 (sz=4) Time to here 0.039051; last lap 1e-06
+  Block j : 24/24 (sz=1) Time to here 0.039058; last lap 2e-06
+Block i : 15/24 (sz=16) Nshell=1
+  Block j : 0/24 (sz=1) Time to here 0.039069; last lap 4e-06
+  Block j : 1/24 (sz=4) Time to here 0.039076; last lap 1e-06
+  Block j : 2/24 (sz=4) Time to here 0.039084; last lap 1e-06
+  Block j : 3/24 (sz=16) Time to here 0.039091; last lap 1e-06
+  Block j : 4/24 (sz=6) Time to here 0.039098; last lap 1e-06
+  Block j : 5/24 (sz=24) Time to here 0.039105; last lap 1e-06
+  Block j : 6/24 (sz=6) Time to here 0.039112; last lap 1e-06
+  Block j : 7/24 (sz=24) Time to here 0.039119; last lap 1e-06
+  Block j : 8/24 (sz=36) Time to here 0.039126; last lap 1e-06
+  Block j : 9/24 (sz=4) Time to here 0.039133; last lap 1e-06
+  Block j : 10/24 (sz=16) Time to here 0.03914; last lap 1e-06
+  Block j : 11/24 (sz=24) Time to here 0.039147; last lap 1e-06
+  Block j : 12/24 (sz=4) Time to here 0.039154; last lap 1e-06
+  Block j : 13/24 (sz=16) Time to here 0.039161; last lap 2e-06
+  Block j : 14/24 (sz=24) Time to here 0.039168; last lap 2e-06
+  Block j : 15/24 (sz=16) Time to here 0.039175; last lap 1e-06
+  Block j : 16/24 (sz=1) Time to here 0.039182; last lap 1e-06
+  Block j : 17/24 (sz=4) Time to here 0.039189; last lap 1e-06
+  Block j : 18/24 (sz=6) Time to here 0.039197; last lap 1e-06
+  Block j : 19/24 (sz=1) Time to here 0.039204; last lap 1e-06
+  Block j : 20/24 (sz=4) Time to here 0.039211; last lap 1e-06
+  Block j : 21/24 (sz=6) Time to here 0.039218; last lap 1e-06
+  Block j : 22/24 (sz=4) Time to here 0.03923; last lap 1e-06
+   Updating Op : 1 of 6
+   Updating Op : 3 of 6
+   Updating Op : 5 of 6
+  Block j : 23/24 (sz=4) Time to here 0.039459; last lap 0.000222
+   Updating Op : 2 of 6
+   Updating Op : 4 of 6
+   Updating Op : 6 of 6
+  Block j : 24/24 (sz=1) Time to here 0.039655; last lap 0.000188
+Block i : 16/24 (sz=1) Nshell=1
+  Block j : 0/24 (sz=1) Time to here 0.039667; last lap 5e-06
+  Block j : 1/24 (sz=4) Time to here 0.039674; last lap 1e-06
+  Block j : 2/24 (sz=4) Time to here 0.039681; last lap 1e-06
+  Block j : 3/24 (sz=16) Time to here 0.039688; last lap 1e-06
+  Block j : 4/24 (sz=6) Time to here 0.039695; last lap 1e-06
+  Block j : 5/24 (sz=24) Time to here 0.039703; last lap 1e-06
+  Block j : 6/24 (sz=6) Time to here 0.03971; last lap 1e-06
+  Block j : 7/24 (sz=24) Time to here 0.039717; last lap 1e-06
+  Block j : 8/24 (sz=36) Time to here 0.039724; last lap 1e-06
+  Block j : 9/24 (sz=4) Time to here 0.039731; last lap 1e-06
+  Block j : 10/24 (sz=16) Time to here 0.039738; last lap 1e-06
+  Block j : 11/24 (sz=24) Time to here 0.039745; last lap 1e-06
+  Block j : 12/24 (sz=4) Time to here 0.039752; last lap 1e-06
+  Block j : 13/24 (sz=16) Time to here 0.039759; last lap 1e-06
+  Block j : 14/24 (sz=24) Time to here 0.039766; last lap 2e-06
+  Block j : 15/24 (sz=16) Time to here 0.039773; last lap 2e-06
+  Block j : 16/24 (sz=1) Time to here 0.03978; last lap 2e-06
+  Block j : 17/24 (sz=4) Time to here 0.039787; last lap 2e-06
+   Updating Op : 2 of 6
+   Updating Op : 4 of 6
+   Updating Op : 6 of 6
+  Block j : 18/24 (sz=6) Time to here 0.039818; last lap 2.5e-05
+  Block j : 19/24 (sz=1) Time to here 0.039826; last lap 2e-06
+  Block j : 20/24 (sz=4) Time to here 0.039833; last lap 1e-06
+  Block j : 21/24 (sz=6) Time to here 0.039841; last lap 1e-06
+  Block j : 22/24 (sz=4) Time to here 0.039848; last lap 1e-06
+  Block j : 23/24 (sz=4) Time to here 0.039855; last lap 1e-06
+  Block j : 24/24 (sz=1) Time to here 0.039862; last lap 2e-06
+Block i : 17/24 (sz=4) Nshell=1
+  Block j : 0/24 (sz=1) Time to here 0.039873; last lap 4e-06
+  Block j : 1/24 (sz=4) Time to here 0.03988; last lap 1e-06
+  Block j : 2/24 (sz=4) Time to here 0.039887; last lap 1e-06
+  Block j : 3/24 (sz=16) Time to here 0.039894; last lap 1e-06
+  Block j : 4/24 (sz=6) Time to here 0.039901; last lap 1e-06
+  Block j : 5/24 (sz=24) Time to here 0.039908; last lap 1e-06
+  Block j : 6/24 (sz=6) Time to here 0.039915; last lap 1e-06
+  Block j : 7/24 (sz=24) Time to here 0.039922; last lap 1e-06
+  Block j : 8/24 (sz=36) Time to here 0.039929; last lap 1e-06
+  Block j : 9/24 (sz=4) Time to here 0.039936; last lap 1e-06
+  Block j : 10/24 (sz=16) Time to here 0.039943; last lap 1e-06
+  Block j : 11/24 (sz=24) Time to here 0.03995; last lap 1e-06
+  Block j : 12/24 (sz=4) Time to here 0.039957; last lap 1e-06
+  Block j : 13/24 (sz=16) Time to here 0.039964; last lap 1e-06
+  Block j : 14/24 (sz=24) Time to here 0.039971; last lap 2e-06
+  Block j : 15/24 (sz=16) Time to here 0.039978; last lap 2e-06
+  Block j : 16/24 (sz=1) Time to here 0.039985; last lap 1e-06
+  Block j : 17/24 (sz=4) Time to here 0.039992; last lap 1e-06
+  Block j : 18/24 (sz=6) Time to here 0.039999; last lap 1e-06
+   Updating Op : 2 of 6
+   Updating Op : 4 of 6
+   Updating Op : 6 of 6
+  Block j : 19/24 (sz=1) Time to here 0.040065; last lap 5.9e-05
+  Block j : 20/24 (sz=4) Time to here 0.040073; last lap 1e-06
+  Block j : 21/24 (sz=6) Time to here 0.04008; last lap 2e-06
+  Block j : 22/24 (sz=4) Time to here 0.040087; last lap 1e-06
+  Block j : 23/24 (sz=4) Time to here 0.040095; last lap 1e-06
+  Block j : 24/24 (sz=1) Time to here 0.040102; last lap 1e-06
+Block i : 18/24 (sz=6) Nshell=1
+  Block j : 0/24 (sz=1) Time to here 0.040112; last lap 5e-06
+  Block j : 1/24 (sz=4) Time to here 0.040119; last lap 1e-06
+  Block j : 2/24 (sz=4) Time to here 0.040126; last lap 1e-06
+  Block j : 3/24 (sz=16) Time to here 0.040133; last lap 1e-06
+  Block j : 4/24 (sz=6) Time to here 0.04014; last lap 1e-06
+  Block j : 5/24 (sz=24) Time to here 0.040147; last lap 1e-06
+  Block j : 6/24 (sz=6) Time to here 0.040158; last lap 1e-06
+  Block j : 7/24 (sz=24) Time to here 0.040166; last lap 2e-06
+  Block j : 8/24 (sz=36) Time to here 0.040173; last lap 1e-06
+  Block j : 9/24 (sz=4) Time to here 0.040181; last lap 1e-06
+  Block j : 10/24 (sz=16) Time to here 0.040188; last lap 1e-06
+  Block j : 11/24 (sz=24) Time to here 0.040195; last lap 2e-06
+  Block j : 12/24 (sz=4) Time to here 0.040202; last lap 1e-06
+  Block j : 13/24 (sz=16) Time to here 0.040209; last lap 1e-06
+  Block j : 14/24 (sz=24) Time to here 0.040216; last lap 1e-06
+  Block j : 15/24 (sz=16) Time to here 0.040224; last lap 1e-06
+  Block j : 16/24 (sz=1) Time to here 0.040231; last lap 1e-06
+  Block j : 17/24 (sz=4) Time to here 0.040238; last lap 1e-06
+  Block j : 18/24 (sz=6) Time to here 0.040245; last lap 1e-06
+  Block j : 19/24 (sz=1) Time to here 0.040252; last lap 1e-06
+  Block j : 20/24 (sz=4) Time to here 0.040259; last lap 1e-06
+  Block j : 21/24 (sz=6) Time to here 0.040266; last lap 2e-06
+  Block j : 22/24 (sz=4) Time to here 0.040273; last lap 1e-06
+   Updating Op : 2 of 6
+   Updating Op : 4 of 6
+   Updating Op : 6 of 6
+  Block j : 23/24 (sz=4) Time to here 0.040339; last lap 6e-05
+  Block j : 24/24 (sz=1) Time to here 0.040347; last lap 1e-06
+Block i : 19/24 (sz=1) Nshell=1
+  Block j : 0/24 (sz=1) Time to here 0.040358; last lap 5e-06
+  Block j : 1/24 (sz=4) Time to here 0.040365; last lap 1e-06
+  Block j : 2/24 (sz=4) Time to here 0.040373; last lap 1e-06
+  Block j : 3/24 (sz=16) Time to here 0.04038; last lap 1e-06
+  Block j : 4/24 (sz=6) Time to here 0.040387; last lap 1e-06
+  Block j : 5/24 (sz=24) Time to here 0.040394; last lap 1e-06
+  Block j : 6/24 (sz=6) Time to here 0.040401; last lap 1e-06
+  Block j : 7/24 (sz=24) Time to here 0.040408; last lap 1e-06
+  Block j : 8/24 (sz=36) Time to here 0.040415; last lap 1e-06
+  Block j : 9/24 (sz=4) Time to here 0.040422; last lap 1e-06
+  Block j : 10/24 (sz=16) Time to here 0.040429; last lap 1e-06
+  Block j : 11/24 (sz=24) Time to here 0.040436; last lap 1e-06
+  Block j : 12/24 (sz=4) Time to here 0.040443; last lap 1e-06
+  Block j : 13/24 (sz=16) Time to here 0.04045; last lap 1e-06
+  Block j : 14/24 (sz=24) Time to here 0.040457; last lap 1e-06
+  Block j : 15/24 (sz=16) Time to here 0.040464; last lap 1e-06
+  Block j : 16/24 (sz=1) Time to here 0.040471; last lap 1e-06
+  Block j : 17/24 (sz=4) Time to here 0.040478; last lap 1e-06
+  Block j : 18/24 (sz=6) Time to here 0.040485; last lap 2e-06
+  Block j : 19/24 (sz=1) Time to here 0.040492; last lap 2e-06
+  Block j : 20/24 (sz=4) Time to here 0.040499; last lap 2e-06
+   Updating Op : 1 of 6
+   Updating Op : 3 of 6
+   Updating Op : 5 of 6
+  Block j : 21/24 (sz=6) Time to here 0.040529; last lap 2.4e-05
+  Block j : 22/24 (sz=4) Time to here 0.040537; last lap 2e-06
+  Block j : 23/24 (sz=4) Time to here 0.040545; last lap 1e-06
+  Block j : 24/24 (sz=1) Time to here 0.040552; last lap 1e-06
+Block i : 20/24 (sz=4) Nshell=1
+  Block j : 0/24 (sz=1) Time to here 0.040563; last lap 4e-06
+  Block j : 1/24 (sz=4) Time to here 0.04057; last lap 1e-06
+  Block j : 2/24 (sz=4) Time to here 0.040577; last lap 1e-06
+  Block j : 3/24 (sz=16) Time to here 0.040584; last lap 1e-06
+  Block j : 4/24 (sz=6) Time to here 0.040591; last lap 1e-06
+  Block j : 5/24 (sz=24) Time to here 0.040598; last lap 1e-06
+  Block j : 6/24 (sz=6) Time to here 0.040605; last lap 1e-06
+  Block j : 7/24 (sz=24) Time to here 0.040612; last lap 1e-06
+  Block j : 8/24 (sz=36) Time to here 0.040619; last lap 1e-06
+  Block j : 9/24 (sz=4) Time to here 0.040626; last lap 1e-06
+  Block j : 10/24 (sz=16) Time to here 0.040633; last lap 1e-06
+  Block j : 11/24 (sz=24) Time to here 0.04064; last lap 1e-06
+  Block j : 12/24 (sz=4) Time to here 0.040647; last lap 1e-06
+  Block j : 13/24 (sz=16) Time to here 0.040654; last lap 1e-06
+  Block j : 14/24 (sz=24) Time to here 0.040661; last lap 1e-06
+  Block j : 15/24 (sz=16) Time to here 0.040668; last lap 1e-06
+  Block j : 16/24 (sz=1) Time to here 0.040675; last lap 2e-06
+  Block j : 17/24 (sz=4) Time to here 0.040682; last lap 2e-06
+  Block j : 18/24 (sz=6) Time to here 0.040693; last lap 1e-06
+  Block j : 19/24 (sz=1) Time to here 0.040701; last lap 1e-06
+  Block j : 20/24 (sz=4) Time to here 0.040708; last lap 1e-06
+  Block j : 21/24 (sz=6) Time to here 0.040715; last lap 2e-06
+   Updating Op : 1 of 6
+   Updating Op : 3 of 6
+   Updating Op : 5 of 6
+  Block j : 22/24 (sz=4) Time to here 0.040782; last lap 6e-05
+  Block j : 23/24 (sz=4) Time to here 0.04079; last lap 1e-06
+  Block j : 24/24 (sz=1) Time to here 0.040797; last lap 1e-06
+Block i : 21/24 (sz=6) Nshell=1
+  Block j : 0/24 (sz=1) Time to here 0.040808; last lap 4e-06
+  Block j : 1/24 (sz=4) Time to here 0.040815; last lap 1e-06
+  Block j : 2/24 (sz=4) Time to here 0.040822; last lap 2e-06
+  Block j : 3/24 (sz=16) Time to here 0.040829; last lap 1e-06
+  Block j : 4/24 (sz=6) Time to here 0.040836; last lap 1e-06
+  Block j : 5/24 (sz=24) Time to here 0.040843; last lap 1e-06
+  Block j : 6/24 (sz=6) Time to here 0.04085; last lap 1e-06
+  Block j : 7/24 (sz=24) Time to here 0.040857; last lap 1e-06
+  Block j : 8/24 (sz=36) Time to here 0.040864; last lap 1e-06
+  Block j : 9/24 (sz=4) Time to here 0.040871; last lap 1e-06
+  Block j : 10/24 (sz=16) Time to here 0.040879; last lap 1e-06
+  Block j : 11/24 (sz=24) Time to here 0.040886; last lap 1e-06
+  Block j : 12/24 (sz=4) Time to here 0.040893; last lap 1e-06
+  Block j : 13/24 (sz=16) Time to here 0.0409; last lap 1e-06
+  Block j : 14/24 (sz=24) Time to here 0.040907; last lap 1e-06
+  Block j : 15/24 (sz=16) Time to here 0.040914; last lap 1e-06
+  Block j : 16/24 (sz=1) Time to here 0.040921; last lap 1e-06
+  Block j : 17/24 (sz=4) Time to here 0.040928; last lap 2e-06
+  Block j : 18/24 (sz=6) Time to here 0.040935; last lap 1e-06
+  Block j : 19/24 (sz=1) Time to here 0.040942; last lap 1e-06
+  Block j : 20/24 (sz=4) Time to here 0.040949; last lap 1e-06
+  Block j : 21/24 (sz=6) Time to here 0.040957; last lap 1e-06
+  Block j : 22/24 (sz=4) Time to here 0.040964; last lap 1e-06
+  Block j : 23/24 (sz=4) Time to here 0.040971; last lap 1e-06
+   Updating Op : 1 of 6
+   Updating Op : 3 of 6
+   Updating Op : 5 of 6
+  Block j : 24/24 (sz=1) Time to here 0.041038; last lap 6.1e-05
+Block i : 22/24 (sz=4) Nshell=1
+  Block j : 0/24 (sz=1) Time to here 0.041049; last lap 4e-06
+  Block j : 1/24 (sz=4) Time to here 0.041056; last lap 1e-06
+  Block j : 2/24 (sz=4) Time to here 0.041063; last lap 1e-06
+  Block j : 3/24 (sz=16) Time to here 0.04107; last lap 1e-06
+  Block j : 4/24 (sz=6) Time to here 0.041077; last lap 1e-06
+  Block j : 5/24 (sz=24) Time to here 0.041084; last lap 1e-06
+  Block j : 6/24 (sz=6) Time to here 0.041091; last lap 1e-06
+  Block j : 7/24 (sz=24) Time to here 0.041098; last lap 1e-06
+  Block j : 8/24 (sz=36) Time to here 0.041105; last lap 1e-06
+  Block j : 9/24 (sz=4) Time to here 0.041112; last lap 1e-06
+  Block j : 10/24 (sz=16) Time to here 0.041119; last lap 1e-06
+  Block j : 11/24 (sz=24) Time to here 0.041126; last lap 1e-06
+  Block j : 12/24 (sz=4) Time to here 0.041133; last lap 1e-06
+  Block j : 13/24 (sz=16) Time to here 0.04114; last lap 1e-06
+  Block j : 14/24 (sz=24) Time to here 0.041147; last lap 1e-06
+  Block j : 15/24 (sz=16) Time to here 0.041154; last lap 1e-06
+  Block j : 16/24 (sz=1) Time to here 0.041161; last lap 1e-06
+  Block j : 17/24 (sz=4) Time to here 0.041168; last lap 1e-06
+  Block j : 18/24 (sz=6) Time to here 0.041175; last lap 1e-06
+  Block j : 19/24 (sz=1) Time to here 0.041182; last lap 1e-06
+  Block j : 20/24 (sz=4) Time to here 0.041189; last lap 2e-06
+  Block j : 21/24 (sz=6) Time to here 0.041196; last lap 2e-06
+  Block j : 22/24 (sz=4) Time to here 0.041203; last lap 2e-06
+  Block j : 23/24 (sz=4) Time to here 0.04121; last lap 1e-06
+  Block j : 24/24 (sz=1) Time to here 0.041217; last lap 1e-06
+   Updating Op : 2 of 6
+   Updating Op : 4 of 6
+   Updating Op : 6 of 6
+Block i : 23/24 (sz=4) Nshell=1
+  Block j : 0/24 (sz=1) Time to here 0.04125; last lap 2.7e-05
+  Block j : 1/24 (sz=4) Time to here 0.041258; last lap 1e-06
+  Block j : 2/24 (sz=4) Time to here 0.041265; last lap 1e-06
+  Block j : 3/24 (sz=16) Time to here 0.041276; last lap 1e-06
+  Block j : 4/24 (sz=6) Time to here 0.041283; last lap 1e-06
+  Block j : 5/24 (sz=24) Time to here 0.04129; last lap 1e-06
+  Block j : 6/24 (sz=6) Time to here 0.041298; last lap 1e-06
+  Block j : 7/24 (sz=24) Time to here 0.041305; last lap 1e-06
+  Block j : 8/24 (sz=36) Time to here 0.041312; last lap 1e-06
+  Block j : 9/24 (sz=4) Time to here 0.041319; last lap 1e-06
+  Block j : 10/24 (sz=16) Time to here 0.041326; last lap 1e-06
+  Block j : 11/24 (sz=24) Time to here 0.041333; last lap 1e-06
+  Block j : 12/24 (sz=4) Time to here 0.04134; last lap 1e-06
+  Block j : 13/24 (sz=16) Time to here 0.041347; last lap 1e-06
+  Block j : 14/24 (sz=24) Time to here 0.041354; last lap 2e-06
+  Block j : 15/24 (sz=16) Time to here 0.041361; last lap 2e-06
+  Block j : 16/24 (sz=1) Time to here 0.041368; last lap 1e-06
+  Block j : 17/24 (sz=4) Time to here 0.041375; last lap 1e-06
+  Block j : 18/24 (sz=6) Time to here 0.041382; last lap 1e-06
+  Block j : 19/24 (sz=1) Time to here 0.041389; last lap 1e-06
+  Block j : 20/24 (sz=4) Time to here 0.041397; last lap 1e-06
+  Block j : 21/24 (sz=6) Time to here 0.041404; last lap 1e-06
+  Block j : 22/24 (sz=4) Time to here 0.041411; last lap 1e-06
+  Block j : 23/24 (sz=4) Time to here 0.041418; last lap 1e-06
+  Block j : 24/24 (sz=1) Time to here 0.041425; last lap 1e-06
+   Updating Op : 1 of 6
+   Updating Op : 3 of 6
+   Updating Op : 5 of 6
+Block i : 24/24 (sz=1) Nshell=1
+  Block j : 0/24 (sz=1) Time to here 0.041457; last lap 2.7e-05
+  Block j : 1/24 (sz=4) Time to here 0.041465; last lap 1e-06
+  Block j : 2/24 (sz=4) Time to here 0.041472; last lap 1e-06
+  Block j : 3/24 (sz=16) Time to here 0.041479; last lap 1e-06
+  Block j : 4/24 (sz=6) Time to here 0.041486; last lap 1e-06
+  Block j : 5/24 (sz=24) Time to here 0.041493; last lap 1e-06
+  Block j : 6/24 (sz=6) Time to here 0.0415; last lap 1e-06
+  Block j : 7/24 (sz=24) Time to here 0.041507; last lap 2e-06
+  Block j : 8/24 (sz=36) Time to here 0.041514; last lap 1e-06
+  Block j : 9/24 (sz=4) Time to here 0.041521; last lap 1e-06
+  Block j : 10/24 (sz=16) Time to here 0.041528; last lap 1e-06
+  Block j : 11/24 (sz=24) Time to here 0.041535; last lap 1e-06
+  Block j : 12/24 (sz=4) Time to here 0.041542; last lap 1e-06
+  Block j : 13/24 (sz=16) Time to here 0.041549; last lap 1e-06
+  Block j : 14/24 (sz=24) Time to here 0.041556; last lap 2e-06
+  Block j : 15/24 (sz=16) Time to here 0.041563; last lap 2e-06
+  Block j : 16/24 (sz=1) Time to here 0.04157; last lap 2e-06
+  Block j : 17/24 (sz=4) Time to here 0.041577; last lap 2e-06
+  Block j : 18/24 (sz=6) Time to here 0.041584; last lap 1e-06
+  Block j : 19/24 (sz=1) Time to here 0.041591; last lap 1e-06
+  Block j : 20/24 (sz=4) Time to here 0.041598; last lap 1e-06
+  Block j : 21/24 (sz=6) Time to here 0.041605; last lap 1e-06
+  Block j : 22/24 (sz=4) Time to here 0.041612; last lap 1e-06
+  Block j : 23/24 (sz=4) Time to here 0.041619; last lap 1e-06
+  Block j : 24/24 (sz=1) Time to here 0.041626; last lap 1e-06
+ DONE updating operators in Nshell = 1
+CodeHandler: Saving matrices 
+imat = 0 SaveMatYN = 0
+imat = 1 SaveMatYN = 0
+imat = 2 SaveMatYN = 1
+imat = 3 SaveMatYN = 1
+imat = 4 SaveMatYN = 1
+imat = 5 SaveMatYN = 1
+ CalcStuff: Not Calculating stuff for Mat 0
+ CalcStuff: Not Calculating stuff for Mat 1
+ CalcStuff: Not Calculating stuff for Mat 2
+ CalcStuff: Not Calculating stuff for Mat 3
+ CalcStuff: Not Calculating stuff for Mat 4
+ CalcStuff: Not Calculating stuff for Mat 5
+ N = 1
+ eN_2 = 0
+ ScaleFactorN_1 = 2.25877 DeltaSC_scaled =  DeltaSC_scaled = 0
+=== Calculation Finished! ==== 
