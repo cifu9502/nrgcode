@@ -717,8 +717,8 @@ complex<double> OneChNupPdn_HN_MatElCplx(vector<double> Params,
 // 	type=type_i;
 //       }
       // end if
-      double OpTable=OneCh_fd_table(isigma,typep,type);
-      if ( dEqual(OpTable,0.0) ){
+      complex<double> OpTable=cOldEl*OneCh_fd_table(isigma,typep,type);
+      if ( (dEqualPrec(OpTable.real(),0.0,1e-10))&&(dEqualPrec(OpTable.imag(),0.0,1e-10)) ){
 	// debug
 	cOldEl=MatArray[imat].cGetMatEl(stcf_j,stcf_i);
 	typep=type_j;

@@ -2674,7 +2674,7 @@ void OneChNupPdn_SetH0_AndersonMajorana(vector<double> Params,
   double ed2=Params[10]/(Lambda*HalfLambdaFactor);
   double tdots=Params[11]/(Lambda*HalfLambdaFactor);
   //double em=0.0;
-  double em = pow(10,Params[12])/(Lambda*HalfLambdaFactor);
+  double em = Params[12]/(Lambda*HalfLambdaFactor);
   double phi1 = Params[13]*pi;
   double phi2 = Params[14]*pi;
   double eta1 = Params[15]/(Lambda*HalfLambdaFactor);
