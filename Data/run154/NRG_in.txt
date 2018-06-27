@@ -1,5 +1,5 @@
-Begin NRG calculation. Model :1chNupPdn_Majorana - Symmetry :OneChNupPdn - Band Type: Const
- Nsitesmax    = 50
+Begin NRG calculation. Model :1chNupPdn_Majorana - Symmetry :OneChNupPdn - Band Type: SquareWilson
+ Nsitesmax    = 64
  Ncutoff      = 1000
  U            = 0.5
  Gamma        = 0.0282691
@@ -7,8 +7,8 @@ Begin NRG calculation. Model :1chNupPdn_Majorana - Symmetry :OneChNupPdn - Band 
  Lambda       = 2.5
  ChemPot      = 0
  UpdateBefCut = 0
- calcdens     = 1
- Oliveira z   = 1.4
+ calcdens     = 2
+ Oliveira z   = 1
  Additional parameters : 
  Param 3  = 1e-10
  Param 4  = 0
