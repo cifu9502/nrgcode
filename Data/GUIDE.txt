@@ -80,16 +80,40 @@ Gamma_2 = GAMMA1
 tdots = linspace(-0.001,-0.25,5)
 
 
+600-609 & 700-709   Z-TRICK
+tdots=0.00 , t1=Gamma ,t2 =0.00
+e2 = linspace(-0.3,-0.165,10)
+
+610-619 & 710-719   Z-TRICK
+tdots=0.00 , t1=Gamma ,t2 =0.00
+e1 = linspace(-0.3,-0.165,10)
 
 
+620-629 & 720-729   Z-TRICK
+tdots=0.001 , t1=Gamma ,t2 =0.00
+e1 = linspace(-0.3,-0.165,10)
 
 
+630-639 & 730-739   Z-TRICK
+tdots=0 , t1=Gamma ,t2 =0.001
+e1 = linspace(-0.3,-0.165,10)
 
 
+640-649 & 740-749   Z-TRICK
+tdots=0 , t1=0.02 ,t2 =0.002
+e1 = linspace(-0.25,-0.025,10)
 
+650-659 & 750-759   Z-TRICK
+tdots=0.002 , t1=0.02 ,t2 =0.002
+e1 = linspace(-0.25,-0.025,10)
 
+660-669 & 760-769   Z-TRICK
+tdots=0.02 , t1=0.02 ,t2 =0.002
+e1 = linspace(-0.25,-0.025,10)
 
-
+670-679 & 770-779   Z-TRICK
+tdots=0.02 , t1=0.02 ,t2 =0.0
+e1 = linspace(-0.25,-0.025,10)
 
 
 
