@@ -117,6 +117,49 @@ e1 = linspace(-0.25,-0.025,10)
 
 
 
+800-809 & 900-909   Z-TRICK
+tdots=0.0 , t1=Gamma ,
+t2 = Gamma2 = linspace(0,Gamma,10)
+
+810-819 & 910-919   Z-TRICK
+t2=t1 (log-scale) = linspace(-0.25,-0.025,10)
+
+820-829 & 920-929   Z-TRICK
+tdots=0.02 , Gamma2=0 ,
+t1 = linspace(0,0.045,10)
+
+830-839 & 930-939   Z-TRICK
+tdots=0.02 , Gamma2=0 ,
+t2 = linspace(0,0.045,10)
+
+840-849 & 940-949   Z-TRICK
+tdots=0.02 , Gamma2=0 ,
+t2 = linspace(0,0.045,10)
+
+850-859 & 950-959   Z-TRICK
+t1=0.04 , Gamma2=t2=0 ,
+tdots = linspace(0,0.045,10)
+
+860-869 & 960-969   Z-TRICK
+t2=0.04 , Gamma2=t1=0 ,
+tdots = linspace(0,0.045,10)
+
+870-879   Z-TRICK
+t1=0.02 , Gamma2=t2=0 ,
+tdots = linspace(0,0.045,10)
+
+970-979   Z-TRICK
+t1/2=0.02=tdots , Gamma2=t2=0 ,
+e2 = linspace(0,0.045,10)
+
+880-889   Z-TRICK
+0.02=tdots , Gamma2=t2=0 , h = 0
+t1 = linspace(0,0.045,10)
+
+980-989   Z-TRICK
+0.04=tdots , Gamma2=t2=0 , h = 0 , t1 = 0.04
+e2 = linspace(0,0.045,10)
+
 
 PROBABLY WRONG
 
