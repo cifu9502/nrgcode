@@ -3,1629 +3,819 @@
  NomegasEachShell = 5 (if =0 then use standard interpolation) 
  Temp = 2.75444e-50 DMtemp = 1.24614e-10
 Lambda    = 2.5
-Nsites0   = 0
+Nsites0   = 1
 Nsitesmax = 51
-NFermiOps = 1
-Ext arq   = 1chQSAnderson
-Symmetry  = 0
+NFermiOps = 5
+Ext arq   = test
+Symmetry  = 6
  DM-NRG: Only 1chQSz and 1chQ symmetries supported at this point. Testing QS symmetry now...
- SU(2) symmetry detected. 
 Oliveira z = 1.2
  SetSingleSite begin... 
- Got OneChQS 
+ Got OneChNupPdn 
  .. SetSingleSite done!
  Reading bin Files for NshellMax = 50
  NshellMax Files read 
  DM-NRG: Calculating Rho Nmax ...
  Got here 
- TempBar = 2.21037e-40 betabar = 1e+10 ZN = 1 at Nmax. Matrix is complex? 0 Zero Temperature? 1
- DMNRG_SetRhoNmax: non-zero element  ibl= 12 ist= 523 betabar= 1e+10 Ei= 0 auxExp= 1
+ TempBar = 2.21037e-40 betabar = 1e+10 ZN = 1 at Nmax. Matrix is complex? 1 Zero Temperature? 1
+ DMNRG_SetRhoNmax: non-zero element  ibl= 4 ist= 218 betabar= 1e+10 Ei= 0 auxExp= 1
  ... Rho Nmax done.
  Rho Nshell = 50
 DM-NRG: working on Nshell = 49
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.65098 secs. 
+ ... done in 6.65329 secs. 
  ... Rho N done.
- Rho Nshell = 49 completed in 1.77983 secs 
+ Rho Nshell = 49 completed in 6.75832 secs 
 DM-NRG: working on Nshell = 48
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.59783 secs. 
+ ... done in 6.7391 secs. 
  ... Rho N done.
- Rho Nshell = 48 completed in 1.71793 secs 
+ Rho Nshell = 48 completed in 6.83993 secs 
 DM-NRG: working on Nshell = 47
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.62899 secs. 
+ ... done in 6.51833 secs. 
  ... Rho N done.
- Rho Nshell = 47 completed in 1.76211 secs 
+ Rho Nshell = 47 completed in 6.63068 secs 
 DM-NRG: working on Nshell = 46
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.5929 secs. 
+ ... done in 6.44531 secs. 
  ... Rho N done.
- Rho Nshell = 46 completed in 1.71327 secs 
+ Rho Nshell = 46 completed in 6.54845 secs 
 DM-NRG: working on Nshell = 45
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.62305 secs. 
+ ... done in 6.57802 secs. 
  ... Rho N done.
- Rho Nshell = 45 completed in 1.75625 secs 
+ Rho Nshell = 45 completed in 6.69358 secs 
 DM-NRG: working on Nshell = 44
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.60123 secs. 
+ ... done in 6.47331 secs. 
  ... Rho N done.
- Rho Nshell = 44 completed in 1.71756 secs 
+ Rho Nshell = 44 completed in 6.58447 secs 
 DM-NRG: working on Nshell = 43
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.61078 secs. 
+ ... done in 6.5644 secs. 
  ... Rho N done.
- Rho Nshell = 43 completed in 1.74293 secs 
+ Rho Nshell = 43 completed in 6.68142 secs 
 DM-NRG: working on Nshell = 42
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 2.52164 secs. 
+ ... done in 6.58546 secs. 
  ... Rho N done.
- Rho Nshell = 42 completed in 2.64146 secs 
+ Rho Nshell = 42 completed in 6.69474 secs 
 DM-NRG: working on Nshell = 41
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.62031 secs. 
+ ... done in 6.57928 secs. 
  ... Rho N done.
- Rho Nshell = 41 completed in 1.75432 secs 
+ Rho Nshell = 41 completed in 6.69592 secs 
 DM-NRG: working on Nshell = 40
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.59625 secs. 
+ ... done in 6.89356 secs. 
  ... Rho N done.
- Rho Nshell = 40 completed in 1.71945 secs 
+ Rho Nshell = 40 completed in 7.01096 secs 
 DM-NRG: working on Nshell = 39
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.61969 secs. 
+ ... done in 6.79266 secs. 
  ... Rho N done.
- Rho Nshell = 39 completed in 1.75235 secs 
+ Rho Nshell = 39 completed in 6.90937 secs 
 DM-NRG: working on Nshell = 38
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.59104 secs. 
+ ... done in 6.87908 secs. 
  ... Rho N done.
- Rho Nshell = 38 completed in 1.70803 secs 
+ Rho Nshell = 38 completed in 6.99491 secs 
 DM-NRG: working on Nshell = 37
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.61725 secs. 
+ ... done in 6.77495 secs. 
  ... Rho N done.
- Rho Nshell = 37 completed in 1.74852 secs 
+ Rho Nshell = 37 completed in 6.89059 secs 
 DM-NRG: working on Nshell = 36
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.59773 secs. 
+ ... done in 6.88038 secs. 
  ... Rho N done.
- Rho Nshell = 36 completed in 1.71849 secs 
+ Rho Nshell = 36 completed in 6.99759 secs 
 DM-NRG: working on Nshell = 35
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.61454 secs. 
+ ... done in 6.81299 secs. 
  ... Rho N done.
- Rho Nshell = 35 completed in 1.74717 secs 
+ Rho Nshell = 35 completed in 6.93152 secs 
 DM-NRG: working on Nshell = 34
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.58774 secs. 
+ ... done in 8.89032 secs. 
  ... Rho N done.
- Rho Nshell = 34 completed in 1.70811 secs 
+ Rho Nshell = 34 completed in 9.00319 secs 
 DM-NRG: working on Nshell = 33
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.62119 secs. 
+ ... done in 6.69497 secs. 
  ... Rho N done.
- Rho Nshell = 33 completed in 1.75378 secs 
+ Rho Nshell = 33 completed in 6.81075 secs 
 DM-NRG: working on Nshell = 32
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.47557 secs. 
+ ... done in 6.61005 secs. 
  ... Rho N done.
- Rho Nshell = 32 completed in 1.58666 secs 
+ Rho Nshell = 32 completed in 6.71666 secs 
 DM-NRG: working on Nshell = 31
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.52507 secs. 
+ ... done in 6.45745 secs. 
  ... Rho N done.
- Rho Nshell = 31 completed in 1.65852 secs 
+ Rho Nshell = 31 completed in 6.57372 secs 
 DM-NRG: working on Nshell = 30
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.47865 secs. 
+ ... done in 6.60394 secs. 
  ... Rho N done.
- Rho Nshell = 30 completed in 1.5869 secs 
+ Rho Nshell = 30 completed in 6.71129 secs 
 DM-NRG: working on Nshell = 29
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.37778 secs. 
+ ... done in 6.30688 secs. 
  ... Rho N done.
- Rho Nshell = 29 completed in 1.48901 secs 
+ Rho Nshell = 29 completed in 6.41975 secs 
 DM-NRG: working on Nshell = 28
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.40352 secs. 
+ ... done in 6.47022 secs. 
  ... Rho N done.
- Rho Nshell = 28 completed in 1.51353 secs 
+ Rho Nshell = 28 completed in 6.57762 secs 
 DM-NRG: working on Nshell = 27
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.3701 secs. 
+ ... done in 6.79578 secs. 
  ... Rho N done.
- Rho Nshell = 27 completed in 1.48183 secs 
+ Rho Nshell = 27 completed in 6.91113 secs 
 DM-NRG: working on Nshell = 26
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.35706 secs. 
+ ... done in 6.8528 secs. 
  ... Rho N done.
- Rho Nshell = 26 completed in 1.46635 secs 
+ Rho Nshell = 26 completed in 6.96013 secs 
 DM-NRG: working on Nshell = 25
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.36952 secs. 
+ ... done in 7.77698 secs. 
  ... Rho N done.
- Rho Nshell = 25 completed in 1.47941 secs 
+ Rho Nshell = 25 completed in 7.89588 secs 
 DM-NRG: working on Nshell = 24
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.42232 secs. 
+ ... done in 6.45017 secs. 
  ... Rho N done.
- Rho Nshell = 24 completed in 1.53271 secs 
+ Rho Nshell = 24 completed in 6.5576 secs 
 DM-NRG: working on Nshell = 23
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.39773 secs. 
+ ... done in 6.36975 secs. 
  ... Rho N done.
- Rho Nshell = 23 completed in 1.51394 secs 
+ Rho Nshell = 23 completed in 6.48417 secs 
 DM-NRG: working on Nshell = 22
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.40348 secs. 
+ ... done in 6.23076 secs. 
  ... Rho N done.
- Rho Nshell = 22 completed in 1.51416 secs 
+ Rho Nshell = 22 completed in 6.33724 secs 
 DM-NRG: working on Nshell = 21
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.91015 secs. 
+ ... done in 6.081 secs. 
  ... Rho N done.
- Rho Nshell = 21 completed in 2.02257 secs 
+ Rho Nshell = 21 completed in 6.19206 secs 
 DM-NRG: working on Nshell = 20
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.41017 secs. 
+ ... done in 6.04012 secs. 
  ... Rho N done.
- Rho Nshell = 20 completed in 1.52245 secs 
+ Rho Nshell = 20 completed in 6.15719 secs 
 DM-NRG: working on Nshell = 19
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.36916 secs. 
+ ... done in 6.24708 secs. 
  ... Rho N done.
- Rho Nshell = 19 completed in 1.47679 secs 
+ Rho Nshell = 19 completed in 6.36386 secs 
 DM-NRG: working on Nshell = 18
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.37773 secs. 
+ ... done in 5.87976 secs. 
  ... Rho N done.
- Rho Nshell = 18 completed in 1.48659 secs 
+ Rho Nshell = 18 completed in 5.98992 secs 
 DM-NRG: working on Nshell = 17
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.33965 secs. 
+ ... done in 5.69047 secs. 
  ... Rho N done.
- Rho Nshell = 17 completed in 1.44773 secs 
+ Rho Nshell = 17 completed in 5.8 secs 
 DM-NRG: working on Nshell = 16
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.358 secs. 
+ ... done in 5.82396 secs. 
  ... Rho N done.
- Rho Nshell = 16 completed in 1.46869 secs 
+ Rho Nshell = 16 completed in 5.93189 secs 
 DM-NRG: working on Nshell = 15
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.33348 secs. 
+ ... done in 5.9699 secs. 
  ... Rho N done.
- Rho Nshell = 15 completed in 1.43952 secs 
+ Rho Nshell = 15 completed in 6.08228 secs 
 DM-NRG: working on Nshell = 14
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.38019 secs. 
+ ... done in 5.95573 secs. 
  ... Rho N done.
- Rho Nshell = 14 completed in 1.49287 secs 
+ Rho Nshell = 14 completed in 6.06518 secs 
 DM-NRG: working on Nshell = 13
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.34069 secs. 
+ ... done in 6.60621 secs. 
  ... Rho N done.
- Rho Nshell = 13 completed in 1.44704 secs 
+ Rho Nshell = 13 completed in 6.7354 secs 
 DM-NRG: working on Nshell = 12
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.35357 secs. 
+ ... done in 6.70095 secs. 
  ... Rho N done.
- Rho Nshell = 12 completed in 1.46742 secs 
+ Rho Nshell = 12 completed in 6.81835 secs 
 DM-NRG: working on Nshell = 11
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.33728 secs. 
+ ... done in 6.22291 secs. 
  ... Rho N done.
- Rho Nshell = 11 completed in 1.445 secs 
+ Rho Nshell = 11 completed in 6.33441 secs 
 DM-NRG: working on Nshell = 10
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.34757 secs. 
+ ... done in 7.52953 secs. 
  ... Rho N done.
- Rho Nshell = 10 completed in 1.45593 secs 
+ Rho Nshell = 10 completed in 7.66899 secs 
 DM-NRG: working on Nshell = 9
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.32839 secs. 
+ ... done in 7.55195 secs. 
  ... Rho N done.
- Rho Nshell = 9 completed in 1.43529 secs 
+ Rho Nshell = 9 completed in 7.67235 secs 
 DM-NRG: working on Nshell = 8
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.39248 secs. 
+ ... done in 7.27729 secs. 
  ... Rho N done.
- Rho Nshell = 8 completed in 1.51239 secs 
+ Rho Nshell = 8 completed in 7.40912 secs 
 DM-NRG: working on Nshell = 7
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.41945 secs. 
+ ... done in 6.54331 secs. 
  ... Rho N done.
- Rho Nshell = 7 completed in 1.52983 secs 
+ Rho Nshell = 7 completed in 6.65211 secs 
 DM-NRG: working on Nshell = 6
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.44591 secs. 
+ ... done in 7.48969 secs. 
  ... Rho N done.
- Rho Nshell = 6 completed in 1.55877 secs 
+ Rho Nshell = 6 completed in 7.62166 secs 
 DM-NRG: working on Nshell = 5
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.40402 secs. 
+ ... done in 6.83168 secs. 
  ... Rho N done.
- Rho Nshell = 5 completed in 1.51382 secs 
+ Rho Nshell = 5 completed in 6.94785 secs 
 DM-NRG: working on Nshell = 4
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 1.34118 secs. 
+ ... done in 7.54512 secs. 
  ... Rho N done.
- Rho Nshell = 4 completed in 1.44671 secs 
+ Rho Nshell = 4 completed in 7.67104 secs 
 DM-NRG: working on Nshell = 3
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 0.582138 secs. 
+ ... done in 7.64497 secs. 
  ... Rho N done.
- Rho Nshell = 3 completed in 0.623244 secs 
+ Rho Nshell = 3 completed in 7.77192 secs 
 DM-NRG: working on Nshell = 2
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 0.054523 secs. 
+ ... done in 7.64525 secs. 
  ... Rho N done.
- Rho Nshell = 2 completed in 0.058506 secs 
+ Rho Nshell = 2 completed in 7.76832 secs 
 DM-NRG: working on Nshell = 1
  DM-NRG: Setting child states... 
  ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
+ DM-NRG: Calculating Rho N ...
  Rotating Rho N... 
- ... done in 0.001973 secs. 
+ ... done in 2.64136 secs. 
  ... Rho N done.
- Rho Nshell = 1 completed in 0.002541 secs 
-DM-NRG: working on Nshell = 0
- DM-NRG: Setting child states... 
- ...Set child states done.
- DM-NRG: Calculating Rho N (w SU(2))...
- Rotating Rho N... 
- ... done in 0.000128 secs. 
- ... Rho N done.
- Rho Nshell = 0 completed in 0.000346 secs 
+ Rho Nshell = 1 completed in 2.66823 secs 
  Spectral functions (Working on this)... 
  Checking phs for Nshell = : 49
- ibl1 = 0 ibl2 = 2 (Nstb1:2 Nstb2:15) partial Pos: 0 partial Neg: 0
- ibl1 = 0 ibl2 = 3 (Nstb1:2 Nstb2:4) partial Pos: 0 partial Neg: 0
- ibl1 = 1 ibl2 = 2 (Nstb1:3 Nstb2:15) partial Pos: 0 partial Neg: 0
- ibl1 = 2 ibl2 = 4 (Nstb1:15 Nstb2:33) partial Pos: 0 partial Neg: 0
- ibl1 = 2 ibl2 = 5 (Nstb1:15 Nstb2:34) partial Pos: 0 partial Neg: 0
- ibl1 = 3 ibl2 = 4 (Nstb1:4 Nstb2:33) partial Pos: 0 partial Neg: 0
- ibl1 = 3 ibl2 = 7 (Nstb1:4 Nstb2:4) partial Pos: 0 partial Neg: 0
- ibl1 = 4 ibl2 = 6 (Nstb1:33 Nstb2:89) partial Pos: 0 partial Neg: 0
- ibl1 = 4 ibl2 = 8 (Nstb1:33 Nstb2:35) partial Pos: 0 partial Neg: 0
- ibl1 = 5 ibl2 = 6 (Nstb1:34 Nstb2:89) partial Pos: 0 partial Neg: 0
- ibl1 = 6 ibl2 = 9 (Nstb1:89 Nstb2:107) partial Pos: 0 partial Neg: 0
- ibl1 = 6 ibl2 = 10 (Nstb1:89 Nstb2:97) partial Pos: 6.73945e-11 partial Neg: 4.78389e-09
- ibl1 = 7 ibl2 = 8 (Nstb1:4 Nstb2:35) partial Pos: 0 partial Neg: 0
- ibl1 = 7 ibl2 = 12 (Nstb1:4 Nstb2:2) partial Pos: 0 partial Neg: 0
- ibl1 = 8 ibl2 = 9 (Nstb1:35 Nstb2:107) partial Pos: 0 partial Neg: 0
- ibl1 = 8 ibl2 = 13 (Nstb1:35 Nstb2:19) partial Pos: 0 partial Neg: 0
- ibl1 = 9 ibl2 = 11 (Nstb1:107 Nstb2:152) partial Pos: -5.36887e-12 partial Neg: 7.2823e-09
- ibl1 = 9 ibl2 = 14 (Nstb1:107 Nstb2:66) partial Pos: 0 partial Neg: 0
- ibl1 = 10 ibl2 = 11 (Nstb1:97 Nstb2:152) partial Pos: 4.68674e-09 partial Neg: 3.09616e-09
- ibl1 = 11 ibl2 = 15 (Nstb1:152 Nstb2:107) partial Pos: 7.2823e-09 partial Neg: -5.36886e-12
- ibl1 = 11 ibl2 = 16 (Nstb1:152 Nstb2:97) partial Pos: 3.09616e-09 partial Neg: 4.68674e-09
- ibl1 = 12 ibl2 = 13 (Nstb1:2 Nstb2:19) partial Pos: 0 partial Neg: 0
- ibl1 = 13 ibl2 = 14 (Nstb1:19 Nstb2:66) partial Pos: 0 partial Neg: 0
- ibl1 = 13 ibl2 = 18 (Nstb1:19 Nstb2:5) partial Pos: 0 partial Neg: 0
- ibl1 = 14 ibl2 = 15 (Nstb1:66 Nstb2:107) partial Pos: 0 partial Neg: 0
- ibl1 = 14 ibl2 = 19 (Nstb1:66 Nstb2:19) partial Pos: 0 partial Neg: 0
- ibl1 = 15 ibl2 = 17 (Nstb1:107 Nstb2:89) partial Pos: 0 partial Neg: 0
- ibl1 = 15 ibl2 = 20 (Nstb1:107 Nstb2:35) partial Pos: 0 partial Neg: 0
- ibl1 = 16 ibl2 = 17 (Nstb1:97 Nstb2:89) partial Pos: 4.78389e-09 partial Neg: 6.73945e-11
- ibl1 = 17 ibl2 = 21 (Nstb1:89 Nstb2:33) partial Pos: 0 partial Neg: 0
- ibl1 = 17 ibl2 = 22 (Nstb1:89 Nstb2:34) partial Pos: 0 partial Neg: 0
- ibl1 = 18 ibl2 = 19 (Nstb1:5 Nstb2:19) partial Pos: 0 partial Neg: 0
- ibl1 = 19 ibl2 = 20 (Nstb1:19 Nstb2:35) partial Pos: 0 partial Neg: 0
- ibl1 = 19 ibl2 = 24 (Nstb1:19 Nstb2:2) partial Pos: 0 partial Neg: 0
- ibl1 = 20 ibl2 = 21 (Nstb1:35 Nstb2:33) partial Pos: 0 partial Neg: 0
- ibl1 = 20 ibl2 = 25 (Nstb1:35 Nstb2:4) partial Pos: 0 partial Neg: 0
- ibl1 = 21 ibl2 = 23 (Nstb1:33 Nstb2:15) partial Pos: 0 partial Neg: 0
- ibl1 = 21 ibl2 = 26 (Nstb1:33 Nstb2:4) partial Pos: 0 partial Neg: 0
- ibl1 = 22 ibl2 = 23 (Nstb1:34 Nstb2:15) partial Pos: 0 partial Neg: 0
- ibl1 = 23 ibl2 = 27 (Nstb1:15 Nstb2:2) partial Pos: 0 partial Neg: 0
- ibl1 = 23 ibl2 = 28 (Nstb1:15 Nstb2:3) partial Pos: 0 partial Neg: 0
- ibl1 = 24 ibl2 = 25 (Nstb1:2 Nstb2:4) partial Pos: 0 partial Neg: 0
- ibl1 = 25 ibl2 = 26 (Nstb1:4 Nstb2:4) partial Pos: 0 partial Neg: 0
- ibl1 = 26 ibl2 = 27 (Nstb1:4 Nstb2:2) partial Pos: 0 partial Neg: 0
- Nshell = 49 Pos contribution: 1.99111e-08 Neg contribution: 1.99111e-08
+ ibl1 = 0 ibl2 = 1 (Nstb1:6 Nstb2:46) partial Pos: 0 partial Neg: 0
+ ibl1 = 1 ibl2 = 4 (Nstb1:46 Nstb2:122) partial Pos: 1.78313e-11 partial Neg: 4.5776e-10
+ ibl1 = 2 ibl2 = 3 (Nstb1:6 Nstb2:46) partial Pos: 0 partial Neg: 0
+ ibl1 = 3 ibl2 = 5 (Nstb1:46 Nstb2:122) partial Pos: 1.69934e-11 partial Neg: 4.37777e-10
+ ibl1 = 4 ibl2 = 6 (Nstb1:122 Nstb2:164) partial Pos: 6.54147e-10 partial Neg: 4.12685e-10
+ ibl1 = 5 ibl2 = 7 (Nstb1:122 Nstb2:164) partial Pos: 6.24663e-10 partial Neg: 3.9564e-10
+ ibl1 = 6 ibl2 = 8 (Nstb1:164 Nstb2:118) partial Pos: 4.64094e-10 partial Neg: -1.23899e-12
+ ibl1 = 7 ibl2 = 9 (Nstb1:164 Nstb2:118) partial Pos: 4.43812e-10 partial Neg: -8.75398e-13
+ ibl1 = 8 ibl2 = 10 (Nstb1:118 Nstb2:42) partial Pos: 0 partial Neg: 0
+ ibl1 = 9 ibl2 = 11 (Nstb1:118 Nstb2:42) partial Pos: 0 partial Neg: 0
+ ibl1 = 10 ibl2 = 12 (Nstb1:42 Nstb2:6) partial Pos: 0 partial Neg: 0
+ ibl1 = 11 ibl2 = 13 (Nstb1:42 Nstb2:6) partial Pos: 0 partial Neg: 0
+ Nshell = 49 Pos contribution: 2.22154e-09 Neg contribution: 1.70175e-09
  Checking phs for Nshell = : 47
- ibl1 = 0 ibl2 = 2 (Nstb1:2 Nstb2:15) partial Pos: 0 partial Neg: 0
- ibl1 = 0 ibl2 = 3 (Nstb1:2 Nstb2:4) partial Pos: 0 partial Neg: 0
- ibl1 = 1 ibl2 = 2 (Nstb1:3 Nstb2:15) partial Pos: 0 partial Neg: 0
- ibl1 = 2 ibl2 = 4 (Nstb1:15 Nstb2:33) partial Pos: 0 partial Neg: 0
- ibl1 = 2 ibl2 = 5 (Nstb1:15 Nstb2:34) partial Pos: 3.44399e-18 partial Neg: 2.15976e-14
- ibl1 = 3 ibl2 = 4 (Nstb1:4 Nstb2:33) partial Pos: 0 partial Neg: 0
- ibl1 = 3 ibl2 = 7 (Nstb1:4 Nstb2:4) partial Pos: 0 partial Neg: 0
- ibl1 = 4 ibl2 = 6 (Nstb1:33 Nstb2:89) partial Pos: 3.59381e-15 partial Neg: 2.27631e-11
- ibl1 = 4 ibl2 = 8 (Nstb1:33 Nstb2:35) partial Pos: 0 partial Neg: 0
- ibl1 = 5 ibl2 = 6 (Nstb1:34 Nstb2:89) partial Pos: 1.0465e-14 partial Neg: 9.58728e-12
- ibl1 = 6 ibl2 = 9 (Nstb1:89 Nstb2:107) partial Pos: 2.49506e-11 partial Neg: 2.19499e-11
- ibl1 = 6 ibl2 = 10 (Nstb1:89 Nstb2:97) partial Pos: 1.5517e-10 partial Neg: 1.18951e-08
- ibl1 = 7 ibl2 = 8 (Nstb1:4 Nstb2:35) partial Pos: 0 partial Neg: 0
- ibl1 = 7 ibl2 = 12 (Nstb1:4 Nstb2:2) partial Pos: 0 partial Neg: 0
- ibl1 = 8 ibl2 = 9 (Nstb1:35 Nstb2:107) partial Pos: 9.66333e-16 partial Neg: 3.03548e-11
- ibl1 = 8 ibl2 = 13 (Nstb1:35 Nstb2:19) partial Pos: 0 partial Neg: 0
- ibl1 = 9 ibl2 = 11 (Nstb1:107 Nstb2:152) partial Pos: 8.68495e-12 partial Neg: 1.80967e-08
- ibl1 = 9 ibl2 = 14 (Nstb1:107 Nstb2:66) partial Pos: 3.38987e-11 partial Neg: 4.63794e-13
- ibl1 = 10 ibl2 = 11 (Nstb1:97 Nstb2:152) partial Pos: 1.16766e-08 partial Neg: 7.80104e-09
- ibl1 = 11 ibl2 = 15 (Nstb1:152 Nstb2:107) partial Pos: 1.80967e-08 partial Neg: 8.68496e-12
- ibl1 = 11 ibl2 = 16 (Nstb1:152 Nstb2:97) partial Pos: 7.80104e-09 partial Neg: 1.16766e-08
- ibl1 = 12 ibl2 = 13 (Nstb1:2 Nstb2:19) partial Pos: 0 partial Neg: 0
- ibl1 = 13 ibl2 = 14 (Nstb1:19 Nstb2:66) partial Pos: 1.63732e-18 partial Neg: 5.40018e-14
- ibl1 = 13 ibl2 = 18 (Nstb1:19 Nstb2:5) partial Pos: 0 partial Neg: 0
- ibl1 = 14 ibl2 = 15 (Nstb1:66 Nstb2:107) partial Pos: 4.63794e-13 partial Neg: 3.38987e-11
- ibl1 = 14 ibl2 = 19 (Nstb1:66 Nstb2:19) partial Pos: 5.40018e-14 partial Neg: 1.63732e-18
- ibl1 = 15 ibl2 = 17 (Nstb1:107 Nstb2:89) partial Pos: 2.19499e-11 partial Neg: 2.49506e-11
- ibl1 = 15 ibl2 = 20 (Nstb1:107 Nstb2:35) partial Pos: 3.03548e-11 partial Neg: 9.66333e-16
- ibl1 = 16 ibl2 = 17 (Nstb1:97 Nstb2:89) partial Pos: 1.18951e-08 partial Neg: 1.5517e-10
- ibl1 = 17 ibl2 = 21 (Nstb1:89 Nstb2:33) partial Pos: 2.27631e-11 partial Neg: 3.59381e-15
- ibl1 = 17 ibl2 = 22 (Nstb1:89 Nstb2:34) partial Pos: 9.58728e-12 partial Neg: 1.0465e-14
- ibl1 = 18 ibl2 = 19 (Nstb1:5 Nstb2:19) partial Pos: 0 partial Neg: 0
- ibl1 = 19 ibl2 = 20 (Nstb1:19 Nstb2:35) partial Pos: 0 partial Neg: 0
- ibl1 = 19 ibl2 = 24 (Nstb1:19 Nstb2:2) partial Pos: 0 partial Neg: 0
- ibl1 = 20 ibl2 = 21 (Nstb1:35 Nstb2:33) partial Pos: 0 partial Neg: 0
- ibl1 = 20 ibl2 = 25 (Nstb1:35 Nstb2:4) partial Pos: 0 partial Neg: 0
- ibl1 = 21 ibl2 = 23 (Nstb1:33 Nstb2:15) partial Pos: 0 partial Neg: 0
- ibl1 = 21 ibl2 = 26 (Nstb1:33 Nstb2:4) partial Pos: 0 partial Neg: 0
- ibl1 = 22 ibl2 = 23 (Nstb1:34 Nstb2:15) partial Pos: 2.15976e-14 partial Neg: 3.44399e-18
- ibl1 = 23 ibl2 = 27 (Nstb1:15 Nstb2:2) partial Pos: 0 partial Neg: 0
- ibl1 = 23 ibl2 = 28 (Nstb1:15 Nstb2:3) partial Pos: 0 partial Neg: 0
- ibl1 = 24 ibl2 = 25 (Nstb1:2 Nstb2:4) partial Pos: 0 partial Neg: 0
- ibl1 = 25 ibl2 = 26 (Nstb1:4 Nstb2:4) partial Pos: 0 partial Neg: 0
- ibl1 = 26 ibl2 = 27 (Nstb1:4 Nstb2:2) partial Pos: 0 partial Neg: 0
- Nshell = 47 Pos contribution: 4.97774e-08 Neg contribution: 4.97774e-08
+ ibl1 = 0 ibl2 = 1 (Nstb1:6 Nstb2:46) partial Pos: 5.91877e-16 partial Neg: 1.26481e-12
+ ibl1 = 1 ibl2 = 4 (Nstb1:46 Nstb2:122) partial Pos: 3.85261e-11 partial Neg: 1.08585e-09
+ ibl1 = 2 ibl2 = 3 (Nstb1:6 Nstb2:46) partial Pos: 6.64373e-16 partial Neg: 1.35858e-12
+ ibl1 = 3 ibl2 = 5 (Nstb1:46 Nstb2:122) partial Pos: 4.13639e-11 partial Neg: 1.161e-09
+ ibl1 = 4 ibl2 = 6 (Nstb1:122 Nstb2:164) partial Pos: 1.56451e-09 partial Neg: 9.69421e-10
+ ibl1 = 5 ibl2 = 7 (Nstb1:122 Nstb2:164) partial Pos: 1.67598e-09 partial Neg: 1.0294e-09
+ ibl1 = 6 ibl2 = 8 (Nstb1:164 Nstb2:118) partial Pos: 1.0762e-09 partial Neg: -1.96396e-13
+ ibl1 = 7 ibl2 = 9 (Nstb1:164 Nstb2:118) partial Pos: 1.14616e-09 partial Neg: -9.69123e-13
+ ibl1 = 8 ibl2 = 10 (Nstb1:118 Nstb2:43) partial Pos: 1.06884e-12 partial Neg: -1.46273e-14
+ ibl1 = 9 ibl2 = 11 (Nstb1:118 Nstb2:43) partial Pos: 1.02481e-12 partial Neg: 1.3617e-16
+ ibl1 = 10 ibl2 = 12 (Nstb1:43 Nstb2:6) partial Pos: 0 partial Neg: 0
+ ibl1 = 11 ibl2 = 13 (Nstb1:43 Nstb2:6) partial Pos: 0 partial Neg: 0
+ Nshell = 47 Pos contribution: 5.54484e-09 Neg contribution: 4.24712e-09
  Checking phs for Nshell = : 45
- ibl1 = 0 ibl2 = 2 (Nstb1:2 Nstb2:15) partial Pos: -1.23253e-27 partial Neg: 8.2358e-22
- ibl1 = 0 ibl2 = 3 (Nstb1:2 Nstb2:4) partial Pos: 0 partial Neg: 0
- ibl1 = 1 ibl2 = 2 (Nstb1:3 Nstb2:15) partial Pos: 2.4897e-26 partial Neg: 5.00827e-22
- ibl1 = 2 ibl2 = 4 (Nstb1:15 Nstb2:33) partial Pos: 7.22624e-22 partial Neg: 6.07137e-19
- ibl1 = 2 ibl2 = 5 (Nstb1:15 Nstb2:34) partial Pos: 9.73445e-18 partial Neg: 7.84134e-14
- ibl1 = 3 ibl2 = 4 (Nstb1:4 Nstb2:33) partial Pos: -2.30361e-25 partial Neg: 6.39594e-19
- ibl1 = 3 ibl2 = 7 (Nstb1:4 Nstb2:4) partial Pos: 0 partial Neg: 0
- ibl1 = 4 ibl2 = 6 (Nstb1:33 Nstb2:89) partial Pos: 8.43457e-15 partial Neg: 6.85406e-11
- ibl1 = 4 ibl2 = 8 (Nstb1:33 Nstb2:35) partial Pos: 9.91021e-19 partial Neg: 1.01398e-18
- ibl1 = 5 ibl2 = 6 (Nstb1:34 Nstb2:89) partial Pos: 4.79824e-14 partial Neg: 2.88742e-11
- ibl1 = 6 ibl2 = 9 (Nstb1:89 Nstb2:107) partial Pos: 7.5181e-11 partial Neg: 6.62008e-11
- ibl1 = 6 ibl2 = 10 (Nstb1:89 Nstb2:97) partial Pos: 3.84541e-10 partial Neg: 2.97061e-08
- ibl1 = 7 ibl2 = 8 (Nstb1:4 Nstb2:35) partial Pos: -9.85812e-26 partial Neg: 7.99513e-19
- ibl1 = 7 ibl2 = 12 (Nstb1:4 Nstb2:2) partial Pos: 0 partial Neg: 0
- ibl1 = 8 ibl2 = 9 (Nstb1:35 Nstb2:107) partial Pos: 3.06613e-15 partial Neg: 9.13966e-11
- ibl1 = 8 ibl2 = 13 (Nstb1:35 Nstb2:19) partial Pos: 1.26179e-18 partial Neg: 1.75386e-20
- ibl1 = 9 ibl2 = 11 (Nstb1:107 Nstb2:152) partial Pos: 3.25464e-11 partial Neg: 4.51939e-08
- ibl1 = 9 ibl2 = 14 (Nstb1:107 Nstb2:66) partial Pos: 1.02107e-10 partial Neg: 1.39796e-12
- ibl1 = 10 ibl2 = 11 (Nstb1:97 Nstb2:152) partial Pos: 2.91696e-08 partial Neg: 1.95204e-08
- ibl1 = 11 ibl2 = 15 (Nstb1:152 Nstb2:107) partial Pos: 4.51939e-08 partial Neg: 3.25465e-11
- ibl1 = 11 ibl2 = 16 (Nstb1:152 Nstb2:97) partial Pos: 1.95204e-08 partial Neg: 2.91696e-08
- ibl1 = 12 ibl2 = 13 (Nstb1:2 Nstb2:19) partial Pos: -5.15903e-29 partial Neg: 1.64736e-21
- ibl1 = 13 ibl2 = 14 (Nstb1:19 Nstb2:66) partial Pos: 6.37756e-18 partial Neg: 1.96062e-13
- ibl1 = 13 ibl2 = 18 (Nstb1:19 Nstb2:5) partial Pos: 2.32611e-21 partial Neg: 2.85443e-25
- ibl1 = 14 ibl2 = 15 (Nstb1:66 Nstb2:107) partial Pos: 1.39796e-12 partial Neg: 1.02107e-10
- ibl1 = 14 ibl2 = 19 (Nstb1:66 Nstb2:19) partial Pos: 1.96062e-13 partial Neg: 6.37756e-18
- ibl1 = 15 ibl2 = 17 (Nstb1:107 Nstb2:89) partial Pos: 6.62008e-11 partial Neg: 7.5181e-11
- ibl1 = 15 ibl2 = 20 (Nstb1:107 Nstb2:35) partial Pos: 9.13966e-11 partial Neg: 3.06613e-15
- ibl1 = 16 ibl2 = 17 (Nstb1:97 Nstb2:89) partial Pos: 2.97061e-08 partial Neg: 3.84541e-10
- ibl1 = 17 ibl2 = 21 (Nstb1:89 Nstb2:33) partial Pos: 6.85406e-11 partial Neg: 8.43457e-15
- ibl1 = 17 ibl2 = 22 (Nstb1:89 Nstb2:34) partial Pos: 2.88742e-11 partial Neg: 4.79824e-14
- ibl1 = 18 ibl2 = 19 (Nstb1:5 Nstb2:19) partial Pos: 2.85443e-25 partial Neg: 2.32611e-21
- ibl1 = 19 ibl2 = 20 (Nstb1:19 Nstb2:35) partial Pos: 1.75386e-20 partial Neg: 1.26179e-18
- ibl1 = 19 ibl2 = 24 (Nstb1:19 Nstb2:2) partial Pos: 1.64736e-21 partial Neg: -5.15901e-29
- ibl1 = 20 ibl2 = 21 (Nstb1:35 Nstb2:33) partial Pos: 1.01398e-18 partial Neg: 9.91021e-19
- ibl1 = 20 ibl2 = 25 (Nstb1:35 Nstb2:4) partial Pos: 7.99513e-19 partial Neg: -9.85812e-26
- ibl1 = 21 ibl2 = 23 (Nstb1:33 Nstb2:15) partial Pos: 6.07137e-19 partial Neg: 7.22624e-22
- ibl1 = 21 ibl2 = 26 (Nstb1:33 Nstb2:4) partial Pos: 6.39594e-19 partial Neg: -2.3036e-25
- ibl1 = 22 ibl2 = 23 (Nstb1:34 Nstb2:15) partial Pos: 7.84134e-14 partial Neg: 9.73445e-18
- ibl1 = 23 ibl2 = 27 (Nstb1:15 Nstb2:2) partial Pos: 8.2358e-22 partial Neg: -1.23253e-27
- ibl1 = 23 ibl2 = 28 (Nstb1:15 Nstb2:3) partial Pos: 5.00827e-22 partial Neg: 2.4897e-26
- ibl1 = 24 ibl2 = 25 (Nstb1:2 Nstb2:4) partial Pos: 0 partial Neg: 0
- ibl1 = 25 ibl2 = 26 (Nstb1:4 Nstb2:4) partial Pos: 0 partial Neg: 0
- ibl1 = 26 ibl2 = 27 (Nstb1:4 Nstb2:2) partial Pos: 0 partial Neg: 0
- Nshell = 45 Pos contribution: 1.24441e-07 Neg contribution: 1.24441e-07
+ ibl1 = 0 ibl2 = 1 (Nstb1:6 Nstb2:46) partial Pos: 1.61128e-15 partial Neg: 4.22404e-12
+ ibl1 = 1 ibl2 = 4 (Nstb1:46 Nstb2:122) partial Pos: 1.0318e-10 partial Neg: 2.92412e-09
+ ibl1 = 2 ibl2 = 3 (Nstb1:6 Nstb2:46) partial Pos: 2.37154e-15 partial Neg: 3.87583e-12
+ ibl1 = 3 ibl2 = 5 (Nstb1:46 Nstb2:122) partial Pos: 9.31586e-11 partial Neg: 2.70343e-09
+ ibl1 = 4 ibl2 = 6 (Nstb1:122 Nstb2:165) partial Pos: 4.17951e-09 partial Neg: 2.60925e-09
+ ibl1 = 5 ibl2 = 7 (Nstb1:122 Nstb2:165) partial Pos: 3.95384e-09 partial Neg: 2.33838e-09
+ ibl1 = 6 ibl2 = 8 (Nstb1:165 Nstb2:121) partial Pos: 2.85806e-09 partial Neg: -6.63662e-12
+ ibl1 = 7 ibl2 = 9 (Nstb1:165 Nstb2:121) partial Pos: 2.59499e-09 partial Neg: 6.50289e-11
+ ibl1 = 8 ibl2 = 10 (Nstb1:121 Nstb2:45) partial Pos: 3.21864e-12 partial Neg: 5.85711e-15
+ ibl1 = 9 ibl2 = 11 (Nstb1:121 Nstb2:45) partial Pos: 4.03396e-12 partial Neg: -1.39674e-13
+ ibl1 = 10 ibl2 = 12 (Nstb1:45 Nstb2:6) partial Pos: 1.79367e-17 partial Neg: 1.71064e-20
+ ibl1 = 11 ibl2 = 13 (Nstb1:45 Nstb2:6) partial Pos: 4.5503e-17 partial Neg: -2.246e-20
+ Nshell = 45 Pos contribution: 1.379e-08 Neg contribution: 1.06415e-08
  Checking phs for Nshell = : 43
- ibl1 = 0 ibl2 = 2 (Nstb1:2 Nstb2:15) partial Pos: -3.78281e-27 partial Neg: 2.69061e-21
- ibl1 = 0 ibl2 = 3 (Nstb1:2 Nstb2:4) partial Pos: -5.97241e-39 partial Neg: 1.51295e-35
- ibl1 = 1 ibl2 = 2 (Nstb1:3 Nstb2:15) partial Pos: 8.19955e-26 partial Neg: 1.63624e-21
- ibl1 = 2 ibl2 = 4 (Nstb1:15 Nstb2:33) partial Pos: 2.42278e-21 partial Neg: 1.92928e-18
- ibl1 = 2 ibl2 = 5 (Nstb1:15 Nstb2:34) partial Pos: 2.45838e-17 partial Neg: 2.07202e-13
- ibl1 = 3 ibl2 = 4 (Nstb1:4 Nstb2:33) partial Pos: -7.25772e-25 partial Neg: 2.03238e-18
- ibl1 = 3 ibl2 = 7 (Nstb1:4 Nstb2:4) partial Pos: 1.76258e-35 partial Neg: 2.66752e-35
- ibl1 = 4 ibl2 = 6 (Nstb1:33 Nstb2:89) partial Pos: 2.07182e-14 partial Neg: 1.76146e-10
- ibl1 = 4 ibl2 = 8 (Nstb1:33 Nstb2:35) partial Pos: 3.14931e-18 partial Neg: 3.22287e-18
- ibl1 = 5 ibl2 = 6 (Nstb1:34 Nstb2:89) partial Pos: 1.3026e-13 partial Neg: 7.42095e-11
- ibl1 = 6 ibl2 = 9 (Nstb1:89 Nstb2:107) partial Pos: 1.93233e-10 partial Neg: 1.70183e-10
- ibl1 = 6 ibl2 = 10 (Nstb1:89 Nstb2:97) partial Pos: 9.60104e-10 partial Neg: 7.4249e-08
- ibl1 = 7 ibl2 = 8 (Nstb1:4 Nstb2:35) partial Pos: -3.24749e-25 partial Neg: 2.54065e-18
- ibl1 = 7 ibl2 = 12 (Nstb1:4 Nstb2:2) partial Pos: 2.18546e-35 partial Neg: 8.27287e-37
- ibl1 = 8 ibl2 = 9 (Nstb1:35 Nstb2:107) partial Pos: 7.94491e-15 partial Neg: 2.34887e-10
- ibl1 = 8 ibl2 = 13 (Nstb1:35 Nstb2:19) partial Pos: 4.00974e-18 partial Neg: 5.57658e-20
- ibl1 = 9 ibl2 = 11 (Nstb1:107 Nstb2:152) partial Pos: 8.58126e-11 partial Neg: 1.12961e-07
- ibl1 = 9 ibl2 = 14 (Nstb1:107 Nstb2:66) partial Pos: 2.62429e-10 partial Neg: 3.59419e-12
- ibl1 = 10 ibl2 = 11 (Nstb1:97 Nstb2:152) partial Pos: 7.29115e-08 partial Neg: 4.88063e-08
- ibl1 = 11 ibl2 = 15 (Nstb1:152 Nstb2:107) partial Pos: 1.12961e-07 partial Neg: 8.58126e-11
- ibl1 = 11 ibl2 = 16 (Nstb1:152 Nstb2:97) partial Pos: 4.88063e-08 partial Neg: 7.29115e-08
- ibl1 = 12 ibl2 = 13 (Nstb1:2 Nstb2:19) partial Pos: -2.39221e-28 partial Neg: 5.38293e-21
- ibl1 = 13 ibl2 = 14 (Nstb1:19 Nstb2:66) partial Pos: 1.70275e-17 partial Neg: 5.18114e-13
- ibl1 = 13 ibl2 = 18 (Nstb1:19 Nstb2:5) partial Pos: 7.60081e-21 partial Neg: 8.95498e-25
- ibl1 = 14 ibl2 = 15 (Nstb1:66 Nstb2:107) partial Pos: 3.59419e-12 partial Neg: 2.62429e-10
- ibl1 = 14 ibl2 = 19 (Nstb1:66 Nstb2:19) partial Pos: 5.18114e-13 partial Neg: 1.70275e-17
- ibl1 = 15 ibl2 = 17 (Nstb1:107 Nstb2:89) partial Pos: 1.70183e-10 partial Neg: 1.93233e-10
- ibl1 = 15 ibl2 = 20 (Nstb1:107 Nstb2:35) partial Pos: 2.34887e-10 partial Neg: 7.94491e-15
- ibl1 = 16 ibl2 = 17 (Nstb1:97 Nstb2:89) partial Pos: 7.4249e-08 partial Neg: 9.60104e-10
- ibl1 = 17 ibl2 = 21 (Nstb1:89 Nstb2:33) partial Pos: 1.76146e-10 partial Neg: 2.07182e-14
- ibl1 = 17 ibl2 = 22 (Nstb1:89 Nstb2:34) partial Pos: 7.42095e-11 partial Neg: 1.3026e-13
- ibl1 = 18 ibl2 = 19 (Nstb1:5 Nstb2:19) partial Pos: 8.95498e-25 partial Neg: 7.60081e-21
- ibl1 = 19 ibl2 = 20 (Nstb1:19 Nstb2:35) partial Pos: 5.57658e-20 partial Neg: 4.00974e-18
- ibl1 = 19 ibl2 = 24 (Nstb1:19 Nstb2:2) partial Pos: 5.38293e-21 partial Neg: -2.3922e-28
- ibl1 = 20 ibl2 = 21 (Nstb1:35 Nstb2:33) partial Pos: 3.22287e-18 partial Neg: 3.14931e-18
- ibl1 = 20 ibl2 = 25 (Nstb1:35 Nstb2:4) partial Pos: 2.54065e-18 partial Neg: -3.24749e-25
- ibl1 = 21 ibl2 = 23 (Nstb1:33 Nstb2:15) partial Pos: 1.92928e-18 partial Neg: 2.42278e-21
- ibl1 = 21 ibl2 = 26 (Nstb1:33 Nstb2:4) partial Pos: 2.03238e-18 partial Neg: -7.25772e-25
- ibl1 = 22 ibl2 = 23 (Nstb1:34 Nstb2:15) partial Pos: 2.07202e-13 partial Neg: 2.45838e-17
- ibl1 = 23 ibl2 = 27 (Nstb1:15 Nstb2:2) partial Pos: 2.69061e-21 partial Neg: -3.78281e-27
- ibl1 = 23 ibl2 = 28 (Nstb1:15 Nstb2:3) partial Pos: 1.63624e-21 partial Neg: 8.19955e-26
- ibl1 = 24 ibl2 = 25 (Nstb1:2 Nstb2:4) partial Pos: 8.27287e-37 partial Neg: 2.18546e-35
- ibl1 = 25 ibl2 = 26 (Nstb1:4 Nstb2:4) partial Pos: 2.66752e-35 partial Neg: 1.76258e-35
- ibl1 = 26 ibl2 = 27 (Nstb1:4 Nstb2:2) partial Pos: 1.51295e-35 partial Neg: -5.97241e-39
- Nshell = 43 Pos contribution: 3.11089e-07 Neg contribution: 3.11089e-07
+ ibl1 = 0 ibl2 = 1 (Nstb1:6 Nstb2:46) partial Pos: 4.30018e-15 partial Neg: 1.00756e-11
+ ibl1 = 1 ibl2 = 4 (Nstb1:46 Nstb2:123) partial Pos: 2.34179e-10 partial Neg: 6.72413e-09
+ ibl1 = 2 ibl2 = 3 (Nstb1:6 Nstb2:46) partial Pos: 4.07192e-15 partial Neg: 1.10938e-11
+ ibl1 = 3 ibl2 = 5 (Nstb1:46 Nstb2:123) partial Pos: 2.587e-10 partial Neg: 7.33669e-09
+ ibl1 = 4 ibl2 = 6 (Nstb1:123 Nstb2:167) partial Pos: 7.60141e-09 partial Neg: 8.03464e-09
+ ibl1 = 5 ibl2 = 7 (Nstb1:123 Nstb2:167) partial Pos: 1.0501e-08 partial Neg: 6.48037e-09
+ ibl1 = 6 ibl2 = 8 (Nstb1:167 Nstb2:123) partial Pos: 6.54959e-09 partial Neg: 5.8791e-11
+ ibl1 = 7 ibl2 = 9 (Nstb1:167 Nstb2:123) partial Pos: 6.94525e-09 partial Neg: 1.5983e-10
+ ibl1 = 8 ibl2 = 10 (Nstb1:123 Nstb2:46) partial Pos: 1.43583e-11 partial Neg: -4.38898e-13
+ ibl1 = 9 ibl2 = 11 (Nstb1:123 Nstb2:46) partial Pos: 9.69484e-12 partial Neg: 7.3084e-14
+ ibl1 = 10 ibl2 = 12 (Nstb1:46 Nstb2:6) partial Pos: 9.73837e-16 partial Neg: 1.69555e-19
+ ibl1 = 11 ibl2 = 13 (Nstb1:46 Nstb2:6) partial Pos: 5.67388e-16 partial Neg: 4.14094e-19
+ Nshell = 43 Pos contribution: 3.21142e-08 Neg contribution: 2.88153e-08
  Checking phs for Nshell = : 41
- ibl1 = 0 ibl2 = 2 (Nstb1:2 Nstb2:15) partial Pos: -9.79184e-27 partial Neg: 7.00518e-21
- ibl1 = 0 ibl2 = 3 (Nstb1:2 Nstb2:4) partial Pos: -2.6541e-38 partial Neg: 4.9763e-35
- ibl1 = 1 ibl2 = 2 (Nstb1:3 Nstb2:15) partial Pos: 2.12333e-25 partial Neg: 4.26039e-21
- ibl1 = 2 ibl2 = 4 (Nstb1:15 Nstb2:33) partial Pos: 6.32594e-21 partial Neg: 5.00215e-18
- ibl1 = 2 ibl2 = 5 (Nstb1:15 Nstb2:34) partial Pos: 6.15731e-17 partial Neg: 5.22505e-13
- ibl1 = 3 ibl2 = 4 (Nstb1:4 Nstb2:33) partial Pos: -1.88108e-24 partial Neg: 5.26898e-18
- ibl1 = 3 ibl2 = 7 (Nstb1:4 Nstb2:4) partial Pos: 5.79563e-35 partial Neg: 8.77099e-35
- ibl1 = 4 ibl2 = 6 (Nstb1:33 Nstb2:89) partial Pos: 5.16404e-14 partial Neg: 4.42251e-10
- ibl1 = 4 ibl2 = 8 (Nstb1:33 Nstb2:35) partial Pos: 8.16459e-18 partial Neg: 8.35725e-18
- ibl1 = 5 ibl2 = 6 (Nstb1:34 Nstb2:89) partial Pos: 3.29797e-13 partial Neg: 1.86327e-10
- ibl1 = 6 ibl2 = 9 (Nstb1:89 Nstb2:107) partial Pos: 4.85153e-10 partial Neg: 4.27335e-10
- ibl1 = 6 ibl2 = 10 (Nstb1:89 Nstb2:97) partial Pos: 2.39969e-09 partial Neg: 1.85595e-07
- ibl1 = 7 ibl2 = 8 (Nstb1:4 Nstb2:35) partial Pos: -8.49598e-25 partial Neg: 6.58733e-18
- ibl1 = 7 ibl2 = 12 (Nstb1:4 Nstb2:2) partial Pos: 7.1872e-35 partial Neg: 2.70593e-36
- ibl1 = 8 ibl2 = 9 (Nstb1:35 Nstb2:107) partial Pos: 1.99836e-14 partial Neg: 5.89754e-10
- ibl1 = 8 ibl2 = 13 (Nstb1:35 Nstb2:19) partial Pos: 1.03964e-17 partial Neg: 1.44653e-19
- ibl1 = 9 ibl2 = 11 (Nstb1:107 Nstb2:152) partial Pos: 2.16285e-10 partial Neg: 2.82361e-07
- ibl1 = 9 ibl2 = 14 (Nstb1:107 Nstb2:66) partial Pos: 6.5891e-10 partial Neg: 9.02649e-12
- ibl1 = 10 ibl2 = 11 (Nstb1:97 Nstb2:152) partial Pos: 1.82251e-07 partial Neg: 1.22008e-07
- ibl1 = 11 ibl2 = 15 (Nstb1:152 Nstb2:107) partial Pos: 2.82361e-07 partial Neg: 2.16285e-10
- ibl1 = 11 ibl2 = 16 (Nstb1:152 Nstb2:97) partial Pos: 1.22008e-07 partial Neg: 1.82251e-07
- ibl1 = 12 ibl2 = 13 (Nstb1:2 Nstb2:19) partial Pos: -6.3596e-28 partial Neg: 1.40215e-20
- ibl1 = 13 ibl2 = 14 (Nstb1:19 Nstb2:66) partial Pos: 4.29764e-17 partial Neg: 1.30677e-12
- ibl1 = 13 ibl2 = 18 (Nstb1:19 Nstb2:5) partial Pos: 1.97986e-20 partial Neg: 2.33307e-24
- ibl1 = 14 ibl2 = 15 (Nstb1:66 Nstb2:107) partial Pos: 9.02649e-12 partial Neg: 6.5891e-10
- ibl1 = 14 ibl2 = 19 (Nstb1:66 Nstb2:19) partial Pos: 1.30677e-12 partial Neg: 4.29764e-17
- ibl1 = 15 ibl2 = 17 (Nstb1:107 Nstb2:89) partial Pos: 4.27335e-10 partial Neg: 4.85153e-10
- ibl1 = 15 ibl2 = 20 (Nstb1:107 Nstb2:35) partial Pos: 5.89754e-10 partial Neg: 1.99836e-14
- ibl1 = 16 ibl2 = 17 (Nstb1:97 Nstb2:89) partial Pos: 1.85595e-07 partial Neg: 2.39969e-09
- ibl1 = 17 ibl2 = 21 (Nstb1:89 Nstb2:33) partial Pos: 4.42251e-10 partial Neg: 5.16404e-14
- ibl1 = 17 ibl2 = 22 (Nstb1:89 Nstb2:34) partial Pos: 1.86327e-10 partial Neg: 3.29797e-13
- ibl1 = 18 ibl2 = 19 (Nstb1:5 Nstb2:19) partial Pos: 2.33307e-24 partial Neg: 1.97986e-20
- ibl1 = 19 ibl2 = 20 (Nstb1:19 Nstb2:35) partial Pos: 1.44653e-19 partial Neg: 1.03964e-17
- ibl1 = 19 ibl2 = 24 (Nstb1:19 Nstb2:2) partial Pos: 1.40215e-20 partial Neg: -6.3596e-28
- ibl1 = 20 ibl2 = 21 (Nstb1:35 Nstb2:33) partial Pos: 8.35725e-18 partial Neg: 8.16459e-18
- ibl1 = 20 ibl2 = 25 (Nstb1:35 Nstb2:4) partial Pos: 6.58733e-18 partial Neg: -8.49598e-25
- ibl1 = 21 ibl2 = 23 (Nstb1:33 Nstb2:15) partial Pos: 5.00215e-18 partial Neg: 6.32594e-21
- ibl1 = 21 ibl2 = 26 (Nstb1:33 Nstb2:4) partial Pos: 5.26898e-18 partial Neg: -1.88108e-24
- ibl1 = 22 ibl2 = 23 (Nstb1:34 Nstb2:15) partial Pos: 5.22505e-13 partial Neg: 6.15731e-17
- ibl1 = 23 ibl2 = 27 (Nstb1:15 Nstb2:2) partial Pos: 7.00518e-21 partial Neg: -9.79184e-27
- ibl1 = 23 ibl2 = 28 (Nstb1:15 Nstb2:3) partial Pos: 4.26039e-21 partial Neg: 2.12333e-25
- ibl1 = 24 ibl2 = 25 (Nstb1:2 Nstb2:4) partial Pos: 2.70593e-36 partial Neg: 7.1872e-35
- ibl1 = 25 ibl2 = 26 (Nstb1:4 Nstb2:4) partial Pos: 8.77099e-35 partial Neg: 5.79563e-35
- ibl1 = 26 ibl2 = 27 (Nstb1:4 Nstb2:2) partial Pos: 4.9763e-35 partial Neg: -2.6541e-38
- Nshell = 41 Pos contribution: 7.77633e-07 Neg contribution: 7.77633e-07
+ ibl1 = 0 ibl2 = 1 (Nstb1:6 Nstb2:46) partial Pos: 1.03448e-14 partial Neg: 2.83749e-11
+ ibl1 = 1 ibl2 = 4 (Nstb1:46 Nstb2:123) partial Pos: 6.495e-10 partial Neg: 1.83766e-08
+ ibl1 = 2 ibl2 = 3 (Nstb1:6 Nstb2:46) partial Pos: 9.29008e-15 partial Neg: 2.55243e-11
+ ibl1 = 3 ibl2 = 5 (Nstb1:46 Nstb2:123) partial Pos: 5.84398e-10 partial Neg: 1.67174e-08
+ ibl1 = 4 ibl2 = 6 (Nstb1:123 Nstb2:167) partial Pos: 2.63167e-08 partial Neg: 1.61015e-08
+ ibl1 = 5 ibl2 = 7 (Nstb1:123 Nstb2:167) partial Pos: 1.96068e-08 partial Neg: 1.92278e-08
+ ibl1 = 6 ibl2 = 8 (Nstb1:167 Nstb2:123) partial Pos: 1.73419e-08 partial Neg: 3.5892e-10
+ ibl1 = 7 ibl2 = 9 (Nstb1:167 Nstb2:123) partial Pos: 1.63277e-08 partial Neg: 9.99936e-11
+ ibl1 = 8 ibl2 = 10 (Nstb1:123 Nstb2:46) partial Pos: 3.21253e-11 partial Neg: 5.22424e-13
+ ibl1 = 9 ibl2 = 11 (Nstb1:123 Nstb2:46) partial Pos: 5.09191e-11 partial Neg: -9.30163e-13
+ ibl1 = 10 ibl2 = 12 (Nstb1:46 Nstb2:6) partial Pos: 6.48235e-15 partial Neg: 3.95134e-18
+ ibl1 = 11 ibl2 = 13 (Nstb1:46 Nstb2:6) partial Pos: 9.00152e-15 partial Neg: 3.15335e-18
+ Nshell = 41 Pos contribution: 8.091e-08 Neg contribution: 7.09358e-08
  Checking phs for Nshell = : 39
- ibl1 = 0 ibl2 = 2 (Nstb1:2 Nstb2:15) partial Pos: -2.4875e-26 partial Neg: 1.76241e-20
- ibl1 = 0 ibl2 = 3 (Nstb1:2 Nstb2:4) partial Pos: -7.87936e-38 partial Neg: 1.29975e-34
- ibl1 = 1 ibl2 = 2 (Nstb1:3 Nstb2:15) partial Pos: 5.24817e-25 partial Neg: 1.07208e-20
- ibl1 = 2 ibl2 = 4 (Nstb1:15 Nstb2:33) partial Pos: 1.58782e-20 partial Neg: 1.25834e-17
- ibl1 = 2 ibl2 = 5 (Nstb1:15 Nstb2:34) partial Pos: 1.54167e-16 partial Neg: 1.30768e-12
- ibl1 = 3 ibl2 = 4 (Nstb1:4 Nstb2:33) partial Pos: -4.74333e-24 partial Neg: 1.32514e-17
- ibl1 = 3 ibl2 = 7 (Nstb1:4 Nstb2:4) partial Pos: 1.5134e-34 partial Neg: 2.29e-34
- ibl1 = 4 ibl2 = 6 (Nstb1:33 Nstb2:89) partial Pos: 1.2905e-13 partial Neg: 1.10612e-09
- ibl1 = 4 ibl2 = 8 (Nstb1:33 Nstb2:35) partial Pos: 2.0533e-17 partial Neg: 2.10291e-17
- ibl1 = 5 ibl2 = 6 (Nstb1:34 Nstb2:89) partial Pos: 8.25646e-13 partial Neg: 4.66072e-10
- ibl1 = 6 ibl2 = 9 (Nstb1:89 Nstb2:107) partial Pos: 1.21338e-09 partial Neg: 1.06906e-09
- ibl1 = 6 ibl2 = 10 (Nstb1:89 Nstb2:97) partial Pos: 5.99854e-09 partial Neg: 4.63845e-07
- ibl1 = 7 ibl2 = 8 (Nstb1:4 Nstb2:35) partial Pos: -2.15814e-24 partial Neg: 1.65712e-17
- ibl1 = 7 ibl2 = 12 (Nstb1:4 Nstb2:2) partial Pos: 1.87561e-34 partial Neg: 7.10989e-36
- ibl1 = 8 ibl2 = 9 (Nstb1:35 Nstb2:107) partial Pos: 5.00596e-14 partial Neg: 1.47517e-09
- ibl1 = 8 ibl2 = 13 (Nstb1:35 Nstb2:19) partial Pos: 2.6153e-17 partial Neg: 3.64241e-19
- ibl1 = 9 ibl2 = 11 (Nstb1:107 Nstb2:152) partial Pos: 5.41207e-10 partial Neg: 7.05693e-07
- ibl1 = 9 ibl2 = 14 (Nstb1:107 Nstb2:66) partial Pos: 1.64815e-09 partial Neg: 2.25893e-11
- ibl1 = 10 ibl2 = 11 (Nstb1:97 Nstb2:152) partial Pos: 4.55479e-07 partial Neg: 3.04958e-07
- ibl1 = 11 ibl2 = 15 (Nstb1:152 Nstb2:107) partial Pos: 7.05693e-07 partial Neg: 5.41207e-10
- ibl1 = 11 ibl2 = 16 (Nstb1:152 Nstb2:97) partial Pos: 3.04958e-07 partial Neg: 4.55479e-07
- ibl1 = 12 ibl2 = 13 (Nstb1:2 Nstb2:19) partial Pos: -1.50617e-27 partial Neg: 3.53182e-20
- ibl1 = 13 ibl2 = 14 (Nstb1:19 Nstb2:66) partial Pos: 1.07367e-16 partial Neg: 3.27192e-12
- ibl1 = 13 ibl2 = 18 (Nstb1:19 Nstb2:5) partial Pos: 4.98699e-20 partial Neg: 5.97748e-24
- ibl1 = 14 ibl2 = 15 (Nstb1:66 Nstb2:107) partial Pos: 2.25893e-11 partial Neg: 1.64815e-09
- ibl1 = 14 ibl2 = 19 (Nstb1:66 Nstb2:19) partial Pos: 3.27192e-12 partial Neg: 1.07367e-16
- ibl1 = 15 ibl2 = 17 (Nstb1:107 Nstb2:89) partial Pos: 1.06906e-09 partial Neg: 1.21338e-09
- ibl1 = 15 ibl2 = 20 (Nstb1:107 Nstb2:35) partial Pos: 1.47517e-09 partial Neg: 5.00596e-14
- ibl1 = 16 ibl2 = 17 (Nstb1:97 Nstb2:89) partial Pos: 4.63845e-07 partial Neg: 5.99854e-09
- ibl1 = 17 ibl2 = 21 (Nstb1:89 Nstb2:33) partial Pos: 1.10612e-09 partial Neg: 1.2905e-13
- ibl1 = 17 ibl2 = 22 (Nstb1:89 Nstb2:34) partial Pos: 4.66072e-10 partial Neg: 8.25646e-13
- ibl1 = 18 ibl2 = 19 (Nstb1:5 Nstb2:19) partial Pos: 5.97748e-24 partial Neg: 4.98699e-20
- ibl1 = 19 ibl2 = 20 (Nstb1:19 Nstb2:35) partial Pos: 3.64241e-19 partial Neg: 2.6153e-17
- ibl1 = 19 ibl2 = 24 (Nstb1:19 Nstb2:2) partial Pos: 3.53182e-20 partial Neg: -1.50617e-27
- ibl1 = 20 ibl2 = 21 (Nstb1:35 Nstb2:33) partial Pos: 2.10291e-17 partial Neg: 2.0533e-17
- ibl1 = 20 ibl2 = 25 (Nstb1:35 Nstb2:4) partial Pos: 1.65712e-17 partial Neg: -2.15814e-24
- ibl1 = 21 ibl2 = 23 (Nstb1:33 Nstb2:15) partial Pos: 1.25834e-17 partial Neg: 1.58782e-20
- ibl1 = 21 ibl2 = 26 (Nstb1:33 Nstb2:4) partial Pos: 1.32514e-17 partial Neg: -4.74333e-24
- ibl1 = 22 ibl2 = 23 (Nstb1:34 Nstb2:15) partial Pos: 1.30768e-12 partial Neg: 1.54167e-16
- ibl1 = 23 ibl2 = 27 (Nstb1:15 Nstb2:2) partial Pos: 1.76241e-20 partial Neg: -2.4875e-26
- ibl1 = 23 ibl2 = 28 (Nstb1:15 Nstb2:3) partial Pos: 1.07208e-20 partial Neg: 5.24817e-25
- ibl1 = 24 ibl2 = 25 (Nstb1:2 Nstb2:4) partial Pos: 7.10989e-36 partial Neg: 1.87561e-34
- ibl1 = 25 ibl2 = 26 (Nstb1:4 Nstb2:4) partial Pos: 2.29e-34 partial Neg: 1.5134e-34
- ibl1 = 26 ibl2 = 27 (Nstb1:4 Nstb2:2) partial Pos: 1.29975e-34 partial Neg: -7.87936e-38
- Nshell = 39 Pos contribution: 1.94352e-06 Neg contribution: 1.94352e-06
+ ibl1 = 0 ibl2 = 1 (Nstb1:6 Nstb2:46) partial Pos: 2.19593e-14 partial Neg: 6.4404e-11
+ ibl1 = 1 ibl2 = 4 (Nstb1:46 Nstb2:123) partial Pos: 1.45501e-09 partial Neg: 4.14988e-08
+ ibl1 = 2 ibl2 = 3 (Nstb1:6 Nstb2:46) partial Pos: 2.62282e-14 partial Neg: 7.23457e-11
+ ibl1 = 3 ibl2 = 5 (Nstb1:46 Nstb2:123) partial Pos: 1.63155e-09 partial Neg: 4.59785e-08
+ ibl1 = 4 ibl2 = 6 (Nstb1:123 Nstb2:167) partial Pos: 4.93384e-08 partial Neg: 4.69671e-08
+ ibl1 = 5 ibl2 = 7 (Nstb1:123 Nstb2:167) partial Pos: 6.58643e-08 partial Neg: 3.99828e-08
+ ibl1 = 6 ibl2 = 8 (Nstb1:167 Nstb2:123) partial Pos: 4.055e-08 partial Neg: 2.35085e-10
+ ibl1 = 7 ibl2 = 9 (Nstb1:167 Nstb2:123) partial Pos: 4.31628e-08 partial Neg: 8.94246e-10
+ ibl1 = 8 ibl2 = 10 (Nstb1:123 Nstb2:46) partial Pos: 1.7558e-10 partial Neg: -1.26941e-12
+ ibl1 = 9 ibl2 = 11 (Nstb1:123 Nstb2:46) partial Pos: 1.12125e-10 partial Neg: 2.62657e-12
+ ibl1 = 10 ibl2 = 12 (Nstb1:46 Nstb2:6) partial Pos: 5.49662e-14 partial Neg: 1.94379e-17
+ ibl1 = 11 ibl2 = 13 (Nstb1:46 Nstb2:6) partial Pos: 4.51332e-14 partial Neg: 2.42893e-17
+ Nshell = 39 Pos contribution: 2.0229e-07 Neg contribution: 1.75695e-07
  Checking phs for Nshell = : 37
- ibl1 = 0 ibl2 = 2 (Nstb1:2 Nstb2:15) partial Pos: -6.39836e-26 partial Neg: 4.40913e-20
- ibl1 = 0 ibl2 = 3 (Nstb1:2 Nstb2:4) partial Pos: -2.45083e-37 partial Neg: 3.28816e-34
- ibl1 = 1 ibl2 = 2 (Nstb1:3 Nstb2:15) partial Pos: 1.25375e-24 partial Neg: 2.68347e-20
- ibl1 = 2 ibl2 = 4 (Nstb1:15 Nstb2:33) partial Pos: 3.94322e-20 partial Neg: 3.15241e-17
- ibl1 = 2 ibl2 = 5 (Nstb1:15 Nstb2:34) partial Pos: 3.86694e-16 partial Neg: 3.26735e-12
- ibl1 = 3 ibl2 = 4 (Nstb1:4 Nstb2:33) partial Pos: -1.19747e-23 partial Neg: 3.31777e-17
- ibl1 = 3 ibl2 = 7 (Nstb1:4 Nstb2:4) partial Pos: 3.82669e-34 partial Neg: 5.78815e-34
- ibl1 = 4 ibl2 = 6 (Nstb1:33 Nstb2:89) partial Pos: 3.22671e-13 partial Neg: 2.76382e-09
- ibl1 = 4 ibl2 = 8 (Nstb1:33 Nstb2:35) partial Pos: 5.14025e-17 partial Neg: 5.27171e-17
- ibl1 = 5 ibl2 = 6 (Nstb1:34 Nstb2:89) partial Pos: 2.06138e-12 partial Neg: 1.16487e-09
- ibl1 = 6 ibl2 = 9 (Nstb1:89 Nstb2:107) partial Pos: 3.03159e-09 partial Neg: 2.67274e-09
- ibl1 = 6 ibl2 = 10 (Nstb1:89 Nstb2:97) partial Pos: 1.49931e-08 partial Neg: 1.15873e-06
- ibl1 = 7 ibl2 = 8 (Nstb1:4 Nstb2:35) partial Pos: -5.52947e-24 partial Neg: 4.15155e-17
- ibl1 = 7 ibl2 = 12 (Nstb1:4 Nstb2:2) partial Pos: 4.73444e-34 partial Neg: 1.83111e-35
- ibl1 = 8 ibl2 = 9 (Nstb1:35 Nstb2:107) partial Pos: 1.25514e-13 partial Neg: 3.68684e-09
- ibl1 = 8 ibl2 = 13 (Nstb1:35 Nstb2:19) partial Pos: 6.55186e-17 partial Neg: 9.14686e-19
- ibl1 = 9 ibl2 = 11 (Nstb1:107 Nstb2:152) partial Pos: 1.35192e-09 partial Neg: 1.76294e-06
- ibl1 = 9 ibl2 = 14 (Nstb1:107 Nstb2:66) partial Pos: 4.11907e-09 partial Neg: 5.65241e-11
- ibl1 = 10 ibl2 = 11 (Nstb1:97 Nstb2:152) partial Pos: 1.13777e-06 partial Neg: 7.61994e-07
- ibl1 = 11 ibl2 = 15 (Nstb1:152 Nstb2:107) partial Pos: 1.76294e-06 partial Neg: 1.35192e-09
- ibl1 = 11 ibl2 = 16 (Nstb1:152 Nstb2:97) partial Pos: 7.61994e-07 partial Neg: 1.13777e-06
- ibl1 = 12 ibl2 = 13 (Nstb1:2 Nstb2:19) partial Pos: -3.11302e-27 partial Neg: 8.86216e-20
- ibl1 = 13 ibl2 = 14 (Nstb1:19 Nstb2:66) partial Pos: 2.66891e-16 partial Neg: 8.1842e-12
- ibl1 = 13 ibl2 = 18 (Nstb1:19 Nstb2:5) partial Pos: 1.25133e-19 partial Neg: 1.56715e-23
- ibl1 = 14 ibl2 = 15 (Nstb1:66 Nstb2:107) partial Pos: 5.65241e-11 partial Neg: 4.11907e-09
- ibl1 = 14 ibl2 = 19 (Nstb1:66 Nstb2:19) partial Pos: 8.1842e-12 partial Neg: 2.66891e-16
- ibl1 = 15 ibl2 = 17 (Nstb1:107 Nstb2:89) partial Pos: 2.67274e-09 partial Neg: 3.03159e-09
- ibl1 = 15 ibl2 = 20 (Nstb1:107 Nstb2:35) partial Pos: 3.68684e-09 partial Neg: 1.25514e-13
- ibl1 = 16 ibl2 = 17 (Nstb1:97 Nstb2:89) partial Pos: 1.15873e-06 partial Neg: 1.49931e-08
- ibl1 = 17 ibl2 = 21 (Nstb1:89 Nstb2:33) partial Pos: 2.76382e-09 partial Neg: 3.22671e-13
- ibl1 = 17 ibl2 = 22 (Nstb1:89 Nstb2:34) partial Pos: 1.16487e-09 partial Neg: 2.06138e-12
- ibl1 = 18 ibl2 = 19 (Nstb1:5 Nstb2:19) partial Pos: 1.56715e-23 partial Neg: 1.25133e-19
- ibl1 = 19 ibl2 = 20 (Nstb1:19 Nstb2:35) partial Pos: 9.14686e-19 partial Neg: 6.55186e-17
- ibl1 = 19 ibl2 = 24 (Nstb1:19 Nstb2:2) partial Pos: 8.86216e-20 partial Neg: -3.11301e-27
- ibl1 = 20 ibl2 = 21 (Nstb1:35 Nstb2:33) partial Pos: 5.27171e-17 partial Neg: 5.14025e-17
- ibl1 = 20 ibl2 = 25 (Nstb1:35 Nstb2:4) partial Pos: 4.15155e-17 partial Neg: -5.52947e-24
- ibl1 = 21 ibl2 = 23 (Nstb1:33 Nstb2:15) partial Pos: 3.15241e-17 partial Neg: 3.94322e-20
- ibl1 = 21 ibl2 = 26 (Nstb1:33 Nstb2:4) partial Pos: 3.31777e-17 partial Neg: -1.19747e-23
- ibl1 = 22 ibl2 = 23 (Nstb1:34 Nstb2:15) partial Pos: 3.26735e-12 partial Neg: 3.86694e-16
- ibl1 = 23 ibl2 = 27 (Nstb1:15 Nstb2:2) partial Pos: 4.40913e-20 partial Neg: -6.39836e-26
- ibl1 = 23 ibl2 = 28 (Nstb1:15 Nstb2:3) partial Pos: 2.68347e-20 partial Neg: 1.25375e-24
- ibl1 = 24 ibl2 = 25 (Nstb1:2 Nstb2:4) partial Pos: 1.83111e-35 partial Neg: 4.73444e-34
- ibl1 = 25 ibl2 = 26 (Nstb1:4 Nstb2:4) partial Pos: 5.78815e-34 partial Neg: 3.82669e-34
- ibl1 = 26 ibl2 = 27 (Nstb1:4 Nstb2:2) partial Pos: 3.28816e-34 partial Neg: -2.45083e-37
- Nshell = 37 Pos contribution: 4.85529e-06 Neg contribution: 4.85529e-06
+ ibl1 = 0 ibl2 = 1 (Nstb1:6 Nstb2:46) partial Pos: 6.7473e-14 partial Neg: 1.84814e-10
+ ibl1 = 1 ibl2 = 4 (Nstb1:46 Nstb2:123) partial Pos: 4.10145e-09 partial Neg: 1.14931e-07
+ ibl1 = 2 ibl2 = 3 (Nstb1:6 Nstb2:46) partial Pos: 5.35465e-14 partial Neg: 1.62489e-10
+ ibl1 = 3 ibl2 = 5 (Nstb1:46 Nstb2:123) partial Pos: 3.61651e-09 partial Neg: 1.02798e-07
+ ibl1 = 4 ibl2 = 6 (Nstb1:123 Nstb2:167) partial Pos: 1.64669e-07 partial Neg: 9.91085e-08
+ ibl1 = 5 ibl2 = 7 (Nstb1:123 Nstb2:167) partial Pos: 1.22697e-07 partial Neg: 1.15564e-07
+ ibl1 = 6 ibl2 = 8 (Nstb1:167 Nstb2:123) partial Pos: 1.07132e-07 partial Neg: 2.35068e-09
+ ibl1 = 7 ibl2 = 9 (Nstb1:167 Nstb2:123) partial Pos: 1.00372e-07 partial Neg: 6.57198e-10
+ ibl1 = 8 ibl2 = 10 (Nstb1:123 Nstb2:46) partial Pos: 3.90716e-10 partial Neg: 1.10433e-11
+ ibl1 = 9 ibl2 = 11 (Nstb1:123 Nstb2:46) partial Pos: 5.85002e-10 partial Neg: 7.44737e-13
+ ibl1 = 10 ibl2 = 12 (Nstb1:46 Nstb2:6) partial Pos: 2.36339e-13 partial Neg: 1.18076e-16
+ ibl1 = 11 ibl2 = 13 (Nstb1:46 Nstb2:6) partial Pos: 2.63552e-13 partial Neg: 9.87574e-17
+ Nshell = 37 Pos contribution: 5.03565e-07 Neg contribution: 4.35769e-07
  Checking phs for Nshell = : 35
- ibl1 = 0 ibl2 = 2 (Nstb1:2 Nstb2:15) partial Pos: -1.71078e-25 partial Neg: 1.10156e-19
- ibl1 = 0 ibl2 = 3 (Nstb1:2 Nstb2:4) partial Pos: -9.03787e-37 partial Neg: 8.33713e-34
- ibl1 = 1 ibl2 = 2 (Nstb1:3 Nstb2:15) partial Pos: 2.7673e-24 partial Neg: 6.713e-20
- ibl1 = 2 ibl2 = 4 (Nstb1:15 Nstb2:33) partial Pos: 9.66645e-20 partial Neg: 7.90513e-17
- ibl1 = 2 ibl2 = 5 (Nstb1:15 Nstb2:34) partial Pos: 9.74659e-16 partial Neg: 8.15239e-12
- ibl1 = 3 ibl2 = 4 (Nstb1:4 Nstb2:33) partial Pos: -3.0836e-23 partial Neg: 8.30714e-17
- ibl1 = 3 ibl2 = 7 (Nstb1:4 Nstb2:4) partial Pos: 9.69e-34 partial Neg: 1.46428e-33
- ibl1 = 4 ibl2 = 6 (Nstb1:33 Nstb2:89) partial Pos: 8.071e-13 partial Neg: 6.89844e-09
- ibl1 = 4 ibl2 = 8 (Nstb1:33 Nstb2:35) partial Pos: 1.28662e-16 partial Neg: 1.32413e-16
- ibl1 = 5 ibl2 = 6 (Nstb1:34 Nstb2:89) partial Pos: 5.13227e-12 partial Neg: 2.90942e-09
- ibl1 = 6 ibl2 = 9 (Nstb1:89 Nstb2:107) partial Pos: 7.56514e-09 partial Neg: 6.68061e-09
- ibl1 = 6 ibl2 = 10 (Nstb1:89 Nstb2:97) partial Pos: 3.74633e-08 partial Neg: 2.89129e-06
- ibl1 = 7 ibl2 = 8 (Nstb1:4 Nstb2:35) partial Pos: -1.46738e-23 partial Neg: 1.0411e-16
- ibl1 = 7 ibl2 = 12 (Nstb1:4 Nstb2:2) partial Pos: 1.19366e-33 partial Neg: 4.85165e-35
- ibl1 = 8 ibl2 = 9 (Nstb1:35 Nstb2:107) partial Pos: 3.15958e-13 partial Neg: 9.20767e-09
- ibl1 = 8 ibl2 = 13 (Nstb1:35 Nstb2:19) partial Pos: 1.64288e-16 partial Neg: 2.30739e-18
- ibl1 = 9 ibl2 = 11 (Nstb1:107 Nstb2:152) partial Pos: 3.37116e-09 partial Neg: 4.39922e-06
- ibl1 = 9 ibl2 = 14 (Nstb1:107 Nstb2:66) partial Pos: 1.02866e-08 partial Neg: 1.4159e-10
- ibl1 = 10 ibl2 = 11 (Nstb1:97 Nstb2:152) partial Pos: 2.83855e-06 partial Neg: 1.90246e-06
- ibl1 = 11 ibl2 = 15 (Nstb1:152 Nstb2:107) partial Pos: 4.39922e-06 partial Neg: 3.37116e-09
- ibl1 = 11 ibl2 = 16 (Nstb1:152 Nstb2:97) partial Pos: 1.90246e-06 partial Neg: 2.83855e-06
- ibl1 = 12 ibl2 = 13 (Nstb1:2 Nstb2:19) partial Pos: -3.69113e-27 partial Neg: 2.23056e-19
- ibl1 = 13 ibl2 = 14 (Nstb1:19 Nstb2:66) partial Pos: 6.57155e-16 partial Neg: 2.04766e-11
- ibl1 = 13 ibl2 = 18 (Nstb1:19 Nstb2:5) partial Pos: 3.14939e-19 partial Neg: 4.37101e-23
- ibl1 = 14 ibl2 = 15 (Nstb1:66 Nstb2:107) partial Pos: 1.4159e-10 partial Neg: 1.02866e-08
- ibl1 = 14 ibl2 = 19 (Nstb1:66 Nstb2:19) partial Pos: 2.04766e-11 partial Neg: 6.57155e-16
- ibl1 = 15 ibl2 = 17 (Nstb1:107 Nstb2:89) partial Pos: 6.68061e-09 partial Neg: 7.56514e-09
- ibl1 = 15 ibl2 = 20 (Nstb1:107 Nstb2:35) partial Pos: 9.20767e-09 partial Neg: 3.15958e-13
- ibl1 = 16 ibl2 = 17 (Nstb1:97 Nstb2:89) partial Pos: 2.89129e-06 partial Neg: 3.74633e-08
- ibl1 = 17 ibl2 = 21 (Nstb1:89 Nstb2:33) partial Pos: 6.89844e-09 partial Neg: 8.071e-13
- ibl1 = 17 ibl2 = 22 (Nstb1:89 Nstb2:34) partial Pos: 2.90942e-09 partial Neg: 5.13227e-12
- ibl1 = 18 ibl2 = 19 (Nstb1:5 Nstb2:19) partial Pos: 4.37101e-23 partial Neg: 3.14939e-19
- ibl1 = 19 ibl2 = 20 (Nstb1:19 Nstb2:35) partial Pos: 2.30739e-18 partial Neg: 1.64288e-16
- ibl1 = 19 ibl2 = 24 (Nstb1:19 Nstb2:2) partial Pos: 2.23056e-19 partial Neg: -3.69116e-27
- ibl1 = 20 ibl2 = 21 (Nstb1:35 Nstb2:33) partial Pos: 1.32413e-16 partial Neg: 1.28662e-16
- ibl1 = 20 ibl2 = 25 (Nstb1:35 Nstb2:4) partial Pos: 1.0411e-16 partial Neg: -1.46738e-23
- ibl1 = 21 ibl2 = 23 (Nstb1:33 Nstb2:15) partial Pos: 7.90513e-17 partial Neg: 9.66645e-20
- ibl1 = 21 ibl2 = 26 (Nstb1:33 Nstb2:4) partial Pos: 8.30714e-17 partial Neg: -3.0836e-23
- ibl1 = 22 ibl2 = 23 (Nstb1:34 Nstb2:15) partial Pos: 8.15239e-12 partial Neg: 9.74659e-16
- ibl1 = 23 ibl2 = 27 (Nstb1:15 Nstb2:2) partial Pos: 1.10156e-19 partial Neg: -1.71078e-25
- ibl1 = 23 ibl2 = 28 (Nstb1:15 Nstb2:3) partial Pos: 6.713e-20 partial Neg: 2.7673e-24
- ibl1 = 24 ibl2 = 25 (Nstb1:2 Nstb2:4) partial Pos: 4.85165e-35 partial Neg: 1.19366e-33
- ibl1 = 25 ibl2 = 26 (Nstb1:4 Nstb2:4) partial Pos: 1.46428e-33 partial Neg: 9.69e-34
- ibl1 = 26 ibl2 = 27 (Nstb1:4 Nstb2:2) partial Pos: 8.33713e-34 partial Neg: -9.03787e-37
- Nshell = 35 Pos contribution: 1.21161e-05 Neg contribution: 1.21161e-05
+ ibl1 = 0 ibl2 = 1 (Nstb1:6 Nstb2:46) partial Pos: 1.32463e-13 partial Neg: 4.1012e-10
+ ibl1 = 1 ibl2 = 4 (Nstb1:46 Nstb2:123) partial Pos: 8.97086e-09 partial Neg: 2.53819e-07
+ ibl1 = 2 ibl2 = 3 (Nstb1:6 Nstb2:46) partial Pos: 1.75198e-13 partial Neg: 4.73784e-10
+ ibl1 = 3 ibl2 = 5 (Nstb1:46 Nstb2:123) partial Pos: 1.03216e-08 partial Neg: 2.86845e-07
+ ibl1 = 4 ibl2 = 6 (Nstb1:123 Nstb2:167) partial Pos: 3.02924e-07 partial Neg: 2.84494e-07
+ ibl1 = 5 ibl2 = 7 (Nstb1:123 Nstb2:167) partial Pos: 4.11109e-07 partial Neg: 2.44883e-07
+ ibl1 = 6 ibl2 = 8 (Nstb1:167 Nstb2:123) partial Pos: 2.47483e-07 partial Neg: 1.95625e-09
+ ibl1 = 7 ibl2 = 9 (Nstb1:167 Nstb2:123) partial Pos: 2.64999e-07 partial Neg: 6.34137e-09
+ ibl1 = 8 ibl2 = 10 (Nstb1:123 Nstb2:46) partial Pos: 1.89161e-09 partial Neg: 1.44907e-11
+ ibl1 = 9 ibl2 = 11 (Nstb1:123 Nstb2:46) partial Pos: 1.3283e-09 partial Neg: 4.18438e-11
+ ibl1 = 10 ibl2 = 12 (Nstb1:46 Nstb2:6) partial Pos: 1.09232e-12 partial Neg: 4.10322e-16
+ ibl1 = 11 ibl2 = 13 (Nstb1:46 Nstb2:6) partial Pos: 1.04511e-12 partial Neg: 4.9946e-16
+ Nshell = 35 Pos contribution: 1.24903e-06 Neg contribution: 1.07928e-06
  Checking phs for Nshell = : 33
- ibl1 = 0 ibl2 = 2 (Nstb1:2 Nstb2:15) partial Pos: -4.99605e-25 partial Neg: 2.74808e-19
- ibl1 = 0 ibl2 = 3 (Nstb1:2 Nstb2:4) partial Pos: -4.12142e-36 partial Neg: 2.15279e-33
- ibl1 = 1 ibl2 = 2 (Nstb1:3 Nstb2:15) partial Pos: 4.70985e-24 partial Neg: 1.68027e-19
- ibl1 = 2 ibl2 = 4 (Nstb1:15 Nstb2:33) partial Pos: 2.29502e-19 partial Neg: 1.99064e-16
- ibl1 = 2 ibl2 = 5 (Nstb1:15 Nstb2:34) partial Pos: 2.4863e-15 partial Neg: 2.02784e-11
- ibl1 = 3 ibl2 = 4 (Nstb1:4 Nstb2:33) partial Pos: -8.6204e-23 partial Neg: 2.08376e-16
- ibl1 = 3 ibl2 = 7 (Nstb1:4 Nstb2:4) partial Pos: 2.4935e-33 partial Neg: 3.75922e-33
- ibl1 = 4 ibl2 = 6 (Nstb1:33 Nstb2:89) partial Pos: 2.02009e-12 partial Neg: 1.71746e-08
- ibl1 = 4 ibl2 = 8 (Nstb1:33 Nstb2:35) partial Pos: 3.2241e-16 partial Neg: 3.34798e-16
- ibl1 = 5 ibl2 = 6 (Nstb1:34 Nstb2:89) partial Pos: 1.26959e-11 partial Neg: 7.25573e-09
- ibl1 = 6 ibl2 = 9 (Nstb1:89 Nstb2:107) partial Pos: 1.88227e-08 partial Neg: 1.66921e-08
- ibl1 = 6 ibl2 = 10 (Nstb1:89 Nstb2:97) partial Pos: 9.35358e-08 partial Neg: 7.19301e-06
- ibl1 = 7 ibl2 = 8 (Nstb1:4 Nstb2:35) partial Pos: -4.2586e-23 partial Neg: 2.62162e-16
- ibl1 = 7 ibl2 = 12 (Nstb1:4 Nstb2:2) partial Pos: 3.03792e-33 partial Neg: 1.38931e-34
- ibl1 = 8 ibl2 = 9 (Nstb1:35 Nstb2:107) partial Pos: 8.03396e-13 partial Neg: 2.29567e-08
- ibl1 = 8 ibl2 = 13 (Nstb1:35 Nstb2:19) partial Pos: 4.13528e-16 partial Neg: 5.89671e-18
- ibl1 = 9 ibl2 = 11 (Nstb1:107 Nstb2:152) partial Pos: 8.37179e-09 partial Neg: 1.09461e-05
- ibl1 = 9 ibl2 = 14 (Nstb1:107 Nstb2:66) partial Pos: 2.56422e-08 partial Neg: 3.55702e-10
- ibl1 = 10 ibl2 = 11 (Nstb1:97 Nstb2:152) partial Pos: 7.05894e-06 partial Neg: 4.74002e-06
- ibl1 = 11 ibl2 = 15 (Nstb1:152 Nstb2:107) partial Pos: 1.09461e-05 partial Neg: 8.37179e-09
- ibl1 = 11 ibl2 = 16 (Nstb1:152 Nstb2:97) partial Pos: 4.74002e-06 partial Neg: 7.05894e-06
- ibl1 = 12 ibl2 = 13 (Nstb1:2 Nstb2:19) partial Pos: 1.58233e-26 partial Neg: 5.66777e-19
- ibl1 = 13 ibl2 = 14 (Nstb1:19 Nstb2:66) partial Pos: 1.57791e-15 partial Neg: 5.1279e-11
- ibl1 = 13 ibl2 = 18 (Nstb1:19 Nstb2:5) partial Pos: 8.00064e-19 partial Neg: 1.38439e-22
- ibl1 = 14 ibl2 = 15 (Nstb1:66 Nstb2:107) partial Pos: 3.55702e-10 partial Neg: 2.56422e-08
- ibl1 = 14 ibl2 = 19 (Nstb1:66 Nstb2:19) partial Pos: 5.1279e-11 partial Neg: 1.57791e-15
- ibl1 = 15 ibl2 = 17 (Nstb1:107 Nstb2:89) partial Pos: 1.66921e-08 partial Neg: 1.88227e-08
- ibl1 = 15 ibl2 = 20 (Nstb1:107 Nstb2:35) partial Pos: 2.29567e-08 partial Neg: 8.03396e-13
- ibl1 = 16 ibl2 = 17 (Nstb1:97 Nstb2:89) partial Pos: 7.19301e-06 partial Neg: 9.35358e-08
- ibl1 = 17 ibl2 = 21 (Nstb1:89 Nstb2:33) partial Pos: 1.71746e-08 partial Neg: 2.02009e-12
- ibl1 = 17 ibl2 = 22 (Nstb1:89 Nstb2:34) partial Pos: 7.25573e-09 partial Neg: 1.26959e-11
- ibl1 = 18 ibl2 = 19 (Nstb1:5 Nstb2:19) partial Pos: 1.38439e-22 partial Neg: 8.00064e-19
- ibl1 = 19 ibl2 = 20 (Nstb1:19 Nstb2:35) partial Pos: 5.89671e-18 partial Neg: 4.13528e-16
- ibl1 = 19 ibl2 = 24 (Nstb1:19 Nstb2:2) partial Pos: 5.66777e-19 partial Neg: 1.58234e-26
- ibl1 = 20 ibl2 = 21 (Nstb1:35 Nstb2:33) partial Pos: 3.34798e-16 partial Neg: 3.2241e-16
- ibl1 = 20 ibl2 = 25 (Nstb1:35 Nstb2:4) partial Pos: 2.62162e-16 partial Neg: -4.2586e-23
- ibl1 = 21 ibl2 = 23 (Nstb1:33 Nstb2:15) partial Pos: 1.99064e-16 partial Neg: 2.29502e-19
- ibl1 = 21 ibl2 = 26 (Nstb1:33 Nstb2:4) partial Pos: 2.08376e-16 partial Neg: -8.6204e-23
- ibl1 = 22 ibl2 = 23 (Nstb1:34 Nstb2:15) partial Pos: 2.02784e-11 partial Neg: 2.4863e-15
- ibl1 = 23 ibl2 = 27 (Nstb1:15 Nstb2:2) partial Pos: 2.74808e-19 partial Neg: -4.99605e-25
- ibl1 = 23 ibl2 = 28 (Nstb1:15 Nstb2:3) partial Pos: 1.68027e-19 partial Neg: 4.70985e-24
- ibl1 = 24 ibl2 = 25 (Nstb1:2 Nstb2:4) partial Pos: 1.38931e-34 partial Neg: 3.03792e-33
- ibl1 = 25 ibl2 = 26 (Nstb1:4 Nstb2:4) partial Pos: 3.75922e-33 partial Neg: 2.4935e-33
- ibl1 = 26 ibl2 = 27 (Nstb1:4 Nstb2:2) partial Pos: 2.15279e-33 partial Neg: -4.12142e-36
- Nshell = 33 Pos contribution: 3.0149e-05 Neg contribution: 3.0149e-05
+ ibl1 = 0 ibl2 = 1 (Nstb1:6 Nstb2:46) partial Pos: 4.59698e-13 partial Neg: 1.21987e-09
+ ibl1 = 1 ibl2 = 4 (Nstb1:46 Nstb2:123) partial Pos: 2.60099e-08 partial Neg: 7.13764e-07
+ ibl1 = 2 ibl2 = 3 (Nstb1:6 Nstb2:46) partial Pos: 3.28825e-13 partial Neg: 1.03506e-09
+ ibl1 = 3 ibl2 = 5 (Nstb1:46 Nstb2:123) partial Pos: 2.21815e-08 partial Neg: 6.23465e-07
+ ibl1 = 4 ibl2 = 6 (Nstb1:123 Nstb2:167) partial Pos: 1.02383e-06 partial Neg: 6.01769e-07
+ ibl1 = 5 ibl2 = 7 (Nstb1:123 Nstb2:167) partial Pos: 7.42536e-07 partial Neg: 6.9806e-07
+ ibl1 = 6 ibl2 = 8 (Nstb1:167 Nstb2:123) partial Pos: 6.5211e-07 partial Neg: 1.73323e-08
+ ibl1 = 7 ibl2 = 9 (Nstb1:167 Nstb2:123) partial Pos: 6.06929e-07 partial Neg: 5.91447e-09
+ ibl1 = 8 ibl2 = 10 (Nstb1:123 Nstb2:46) partial Pos: 4.38508e-09 partial Neg: 1.48608e-10
+ ibl1 = 9 ibl2 = 11 (Nstb1:123 Nstb2:46) partial Pos: 5.97103e-09 partial Neg: 7.48517e-11
+ ibl1 = 10 ibl2 = 12 (Nstb1:46 Nstb2:6) partial Pos: 4.14806e-12 partial Neg: 1.94681e-15
+ ibl1 = 11 ibl2 = 13 (Nstb1:46 Nstb2:6) partial Pos: 4.11473e-12 partial Neg: 1.53064e-15
+ Nshell = 33 Pos contribution: 3.08397e-06 Neg contribution: 2.66278e-06
  Checking phs for Nshell = : 31
- ibl1 = 0 ibl2 = 2 (Nstb1:2 Nstb2:15) partial Pos: -1.73203e-24 partial Neg: 6.83052e-19
- ibl1 = 0 ibl2 = 3 (Nstb1:2 Nstb2:4) partial Pos: -2.26351e-35 partial Neg: 5.81923e-33
- ibl1 = 1 ibl2 = 2 (Nstb1:3 Nstb2:15) partial Pos: 1.09167e-24 partial Neg: 4.21255e-19
- ibl1 = 2 ibl2 = 4 (Nstb1:15 Nstb2:33) partial Pos: 4.96916e-19 partial Neg: 5.06552e-16
- ibl1 = 2 ibl2 = 5 (Nstb1:15 Nstb2:34) partial Pos: 6.52833e-15 partial Neg: 5.0041e-11
- ibl1 = 3 ibl2 = 4 (Nstb1:4 Nstb2:33) partial Pos: -3.21859e-22 partial Neg: 5.24887e-16
- ibl1 = 3 ibl2 = 7 (Nstb1:4 Nstb2:4) partial Pos: 6.67508e-33 partial Neg: 1.00085e-32
- ibl1 = 4 ibl2 = 6 (Nstb1:33 Nstb2:89) partial Pos: 5.05962e-12 partial Neg: 4.247e-08
- ibl1 = 4 ibl2 = 8 (Nstb1:33 Nstb2:35) partial Pos: 8.09209e-16 partial Neg: 8.60547e-16
- ibl1 = 5 ibl2 = 6 (Nstb1:34 Nstb2:89) partial Pos: 3.08923e-11 partial Neg: 1.80235e-08
- ibl1 = 6 ibl2 = 9 (Nstb1:89 Nstb2:107) partial Pos: 4.64525e-08 partial Neg: 4.16581e-08
- ibl1 = 6 ibl2 = 10 (Nstb1:89 Nstb2:97) partial Pos: 2.33068e-07 partial Neg: 1.77547e-05
- ibl1 = 7 ibl2 = 8 (Nstb1:4 Nstb2:35) partial Pos: -1.48424e-22 partial Neg: 6.66648e-16
- ibl1 = 7 ibl2 = 12 (Nstb1:4 Nstb2:2) partial Pos: 7.90304e-33 partial Neg: 4.69915e-34
- ibl1 = 8 ibl2 = 9 (Nstb1:35 Nstb2:107) partial Pos: 2.09216e-12 partial Neg: 5.69649e-08
- ibl1 = 8 ibl2 = 13 (Nstb1:35 Nstb2:19) partial Pos: 1.04958e-15 partial Neg: 1.55569e-17
- ibl1 = 9 ibl2 = 11 (Nstb1:107 Nstb2:152) partial Pos: 2.05586e-08 partial Neg: 2.70261e-05
- ibl1 = 9 ibl2 = 14 (Nstb1:107 Nstb2:66) partial Pos: 6.35849e-08 partial Neg: 8.99961e-10
- ibl1 = 10 ibl2 = 11 (Nstb1:97 Nstb2:152) partial Pos: 1.74031e-05 partial Neg: 1.17452e-05
- ibl1 = 11 ibl2 = 15 (Nstb1:152 Nstb2:107) partial Pos: 2.70261e-05 partial Neg: 2.05586e-08
- ibl1 = 11 ibl2 = 16 (Nstb1:152 Nstb2:97) partial Pos: 1.17452e-05 partial Neg: 1.74031e-05
- ibl1 = 12 ibl2 = 13 (Nstb1:2 Nstb2:19) partial Pos: 1.90408e-25 partial Neg: 1.47338e-18
- ibl1 = 13 ibl2 = 14 (Nstb1:19 Nstb2:66) partial Pos: 3.50997e-15 partial Neg: 1.2861e-10
- ibl1 = 13 ibl2 = 18 (Nstb1:19 Nstb2:5) partial Pos: 2.07735e-18 partial Neg: 5.3753e-22
- ibl1 = 14 ibl2 = 15 (Nstb1:66 Nstb2:107) partial Pos: 8.99961e-10 partial Neg: 6.35849e-08
- ibl1 = 14 ibl2 = 19 (Nstb1:66 Nstb2:19) partial Pos: 1.2861e-10 partial Neg: 3.50997e-15
- ibl1 = 15 ibl2 = 17 (Nstb1:107 Nstb2:89) partial Pos: 4.16581e-08 partial Neg: 4.64525e-08
- ibl1 = 15 ibl2 = 20 (Nstb1:107 Nstb2:35) partial Pos: 5.69649e-08 partial Neg: 2.09216e-12
- ibl1 = 16 ibl2 = 17 (Nstb1:97 Nstb2:89) partial Pos: 1.77547e-05 partial Neg: 2.33068e-07
- ibl1 = 17 ibl2 = 21 (Nstb1:89 Nstb2:33) partial Pos: 4.247e-08 partial Neg: 5.05962e-12
- ibl1 = 17 ibl2 = 22 (Nstb1:89 Nstb2:34) partial Pos: 1.80235e-08 partial Neg: 3.08923e-11
- ibl1 = 18 ibl2 = 19 (Nstb1:5 Nstb2:19) partial Pos: 5.3753e-22 partial Neg: 2.07735e-18
- ibl1 = 19 ibl2 = 20 (Nstb1:19 Nstb2:35) partial Pos: 1.55569e-17 partial Neg: 1.04958e-15
- ibl1 = 19 ibl2 = 24 (Nstb1:19 Nstb2:2) partial Pos: 1.47338e-18 partial Neg: 1.90408e-25
- ibl1 = 20 ibl2 = 21 (Nstb1:35 Nstb2:33) partial Pos: 8.60547e-16 partial Neg: 8.09209e-16
- ibl1 = 20 ibl2 = 25 (Nstb1:35 Nstb2:4) partial Pos: 6.66648e-16 partial Neg: -1.48424e-22
- ibl1 = 21 ibl2 = 23 (Nstb1:33 Nstb2:15) partial Pos: 5.06552e-16 partial Neg: 4.96916e-19
- ibl1 = 21 ibl2 = 26 (Nstb1:33 Nstb2:4) partial Pos: 5.24887e-16 partial Neg: -3.21859e-22
- ibl1 = 22 ibl2 = 23 (Nstb1:34 Nstb2:15) partial Pos: 5.0041e-11 partial Neg: 6.52833e-15
- ibl1 = 23 ibl2 = 27 (Nstb1:15 Nstb2:2) partial Pos: 6.83052e-19 partial Neg: -1.73203e-24
- ibl1 = 23 ibl2 = 28 (Nstb1:15 Nstb2:3) partial Pos: 4.21255e-19 partial Neg: 1.09167e-24
- ibl1 = 24 ibl2 = 25 (Nstb1:2 Nstb2:4) partial Pos: 4.69915e-34 partial Neg: 7.90304e-33
- ibl1 = 25 ibl2 = 26 (Nstb1:4 Nstb2:4) partial Pos: 1.00085e-32 partial Neg: 6.67508e-33
- ibl1 = 26 ibl2 = 27 (Nstb1:4 Nstb2:2) partial Pos: 5.81923e-33 partial Neg: -2.26351e-35
- Nshell = 31 Pos contribution: 7.44529e-05 Neg contribution: 7.44529e-05
+ ibl1 = 0 ibl2 = 1 (Nstb1:6 Nstb2:46) partial Pos: 8.09457e-13 partial Neg: 2.60854e-09
+ ibl1 = 1 ibl2 = 4 (Nstb1:46 Nstb2:123) partial Pos: 5.45936e-08 partial Neg: 1.51846e-06
+ ibl1 = 2 ibl2 = 3 (Nstb1:6 Nstb2:46) partial Pos: 1.23294e-12 partial Neg: 3.15638e-09
+ ibl1 = 3 ibl2 = 5 (Nstb1:46 Nstb2:123) partial Pos: 6.56795e-08 partial Neg: 1.76578e-06
+ ibl1 = 4 ibl2 = 6 (Nstb1:123 Nstb2:167) partial Pos: 1.80268e-06 partial Neg: 1.70139e-06
+ ibl1 = 5 ibl2 = 7 (Nstb1:123 Nstb2:167) partial Pos: 2.53902e-06 partial Neg: 1.46503e-06
+ ibl1 = 6 ibl2 = 8 (Nstb1:167 Nstb2:123) partial Pos: 1.47665e-06 partial Neg: 1.78796e-08
+ ibl1 = 7 ibl2 = 9 (Nstb1:167 Nstb2:123) partial Pos: 1.59181e-06 partial Neg: 4.77224e-08
+ ibl1 = 8 ibl2 = 10 (Nstb1:123 Nstb2:46) partial Pos: 1.84731e-08 partial Neg: 3.02741e-10
+ ibl1 = 9 ibl2 = 11 (Nstb1:123 Nstb2:46) partial Pos: 1.40787e-08 partial Neg: 5.07974e-10
+ ibl1 = 10 ibl2 = 12 (Nstb1:46 Nstb2:6) partial Pos: 1.45365e-11 partial Neg: 5.44407e-15
+ ibl1 = 11 ibl2 = 13 (Nstb1:46 Nstb2:6) partial Pos: 1.53698e-11 partial Neg: 7.22099e-15
+ Nshell = 31 Pos contribution: 7.56302e-06 Neg contribution: 6.52284e-06
  Checking phs for Nshell = : 29
- ibl1 = 0 ibl2 = 2 (Nstb1:1 Nstb2:13) partial Pos: -7.64499e-24 partial Neg: 1.67807e-18
- ibl1 = 0 ibl2 = 3 (Nstb1:1 Nstb2:3) partial Pos: -1.41558e-34 partial Neg: 5.64769e-33
- ibl1 = 1 ibl2 = 2 (Nstb1:2 Nstb2:13) partial Pos: -3.77157e-23 partial Neg: 1.05574e-18
- ibl1 = 2 ibl2 = 4 (Nstb1:13 Nstb2:29) partial Pos: 7.59086e-19 partial Neg: 1.32109e-15
- ibl1 = 2 ibl2 = 5 (Nstb1:13 Nstb2:30) partial Pos: 1.83026e-14 partial Neg: 1.2089e-10
- ibl1 = 3 ibl2 = 4 (Nstb1:3 Nstb2:29) partial Pos: -4.96039e-21 partial Neg: 1.33137e-15
- ibl1 = 3 ibl2 = 7 (Nstb1:3 Nstb2:4) partial Pos: 1.94775e-32 partial Neg: 1.60657e-32
- ibl1 = 4 ibl2 = 6 (Nstb1:29 Nstb2:83) partial Pos: 1.26415e-11 partial Neg: 1.03011e-07
- ibl1 = 4 ibl2 = 8 (Nstb1:29 Nstb2:33) partial Pos: 2.02429e-15 partial Neg: 2.29922e-15
- ibl1 = 5 ibl2 = 6 (Nstb1:30 Nstb2:83) partial Pos: 7.21337e-11 partial Neg: 4.4272e-08
- ibl1 = 6 ibl2 = 9 (Nstb1:83 Nstb2:102) partial Pos: 1.11931e-07 partial Neg: 1.03512e-07
- ibl1 = 6 ibl2 = 10 (Nstb1:83 Nstb2:90) partial Pos: 5.77793e-07 partial Neg: 4.28848e-05
- ibl1 = 7 ibl2 = 8 (Nstb1:4 Nstb2:33) partial Pos: -4.18333e-21 partial Neg: 1.72988e-15
- ibl1 = 7 ibl2 = 12 (Nstb1:4 Nstb2:2) partial Pos: 2.13221e-32 partial Neg: 2.13297e-33
- ibl1 = 8 ibl2 = 9 (Nstb1:33 Nstb2:102) partial Pos: 5.73036e-12 partial Neg: 1.39274e-07
- ibl1 = 8 ibl2 = 13 (Nstb1:33 Nstb2:19) partial Pos: 2.70001e-15 partial Neg: 4.42003e-17
- ibl1 = 9 ibl2 = 11 (Nstb1:102 Nstb2:144) partial Pos: 4.88256e-08 partial Neg: 6.53233e-05
- ibl1 = 9 ibl2 = 14 (Nstb1:102 Nstb2:64) partial Pos: 1.5507e-07 partial Neg: 2.31569e-09
- ibl1 = 10 ibl2 = 11 (Nstb1:90 Nstb2:144) partial Pos: 4.18816e-05 partial Neg: 2.86649e-05
- ibl1 = 11 ibl2 = 15 (Nstb1:144 Nstb2:102) partial Pos: 6.53233e-05 partial Neg: 4.88256e-08
- ibl1 = 11 ibl2 = 16 (Nstb1:144 Nstb2:90) partial Pos: 2.86649e-05 partial Neg: 4.18816e-05
- ibl1 = 12 ibl2 = 13 (Nstb1:2 Nstb2:19) partial Pos: 1.40887e-24 partial Neg: 4.02852e-18
- ibl1 = 13 ibl2 = 14 (Nstb1:19 Nstb2:64) partial Pos: 5.62923e-15 partial Neg: 3.22457e-10
- ibl1 = 13 ibl2 = 18 (Nstb1:19 Nstb2:5) partial Pos: 5.64728e-18 partial Neg: 2.83562e-21
- ibl1 = 14 ibl2 = 15 (Nstb1:64 Nstb2:102) partial Pos: 2.31569e-09 partial Neg: 1.5507e-07
- ibl1 = 14 ibl2 = 19 (Nstb1:64 Nstb2:19) partial Pos: 3.22457e-10 partial Neg: 5.62923e-15
- ibl1 = 15 ibl2 = 17 (Nstb1:102 Nstb2:83) partial Pos: 1.03512e-07 partial Neg: 1.11931e-07
- ibl1 = 15 ibl2 = 20 (Nstb1:102 Nstb2:33) partial Pos: 1.39274e-07 partial Neg: 5.73036e-12
- ibl1 = 16 ibl2 = 17 (Nstb1:90 Nstb2:83) partial Pos: 4.28848e-05 partial Neg: 5.77793e-07
- ibl1 = 17 ibl2 = 21 (Nstb1:83 Nstb2:29) partial Pos: 1.03011e-07 partial Neg: 1.26415e-11
- ibl1 = 17 ibl2 = 22 (Nstb1:83 Nstb2:30) partial Pos: 4.4272e-08 partial Neg: 7.21337e-11
- ibl1 = 18 ibl2 = 19 (Nstb1:5 Nstb2:19) partial Pos: 2.83562e-21 partial Neg: 5.64728e-18
- ibl1 = 19 ibl2 = 20 (Nstb1:19 Nstb2:33) partial Pos: 4.42003e-17 partial Neg: 2.70001e-15
- ibl1 = 19 ibl2 = 24 (Nstb1:19 Nstb2:2) partial Pos: 4.02852e-18 partial Neg: 1.40887e-24
- ibl1 = 20 ibl2 = 21 (Nstb1:33 Nstb2:29) partial Pos: 2.29922e-15 partial Neg: 2.02429e-15
- ibl1 = 20 ibl2 = 25 (Nstb1:33 Nstb2:4) partial Pos: 1.72988e-15 partial Neg: -4.18333e-21
- ibl1 = 21 ibl2 = 23 (Nstb1:29 Nstb2:13) partial Pos: 1.32109e-15 partial Neg: 7.59086e-19
- ibl1 = 21 ibl2 = 26 (Nstb1:29 Nstb2:3) partial Pos: 1.33137e-15 partial Neg: -4.96039e-21
- ibl1 = 22 ibl2 = 23 (Nstb1:30 Nstb2:13) partial Pos: 1.2089e-10 partial Neg: 1.83026e-14
- ibl1 = 23 ibl2 = 27 (Nstb1:13 Nstb2:1) partial Pos: 1.67807e-18 partial Neg: -7.64499e-24
- ibl1 = 23 ibl2 = 28 (Nstb1:13 Nstb2:2) partial Pos: 1.05574e-18 partial Neg: -3.77157e-23
- ibl1 = 24 ibl2 = 25 (Nstb1:2 Nstb2:4) partial Pos: 2.13297e-33 partial Neg: 2.13221e-32
- ibl1 = 25 ibl2 = 26 (Nstb1:4 Nstb2:3) partial Pos: 1.60657e-32 partial Neg: 1.94775e-32
- ibl1 = 26 ibl2 = 27 (Nstb1:3 Nstb2:1) partial Pos: 5.64769e-33 partial Neg: -1.41558e-34
- Nshell = 29 Pos contribution: 0.000180041 Neg contribution: 0.000180041
+ ibl1 = 0 ibl2 = 1 (Nstb1:6 Nstb2:45) partial Pos: 3.3454e-12 partial Neg: 8.20575e-09
+ ibl1 = 1 ibl2 = 4 (Nstb1:45 Nstb2:121) partial Pos: 1.66272e-07 partial Neg: 4.32013e-06
+ ibl1 = 2 ibl2 = 3 (Nstb1:6 Nstb2:45) partial Pos: 2.03622e-12 partial Neg: 6.54332e-09
+ ibl1 = 3 ibl2 = 5 (Nstb1:45 Nstb2:121) partial Pos: 1.3328e-07 partial Neg: 3.64648e-06
+ ibl1 = 4 ibl2 = 6 (Nstb1:121 Nstb2:165) partial Pos: 6.25115e-06 partial Neg: 3.50963e-06
+ ibl1 = 5 ibl2 = 7 (Nstb1:121 Nstb2:165) partial Pos: 4.31337e-06 partial Neg: 4.09952e-06
+ ibl1 = 6 ibl2 = 8 (Nstb1:165 Nstb2:121) partial Pos: 3.83636e-06 partial Neg: 1.31747e-07
+ ibl1 = 7 ibl2 = 9 (Nstb1:165 Nstb2:121) partial Pos: 3.54947e-06 partial Neg: 5.3552e-08
+ ibl1 = 8 ibl2 = 10 (Nstb1:121 Nstb2:45) partial Pos: 4.39815e-08 partial Neg: 1.69121e-09
+ ibl1 = 9 ibl2 = 11 (Nstb1:121 Nstb2:45) partial Pos: 5.6055e-08 partial Neg: 1.09764e-09
+ ibl1 = 10 ibl2 = 12 (Nstb1:45 Nstb2:6) partial Pos: 5.44638e-11 partial Neg: 2.63609e-14
+ ibl1 = 11 ibl2 = 13 (Nstb1:45 Nstb2:6) partial Pos: 4.90275e-11 partial Neg: 1.85755e-14
+ Nshell = 29 Pos contribution: 1.83501e-05 Neg contribution: 1.57786e-05
  Checking phs for Nshell = : 27
- ibl1 = 0 ibl2 = 2 (Nstb1:1 Nstb2:13) partial Pos: -3.45512e-23 partial Neg: 3.99017e-18
- ibl1 = 0 ibl2 = 3 (Nstb1:1 Nstb2:3) partial Pos: -7.70159e-34 partial Neg: 1.35284e-32
- ibl1 = 1 ibl2 = 2 (Nstb1:2 Nstb2:13) partial Pos: 6.46303e-23 partial Neg: 2.65732e-18
- ibl1 = 2 ibl2 = 4 (Nstb1:13 Nstb2:29) partial Pos: -6.98663e-19 partial Neg: 3.636e-15
- ibl1 = 2 ibl2 = 5 (Nstb1:13 Nstb2:29) partial Pos: 5.76295e-14 partial Neg: 2.76421e-10
- ibl1 = 3 ibl2 = 4 (Nstb1:3 Nstb2:29) partial Pos: -3.86045e-20 partial Neg: 3.39657e-15
- ibl1 = 3 ibl2 = 7 (Nstb1:3 Nstb2:4) partial Pos: 4.77254e-32 partial Neg: 4.36341e-32
- ibl1 = 4 ibl2 = 6 (Nstb1:29 Nstb2:81) partial Pos: 3.15143e-11 partial Neg: 2.37052e-07
- ibl1 = 4 ibl2 = 8 (Nstb1:29 Nstb2:32) partial Pos: 4.92885e-15 partial Neg: 6.69003e-15
- ibl1 = 5 ibl2 = 6 (Nstb1:29 Nstb2:81) partial Pos: 1.58661e-10 partial Neg: 1.05596e-07
- ibl1 = 6 ibl2 = 9 (Nstb1:81 Nstb2:101) partial Pos: 2.51923e-07 partial Neg: 2.53837e-07
- ibl1 = 6 ibl2 = 10 (Nstb1:81 Nstb2:88) partial Pos: 1.41482e-06 partial Neg: 9.78396e-05
- ibl1 = 7 ibl2 = 8 (Nstb1:4 Nstb2:32) partial Pos: -2.50455e-20 partial Neg: 4.64774e-15
- ibl1 = 7 ibl2 = 12 (Nstb1:4 Nstb2:2) partial Pos: 5.3099e-32 partial Neg: 1.49019e-32
- ibl1 = 8 ibl2 = 9 (Nstb1:32 Nstb2:101) partial Pos: 1.71472e-11 partial Neg: 3.26119e-07
- ibl1 = 8 ibl2 = 13 (Nstb1:32 Nstb2:19) partial Pos: 7.036e-15 partial Neg: 1.46326e-16
- ibl1 = 9 ibl2 = 11 (Nstb1:101 Nstb2:142) partial Pos: 1.04945e-07 partial Neg: 0.000148995
- ibl1 = 9 ibl2 = 14 (Nstb1:101 Nstb2:63) partial Pos: 3.59804e-07 partial Neg: 6.18741e-09
- ibl1 = 10 ibl2 = 11 (Nstb1:88 Nstb2:142) partial Pos: 9.46553e-05 partial Neg: 6.7287e-05
- ibl1 = 11 ibl2 = 15 (Nstb1:142 Nstb2:101) partial Pos: 0.000148995 partial Neg: 1.04945e-07
- ibl1 = 11 ibl2 = 16 (Nstb1:142 Nstb2:88) partial Pos: 6.7287e-05 partial Neg: 9.46553e-05
- ibl1 = 12 ibl2 = 13 (Nstb1:2 Nstb2:19) partial Pos: 1.29118e-23 partial Neg: 1.21419e-17
- ibl1 = 13 ibl2 = 14 (Nstb1:19 Nstb2:63) partial Pos: -1.16867e-14 partial Neg: 7.99047e-10
- ibl1 = 13 ibl2 = 18 (Nstb1:19 Nstb2:5) partial Pos: 1.66907e-17 partial Neg: 1.9394e-20
- ibl1 = 14 ibl2 = 15 (Nstb1:63 Nstb2:101) partial Pos: 6.18741e-09 partial Neg: 3.59804e-07
- ibl1 = 14 ibl2 = 19 (Nstb1:63 Nstb2:19) partial Pos: 7.99047e-10 partial Neg: -1.16867e-14
- ibl1 = 15 ibl2 = 17 (Nstb1:101 Nstb2:81) partial Pos: 2.53837e-07 partial Neg: 2.51923e-07
- ibl1 = 15 ibl2 = 20 (Nstb1:101 Nstb2:32) partial Pos: 3.26119e-07 partial Neg: 1.71472e-11
- ibl1 = 16 ibl2 = 17 (Nstb1:88 Nstb2:81) partial Pos: 9.78396e-05 partial Neg: 1.41482e-06
- ibl1 = 17 ibl2 = 21 (Nstb1:81 Nstb2:29) partial Pos: 2.37052e-07 partial Neg: 3.15143e-11
- ibl1 = 17 ibl2 = 22 (Nstb1:81 Nstb2:29) partial Pos: 1.05596e-07 partial Neg: 1.58661e-10
- ibl1 = 18 ibl2 = 19 (Nstb1:5 Nstb2:19) partial Pos: 1.9394e-20 partial Neg: 1.66907e-17
- ibl1 = 19 ibl2 = 20 (Nstb1:19 Nstb2:32) partial Pos: 1.46326e-16 partial Neg: 7.036e-15
- ibl1 = 19 ibl2 = 24 (Nstb1:19 Nstb2:2) partial Pos: 1.21419e-17 partial Neg: 1.29118e-23
- ibl1 = 20 ibl2 = 21 (Nstb1:32 Nstb2:29) partial Pos: 6.69003e-15 partial Neg: 4.92885e-15
- ibl1 = 20 ibl2 = 25 (Nstb1:32 Nstb2:4) partial Pos: 4.64774e-15 partial Neg: -2.50455e-20
- ibl1 = 21 ibl2 = 23 (Nstb1:29 Nstb2:13) partial Pos: 3.636e-15 partial Neg: -6.98663e-19
- ibl1 = 21 ibl2 = 26 (Nstb1:29 Nstb2:3) partial Pos: 3.39657e-15 partial Neg: -3.86045e-20
- ibl1 = 22 ibl2 = 23 (Nstb1:29 Nstb2:13) partial Pos: 2.76421e-10 partial Neg: 5.76295e-14
- ibl1 = 23 ibl2 = 27 (Nstb1:13 Nstb2:1) partial Pos: 3.99017e-18 partial Neg: -3.45512e-23
- ibl1 = 23 ibl2 = 28 (Nstb1:13 Nstb2:2) partial Pos: 2.65732e-18 partial Neg: 6.46303e-23
- ibl1 = 24 ibl2 = 25 (Nstb1:2 Nstb2:4) partial Pos: 1.49019e-32 partial Neg: 5.3099e-32
- ibl1 = 25 ibl2 = 26 (Nstb1:4 Nstb2:3) partial Pos: 4.36341e-32 partial Neg: 4.77254e-32
- ibl1 = 26 ibl2 = 27 (Nstb1:3 Nstb2:1) partial Pos: 1.35284e-32 partial Neg: -7.70159e-34
- Nshell = 27 Pos contribution: 0.000411839 Neg contribution: 0.000411839
+ ibl1 = 0 ibl2 = 1 (Nstb1:6 Nstb2:46) partial Pos: 4.86442e-12 partial Neg: 1.62356e-08
+ ibl1 = 1 ibl2 = 4 (Nstb1:46 Nstb2:122) partial Pos: 3.21213e-07 partial Neg: 8.5593e-06
+ ibl1 = 2 ibl2 = 3 (Nstb1:6 Nstb2:46) partial Pos: 9.23188e-12 partial Neg: 2.13831e-08
+ ibl1 = 3 ibl2 = 5 (Nstb1:46 Nstb2:122) partial Pos: 4.22411e-07 partial Neg: 1.03569e-05
+ ibl1 = 4 ibl2 = 6 (Nstb1:122 Nstb2:166) partial Pos: 1.01275e-05 partial Neg: 9.66266e-06
+ ibl1 = 5 ibl2 = 7 (Nstb1:122 Nstb2:166) partial Pos: 1.52075e-05 partial Neg: 8.18395e-06
+ ibl1 = 6 ibl2 = 8 (Nstb1:166 Nstb2:122) partial Pos: 8.26917e-06 partial Neg: 2.64786e-07
+ ibl1 = 7 ibl2 = 9 (Nstb1:166 Nstb2:122) partial Pos: 9.06518e-06 partial Neg: 3.62959e-07
+ ibl1 = 8 ibl2 = 10 (Nstb1:122 Nstb2:46) partial Pos: 1.66317e-07 partial Neg: 3.72652e-09
+ ibl1 = 9 ibl2 = 11 (Nstb1:122 Nstb2:46) partial Pos: 1.33207e-07 partial Neg: 5.55476e-09
+ ibl1 = 10 ibl2 = 12 (Nstb1:46 Nstb2:6) partial Pos: 1.59065e-10 partial Neg: 5.95662e-14
+ ibl1 = 11 ibl2 = 13 (Nstb1:46 Nstb2:6) partial Pos: 1.87128e-10 partial Neg: 9.54341e-14
+ Nshell = 27 Pos contribution: 4.37129e-05 Neg contribution: 3.74374e-05
  Checking phs for Nshell = : 25
- ibl1 = 0 ibl2 = 2 (Nstb1:1 Nstb2:12) partial Pos: -6.75525e-23 partial Neg: 8.71869e-18
- ibl1 = 0 ibl2 = 3 (Nstb1:1 Nstb2:3) partial Pos: -1.74717e-33 partial Neg: 3.49927e-32
- ibl1 = 1 ibl2 = 2 (Nstb1:2 Nstb2:12) partial Pos: 7.66291e-21 partial Neg: 6.64763e-18
- ibl1 = 2 ibl2 = 4 (Nstb1:12 Nstb2:29) partial Pos: -6.48664e-18 partial Neg: 1.11081e-14
- ibl1 = 2 ibl2 = 5 (Nstb1:12 Nstb2:28) partial Pos: 2.1254e-13 partial Neg: 5.65144e-10
- ibl1 = 3 ibl2 = 4 (Nstb1:3 Nstb2:29) partial Pos: -1.21978e-19 partial Neg: 8.69193e-15
- ibl1 = 3 ibl2 = 7 (Nstb1:3 Nstb2:4) partial Pos: 1.13397e-31 partial Neg: 1.13371e-31
- ibl1 = 4 ibl2 = 6 (Nstb1:29 Nstb2:82) partial Pos: 6.18475e-11 partial Neg: 4.90903e-07
- ibl1 = 4 ibl2 = 8 (Nstb1:29 Nstb2:33) partial Pos: 1.14907e-14 partial Neg: 2.29584e-14
- ibl1 = 5 ibl2 = 6 (Nstb1:28 Nstb2:82) partial Pos: 4.68921e-10 partial Neg: 2.39507e-07
- ibl1 = 6 ibl2 = 9 (Nstb1:82 Nstb2:101) partial Pos: 4.96546e-07 partial Neg: 6.13626e-07
- ibl1 = 6 ibl2 = 10 (Nstb1:82 Nstb2:88) partial Pos: 3.37738e-06 partial Neg: 0.000200236
- ibl1 = 7 ibl2 = 8 (Nstb1:4 Nstb2:33) partial Pos: 4.24298e-20 partial Neg: 1.33047e-14
- ibl1 = 7 ibl2 = 12 (Nstb1:4 Nstb2:2) partial Pos: 1.23437e-31 partial Neg: 1.34691e-31
- ibl1 = 8 ibl2 = 9 (Nstb1:33 Nstb2:101) partial Pos: 4.41745e-11 partial Neg: 7.01784e-07
- ibl1 = 8 ibl2 = 13 (Nstb1:33 Nstb2:20) partial Pos: 1.91005e-14 partial Neg: 6.11113e-16
- ibl1 = 9 ibl2 = 11 (Nstb1:101 Nstb2:143) partial Pos: 1.79239e-07 partial Neg: 0.000303167
- ibl1 = 9 ibl2 = 14 (Nstb1:101 Nstb2:65) partial Pos: 7.59588e-07 partial Neg: 1.78039e-08
- ibl1 = 10 ibl2 = 11 (Nstb1:88 Nstb2:143) partial Pos: 0.000188191 partial Neg: 0.000147429
- ibl1 = 11 ibl2 = 15 (Nstb1:143 Nstb2:101) partial Pos: 0.000303167 partial Neg: 1.79239e-07
- ibl1 = 11 ibl2 = 16 (Nstb1:143 Nstb2:88) partial Pos: 0.000147429 partial Neg: 0.000188191
- ibl1 = 12 ibl2 = 13 (Nstb1:2 Nstb2:20) partial Pos: 2.99025e-21 partial Neg: 4.39001e-17
- ibl1 = 13 ibl2 = 14 (Nstb1:20 Nstb2:65) partial Pos: -2.39218e-13 partial Neg: 1.94719e-09
- ibl1 = 13 ibl2 = 18 (Nstb1:20 Nstb2:5) partial Pos: 5.84726e-17 partial Neg: 1.86728e-19
- ibl1 = 14 ibl2 = 15 (Nstb1:65 Nstb2:101) partial Pos: 1.78039e-08 partial Neg: 7.59588e-07
- ibl1 = 14 ibl2 = 19 (Nstb1:65 Nstb2:20) partial Pos: 1.94719e-09 partial Neg: -2.39218e-13
- ibl1 = 15 ibl2 = 17 (Nstb1:101 Nstb2:82) partial Pos: 6.13626e-07 partial Neg: 4.96546e-07
- ibl1 = 15 ibl2 = 20 (Nstb1:101 Nstb2:33) partial Pos: 7.01784e-07 partial Neg: 4.41745e-11
- ibl1 = 16 ibl2 = 17 (Nstb1:88 Nstb2:82) partial Pos: 0.000200236 partial Neg: 3.37738e-06
- ibl1 = 17 ibl2 = 21 (Nstb1:82 Nstb2:29) partial Pos: 4.90903e-07 partial Neg: 6.18475e-11
- ibl1 = 17 ibl2 = 22 (Nstb1:82 Nstb2:28) partial Pos: 2.39507e-07 partial Neg: 4.68921e-10
- ibl1 = 18 ibl2 = 19 (Nstb1:5 Nstb2:20) partial Pos: 1.86728e-19 partial Neg: 5.84726e-17
- ibl1 = 19 ibl2 = 20 (Nstb1:20 Nstb2:33) partial Pos: 6.11113e-16 partial Neg: 1.91005e-14
- ibl1 = 19 ibl2 = 24 (Nstb1:20 Nstb2:2) partial Pos: 4.39001e-17 partial Neg: 2.99025e-21
- ibl1 = 20 ibl2 = 21 (Nstb1:33 Nstb2:29) partial Pos: 2.29584e-14 partial Neg: 1.14907e-14
- ibl1 = 20 ibl2 = 25 (Nstb1:33 Nstb2:4) partial Pos: 1.33047e-14 partial Neg: 4.24298e-20
- ibl1 = 21 ibl2 = 23 (Nstb1:29 Nstb2:12) partial Pos: 1.11081e-14 partial Neg: -6.48664e-18
- ibl1 = 21 ibl2 = 26 (Nstb1:29 Nstb2:3) partial Pos: 8.69193e-15 partial Neg: -1.21978e-19
- ibl1 = 22 ibl2 = 23 (Nstb1:28 Nstb2:12) partial Pos: 5.65144e-10 partial Neg: 2.1254e-13
- ibl1 = 23 ibl2 = 27 (Nstb1:12 Nstb2:1) partial Pos: 8.71869e-18 partial Neg: -6.75525e-23
- ibl1 = 23 ibl2 = 28 (Nstb1:12 Nstb2:2) partial Pos: 6.64763e-18 partial Neg: 7.66291e-21
- ibl1 = 24 ibl2 = 25 (Nstb1:2 Nstb2:4) partial Pos: 1.34691e-31 partial Neg: 1.23437e-31
- ibl1 = 25 ibl2 = 26 (Nstb1:4 Nstb2:3) partial Pos: 1.13371e-31 partial Neg: 1.13397e-31
- ibl1 = 26 ibl2 = 27 (Nstb1:3 Nstb2:1) partial Pos: 3.49927e-32 partial Neg: -1.74717e-33
- Nshell = 25 Pos contribution: 0.000845901 Neg contribution: 0.000845901
+ ibl1 = 0 ibl2 = 1 (Nstb1:7 Nstb2:49) partial Pos: 2.45059e-11 partial Neg: 5.55633e-08
+ ibl1 = 1 ibl2 = 4 (Nstb1:49 Nstb2:125) partial Pos: 1.08382e-06 partial Neg: 2.40003e-05
+ ibl1 = 2 ibl2 = 3 (Nstb1:7 Nstb2:49) partial Pos: 1.06105e-11 partial Neg: 3.94136e-08
+ ibl1 = 3 ibl2 = 5 (Nstb1:49 Nstb2:125) partial Pos: 7.58246e-07 partial Neg: 1.94375e-05
+ ibl1 = 4 ibl2 = 6 (Nstb1:125 Nstb2:168) partial Pos: 3.63017e-05 partial Neg: 1.83209e-05
+ ibl1 = 5 ibl2 = 7 (Nstb1:125 Nstb2:168) partial Pos: 2.29524e-05 partial Neg: 2.21619e-05
+ ibl1 = 6 ibl2 = 8 (Nstb1:168 Nstb2:125) partial Pos: 2.08013e-05 partial Neg: 1.00206e-06
+ ibl1 = 7 ibl2 = 9 (Nstb1:168 Nstb2:125) partial Pos: 1.89805e-05 partial Neg: 6.94901e-07
+ ibl1 = 8 ibl2 = 10 (Nstb1:125 Nstb2:49) partial Pos: 3.87316e-07 partial Neg: 1.82696e-08
+ ibl1 = 9 ibl2 = 11 (Nstb1:125 Nstb2:49) partial Pos: 4.79981e-07 partial Neg: 1.20048e-08
+ ibl1 = 10 ibl2 = 12 (Nstb1:49 Nstb2:7) partial Pos: 6.26539e-10 partial Neg: 3.32127e-13
+ ibl1 = 11 ibl2 = 13 (Nstb1:49 Nstb2:7) partial Pos: 4.95451e-10 partial Neg: 1.79477e-13
+ Nshell = 25 Pos contribution: 0.000101746 Neg contribution: 8.57428e-05
  Checking phs for Nshell = : 23
- ibl1 = 0 ibl2 = 2 (Nstb1:1 Nstb2:12) partial Pos: 7.12962e-22 partial Neg: 1.73023e-17
- ibl1 = 0 ibl2 = 3 (Nstb1:1 Nstb2:3) partial Pos: 3.68397e-32 partial Neg: 5.29596e-31
- ibl1 = 1 ibl2 = 2 (Nstb1:2 Nstb2:12) partial Pos: 7.2779e-20 partial Neg: 1.63169e-17
- ibl1 = 2 ibl2 = 4 (Nstb1:12 Nstb2:28) partial Pos: 4.20831e-17 partial Neg: 3.98634e-14
- ibl1 = 2 ibl2 = 5 (Nstb1:12 Nstb2:28) partial Pos: 8.39257e-13 partial Neg: 1.00302e-09
- ibl1 = 3 ibl2 = 4 (Nstb1:3 Nstb2:28) partial Pos: 2.44638e-19 partial Neg: 2.3645e-14
- ibl1 = 3 ibl2 = 7 (Nstb1:3 Nstb2:4) partial Pos: 6.51949e-31 partial Neg: 4.84271e-31
- ibl1 = 4 ibl2 = 6 (Nstb1:28 Nstb2:81) partial Pos: 1.03908e-10 partial Neg: 9.04822e-07
- ibl1 = 4 ibl2 = 8 (Nstb1:28 Nstb2:33) partial Pos: 2.88466e-14 partial Neg: 1.01229e-13
- ibl1 = 5 ibl2 = 6 (Nstb1:28 Nstb2:81) partial Pos: 3.29629e-09 partial Neg: 5.2868e-07
- ibl1 = 6 ibl2 = 9 (Nstb1:81 Nstb2:101) partial Pos: 8.52255e-07 partial Neg: 1.52787e-06
- ibl1 = 6 ibl2 = 10 (Nstb1:81 Nstb2:87) partial Pos: 7.75229e-06 partial Neg: 0.00035705
- ibl1 = 7 ibl2 = 8 (Nstb1:4 Nstb2:33) partial Pos: 1.0008e-18 partial Neg: 4.48389e-14
- ibl1 = 7 ibl2 = 12 (Nstb1:4 Nstb2:3) partial Pos: 4.22346e-31 partial Neg: 1.23074e-31
- ibl1 = 8 ibl2 = 9 (Nstb1:33 Nstb2:101) partial Pos: 3.76427e-09 partial Neg: 1.40427e-06
- ibl1 = 8 ibl2 = 13 (Nstb1:33 Nstb2:21) partial Pos: 6.18501e-14 partial Neg: 2.97997e-15
- ibl1 = 9 ibl2 = 11 (Nstb1:101 Nstb2:143) partial Pos: 3.03257e-07 partial Neg: 0.000541322
- ibl1 = 9 ibl2 = 14 (Nstb1:101 Nstb2:66) partial Pos: 1.48578e-06 partial Neg: 5.80791e-08
- ibl1 = 10 ibl2 = 11 (Nstb1:87 Nstb2:143) partial Pos: 0.00032085 partial Neg: 0.000301818
- ibl1 = 11 ibl2 = 15 (Nstb1:143 Nstb2:101) partial Pos: 0.000541322 partial Neg: 3.03257e-07
- ibl1 = 11 ibl2 = 16 (Nstb1:143 Nstb2:87) partial Pos: 0.000301818 partial Neg: 0.00032085
- ibl1 = 12 ibl2 = 13 (Nstb1:3 Nstb2:21) partial Pos: 2.29043e-20 partial Neg: 2.27035e-16
- ibl1 = 12 ibl2 = 18 (Nstb1:3 Nstb2:1) partial Pos: 5.84949e-32 partial Neg: -1.74932e-33
- ibl1 = 13 ibl2 = 14 (Nstb1:21 Nstb2:66) partial Pos: 3.4341e-12 partial Neg: 5.02779e-09
- ibl1 = 13 ibl2 = 19 (Nstb1:21 Nstb2:7) partial Pos: 2.94563e-16 partial Neg: 1.84853e-18
- ibl1 = 14 ibl2 = 15 (Nstb1:66 Nstb2:101) partial Pos: 5.80791e-08 partial Neg: 1.48578e-06
- ibl1 = 14 ibl2 = 20 (Nstb1:66 Nstb2:21) partial Pos: 5.02779e-09 partial Neg: 3.4341e-12
- ibl1 = 15 ibl2 = 17 (Nstb1:101 Nstb2:81) partial Pos: 1.52787e-06 partial Neg: 8.52255e-07
- ibl1 = 15 ibl2 = 21 (Nstb1:101 Nstb2:33) partial Pos: 1.40427e-06 partial Neg: 3.76427e-09
- ibl1 = 16 ibl2 = 17 (Nstb1:87 Nstb2:81) partial Pos: 0.00035705 partial Neg: 7.75229e-06
- ibl1 = 17 ibl2 = 22 (Nstb1:81 Nstb2:28) partial Pos: 9.04822e-07 partial Neg: 1.03908e-10
- ibl1 = 17 ibl2 = 23 (Nstb1:81 Nstb2:28) partial Pos: 5.2868e-07 partial Neg: 3.29629e-09
- ibl1 = 18 ibl2 = 19 (Nstb1:1 Nstb2:7) partial Pos: 1.02693e-27 partial Neg: 1.59687e-23
- ibl1 = 19 ibl2 = 20 (Nstb1:7 Nstb2:21) partial Pos: 1.84853e-18 partial Neg: 2.94563e-16
- ibl1 = 19 ibl2 = 25 (Nstb1:7 Nstb2:1) partial Pos: 1.59687e-23 partial Neg: 1.02693e-27
- ibl1 = 20 ibl2 = 21 (Nstb1:21 Nstb2:33) partial Pos: 2.97997e-15 partial Neg: 6.18501e-14
- ibl1 = 20 ibl2 = 26 (Nstb1:21 Nstb2:3) partial Pos: 2.27035e-16 partial Neg: 2.29043e-20
- ibl1 = 21 ibl2 = 22 (Nstb1:33 Nstb2:28) partial Pos: 1.01229e-13 partial Neg: 2.88466e-14
- ibl1 = 21 ibl2 = 27 (Nstb1:33 Nstb2:4) partial Pos: 4.48389e-14 partial Neg: 1.0008e-18
- ibl1 = 22 ibl2 = 24 (Nstb1:28 Nstb2:12) partial Pos: 3.98634e-14 partial Neg: 4.20831e-17
- ibl1 = 22 ibl2 = 28 (Nstb1:28 Nstb2:3) partial Pos: 2.3645e-14 partial Neg: 2.44638e-19
- ibl1 = 23 ibl2 = 24 (Nstb1:28 Nstb2:12) partial Pos: 1.00302e-09 partial Neg: 8.39257e-13
- ibl1 = 24 ibl2 = 29 (Nstb1:12 Nstb2:1) partial Pos: 1.73023e-17 partial Neg: 7.12962e-22
- ibl1 = 24 ibl2 = 30 (Nstb1:12 Nstb2:2) partial Pos: 1.63169e-17 partial Neg: 7.2779e-20
- ibl1 = 25 ibl2 = 26 (Nstb1:1 Nstb2:3) partial Pos: -1.74932e-33 partial Neg: 5.84949e-32
- ibl1 = 26 ibl2 = 27 (Nstb1:3 Nstb2:4) partial Pos: 1.23074e-31 partial Neg: 4.22346e-31
- ibl1 = 27 ibl2 = 28 (Nstb1:4 Nstb2:3) partial Pos: 4.84271e-31 partial Neg: 6.51949e-31
- ibl1 = 28 ibl2 = 29 (Nstb1:3 Nstb2:1) partial Pos: 5.29596e-31 partial Neg: 3.68397e-32
- Nshell = 23 Pos contribution: 0.00153587 Neg contribution: 0.00153587
+ ibl1 = 0 ibl2 = 2 (Nstb1:7 Nstb2:47) partial Pos: 1.953e-11 partial Neg: 9.24916e-08
+ ibl1 = 1 ibl2 = 3 (Nstb1:7 Nstb2:47) partial Pos: 5.11923e-11 partial Neg: 1.43085e-07
+ ibl1 = 2 ibl2 = 4 (Nstb1:47 Nstb2:121) partial Pos: 1.73372e-06 partial Neg: 4.16555e-05
+ ibl1 = 3 ibl2 = 5 (Nstb1:47 Nstb2:121) partial Pos: 2.70803e-06 partial Neg: 5.31824e-05
+ ibl1 = 4 ibl2 = 6 (Nstb1:121 Nstb2:162) partial Pos: 4.99054e-05 partial Neg: 4.90964e-05
+ ibl1 = 5 ibl2 = 7 (Nstb1:121 Nstb2:162) partial Pos: 8.46051e-05 partial Neg: 3.885e-05
+ ibl1 = 6 ibl2 = 8 (Nstb1:162 Nstb2:121) partial Pos: 4.21601e-05 partial Neg: 1.79367e-06
+ ibl1 = 7 ibl2 = 9 (Nstb1:162 Nstb2:121) partial Pos: 4.57205e-05 partial Neg: 2.69268e-06
+ ibl1 = 8 ibl2 = 10 (Nstb1:121 Nstb2:47) partial Pos: 1.32049e-06 partial Neg: 3.67355e-08
+ ibl1 = 9 ibl2 = 11 (Nstb1:121 Nstb2:47) partial Pos: 1.07228e-06 partial Neg: 5.78405e-08
+ ibl1 = 10 ibl2 = 12 (Nstb1:47 Nstb2:7) partial Pos: 1.47189e-09 partial Neg: 4.73862e-13
+ ibl1 = 11 ibl2 = 13 (Nstb1:47 Nstb2:7) partial Pos: 2.04445e-09 partial Neg: 9.38482e-13
+ Nshell = 23 Pos contribution: 0.000229229 Neg contribution: 0.000187601
  Checking phs for Nshell = : 21
- ibl1 = 0 ibl2 = 2 (Nstb1:1 Nstb2:12) partial Pos: 2.58016e-21 partial Neg: 3.37534e-17
- ibl1 = 0 ibl2 = 3 (Nstb1:1 Nstb2:3) partial Pos: 1.01146e-31 partial Neg: 3.18322e-30
- ibl1 = 1 ibl2 = 2 (Nstb1:2 Nstb2:12) partial Pos: 1.81402e-20 partial Neg: 3.98287e-17
- ibl1 = 2 ibl2 = 4 (Nstb1:12 Nstb2:28) partial Pos: -9.04345e-17 partial Neg: 1.67227e-13
- ibl1 = 2 ibl2 = 5 (Nstb1:12 Nstb2:27) partial Pos: 2.58063e-12 partial Neg: 1.56994e-09
- ibl1 = 3 ibl2 = 4 (Nstb1:3 Nstb2:28) partial Pos: 2.8483e-18 partial Neg: 7.66502e-14
- ibl1 = 3 ibl2 = 7 (Nstb1:3 Nstb2:5) partial Pos: 3.72498e-30 partial Neg: 4.94558e-30
- ibl1 = 4 ibl2 = 6 (Nstb1:28 Nstb2:82) partial Pos: 1.46657e-10 partial Neg: 1.55213e-06
- ibl1 = 4 ibl2 = 8 (Nstb1:28 Nstb2:35) partial Pos: 8.98051e-14 partial Neg: 5.68939e-13
- ibl1 = 5 ibl2 = 6 (Nstb1:27 Nstb2:82) partial Pos: 1.99924e-08 partial Neg: 1.2168e-06
- ibl1 = 6 ibl2 = 9 (Nstb1:82 Nstb2:102) partial Pos: 1.37966e-06 partial Neg: 4.2336e-06
- ibl1 = 6 ibl2 = 10 (Nstb1:82 Nstb2:85) partial Pos: 1.64592e-05 partial Neg: 0.000586429
- ibl1 = 7 ibl2 = 8 (Nstb1:5 Nstb2:35) partial Pos: 1.54333e-17 partial Neg: 2.00837e-13
- ibl1 = 7 ibl2 = 12 (Nstb1:5 Nstb2:3) partial Pos: 6.57521e-30 partial Neg: 1.65325e-30
- ibl1 = 8 ibl2 = 9 (Nstb1:35 Nstb2:102) partial Pos: -2.32144e-09 partial Neg: 2.85302e-06
- ibl1 = 8 ibl2 = 13 (Nstb1:35 Nstb2:25) partial Pos: 2.77296e-13 partial Neg: 1.62823e-14
- ibl1 = 9 ibl2 = 11 (Nstb1:102 Nstb2:145) partial Pos: 7.37747e-07 partial Neg: 0.000883843
- ibl1 = 9 ibl2 = 14 (Nstb1:102 Nstb2:69) partial Pos: 2.95556e-06 partial Neg: 1.74623e-07
- ibl1 = 10 ibl2 = 11 (Nstb1:85 Nstb2:145) partial Pos: 0.000498889 partial Neg: 0.000613631
- ibl1 = 11 ibl2 = 15 (Nstb1:145 Nstb2:102) partial Pos: 0.000883843 partial Neg: 7.37747e-07
- ibl1 = 11 ibl2 = 16 (Nstb1:145 Nstb2:85) partial Pos: 0.000613631 partial Neg: 0.000498889
- ibl1 = 12 ibl2 = 13 (Nstb1:3 Nstb2:25) partial Pos: -6.70136e-20 partial Neg: 1.76816e-15
- ibl1 = 12 ibl2 = 18 (Nstb1:3 Nstb2:1) partial Pos: 2.08597e-31 partial Neg: 3.6085e-33
- ibl1 = 13 ibl2 = 14 (Nstb1:25 Nstb2:69) partial Pos: 3.08715e-11 partial Neg: 1.55727e-08
- ibl1 = 13 ibl2 = 19 (Nstb1:25 Nstb2:8) partial Pos: 2.31045e-15 partial Neg: 1.50608e-17
- ibl1 = 14 ibl2 = 15 (Nstb1:69 Nstb2:102) partial Pos: 1.74623e-07 partial Neg: 2.95556e-06
- ibl1 = 14 ibl2 = 20 (Nstb1:69 Nstb2:25) partial Pos: 1.55727e-08 partial Neg: 3.08715e-11
- ibl1 = 15 ibl2 = 17 (Nstb1:102 Nstb2:82) partial Pos: 4.2336e-06 partial Neg: 1.37966e-06
- ibl1 = 15 ibl2 = 21 (Nstb1:102 Nstb2:35) partial Pos: 2.85302e-06 partial Neg: -2.32144e-09
- ibl1 = 16 ibl2 = 17 (Nstb1:85 Nstb2:82) partial Pos: 0.000586429 partial Neg: 1.64592e-05
- ibl1 = 17 ibl2 = 22 (Nstb1:82 Nstb2:28) partial Pos: 1.55213e-06 partial Neg: 1.46657e-10
- ibl1 = 17 ibl2 = 23 (Nstb1:82 Nstb2:27) partial Pos: 1.2168e-06 partial Neg: 1.99924e-08
- ibl1 = 18 ibl2 = 19 (Nstb1:1 Nstb2:8) partial Pos: 1.09729e-25 partial Neg: 5.25696e-22
- ibl1 = 19 ibl2 = 20 (Nstb1:8 Nstb2:25) partial Pos: 1.50608e-17 partial Neg: 2.31045e-15
- ibl1 = 19 ibl2 = 25 (Nstb1:8 Nstb2:1) partial Pos: 5.25696e-22 partial Neg: 1.09729e-25
- ibl1 = 20 ibl2 = 21 (Nstb1:25 Nstb2:35) partial Pos: 1.62823e-14 partial Neg: 2.77296e-13
- ibl1 = 20 ibl2 = 26 (Nstb1:25 Nstb2:3) partial Pos: 1.76816e-15 partial Neg: -6.70136e-20
- ibl1 = 21 ibl2 = 22 (Nstb1:35 Nstb2:28) partial Pos: 5.68939e-13 partial Neg: 8.98051e-14
- ibl1 = 21 ibl2 = 27 (Nstb1:35 Nstb2:5) partial Pos: 2.00837e-13 partial Neg: 1.54333e-17
- ibl1 = 22 ibl2 = 24 (Nstb1:28 Nstb2:12) partial Pos: 1.67227e-13 partial Neg: -9.04345e-17
- ibl1 = 22 ibl2 = 28 (Nstb1:28 Nstb2:3) partial Pos: 7.66502e-14 partial Neg: 2.8483e-18
- ibl1 = 23 ibl2 = 24 (Nstb1:27 Nstb2:12) partial Pos: 1.56994e-09 partial Neg: 2.58063e-12
- ibl1 = 24 ibl2 = 29 (Nstb1:12 Nstb2:1) partial Pos: 3.37534e-17 partial Neg: 2.58016e-21
- ibl1 = 24 ibl2 = 30 (Nstb1:12 Nstb2:2) partial Pos: 3.98287e-17 partial Neg: 1.81402e-20
- ibl1 = 25 ibl2 = 26 (Nstb1:1 Nstb2:3) partial Pos: 3.6085e-33 partial Neg: 2.08597e-31
- ibl1 = 26 ibl2 = 27 (Nstb1:3 Nstb2:5) partial Pos: 1.65325e-30 partial Neg: 6.57521e-30
- ibl1 = 27 ibl2 = 28 (Nstb1:5 Nstb2:3) partial Pos: 4.94558e-30 partial Neg: 3.72498e-30
- ibl1 = 28 ibl2 = 29 (Nstb1:3 Nstb2:1) partial Pos: 3.18322e-30 partial Neg: 1.01146e-31
- Nshell = 21 Pos contribution: 0.00261439 Neg contribution: 0.00261439
+ ibl1 = 0 ibl2 = 2 (Nstb1:8 Nstb2:48) partial Pos: 2.88343e-11 partial Neg: 3.63528e-07
+ ibl1 = 1 ibl2 = 3 (Nstb1:8 Nstb2:48) partial Pos: 2.10106e-11 partial Neg: 2.07784e-07
+ ibl1 = 2 ibl2 = 4 (Nstb1:48 Nstb2:120) partial Pos: 6.71777e-06 partial Neg: 0.00011261
+ ibl1 = 3 ibl2 = 5 (Nstb1:48 Nstb2:120) partial Pos: 3.71866e-06 partial Neg: 8.6577e-05
+ ibl1 = 4 ibl2 = 6 (Nstb1:120 Nstb2:159) partial Pos: 0.00019096 partial Neg: 8.09004e-05
+ ibl1 = 5 ibl2 = 7 (Nstb1:120 Nstb2:159) partial Pos: 0.000105413 partial Neg: 0.000102389
+ ibl1 = 6 ibl2 = 8 (Nstb1:159 Nstb2:120) partial Pos: 9.76068e-05 partial Neg: 6.66568e-06
+ ibl1 = 7 ibl2 = 9 (Nstb1:159 Nstb2:120) partial Pos: 9.01571e-05 partial Neg: 4.63523e-06
+ ibl1 = 8 ibl2 = 10 (Nstb1:120 Nstb2:48) partial Pos: 2.82022e-06 partial Neg: 1.81762e-07
+ ibl1 = 9 ibl2 = 11 (Nstb1:120 Nstb2:48) partial Pos: 3.55957e-06 partial Neg: 1.05303e-07
+ ibl1 = 10 ibl2 = 12 (Nstb1:48 Nstb2:8) partial Pos: 6.49332e-09 partial Neg: 1.21442e-12
+ ibl1 = 11 ibl2 = 13 (Nstb1:48 Nstb2:8) partial Pos: 4.14022e-09 partial Neg: 1.03321e-12
+ Nshell = 21 Pos contribution: 0.000500964 Neg contribution: 0.000394636
  Checking phs for Nshell = : 19
- ibl1 = 0 ibl2 = 2 (Nstb1:1 Nstb2:12) partial Pos: 1.7676e-22 partial Neg: 6.98362e-17
- ibl1 = 0 ibl2 = 3 (Nstb1:1 Nstb2:3) partial Pos: -1.27403e-29 partial Neg: 8.93622e-28
- ibl1 = 1 ibl2 = 2 (Nstb1:1 Nstb2:12) partial Pos: 3.09622e-20 partial Neg: 7.87267e-17
- ibl1 = 2 ibl2 = 4 (Nstb1:12 Nstb2:28) partial Pos: -1.03482e-16 partial Neg: 7.59858e-13
- ibl1 = 2 ibl2 = 5 (Nstb1:12 Nstb2:25) partial Pos: 5.59582e-12 partial Neg: 2.23772e-09
- ibl1 = 3 ibl2 = 4 (Nstb1:3 Nstb2:28) partial Pos: -1.57069e-17 partial Neg: 2.96718e-13
- ibl1 = 3 ibl2 = 7 (Nstb1:3 Nstb2:5) partial Pos: 1.24929e-27 partial Neg: 6.16234e-27
- ibl1 = 4 ibl2 = 6 (Nstb1:28 Nstb2:80) partial Pos: -2.08183e-10 partial Neg: 2.61905e-06
- ibl1 = 4 ibl2 = 8 (Nstb1:28 Nstb2:35) partial Pos: 3.55533e-13 partial Neg: 3.55376e-12
- ibl1 = 5 ibl2 = 6 (Nstb1:25 Nstb2:80) partial Pos: 7.0844e-08 partial Neg: 2.9899e-06
- ibl1 = 6 ibl2 = 9 (Nstb1:80 Nstb2:102) partial Pos: 2.34769e-06 partial Neg: 1.31808e-05
- ibl1 = 6 ibl2 = 10 (Nstb1:80 Nstb2:82) partial Pos: 3.0458e-05 partial Neg: 0.000929407
- ibl1 = 7 ibl2 = 8 (Nstb1:5 Nstb2:35) partial Pos: 9.81199e-17 partial Neg: 1.11286e-12
- ibl1 = 7 ibl2 = 12 (Nstb1:5 Nstb2:3) partial Pos: 6.98973e-27 partial Neg: 5.0303e-28
- ibl1 = 8 ibl2 = 9 (Nstb1:35 Nstb2:102) partial Pos: -9.54179e-09 partial Neg: 6.25595e-06
- ibl1 = 8 ibl2 = 13 (Nstb1:35 Nstb2:25) partial Pos: 1.56825e-12 partial Neg: 1.05912e-13
- ibl1 = 9 ibl2 = 11 (Nstb1:102 Nstb2:142) partial Pos: 9.43219e-05 partial Neg: 0.00129986
- ibl1 = 9 ibl2 = 14 (Nstb1:102 Nstb2:69) partial Pos: 6.46483e-06 partial Neg: 5.10259e-07
- ibl1 = 10 ibl2 = 11 (Nstb1:82 Nstb2:142) partial Pos: 0.000763832 partial Neg: 0.00125879
- ibl1 = 11 ibl2 = 15 (Nstb1:142 Nstb2:102) partial Pos: 0.00129986 partial Neg: 9.43219e-05
- ibl1 = 11 ibl2 = 16 (Nstb1:142 Nstb2:82) partial Pos: 0.00125879 partial Neg: 0.000763832
- ibl1 = 12 ibl2 = 13 (Nstb1:3 Nstb2:25) partial Pos: -6.57288e-19 partial Neg: 1.69185e-14
- ibl1 = 12 ibl2 = 18 (Nstb1:3 Nstb2:1) partial Pos: 7.05005e-31 partial Neg: -2.20094e-33
- ibl1 = 13 ibl2 = 14 (Nstb1:25 Nstb2:69) partial Pos: 1.50197e-10 partial Neg: 5.83756e-08
- ibl1 = 13 ibl2 = 19 (Nstb1:25 Nstb2:8) partial Pos: 2.23607e-14 partial Neg: 1.03923e-16
- ibl1 = 14 ibl2 = 15 (Nstb1:69 Nstb2:102) partial Pos: 5.10259e-07 partial Neg: 6.46483e-06
- ibl1 = 14 ibl2 = 20 (Nstb1:69 Nstb2:25) partial Pos: 5.83756e-08 partial Neg: 1.50197e-10
- ibl1 = 15 ibl2 = 17 (Nstb1:102 Nstb2:80) partial Pos: 1.31808e-05 partial Neg: 2.34769e-06
- ibl1 = 15 ibl2 = 21 (Nstb1:102 Nstb2:35) partial Pos: 6.25595e-06 partial Neg: -9.54179e-09
- ibl1 = 16 ibl2 = 17 (Nstb1:82 Nstb2:80) partial Pos: 0.000929407 partial Neg: 3.0458e-05
- ibl1 = 17 ibl2 = 22 (Nstb1:80 Nstb2:28) partial Pos: 2.61905e-06 partial Neg: -2.08183e-10
- ibl1 = 17 ibl2 = 23 (Nstb1:80 Nstb2:25) partial Pos: 2.9899e-06 partial Neg: 7.0844e-08
- ibl1 = 18 ibl2 = 19 (Nstb1:1 Nstb2:8) partial Pos: 1.21974e-24 partial Neg: 1.13625e-20
- ibl1 = 19 ibl2 = 20 (Nstb1:8 Nstb2:25) partial Pos: 1.03923e-16 partial Neg: 2.23607e-14
- ibl1 = 19 ibl2 = 25 (Nstb1:8 Nstb2:1) partial Pos: 1.13625e-20 partial Neg: 1.21974e-24
- ibl1 = 20 ibl2 = 21 (Nstb1:25 Nstb2:35) partial Pos: 1.05912e-13 partial Neg: 1.56825e-12
- ibl1 = 20 ibl2 = 26 (Nstb1:25 Nstb2:3) partial Pos: 1.69185e-14 partial Neg: -6.57288e-19
- ibl1 = 21 ibl2 = 22 (Nstb1:35 Nstb2:28) partial Pos: 3.55376e-12 partial Neg: 3.55533e-13
- ibl1 = 21 ibl2 = 27 (Nstb1:35 Nstb2:5) partial Pos: 1.11286e-12 partial Neg: 9.81199e-17
- ibl1 = 22 ibl2 = 24 (Nstb1:28 Nstb2:12) partial Pos: 7.59858e-13 partial Neg: -1.03482e-16
- ibl1 = 22 ibl2 = 28 (Nstb1:28 Nstb2:3) partial Pos: 2.96718e-13 partial Neg: -1.57069e-17
- ibl1 = 23 ibl2 = 24 (Nstb1:25 Nstb2:12) partial Pos: 2.23772e-09 partial Neg: 5.59582e-12
- ibl1 = 24 ibl2 = 29 (Nstb1:12 Nstb2:1) partial Pos: 6.98362e-17 partial Neg: 1.7676e-22
- ibl1 = 24 ibl2 = 30 (Nstb1:12 Nstb2:1) partial Pos: 7.87267e-17 partial Neg: 3.09622e-20
- ibl1 = 25 ibl2 = 26 (Nstb1:1 Nstb2:3) partial Pos: -2.20094e-33 partial Neg: 7.05005e-31
- ibl1 = 26 ibl2 = 27 (Nstb1:3 Nstb2:5) partial Pos: 5.0303e-28 partial Neg: 6.98973e-27
- ibl1 = 27 ibl2 = 28 (Nstb1:5 Nstb2:3) partial Pos: 6.16234e-27 partial Neg: 1.24929e-27
- ibl1 = 28 ibl2 = 29 (Nstb1:3 Nstb2:1) partial Pos: 8.93622e-28 partial Neg: -1.27403e-29
- Nshell = 19 Pos contribution: 0.00441116 Neg contribution: 0.00441116
+ ibl1 = 0 ibl2 = 2 (Nstb1:8 Nstb2:50) partial Pos: -5.43483e-11 partial Neg: 4.48323e-07
+ ibl1 = 1 ibl2 = 3 (Nstb1:8 Nstb2:50) partial Pos: -4.99815e-10 partial Neg: 9.14473e-07
+ ibl1 = 2 ibl2 = 4 (Nstb1:50 Nstb2:122) partial Pos: 7.57589e-06 partial Neg: 0.000176788
+ ibl1 = 3 ibl2 = 5 (Nstb1:50 Nstb2:122) partial Pos: 1.59785e-05 partial Neg: 0.000373813
+ ibl1 = 4 ibl2 = 6 (Nstb1:122 Nstb2:161) partial Pos: 0.000215916 partial Neg: 0.000259215
+ ibl1 = 5 ibl2 = 7 (Nstb1:122 Nstb2:161) partial Pos: 0.000468956 partial Neg: 0.000166952
+ ibl1 = 6 ibl2 = 8 (Nstb1:161 Nstb2:122) partial Pos: 0.000237995 partial Neg: 1.17399e-05
+ ibl1 = 7 ibl2 = 9 (Nstb1:161 Nstb2:122) partial Pos: 0.000202136 partial Neg: 1.83255e-05
+ ibl1 = 8 ibl2 = 10 (Nstb1:122 Nstb2:50) partial Pos: 9.49039e-06 partial Neg: 2.80096e-07
+ ibl1 = 9 ibl2 = 11 (Nstb1:122 Nstb2:50) partial Pos: 1.12333e-05 partial Neg: 5.43785e-07
+ ibl1 = 10 ibl2 = 12 (Nstb1:50 Nstb2:8) partial Pos: 1.10748e-08 partial Neg: 7.19387e-13
+ ibl1 = 11 ibl2 = 13 (Nstb1:50 Nstb2:8) partial Pos: 2.01766e-08 partial Neg: -8.8918e-12
+ Nshell = 19 Pos contribution: 0.00116931 Neg contribution: 0.00100902
  Checking phs for Nshell = : 17
- ibl1 = 0 ibl2 = 2 (Nstb1:1 Nstb2:12) partial Pos: 4.12537e-21 partial Neg: 1.49194e-16
- ibl1 = 0 ibl2 = 3 (Nstb1:1 Nstb2:3) partial Pos: -1.41488e-28 partial Neg: 1.27916e-26
- ibl1 = 1 ibl2 = 2 (Nstb1:1 Nstb2:12) partial Pos: 7.95508e-20 partial Neg: 2.17574e-16
- ibl1 = 2 ibl2 = 4 (Nstb1:12 Nstb2:28) partial Pos: 1.83151e-16 partial Neg: 3.47177e-12
- ibl1 = 2 ibl2 = 5 (Nstb1:12 Nstb2:24) partial Pos: 8.94588e-12 partial Neg: 3.04553e-09
- ibl1 = 3 ibl2 = 4 (Nstb1:3 Nstb2:28) partial Pos: 7.54214e-17 partial Neg: 1.21338e-12
- ibl1 = 3 ibl2 = 7 (Nstb1:3 Nstb2:5) partial Pos: 1.89576e-26 partial Neg: 1.29412e-25
- ibl1 = 4 ibl2 = 6 (Nstb1:28 Nstb2:79) partial Pos: -1.2996e-09 partial Neg: 4.52808e-06
- ibl1 = 4 ibl2 = 8 (Nstb1:28 Nstb2:36) partial Pos: 1.51675e-12 partial Neg: 2.18303e-11
- ibl1 = 5 ibl2 = 6 (Nstb1:24 Nstb2:79) partial Pos: -4.32626e-09 partial Neg: 7.73532e-06
- ibl1 = 6 ibl2 = 9 (Nstb1:79 Nstb2:102) partial Pos: 4.41239e-06 partial Neg: 4.32555e-05
- ibl1 = 6 ibl2 = 10 (Nstb1:79 Nstb2:80) partial Pos: 4.97617e-05 partial Neg: 0.00145567
- ibl1 = 7 ibl2 = 8 (Nstb1:5 Nstb2:36) partial Pos: -1.85613e-16 partial Neg: 6.29412e-12
- ibl1 = 7 ibl2 = 12 (Nstb1:5 Nstb2:3) partial Pos: 1.45111e-25 partial Neg: 1.28027e-26
- ibl1 = 8 ibl2 = 9 (Nstb1:36 Nstb2:102) partial Pos: -2.54169e-08 partial Neg: 1.48941e-05
- ibl1 = 8 ibl2 = 13 (Nstb1:36 Nstb2:26) partial Pos: 9.0919e-12 partial Neg: 7.49832e-13
- ibl1 = 9 ibl2 = 11 (Nstb1:102 Nstb2:140) partial Pos: 0.000192165 partial Neg: 0.00200157
- ibl1 = 9 ibl2 = 14 (Nstb1:102 Nstb2:71) partial Pos: 1.55942e-05 partial Neg: 1.59916e-06
- ibl1 = 10 ibl2 = 11 (Nstb1:80 Nstb2:140) partial Pos: 0.00119799 partial Neg: 0.00260791
- ibl1 = 11 ibl2 = 15 (Nstb1:140 Nstb2:102) partial Pos: 0.00200157 partial Neg: 0.000192165
- ibl1 = 11 ibl2 = 16 (Nstb1:140 Nstb2:80) partial Pos: 0.00260791 partial Neg: 0.00119799
- ibl1 = 12 ibl2 = 13 (Nstb1:3 Nstb2:26) partial Pos: -1.03764e-17 partial Neg: 1.47291e-13
- ibl1 = 12 ibl2 = 18 (Nstb1:3 Nstb2:1) partial Pos: 5.05578e-27 partial Neg: -3.33188e-29
- ibl1 = 13 ibl2 = 14 (Nstb1:26 Nstb2:71) partial Pos: 4.45544e-10 partial Neg: 2.33596e-07
- ibl1 = 13 ibl2 = 19 (Nstb1:26 Nstb2:8) partial Pos: 1.96972e-13 partial Neg: 5.74898e-16
- ibl1 = 14 ibl2 = 15 (Nstb1:71 Nstb2:102) partial Pos: 1.59916e-06 partial Neg: 1.55942e-05
- ibl1 = 14 ibl2 = 20 (Nstb1:71 Nstb2:26) partial Pos: 2.33596e-07 partial Neg: 4.45544e-10
- ibl1 = 15 ibl2 = 17 (Nstb1:102 Nstb2:79) partial Pos: 4.32555e-05 partial Neg: 4.41239e-06
- ibl1 = 15 ibl2 = 21 (Nstb1:102 Nstb2:36) partial Pos: 1.48941e-05 partial Neg: -2.54169e-08
- ibl1 = 16 ibl2 = 17 (Nstb1:80 Nstb2:79) partial Pos: 0.00145567 partial Neg: 4.97617e-05
- ibl1 = 17 ibl2 = 22 (Nstb1:79 Nstb2:28) partial Pos: 4.52808e-06 partial Neg: -1.2996e-09
- ibl1 = 17 ibl2 = 23 (Nstb1:79 Nstb2:24) partial Pos: 7.73532e-06 partial Neg: -4.32626e-09
- ibl1 = 18 ibl2 = 19 (Nstb1:1 Nstb2:8) partial Pos: 1.62279e-23 partial Neg: 1.89838e-19
- ibl1 = 19 ibl2 = 20 (Nstb1:8 Nstb2:26) partial Pos: 5.74898e-16 partial Neg: 1.96972e-13
- ibl1 = 19 ibl2 = 25 (Nstb1:8 Nstb2:1) partial Pos: 1.89838e-19 partial Neg: 1.62279e-23
- ibl1 = 20 ibl2 = 21 (Nstb1:26 Nstb2:36) partial Pos: 7.49832e-13 partial Neg: 9.0919e-12
- ibl1 = 20 ibl2 = 26 (Nstb1:26 Nstb2:3) partial Pos: 1.47291e-13 partial Neg: -1.03764e-17
- ibl1 = 21 ibl2 = 22 (Nstb1:36 Nstb2:28) partial Pos: 2.18303e-11 partial Neg: 1.51675e-12
- ibl1 = 21 ibl2 = 27 (Nstb1:36 Nstb2:5) partial Pos: 6.29412e-12 partial Neg: -1.85613e-16
- ibl1 = 22 ibl2 = 24 (Nstb1:28 Nstb2:12) partial Pos: 3.47177e-12 partial Neg: 1.83151e-16
- ibl1 = 22 ibl2 = 28 (Nstb1:28 Nstb2:3) partial Pos: 1.21338e-12 partial Neg: 7.54214e-17
- ibl1 = 23 ibl2 = 24 (Nstb1:24 Nstb2:12) partial Pos: 3.04553e-09 partial Neg: 8.94588e-12
- ibl1 = 24 ibl2 = 29 (Nstb1:12 Nstb2:1) partial Pos: 1.49194e-16 partial Neg: 4.12537e-21
- ibl1 = 24 ibl2 = 30 (Nstb1:12 Nstb2:1) partial Pos: 2.17574e-16 partial Neg: 7.95508e-20
- ibl1 = 25 ibl2 = 26 (Nstb1:1 Nstb2:3) partial Pos: -3.33188e-29 partial Neg: 5.05578e-27
- ibl1 = 26 ibl2 = 27 (Nstb1:3 Nstb2:5) partial Pos: 1.28027e-26 partial Neg: 1.45111e-25
- ibl1 = 27 ibl2 = 28 (Nstb1:5 Nstb2:3) partial Pos: 1.29412e-25 partial Neg: 1.89576e-26
- ibl1 = 28 ibl2 = 29 (Nstb1:3 Nstb2:1) partial Pos: 1.27916e-26 partial Neg: -1.41488e-28
- Nshell = 17 Pos contribution: 0.00759729 Neg contribution: 0.00759729
+ ibl1 = 0 ibl2 = 2 (Nstb1:8 Nstb2:49) partial Pos: -2.61764e-09 partial Neg: 2.28453e-06
+ ibl1 = 1 ibl2 = 3 (Nstb1:8 Nstb2:49) partial Pos: -5.04066e-10 partial Neg: 9.40937e-07
+ ibl1 = 2 ibl2 = 4 (Nstb1:49 Nstb2:118) partial Pos: 3.58768e-05 partial Neg: 0.000703002
+ ibl1 = 3 ibl2 = 5 (Nstb1:49 Nstb2:118) partial Pos: 1.45484e-05 partial Neg: 0.000261338
+ ibl1 = 4 ibl2 = 6 (Nstb1:118 Nstb2:156) partial Pos: 0.000990799 partial Neg: 0.000227737
+ ibl1 = 5 ibl2 = 7 (Nstb1:118 Nstb2:156) partial Pos: 0.000374828 partial Neg: 0.000507605
+ ibl1 = 6 ibl2 = 8 (Nstb1:156 Nstb2:118) partial Pos: 0.000354275 partial Neg: 4.48327e-05
+ ibl1 = 7 ibl2 = 9 (Nstb1:156 Nstb2:118) partial Pos: 0.00047336 partial Neg: 2.57681e-05
+ ibl1 = 8 ibl2 = 10 (Nstb1:118 Nstb2:49) partial Pos: 2.58352e-05 partial Neg: 1.5064e-06
+ ibl1 = 9 ibl2 = 11 (Nstb1:118 Nstb2:49) partial Pos: 1.88182e-05 partial Neg: 6.91653e-07
+ ibl1 = 10 ibl2 = 12 (Nstb1:49 Nstb2:8) partial Pos: 6.14977e-08 partial Neg: -6.24135e-11
+ ibl1 = 11 ibl2 = 13 (Nstb1:49 Nstb2:8) partial Pos: 2.84816e-08 partial Neg: -8.12887e-12
+ Nshell = 17 Pos contribution: 0.00228843 Neg contribution: 0.00177571
  Checking phs for Nshell = : 15
- ibl1 = 0 ibl2 = 2 (Nstb1:1 Nstb2:12) partial Pos: 1.02366e-20 partial Neg: 3.26777e-16
- ibl1 = 0 ibl2 = 3 (Nstb1:1 Nstb2:4) partial Pos: -1.27041e-27 partial Neg: 1.53647e-25
- ibl1 = 1 ibl2 = 2 (Nstb1:1 Nstb2:12) partial Pos: 2.11306e-19 partial Neg: 5.77743e-16
- ibl1 = 2 ibl2 = 4 (Nstb1:12 Nstb2:28) partial Pos: 1.48497e-15 partial Neg: 1.45429e-11
- ibl1 = 2 ibl2 = 5 (Nstb1:12 Nstb2:24) partial Pos: 1.18474e-11 partial Neg: 4.08961e-09
- ibl1 = 3 ibl2 = 4 (Nstb1:4 Nstb2:28) partial Pos: 3.1124e-16 partial Neg: 4.65044e-12
- ibl1 = 3 ibl2 = 7 (Nstb1:4 Nstb2:5) partial Pos: 2.36599e-25 partial Neg: 1.68015e-24
- ibl1 = 4 ibl2 = 6 (Nstb1:28 Nstb2:78) partial Pos: 1.82877e-08 partial Neg: 8.05593e-06
- ibl1 = 4 ibl2 = 8 (Nstb1:28 Nstb2:38) partial Pos: 6.07192e-12 partial Neg: 1.1688e-10
- ibl1 = 5 ibl2 = 6 (Nstb1:24 Nstb2:78) partial Pos: -1.02762e-08 partial Neg: 1.91583e-05
- ibl1 = 6 ibl2 = 9 (Nstb1:78 Nstb2:102) partial Pos: 6.97075e-06 partial Neg: 0.000138899
- ibl1 = 6 ibl2 = 10 (Nstb1:78 Nstb2:80) partial Pos: 7.74759e-05 partial Neg: 0.00227226
- ibl1 = 7 ibl2 = 8 (Nstb1:5 Nstb2:38) partial Pos: -3.00371e-16 partial Neg: 3.12234e-11
- ibl1 = 7 ibl2 = 12 (Nstb1:5 Nstb2:3) partial Pos: 1.85501e-24 partial Neg: 1.46282e-25
- ibl1 = 8 ibl2 = 9 (Nstb1:38 Nstb2:102) partial Pos: -6.14355e-08 partial Neg: 3.65609e-05
- ibl1 = 8 ibl2 = 13 (Nstb1:38 Nstb2:27) partial Pos: 4.62591e-11 partial Neg: 4.80067e-12
- ibl1 = 9 ibl2 = 11 (Nstb1:102 Nstb2:137) partial Pos: 0.00035876 partial Neg: 0.00315174
- ibl1 = 9 ibl2 = 14 (Nstb1:102 Nstb2:73) partial Pos: 3.89595e-05 partial Neg: 5.49625e-06
- ibl1 = 10 ibl2 = 11 (Nstb1:80 Nstb2:137) partial Pos: 0.00191322 partial Neg: 0.0054801
- ibl1 = 11 ibl2 = 15 (Nstb1:137 Nstb2:102) partial Pos: 0.00315174 partial Neg: 0.00035876
- ibl1 = 11 ibl2 = 16 (Nstb1:137 Nstb2:80) partial Pos: 0.0054801 partial Neg: 0.00191322
- ibl1 = 12 ibl2 = 13 (Nstb1:3 Nstb2:27) partial Pos: -4.42994e-17 partial Neg: 1.00449e-12
- ibl1 = 12 ibl2 = 18 (Nstb1:3 Nstb2:1) partial Pos: 7.00264e-26 partial Neg: -4.46211e-28
- ibl1 = 13 ibl2 = 14 (Nstb1:27 Nstb2:73) partial Pos: 9.08984e-10 partial Neg: 8.72932e-07
- ibl1 = 13 ibl2 = 19 (Nstb1:27 Nstb2:9) partial Pos: 1.36229e-12 partial Neg: 2.55975e-15
- ibl1 = 14 ibl2 = 15 (Nstb1:73 Nstb2:102) partial Pos: 5.49625e-06 partial Neg: 3.89595e-05
- ibl1 = 14 ibl2 = 20 (Nstb1:73 Nstb2:27) partial Pos: 8.72932e-07 partial Neg: 9.08984e-10
- ibl1 = 15 ibl2 = 17 (Nstb1:102 Nstb2:78) partial Pos: 0.000138899 partial Neg: 6.97075e-06
- ibl1 = 15 ibl2 = 21 (Nstb1:102 Nstb2:38) partial Pos: 3.65609e-05 partial Neg: -6.14355e-08
- ibl1 = 16 ibl2 = 17 (Nstb1:80 Nstb2:78) partial Pos: 0.00227226 partial Neg: 7.74759e-05
- ibl1 = 17 ibl2 = 22 (Nstb1:78 Nstb2:28) partial Pos: 8.05593e-06 partial Neg: 1.82877e-08
- ibl1 = 17 ibl2 = 23 (Nstb1:78 Nstb2:24) partial Pos: 1.91583e-05 partial Neg: -1.02762e-08
- ibl1 = 18 ibl2 = 19 (Nstb1:1 Nstb2:9) partial Pos: 8.93169e-23 partial Neg: 2.12685e-18
- ibl1 = 19 ibl2 = 20 (Nstb1:9 Nstb2:27) partial Pos: 2.55975e-15 partial Neg: 1.36229e-12
- ibl1 = 19 ibl2 = 26 (Nstb1:9 Nstb2:1) partial Pos: 2.12685e-18 partial Neg: 8.93169e-23
- ibl1 = 20 ibl2 = 21 (Nstb1:27 Nstb2:38) partial Pos: 4.80067e-12 partial Neg: 4.62591e-11
- ibl1 = 20 ibl2 = 27 (Nstb1:27 Nstb2:3) partial Pos: 1.00449e-12 partial Neg: -4.42994e-17
- ibl1 = 21 ibl2 = 22 (Nstb1:38 Nstb2:28) partial Pos: 1.1688e-10 partial Neg: 6.07192e-12
- ibl1 = 21 ibl2 = 28 (Nstb1:38 Nstb2:5) partial Pos: 3.12234e-11 partial Neg: -3.00371e-16
- ibl1 = 22 ibl2 = 24 (Nstb1:28 Nstb2:12) partial Pos: 1.45429e-11 partial Neg: 1.48497e-15
- ibl1 = 22 ibl2 = 29 (Nstb1:28 Nstb2:4) partial Pos: 4.65044e-12 partial Neg: 3.1124e-16
- ibl1 = 23 ibl2 = 24 (Nstb1:24 Nstb2:12) partial Pos: 4.08961e-09 partial Neg: 1.18474e-11
- ibl1 = 24 ibl2 = 25 (Nstb1:12 Nstb2:1) partial Pos: 5.77743e-16 partial Neg: 2.11306e-19
- ibl1 = 24 ibl2 = 30 (Nstb1:12 Nstb2:1) partial Pos: 3.26777e-16 partial Neg: 1.02366e-20
- ibl1 = 26 ibl2 = 27 (Nstb1:1 Nstb2:3) partial Pos: -4.46211e-28 partial Neg: 7.00264e-26
- ibl1 = 27 ibl2 = 28 (Nstb1:3 Nstb2:5) partial Pos: 1.46282e-25 partial Neg: 1.85501e-24
- ibl1 = 28 ibl2 = 29 (Nstb1:5 Nstb2:4) partial Pos: 1.68015e-24 partial Neg: 2.36599e-25
- ibl1 = 29 ibl2 = 30 (Nstb1:4 Nstb2:1) partial Pos: 1.53647e-25 partial Neg: -1.27041e-27
- Nshell = 15 Pos contribution: 0.0135085 Neg contribution: 0.0135085
+ ibl1 = 0 ibl2 = 2 (Nstb1:9 Nstb2:51) partial Pos: -1.81781e-09 partial Neg: 1.94159e-06
+ ibl1 = 1 ibl2 = 3 (Nstb1:9 Nstb2:51) partial Pos: -9.87646e-09 partial Neg: 5.63573e-06
+ ibl1 = 2 ibl2 = 4 (Nstb1:51 Nstb2:121) partial Pos: 2.66947e-05 partial Neg: 0.000447103
+ ibl1 = 3 ibl2 = 5 (Nstb1:51 Nstb2:121) partial Pos: 7.42392e-05 partial Neg: 0.0013145
+ ibl1 = 4 ibl2 = 6 (Nstb1:121 Nstb2:158) partial Pos: 0.000694776 partial Neg: 0.000992541
+ ibl1 = 5 ibl2 = 7 (Nstb1:121 Nstb2:158) partial Pos: 0.00207306 partial Neg: 0.000392875
+ ibl1 = 6 ibl2 = 8 (Nstb1:158 Nstb2:121) partial Pos: 0.000940186 partial Neg: 5.85732e-05
+ ibl1 = 7 ibl2 = 9 (Nstb1:158 Nstb2:121) partial Pos: 0.000658347 partial Neg: 0.000107615
+ ibl1 = 8 ibl2 = 10 (Nstb1:121 Nstb2:51) partial Pos: 4.29949e-05 partial Neg: 1.58355e-06
+ ibl1 = 9 ibl2 = 11 (Nstb1:121 Nstb2:51) partial Pos: 5.81962e-05 partial Neg: 3.76615e-06
+ ibl1 = 10 ibl2 = 12 (Nstb1:51 Nstb2:9) partial Pos: 7.08453e-08 partial Neg: -4.66955e-11
+ ibl1 = 11 ibl2 = 13 (Nstb1:51 Nstb2:9) partial Pos: 1.82484e-07 partial Neg: -2.95699e-10
+ Nshell = 15 Pos contribution: 0.00456873 Neg contribution: 0.00332613
  Checking phs for Nshell = : 13
- ibl1 = 0 ibl2 = 2 (Nstb1:1 Nstb2:12) partial Pos: 2.54269e-20 partial Neg: 7.15501e-16
- ibl1 = 0 ibl2 = 3 (Nstb1:1 Nstb2:4) partial Pos: -8.11747e-27 partial Neg: 1.08528e-24
- ibl1 = 1 ibl2 = 2 (Nstb1:1 Nstb2:12) partial Pos: 5.2627e-19 partial Neg: 1.49522e-15
- ibl1 = 2 ibl2 = 4 (Nstb1:12 Nstb2:28) partial Pos: 4.60274e-15 partial Neg: 5.36484e-11
- ibl1 = 2 ibl2 = 5 (Nstb1:12 Nstb2:24) partial Pos: 1.42444e-11 partial Neg: 5.52056e-09
- ibl1 = 3 ibl2 = 4 (Nstb1:4 Nstb2:28) partial Pos: 1.03246e-15 partial Neg: 1.55146e-11
- ibl1 = 3 ibl2 = 7 (Nstb1:4 Nstb2:5) partial Pos: 1.68409e-24 partial Neg: 1.37e-23
- ibl1 = 4 ibl2 = 6 (Nstb1:28 Nstb2:77) partial Pos: 2.9475e-08 partial Neg: 1.45943e-05
- ibl1 = 4 ibl2 = 8 (Nstb1:28 Nstb2:38) partial Pos: 2.12135e-11 partial Neg: 5.20243e-10
- ibl1 = 5 ibl2 = 6 (Nstb1:24 Nstb2:77) partial Pos: -2.41474e-08 partial Neg: 4.63295e-05
- ibl1 = 6 ibl2 = 9 (Nstb1:77 Nstb2:102) partial Pos: 1.30249e-05 partial Neg: 0.000418306
- ibl1 = 6 ibl2 = 10 (Nstb1:77 Nstb2:79) partial Pos: 0.000123885 partial Neg: 0.00360067
- ibl1 = 7 ibl2 = 8 (Nstb1:5 Nstb2:38) partial Pos: 7.61362e-16 partial Neg: 1.26996e-10
- ibl1 = 7 ibl2 = 12 (Nstb1:5 Nstb2:4) partial Pos: 1.49056e-23 partial Neg: 1.25777e-24
- ibl1 = 8 ibl2 = 9 (Nstb1:38 Nstb2:102) partial Pos: 8.96409e-08 partial Neg: 8.71953e-05
- ibl1 = 8 ibl2 = 13 (Nstb1:38 Nstb2:27) partial Pos: 1.93421e-10 partial Neg: 2.50283e-11
- ibl1 = 9 ibl2 = 11 (Nstb1:102 Nstb2:136) partial Pos: 0.000743966 partial Neg: 0.00506658
- ibl1 = 9 ibl2 = 14 (Nstb1:102 Nstb2:73) partial Pos: 9.45995e-05 partial Neg: 1.91193e-05
- ibl1 = 10 ibl2 = 11 (Nstb1:79 Nstb2:136) partial Pos: 0.00311485 partial Neg: 0.0117488
- ibl1 = 11 ibl2 = 15 (Nstb1:136 Nstb2:102) partial Pos: 0.00506658 partial Neg: 0.000743966
- ibl1 = 11 ibl2 = 16 (Nstb1:136 Nstb2:79) partial Pos: 0.0117488 partial Neg: 0.00311485
- ibl1 = 12 ibl2 = 13 (Nstb1:4 Nstb2:27) partial Pos: -1.4968e-16 partial Neg: 5.14124e-12
- ibl1 = 12 ibl2 = 19 (Nstb1:4 Nstb2:1) partial Pos: 6.74549e-25 partial Neg: -3.51289e-27
- ibl1 = 13 ibl2 = 14 (Nstb1:27 Nstb2:73) partial Pos: 1.16816e-09 partial Neg: 2.85523e-06
- ibl1 = 13 ibl2 = 20 (Nstb1:27 Nstb2:10) partial Pos: 7.07507e-12 partial Neg: 8.63141e-15
- ibl1 = 14 ibl2 = 15 (Nstb1:73 Nstb2:102) partial Pos: 1.91193e-05 partial Neg: 9.45995e-05
- ibl1 = 14 ibl2 = 21 (Nstb1:73 Nstb2:27) partial Pos: 2.85523e-06 partial Neg: 1.16816e-09
- ibl1 = 15 ibl2 = 17 (Nstb1:102 Nstb2:77) partial Pos: 0.000418306 partial Neg: 1.30249e-05
- ibl1 = 15 ibl2 = 22 (Nstb1:102 Nstb2:38) partial Pos: 8.71953e-05 partial Neg: 8.96409e-08
- ibl1 = 16 ibl2 = 17 (Nstb1:79 Nstb2:77) partial Pos: 0.00360067 partial Neg: 0.000123885
- ibl1 = 17 ibl2 = 18 (Nstb1:77 Nstb2:24) partial Pos: 4.63295e-05 partial Neg: -2.41474e-08
- ibl1 = 17 ibl2 = 23 (Nstb1:77 Nstb2:28) partial Pos: 1.45943e-05 partial Neg: 2.9475e-08
- ibl1 = 18 ibl2 = 24 (Nstb1:24 Nstb2:12) partial Pos: 5.52056e-09 partial Neg: 1.42444e-11
- ibl1 = 19 ibl2 = 20 (Nstb1:1 Nstb2:10) partial Pos: 6.20125e-22 partial Neg: 1.58336e-17
- ibl1 = 20 ibl2 = 21 (Nstb1:10 Nstb2:27) partial Pos: 8.63141e-15 partial Neg: 7.07507e-12
- ibl1 = 20 ibl2 = 26 (Nstb1:10 Nstb2:1) partial Pos: 1.58336e-17 partial Neg: 6.20125e-22
- ibl1 = 21 ibl2 = 22 (Nstb1:27 Nstb2:38) partial Pos: 2.50283e-11 partial Neg: 1.93421e-10
- ibl1 = 21 ibl2 = 27 (Nstb1:27 Nstb2:4) partial Pos: 5.14124e-12 partial Neg: -1.4968e-16
- ibl1 = 22 ibl2 = 23 (Nstb1:38 Nstb2:28) partial Pos: 5.20243e-10 partial Neg: 2.12135e-11
- ibl1 = 22 ibl2 = 28 (Nstb1:38 Nstb2:5) partial Pos: 1.26996e-10 partial Neg: 7.61362e-16
- ibl1 = 23 ibl2 = 24 (Nstb1:28 Nstb2:12) partial Pos: 5.36484e-11 partial Neg: 4.60274e-15
- ibl1 = 23 ibl2 = 29 (Nstb1:28 Nstb2:4) partial Pos: 1.55146e-11 partial Neg: 1.03246e-15
- ibl1 = 24 ibl2 = 25 (Nstb1:12 Nstb2:1) partial Pos: 1.49522e-15 partial Neg: 5.2627e-19
- ibl1 = 24 ibl2 = 30 (Nstb1:12 Nstb2:1) partial Pos: 7.15501e-16 partial Neg: 2.54269e-20
- ibl1 = 26 ibl2 = 27 (Nstb1:1 Nstb2:4) partial Pos: -3.51289e-27 partial Neg: 6.74549e-25
- ibl1 = 27 ibl2 = 28 (Nstb1:4 Nstb2:5) partial Pos: 1.25777e-24 partial Neg: 1.49056e-23
- ibl1 = 28 ibl2 = 29 (Nstb1:5 Nstb2:4) partial Pos: 1.37e-23 partial Neg: 1.68409e-24
- ibl1 = 29 ibl2 = 30 (Nstb1:4 Nstb2:1) partial Pos: 1.08528e-24 partial Neg: -8.11747e-27
- Nshell = 13 Pos contribution: 0.0250949 Neg contribution: 0.0250949
+ ibl1 = 0 ibl2 = 2 (Nstb1:8 Nstb2:51) partial Pos: -4.89999e-09 partial Neg: 1.35932e-05
+ ibl1 = 1 ibl2 = 3 (Nstb1:8 Nstb2:51) partial Pos: 7.23285e-09 partial Neg: 3.96014e-06
+ ibl1 = 2 ibl2 = 4 (Nstb1:51 Nstb2:129) partial Pos: 0.000194083 partial Neg: 0.00220439
+ ibl1 = 3 ibl2 = 5 (Nstb1:51 Nstb2:129) partial Pos: 5.92308e-05 partial Neg: 0.000802448
+ ibl1 = 4 ibl2 = 6 (Nstb1:129 Nstb2:172) partial Pos: 0.00683493 partial Neg: 0.00084695
+ ibl1 = 5 ibl2 = 7 (Nstb1:129 Nstb2:172) partial Pos: 0.00243149 partial Neg: 0.0023748
+ ibl1 = 6 ibl2 = 8 (Nstb1:172 Nstb2:129) partial Pos: 0.00223052 partial Neg: 0.000385439
+ ibl1 = 7 ibl2 = 9 (Nstb1:172 Nstb2:129) partial Pos: 0.00283831 partial Neg: 0.000244691
+ ibl1 = 8 ibl2 = 10 (Nstb1:129 Nstb2:51) partial Pos: 0.000117675 partial Neg: 1.0805e-05
+ ibl1 = 9 ibl2 = 11 (Nstb1:129 Nstb2:51) partial Pos: 0.000110162 partial Neg: 3.96921e-06
+ ibl1 = 10 ibl2 = 12 (Nstb1:51 Nstb2:8) partial Pos: 5.21524e-07 partial Neg: 1.45345e-10
+ ibl1 = 11 ibl2 = 13 (Nstb1:51 Nstb2:8) partial Pos: 1.71102e-07 partial Neg: 3.74949e-10
+ Nshell = 13 Pos contribution: 0.0148171 Neg contribution: 0.00689105
  Checking phs for Nshell = : 11
- ibl1 = 0 ibl2 = 2 (Nstb1:1 Nstb2:12) partial Pos: 5.6735e-20 partial Neg: 1.42774e-15
- ibl1 = 0 ibl2 = 3 (Nstb1:1 Nstb2:4) partial Pos: -3.52045e-26 partial Neg: 5.72109e-24
- ibl1 = 1 ibl2 = 2 (Nstb1:1 Nstb2:12) partial Pos: 1.26607e-18 partial Neg: 3.69888e-15
- ibl1 = 2 ibl2 = 4 (Nstb1:12 Nstb2:28) partial Pos: 7.34061e-15 partial Neg: 1.7837e-10
- ibl1 = 2 ibl2 = 5 (Nstb1:12 Nstb2:24) partial Pos: 1.86374e-11 partial Neg: 7.62309e-09
- ibl1 = 3 ibl2 = 4 (Nstb1:4 Nstb2:28) partial Pos: 3.0281e-15 partial Neg: 4.35192e-11
- ibl1 = 3 ibl2 = 7 (Nstb1:4 Nstb2:5) partial Pos: 8.41689e-24 partial Neg: 7.89307e-23
- ibl1 = 4 ibl2 = 6 (Nstb1:28 Nstb2:77) partial Pos: 4.33024e-08 partial Neg: 2.60396e-05
- ibl1 = 4 ibl2 = 8 (Nstb1:28 Nstb2:38) partial Pos: 6.32598e-11 partial Neg: 1.98578e-09
- ibl1 = 5 ibl2 = 6 (Nstb1:24 Nstb2:77) partial Pos: -3.97848e-08 partial Neg: 0.000115605
- ibl1 = 6 ibl2 = 9 (Nstb1:77 Nstb2:102) partial Pos: 2.3985e-05 partial Neg: 0.00124027
- ibl1 = 6 ibl2 = 10 (Nstb1:77 Nstb2:79) partial Pos: 0.000218025 partial Neg: 0.00606085
- ibl1 = 7 ibl2 = 8 (Nstb1:5 Nstb2:38) partial Pos: 7.23575e-15 partial Neg: 4.12904e-10
- ibl1 = 7 ibl2 = 13 (Nstb1:5 Nstb2:4) partial Pos: 8.15291e-23 partial Neg: 7.74331e-24
- ibl1 = 8 ibl2 = 9 (Nstb1:38 Nstb2:102) partial Pos: 1.17057e-07 partial Neg: 0.000194077
- ibl1 = 8 ibl2 = 14 (Nstb1:38 Nstb2:27) partial Pos: 6.58744e-10 partial Neg: 1.07977e-10
- ibl1 = 9 ibl2 = 11 (Nstb1:102 Nstb2:136) partial Pos: 0.00171258 partial Neg: 0.00841523
- ibl1 = 9 ibl2 = 15 (Nstb1:102 Nstb2:73) partial Pos: 0.00021479 partial Neg: 6.4384e-05
- ibl1 = 10 ibl2 = 11 (Nstb1:79 Nstb2:136) partial Pos: 0.00538913 partial Neg: 0.0268169
- ibl1 = 11 ibl2 = 12 (Nstb1:136 Nstb2:79) partial Pos: 0.0268169 partial Neg: 0.00538913
- ibl1 = 11 ibl2 = 16 (Nstb1:136 Nstb2:102) partial Pos: 0.00841523 partial Neg: 0.00171258
- ibl1 = 12 ibl2 = 17 (Nstb1:79 Nstb2:77) partial Pos: 0.00606085 partial Neg: 0.000218025
- ibl1 = 13 ibl2 = 14 (Nstb1:4 Nstb2:27) partial Pos: -4.59422e-16 partial Neg: 1.96607e-11
- ibl1 = 13 ibl2 = 19 (Nstb1:4 Nstb2:1) partial Pos: 4.21884e-24 partial Neg: -2.24116e-26
- ibl1 = 14 ibl2 = 15 (Nstb1:27 Nstb2:73) partial Pos: -5.6272e-11 partial Neg: 7.96767e-06
- ibl1 = 14 ibl2 = 20 (Nstb1:27 Nstb2:10) partial Pos: 2.78878e-11 partial Neg: 2.14809e-14
- ibl1 = 15 ibl2 = 16 (Nstb1:73 Nstb2:102) partial Pos: 6.4384e-05 partial Neg: 0.00021479
- ibl1 = 15 ibl2 = 21 (Nstb1:73 Nstb2:27) partial Pos: 7.96767e-06 partial Neg: -5.6272e-11
- ibl1 = 16 ibl2 = 17 (Nstb1:102 Nstb2:77) partial Pos: 0.00124027 partial Neg: 2.3985e-05
- ibl1 = 16 ibl2 = 22 (Nstb1:102 Nstb2:38) partial Pos: 0.000194077 partial Neg: 1.17057e-07
- ibl1 = 17 ibl2 = 18 (Nstb1:77 Nstb2:24) partial Pos: 0.000115605 partial Neg: -3.97848e-08
- ibl1 = 17 ibl2 = 23 (Nstb1:77 Nstb2:28) partial Pos: 2.60396e-05 partial Neg: 4.33024e-08
- ibl1 = 18 ibl2 = 24 (Nstb1:24 Nstb2:12) partial Pos: 7.62309e-09 partial Neg: 1.86374e-11
- ibl1 = 19 ibl2 = 20 (Nstb1:1 Nstb2:10) partial Pos: 2.82897e-21 partial Neg: 8.04419e-17
- ibl1 = 20 ibl2 = 21 (Nstb1:10 Nstb2:27) partial Pos: 2.14809e-14 partial Neg: 2.78878e-11
- ibl1 = 20 ibl2 = 26 (Nstb1:10 Nstb2:1) partial Pos: 8.04419e-17 partial Neg: 2.82897e-21
- ibl1 = 21 ibl2 = 22 (Nstb1:27 Nstb2:38) partial Pos: 1.07977e-10 partial Neg: 6.58744e-10
- ibl1 = 21 ibl2 = 27 (Nstb1:27 Nstb2:4) partial Pos: 1.96607e-11 partial Neg: -4.59422e-16
- ibl1 = 22 ibl2 = 23 (Nstb1:38 Nstb2:28) partial Pos: 1.98578e-09 partial Neg: 6.32598e-11
- ibl1 = 22 ibl2 = 28 (Nstb1:38 Nstb2:5) partial Pos: 4.12904e-10 partial Neg: 7.23575e-15
- ibl1 = 23 ibl2 = 24 (Nstb1:28 Nstb2:12) partial Pos: 1.7837e-10 partial Neg: 7.34061e-15
- ibl1 = 23 ibl2 = 29 (Nstb1:28 Nstb2:4) partial Pos: 4.35192e-11 partial Neg: 3.0281e-15
- ibl1 = 24 ibl2 = 25 (Nstb1:12 Nstb2:1) partial Pos: 3.69888e-15 partial Neg: 1.26607e-18
- ibl1 = 24 ibl2 = 30 (Nstb1:12 Nstb2:1) partial Pos: 1.42774e-15 partial Neg: 5.6735e-20
- ibl1 = 26 ibl2 = 27 (Nstb1:1 Nstb2:4) partial Pos: -2.24116e-26 partial Neg: 4.21884e-24
- ibl1 = 27 ibl2 = 28 (Nstb1:4 Nstb2:5) partial Pos: 7.74331e-24 partial Neg: 8.15291e-23
- ibl1 = 28 ibl2 = 29 (Nstb1:5 Nstb2:4) partial Pos: 7.89307e-23 partial Neg: 8.41689e-24
- ibl1 = 29 ibl2 = 30 (Nstb1:4 Nstb2:1) partial Pos: 5.72109e-24 partial Neg: -3.52045e-26
- Nshell = 11 Pos contribution: 0.0504999 Neg contribution: 0.0504999
+ ibl1 = 0 ibl2 = 2 (Nstb1:7 Nstb2:45) partial Pos: 1.27143e-08 partial Neg: 7.96148e-06
+ ibl1 = 1 ibl2 = 3 (Nstb1:7 Nstb2:45) partial Pos: -1.96014e-08 partial Neg: 3.14358e-05
+ ibl1 = 2 ibl2 = 4 (Nstb1:45 Nstb2:120) partial Pos: 9.8006e-05 partial Neg: 0.00136228
+ ibl1 = 3 ibl2 = 5 (Nstb1:45 Nstb2:120) partial Pos: 0.000431416 partial Neg: 0.00251012
+ ibl1 = 4 ibl2 = 6 (Nstb1:120 Nstb2:162) partial Pos: 0.00445389 partial Neg: 0.00413006
+ ibl1 = 5 ibl2 = 7 (Nstb1:120 Nstb2:162) partial Pos: 0.0133364 partial Neg: 0.00152316
+ ibl1 = 6 ibl2 = 8 (Nstb1:162 Nstb2:120) partial Pos: 0.00488887 partial Neg: 0.000527809
+ ibl1 = 7 ibl2 = 9 (Nstb1:162 Nstb2:120) partial Pos: 0.00397571 partial Neg: 0.000851245
+ ibl1 = 8 ibl2 = 10 (Nstb1:120 Nstb2:45) partial Pos: 0.000245541 partial Neg: 8.01069e-06
+ ibl1 = 9 ibl2 = 11 (Nstb1:120 Nstb2:45) partial Pos: 0.000162792 partial Neg: 2.70864e-05
+ ibl1 = 10 ibl2 = 12 (Nstb1:45 Nstb2:7) partial Pos: 3.99387e-07 partial Neg: 8.21301e-10
+ ibl1 = 11 ibl2 = 13 (Nstb1:45 Nstb2:7) partial Pos: 1.40722e-06 partial Neg: 1.42359e-10
+ Nshell = 11 Pos contribution: 0.0275944 Neg contribution: 0.0109792
  Checking phs for Nshell = : 9
- ibl1 = 0 ibl2 = 2 (Nstb1:1 Nstb2:12) partial Pos: 1.16844e-19 partial Neg: 2.50757e-15
- ibl1 = 0 ibl2 = 3 (Nstb1:1 Nstb2:4) partial Pos: -1.44514e-25 partial Neg: 3.06928e-23
- ibl1 = 1 ibl2 = 2 (Nstb1:1 Nstb2:12) partial Pos: 3.0292e-18 partial Neg: 9.91364e-15
- ibl1 = 2 ibl2 = 4 (Nstb1:12 Nstb2:28) partial Pos: -1.1912e-14 partial Neg: 5.98279e-10
- ibl1 = 2 ibl2 = 5 (Nstb1:12 Nstb2:24) partial Pos: 2.48716e-11 partial Neg: 1.13197e-08
- ibl1 = 3 ibl2 = 4 (Nstb1:4 Nstb2:28) partial Pos: 7.95887e-15 partial Neg: 9.76968e-11
- ibl1 = 3 ibl2 = 8 (Nstb1:4 Nstb2:5) partial Pos: 3.76895e-23 partial Neg: 4.19987e-22
- ibl1 = 4 ibl2 = 6 (Nstb1:28 Nstb2:78) partial Pos: 5.84529e-08 partial Neg: 4.3532e-05
- ibl1 = 4 ibl2 = 9 (Nstb1:28 Nstb2:38) partial Pos: 1.57614e-10 partial Neg: 7.33186e-09
- ibl1 = 5 ibl2 = 6 (Nstb1:24 Nstb2:78) partial Pos: -9.24993e-08 partial Neg: 0.000378178
- ibl1 = 6 ibl2 = 7 (Nstb1:78 Nstb2:79) partial Pos: 0.000511629 partial Neg: 0.0134122
- ibl1 = 6 ibl2 = 10 (Nstb1:78 Nstb2:102) partial Pos: 4.14551e-05 partial Neg: 0.00462292
- ibl1 = 7 ibl2 = 11 (Nstb1:79 Nstb2:138) partial Pos: 0.0123853 partial Neg: 0.080975
- ibl1 = 8 ibl2 = 9 (Nstb1:5 Nstb2:38) partial Pos: 3.20475e-14 partial Neg: 1.03347e-09
- ibl1 = 8 ibl2 = 13 (Nstb1:5 Nstb2:4) partial Pos: 3.71085e-22 partial Neg: 4.17149e-23
- ibl1 = 9 ibl2 = 10 (Nstb1:38 Nstb2:102) partial Pos: 8.23151e-08 partial Neg: 0.000381211
- ibl1 = 9 ibl2 = 14 (Nstb1:38 Nstb2:27) partial Pos: 1.81393e-09 partial Neg: 4.31832e-10
- ibl1 = 10 ibl2 = 11 (Nstb1:102 Nstb2:138) partial Pos: 0.00528467 partial Neg: 0.0155034
- ibl1 = 10 ibl2 = 15 (Nstb1:102 Nstb2:73) partial Pos: 0.000436213 partial Neg: 0.000266309
- ibl1 = 11 ibl2 = 12 (Nstb1:138 Nstb2:79) partial Pos: 0.080975 partial Neg: 0.0123853
- ibl1 = 11 ibl2 = 16 (Nstb1:138 Nstb2:102) partial Pos: 0.0155034 partial Neg: 0.00528467
- ibl1 = 12 ibl2 = 17 (Nstb1:79 Nstb2:78) partial Pos: 0.0134122 partial Neg: 0.000511629
- ibl1 = 13 ibl2 = 14 (Nstb1:4 Nstb2:27) partial Pos: -1.01323e-15 partial Neg: 5.53817e-11
- ibl1 = 13 ibl2 = 19 (Nstb1:4 Nstb2:1) partial Pos: 1.97884e-23 partial Neg: -1.15758e-25
- ibl1 = 14 ibl2 = 15 (Nstb1:27 Nstb2:73) partial Pos: -5.62847e-09 partial Neg: 1.83954e-05
- ibl1 = 14 ibl2 = 20 (Nstb1:27 Nstb2:10) partial Pos: 8.36946e-11 partial Neg: 3.1684e-14
- ibl1 = 15 ibl2 = 16 (Nstb1:73 Nstb2:102) partial Pos: 0.000266309 partial Neg: 0.000436213
- ibl1 = 15 ibl2 = 21 (Nstb1:73 Nstb2:27) partial Pos: 1.83954e-05 partial Neg: -5.62847e-09
- ibl1 = 16 ibl2 = 17 (Nstb1:102 Nstb2:78) partial Pos: 0.00462292 partial Neg: 4.14551e-05
- ibl1 = 16 ibl2 = 22 (Nstb1:102 Nstb2:38) partial Pos: 0.000381211 partial Neg: 8.23151e-08
- ibl1 = 17 ibl2 = 18 (Nstb1:78 Nstb2:24) partial Pos: 0.000378178 partial Neg: -9.24993e-08
- ibl1 = 17 ibl2 = 23 (Nstb1:78 Nstb2:28) partial Pos: 4.3532e-05 partial Neg: 5.84529e-08
- ibl1 = 18 ibl2 = 24 (Nstb1:24 Nstb2:12) partial Pos: 1.13197e-08 partial Neg: 2.48716e-11
- ibl1 = 19 ibl2 = 20 (Nstb1:1 Nstb2:10) partial Pos: 8.56074e-21 partial Neg: 2.81541e-16
- ibl1 = 20 ibl2 = 21 (Nstb1:10 Nstb2:27) partial Pos: 3.1684e-14 partial Neg: 8.36946e-11
- ibl1 = 20 ibl2 = 26 (Nstb1:10 Nstb2:1) partial Pos: 2.81541e-16 partial Neg: 8.56074e-21
- ibl1 = 21 ibl2 = 22 (Nstb1:27 Nstb2:38) partial Pos: 4.31832e-10 partial Neg: 1.81393e-09
- ibl1 = 21 ibl2 = 27 (Nstb1:27 Nstb2:4) partial Pos: 5.53817e-11 partial Neg: -1.01323e-15
- ibl1 = 22 ibl2 = 23 (Nstb1:38 Nstb2:28) partial Pos: 7.33186e-09 partial Neg: 1.57614e-10
- ibl1 = 22 ibl2 = 28 (Nstb1:38 Nstb2:5) partial Pos: 1.03347e-09 partial Neg: 3.20475e-14
- ibl1 = 23 ibl2 = 24 (Nstb1:28 Nstb2:12) partial Pos: 5.98279e-10 partial Neg: -1.1912e-14
- ibl1 = 23 ibl2 = 29 (Nstb1:28 Nstb2:4) partial Pos: 9.76968e-11 partial Neg: 7.95887e-15
- ibl1 = 24 ibl2 = 25 (Nstb1:12 Nstb2:1) partial Pos: 9.91364e-15 partial Neg: 3.0292e-18
- ibl1 = 24 ibl2 = 30 (Nstb1:12 Nstb2:1) partial Pos: 2.50757e-15 partial Neg: 1.16844e-19
- ibl1 = 26 ibl2 = 27 (Nstb1:1 Nstb2:4) partial Pos: -1.15758e-25 partial Neg: 1.97884e-23
- ibl1 = 27 ibl2 = 28 (Nstb1:4 Nstb2:5) partial Pos: 4.17149e-23 partial Neg: 3.71085e-22
- ibl1 = 28 ibl2 = 29 (Nstb1:5 Nstb2:4) partial Pos: 4.19987e-22 partial Neg: 3.76895e-23
- ibl1 = 29 ibl2 = 30 (Nstb1:4 Nstb2:1) partial Pos: 3.06928e-23 partial Neg: -1.44514e-25
- Nshell = 9 Pos contribution: 0.13426 Neg contribution: 0.13426
+ ibl1 = 0 ibl2 = 2 (Nstb1:7 Nstb2:47) partial Pos: -5.58337e-08 partial Neg: 6.78658e-05
+ ibl1 = 1 ibl2 = 3 (Nstb1:7 Nstb2:47) partial Pos: 1.99923e-08 partial Neg: 1.53388e-05
+ ibl1 = 2 ibl2 = 4 (Nstb1:47 Nstb2:125) partial Pos: 0.000981945 partial Neg: 0.00450318
+ ibl1 = 3 ibl2 = 5 (Nstb1:47 Nstb2:125) partial Pos: 0.000167605 partial Neg: 0.00236354
+ ibl1 = 4 ibl2 = 6 (Nstb1:125 Nstb2:169) partial Pos: 0.0281762 partial Neg: 0.00319753
+ ibl1 = 5 ibl2 = 7 (Nstb1:125 Nstb2:169) partial Pos: 0.00710608 partial Neg: 0.00994427
+ ibl1 = 6 ibl2 = 8 (Nstb1:169 Nstb2:125) partial Pos: 0.0073352 partial Neg: 0.00208298
+ ibl1 = 7 ibl2 = 9 (Nstb1:169 Nstb2:125) partial Pos: 0.00975825 partial Neg: 0.00110417
+ ibl1 = 8 ibl2 = 10 (Nstb1:125 Nstb2:47) partial Pos: 0.000333385 partial Neg: 6.74391e-05
+ ibl1 = 9 ibl2 = 11 (Nstb1:125 Nstb2:47) partial Pos: 0.000552691 partial Neg: 1.57832e-05
+ ibl1 = 10 ibl2 = 12 (Nstb1:47 Nstb2:7) partial Pos: 3.48779e-06 partial Neg: -2.76279e-10
+ ibl1 = 11 ibl2 = 13 (Nstb1:47 Nstb2:7) partial Pos: 8.75333e-07 partial Neg: 1.59567e-09
+ Nshell = 9 Pos contribution: 0.0544157 Neg contribution: 0.0233621
  Checking phs for Nshell = : 7
- ibl1 = 0 ibl2 = 2 (Nstb1:1 Nstb2:12) partial Pos: -1.03053e-18 partial Neg: 3.47691e-15
- ibl1 = 0 ibl2 = 4 (Nstb1:1 Nstb2:3) partial Pos: -6.19701e-25 partial Neg: 1.69404e-22
- ibl1 = 1 ibl2 = 2 (Nstb1:1 Nstb2:12) partial Pos: 5.16656e-18 partial Neg: 3.89592e-14
- ibl1 = 2 ibl2 = 3 (Nstb1:12 Nstb2:26) partial Pos: 4.10468e-11 partial Neg: 6.10929e-08
- ibl1 = 2 ibl2 = 5 (Nstb1:12 Nstb2:29) partial Pos: -2.1713e-13 partial Neg: 9.70531e-09
- ibl1 = 3 ibl2 = 6 (Nstb1:26 Nstb2:80) partial Pos: -2.95878e-07 partial Neg: 0.00146863
- ibl1 = 4 ibl2 = 5 (Nstb1:3 Nstb2:29) partial Pos: 2.60766e-14 partial Neg: 1.59901e-10
- ibl1 = 4 ibl2 = 8 (Nstb1:3 Nstb2:5) partial Pos: 1.25958e-22 partial Neg: 2.11774e-21
- ibl1 = 5 ibl2 = 6 (Nstb1:29 Nstb2:80) partial Pos: 7.28507e-08 partial Neg: 8.0195e-05
- ibl1 = 5 ibl2 = 9 (Nstb1:29 Nstb2:35) partial Pos: 3.15272e-10 partial Neg: 1.26155e-07
- ibl1 = 6 ibl2 = 7 (Nstb1:80 Nstb2:84) partial Pos: 0.00164228 partial Neg: 0.0370749
- ibl1 = 6 ibl2 = 10 (Nstb1:80 Nstb2:105) partial Pos: 7.9456e-05 partial Neg: 0.0197536
- ibl1 = 7 ibl2 = 11 (Nstb1:84 Nstb2:142) partial Pos: 0.0354412 partial Neg: 0.294502
- ibl1 = 8 ibl2 = 9 (Nstb1:5 Nstb2:35) partial Pos: 1.10144e-13 partial Neg: 1.83178e-09
- ibl1 = 8 ibl2 = 13 (Nstb1:5 Nstb2:3) partial Pos: 1.23283e-21 partial Neg: 2.07509e-22
- ibl1 = 9 ibl2 = 10 (Nstb1:35 Nstb2:105) partial Pos: -6.51874e-09 partial Neg: 0.000663792
- ibl1 = 9 ibl2 = 14 (Nstb1:35 Nstb2:25) partial Pos: 3.91521e-09 partial Neg: 7.91892e-09
- ibl1 = 10 ibl2 = 11 (Nstb1:105 Nstb2:142) partial Pos: 0.0206428 partial Neg: 0.0311278
- ibl1 = 10 ibl2 = 15 (Nstb1:105 Nstb2:69) partial Pos: 0.000803772 partial Neg: 0.00127336
- ibl1 = 11 ibl2 = 12 (Nstb1:142 Nstb2:84) partial Pos: 0.294502 partial Neg: 0.0354412
- ibl1 = 11 ibl2 = 16 (Nstb1:142 Nstb2:105) partial Pos: 0.0311278 partial Neg: 0.0206428
- ibl1 = 12 ibl2 = 17 (Nstb1:84 Nstb2:80) partial Pos: 0.0370749 partial Neg: 0.00164228
- ibl1 = 13 ibl2 = 14 (Nstb1:3 Nstb2:25) partial Pos: -1.76579e-15 partial Neg: 1.07004e-10
- ibl1 = 13 ibl2 = 19 (Nstb1:3 Nstb2:1) partial Pos: 6.20096e-23 partial Neg: -5.31822e-25
- ibl1 = 14 ibl2 = 15 (Nstb1:25 Nstb2:69) partial Pos: -1.69237e-08 partial Neg: 3.32634e-05
- ibl1 = 14 ibl2 = 20 (Nstb1:25 Nstb2:8) partial Pos: 1.83768e-10 partial Neg: -2.75623e-14
- ibl1 = 15 ibl2 = 16 (Nstb1:69 Nstb2:105) partial Pos: 0.00127336 partial Neg: 0.000803772
- ibl1 = 15 ibl2 = 21 (Nstb1:69 Nstb2:25) partial Pos: 3.32634e-05 partial Neg: -1.69237e-08
- ibl1 = 16 ibl2 = 17 (Nstb1:105 Nstb2:80) partial Pos: 0.0197536 partial Neg: 7.9456e-05
- ibl1 = 16 ibl2 = 22 (Nstb1:105 Nstb2:35) partial Pos: 0.000663792 partial Neg: -6.51874e-09
- ibl1 = 17 ibl2 = 18 (Nstb1:80 Nstb2:26) partial Pos: 0.00146863 partial Neg: -2.95878e-07
- ibl1 = 17 ibl2 = 23 (Nstb1:80 Nstb2:29) partial Pos: 8.0195e-05 partial Neg: 7.28507e-08
- ibl1 = 18 ibl2 = 24 (Nstb1:26 Nstb2:12) partial Pos: 6.10929e-08 partial Neg: 4.10468e-11
- ibl1 = 19 ibl2 = 20 (Nstb1:1 Nstb2:8) partial Pos: 2.07085e-20 partial Neg: 6.40354e-16
- ibl1 = 20 ibl2 = 21 (Nstb1:8 Nstb2:25) partial Pos: -2.75623e-14 partial Neg: 1.83768e-10
- ibl1 = 20 ibl2 = 26 (Nstb1:8 Nstb2:1) partial Pos: 6.40354e-16 partial Neg: 2.07085e-20
- ibl1 = 21 ibl2 = 22 (Nstb1:25 Nstb2:35) partial Pos: 7.91892e-09 partial Neg: 3.91521e-09
- ibl1 = 21 ibl2 = 27 (Nstb1:25 Nstb2:3) partial Pos: 1.07004e-10 partial Neg: -1.76579e-15
- ibl1 = 22 ibl2 = 23 (Nstb1:35 Nstb2:29) partial Pos: 1.26155e-07 partial Neg: 3.15272e-10
- ibl1 = 22 ibl2 = 28 (Nstb1:35 Nstb2:5) partial Pos: 1.83178e-09 partial Neg: 1.10144e-13
- ibl1 = 23 ibl2 = 24 (Nstb1:29 Nstb2:12) partial Pos: 9.70531e-09 partial Neg: -2.1713e-13
- ibl1 = 23 ibl2 = 29 (Nstb1:29 Nstb2:3) partial Pos: 1.59901e-10 partial Neg: 2.60766e-14
- ibl1 = 24 ibl2 = 25 (Nstb1:12 Nstb2:1) partial Pos: 3.89592e-14 partial Neg: 5.16656e-18
- ibl1 = 24 ibl2 = 30 (Nstb1:12 Nstb2:1) partial Pos: 3.47691e-15 partial Neg: -1.03053e-18
- ibl1 = 26 ibl2 = 27 (Nstb1:1 Nstb2:3) partial Pos: -5.31822e-25 partial Neg: 6.20096e-23
- ibl1 = 27 ibl2 = 28 (Nstb1:3 Nstb2:5) partial Pos: 2.07509e-22 partial Neg: 1.23283e-21
- ibl1 = 28 ibl2 = 29 (Nstb1:5 Nstb2:3) partial Pos: 2.11774e-21 partial Neg: 1.25958e-22
- ibl1 = 29 ibl2 = 30 (Nstb1:3 Nstb2:1) partial Pos: 1.69404e-22 partial Neg: -6.19701e-25
- Nshell = 7 Pos contribution: 0.444587 Neg contribution: 0.444587
+ ibl1 = 0 ibl2 = 2 (Nstb1:6 Nstb2:44) partial Pos: 6.16713e-09 partial Neg: 2.63768e-05
+ ibl1 = 1 ibl2 = 3 (Nstb1:6 Nstb2:44) partial Pos: -1.50266e-07 partial Neg: 0.000127151
+ ibl1 = 2 ibl2 = 4 (Nstb1:44 Nstb2:119) partial Pos: 0.000336732 partial Neg: 0.00441418
+ ibl1 = 3 ibl2 = 5 (Nstb1:44 Nstb2:119) partial Pos: 0.00262008 partial Neg: 0.00758568
+ ibl1 = 4 ibl2 = 6 (Nstb1:119 Nstb2:162) partial Pos: 0.0165873 partial Neg: 0.0329639
+ ibl1 = 5 ibl2 = 7 (Nstb1:119 Nstb2:162) partial Pos: 0.108214 partial Neg: 0.00673212
+ ibl1 = 6 ibl2 = 8 (Nstb1:162 Nstb2:119) partial Pos: 0.0326314 partial Neg: 0.00316271
+ ibl1 = 7 ibl2 = 9 (Nstb1:162 Nstb2:119) partial Pos: 0.0166682 partial Neg: 0.00804097
+ ibl1 = 8 ibl2 = 10 (Nstb1:119 Nstb2:44) partial Pos: 0.00140206 partial Neg: 3.42066e-05
+ ibl1 = 9 ibl2 = 11 (Nstb1:119 Nstb2:44) partial Pos: 0.000639473 partial Neg: 0.000187316
+ ibl1 = 10 ibl2 = 12 (Nstb1:44 Nstb2:6) partial Pos: 1.68615e-06 partial Neg: 1.52742e-09
+ ibl1 = 11 ibl2 = 13 (Nstb1:44 Nstb2:6) partial Pos: 7.38362e-06 partial Neg: -2.70378e-09
+ Nshell = 7 Pos contribution: 0.179108 Neg contribution: 0.0632746
  Checking phs for Nshell = : 5
- ibl1 = 0 ibl2 = 2 (Nstb1:2 Nstb2:13) partial Pos: 6.78868e-17 partial Neg: 1.60129e-13
- ibl1 = 1 ibl2 = 2 (Nstb1:1 Nstb2:13) partial Pos: 1.77628e-19 partial Neg: 3.62683e-15
- ibl1 = 1 ibl2 = 4 (Nstb1:1 Nstb2:4) partial Pos: -4.62734e-25 partial Neg: 1.34925e-22
- ibl1 = 2 ibl2 = 3 (Nstb1:13 Nstb2:28) partial Pos: 3.3391e-11 partial Neg: 5.46897e-08
- ibl1 = 2 ibl2 = 5 (Nstb1:13 Nstb2:28) partial Pos: 2.98836e-12 partial Neg: 1.22328e-08
- ibl1 = 3 ibl2 = 6 (Nstb1:28 Nstb2:82) partial Pos: -5.93186e-07 partial Neg: 0.00170802
- ibl1 = 4 ibl2 = 5 (Nstb1:4 Nstb2:28) partial Pos: -7.72673e-15 partial Neg: 1.73637e-10
- ibl1 = 4 ibl2 = 8 (Nstb1:4 Nstb2:4) partial Pos: 2.22619e-23 partial Neg: 1.52455e-20
- ibl1 = 5 ibl2 = 6 (Nstb1:28 Nstb2:82) partial Pos: -1.1684e-07 partial Neg: 8.11188e-05
- ibl1 = 5 ibl2 = 9 (Nstb1:28 Nstb2:35) partial Pos: 4.99355e-10 partial Neg: 1.68222e-07
- ibl1 = 6 ibl2 = 7 (Nstb1:82 Nstb2:87) partial Pos: 0.00197814 partial Neg: 0.0353155
- ibl1 = 6 ibl2 = 10 (Nstb1:82 Nstb2:98) partial Pos: 8.69068e-05 partial Neg: 0.0250366
- ibl1 = 7 ibl2 = 11 (Nstb1:87 Nstb2:143) partial Pos: 0.0329832 partial Neg: 0.341735
- ibl1 = 8 ibl2 = 9 (Nstb1:4 Nstb2:35) partial Pos: 5.74929e-14 partial Neg: 2.09411e-09
- ibl1 = 8 ibl2 = 13 (Nstb1:4 Nstb2:3) partial Pos: 3.81801e-22 partial Neg: 1.44577e-22
- ibl1 = 9 ibl2 = 10 (Nstb1:35 Nstb2:98) partial Pos: -4.77447e-07 partial Neg: 0.000792485
- ibl1 = 9 ibl2 = 14 (Nstb1:35 Nstb2:20) partial Pos: 6.16577e-09 partial Neg: 1.1264e-08
- ibl1 = 10 ibl2 = 11 (Nstb1:98 Nstb2:143) partial Pos: 0.0263649 partial Neg: 0.0309674
- ibl1 = 10 ibl2 = 15 (Nstb1:98 Nstb2:68) partial Pos: 0.00110431 partial Neg: 0.00173292
- ibl1 = 11 ibl2 = 12 (Nstb1:143 Nstb2:87) partial Pos: 0.341735 partial Neg: 0.0329832
- ibl1 = 11 ibl2 = 16 (Nstb1:143 Nstb2:98) partial Pos: 0.0309674 partial Neg: 0.0263649
- ibl1 = 12 ibl2 = 17 (Nstb1:87 Nstb2:82) partial Pos: 0.0353155 partial Neg: 0.00197814
- ibl1 = 13 ibl2 = 14 (Nstb1:3 Nstb2:20) partial Pos: 5.78016e-16 partial Neg: 1.30331e-10
- ibl1 = 13 ibl2 = 19 (Nstb1:3 Nstb2:1) partial Pos: 1.14155e-23 partial Neg: -1.63229e-25
- ibl1 = 14 ibl2 = 15 (Nstb1:20 Nstb2:68) partial Pos: -5.27949e-08 partial Neg: 4.56777e-05
- ibl1 = 14 ibl2 = 20 (Nstb1:20 Nstb2:7) partial Pos: 2.67767e-10 partial Neg: -2.93785e-13
- ibl1 = 15 ibl2 = 16 (Nstb1:68 Nstb2:98) partial Pos: 0.00173292 partial Neg: 0.00110431
- ibl1 = 15 ibl2 = 21 (Nstb1:68 Nstb2:20) partial Pos: 4.56777e-05 partial Neg: -5.27949e-08
- ibl1 = 16 ibl2 = 17 (Nstb1:98 Nstb2:82) partial Pos: 0.0250366 partial Neg: 8.69068e-05
- ibl1 = 16 ibl2 = 22 (Nstb1:98 Nstb2:35) partial Pos: 0.000792485 partial Neg: -4.77447e-07
- ibl1 = 17 ibl2 = 18 (Nstb1:82 Nstb2:28) partial Pos: 0.00170802 partial Neg: -5.93186e-07
- ibl1 = 17 ibl2 = 23 (Nstb1:82 Nstb2:28) partial Pos: 8.11188e-05 partial Neg: -1.1684e-07
- ibl1 = 18 ibl2 = 24 (Nstb1:28 Nstb2:13) partial Pos: 5.46897e-08 partial Neg: 3.3391e-11
- ibl1 = 19 ibl2 = 20 (Nstb1:1 Nstb2:7) partial Pos: 2.54719e-20 partial Neg: 8.01813e-16
- ibl1 = 20 ibl2 = 21 (Nstb1:7 Nstb2:20) partial Pos: -2.93785e-13 partial Neg: 2.67767e-10
- ibl1 = 20 ibl2 = 26 (Nstb1:7 Nstb2:1) partial Pos: 8.01813e-16 partial Neg: 2.54719e-20
- ibl1 = 21 ibl2 = 22 (Nstb1:20 Nstb2:35) partial Pos: 1.1264e-08 partial Neg: 6.16577e-09
- ibl1 = 21 ibl2 = 27 (Nstb1:20 Nstb2:3) partial Pos: 1.30331e-10 partial Neg: 5.78016e-16
- ibl1 = 22 ibl2 = 23 (Nstb1:35 Nstb2:28) partial Pos: 1.68222e-07 partial Neg: 4.99355e-10
- ibl1 = 22 ibl2 = 28 (Nstb1:35 Nstb2:4) partial Pos: 2.09411e-09 partial Neg: 5.74929e-14
- ibl1 = 23 ibl2 = 24 (Nstb1:28 Nstb2:13) partial Pos: 1.22328e-08 partial Neg: 2.98836e-12
- ibl1 = 23 ibl2 = 29 (Nstb1:28 Nstb2:4) partial Pos: 1.73637e-10 partial Neg: -7.72673e-15
- ibl1 = 24 ibl2 = 25 (Nstb1:13 Nstb2:2) partial Pos: 1.60129e-13 partial Neg: 6.78868e-17
- ibl1 = 24 ibl2 = 30 (Nstb1:13 Nstb2:1) partial Pos: 3.62683e-15 partial Neg: 1.77628e-19
- ibl1 = 26 ibl2 = 27 (Nstb1:1 Nstb2:3) partial Pos: -1.63229e-25 partial Neg: 1.14155e-23
- ibl1 = 27 ibl2 = 28 (Nstb1:3 Nstb2:4) partial Pos: 1.44577e-22 partial Neg: 3.81801e-22
- ibl1 = 28 ibl2 = 29 (Nstb1:4 Nstb2:4) partial Pos: 1.52455e-20 partial Neg: 2.22619e-23
- ibl1 = 29 ibl2 = 30 (Nstb1:4 Nstb2:1) partial Pos: 1.34925e-22 partial Neg: -4.62734e-25
- Nshell = 5 Pos contribution: 0.499931 Neg contribution: 0.499931
+ ibl1 = 0 ibl2 = 1 (Nstb1:5 Nstb2:42) partial Pos: -3.4076e-07 partial Neg: 0.000187413
+ ibl1 = 1 ibl2 = 4 (Nstb1:42 Nstb2:122) partial Pos: 0.0141198 partial Neg: 0.0139056
+ ibl1 = 2 ibl2 = 3 (Nstb1:5 Nstb2:42) partial Pos: -7.7241e-08 partial Neg: 3.66904e-05
+ ibl1 = 3 ibl2 = 5 (Nstb1:42 Nstb2:122) partial Pos: 0.00240508 partial Neg: 0.0140988
+ ibl1 = 4 ibl2 = 6 (Nstb1:122 Nstb2:168) partial Pos: 0.380084 partial Neg: 0.0268658
+ ibl1 = 5 ibl2 = 7 (Nstb1:122 Nstb2:168) partial Pos: 0.0820171 partial Neg: 0.1086
+ ibl1 = 6 ibl2 = 8 (Nstb1:168 Nstb2:122) partial Pos: 0.077267 partial Neg: 0.0304352
+ ibl1 = 7 ibl2 = 9 (Nstb1:168 Nstb2:122) partial Pos: 0.116746 partial Neg: 0.014648
+ ibl1 = 8 ibl2 = 10 (Nstb1:122 Nstb2:42) partial Pos: 0.00194306 partial Neg: 0.000976742
+ ibl1 = 9 ibl2 = 11 (Nstb1:122 Nstb2:42) partial Pos: 0.00684967 partial Neg: 0.000193974
+ ibl1 = 10 ibl2 = 12 (Nstb1:42 Nstb2:5) partial Pos: 1.20986e-05 partial Neg: -1.1195e-08
+ ibl1 = 11 ibl2 = 13 (Nstb1:42 Nstb2:5) partial Pos: 2.5952e-06 partial Neg: -2.66628e-09
+ Nshell = 5 Pos contribution: 0.681446 Neg contribution: 0.209948
  Checking phs for Nshell = : 3
- ibl1 = 0 ibl2 = 1 (Nstb1:1 Nstb2:5) partial Pos: 1.08293e-18 partial Neg: 3.43822e-14
- ibl1 = 1 ibl2 = 2 (Nstb1:5 Nstb2:15) partial Pos: 8.86369e-11 partial Neg: 2.47752e-08
- ibl1 = 1 ibl2 = 3 (Nstb1:5 Nstb2:10) partial Pos: -2.51902e-12 partial Neg: 5.18744e-09
- ibl1 = 2 ibl2 = 4 (Nstb1:15 Nstb2:40) partial Pos: 4.32224e-06 partial Neg: 0.00157577
- ibl1 = 3 ibl2 = 4 (Nstb1:10 Nstb2:40) partial Pos: 3.32293e-07 partial Neg: 3.6605e-05
- ibl1 = 3 ibl2 = 6 (Nstb1:10 Nstb2:10) partial Pos: 1.25993e-10 partial Neg: 7.93493e-08
- ibl1 = 4 ibl2 = 5 (Nstb1:40 Nstb2:50) partial Pos: 0.0025299 partial Neg: 0.0286204
- ibl1 = 4 ibl2 = 7 (Nstb1:40 Nstb2:45) partial Pos: 0.000120216 partial Neg: 0.0261718
- ibl1 = 5 ibl2 = 8 (Nstb1:50 Nstb2:75) partial Pos: 0.0264044 partial Neg: 0.359265
- ibl1 = 6 ibl2 = 7 (Nstb1:10 Nstb2:45) partial Pos: -1.07409e-06 partial Neg: 0.000410155
- ibl1 = 6 ibl2 = 10 (Nstb1:10 Nstb2:5) partial Pos: 2.59776e-09 partial Neg: 5.20565e-09
- ibl1 = 7 ibl2 = 8 (Nstb1:45 Nstb2:75) partial Pos: 0.0282845 partial Neg: 0.0237763
- ibl1 = 7 ibl2 = 11 (Nstb1:45 Nstb2:24) partial Pos: 0.000976012 partial Neg: 0.0018007
- ibl1 = 8 ibl2 = 9 (Nstb1:75 Nstb2:50) partial Pos: 0.359265 partial Neg: 0.0264044
- ibl1 = 8 ibl2 = 12 (Nstb1:75 Nstb2:45) partial Pos: 0.0237763 partial Neg: 0.0282845
- ibl1 = 9 ibl2 = 13 (Nstb1:50 Nstb2:40) partial Pos: 0.0286204 partial Neg: 0.0025299
- ibl1 = 10 ibl2 = 11 (Nstb1:5 Nstb2:24) partial Pos: -7.34033e-08 partial Neg: 2.41804e-05
- ibl1 = 10 ibl2 = 15 (Nstb1:5 Nstb2:1) partial Pos: 6.52702e-11 partial Neg: -2.01021e-13
- ibl1 = 11 ibl2 = 12 (Nstb1:24 Nstb2:45) partial Pos: 0.0018007 partial Neg: 0.000976012
- ibl1 = 11 ibl2 = 16 (Nstb1:24 Nstb2:5) partial Pos: 2.41804e-05 partial Neg: -7.34033e-08
- ibl1 = 12 ibl2 = 13 (Nstb1:45 Nstb2:40) partial Pos: 0.0261718 partial Neg: 0.000120216
- ibl1 = 12 ibl2 = 17 (Nstb1:45 Nstb2:10) partial Pos: 0.000410155 partial Neg: -1.07409e-06
- ibl1 = 13 ibl2 = 14 (Nstb1:40 Nstb2:15) partial Pos: 0.00157577 partial Neg: 4.32224e-06
- ibl1 = 13 ibl2 = 18 (Nstb1:40 Nstb2:10) partial Pos: 3.6605e-05 partial Neg: 3.32293e-07
- ibl1 = 14 ibl2 = 19 (Nstb1:15 Nstb2:5) partial Pos: 2.47752e-08 partial Neg: 8.86369e-11
- ibl1 = 15 ibl2 = 16 (Nstb1:1 Nstb2:5) partial Pos: -2.01021e-13 partial Neg: 6.52702e-11
- ibl1 = 16 ibl2 = 17 (Nstb1:5 Nstb2:10) partial Pos: 5.20565e-09 partial Neg: 2.59776e-09
- ibl1 = 17 ibl2 = 18 (Nstb1:10 Nstb2:10) partial Pos: 7.93493e-08 partial Neg: 1.25993e-10
- ibl1 = 18 ibl2 = 19 (Nstb1:10 Nstb2:5) partial Pos: 5.18744e-09 partial Neg: -2.51902e-12
- ibl1 = 19 ibl2 = 20 (Nstb1:5 Nstb2:1) partial Pos: 3.43822e-14 partial Neg: 1.08294e-18
- Nshell = 3 Pos contribution: 0.5 Neg contribution: 0.5
+ ibl1 = 0 ibl2 = 1 (Nstb1:3 Nstb2:40) partial Pos: 4.53182e-08 partial Neg: 3.35559e-05
+ ibl1 = 1 ibl2 = 4 (Nstb1:40 Nstb2:125) partial Pos: 0.00305262 partial Neg: 0.0139484
+ ibl1 = 2 ibl2 = 3 (Nstb1:3 Nstb2:40) partial Pos: -8.78764e-07 partial Neg: 0.000186252
+ ibl1 = 3 ibl2 = 5 (Nstb1:40 Nstb2:125) partial Pos: 0.0174335 partial Neg: 0.0156972
+ ibl1 = 4 ibl2 = 6 (Nstb1:125 Nstb2:177) partial Pos: 0.0839904 partial Neg: 0.127123
+ ibl1 = 5 ibl2 = 7 (Nstb1:125 Nstb2:177) partial Pos: 0.433586 partial Neg: 0.029222
+ ibl1 = 6 ibl2 = 8 (Nstb1:177 Nstb2:125) partial Pos: 0.130723 partial Neg: 0.0169486
+ ibl1 = 7 ibl2 = 9 (Nstb1:177 Nstb2:125) partial Pos: 0.0777427 partial Neg: 0.0379459
+ ibl1 = 8 ibl2 = 10 (Nstb1:125 Nstb2:40) partial Pos: 0.00767227 partial Neg: 0.000328871
+ ibl1 = 9 ibl2 = 11 (Nstb1:125 Nstb2:40) partial Pos: 0.00227513 partial Neg: 0.00135612
+ ibl1 = 10 ibl2 = 12 (Nstb1:40 Nstb2:3) partial Pos: 2.5737e-06 partial Neg: 5.14866e-09
+ ibl1 = 11 ibl2 = 13 (Nstb1:40 Nstb2:3) partial Pos: 1.3139e-05 partial Neg: -5.14663e-08
+ Nshell = 3 Pos contribution: 0.75649 Neg contribution: 0.24279
  Checking phs for Nshell = : 1
- ibl1 = 0 ibl2 = 1 (Nstb1:1 Nstb2:3) partial Pos: -1.62218e-06 partial Neg: 0.00108337
- ibl1 = 1 ibl2 = 2 (Nstb1:3 Nstb2:6) partial Pos: 0.0010145 partial Neg: 0.0214397
- ibl1 = 1 ibl2 = 3 (Nstb1:3 Nstb2:3) partial Pos: -1.4033e-05 partial Neg: 0.0239034
- ibl1 = 2 ibl2 = 4 (Nstb1:6 Nstb2:8) partial Pos: 0.0154079 partial Neg: 0.393538
- ibl1 = 3 ibl2 = 4 (Nstb1:3 Nstb2:8) partial Pos: 0.0267465 partial Neg: 0.0148672
- ibl1 = 3 ibl2 = 6 (Nstb1:3 Nstb2:1) partial Pos: 0.000601261 partial Neg: 0.00141407
- ibl1 = 4 ibl2 = 5 (Nstb1:8 Nstb2:6) partial Pos: 0.393538 partial Neg: 0.0154079
- ibl1 = 4 ibl2 = 7 (Nstb1:8 Nstb2:3) partial Pos: 0.0148672 partial Neg: 0.0267465
- ibl1 = 5 ibl2 = 8 (Nstb1:6 Nstb2:3) partial Pos: 0.0214397 partial Neg: 0.0010145
- ibl1 = 6 ibl2 = 7 (Nstb1:1 Nstb2:3) partial Pos: 0.00141407 partial Neg: 0.000601261
- ibl1 = 7 ibl2 = 8 (Nstb1:3 Nstb2:3) partial Pos: 0.0239034 partial Neg: -1.4033e-05
- ibl1 = 8 ibl2 = 9 (Nstb1:3 Nstb2:1) partial Pos: 0.00108337 partial Neg: -1.62218e-06
- Nshell = 1 Pos contribution: 0.5 Neg contribution: 0.5
+ ibl1 = 0 ibl2 = 1 (Nstb1:16 Nstb2:64) partial Pos: 0.0171643 partial Neg: 0.0103066
+ ibl1 = 1 ibl2 = 4 (Nstb1:64 Nstb2:96) partial Pos: 0.463069 partial Neg: 0.0209583
+ ibl1 = 2 ibl2 = 3 (Nstb1:16 Nstb2:64) partial Pos: 0.00202431 partial Neg: 0.0106853
+ ibl1 = 3 ibl2 = 5 (Nstb1:64 Nstb2:96) partial Pos: 0.0698257 partial Neg: 0.13886
+ ibl1 = 4 ibl2 = 6 (Nstb1:96 Nstb2:64) partial Pos: 0.0651523 partial Neg: 0.0424017
+ ibl1 = 5 ibl2 = 7 (Nstb1:96 Nstb2:64) partial Pos: 0.134286 partial Neg: 0.0152928
+ ibl1 = 6 ibl2 = 8 (Nstb1:64 Nstb2:16) partial Pos: 0.00162394 partial Neg: 0.00148783
+ ibl1 = 7 ibl2 = 9 (Nstb1:64 Nstb2:16) partial Pos: 0.00669498 partial Neg: 0.000167943
+ Nshell = 1 Pos contribution: 0.75984 Neg contribution: 0.24016
 CalcSpecCosti_T: Implementing it 
 CalcSpecCosti_T: Zero Temp 
- Nomegas = 25 Size of RhowCosti = 26
-RhoCosti0_0(omega= 3.47931 )= 2.92783e-06
-RhoCosti0_0(omega= -3.47931 )= 2.92783e-06
-RhoCosti0_0(omega= 1.39172 )= 0.0296477
-RhoCosti0_0(omega= -1.39172 )= 0.0296477
-RhoCosti0_0(omega= 0.55669 )= 0.634348
-RhoCosti0_0(omega= -0.55669 )= 0.634348
-RhoCosti0_0(omega= 0.222676 )= 0.418874
-RhoCosti0_0(omega= -0.222676 )= 0.418874
-RhoCosti0_0(omega= 0.0890703 )= 0.287256
-RhoCosti0_0(omega= -0.0890703 )= 0.287256
-RhoCosti0_0(omega= 0.0356281 )= 0.344298
-RhoCosti0_0(omega= -0.0356281 )= 0.344298
-RhoCosti0_0(omega= 0.0142513 )= 0.455298
-RhoCosti0_0(omega= -0.0142513 )= 0.455298
-RhoCosti0_0(omega= 0.0057005 )= 0.630049
-RhoCosti0_0(omega= -0.0057005 )= 0.630049
-RhoCosti0_0(omega= 0.0022802 )= 0.912912
-RhoCosti0_0(omega= -0.0022802 )= 0.912912
-RhoCosti0_0(omega= 0.00091208 )= 1.39434
-RhoCosti0_0(omega= -0.00091208 )= 1.39434
-RhoCosti0_0(omega= 0.000364832 )= 2.24717
-RhoCosti0_0(omega= -0.000364832 )= 2.24717
-RhoCosti0_0(omega= 0.000145933 )= 3.67365
-RhoCosti0_0(omega= -0.000145933 )= 3.67365
-RhoCosti0_0(omega= 5.83731e-05 )= 5.23116
-RhoCosti0_0(omega= -5.83731e-05 )= 5.23116
-RhoCosti0_0(omega= 2.33493e-05 )= 6.04043
-RhoCosti0_0(omega= -2.33493e-05 )= 6.04043
-RhoCosti0_0(omega= 9.3397e-06 )= 6.2921
-RhoCosti0_0(omega= -9.3397e-06 )= 6.2921
-RhoCosti0_0(omega= 3.73588e-06 )= 6.36769
-RhoCosti0_0(omega= -3.73588e-06 )= 6.36769
-RhoCosti0_0(omega= 1.49435e-06 )= 6.39355
-RhoCosti0_0(omega= -1.49435e-06 )= 6.39355
-RhoCosti0_0(omega= 5.97741e-07 )= 6.4032
-RhoCosti0_0(omega= -5.97741e-07 )= 6.4032
-RhoCosti0_0(omega= 2.39096e-07 )= 6.40696
-RhoCosti0_0(omega= -2.39096e-07 )= 6.40696
-RhoCosti0_0(omega= 9.56385e-08 )= 6.40844
-RhoCosti0_0(omega= -9.56385e-08 )= 6.40844
-RhoCosti0_0(omega= 3.82554e-08 )= 6.40903
-RhoCosti0_0(omega= -3.82554e-08 )= 6.40903
-RhoCosti0_0(omega= 1.53022e-08 )= 6.40927
-RhoCosti0_0(omega= -1.53022e-08 )= 6.40927
-RhoCosti0_0(omega= 6.12087e-09 )= 6.40937
-RhoCosti0_0(omega= -6.12087e-09 )= 6.40937
-RhoCosti0_0(omega= 2.44835e-09 )= 6.4094
-RhoCosti0_0(omega= -2.44835e-09 )= 6.4094
-RhoCosti0_0(omega= 9.79339e-10 )= 6.40942
-RhoCosti0_0(omega= -9.79339e-10 )= 6.40942
-RhoCosti0_0(omega= 3.91735e-10 )= 6.40942
-RhoCosti0_0(omega= -3.91735e-10 )= 6.40942
+ Nomegas = 25 Size of RhowCosti = 25
+RhoCosti0_0(omega= 1.39172 )= 0.0424787
+RhoCosti0_0(omega= -1.39172 )= 0.0142946
+RhoCosti0_0(omega= 0.55669 )= 1.1083
+RhoCosti0_0(omega= -0.55669 )= 0.206877
+RhoCosti0_0(omega= 0.222676 )= 0.640304
+RhoCosti0_0(omega= -0.222676 )= 0.12932
+RhoCosti0_0(omega= 0.0890703 )= 0.447606
+RhoCosti0_0(omega= -0.0890703 )= 0.131447
+RhoCosti0_0(omega= 0.0356281 )= 0.52319
+RhoCosti0_0(omega= -0.0356281 )= 0.17385
+RhoCosti0_0(omega= 0.0142513 )= 0.846822
+RhoCosti0_0(omega= -0.0142513 )= 0.218192
+RhoCosti0_0(omega= 0.0057005 )= 0.526288
+RhoCosti0_0(omega= -0.0057005 )= 0.272524
+RhoCosti0_0(omega= 0.0022802 )= 0.520932
+RhoCosti0_0(omega= -0.0022802 )= 0.374488
+RhoCosti0_0(omega= 0.00091208 )= 0.662417
+RhoCosti0_0(omega= -0.00091208 )= 0.519958
+RhoCosti0_0(omega= 0.000364832 )= 0.833022
+RhoCosti0_0(omega= -0.000364832 )= 0.712718
+RhoCosti0_0(omega= 0.000145933 )= 1.02523
+RhoCosti0_0(omega= -0.000145933 )= 0.935335
+RhoCosti0_0(omega= 5.83731e-05 )= 1.19641
+RhoCosti0_0(omega= -5.83731e-05 )= 1.14061
+RhoCosti0_0(omega= 2.33493e-05 )= 1.32823
+RhoCosti0_0(omega= -2.33493e-05 )= 1.29193
+RhoCosti0_0(omega= 9.3397e-06 )= 1.41874
+RhoCosti0_0(omega= -9.3397e-06 )= 1.38779
+RhoCosti0_0(omega= 3.73588e-06 )= 1.47813
+RhoCosti0_0(omega= -3.73588e-06 )= 1.44545
+RhoCosti0_0(omega= 1.49435e-06 )= 1.51689
+RhoCosti0_0(omega= -1.49435e-06 )= 1.48075
+RhoCosti0_0(omega= 5.97741e-07 )= 1.54247
+RhoCosti0_0(omega= -5.97741e-07 )= 1.5034
+RhoCosti0_0(omega= 2.39096e-07 )= 1.55957
+RhoCosti0_0(omega= -2.39096e-07 )= 1.51871
+RhoCosti0_0(omega= 9.56385e-08 )= 1.57131
+RhoCosti0_0(omega= -9.56385e-08 )= 1.52963
+RhoCosti0_0(omega= 3.82554e-08 )= 1.5795
+RhoCosti0_0(omega= -3.82554e-08 )= 1.53777
+RhoCosti0_0(omega= 1.53022e-08 )= 1.58528
+RhoCosti0_0(omega= -1.53022e-08 )= 1.54403
+RhoCosti0_0(omega= 6.12087e-09 )= 1.58936
+RhoCosti0_0(omega= -6.12087e-09 )= 1.54895
+RhoCosti0_0(omega= 2.44835e-09 )= 1.59229
+RhoCosti0_0(omega= -2.44835e-09 )= 1.55292
+RhoCosti0_0(omega= 9.79339e-10 )= 1.59488
+RhoCosti0_0(omega= -9.79339e-10 )= 1.55611
+RhoCosti0_0(omega= 3.91735e-10 )= 1.59758
+RhoCosti0_0(omega= -3.91735e-10 )= 1.55855
  SaveOmegaRhow Error: Omega_Rhow not set.
  Calculating Spectral function rho_0_0... 
 CalcSpec_ManyOmegas : Negative w 
- N = 0 DN = 0.921468 WN = 2.89671
  N = 1 DN = 0.582787 WN = 1.83204
  N = 2 DN = 0.368587 WN = 1.15868
  N = 3 DN = 0.233115 WN = 0.732816
@@ -1727,8 +917,433 @@ CalcSpec_ManyOmegas : Positive w
  N = 3 DN = 0.233115 WN = 0.732816
  N = 2 DN = 0.368587 WN = 1.15868
  N = 1 DN = 0.582787 WN = 1.83204
- N = 0 DN = 0.921468 WN = 2.89671
  ... done.
  GSL_Integrator: Reducing error tolerance. 
  GSL_Integrator: Reducing error tolerance. 
-NormInteg= 0.703702
+NormInteg= 0.652618
+ Calculating Spectral function rho_1_1... 
+CalcSpec_ManyOmegas : Negative w 
+ N = 1 DN = 0.582787 WN = 1.83204
+ N = 2 DN = 0.368587 WN = 1.15868
+ N = 3 DN = 0.233115 WN = 0.732816
+ N = 4 DN = 0.147435 WN = 0.463474
+ N = 5 DN = 0.093246 WN = 0.293126
+ N = 6 DN = 0.0589739 WN = 0.185389
+ N = 7 DN = 0.0372984 WN = 0.117251
+ N = 8 DN = 0.0235896 WN = 0.0741558
+ N = 9 DN = 0.0149194 WN = 0.0469002
+ N = 10 DN = 0.00943583 WN = 0.0296623
+ N = 11 DN = 0.00596774 WN = 0.0187601
+ N = 12 DN = 0.00377433 WN = 0.0118649
+ N = 13 DN = 0.0023871 WN = 0.00750404
+ N = 14 DN = 0.00150973 WN = 0.00474597
+ N = 15 DN = 0.000954839 WN = 0.00300162
+ N = 16 DN = 0.000603893 WN = 0.00189839
+ N = 17 DN = 0.000381935 WN = 0.00120065
+ N = 18 DN = 0.000241557 WN = 0.000759355
+ N = 19 DN = 0.000152774 WN = 0.000480258
+ N = 20 DN = 9.66229e-05 WN = 0.000303742
+ N = 21 DN = 6.11097e-05 WN = 0.000192103
+ N = 22 DN = 3.86492e-05 WN = 0.000121497
+ N = 23 DN = 2.44439e-05 WN = 7.68413e-05
+ N = 24 DN = 1.54597e-05 WN = 4.85987e-05
+ N = 25 DN = 9.77755e-06 WN = 3.07365e-05
+ N = 26 DN = 6.18386e-06 WN = 1.94395e-05
+ N = 27 DN = 3.91102e-06 WN = 1.22946e-05
+ N = 28 DN = 2.47355e-06 WN = 7.7758e-06
+ N = 29 DN = 1.56441e-06 WN = 4.91785e-06
+ N = 30 DN = 9.89418e-07 WN = 3.11032e-06
+ N = 31 DN = 6.25763e-07 WN = 1.96714e-06
+ N = 32 DN = 3.95767e-07 WN = 1.24413e-06
+ N = 33 DN = 2.50305e-07 WN = 7.86855e-07
+ N = 34 DN = 1.58307e-07 WN = 4.97651e-07
+ N = 35 DN = 1.00122e-07 WN = 3.14742e-07
+ N = 36 DN = 6.33228e-08 WN = 1.9906e-07
+ N = 37 DN = 4.00488e-08 WN = 1.25897e-07
+ N = 38 DN = 2.53291e-08 WN = 7.96242e-08
+ N = 39 DN = 1.60195e-08 WN = 5.03587e-08
+ N = 40 DN = 1.01316e-08 WN = 3.18497e-08
+ N = 41 DN = 6.40781e-09 WN = 2.01435e-08
+ N = 42 DN = 4.05266e-09 WN = 1.27399e-08
+ N = 43 DN = 2.56313e-09 WN = 8.0574e-09
+ N = 44 DN = 1.62106e-09 WN = 5.09595e-09
+ N = 45 DN = 1.02525e-09 WN = 3.22296e-09
+ N = 46 DN = 6.48425e-10 WN = 2.03838e-09
+ N = 47 DN = 4.101e-10 WN = 1.28918e-09
+ N = 48 DN = 2.5937e-10 WN = 8.15351e-10
+ N = 49 DN = 1.6404e-10 WN = 5.15674e-10
+ N = 50 DN = 1.03748e-10 WN = 3.26141e-10
+CalcSpec_ManyOmegas : Positive w 
+ N = 50 DN = 1.03748e-10 WN = 3.26141e-10
+ N = 49 DN = 1.6404e-10 WN = 5.15674e-10
+ N = 48 DN = 2.5937e-10 WN = 8.15351e-10
+ N = 47 DN = 4.101e-10 WN = 1.28918e-09
+ N = 46 DN = 6.48425e-10 WN = 2.03838e-09
+ N = 45 DN = 1.02525e-09 WN = 3.22296e-09
+ N = 44 DN = 1.62106e-09 WN = 5.09595e-09
+ N = 43 DN = 2.56313e-09 WN = 8.0574e-09
+ N = 42 DN = 4.05266e-09 WN = 1.27399e-08
+ N = 41 DN = 6.40781e-09 WN = 2.01435e-08
+ N = 40 DN = 1.01316e-08 WN = 3.18497e-08
+ N = 39 DN = 1.60195e-08 WN = 5.03587e-08
+ N = 38 DN = 2.53291e-08 WN = 7.96242e-08
+ N = 37 DN = 4.00488e-08 WN = 1.25897e-07
+ N = 36 DN = 6.33228e-08 WN = 1.9906e-07
+ N = 35 DN = 1.00122e-07 WN = 3.14742e-07
+ N = 34 DN = 1.58307e-07 WN = 4.97651e-07
+ N = 33 DN = 2.50305e-07 WN = 7.86855e-07
+ N = 32 DN = 3.95767e-07 WN = 1.24413e-06
+ N = 31 DN = 6.25763e-07 WN = 1.96714e-06
+ N = 30 DN = 9.89418e-07 WN = 3.11032e-06
+ N = 29 DN = 1.56441e-06 WN = 4.91785e-06
+ N = 28 DN = 2.47355e-06 WN = 7.7758e-06
+ N = 27 DN = 3.91102e-06 WN = 1.22946e-05
+ N = 26 DN = 6.18386e-06 WN = 1.94395e-05
+ N = 25 DN = 9.77755e-06 WN = 3.07365e-05
+ N = 24 DN = 1.54597e-05 WN = 4.85987e-05
+ N = 23 DN = 2.44439e-05 WN = 7.68413e-05
+ N = 22 DN = 3.86492e-05 WN = 0.000121497
+ N = 21 DN = 6.11097e-05 WN = 0.000192103
+ N = 20 DN = 9.66229e-05 WN = 0.000303742
+ N = 19 DN = 0.000152774 WN = 0.000480258
+ N = 18 DN = 0.000241557 WN = 0.000759355
+ N = 17 DN = 0.000381935 WN = 0.00120065
+ N = 16 DN = 0.000603893 WN = 0.00189839
+ N = 15 DN = 0.000954839 WN = 0.00300162
+ N = 14 DN = 0.00150973 WN = 0.00474597
+ N = 13 DN = 0.0023871 WN = 0.00750404
+ N = 12 DN = 0.00377433 WN = 0.0118649
+ N = 11 DN = 0.00596774 WN = 0.0187601
+ N = 10 DN = 0.00943583 WN = 0.0296623
+ N = 9 DN = 0.0149194 WN = 0.0469002
+ N = 8 DN = 0.0235896 WN = 0.0741558
+ N = 7 DN = 0.0372984 WN = 0.117251
+ N = 6 DN = 0.0589739 WN = 0.185389
+ N = 5 DN = 0.093246 WN = 0.293126
+ N = 4 DN = 0.147435 WN = 0.463474
+ N = 3 DN = 0.233115 WN = 0.732816
+ N = 2 DN = 0.368587 WN = 1.15868
+ N = 1 DN = 0.582787 WN = 1.83204
+ ... done.
+ GSL_Integrator: Reducing error tolerance. 
+ GSL_Integrator: Reducing error tolerance. 
+NormInteg= 0.652618
+ Calculating Spectral function rho_2_2... 
+CalcSpec_ManyOmegas : Negative w 
+ N = 1 DN = 0.582787 WN = 1.83204
+ N = 2 DN = 0.368587 WN = 1.15868
+ N = 3 DN = 0.233115 WN = 0.732816
+ N = 4 DN = 0.147435 WN = 0.463474
+ N = 5 DN = 0.093246 WN = 0.293126
+ N = 6 DN = 0.0589739 WN = 0.185389
+ N = 7 DN = 0.0372984 WN = 0.117251
+ N = 8 DN = 0.0235896 WN = 0.0741558
+ N = 9 DN = 0.0149194 WN = 0.0469002
+ N = 10 DN = 0.00943583 WN = 0.0296623
+ N = 11 DN = 0.00596774 WN = 0.0187601
+ N = 12 DN = 0.00377433 WN = 0.0118649
+ N = 13 DN = 0.0023871 WN = 0.00750404
+ N = 14 DN = 0.00150973 WN = 0.00474597
+ N = 15 DN = 0.000954839 WN = 0.00300162
+ N = 16 DN = 0.000603893 WN = 0.00189839
+ N = 17 DN = 0.000381935 WN = 0.00120065
+ N = 18 DN = 0.000241557 WN = 0.000759355
+ N = 19 DN = 0.000152774 WN = 0.000480258
+ N = 20 DN = 9.66229e-05 WN = 0.000303742
+ N = 21 DN = 6.11097e-05 WN = 0.000192103
+ N = 22 DN = 3.86492e-05 WN = 0.000121497
+ N = 23 DN = 2.44439e-05 WN = 7.68413e-05
+ N = 24 DN = 1.54597e-05 WN = 4.85987e-05
+ N = 25 DN = 9.77755e-06 WN = 3.07365e-05
+ N = 26 DN = 6.18386e-06 WN = 1.94395e-05
+ N = 27 DN = 3.91102e-06 WN = 1.22946e-05
+ N = 28 DN = 2.47355e-06 WN = 7.7758e-06
+ N = 29 DN = 1.56441e-06 WN = 4.91785e-06
+ N = 30 DN = 9.89418e-07 WN = 3.11032e-06
+ N = 31 DN = 6.25763e-07 WN = 1.96714e-06
+ N = 32 DN = 3.95767e-07 WN = 1.24413e-06
+ N = 33 DN = 2.50305e-07 WN = 7.86855e-07
+ N = 34 DN = 1.58307e-07 WN = 4.97651e-07
+ N = 35 DN = 1.00122e-07 WN = 3.14742e-07
+ N = 36 DN = 6.33228e-08 WN = 1.9906e-07
+ N = 37 DN = 4.00488e-08 WN = 1.25897e-07
+ N = 38 DN = 2.53291e-08 WN = 7.96242e-08
+ N = 39 DN = 1.60195e-08 WN = 5.03587e-08
+ N = 40 DN = 1.01316e-08 WN = 3.18497e-08
+ N = 41 DN = 6.40781e-09 WN = 2.01435e-08
+ N = 42 DN = 4.05266e-09 WN = 1.27399e-08
+ N = 43 DN = 2.56313e-09 WN = 8.0574e-09
+ N = 44 DN = 1.62106e-09 WN = 5.09595e-09
+ N = 45 DN = 1.02525e-09 WN = 3.22296e-09
+ N = 46 DN = 6.48425e-10 WN = 2.03838e-09
+ N = 47 DN = 4.101e-10 WN = 1.28918e-09
+ N = 48 DN = 2.5937e-10 WN = 8.15351e-10
+ N = 49 DN = 1.6404e-10 WN = 5.15674e-10
+ N = 50 DN = 1.03748e-10 WN = 3.26141e-10
+CalcSpec_ManyOmegas : Positive w 
+ N = 50 DN = 1.03748e-10 WN = 3.26141e-10
+ N = 49 DN = 1.6404e-10 WN = 5.15674e-10
+ N = 48 DN = 2.5937e-10 WN = 8.15351e-10
+ N = 47 DN = 4.101e-10 WN = 1.28918e-09
+ N = 46 DN = 6.48425e-10 WN = 2.03838e-09
+ N = 45 DN = 1.02525e-09 WN = 3.22296e-09
+ N = 44 DN = 1.62106e-09 WN = 5.09595e-09
+ N = 43 DN = 2.56313e-09 WN = 8.0574e-09
+ N = 42 DN = 4.05266e-09 WN = 1.27399e-08
+ N = 41 DN = 6.40781e-09 WN = 2.01435e-08
+ N = 40 DN = 1.01316e-08 WN = 3.18497e-08
+ N = 39 DN = 1.60195e-08 WN = 5.03587e-08
+ N = 38 DN = 2.53291e-08 WN = 7.96242e-08
+ N = 37 DN = 4.00488e-08 WN = 1.25897e-07
+ N = 36 DN = 6.33228e-08 WN = 1.9906e-07
+ N = 35 DN = 1.00122e-07 WN = 3.14742e-07
+ N = 34 DN = 1.58307e-07 WN = 4.97651e-07
+ N = 33 DN = 2.50305e-07 WN = 7.86855e-07
+ N = 32 DN = 3.95767e-07 WN = 1.24413e-06
+ N = 31 DN = 6.25763e-07 WN = 1.96714e-06
+ N = 30 DN = 9.89418e-07 WN = 3.11032e-06
+ N = 29 DN = 1.56441e-06 WN = 4.91785e-06
+ N = 28 DN = 2.47355e-06 WN = 7.7758e-06
+ N = 27 DN = 3.91102e-06 WN = 1.22946e-05
+ N = 26 DN = 6.18386e-06 WN = 1.94395e-05
+ N = 25 DN = 9.77755e-06 WN = 3.07365e-05
+ N = 24 DN = 1.54597e-05 WN = 4.85987e-05
+ N = 23 DN = 2.44439e-05 WN = 7.68413e-05
+ N = 22 DN = 3.86492e-05 WN = 0.000121497
+ N = 21 DN = 6.11097e-05 WN = 0.000192103
+ N = 20 DN = 9.66229e-05 WN = 0.000303742
+ N = 19 DN = 0.000152774 WN = 0.000480258
+ N = 18 DN = 0.000241557 WN = 0.000759355
+ N = 17 DN = 0.000381935 WN = 0.00120065
+ N = 16 DN = 0.000603893 WN = 0.00189839
+ N = 15 DN = 0.000954839 WN = 0.00300162
+ N = 14 DN = 0.00150973 WN = 0.00474597
+ N = 13 DN = 0.0023871 WN = 0.00750404
+ N = 12 DN = 0.00377433 WN = 0.0118649
+ N = 11 DN = 0.00596774 WN = 0.0187601
+ N = 10 DN = 0.00943583 WN = 0.0296623
+ N = 9 DN = 0.0149194 WN = 0.0469002
+ N = 8 DN = 0.0235896 WN = 0.0741558
+ N = 7 DN = 0.0372984 WN = 0.117251
+ N = 6 DN = 0.0589739 WN = 0.185389
+ N = 5 DN = 0.093246 WN = 0.293126
+ N = 4 DN = 0.147435 WN = 0.463474
+ N = 3 DN = 0.233115 WN = 0.732816
+ N = 2 DN = 0.368587 WN = 1.15868
+ N = 1 DN = 0.582787 WN = 1.83204
+ ... done.
+ GSL_Integrator: Reducing error tolerance. 
+ GSL_Integrator: Reducing error tolerance. 
+NormInteg= 0.652618
+ Calculating Spectral function rho_3_3... 
+CalcSpec_ManyOmegas : Negative w 
+ N = 1 DN = 0.582787 WN = 1.83204
+ N = 2 DN = 0.368587 WN = 1.15868
+ N = 3 DN = 0.233115 WN = 0.732816
+ N = 4 DN = 0.147435 WN = 0.463474
+ N = 5 DN = 0.093246 WN = 0.293126
+ N = 6 DN = 0.0589739 WN = 0.185389
+ N = 7 DN = 0.0372984 WN = 0.117251
+ N = 8 DN = 0.0235896 WN = 0.0741558
+ N = 9 DN = 0.0149194 WN = 0.0469002
+ N = 10 DN = 0.00943583 WN = 0.0296623
+ N = 11 DN = 0.00596774 WN = 0.0187601
+ N = 12 DN = 0.00377433 WN = 0.0118649
+ N = 13 DN = 0.0023871 WN = 0.00750404
+ N = 14 DN = 0.00150973 WN = 0.00474597
+ N = 15 DN = 0.000954839 WN = 0.00300162
+ N = 16 DN = 0.000603893 WN = 0.00189839
+ N = 17 DN = 0.000381935 WN = 0.00120065
+ N = 18 DN = 0.000241557 WN = 0.000759355
+ N = 19 DN = 0.000152774 WN = 0.000480258
+ N = 20 DN = 9.66229e-05 WN = 0.000303742
+ N = 21 DN = 6.11097e-05 WN = 0.000192103
+ N = 22 DN = 3.86492e-05 WN = 0.000121497
+ N = 23 DN = 2.44439e-05 WN = 7.68413e-05
+ N = 24 DN = 1.54597e-05 WN = 4.85987e-05
+ N = 25 DN = 9.77755e-06 WN = 3.07365e-05
+ N = 26 DN = 6.18386e-06 WN = 1.94395e-05
+ N = 27 DN = 3.91102e-06 WN = 1.22946e-05
+ N = 28 DN = 2.47355e-06 WN = 7.7758e-06
+ N = 29 DN = 1.56441e-06 WN = 4.91785e-06
+ N = 30 DN = 9.89418e-07 WN = 3.11032e-06
+ N = 31 DN = 6.25763e-07 WN = 1.96714e-06
+ N = 32 DN = 3.95767e-07 WN = 1.24413e-06
+ N = 33 DN = 2.50305e-07 WN = 7.86855e-07
+ N = 34 DN = 1.58307e-07 WN = 4.97651e-07
+ N = 35 DN = 1.00122e-07 WN = 3.14742e-07
+ N = 36 DN = 6.33228e-08 WN = 1.9906e-07
+ N = 37 DN = 4.00488e-08 WN = 1.25897e-07
+ N = 38 DN = 2.53291e-08 WN = 7.96242e-08
+ N = 39 DN = 1.60195e-08 WN = 5.03587e-08
+ N = 40 DN = 1.01316e-08 WN = 3.18497e-08
+ N = 41 DN = 6.40781e-09 WN = 2.01435e-08
+ N = 42 DN = 4.05266e-09 WN = 1.27399e-08
+ N = 43 DN = 2.56313e-09 WN = 8.0574e-09
+ N = 44 DN = 1.62106e-09 WN = 5.09595e-09
+ N = 45 DN = 1.02525e-09 WN = 3.22296e-09
+ N = 46 DN = 6.48425e-10 WN = 2.03838e-09
+ N = 47 DN = 4.101e-10 WN = 1.28918e-09
+ N = 48 DN = 2.5937e-10 WN = 8.15351e-10
+ N = 49 DN = 1.6404e-10 WN = 5.15674e-10
+ N = 50 DN = 1.03748e-10 WN = 3.26141e-10
+CalcSpec_ManyOmegas : Positive w 
+ N = 50 DN = 1.03748e-10 WN = 3.26141e-10
+ N = 49 DN = 1.6404e-10 WN = 5.15674e-10
+ N = 48 DN = 2.5937e-10 WN = 8.15351e-10
+ N = 47 DN = 4.101e-10 WN = 1.28918e-09
+ N = 46 DN = 6.48425e-10 WN = 2.03838e-09
+ N = 45 DN = 1.02525e-09 WN = 3.22296e-09
+ N = 44 DN = 1.62106e-09 WN = 5.09595e-09
+ N = 43 DN = 2.56313e-09 WN = 8.0574e-09
+ N = 42 DN = 4.05266e-09 WN = 1.27399e-08
+ N = 41 DN = 6.40781e-09 WN = 2.01435e-08
+ N = 40 DN = 1.01316e-08 WN = 3.18497e-08
+ N = 39 DN = 1.60195e-08 WN = 5.03587e-08
+ N = 38 DN = 2.53291e-08 WN = 7.96242e-08
+ N = 37 DN = 4.00488e-08 WN = 1.25897e-07
+ N = 36 DN = 6.33228e-08 WN = 1.9906e-07
+ N = 35 DN = 1.00122e-07 WN = 3.14742e-07
+ N = 34 DN = 1.58307e-07 WN = 4.97651e-07
+ N = 33 DN = 2.50305e-07 WN = 7.86855e-07
+ N = 32 DN = 3.95767e-07 WN = 1.24413e-06
+ N = 31 DN = 6.25763e-07 WN = 1.96714e-06
+ N = 30 DN = 9.89418e-07 WN = 3.11032e-06
+ N = 29 DN = 1.56441e-06 WN = 4.91785e-06
+ N = 28 DN = 2.47355e-06 WN = 7.7758e-06
+ N = 27 DN = 3.91102e-06 WN = 1.22946e-05
+ N = 26 DN = 6.18386e-06 WN = 1.94395e-05
+ N = 25 DN = 9.77755e-06 WN = 3.07365e-05
+ N = 24 DN = 1.54597e-05 WN = 4.85987e-05
+ N = 23 DN = 2.44439e-05 WN = 7.68413e-05
+ N = 22 DN = 3.86492e-05 WN = 0.000121497
+ N = 21 DN = 6.11097e-05 WN = 0.000192103
+ N = 20 DN = 9.66229e-05 WN = 0.000303742
+ N = 19 DN = 0.000152774 WN = 0.000480258
+ N = 18 DN = 0.000241557 WN = 0.000759355
+ N = 17 DN = 0.000381935 WN = 0.00120065
+ N = 16 DN = 0.000603893 WN = 0.00189839
+ N = 15 DN = 0.000954839 WN = 0.00300162
+ N = 14 DN = 0.00150973 WN = 0.00474597
+ N = 13 DN = 0.0023871 WN = 0.00750404
+ N = 12 DN = 0.00377433 WN = 0.0118649
+ N = 11 DN = 0.00596774 WN = 0.0187601
+ N = 10 DN = 0.00943583 WN = 0.0296623
+ N = 9 DN = 0.0149194 WN = 0.0469002
+ N = 8 DN = 0.0235896 WN = 0.0741558
+ N = 7 DN = 0.0372984 WN = 0.117251
+ N = 6 DN = 0.0589739 WN = 0.185389
+ N = 5 DN = 0.093246 WN = 0.293126
+ N = 4 DN = 0.147435 WN = 0.463474
+ N = 3 DN = 0.233115 WN = 0.732816
+ N = 2 DN = 0.368587 WN = 1.15868
+ N = 1 DN = 0.582787 WN = 1.83204
+ ... done.
+ GSL_Integrator: Reducing error tolerance. 
+ GSL_Integrator: Reducing error tolerance. 
+NormInteg= 0.652618
+ Calculating Spectral function rho_4_4... 
+CalcSpec_ManyOmegas : Negative w 
+ N = 1 DN = 0.582787 WN = 1.83204
+ N = 2 DN = 0.368587 WN = 1.15868
+ N = 3 DN = 0.233115 WN = 0.732816
+ N = 4 DN = 0.147435 WN = 0.463474
+ N = 5 DN = 0.093246 WN = 0.293126
+ N = 6 DN = 0.0589739 WN = 0.185389
+ N = 7 DN = 0.0372984 WN = 0.117251
+ N = 8 DN = 0.0235896 WN = 0.0741558
+ N = 9 DN = 0.0149194 WN = 0.0469002
+ N = 10 DN = 0.00943583 WN = 0.0296623
+ N = 11 DN = 0.00596774 WN = 0.0187601
+ N = 12 DN = 0.00377433 WN = 0.0118649
+ N = 13 DN = 0.0023871 WN = 0.00750404
+ N = 14 DN = 0.00150973 WN = 0.00474597
+ N = 15 DN = 0.000954839 WN = 0.00300162
+ N = 16 DN = 0.000603893 WN = 0.00189839
+ N = 17 DN = 0.000381935 WN = 0.00120065
+ N = 18 DN = 0.000241557 WN = 0.000759355
+ N = 19 DN = 0.000152774 WN = 0.000480258
+ N = 20 DN = 9.66229e-05 WN = 0.000303742
+ N = 21 DN = 6.11097e-05 WN = 0.000192103
+ N = 22 DN = 3.86492e-05 WN = 0.000121497
+ N = 23 DN = 2.44439e-05 WN = 7.68413e-05
+ N = 24 DN = 1.54597e-05 WN = 4.85987e-05
+ N = 25 DN = 9.77755e-06 WN = 3.07365e-05
+ N = 26 DN = 6.18386e-06 WN = 1.94395e-05
+ N = 27 DN = 3.91102e-06 WN = 1.22946e-05
+ N = 28 DN = 2.47355e-06 WN = 7.7758e-06
+ N = 29 DN = 1.56441e-06 WN = 4.91785e-06
+ N = 30 DN = 9.89418e-07 WN = 3.11032e-06
+ N = 31 DN = 6.25763e-07 WN = 1.96714e-06
+ N = 32 DN = 3.95767e-07 WN = 1.24413e-06
+ N = 33 DN = 2.50305e-07 WN = 7.86855e-07
+ N = 34 DN = 1.58307e-07 WN = 4.97651e-07
+ N = 35 DN = 1.00122e-07 WN = 3.14742e-07
+ N = 36 DN = 6.33228e-08 WN = 1.9906e-07
+ N = 37 DN = 4.00488e-08 WN = 1.25897e-07
+ N = 38 DN = 2.53291e-08 WN = 7.96242e-08
+ N = 39 DN = 1.60195e-08 WN = 5.03587e-08
+ N = 40 DN = 1.01316e-08 WN = 3.18497e-08
+ N = 41 DN = 6.40781e-09 WN = 2.01435e-08
+ N = 42 DN = 4.05266e-09 WN = 1.27399e-08
+ N = 43 DN = 2.56313e-09 WN = 8.0574e-09
+ N = 44 DN = 1.62106e-09 WN = 5.09595e-09
+ N = 45 DN = 1.02525e-09 WN = 3.22296e-09
+ N = 46 DN = 6.48425e-10 WN = 2.03838e-09
+ N = 47 DN = 4.101e-10 WN = 1.28918e-09
+ N = 48 DN = 2.5937e-10 WN = 8.15351e-10
+ N = 49 DN = 1.6404e-10 WN = 5.15674e-10
+ N = 50 DN = 1.03748e-10 WN = 3.26141e-10
+CalcSpec_ManyOmegas : Positive w 
+ N = 50 DN = 1.03748e-10 WN = 3.26141e-10
+ N = 49 DN = 1.6404e-10 WN = 5.15674e-10
+ N = 48 DN = 2.5937e-10 WN = 8.15351e-10
+ N = 47 DN = 4.101e-10 WN = 1.28918e-09
+ N = 46 DN = 6.48425e-10 WN = 2.03838e-09
+ N = 45 DN = 1.02525e-09 WN = 3.22296e-09
+ N = 44 DN = 1.62106e-09 WN = 5.09595e-09
+ N = 43 DN = 2.56313e-09 WN = 8.0574e-09
+ N = 42 DN = 4.05266e-09 WN = 1.27399e-08
+ N = 41 DN = 6.40781e-09 WN = 2.01435e-08
+ N = 40 DN = 1.01316e-08 WN = 3.18497e-08
+ N = 39 DN = 1.60195e-08 WN = 5.03587e-08
+ N = 38 DN = 2.53291e-08 WN = 7.96242e-08
+ N = 37 DN = 4.00488e-08 WN = 1.25897e-07
+ N = 36 DN = 6.33228e-08 WN = 1.9906e-07
+ N = 35 DN = 1.00122e-07 WN = 3.14742e-07
+ N = 34 DN = 1.58307e-07 WN = 4.97651e-07
+ N = 33 DN = 2.50305e-07 WN = 7.86855e-07
+ N = 32 DN = 3.95767e-07 WN = 1.24413e-06
+ N = 31 DN = 6.25763e-07 WN = 1.96714e-06
+ N = 30 DN = 9.89418e-07 WN = 3.11032e-06
+ N = 29 DN = 1.56441e-06 WN = 4.91785e-06
+ N = 28 DN = 2.47355e-06 WN = 7.7758e-06
+ N = 27 DN = 3.91102e-06 WN = 1.22946e-05
+ N = 26 DN = 6.18386e-06 WN = 1.94395e-05
+ N = 25 DN = 9.77755e-06 WN = 3.07365e-05
+ N = 24 DN = 1.54597e-05 WN = 4.85987e-05
+ N = 23 DN = 2.44439e-05 WN = 7.68413e-05
+ N = 22 DN = 3.86492e-05 WN = 0.000121497
+ N = 21 DN = 6.11097e-05 WN = 0.000192103
+ N = 20 DN = 9.66229e-05 WN = 0.000303742
+ N = 19 DN = 0.000152774 WN = 0.000480258
+ N = 18 DN = 0.000241557 WN = 0.000759355
+ N = 17 DN = 0.000381935 WN = 0.00120065
+ N = 16 DN = 0.000603893 WN = 0.00189839
+ N = 15 DN = 0.000954839 WN = 0.00300162
+ N = 14 DN = 0.00150973 WN = 0.00474597
+ N = 13 DN = 0.0023871 WN = 0.00750404
+ N = 12 DN = 0.00377433 WN = 0.0118649
+ N = 11 DN = 0.00596774 WN = 0.0187601
+ N = 10 DN = 0.00943583 WN = 0.0296623
+ N = 9 DN = 0.0149194 WN = 0.0469002
+ N = 8 DN = 0.0235896 WN = 0.0741558
+ N = 7 DN = 0.0372984 WN = 0.117251
+ N = 6 DN = 0.0589739 WN = 0.185389
+ N = 5 DN = 0.093246 WN = 0.293126
+ N = 4 DN = 0.147435 WN = 0.463474
+ N = 3 DN = 0.233115 WN = 0.732816
+ N = 2 DN = 0.368587 WN = 1.15868
+ N = 1 DN = 0.582787 WN = 1.83204
+ ... done.
+NormInteg= 1.22386e-16
